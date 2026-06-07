@@ -48,7 +48,7 @@ function parseCardTable(wikitext) {
   }
 
   return {
-    name_en:        raw.en_name        || null,
+    name_en:        raw.en_name || raw.name || null,
     name_ja:        raw.ja_name        || null,
     name_ja_romaji: raw.romaji_name    || null,
     name_ko:        raw.ko_name        || null,

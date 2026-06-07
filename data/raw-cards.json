@@ -429,7 +429,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Abyssal Dragon Lord Abyss Poseidra [L]",
     "name_ja": "{{Ruby|深|しん}}{{Ruby|淵|えん}}{{Ruby|竜|りゅう}}{{Ruby|神|じん}}アビス・ポセイドラ［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Shin'enryūjin Abisu Poseidora [Eru]",
     "name_ko": "심연룡신 어비스 포세이도라[L]",
@@ -462,7 +462,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Abyssal Dragon Lord Abyss Poseidra [R]",
     "name_ja": "{{Ruby|深|しん}}{{Ruby|淵|えん}}{{Ruby|竜|りゅう}}{{Ruby|神|じん}}アビス・ポセイドラ［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Shin'enryūjin Abisu Poseidora [Āru]",
     "name_ko": "심연룡신 어비스 포세이도라[R]",
@@ -528,7 +528,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Abyssal Sea Dragon Abyss Kraken [L]",
     "name_ja": "{{Ruby|深|しん}}{{Ruby|淵|えん}}{{Ruby|海|かい}}{{Ruby|竜|りゅう}}アビス・クラーケン［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Shin'enkairyū Abisu Kurāken [Eru]",
     "name_ko": "심연해룡 어비스 크라켄[L]",
@@ -561,7 +561,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Abyssal Sea Dragon Abyss Kraken [R]",
     "name_ja": "{{Ruby|深|しん}}{{Ruby|淵|えん}}{{Ruby|海|かい}}{{Ruby|竜|りゅう}}アビス・クラーケン［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Shin'enkairyū Abisu Kurāken [Āru]",
     "name_ko": "심연해룡 어비스 크라켄[R]",
@@ -9504,7 +9504,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Blaze Fiend Overlords Beelucitaroth [L]",
     "name_ja": "{{Ruby|焔|えん}}{{Ruby|魔|ま}}{{Ruby|神|じん}}ベルシュドロス［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Enmajin Berushudorosu [Eru]",
     "name_ko": "염 마신 벨슈드로스[L]",
@@ -9537,7 +9537,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Blaze Fiend Overlords Beelucitaroth [R]",
     "name_ja": "{{Ruby|焔|えん}}{{Ruby|魔|ま}}{{Ruby|神|じん}}ベルシュドロス［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Enmajin Berushudorosu [Āru]",
     "name_ko": "염 마신 벨슈드로스[R]",
@@ -17688,7 +17688,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Crawling Dragon #2",
     "name_ja": "{{Ruby|屍|しかばね}}を{{Ruby|貪|むさぼ}}る{{Ruby|竜|りゅう}}",
     "name_ja_romaji": "Shikabane o Musaboru Ryū",
     "name_ko": "시체를 먹는 용",
@@ -26631,7 +26631,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Doomblaze Fiend Overlord Despairacion [L]",
     "name_ja": "{{Ruby|終|しゅう}}{{Ruby|焔|えん}}{{Ruby|魔|ま}}{{Ruby|神|じん}}ディスペラシオン［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Shūenmajin Disuperashion [Eru]",
     "name_ko": "종염 마신 디스페라시온[L]",
@@ -26664,7 +26664,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Doomblaze Fiend Overlord Despairacion [R]",
     "name_ja": "{{Ruby|終|しゅう}}{{Ruby|焔|えん}}{{Ruby|魔|ま}}{{Ruby|神|じん}}ディスペラシオン［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Shūenmajin Disuperashion [Āru]",
     "name_ko": "종염 마신 디스페라시온[R]",
@@ -29238,7 +29238,7 @@
     "property": "Equip"
   },
   {
-    "name_en": null,
+    "name_en": "Dynamail Dino Dynamix [R]",
     "name_ja": "{{Ruby|大|だい}}{{Ruby|鎧|がい}}{{Ruby|竜|りょう}}{{Ruby|駕|が}}ダイナ－ミクス［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Daigairyōga Daina-Mikusu [Āru]",
     "name_ko": "대개룡가 다이너－믹스[R]",
@@ -29337,7 +29337,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Dynamic Dino Dynamix [L]",
     "name_ja": "{{Ruby|大|だい}}{{Ruby|恐|きょう}}{{Ruby|竜|りょう}}{{Ruby|駕|が}}ダイナ－ミクス［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Daikyōryōga Daina-Mikusu [Eru]",
     "name_ko": "대공룡가 다이너－믹스[L]",
@@ -29370,7 +29370,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Dynamic Dino Dynamix [R]",
     "name_ja": "{{Ruby|大|だい}}{{Ruby|恐|きょう}}{{Ruby|竜|りょう}}{{Ruby|駕|が}}ダイナ－ミクス［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Daikyōryōga Daina-Mikusu [Āru]",
     "name_ko": "대공룡가 다이너－믹스[R]",
@@ -29469,7 +29469,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Dynamight Dino Dynamix [L]",
     "name_ja": "{{Ruby|大|だい}}{{Ruby|剣|けん}}{{Ruby|竜|りょう}}{{Ruby|駕|が}}ダイナ－ミクス［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Daikenryōga Daina-Mikusu [Eru]",
     "name_ko": "대검룡가 다이너－믹스[L]",
@@ -35904,7 +35904,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Flying Kamakiri #2",
     "name_ja": "フライングマンティス",
     "name_ja_romaji": "Furaingu Mantisu",
     "name_ko": "플라잉 사마귀",
@@ -41349,7 +41349,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Great Multistrike Dragon Dragias Burst [L]",
     "name_ja": "{{Ruby|大|だい}}{{Ruby|連|れん}}{{Ruby|撃|げき}}{{Ruby|竜|りゅう}}ドラギアス・バースト［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Dairengekiryū Doragiasu Bāsuto [Eru]",
     "name_ko": "대연격룡 드라기아스 버스트[L]",
@@ -41382,7 +41382,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Great Multistrike Dragon Dragias Burst [R]",
     "name_ja": "{{Ruby|大|だい}}{{Ruby|連|れん}}{{Ruby|撃|げき}}{{Ruby|竜|りゅう}}ドラギアス・バースト［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Dairengekiryū Doragiasu Bāsuto [Āru]",
     "name_ko": "대연격룡 드라기아스 버스트[R]",
@@ -42900,7 +42900,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Harpie Lady Sisters [L]",
     "name_ja": "ハーピィ{{Ruby|三姉妹|レディース}}［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Hāpyi Redīsu [Eru]",
     "name_ko": "해피레이디즈[L]",
@@ -42933,7 +42933,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Harpie Lady Sisters [R]",
     "name_ja": "ハーピィ{{Ruby|三姉妹|レディース}}［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Hāpyi Redīsu [Āru]",
     "name_ko": "해피레이디즈[R]",
@@ -45870,7 +45870,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Hyper Engine Vast Vulcan [L]",
     "name_ja": "{{Ruby|灰覇炎神|ハイパーエンジン}}ヴァスト・ヴァルカン［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Haipā Enjin Vasuto Varukan [Eru]",
     "name_ko": "하이퍼엔진 바스트 발칸[L]",
@@ -45903,7 +45903,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Hyper Engine Vast Vulcan [R]",
     "name_ja": "{{Ruby|灰覇炎神|ハイパーエンジン}}ヴァスト・ヴァルカン［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Haipā Enjin Vasuto Varukan [Āru]",
     "name_ko": "하이퍼엔진 바스트 발칸[R]",
@@ -48444,7 +48444,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Jinzo #7.7",
     "name_ja": "{{Ruby|人|じん}}{{Ruby|造|ぞう}}{{Ruby|人|にん}}{{Ruby|間|げん}}７．７{{Ruby|号|ごう}}",
     "name_ja_romaji": "Jinzōningen Nana-ten-Nana-gō",
     "name_ko": "인조인간 7.7호",
@@ -54318,7 +54318,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Luster Dragon #2",
     "name_ja": "エメラルド・ドラゴン",
     "name_ja_romaji": "Emerarudo Doragon",
     "name_ko": null,
@@ -56760,7 +56760,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Maximum Gadget the Moving Fortress [L]",
     "name_ja": "{{Ruby|機|き}}{{Ruby|動|どう}}{{Ruby|砦|とりで}} マキシマム・ガジェット［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Kidōtoride Makishimamu Gajetto [Eru]",
     "name_ko": "기동요새 맥시멈 가제트[L]",
@@ -56793,7 +56793,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Maximum Gadget the Moving Fortress [R]",
     "name_ja": "{{Ruby|機|き}}{{Ruby|動|どう}}{{Ruby|砦|とりで}} マキシマム・ガジェット［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Kidōtoride Makishimamu Gajetto [Āru]",
     "name_ko": "기동요새 맥시멈 가제트[R]",
@@ -57486,7 +57486,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Mega Jointech Fortrex [L]",
     "name_ja": "メガジョインテック・フォートレックス［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Mega Jointekku Fōtorekkusu [Eru]",
     "name_ko": "메가조인테크 포트렉스[L]",
@@ -57519,7 +57519,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Mega Jointech Fortrex [R]",
     "name_ja": "メガジョインテック・フォートレックス［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Mega Jointekku Fōtorekkusu [Āru]",
     "name_ko": "메가조인테크 포트렉스[R]",
@@ -61908,7 +61908,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Nekogal #2",
     "name_ja": "キャット・レディ",
     "name_ja_romaji": "Kyatto Redi",
     "name_ko": "캣 레이디",
@@ -67155,7 +67155,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Player #39: Home Run Hitter",
     "name_ja": "{{Ruby|背|せ}}{{Ruby|番|ばん}}{{Ruby|号|ごう}}３９ {{Ruby|球|きゅう}}{{Ruby|児|じ}}{{Ruby|皇|おう}}ホーム",
     "name_ja_romaji": "Sebangō Sanjūkyū Kyūjiō Hōmu",
     "name_ko": "등번호39 구아황 홈",
@@ -67188,7 +67188,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Player #99: Grand Slam Dragon",
     "name_ja": "{{Ruby|背|せ}}{{Ruby|番|ばん}}{{Ruby|号|ご}}９９ {{Ruby|球|きゅう}}{{Ruby|児|じ}}{{Ruby|皇|おう}}{{Ruby|龍|りゅう}}ホームグランドラ",
     "name_ja_romaji": "Sebango Kyūjūkyū Kyūjiōryū Hōmu Gurandora",
     "name_ko": "등번호99 구아황룡 홈그랜드라",
@@ -67221,7 +67221,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Player #C39: Home Run Smasher",
     "name_ja": "{{Ruby|Ｃ|キャプテン}}{{Ruby|背|せ}}{{Ruby|番|ばん}}{{Ruby|号|ごう}}３９ {{Ruby|球|きゅう}}{{Ruby|児|じ}}{{Ruby|皇|おう}}ホームプレート",
     "name_ja_romaji": "Kyaputen Sebangō Sanjūkyū Kyūjiō Hōmupurēto",
     "name_ko": "C등번호39 구아황 홈플레이트",
@@ -67254,7 +67254,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Player #C39: Home Run Smasher V",
     "name_ja": "{{Ruby|Ｃ|キャプテン}}{{Ruby|背|せ}}{{Ruby|番|ばん}}{{Ruby|号|ごう}}３９ {{Ruby|球|きゅう}}{{Ruby|児|じ}}{{Ruby|皇|おう}}ホームプレート{{Ruby|Ｖ|ブイ}}",
     "name_ja_romaji": "Kyaputen Sebangō Sanjūkyū Kyūjiō Hōmupurēto Bui",
     "name_ko": null,
@@ -71676,7 +71676,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Red-Eyes Maxi-Flare Dragon [L]",
     "name_ja": "{{Ruby|真紅眼の極炎竜|レッドアイズ・マキシフレアドラゴン}}［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Reddoaizu Makishifurea Doragon [Eru]",
     "name_ko": "붉은 눈의 극염룡[L]",
@@ -71709,7 +71709,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Red-Eyes Maxi-Flare Dragon [R]",
     "name_ja": "{{Ruby|真紅眼の極炎竜|レッドアイズ・マキシフレアドラゴン}}［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Reddoaizu Makishifurea Doragon [Āru]",
     "name_ko": "붉은 눈의 극염룡[R]",
@@ -72039,7 +72039,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Reporter Wars Scoopies",
     "name_ja": "{{Ruby|報|ほう}}{{Ruby|道|どう}}{{Ruby|合|かっ}}{{Ruby|戦|せん}}スクーピーズ",
     "name_ja_romaji": "Hōdōgassen Sukūpīzu",
     "name_ko": null,
@@ -72072,7 +72072,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Reporter Wars Scoopies [L]",
     "name_ja": "{{Ruby|報|ほう}}{{Ruby|道|どう}}{{Ruby|合|かっ}}{{Ruby|戦|せん}}スクーピーズ［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Hōdōgassen Sukūpīzu [Eru]",
     "name_ko": null,
@@ -72105,7 +72105,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Reporter Wars Scoopies [R]",
     "name_ja": "{{Ruby|報|ほう}}{{Ruby|道|どう}}{{Ruby|合|かっ}}{{Ruby|戦|せん}}スクーピーズ［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Hōdōgassen Sukūpīzu [Āru]",
     "name_ko": null,
@@ -74052,7 +74052,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Roaring Firestorm Volcalize Phoenix [L]",
     "name_ja": "{{Ruby|火|か}}{{Ruby|轟|ごう}}{{Ruby|嵐|らん}}{{Ruby|凰|おう}}ヴォルカライズ・フェニックス［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Kagōran'ō Vorukaraizu Fenikkusu [Eru]",
     "name_ko": "화굉람황 볼카라이즈 피닉스[L]",
@@ -74085,7 +74085,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Roaring Firestorm Volcalize Phoenix [R]",
     "name_ja": "{{Ruby|火|か}}{{Ruby|轟|ごう}}{{Ruby|嵐|らん}}{{Ruby|凰|おう}}ヴォルカライズ・フェニックス［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Kagōran'ō Vorukaraizu Fenikkusu [Āru]",
     "name_ko": "화굉람황 볼카라이즈 피닉스[R]",
@@ -79101,7 +79101,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Shinesteel Ultra Dragon Devastar Okeabyss [L]",
     "name_ja": "{{Ruby|輝|き}}{{Ruby|鋼|こう}}{{Ruby|超|ちょう}}{{Ruby|竜|りゅう}}デヴァスター・オケアビス［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Kikōchōryū Devasutā Okeabisu [Eru]",
     "name_ko": "휘강초룡 데바스타 오케어비스[L]",
@@ -79134,7 +79134,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Shinesteel Ultra Dragon Devastar Okeabyss [R]",
     "name_ja": "{{Ruby|輝|き}}{{Ruby|鋼|こう}}{{Ruby|超|ちょう}}{{Ruby|竜|りゅう}}デヴァスター・オケアビス［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Kikōchōryū Devasutā Okeabisu [Āru]",
     "name_ko": "휘강초룡 데바스타 오케어비스[R]",
@@ -85932,7 +85932,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Super Galaxy King Lord of Galactica [L]",
     "name_ja": "{{Ruby|超|ちょう}}{{Ruby|銀|ぎん}}{{Ruby|河|が}}{{Ruby|王|おう}}ロード・オブ・ギャラクティカ［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Chōgingaō Rōdo Obu Gyarakutika [Eru]",
     "name_ko": "초은하왕 로드 오브 갤럭티카[L]",
@@ -85965,7 +85965,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Super Galaxy King Lord of Galactica [R]",
     "name_ja": "{{Ruby|超|ちょう}}{{Ruby|銀|ぎん}}{{Ruby|河|が}}{{Ruby|王|おう}}ロード・オブ・ギャラクティカ［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Chōgingaō Rōdo Obu Gyarakutika [Āru]",
     "name_ko": "초은하왕 로드 오브 갤럭티카[R]",
@@ -86130,7 +86130,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Super Princess of the Flock - Max Mutton [L]",
     "name_ja": "{{Ruby|大|だい}}{{Ruby|魔|ま}}{{Ruby|法|ほう}}{{Ruby|羊|よう}}{{Ruby|女|じょ}}メェ～グちゃん{{Ruby|ＭＡＸ|マックス}}ウール［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Daimahōyōjo Meēgu-chan Makkusu Ūru [Eru]",
     "name_ko": "대마법양녀 메에~구양 MAX 울[L]",
@@ -86163,7 +86163,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Super Princess of the Flock - Max Mutton [R]",
     "name_ja": "{{Ruby|大|だい}}{{Ruby|魔|ま}}{{Ruby|法|ほう}}{{Ruby|羊|よう}}{{Ruby|女|じょ}}メェ～グちゃん{{Ruby|ＭＡＸ|マックス}}ウール［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Daimahōyōjo Meēgu-chan Makkusu Ūru [Āru]",
     "name_ko": "대마법양녀 메에~구양 MAX 울[R]",
@@ -86394,7 +86394,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Supreme Beasteam Magnum Overlord [L]",
     "name_ja": "{{Ruby|超|ちょう}}{{Ruby|魔|ま}}{{Ruby|輝|き}}{{Ruby|獣|じゅう}}マグナム・オーバーロード［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Chōmakijū Magunamu Ōbārōdo [Eru]",
     "name_ko": "초마휘수 매그넘 오버로드[L]",
@@ -86427,7 +86427,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Supreme Beasteam Magnum Overlord [R]",
     "name_ja": "{{Ruby|超|ちょう}}{{Ruby|魔|ま}}{{Ruby|輝|き}}{{Ruby|獣|じゅう}}マグナム・オーバーロード［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Chōmakijū Magunamu Ōbārōdo [Āru]",
     "name_ko": "초마휘수 매그넘 오버로드[R]",
@@ -86559,7 +86559,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Supreme Machine Magnum Overlord [L]",
     "name_ja": "{{Ruby|超|ちょう}}{{Ruby|魔|ま}}{{Ruby|機|き}}{{Ruby|神|しん}}マグナム・オーバーロード［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Chōmakishin Magunamu Ōbārōdo [Eru]",
     "name_ko": "초마기신 매그넘 오버로드[L]",
@@ -86592,7 +86592,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Supreme Machine Magnum Overlord [R]",
     "name_ja": "{{Ruby|超|ちょう}}{{Ruby|魔|ま}}{{Ruby|機|き}}{{Ruby|神|しん}}マグナム・オーバーロード［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Chōmakishin Magunamu Ōbārōdo [Āru]",
     "name_ko": "초마기신 매그넘 오버로드[R]",
@@ -86691,7 +86691,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Supreme Railartillery Magnum Overlord [L]",
     "name_ja": "{{Ruby|超|ちょう}}{{Ruby|魔|ま}}{{Ruby|軌|き}}{{Ruby|道|どう}}マグナム・オーバーロード［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Chōmakidō Magunamu Ōbārōdo [Eru]",
     "name_ko": "초마궤도 매그넘 오버로드[L]",
@@ -86724,7 +86724,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Supreme Railartillery Magnum Overlord [R]",
     "name_ja": "{{Ruby|超|ちょう}}{{Ruby|魔|ま}}{{Ruby|軌|き}}{{Ruby|道|どう}}マグナム・オーバーロード［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Chōmakidō Magunamu Ōbārōdo [Āru]",
     "name_ko": "초마궤도 매그넘 오버로드[R]",
@@ -86790,7 +86790,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Supreme Skystream Magnum Overlord [L]",
     "name_ja": "{{Ruby|超|ちょう}}{{Ruby|魔|ま}}{{Ruby|旗|き}}{{Ruby|艦|かん}}マグナム・オーバーロード［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Chōmakikan Magunamu Ōbārōdo [Eru]",
     "name_ko": "초마기함 매그넘 오버로드[L]",
@@ -86823,7 +86823,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Supreme Skystream Magnum Overlord [R]",
     "name_ja": "{{Ruby|超|ちょう}}{{Ruby|魔|ま}}{{Ruby|旗|き}}{{Ruby|艦|かん}}マグナム・オーバーロード［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Chōmakikan Magunamu Ōbārōdo [Āru]",
     "name_ko": "초마기함 매그넘 오버로드[R]",
@@ -91872,7 +91872,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Tyhone #2",
     "name_ja": "レッド・ドラゴン",
     "name_ja_romaji": "Reddo Doragon",
     "name_ko": "타이혼 #2",
@@ -97020,7 +97020,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Winged Dragon, Guardian of the Fortress #1",
     "name_ja": "{{Ruby|砦|とりで}}を{{Ruby|守|まも}}る{{Ruby|翼|よく}}{{Ruby|竜|りゅう}}",
     "name_ja_romaji": "Toride o Mamoru Yokuryū",
     "name_ko": "요새를 지키는 익룡",
@@ -97086,7 +97086,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Wish of OuTerverSe the World-Shattering Emperor [L]",
     "name_ja": "{{Ruby|破|は}}{{Ruby|界|かい}}{{Ruby|王|おう}}{{Ruby|帝|てい}}ウィッシュ・オブ・アウターバース［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Hakaiōtei Wisshu Obu Autābāsu [Eru]",
     "name_ko": "파계왕 제왕 위시 오브 아우터버스[L]",
@@ -97119,7 +97119,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Wish of OuTerverSe the World-Shattering Emperor [R]",
     "name_ja": "{{Ruby|破|は}}{{Ruby|界|かい}}{{Ruby|王|おう}}{{Ruby|帝|てい}}ウィッシュ・オブ・アウターバース［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Hakaiōtei Wisshu Obu Autābāsu [Āru]",
     "name_ko": "파계왕 제왕 위시 오브 아우터버스[R]",
@@ -98307,7 +98307,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Wyrm Excavator the Heavy Cavalry Draco [L]",
     "name_ja": "{{Ruby|幻|げん}}{{Ruby|竜|りゅう}}{{Ruby|重|じゅう}}{{Ruby|騎|き}}ウォーム{{Ruby|Ｅｘ|エクス}}カベーター［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Genryūjūki Wōmu Ekusu Kabētā [Eru]",
     "name_ko": "환룡중기 웜 Ex커베이터[L]",
@@ -98340,7 +98340,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Wyrm Excavator the Heavy Cavalry Draco [R]",
     "name_ja": "{{Ruby|幻|げん}}{{Ruby|竜|りゅう}}{{Ruby|重|じゅう}}{{Ruby|騎|き}}ウォーム{{Ruby|Ｅｘ|エクス}}カベーター［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Genryūjūki Wōmu Ekusu Kabētā [Āru]",
     "name_ko": "환룡중기 웜 Ex커베이터[R]",
@@ -98934,7 +98934,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Yggdrago the Sky Emperor [L]",
     "name_ja": "{{Ruby|天|てん}}{{Ruby|帝|てい}}{{Ruby|龍|りゅう}}{{Ruby|樹|じゅ}}ユグドラゴ［{{Ruby|Ｌ|エル}}］",
     "name_ja_romaji": "Tenteiryūju Yugudorago [Eru]",
     "name_ko": "천 제왕용수 위그드라고[L]",
@@ -98967,7 +98967,7 @@
     "property": null
   },
   {
-    "name_en": null,
+    "name_en": "Yggdrago the Sky Emperor [R]",
     "name_ja": "{{Ruby|天|てん}}{{Ruby|帝|てい}}{{Ruby|龍|りゅう}}{{Ruby|樹|じゅ}}ユグドラゴ［{{Ruby|Ｒ|アール}}］",
     "name_ja_romaji": "Tenteiryūju Yugudorago [Āru]",
     "name_ko": "천 제왕용수 위그드라고[R]",
