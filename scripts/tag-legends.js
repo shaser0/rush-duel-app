@@ -9,7 +9,7 @@
 const https        = require('https');
 const fs           = require('fs');
 const path         = require('path');
-const { execSync } = require('child_process');
+const { cleanCards } = require('./clean-cards');
 
 const CARDS_FILE = path.join(__dirname, '../data/raw-cards.json');
 const RATE_MS    = 1100;
@@ -111,7 +111,7 @@ async function main() {
   console.log(`\nEnriched ${tagged} cards (${legends} legends) → raw-cards.json`);
 
   console.log('Cleaning → cards.json...');
-  execSync('node "' + path.join(__dirname, 'clean-cards.js') + '"', { stdio: 'inherit' });
+  cleanCards();
 
   // Quick report of the legend cards found
   const names = cards.filter(c => c.is_legend).map(c => c.title).sort();

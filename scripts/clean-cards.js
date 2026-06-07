@@ -1,6 +1,7 @@
 'use strict';
 
 const fs = require('fs');
+const path = require('path');
 
 // ── Wiki markup ──────────────────────────────────────────────────────────────
 
@@ -84,7 +85,11 @@ function parseSets(raw) {
 
 // ── Main ─────────────────────────────────────────────────────────────────────
 
-const raw = JSON.parse(fs.readFileSync(require('path').join(__dirname, '../data/raw-cards.json'), 'utf8'));
+// Reads data/raw-cards.json (raw Yugipedia fetch) and writes data/cards.json
+// (the cleaned file the app serves). Exported so sync-cards.js / tag-legends.js
+// can run it in-process; also runnable standalone: `node scripts/clean-cards.js`.
+function cleanCards() {
+const raw = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/raw-cards.json'), 'utf8'));
 
 const cleaned = raw.map(card => ({
   ...card,
@@ -103,5 +108,12 @@ const cleaned = raw.map(card => ({
   is_legend:    !!card.is_legend,
 }));
 
-fs.writeFileSync(require('path').join(__dirname, '../data/cards.json'), JSON.stringify(cleaned, null, 2), 'utf8');
+fs.writeFileSync(path.join(__dirname, '../data/cards.json'), JSON.stringify(cleaned, null, 2), 'utf8');
 console.log(`${cleaned.length} cartes traitées → cards.json`);
+return cleaned;
+}
+
+module.exports = { cleanCards };
+
+// Run directly: `node scripts/clean-cards.js`
+if (require.main === module) cleanCards();

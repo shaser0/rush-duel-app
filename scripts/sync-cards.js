@@ -2,7 +2,7 @@
 
 const https        = require('https');
 const fs           = require('fs');
-const { execSync } = require('child_process');
+const { cleanCards } = require('./clean-cards');
 
 // ── Config ───────────────────────────────────────────────────────────────────
 
@@ -366,7 +366,7 @@ async function main() {
 
   // ── 7. Cleaning pipeline ───────────────────────────────────────────────────
   console.log('\nNettoyage → cards.json...');
-  execSync('node "' + require('path').join(__dirname, 'clean-cards.js') + '"', { stdio: 'inherit' });
+  cleanCards();
   console.log('Terminé.');
 }
 
