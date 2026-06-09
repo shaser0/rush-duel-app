@@ -249,6 +249,40 @@ if (process.pkg) {
   });
 }
 
+// ── Binary update API ──────────────────────────────────────────────────────
+
+const { checkUpdate, downloadUpdate, writeApplyScript } = require('./scripts/update');
+
+app.get('/api/update/check', async (req, res) => {
+  try {
+    const info = await checkUpdate();
+    res.json(info);
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+app.post('/api/update/apply', async (req, res) => {
+  res.setHeader('Content-Type', 'application/x-ndjson');
+  res.setHeader('Transfer-Encoding', 'chunked');
+  res.flushHeaders();
+  try {
+    const info = await checkUpdate();
+    if (!info.hasUpdate || !info.downloadUrl) {
+      res.write(JSON.stringify({ done: true, alreadyUpToDate: true }) + '\n');
+      return res.end();
+    }
+    await downloadUpdate(info.downloadUrl, APP_DIR, pct => {
+      res.write(JSON.stringify({ progress: Math.round(pct * 100) / 100 }) + '\n');
+    });
+    const script = writeApplyScript(APP_DIR);
+    res.write(JSON.stringify({ done: true, version: info.latest, script }) + '\n');
+  } catch (e) {
+    res.write(JSON.stringify({ error: e.message }) + '\n');
+  }
+  res.end();
+});
+
 // ── Data update API ────────────────────────────────────────────────────────
 
 const { checkDataUpdate, downloadData } = require('./scripts/data-update');

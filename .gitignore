@@ -8,6 +8,11 @@ node_modules/
 dist/
 *.zip
 
+# Auto-updater artifacts (written at runtime)
+*.new
+apply-update.bat
+apply-update.sh
+
 # User data (created at runtime by the server)
 data/collections.json
 data/decks.json

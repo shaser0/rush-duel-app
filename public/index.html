@@ -48,6 +48,19 @@ button,input,select{font-family:inherit}
 #data-dl-btn{padding:8px;background:var(--bg3);border:1px solid var(--border);border-radius:7px;color:var(--text);font-weight:700;font-size:13px;cursor:pointer;width:100%}
 #data-dl-btn:hover{border-color:var(--accent);color:var(--text)}
 #data-dl-btn:disabled{opacity:.45;cursor:default}
+#update-btn{padding:5px 9px;background:none;border:1px solid #ff9800;border-radius:6px;color:#ff9800;cursor:pointer;font-size:12px;font-weight:700;display:none;transition:all .18s}
+#update-btn:hover{background:rgba(255,152,0,.15)}
+#update-panel{position:fixed;top:46px;right:12px;z-index:150;background:var(--bg2);border:1px solid #ff9800;border-radius:10px;padding:14px 16px;min-width:300px;display:none;flex-direction:column;gap:10px;box-shadow:0 4px 24px rgba(0,0,0,.5)}
+#update-panel.open{display:flex}
+.upd-section{display:flex;flex-direction:column;gap:6px}
+.upd-title{font-size:12px;font-weight:700;color:#ff9800}
+.upd-ver{font-size:11px;color:var(--muted)}
+.upd-progress{background:var(--bg3);border-radius:4px;overflow:hidden;height:6px;margin:2px 0}
+.upd-bar{height:100%;background:#ff9800;width:0;transition:width .2s}
+.upd-msg{font-size:11px;color:var(--muted)}
+.upd-apply-btn{padding:8px;background:#ff9800;border:none;border-radius:7px;color:#fff;font-weight:700;font-size:13px;cursor:pointer}
+.upd-apply-btn:hover{opacity:.9}
+.upd-apply-btn:disabled{opacity:.45;cursor:default}
 
 /* ── Screens ───────────────────────────────────────────────────────────── */
 .screen{display:none;padding:16px}
@@ -429,8 +442,19 @@ button,input,select{font-family:inherit}
     <button class="nav-btn" data-scr="screen-builder">Custom Packs</button>
     <button class="nav-btn" data-scr="screen-allsets">All Sets</button>
   </div>
+  <button id="update-btn" title="Update available">↑ <span id="update-ver"></span></button>
   <button id="sync-btn" title="Sync status">⟳</button>
 </nav>
+
+<div id="update-panel">
+  <div class="upd-section">
+    <div class="upd-title">App Update</div>
+    <div class="upd-ver" id="upd-app-ver"></div>
+    <div class="upd-progress"><div class="upd-bar" id="upd-app-bar"></div></div>
+    <div class="upd-msg" id="upd-app-msg"></div>
+    <button class="upd-apply-btn" id="upd-app-btn">Download &amp; Prepare Update</button>
+  </div>
+</div>
 
 <div id="sync-panel">
   <button id="data-dl-btn">⬇ Download latest data</button>
@@ -3191,6 +3215,67 @@ async function init(){
   fetch('/api/version').then(r=>r.json()).then(d=>{
     if(d&&d.version) document.getElementById('app-version').textContent='v'+d.version;
   }).catch(()=>{});
+  // Check for binary update in the background (non-blocking)
+  checkUpdateOnInit();
+  initUpdatePanel();
+}
+
+function checkUpdateOnInit(){
+  fetch('/api/update/check').then(r=>r.json()).then(d=>{
+    if(!d||!d.hasUpdate) return;
+    const btn=document.getElementById('update-btn');
+    document.getElementById('update-ver').textContent='v'+d.latest;
+    document.getElementById('upd-app-ver').textContent='Current: v'+d.current+' → Latest: v'+d.latest;
+    btn.style.display='';
+  }).catch(()=>{});
+}
+
+function initUpdatePanel(){
+  const updBtn=document.getElementById('update-btn');
+  const panel=document.getElementById('update-panel');
+  updBtn.addEventListener('click',e=>{
+    e.stopPropagation();
+    panel.classList.toggle('open');
+  });
+  document.addEventListener('click',e=>{
+    if(!panel.contains(e.target)&&e.target!==updBtn) panel.classList.remove('open');
+  });
+  document.getElementById('upd-app-btn').addEventListener('click',async()=>{
+    const btn=document.getElementById('upd-app-btn');
+    const bar=document.getElementById('upd-app-bar');
+    const msg=document.getElementById('upd-app-msg');
+    btn.disabled=true;
+    msg.textContent='Downloading…';
+    bar.style.width='0%';
+    try{
+      const res=await fetch('/api/update/apply',{method:'POST'});
+      const reader=res.body.getReader();
+      const dec=new TextDecoder();
+      let buf='';
+      while(true){
+        const {done,value}=await reader.read();
+        if(done) break;
+        buf+=dec.decode(value,{stream:true});
+        const lines=buf.split('\n'); buf=lines.pop();
+        for(const line of lines){
+          if(!line.trim()) continue;
+          try{
+            const d=JSON.parse(line);
+            if(d.progress!=null){bar.style.width=Math.round(d.progress*100)+'%';msg.textContent='Downloading… '+Math.round(d.progress*100)+'%';}
+            if(d.alreadyUpToDate){msg.textContent='Already up to date.';bar.style.width='100%';}
+            if(d.done&&d.script){
+              bar.style.width='100%';
+              msg.textContent='Ready! Close the app and run "'+d.script+'" to install v'+d.version+'.';
+            }
+            if(d.error){msg.textContent='Error: '+d.error;btn.disabled=false;}
+          }catch{}
+        }
+      }
+    }catch(e){
+      msg.textContent='Error: '+e.message;
+      btn.disabled=false;
+    }
+  });
 }
 
 document.addEventListener('DOMContentLoaded',init);
