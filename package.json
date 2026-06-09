@@ -1,6 +1,6 @@
 {
   "name": "rush-app",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Yu-Gi-Oh! Rush Duel pack-opening simulator, collection tracker, and deck builder. Unofficial, non-commercial fan project — not affiliated with Konami.",
   "private": true,
   "main": "server.js",
