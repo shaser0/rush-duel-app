@@ -171,6 +171,12 @@ app.put('/api/decks', (req, res) => {
   res.json({ ok: true });
 });
 
+// ── Version API ────────────────────────────────────────────────────────────
+
+app.get('/api/version', (req, res) => {
+  res.json({ version: require('./package.json').version });
+});
+
 // ── Sync API ───────────────────────────────────────────────────────────────
 
 app.get('/api/sync-status', (req, res) => {

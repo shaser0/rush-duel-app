@@ -442,6 +442,7 @@ button,input,select{font-family:inherit}
   <div id="menu-wrap">
     <h1 id="menu-title">Rush Duel</h1>
     <p id="menu-sub">Pack Opening Simulator &amp; Deck Builder</p>
+    <span id="app-version" style="font-size:11px;color:var(--muted);margin-bottom:18px"></span>
     <div id="menu-grid">
       <button class="menu-tile" data-go="screen-sets">
         <span class="mt-icon">📦</span>
@@ -3136,6 +3137,10 @@ async function init(){
   // Heartbeat: keeps packaged server alive; server exits ~15s after window closes
   fetch('/api/heartbeat',{method:'POST'}).catch(()=>{});
   setInterval(()=>fetch('/api/heartbeat',{method:'POST'}).catch(()=>{}),5000);
+  // Show app version on the home screen
+  fetch('/api/version').then(r=>r.json()).then(d=>{
+    if(d&&d.version) document.getElementById('app-version').textContent='v'+d.version;
+  }).catch(()=>{});
 }
 
 document.addEventListener('DOMContentLoaded',init);
