@@ -1,13 +1,13 @@
 {
   "name": "rush-app",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Yu-Gi-Oh! Rush Duel pack-opening simulator, collection tracker, and deck builder. Unofficial, non-commercial fan project — not affiliated with Konami.",
   "private": true,
   "main": "server.js",
   "bin": "server.js",
   "scripts": {
     "start": "node server.js",
-    "build": "node scripts/build.js",
+    "build": "node --use-system-ca scripts/build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,8 +15,12 @@
   "license": "SEE LICENSE IN README.md",
   "type": "commonjs",
   "pkg": {
-    "assets": ["public/**/*"],
-    "scripts": ["scripts/**/*.js"]
+    "assets": [
+      "public/**/*"
+    ],
+    "scripts": [
+      "scripts/**/*.js"
+    ]
   },
   "dependencies": {
     "better-sqlite3": "^12.10.0",
@@ -24,6 +28,6 @@
     "express": "^5.2.1"
   },
   "devDependencies": {
-    "@yao-pkg/pkg": "^5.12.0"
+    "@yao-pkg/pkg": "^6.20.0"
   }
 }

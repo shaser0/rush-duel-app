@@ -61,10 +61,10 @@ const STALE_FILE = {
 };
 
 const SYNCS = {
-  cards:   { script: 'scripts/sync-cards.js',   nodeArgs: [],                  running: false, exitCode: null },
-  sets:    { script: 'scripts/sync-sets.js',    nodeArgs: ['--use-system-ca'],  running: false, exitCode: null },
-  gallery: { script: 'scripts/sync-gallery.js', nodeArgs: ['--use-system-ca'],  running: false, exitCode: null },
-  banlist: { script: 'scripts/sync-banlist.js', nodeArgs: ['--use-system-ca'],  running: false, exitCode: null },
+  cards:   { script: 'scripts/sync-cards.js',   nodeArgs: [], running: false, exitCode: null },
+  sets:    { script: 'scripts/sync-sets.js',    nodeArgs: [], running: false, exitCode: null },
+  gallery: { script: 'scripts/sync-gallery.js', nodeArgs: [], running: false, exitCode: null },
+  banlist: { script: 'scripts/sync-banlist.js', nodeArgs: [], running: false, exitCode: null },
 };
 
 function isStale(name) {
@@ -76,17 +76,17 @@ function isStale(name) {
   }
 }
 
-// Pipe a child process stream to a write stream, prefixing every line with `prefix`.
+// Pipe a child process stream to the log, prefixing every line with `prefix`.
 // Returns a flush function to call on process exit to emit any buffered partial line.
-function pipePrefixed(stream, prefix, dest) {
+function pipePrefixed(stream, prefix) {
   let buf = '';
   stream.on('data', chunk => {
     buf += chunk.toString();
     const lines = buf.split('\n');
     buf = lines.pop();
-    for (const line of lines) dest.write(`${prefix} ${line}\n`);
+    for (const line of lines) console.log(`${prefix} ${line}`);
   });
-  return () => { if (buf) { dest.write(`${prefix} ${buf}\n`); buf = ''; } };
+  return () => { if (buf) { console.log(`${prefix} ${buf}`); buf = ''; } };
 }
 
 function startSync(name, force = false) {
@@ -97,9 +97,8 @@ function startSync(name, force = false) {
     return false;
   }
   // In pkg mode, re-spawn the binary with RUSH_SYNC env var (worker mode).
-  // --use-system-ca is passed so the re-spawn guard inside sync scripts is skipped.
   const [cmd, args] = process.pkg
-    ? [process.execPath, ['--use-system-ca']]
+    ? [process.execPath, []]
     : ['node', [...s.nodeArgs, s.script]];
   const env = process.pkg
     ? { ...process.env, RUSH_SYNC: name, RUSH_DATA_DIR: path.join(APP_DIR, 'data') }
@@ -108,8 +107,8 @@ function startSync(name, force = false) {
   s.running = true;
   s.exitCode = null;
   const tag = `[${name}]`;
-  const flushOut = pipePrefixed(proc.stdout, tag, process.stdout);
-  const flushErr = pipePrefixed(proc.stderr, tag, process.stderr);
+  const flushOut = pipePrefixed(proc.stdout, tag);
+  const flushErr = pipePrefixed(proc.stderr, tag);
   proc.on('error', err => { console.error(`${tag} error:`, err.message); s.running = false; });
   proc.on('exit', code => {
     flushOut();

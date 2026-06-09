@@ -14,9 +14,10 @@ function includeInRelease(src) {
 }
 
 const PKG = path.join(__dirname, '../node_modules/.bin/pkg');
-execSync(`"${PKG}" . --targets node20-win-x64   --output dist/rush-app-win.exe`, { stdio: 'inherit' });
-execSync(`"${PKG}" . --targets node20-linux-x64 --output dist/rush-app-linux`,   { stdio: 'inherit' });
-execSync(`"${PKG}" . --targets node20-macos-x64 --output dist/rush-app-macos`,   { stdio: 'inherit' });
+const pkgEnv = { ...process.env, NODE_OPTIONS: '--use-system-ca' };
+execSync(`"${PKG}" . --targets node22-win-x64   --options use-system-ca --output dist/rush-app-win.exe`, { stdio: 'inherit', env: pkgEnv });
+execSync(`"${PKG}" . --targets node22-linux-x64 --options use-system-ca --output dist/rush-app-linux`,   { stdio: 'inherit', env: pkgEnv });
+execSync(`"${PKG}" . --targets node22-macos-x64 --options use-system-ca --output dist/rush-app-macos`,   { stdio: 'inherit', env: pkgEnv });
 
 // Patch the Windows exe PE header: change subsystem from console (3) to GUI (2).
 // This tells Windows not to create a terminal window when the exe is launched,
