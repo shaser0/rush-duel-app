@@ -7,7 +7,7 @@ const path = require('path');
 // and the bulky raw-cards.json (the binary only serves the cleaned cards.json).
 function includeInRelease(src) {
   const base = path.basename(src);
-  if (['collections.json', 'decks.json', 'sync-state.json'].includes(base)) return false;
+  if (['collections.json', 'decks.json', 'sync-state.json', 'raw-cards.json'].includes(base)) return false;
   if (/^sync-progress.*\.json$/.test(base)) return false;
   if (base.endsWith('.log')) return false;
   return true;

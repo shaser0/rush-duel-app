@@ -77,16 +77,22 @@ function isStale(name) {
 }
 
 // Pipe a child process stream to the log, prefixing every line with `prefix`.
+// \r is treated as a terminal cursor-reset: only the text after the last \r
+// is kept, so progress-counter lines don't spam the log with intermediates.
 // Returns a flush function to call on process exit to emit any buffered partial line.
 function pipePrefixed(stream, prefix) {
   let buf = '';
+  const emit = line => {
+    const clean = line.includes('\r') ? line.split('\r').pop() : line;
+    if (clean) console.log(`${prefix} ${clean}`);
+  };
   stream.on('data', chunk => {
     buf += chunk.toString();
     const lines = buf.split('\n');
     buf = lines.pop();
-    for (const line of lines) console.log(`${prefix} ${line}`);
+    for (const line of lines) emit(line);
   });
-  return () => { if (buf) { console.log(`${prefix} ${buf}`); buf = ''; } };
+  return () => { if (buf) { emit(buf); buf = ''; } };
 }
 
 function startSync(name, force = false) {
