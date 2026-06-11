@@ -55,6 +55,15 @@ test('stripParens: mid-string parenthetical', () => {
   assert.equal(stripParens('Sevens (Rush Duel) Road'), 'Sevens Road');
 });
 
+test('stripParens: nested parentheses leave no orphan ")" (bug C2)', () => {
+  assert.equal(stripParens('Card (A (B) C)'), 'Card');
+  assert.equal(stripParens('Card Name (Some (Nested) Stuff)'), 'Card Name');
+});
+
+test('stripParens: preserves (C) like sync-gallery does (bug C3)', () => {
+  assert.equal(stripParens('Magnum Overlord (C)'), 'Magnum Overlord (C)');
+});
+
 // ── stripRuby ────────────────────────────────────────────────────────────────
 
 test('stripRuby: null/empty passthrough', () => {
@@ -76,6 +85,10 @@ test('stripRuby: multiple ruby templates', () => {
 
 test('stripRuby: plain text unchanged', () => {
   assert.equal(stripRuby('プレーンテキスト'), 'プレーンテキスト');
+});
+
+test('stripRuby: nested template leaves no orphan "{{" (bug C7)', () => {
+  assert.equal(stripRuby('{{Ruby|{{Ruby|青眼|inner}}|outer}}'), '青眼');
 });
 
 // ── parseImages ──────────────────────────────────────────────────────────────
@@ -103,6 +116,12 @@ test('parseImages: -VG- files are skipped', () => {
 test('parseImages: picks first non-VG file on a multi-file line', () => {
   assert.deepEqual(parseImages('1; Card-VG-art.png; Card-RD001-JP.png'),
     [{ artwork: 1, file: 'Card-RD001-JP.png' }]);
+});
+
+test('parseImages: decimal artwork prefix "1.0; file" is parsed (bug C1)', () => {
+  assert.deepEqual(parseImages('1.0; CardName-RD001-JP-OP.png'),
+    [{ artwork: 1, file: 'CardName-RD001-JP-OP.png' }]);
+  assert.deepEqual(parseImages('2.0; B.png'), [{ artwork: 2, file: 'B.png' }]);
 });
 
 test('parseImages: multiline with distinct artwork numbers', () => {
@@ -133,6 +152,16 @@ test('parseSets: multiline input', () => {
   assert.equal(parseSets('A; S1; Common\nB; S2; Rare').length, 2);
 });
 
+test('parseSets: 2-field line kept with empty rarity instead of dropped (bug C5)', () => {
+  assert.deepEqual(parseSets('RD/RUSH-JP001; Set Name'),
+    [{ code: 'RD/RUSH-JP001', name: 'Set Name', rarity: '' }]);
+});
+
+test('parseSets: wiki markup stripped from name (bug C5)', () => {
+  assert.deepEqual(parseSets('RD/RUSH-JP001; [[Rush Set|Set Name]]; Common'),
+    [{ code: 'RD/RUSH-JP001', name: 'Set Name', rarity: 'Common' }]);
+});
+
 // ── parseArchseries ──────────────────────────────────────────────────────────
 
 test('parseArchseries: null/empty → []', () => {
@@ -150,4 +179,8 @@ test('parseArchseries: single entry without asterisk', () => {
 
 test('parseArchseries: parentheticals stripped from each entry', () => {
   assert.deepEqual(parseArchseries('Draco (archetype)'), ['Draco']);
+});
+
+test('parseArchseries: wiki markup stripped from entries (bug C6)', () => {
+  assert.deepEqual(parseArchseries('[[Dragon]] * [[Warrior]]'), ['Dragon', 'Warrior']);
 });

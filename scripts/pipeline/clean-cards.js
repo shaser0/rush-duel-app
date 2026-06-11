@@ -15,7 +15,13 @@ const {
 // (the cleaned file the app serves). Exported so sync-cards.js / tag-legends.js
 // can run it in-process; also runnable standalone: `node scripts/pipeline/clean-cards.js`.
 function cleanCards() {
-const raw = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'raw-cards.json'), 'utf8'));
+let raw;
+try {
+  raw = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'raw-cards.json'), 'utf8'));
+} catch (e) {
+  throw new Error(`raw-cards.json illisible ou corrompu (${e.message}). ` +
+    `Supprimer le fichier et relancer le sync pour le régénérer.`);
+}
 
 const cleaned = raw.map(card => ({
   ...card,
@@ -23,8 +29,14 @@ const cleaned = raw.map(card => ({
   title:        stripParens(card.title),
   name_en:      stripParens(card.name_en || card.title),
   name_ja:      stripRuby(card.name_ja),
+  name_ko:      card.name_ko ? stripWikiMarkup(stripRuby(card.name_ko)) : null,
+  name_fr:      stripWikiMarkup(card.name_fr),
+  name_de:      stripWikiMarkup(card.name_de),
+  name_it:      stripWikiMarkup(card.name_it),
+  name_es:      stripWikiMarkup(card.name_es),
+  flavor_text:  stripWikiMarkup(card.flavor_text),
   condition:    stripWikiMarkup(card.condition),
-  effect_types: card.effect_types || null,
+  effect_types: stripWikiMarkup(card.effect_types) || null,
   materials:    stripWikiMarkup(card.materials),
   requirement:  stripWikiMarkup(card.requirement),
   effect:       stripWikiMarkup(card.effect),

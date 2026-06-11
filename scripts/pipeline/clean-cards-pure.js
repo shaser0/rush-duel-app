@@ -17,11 +17,19 @@ function stripWikiMarkup(text) {
 
 // ── Strip parenthetical content ──────────────────────────────────────────────
 // Most parenthetical suffixes are Yugipedia disambiguation (card), (Rush Duel).
-// Exception: (L) and (R) are part of the card name for Maximum monster variants.
+// Exception: (L), (R) and (C) are part of the card name for Maximum monster
+// variants — same letters sync-gallery folds into the image slug.
 
 function stripParens(text) {
   if (!text) return text;
-  return text.replace(/\s*\((?!(?:L|R)\))[^)]*\)\s*/g, ' ').trim();
+  // [^()]* only matches the innermost level; iterate until stable so
+  // nested parentheticals like "(A (B) C)" leave no orphan ")" behind.
+  let prev;
+  do {
+    prev = text;
+    text = text.replace(/\s*\((?!(?:[LRC])\))[^()]*\)\s*/g, ' ');
+  } while (text !== prev);
+  return text.trim().replace(/\s{2,}/g, ' ');
 }
 
 // ── Archseries ───────────────────────────────────────────────────────────────
@@ -30,7 +38,7 @@ function stripParens(text) {
 
 function parseArchseries(raw) {
   if (!raw) return [];
-  return raw.split('*').map(a => stripParens(a).trim()).filter(Boolean);
+  return raw.split('*').map(a => stripWikiMarkup(stripParens(a)).trim()).filter(Boolean);
 }
 
 // ── Ruby markup ──────────────────────────────────────────────────────────────
@@ -38,7 +46,14 @@ function parseArchseries(raw) {
 function stripRuby(text) {
   if (!text) return text;
   // {{Ruby|漢字|ふりがな}} → 漢字
-  return text.replace(/\{\{[Rr]uby\|([^|]+)\|[^}]+\}\}/g, '$1').trim();
+  // [^|{}]+ only matches the innermost template; iterate until stable so a
+  // Ruby nested inside another template leaves no orphan "{{" behind.
+  let prev;
+  do {
+    prev = text;
+    text = text.replace(/\{\{[Rr]uby\|([^|{}]+)\|[^|{}]+\}\}/g, '$1');
+  } while (text !== prev);
+  return text.trim();
 }
 
 // ── Images ───────────────────────────────────────────────────────────────────
@@ -50,10 +65,11 @@ function parseImages(raw) {
   const result = [];
 
   for (const line of lines) {
-    const numbered = line.match(/^(\d+)\s*;\s*(.+)$/);
+    // Yugipedia uses both "1; file.png" and "1.0; file.png" artwork prefixes
+    const numbered = line.match(/^(\d+(?:\.\d+)?)\s*;\s*(.+)$/);
 
     if (numbered) {
-      const artworkNum = parseInt(numbered[1], 10);
+      const artworkNum = parseFloat(numbered[1]);
       const files = numbered[2].split(';').map(f => f.trim()).filter(Boolean);
       const file = files.find(f => !f.includes('-VG-'));
       if (file) result.push({ artwork: artworkNum, file });
@@ -77,9 +93,15 @@ function parseSets(raw) {
     .filter(Boolean)
     .map(line => {
       const parts = line.split(';').map(p => p.trim());
-      if (parts.length < 3) return null;
+      if (parts.length < 2) return null;
+      if (parts.length < 3) console.warn(`[clean-cards] parseSets: ligne sans rarity: "${line}"`);
       // rejoin anything after the 2nd semicolon in case the rarity contains one
-      return { code: parts[0], name: parts[1], rarity: parts.slice(2).join(';').trim() };
+      const rarity = parts.length >= 3 ? parts.slice(2).join(';').trim() : '';
+      return {
+        code:   stripWikiMarkup(parts[0]),
+        name:   stripWikiMarkup(parts[1]),
+        rarity: stripWikiMarkup(rarity),
+      };
     })
     .filter(Boolean);
 }

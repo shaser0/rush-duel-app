@@ -59,7 +59,7 @@ async function syncGallery(){
   for(const card of cards){
     if (!card.images) console.warn('[sync-gallery] images null pour:', card.title);
     const baseFiles = (card.images || [])
-      .map(i => i.file.replace(/^\d+\.\d+;\s*/, '').trim())
+      .map(i => i.file.trim())
       .filter(Boolean);
     cardBaseImages.set(card.title, baseFiles);
     for(const f of baseFiles){
