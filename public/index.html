@@ -1240,7 +1240,9 @@ function buildDB(){
       // Key by set NAME, not code prefix, to prevent different sets sharing a prefix from merging
       const key=s.name;
       if(!sm.has(key)) sm.set(key,{pfx,name:s.name,ents:[]});
-      for(const r of s.rarity.split(',').map(x=>x.trim()))
+      // Empty rarity (wiki line without a rarity field) defaults to Common,
+      // matching the wiki's own Set list template default.
+      for(const r of (s.rarity||'Common').split(',').map(x=>x.trim()).filter(Boolean))
         sm.get(key).ents.push(...mkEntries(card,pfx,r));
     }
   }

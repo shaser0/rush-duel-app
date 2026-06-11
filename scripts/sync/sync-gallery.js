@@ -9,12 +9,11 @@ const path  = require('path');
 const { fetchJson, sleep } = require('../lib/http');
 const { writeJsonAtomic }  = require('../lib/fs-atomic');
 const { DATA_DIR, YUGIPEDIA_API: API } = require('../lib/paths');
-const { resolveImageUrls } = require('../lib/yugipedia');
+const { resolveImageUrls, RATE_MS } = require('../lib/yugipedia');
 
 const CARDS_FILE  = path.join(DATA_DIR, 'cards.json');
 const OUT_FILE    = path.join(DATA_DIR, 'gallery-images.json');
 const URLS_FILE   = path.join(DATA_DIR, 'image-urls.json');
-const RATE_MS     = 1200;
 
 // Fetch all image filenames referenced in a gallery page (paginated)
 async function getGalleryImages(setName){

@@ -7,7 +7,8 @@
 const https  = require('https');
 const fs     = require('fs');
 const path   = require('path');
-const crypto = require('crypto');
+const { fetchJson }        = require('../lib/http');
+const { computeFileHash }  = require('../lib/fs-atomic');
 
 const REPO     = 'shaser0/rush-duel-app';
 const DATA_VER = 'data-version.json';
@@ -19,37 +20,6 @@ function buildRawBase(dataTag) {
   }
   const refStr = ref ? `refs/tags/${ref}` : 'main';
   return `https://raw.githubusercontent.com/${REPO}/${refStr}/data`;
-}
-
-function computeHash(filePath) {
-  return new Promise((resolve, reject) => {
-    const hash   = crypto.createHash('sha256');
-    const stream = fs.createReadStream(filePath);
-    stream.on('data', chunk => hash.update(chunk));
-    stream.on('end', () => resolve(hash.digest('hex')));
-    stream.on('error', reject);
-  });
-}
-
-function fetchJson(url) {
-  return new Promise((resolve, reject) => {
-    const req = https.get(url, {
-      headers: { 'User-Agent': 'rush-duel-app/updater' },
-    }, res => {
-      if (res.statusCode < 200 || res.statusCode >= 300) {
-        res.resume();
-        return reject(new Error(`HTTP ${res.statusCode} for ${url}`));
-      }
-      let data = '';
-      res.on('data', c => (data += c));
-      res.on('end', () => {
-        try { resolve(JSON.parse(data)); }
-        catch (e) { reject(new Error(`Invalid JSON from ${url}: ${e.message}`)); }
-      });
-    });
-    req.on('error', reject);
-    req.setTimeout(15000, () => { req.destroy(); reject(new Error('timeout')); });
-  });
 }
 
 function downloadFile(url, destPath, onProgress) {
@@ -79,6 +49,13 @@ function downloadFile(url, destPath, onProgress) {
           }
         });
       });
+    });
+    // Without this, a write error (disk full, EPERM) is an unhandled
+    // 'error' event that crashes the whole server mid-download.
+    out.on('error', err => {
+      req.destroy();
+      try { fs.unlinkSync(tmpPath); } catch {}
+      reject(err);
     });
     req.on('error', err => { out.destroy(); reject(err); });
     req.setTimeout(120000, () => { req.destroy(); reject(new Error('download timeout')); });
@@ -127,7 +104,7 @@ async function downloadData(appDir, files, hashes, rawBase, onProgress) {
       if (onProgress) onProgress((i + filePct) / total);
     });
     if (hashes[file]) {
-      const actual = await computeHash(dest);
+      const actual = await computeFileHash(dest);
       if (actual !== hashes[file]) {
         try { fs.unlinkSync(dest); } catch {}
         throw new Error(`Hash mismatch pour ${file}: attendu ${hashes[file]}, obtenu ${actual}`);

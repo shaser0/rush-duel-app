@@ -8,7 +8,7 @@
 const https  = require('https');
 const fs     = require('fs');
 const path   = require('path');
-const crypto = require('crypto');
+const { computeFileHash } = require('../lib/fs-atomic');
 
 const REPO = 'shaser0/rush-duel-app';
 const API  = `https://api.github.com/repos/${REPO}/releases/latest`;
@@ -94,22 +94,12 @@ async function fetchChecksums(release, assetFilename) {
   throw new Error(`Aucun checksum trouvé pour ${assetFilename}`);
 }
 
-function verifyFile(filePath, expectedHash) {
-  return new Promise((resolve, reject) => {
-    const hash   = crypto.createHash('sha256');
-    const stream = fs.createReadStream(filePath);
-    stream.on('data', chunk => hash.update(chunk));
-    stream.on('end', () => {
-      const actual = hash.digest('hex');
-      if (actual !== expectedHash) {
-        try { fs.unlinkSync(filePath); } catch {}
-        reject(new Error(`Checksum mismatch: attendu ${expectedHash}, obtenu ${actual}`));
-      } else {
-        resolve();
-      }
-    });
-    stream.on('error', reject);
-  });
+async function verifyFile(filePath, expectedHash) {
+  const actual = await computeFileHash(filePath);
+  if (actual !== expectedHash) {
+    try { fs.unlinkSync(filePath); } catch {}
+    throw new Error(`Checksum mismatch: attendu ${expectedHash}, obtenu ${actual}`);
+  }
 }
 
 function downloadFile(url, destPath, onProgress) {
@@ -134,6 +124,13 @@ function downloadFile(url, destPath, onProgress) {
         const total = parseInt(res.headers['content-length'] || '0', 10);
         let received = 0;
         const out = fs.createWriteStream(tmpPath);
+        // Without this, a write error (disk full, EPERM) is an unhandled
+        // 'error' event that crashes the whole server mid-update.
+        out.on('error', err => {
+          res.destroy();
+          try { fs.unlinkSync(tmpPath); } catch {}
+          reject(err);
+        });
         res.on('data', chunk => {
           out.write(chunk);
           received += chunk.length;

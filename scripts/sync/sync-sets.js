@@ -9,11 +9,10 @@ const path = require('path');
 const { fetchJson, sleep } = require('../lib/http');
 const { writeJsonAtomic }  = require('../lib/fs-atomic');
 const { DATA_DIR, YUGIPEDIA_API: API } = require('../lib/paths');
-const { getCategoryMembers, resolveImageUrls } = require('../lib/yugipedia');
+const { getCategoryMembers, resolveImageUrls, RATE_MS } = require('../lib/yugipedia');
 
 const OUT      = path.join(DATA_DIR, 'sets-data.json');
 const IMG_URLS = path.join(DATA_DIR, 'image-urls.json');
-const RATE_MS = 1200;
 
 async function getSetWikitext(title) {
   const url = `${API}?action=parse&page=${encodeURIComponent(title)}&prop=wikitext&format=json`;

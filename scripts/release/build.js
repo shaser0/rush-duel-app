@@ -1,8 +1,8 @@
 'use strict';
 const { execSync } = require('child_process');
-const crypto = require('crypto');
 const fs     = require('fs');
 const path   = require('path');
+const { computeFileHash } = require('../lib/fs-atomic');
 
 // Files in data/ that must NOT ship in a release: user state, runtime logs,
 // and the bulky raw-cards.json (the binary only serves the cleaned cards.json).
@@ -73,13 +73,14 @@ const binaries = [
   ['rush-app-linux',   'dist/rush-app-linux'],
   ['rush-app-macos',   'dist/rush-app-macos'],
 ];
-const checksumLines = binaries.map(([name, p]) => {
-  const h = crypto.createHash('sha256');
-  h.update(fs.readFileSync(p));
-  return `${h.digest('hex')}  ${name}`;
-});
-fs.writeFileSync('dist/checksums.sha256', checksumLines.join('\n') + '\n', 'utf8');
-console.log('Generated dist/checksums.sha256');
+(async () => {
+  const checksumLines = [];
+  for (const [name, p] of binaries) {
+    checksumLines.push(`${await computeFileHash(p)}  ${name}`);
+  }
+  fs.writeFileSync('dist/checksums.sha256', checksumLines.join('\n') + '\n', 'utf8');
+  console.log('Generated dist/checksums.sha256');
 
-console.log('\nBuild complete. Upload-ready assets in dist/:');
-console.log('  rush-app-win.zip  •  rush-app-linux.tar.gz  •  rush-app-macos.tar.gz  •  checksums.sha256');
+  console.log('\nBuild complete. Upload-ready assets in dist/:');
+  console.log('  rush-app-win.zip  •  rush-app-linux.tar.gz  •  rush-app-macos.tar.gz  •  checksums.sha256');
+})().catch(e => { console.error(e); process.exit(1); });

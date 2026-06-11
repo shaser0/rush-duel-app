@@ -15,6 +15,7 @@ const path  = require('path');
 const { fetchJson, sleep }  = require('../lib/http');
 const { writeJsonAtomic }   = require('../lib/fs-atomic');
 const { DATA_DIR, YUGIPEDIA_API: API } = require('../lib/paths');
+const { RATE_MS } = require('../lib/yugipedia');
 
 const OUT = path.join(DATA_DIR, 'banlist.json');
 
@@ -71,7 +72,7 @@ async function findLatestPage() {
     if (!wt) { console.error(`[sync-banlist] Could not fetch: ${current}`); return null; }
     const nextPage = tmplParam(wt, 'next');
     if (!nextPage) { break; } // no next link → this is current
-    await sleep(1200);
+    await sleep(RATE_MS);
     const nextWt = await fetchWikitext(nextPage);
     if (!nextWt) {
       console.log(`[sync-banlist] Next page not yet published: "${nextPage}" → using "${current}"`);
@@ -79,7 +80,7 @@ async function findLatestPage() {
     }
     console.log(`[sync-banlist] Advancing to: ${nextPage}`);
     current = nextPage;
-    await sleep(1200);
+    await sleep(RATE_MS);
   }
   return current;
 }

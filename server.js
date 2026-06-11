@@ -17,7 +17,6 @@ if (process.env.RUSH_SYNC) {
 }
 
 const express = require('express');
-// const cors = require('cors'); // TODO P5: dead import — replaced by ALLOWED_ORIGINS middleware
 const path    = require('path');
 const fs      = require('fs');
 const { spawn, exec } = require('child_process');
@@ -167,9 +166,10 @@ function saveDecks(data) {
 
 // ── Middleware ─────────────────────────────────────────────────────────────
 
+// Derived from PORT so the app still works when PORT is overridden via env.
 const ALLOWED_ORIGINS = new Set([
-  'http://localhost:3000',
-  'http://127.0.0.1:3000',
+  `http://localhost:${PORT}`,
+  `http://127.0.0.1:${PORT}`,
 ]);
 
 app.use((req, res, next) => {

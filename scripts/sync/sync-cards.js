@@ -6,7 +6,7 @@ const fs           = require('fs');
 const { fetchJson, sleep } = require('../lib/http');
 const { writeJsonAtomic }  = require('../lib/fs-atomic');
 const { DATA_DIR }         = require('../lib/paths');
-const { getCategoryMembers, getTimestampsBatch } = require('../lib/yugipedia');
+const { getCategoryMembers, getTimestampsBatch, RATE_MS } = require('../lib/yugipedia');
 const { cleanCards } = require('../pipeline/clean-cards');
 
 // ── Config ───────────────────────────────────────────────────────────────────
@@ -15,7 +15,6 @@ const _path         = require('path');
 const CARDS_FILE    = _path.join(DATA_DIR, 'raw-cards.json');
 const STATE_FILE    = _path.join(DATA_DIR, 'sync-state.json');
 const PROGRESS_FILE = _path.join(DATA_DIR, 'sync-progress.json');
-const RATE_MS       = 1100;
 const BATCH_SIZE    = 50; // titles per timestamp API call
 
 // ── Wiki parsing ─────────────────────────────────────────────────────────────
