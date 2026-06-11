@@ -5,9 +5,10 @@
 // helper script (apply-update.bat / apply-update.sh) the user runs after
 // closing the app to swap the binary in place.
 
-const https = require('https');
-const fs    = require('fs');
-const path  = require('path');
+const https  = require('https');
+const fs     = require('fs');
+const path   = require('path');
+const crypto = require('crypto');
 
 const REPO = 'shaser0/rush-duel-app';
 const API  = `https://api.github.com/repos/${REPO}/releases/latest`;
@@ -57,13 +58,70 @@ function fetchJson(url) {
   });
 }
 
+function fetchText(url) {
+  return new Promise((resolve, reject) => {
+    const get = (u, redirects) => {
+      if (redirects > 5) return reject(new Error('too many redirects'));
+      if (!u.startsWith('https://')) return reject(new Error(`Redirect vers URL non-HTTPS refusé: ${u}`));
+      require('https').get(u, { headers: { 'User-Agent': 'rush-duel-app/updater' } }, res => {
+        if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+          res.resume();
+          return get(res.headers.location, redirects + 1);
+        }
+        if (res.statusCode < 200 || res.statusCode >= 300) {
+          res.resume();
+          return reject(new Error(`HTTP ${res.statusCode}`));
+        }
+        let data = '';
+        res.on('data', c => (data += c));
+        res.on('end', () => resolve(data));
+        res.on('error', reject);
+      }).on('error', reject)
+        .setTimeout(15000, function() { this.destroy(); reject(new Error('timeout')); });
+    };
+    get(url, 0);
+  });
+}
+
+async function fetchChecksums(release, assetFilename) {
+  const asset = (release.assets || []).find(a => a.name === 'checksums.sha256');
+  if (!asset) throw new Error('checksums.sha256 asset manquant dans la release');
+  const text = await fetchText(asset.browser_download_url);
+  for (const line of text.split('\n')) {
+    const [hash, name] = line.trim().split(/\s+/);
+    if (name === assetFilename) return hash.toLowerCase();
+  }
+  throw new Error(`Aucun checksum trouvé pour ${assetFilename}`);
+}
+
+function verifyFile(filePath, expectedHash) {
+  return new Promise((resolve, reject) => {
+    const hash   = crypto.createHash('sha256');
+    const stream = fs.createReadStream(filePath);
+    stream.on('data', chunk => hash.update(chunk));
+    stream.on('end', () => {
+      const actual = hash.digest('hex');
+      if (actual !== expectedHash) {
+        try { fs.unlinkSync(filePath); } catch {}
+        reject(new Error(`Checksum mismatch: attendu ${expectedHash}, obtenu ${actual}`));
+      } else {
+        resolve();
+      }
+    });
+    stream.on('error', reject);
+  });
+}
+
 function downloadFile(url, destPath, onProgress) {
   return new Promise((resolve, reject) => {
     const tmpPath = destPath + '.tmp';
     // Follow redirects (GitHub asset URLs redirect to S3)
     const get = (u, redirects) => {
       if (redirects > 5) return reject(new Error('too many redirects'));
-      const mod = u.startsWith('https') ? require('https') : require('http');
+      if (!u.startsWith('https://')) {
+        return reject(new Error(`Redirect vers URL non-HTTPS refusé: ${u}`));
+      }
+      const mod = require('https');
       mod.get(u, { headers: { 'User-Agent': 'rush-duel-app/updater' } }, res => {
         if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
           res.resume();
@@ -106,12 +164,16 @@ async function checkUpdate() {
     hasUpdate: semverGt(latest, current),
     downloadUrl: asset ? asset.browser_download_url : null,
     assetName: assetName(),
+    release,
   };
 }
 
-async function downloadUpdate(downloadUrl, appDir, onProgress) {
-  const dest = path.join(appDir, assetName() + '.new');
+async function downloadUpdate(downloadUrl, release, appDir, onProgress) {
+  const name = assetName();
+  const dest = path.join(appDir, name + '.new');
   await downloadFile(downloadUrl, dest, onProgress);
+  const expectedHash = await fetchChecksums(release, name);
+  await verifyFile(dest, expectedHash);
   if (process.platform !== 'win32') {
     try { fs.chmodSync(dest, 0o755); } catch {}
   }

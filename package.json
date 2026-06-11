@@ -8,6 +8,7 @@
   "scripts": {
     "start": "node server.js",
     "build": "node --use-system-ca scripts/build.js",
+    "hash-data": "node scripts/hash-data.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

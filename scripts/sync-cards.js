@@ -1,5 +1,11 @@
 'use strict';
 
+if (!process.execArgv.some(a => a === '--use-system-ca')) {
+  const { spawnSync } = require('child_process');
+  const r = spawnSync(process.execPath, ['--use-system-ca', __filename, ...process.argv.slice(2)], { stdio: 'inherit' });
+  process.exit(r.status ?? 0);
+}
+
 const https        = require('https');
 const fs           = require('fs');
 const { cleanCards } = require('./clean-cards');
@@ -20,7 +26,6 @@ function get(url) {
   return new Promise((resolve, reject) => {
     https.get(url, {
       headers: { 'User-Agent': 'RushDuelDB/1.0 (personal project)' },
-      rejectUnauthorized: false,
     }, res => {
       let data = '';
       res.on('data', chunk => data += chunk);

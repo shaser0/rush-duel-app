@@ -1,5 +1,11 @@
 'use strict';
 
+if (!process.execArgv.some(a => a === '--use-system-ca')) {
+  const { spawnSync } = require('child_process');
+  const r = spawnSync(process.execPath, ['--use-system-ca', __filename, ...process.argv.slice(2)], { stdio: 'inherit' });
+  process.exit(r.status ?? 0);
+}
+
 const https = require('https');
 const fs    = require('fs');
 const path  = require('path');
@@ -98,7 +104,8 @@ async function syncGallery(){
   // title → [filename] map of images already in cards.json (the baseline)
   const cardBaseImages = new Map();
   for(const card of cards){
-    const baseFiles = card.images
+    if (!card.images) console.warn('[sync-gallery] images null pour:', card.title);
+    const baseFiles = (card.images || [])
       .map(i => i.file.replace(/^\d+\.\d+;\s*/, '').trim())
       .filter(Boolean);
     cardBaseImages.set(card.title, baseFiles);

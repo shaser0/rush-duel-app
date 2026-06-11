@@ -6,5 +6,12 @@
     "gallery-images.json",
     "image-urls.json",
     "banlist.json"
-  ]
+  ],
+  "hashes": {
+    "cards.json": "834d5e23da6a92d9b540c74bc926bd9c6a0259087e3aa2835f0547dc749f9159",
+    "sets-data.json": "e48b0600100db3b593ad5bf93bec172e8c19dab3efcbe518d4cdcab199a45fac",
+    "gallery-images.json": "20b29b9ad36a830bc98b656603ccf5a387df6543ac0f444bed0bcb71fcacbc5c",
+    "image-urls.json": "7205a7e5e9784af511d14f3769e3f7f92791cfbc3d030e1b028f590c9e9ae51b",
+    "banlist.json": "0c5c595d4de0171fadd38c53dfd8c54cd00e4966e34e1d0144fdf7f404490d1e"
+  }
 }

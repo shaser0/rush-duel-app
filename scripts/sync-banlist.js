@@ -116,12 +116,20 @@ async function syncBanlist() {
   }
 
   const count = Object.keys(banlist).length;
-  fs.writeFileSync(OUT, JSON.stringify(banlist, null, 2), 'utf8');
-  console.log(`[sync-banlist] Saved ${count} entries from "${page}" → data/banlist.json`);
   if (count === 0) {
-    console.warn('[sync-banlist] WARNING: 0 entries parsed — check the wikitext format.');
-    console.log('Wikitext sample:\n' + wikitext.substring(0, 500));
+    console.warn('[sync-banlist] ABORT: 0 entrées parsées — format inattendu, banlist.json inchangé.');
+    console.warn('Wikitext sample:\n' + wikitext.substring(0, 500));
+    process.exit(1);
   }
+  const tmp = OUT + '.tmp';
+  fs.writeFileSync(tmp, JSON.stringify(banlist, null, 2), 'utf8');
+  try {
+    fs.renameSync(tmp, OUT);
+  } catch (e) {
+    try { fs.unlinkSync(tmp); } catch {}
+    throw e;
+  }
+  console.log(`[sync-banlist] Saved ${count} entries from "${page}" → data/banlist.json`);
 }
 
 module.exports = { syncBanlist };

@@ -1,0 +1,64 @@
+name: Release
+
+# Triggered when a vX.Y.Z tag is pushed.
+# Builds all three platform binaries, generates checksums.sha256,
+# and uploads every asset to a new GitHub Release.
+
+on:
+  push:
+    tags:
+      - 'v[0-9]*'
+
+permissions:
+  contents: write   # needed to create the release and upload assets
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Ensure data/data-version.json already contains the "hashes" field.
+      # If it is missing (e.g. developer forgot to run `npm run hash-data`),
+      # generate it now so the release is always consistent.
+      - name: Verify / generate data hashes
+        run: |
+          node -e "
+            const m = require('./data/data-version.json');
+            if (!m.hashes || Object.keys(m.hashes).length === 0) {
+              process.exitCode = 1;
+              console.error('ERROR: data/data-version.json is missing hashes. Run: npm run hash-data');
+            }
+          "
+        continue-on-error: false
+
+      - name: Build binaries, archives, and checksums
+        run: npm run build
+        # Produces in dist/:
+        #   rush-app-win.exe  rush-app-linux  rush-app-macos
+        #   rush-app-win.zip  rush-app-linux.tar.gz  rush-app-macos.tar.gz
+        #   checksums.sha256
+
+      - name: Create GitHub Release and upload assets
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
+          files: |
+            dist/rush-app-win.exe
+            dist/rush-app-win.zip
+            dist/rush-app-linux
+            dist/rush-app-linux.tar.gz
+            dist/rush-app-macos
+            dist/rush-app-macos.tar.gz
+            dist/checksums.sha256

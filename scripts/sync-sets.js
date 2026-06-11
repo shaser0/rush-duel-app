@@ -144,6 +144,49 @@ function isDeck(title) {
   return /(Strongest Battle|Structure|Starter|Half|Go Rush)\s+Deck/i.test(title);
 }
 
+function parseDeckListWikitext(wikitext) {
+  const contents = {};
+  // {{Set list|region=JP|rarities=Common|qty=1|
+  // CODE; NAME; RARITY_OVERRIDE; PRINT_STATUS; QTY_OVERRIDE
+  // }}
+  const blockRe = /\{\{Set list\|([^\n]*)\n([\s\S]*?)\}\}/g;
+  let m;
+  while ((m = blockRe.exec(wikitext)) !== null) {
+    const header = m[1];
+    const body   = m[2];
+    const rarityM = header.match(/rarities\s*=\s*([^|]+)/);
+    const qtyM    = header.match(/\bqty\s*=\s*(\d+)/);
+    const defaultRarity = rarityM ? rarityM[1].trim() : 'Common';
+    const defaultQty    = qtyM    ? parseInt(qtyM[1]) : 1;
+    for (const line of body.split('\n')) {
+      const t = line.trim();
+      if (!t || !t.includes(';')) continue;
+      const parts = t.split(';').map(p => p.trim());
+      const code = parts[0];
+      if (!code || !/^[A-Z0-9/]+-JP[S]?\d+/i.test(code)) continue;
+      const rarityOverride = parts[2] || '';
+      const qtyStr = parts[4] || '';
+      const rarity = rarityOverride || defaultRarity;
+      const qty = parseInt(qtyStr) || defaultQty;
+      contents[code] = { rarity, qty };
+    }
+  }
+  return Object.keys(contents).length ? contents : null;
+}
+
+async function fetchDeckList(title) {
+  const listPage = `Set Card Lists:${title} (OCG-JP)`;
+  const url = `${API}?action=parse&page=${encodeURIComponent(listPage)}&prop=wikitext&format=json`;
+  try {
+    const data = await fetchJson(url);
+    const wikitext = data?.parse?.wikitext?.['*'];
+    if (!wikitext) return null;
+    return parseDeckListWikitext(wikitext);
+  } catch (e) {
+    return null;
+  }
+}
+
 function isPromoSet(title) {
   return /Campaign|Promotion|Collaboration|Promotional|prize|Bonus|Victory\s+Pack|Card\s+Game\s+Gum|Tournament|Jump\s+Victory\s+Carnival|Complete\s+Challenge|Galaxy\s+Cup|participation|Secret\s+Ace|Special\s+Pack|Challenge\s+Pack|Duel\s+Disk|Duel\s+Set|Saikyo|Saikyō|Limited\s+Pack/i.test(title);
 }
@@ -184,7 +227,7 @@ async function syncSets() {
   // Supplement with deck set names directly from cards.json.
   // Category expansion alone often misses deeply-nested or event deck pages.
   try {
-    const cardsData = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/cards.json'), 'utf8'));
+    const cardsData = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'cards.json'), 'utf8'));
     let added = 0;
     for (const card of cardsData) {
       for (const s of (card.sets_jp || [])) {
@@ -218,35 +261,46 @@ async function syncSets() {
 
   for (const title of setTitles) {
     const deck = isDeck(title);
-    // Already complete: all fields present and successfully parsed (cardsPerPack != null for non-decks)
-    if (result[title] && 'coverImage' in result[title]
-        && 'packsPerBox' in result[title]
-        && (deck || result[title].cardsPerPack != null)
-        && (result[title].releaseDateJP || deck)) {
-      continue;
+    const entry = result[title];
+
+    const hasMetadata = entry
+      && 'coverImage' in entry
+      && 'packsPerBox' in entry
+      && (deck || entry.cardsPerPack != null)
+      && (entry.releaseDateJP || deck);
+    const hasDeckContents = !deck || 'deckContents' in (entry || {});
+
+    if (hasMetadata && hasDeckContents) continue;
+
+    if (!hasMetadata) {
+      await sleep(RATE_MS);
+      let wikitext;
+      try {
+        wikitext = await getSetWikitext(title);
+      } catch (e) {
+        console.error(`[sync-sets] Failed to fetch "${title}": ${e.message}`);
+        continue;
+      }
+
+      const releaseDateJP = parseReleaseDate(wikitext);
+      const promo = isPromoSet(title);
+      if (!releaseDateJP && !deck && !promo) continue;
+
+      const packsPerBox = deck ? 0 : (parsePacksPerBox(wikitext) ?? null);
+      const coverImage = parseSetCoverImage(wikitext);
+      const cardsPerPack = deck ? null : parseCardsPerPack(wikitext);
+      const declaredSize = deck ? (parseSetSize(wikitext) ?? null) : null;
+
+      result[title] = { ...(entry || {}), releaseDateJP, packsPerBox, coverImage, cardsPerPack, declaredSize };
+      fetched++;
     }
 
-    await sleep(RATE_MS);
-    let wikitext;
-    try {
-      wikitext = await getSetWikitext(title);
-    } catch (e) {
-      console.error(`[sync-sets] Failed to fetch "${title}": ${e.message}`);
-      continue;
+    if (deck && !hasDeckContents) {
+      await sleep(RATE_MS);
+      const deckContents = await fetchDeckList(title);
+      result[title] = { ...(result[title] || {}), deckContents };
+      fetched++;
     }
-
-    const releaseDateJP = parseReleaseDate(wikitext);
-    const promo = isPromoSet(title);
-    // Skip non-deck, non-promo sets with no JP release date
-    if (!releaseDateJP && !deck && !promo) continue;
-
-    const packsPerBox = deck ? 0 : (parsePacksPerBox(wikitext) ?? null);
-    const coverImage = parseSetCoverImage(wikitext);
-    const cardsPerPack = deck ? null : parseCardsPerPack(wikitext);
-    const declaredSize = deck ? (parseSetSize(wikitext) ?? null) : null;
-
-    result[title] = { releaseDateJP, packsPerBox, coverImage, cardsPerPack, declaredSize };
-    fetched++;
 
     if (fetched % 10 === 0) {
       fs.writeFileSync(OUT, JSON.stringify(result, null, 2));

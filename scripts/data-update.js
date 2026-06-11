@@ -4,13 +4,32 @@
 // Used by binary users who can't run the live wiki-sync scripts.
 // Atomic writes (.tmp + rename) so a failed download never corrupts existing data.
 
-const https = require('https');
-const fs    = require('fs');
-const path  = require('path');
+const https  = require('https');
+const fs     = require('fs');
+const path   = require('path');
+const crypto = require('crypto');
 
-const REPO      = 'shaser0/rush-duel-app';
-const RAW_BASE  = `https://raw.githubusercontent.com/${REPO}/main/data`;
-const DATA_VER  = 'data-version.json';
+const REPO     = 'shaser0/rush-duel-app';
+const DATA_VER = 'data-version.json';
+
+function buildRawBase(dataTag) {
+  let ref = dataTag || process.env.RUSH_DATA_TAG;
+  if (!ref) {
+    try { ref = 'v' + require('../package.json').version; } catch {}
+  }
+  const refStr = ref ? `refs/tags/${ref}` : 'main';
+  return `https://raw.githubusercontent.com/${REPO}/${refStr}/data`;
+}
+
+function computeHash(filePath) {
+  return new Promise((resolve, reject) => {
+    const hash   = crypto.createHash('sha256');
+    const stream = fs.createReadStream(filePath);
+    stream.on('data', chunk => hash.update(chunk));
+    stream.on('end', () => resolve(hash.digest('hex')));
+    stream.on('error', reject);
+  });
+}
 
 function fetchJson(url) {
   return new Promise((resolve, reject) => {
@@ -66,7 +85,8 @@ function downloadFile(url, destPath, onProgress) {
   });
 }
 
-async function checkDataUpdate(appDir) {
+async function checkDataUpdate(appDir, dataTag) {
+  const rawBase   = buildRawBase(dataTag);
   const localPath = path.join(appDir, 'data', DATA_VER);
   let localVersion = 0;
   try {
@@ -74,28 +94,45 @@ async function checkDataUpdate(appDir) {
     localVersion = local.version ?? 0;
   } catch { /* first run or missing */ }
 
-  const remoteManifest = await fetchJson(`${RAW_BASE}/${DATA_VER}`);
-  const remoteVersion = remoteManifest.version ?? 0;
+  const remoteManifest = await fetchJson(`${rawBase}/${DATA_VER}`);
+  const remoteVersion  = remoteManifest.version ?? 0;
   return {
     localVersion,
     remoteVersion,
     hasUpdate: remoteVersion > localVersion,
-    files: remoteManifest.files || [],
+    files:    remoteManifest.files   || [],
+    hashes:   remoteManifest.hashes  || {},
+    rawBase,
     remoteManifest,
   };
 }
 
-async function downloadData(appDir, files, onProgress) {
+async function downloadData(appDir, files, hashes, rawBase, onProgress) {
   const dataDir = path.join(appDir, 'data');
   fs.mkdirSync(dataDir, { recursive: true });
   const total = files.length;
   for (let i = 0; i < total; i++) {
     const file = files[i];
-    const url  = `${RAW_BASE}/${file}`;
+    if (typeof file !== 'string' || file.includes('..') || path.isAbsolute(file) || file.includes('\0')) {
+      console.warn(`[data-update] fichier ignoré (traversal): ${file}`);
+      continue;
+    }
     const dest = path.join(dataDir, file);
+    if (!dest.startsWith(dataDir + path.sep) && dest !== dataDir) {
+      console.warn(`[data-update] fichier ignoré (hors dataDir): ${file}`);
+      continue;
+    }
+    const url = `${rawBase}/${file}`;
     await downloadFile(url, dest, filePct => {
       if (onProgress) onProgress((i + filePct) / total);
     });
+    if (hashes[file]) {
+      const actual = await computeHash(dest);
+      if (actual !== hashes[file]) {
+        try { fs.unlinkSync(dest); } catch {}
+        throw new Error(`Hash mismatch pour ${file}: attendu ${hashes[file]}, obtenu ${actual}`);
+      }
+    }
     if (onProgress) onProgress((i + 1) / total);
   }
 }

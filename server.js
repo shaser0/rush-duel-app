@@ -17,7 +17,7 @@ if (process.env.RUSH_SYNC) {
 }
 
 const express = require('express');
-const cors    = require('cors');
+// const cors = require('cors'); // TODO P5: dead import — replaced by ALLOWED_ORIGINS middleware
 const path    = require('path');
 const fs      = require('fs');
 const { spawn, exec } = require('child_process');
@@ -69,7 +69,7 @@ const SYNCS = {
 
 function isStale(name) {
   try {
-    const mtime = fs.statSync(path.join(__dirname, STALE_FILE[name])).mtime.getTime();
+    const mtime = fs.statSync(path.join(APP_DIR, STALE_FILE[name])).mtime.getTime();
     return (Date.now() - mtime) > STALE_MS[name];
   } catch {
     return true; // file missing → definitely stale
@@ -149,7 +149,14 @@ function loadCollections() {
   catch { return { activeId: null, collections: [] }; }
 }
 function saveCollections(data) {
-  fs.writeFileSync(COLLECTIONS_FILE, JSON.stringify(data, null, 2), 'utf8');
+  const tmp = COLLECTIONS_FILE + '.tmp';
+  fs.writeFileSync(tmp, JSON.stringify(data, null, 2), 'utf8');
+  try {
+    fs.renameSync(tmp, COLLECTIONS_FILE);
+  } catch (e) {
+    try { fs.unlinkSync(tmp); } catch {}
+    throw e;
+  }
 }
 
 // ── Decks (deck builder, saved to data/decks.json) ──────────────────────────
@@ -161,13 +168,33 @@ function loadDecks() {
   catch { return { activeId: null, decks: [] }; }
 }
 function saveDecks(data) {
-  fs.writeFileSync(DECKS_FILE, JSON.stringify(data, null, 2), 'utf8');
+  const tmp = DECKS_FILE + '.tmp';
+  fs.writeFileSync(tmp, JSON.stringify(data, null, 2), 'utf8');
+  try {
+    fs.renameSync(tmp, DECKS_FILE);
+  } catch (e) {
+    try { fs.unlinkSync(tmp); } catch {}
+    throw e;
+  }
 }
 
 // ── Middleware ─────────────────────────────────────────────────────────────
 
-app.use(cors());
-app.use(express.json());
+const ALLOWED_ORIGINS = new Set([
+  'http://localhost:3000',
+  'http://127.0.0.1:3000',
+]);
+
+app.use((req, res, next) => {
+  const origin = req.headers.origin;
+  if (origin && !ALLOWED_ORIGINS.has(origin)) {
+    return res.status(403).json({ error: 'forbidden origin' });
+  }
+  if (origin) res.setHeader('Access-Control-Allow-Origin', origin);
+  res.setHeader('Vary', 'Origin');
+  next();
+});
+app.use(express.json({ limit: '1mb' }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // ── Static + data endpoints ────────────────────────────────────────────────
@@ -301,7 +328,7 @@ app.post('/api/update/apply', async (req, res) => {
       res.write(JSON.stringify({ done: true, alreadyUpToDate: true }) + '\n');
       return res.end();
     }
-    await downloadUpdate(info.downloadUrl, APP_DIR, pct => {
+    await downloadUpdate(info.downloadUrl, info.release, APP_DIR, pct => {
       res.write(JSON.stringify({ progress: Math.round(pct * 100) / 100 }) + '\n');
     });
     const script = writeApplyScript(APP_DIR);
@@ -335,7 +362,7 @@ app.post('/api/data/apply', async (req, res) => {
       res.write(JSON.stringify({ done: true, alreadyUpToDate: true }) + '\n');
       return res.end();
     }
-    await downloadData(APP_DIR, info.files, pct => {
+    await downloadData(APP_DIR, info.files, info.hashes, info.rawBase, pct => {
       res.write(JSON.stringify({ progress: Math.round(pct * 100) / 100 }) + '\n');
     });
     // Write updated local data-version.json
@@ -359,8 +386,11 @@ function loadSchema() {
 }
 
 function saveSchema(schema) {
-  try { fs.writeFileSync(SCHEMA_FILE, JSON.stringify(schema, null, 2), 'utf8'); }
-  catch (e) { console.error('[migrations] Failed to save schema.json:', e.message); }
+  try {
+    const tmp = SCHEMA_FILE + '.tmp';
+    fs.writeFileSync(tmp, JSON.stringify(schema, null, 2), 'utf8');
+    fs.renameSync(tmp, SCHEMA_FILE);
+  } catch (e) { console.error('[migrations] Failed to save schema.json:', e.message); }
 }
 
 function runStartupMigrations() {
@@ -388,7 +418,7 @@ function runStartupMigrations() {
 
 // ── Start server ───────────────────────────────────────────────────────────
 
-app.listen(PORT, () => {
+app.listen(PORT, '127.0.0.1', () => {
   console.log(`Server running at http://localhost:${PORT}`);
   runStartupMigrations();
 

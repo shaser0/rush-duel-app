@@ -127,7 +127,10 @@ if (fs.existsSync(overridesPath)) {
   if (overrideCount) console.log(`${overrideCount} carte(s) avec sets_jp corrigés via sets-overrides.json`);
 }
 
-fs.writeFileSync(path.join(DATA_DIR, 'cards.json'), JSON.stringify(cleaned, null, 2), 'utf8');
+const outPath = path.join(DATA_DIR, 'cards.json');
+const tmpPath = outPath + '.tmp';
+fs.writeFileSync(tmpPath, JSON.stringify(cleaned, null, 2), 'utf8');
+fs.renameSync(tmpPath, outPath);
 console.log(`${cleaned.length} cartes traitées → cards.json`);
 return cleaned;
 }

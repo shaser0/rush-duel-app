@@ -4,6 +4,9 @@
 # Dependencies
 node_modules/
 
+# Auditor output
+audit/
+
 # Build output
 dist/
 *.zip
