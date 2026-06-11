@@ -27,4 +27,7 @@ function runMigrations(type, data, fromVersion) {
   return data;
 }
 
-module.exports = { CURRENT, runMigrations };
+// MIGRATIONS is exported so tests can inject migration functions
+// (tests/migrations.test.js); production code only uses CURRENT and
+// runMigrations.
+module.exports = { CURRENT, MIGRATIONS, runMigrations };
