@@ -79,7 +79,7 @@ async function main() {
   console.log(`[backfill-names] Done. ${filled} names filled → raw-cards.json`);
 
   // Re-run clean-cards to regenerate cards.json with the new names
-  const { cleanCards } = require('./clean-cards');
+  const { cleanCards } = require('../pipeline/clean-cards');
   cleanCards();
   console.log('[backfill-names] cards.json regenerated.');
 }

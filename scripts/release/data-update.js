@@ -15,7 +15,7 @@ const DATA_VER = 'data-version.json';
 function buildRawBase(dataTag) {
   let ref = dataTag || process.env.RUSH_DATA_TAG;
   if (!ref) {
-    try { ref = 'v' + require('../package.json').version; } catch {}
+    try { ref = 'v' + require('../../package.json').version; } catch {}
   }
   const refStr = ref ? `refs/tags/${ref}` : 'main';
   return `https://raw.githubusercontent.com/${REPO}/${refStr}/data`;

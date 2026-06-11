@@ -2,8 +2,8 @@
 
 const fs = require('fs');
 const path = require('path');
-const { writeJsonAtomic } = require('./lib/fs-atomic');
-const { DATA_DIR }        = require('./lib/paths');
+const { writeJsonAtomic } = require('../lib/fs-atomic');
+const { DATA_DIR }        = require('../lib/paths');
 
 // ── Wiki markup ──────────────────────────────────────────────────────────────
 
@@ -89,7 +89,7 @@ function parseSets(raw) {
 
 // Reads data/raw-cards.json (raw Yugipedia fetch) and writes data/cards.json
 // (the cleaned file the app serves). Exported so sync-cards.js / tag-legends.js
-// can run it in-process; also runnable standalone: `node scripts/clean-cards.js`.
+// can run it in-process; also runnable standalone: `node scripts/pipeline/clean-cards.js`.
 function cleanCards() {
 const raw = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'raw-cards.json'), 'utf8'));
 
@@ -134,5 +134,5 @@ return cleaned;
 
 module.exports = { cleanCards };
 
-// Run directly: `node scripts/clean-cards.js`
+// Run directly: `node scripts/pipeline/clean-cards.js`
 if (require.main === module) cleanCards();

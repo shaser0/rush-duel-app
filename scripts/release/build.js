@@ -15,7 +15,7 @@ function includeInRelease(src) {
   return true;
 }
 
-const PKG = path.join(__dirname, '../node_modules/.bin/pkg');
+const PKG = path.join(__dirname, '../../node_modules/.bin/pkg');
 const pkgEnv = { ...process.env, NODE_OPTIONS: '--use-system-ca' };
 execSync(`"${PKG}" . --targets node22-win-x64   --options use-system-ca --output dist/rush-app-win.exe`, { stdio: 'inherit', env: pkgEnv });
 execSync(`"${PKG}" . --targets node22-linux-x64 --options use-system-ca --output dist/rush-app-linux`,   { stdio: 'inherit', env: pkgEnv });

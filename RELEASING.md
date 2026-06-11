@@ -8,7 +8,7 @@ Ce document décrit les changements apportés à la chaîne de mise à jour dans
 
 ### Item 15 — Vérification SHA-256 du binaire téléchargé (T2/F1)
 
-**Fichiers modifiés :** `scripts/update.js`, `server.js`
+**Fichiers modifiés :** `scripts/release/update.js`, `server.js`
 
 Avant, le binaire téléchargé depuis GitHub était installé tel quel, sans aucun contrôle d'intégrité. Un compte GitHub compromis ou un redirect HTTP intercepté suffisait pour livrer un binaire malveillant.
 
@@ -36,7 +36,7 @@ Ce fichier est généré automatiquement par `npm run build` (voir ci-dessous).
 
 ### Item 16 — Hashes des fichiers de données dans `data-version.json` (T2/F4)
 
-**Fichiers modifiés :** `scripts/data-update.js`, `data/data-version.json`, `server.js`
+**Fichiers modifiés :** `scripts/release/data-update.js`, `data/data-version.json`, `server.js`
 
 Avant, les fichiers JSON téléchargés (`cards.json`, `sets-data.json`, etc.) étaient installés sans vérification d'intégrité. Un manifeste falsifié pouvait livrer des données altérées ou contenant du XSS.
 
@@ -68,7 +68,7 @@ Le champ `hashes` est généré automatiquement par `npm run hash-data` (voir ci
 
 ### Item 17 — URL versionnée plutôt que branche `main` (T2/F5)
 
-**Fichiers modifiés :** `scripts/data-update.js`
+**Fichiers modifiés :** `scripts/release/data-update.js`
 
 Avant, les données étaient toujours téléchargées depuis `main/data`, ce qui signifiait que tout commit sur `main` constituait immédiatement une mise à jour disponible — sans processus de release, sans validation.
 
@@ -87,7 +87,7 @@ Pour les binaires distribués, la version du `package.json` embarqué est utilis
 
 ## Nouveau script : `npm run hash-data`
 
-**Fichier :** `scripts/hash-data.js`
+**Fichier :** `scripts/release/hash-data.js`
 
 Calcule le SHA-256 de chaque fichier listé dans `data/data-version.json` et écrit le résultat dans le champ `hashes` du manifeste.
 

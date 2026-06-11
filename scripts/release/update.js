@@ -20,7 +20,7 @@ function assetName() {
 }
 
 function currentVersion() {
-  try { return require('../package.json').version; }
+  try { return require('../../package.json').version; }
   catch { return '0.0.0'; }
 }
 

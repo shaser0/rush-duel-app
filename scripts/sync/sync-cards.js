@@ -1,12 +1,12 @@
 'use strict';
 
-require('./lib/http').ensureSystemCa(__filename);
+require('../lib/http').ensureSystemCa(__filename);
 
 const fs           = require('fs');
-const { fetchJson, sleep } = require('./lib/http');
-const { writeJsonAtomic }  = require('./lib/fs-atomic');
-const { DATA_DIR }         = require('./lib/paths');
-const { cleanCards } = require('./clean-cards');
+const { fetchJson, sleep } = require('../lib/http');
+const { writeJsonAtomic }  = require('../lib/fs-atomic');
+const { DATA_DIR }         = require('../lib/paths');
+const { cleanCards } = require('../pipeline/clean-cards');
 
 // ── Config ───────────────────────────────────────────────────────────────────
 

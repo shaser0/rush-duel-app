@@ -9,7 +9,7 @@
 const https        = require('https');
 const fs           = require('fs');
 const path         = require('path');
-const { cleanCards } = require('./clean-cards');
+const { cleanCards } = require('../pipeline/clean-cards');
 
 const CARDS_FILE = path.join(__dirname, '../data/raw-cards.json');
 const RATE_MS    = 1100;

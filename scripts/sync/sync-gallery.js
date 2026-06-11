@@ -2,13 +2,13 @@
 
 // On Windows, Node.js does not trust the Windows certificate store by default.
 // Re-spawn with --use-system-ca so HTTPS fetches work without CA errors.
-require('./lib/http').ensureSystemCa(__filename);
+require('../lib/http').ensureSystemCa(__filename);
 
 const fs    = require('fs');
 const path  = require('path');
-const { fetchJson, sleep } = require('./lib/http');
-const { writeJsonAtomic }  = require('./lib/fs-atomic');
-const { DATA_DIR, YUGIPEDIA_API: API } = require('./lib/paths');
+const { fetchJson, sleep } = require('../lib/http');
+const { writeJsonAtomic }  = require('../lib/fs-atomic');
+const { DATA_DIR, YUGIPEDIA_API: API } = require('../lib/paths');
 
 const CARDS_FILE  = path.join(DATA_DIR, 'cards.json');
 const OUT_FILE    = path.join(DATA_DIR, 'gallery-images.json');

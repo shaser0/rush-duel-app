@@ -5,16 +5,16 @@
 // most recent list is found, then saves data/banlist.json.
 // Format: { "Card Name": "Forbidden" | "Limited" | "Semi-Limited" }
 //
-// Usage:  node scripts/sync-banlist.js
+// Usage:  node scripts/sync/sync-banlist.js
 //         node --use-system-ca scripts/sync-banlist.js   (Windows TLS fix)
 
 // On Windows, re-spawn with --use-system-ca if needed so HTTPS works.
-require('./lib/http').ensureSystemCa(__filename);
+require('../lib/http').ensureSystemCa(__filename);
 
 const path  = require('path');
-const { fetchJson, sleep }  = require('./lib/http');
-const { writeJsonAtomic }   = require('./lib/fs-atomic');
-const { DATA_DIR, YUGIPEDIA_API: API } = require('./lib/paths');
+const { fetchJson, sleep }  = require('../lib/http');
+const { writeJsonAtomic }   = require('../lib/fs-atomic');
+const { DATA_DIR, YUGIPEDIA_API: API } = require('../lib/paths');
 
 const OUT = path.join(DATA_DIR, 'banlist.json');
 

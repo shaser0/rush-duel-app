@@ -5,11 +5,11 @@
 // RUSH_DATA_DIR points to the real data/ folder next to the binary.
 if (process.env.RUSH_SYNC) {
   const mode = process.env.RUSH_SYNC;
-  if (mode === 'cards')   { require('./scripts/sync-cards');   return; }
-  if (mode === 'sets')    { require('./scripts/sync-sets');    return; }
-  if (mode === 'gallery') { require('./scripts/sync-gallery'); return; }
+  if (mode === 'cards')   { require('./scripts/sync/sync-cards');   return; }
+  if (mode === 'sets')    { require('./scripts/sync/sync-sets');    return; }
+  if (mode === 'gallery') { require('./scripts/sync/sync-gallery'); return; }
   if (mode === 'banlist') {
-    require('./scripts/sync-banlist').syncBanlist()
+    require('./scripts/sync/sync-banlist').syncBanlist()
       .catch(e => { console.error(e); process.exit(1); });
     return;
   }
@@ -21,6 +21,7 @@ const express = require('express');
 const path    = require('path');
 const fs      = require('fs');
 const { spawn, exec } = require('child_process');
+const { writeJsonAtomic } = require('./scripts/lib/fs-atomic');
 
 const app  = express();
 const PORT = process.env.PORT || 3000;
@@ -61,10 +62,10 @@ const STALE_FILE = {
 };
 
 const SYNCS = {
-  cards:   { script: 'scripts/sync-cards.js',   nodeArgs: [], running: false, exitCode: null },
-  sets:    { script: 'scripts/sync-sets.js',    nodeArgs: [], running: false, exitCode: null },
-  gallery: { script: 'scripts/sync-gallery.js', nodeArgs: [], running: false, exitCode: null },
-  banlist: { script: 'scripts/sync-banlist.js', nodeArgs: [], running: false, exitCode: null },
+  cards:   { script: 'scripts/sync/sync-cards.js',   nodeArgs: [], running: false, exitCode: null },
+  sets:    { script: 'scripts/sync/sync-sets.js',    nodeArgs: [], running: false, exitCode: null },
+  gallery: { script: 'scripts/sync/sync-gallery.js', nodeArgs: [], running: false, exitCode: null },
+  banlist: { script: 'scripts/sync/sync-banlist.js', nodeArgs: [], running: false, exitCode: null },
 };
 
 function isStale(name) {
@@ -149,14 +150,7 @@ function loadCollections() {
   catch { return { activeId: null, collections: [] }; }
 }
 function saveCollections(data) {
-  const tmp = COLLECTIONS_FILE + '.tmp';
-  fs.writeFileSync(tmp, JSON.stringify(data, null, 2), 'utf8');
-  try {
-    fs.renameSync(tmp, COLLECTIONS_FILE);
-  } catch (e) {
-    try { fs.unlinkSync(tmp); } catch {}
-    throw e;
-  }
+  writeJsonAtomic(COLLECTIONS_FILE, data);
 }
 
 // ── Decks (deck builder, saved to data/decks.json) ──────────────────────────
@@ -168,14 +162,7 @@ function loadDecks() {
   catch { return { activeId: null, decks: [] }; }
 }
 function saveDecks(data) {
-  const tmp = DECKS_FILE + '.tmp';
-  fs.writeFileSync(tmp, JSON.stringify(data, null, 2), 'utf8');
-  try {
-    fs.renameSync(tmp, DECKS_FILE);
-  } catch (e) {
-    try { fs.unlinkSync(tmp); } catch {}
-    throw e;
-  }
+  writeJsonAtomic(DECKS_FILE, data);
 }
 
 // ── Middleware ─────────────────────────────────────────────────────────────
@@ -307,7 +294,7 @@ if (process.pkg) {
 
 // ── Binary update API ──────────────────────────────────────────────────────
 
-const { checkUpdate, downloadUpdate, writeApplyScript } = require('./scripts/update');
+const { checkUpdate, downloadUpdate, writeApplyScript } = require('./scripts/release/update');
 
 app.get('/api/update/check', async (req, res) => {
   try {
@@ -341,7 +328,7 @@ app.post('/api/update/apply', async (req, res) => {
 
 // ── Data update API ────────────────────────────────────────────────────────
 
-const { checkDataUpdate, downloadData } = require('./scripts/data-update');
+const { checkDataUpdate, downloadData } = require('./scripts/release/data-update');
 
 app.get('/api/data/check', async (req, res) => {
   try {
@@ -367,7 +354,7 @@ app.post('/api/data/apply', async (req, res) => {
     });
     // Write updated local data-version.json
     const verPath = path.join(APP_DIR, 'data', 'data-version.json');
-    fs.writeFileSync(verPath, JSON.stringify(info.remoteManifest, null, 2), 'utf8');
+    writeJsonAtomic(verPath, info.remoteManifest);
     res.write(JSON.stringify({ done: true, version: info.remoteVersion }) + '\n');
   } catch (e) {
     res.write(JSON.stringify({ error: e.message }) + '\n');
@@ -377,7 +364,7 @@ app.post('/api/data/apply', async (req, res) => {
 
 // ── Migrations ─────────────────────────────────────────────────────────────
 
-const { CURRENT: SCHEMA_CURRENT, runMigrations } = require('./scripts/migrations');
+const { CURRENT: SCHEMA_CURRENT, runMigrations } = require('./scripts/pipeline/migrations');
 const SCHEMA_FILE = path.join(APP_DIR, 'data', 'schema.json');
 
 function loadSchema() {
@@ -387,9 +374,7 @@ function loadSchema() {
 
 function saveSchema(schema) {
   try {
-    const tmp = SCHEMA_FILE + '.tmp';
-    fs.writeFileSync(tmp, JSON.stringify(schema, null, 2), 'utf8');
-    fs.renameSync(tmp, SCHEMA_FILE);
+    writeJsonAtomic(SCHEMA_FILE, schema);
   } catch (e) { console.error('[migrations] Failed to save schema.json:', e.message); }
 }
 

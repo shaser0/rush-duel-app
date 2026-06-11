@@ -11,7 +11,7 @@ const crypto = require('crypto');
 const fs     = require('fs');
 const path   = require('path');
 
-const DATA_DIR = path.join(__dirname, '../data');
+const DATA_DIR = path.join(__dirname, '../../data');
 const VER_PATH = path.join(DATA_DIR, 'data-version.json');
 
 const manifest = JSON.parse(fs.readFileSync(VER_PATH, 'utf8'));
