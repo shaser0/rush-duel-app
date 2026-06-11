@@ -11,6 +11,10 @@ audit/
 dist/
 *.zip
 
+# Generated documentation
+AUDIT-BRIEFING.md
+RELEASING.md
+
 # Auto-updater artifacts (written at runtime)
 *.new
 apply-update.bat
