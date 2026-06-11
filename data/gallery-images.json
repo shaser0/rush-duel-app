@@ -1264,8 +1264,7 @@
     "GalacticaOblivion-RDKP09-JP-UR.png",
     "GalacticaOblivion-RDGRD1-JP-NPR.png",
     "GalacticaOblivion-RDD002-JP-RRRed.png",
-    "GalacticaOblivion-RDS224-JP-ScR.png",
-    "GalacticaOblivion-RDKP25-JP-FORR.png"
+    "GalacticaOblivion-RDS224-JP-ScR.png"
   ],
   "Galactica Rising Oblivion": [
     "GalacticaRisingOblivion-RDKP25-JP-SR.png",
@@ -1375,8 +1374,7 @@
     "AlphaTheEternalMagnetWarrior-RDORP2-JP-ScR.png"
   ],
   "Alpha The Magnet Warrior": [
-    "AlphaTheMagnetWarrior-RDORP2-JP-SR.png",
-    "AlphaTheMagnetWarrior-RDORP2-JP-UPR.png"
+    "AlphaTheMagnetWarrior-RDORP2-JP-SR.png"
   ],
   "Animagica Leader": [
     "AnimagicaLeader-RDORP2-JP-UR.png",
@@ -1387,14 +1385,12 @@
     "BetaTheEternalMagnetWarrior-RDORP2-JP-ScR.png"
   ],
   "Beta The Magnet Warrior": [
-    "BetaTheMagnetWarrior-RDORP2-JP-SR.png",
-    "BetaTheMagnetWarrior-RDORP2-JP-UPR.png"
+    "BetaTheMagnetWarrior-RDORP2-JP-SR.png"
   ],
   "Black Skull Dragon": [
     "BlackSkullDragon-RDTB02-JP-C.png",
     "BlackSkullDragon-RDORP2-JP-C.png",
-    "BlackSkullDragon-RDKP16-JP-ORR.png",
-    "BlackSkullDragon-RDORP2-JP-UPR.png"
+    "BlackSkullDragon-RDKP16-JP-ORR.png"
   ],
   "Chaos Femtron": [
     "ChaosFemtron-RDORP2-JP-C.png",
@@ -1868,15 +1864,13 @@
     "SupremeSkystreamMagnumOverlordL-RDVSP1-JP-NPR.png",
     "SupremeSkystreamMagnumOverlordL-RDMAX2-JP-RR.png",
     "SupremeSkystreamMagnumOverlordL-RDMAX2-JP-UR.png",
-    "SupremeSkystreamMagnumOverlordL-RDMAX2-JP-RRRed.png",
-    "SupremeSkystreamMagnumOverlordL-RDVSP1-JP-ORR.png"
+    "SupremeSkystreamMagnumOverlordL-RDMAX2-JP-RRRed.png"
   ],
   "Supreme Skystream Magnum Overlord (R)": [
     "SupremeSkystreamMagnumOverlordR-RDVSP1-JP-NPR.png",
     "SupremeSkystreamMagnumOverlordR-RDMAX2-JP-RR.png",
     "SupremeSkystreamMagnumOverlordR-RDMAX2-JP-UR.png",
-    "SupremeSkystreamMagnumOverlordR-RDMAX2-JP-RRRed.png",
-    "SupremeSkystreamMagnumOverlordR-RDVSP1-JP-ORR.png"
+    "SupremeSkystreamMagnumOverlordR-RDMAX2-JP-RRRed.png"
   ],
   "Acid Trap Hole": [
     "AcidTrapHole-RDLGP2-JP-SR.png",
@@ -8072,5 +8066,14 @@
   ],
   "Gladiness, the Flagbearer of Victory": [
     "GladinesstheFlagbearerofVictory-RDGC26-JP-OP.png"
+  ],
+  "Duel Marker": [
+    "DuelMarker-RDB261-JP-OP-SoleiltheSkysaviorAngel.png"
+  ],
+  "Gavin Sogetsu": [
+    "GavinSogetsu-RDSC01-JP-OP.png"
+  ],
+  "Romin Kassidy": [
+    "RominKassidy-RDSC01-JP-OP.png"
   ]
 }
