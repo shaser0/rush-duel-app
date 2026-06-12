@@ -425,6 +425,52 @@ button,input,select{font-family:inherit}
 #dbp-sets td{padding:2px 6px 2px 0;font-size:11px;vertical-align:top}
 .dbp-sel{border-color:var(--accent) !important}
 @media(max-width:760px){#dbp-layout{flex-direction:column}#dbp-info{width:100%;position:static;max-height:none}}
+
+/* ── Online Duel ────────────────────────────────────────────────────────── */
+#screen-online{display:none;flex-direction:column;align-items:center;justify-content:center;min-height:calc(100vh - 50px);padding:24px}
+#screen-online.active{display:flex}
+.ol-view{width:100%;max-width:560px}
+.ol-view.hidden{display:none}
+.ol-card{background:var(--bg2);border:1px solid var(--border);border-radius:14px;padding:28px 28px 24px;display:flex;flex-direction:column;gap:16px}
+.ol-title{font-size:20px;font-weight:800;color:var(--gold)}
+.ol-desc{font-size:13px;color:var(--muted);line-height:1.45}
+.ol-field{display:flex;flex-direction:column;gap:5px}
+.ol-field label{font-size:12px;color:var(--muted);font-weight:600}
+.ol-input{padding:9px 12px;background:var(--bg3);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:14px;width:100%}
+.ol-input:focus{outline:none;border-color:var(--accent)}
+.ol-actions{display:flex;flex-direction:column;gap:10px}
+.ol-separator{text-align:center;color:var(--muted);font-size:12px;position:relative;line-height:1}
+.ol-separator::before,.ol-separator::after{content:'';position:absolute;top:50%;width:42%;height:1px;background:var(--border)}
+.ol-separator::before{left:0}.ol-separator::after{right:0}
+.ol-join-row{display:flex;gap:8px}
+.ol-join-row .ol-input{flex:1}
+.ol-join-row .btn-p{flex-shrink:0;padding:9px 18px;font-size:14px}
+.ol-err{color:#f44336;font-size:12px;padding:6px 10px;background:rgba(244,67,54,.08);border:1px solid rgba(244,67,54,.3);border-radius:6px}
+.ol-err.hidden{display:none}
+.ol-room-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:8px}
+.ol-room-code-label{font-size:12px;color:var(--muted)}
+.ol-room-code{font-size:22px;font-weight:800;color:var(--gold);letter-spacing:3px;margin:0 8px}
+.ol-copy{background:none;border:1px solid var(--border);border-radius:5px;padding:3px 7px;color:var(--muted);cursor:pointer;font-size:12px;transition:border-color .15s}
+.ol-copy:hover{border-color:var(--accent);color:var(--text)}
+.ol-room-body{display:flex;gap:14px;align-items:flex-start}
+@media(max-width:520px){.ol-room-body{flex-direction:column}}
+.ol-presence{width:160px;flex-shrink:0;background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:10px;display:flex;flex-direction:column;gap:8px}
+@media(max-width:520px){.ol-presence{width:100%}}
+.ol-presence-title{font-size:11px;font-weight:700;color:var(--gold);text-transform:uppercase;letter-spacing:.5px}
+.ol-player{display:flex;align-items:center;gap:7px}
+.ol-player-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.ol-player-dot.online{background:#4caf50}.ol-player-dot.offline{background:var(--muted)}
+.ol-player-name{font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ol-player-empty .ol-player-name{color:var(--muted);font-style:italic}
+.ol-chat{flex:1;min-width:0;display:flex;flex-direction:column;gap:8px}
+.ol-messages{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:10px;height:320px;overflow-y:auto;display:flex;flex-direction:column;gap:5px}
+.ol-msg{font-size:13px;line-height:1.4}
+.ol-msg-who{font-weight:700;color:var(--accent);margin-right:6px}
+.ol-msg-text{color:var(--text)}
+.ol-msg-sys{color:var(--muted);font-style:italic;font-size:12px}
+.ol-chat-input{display:flex;gap:8px}
+.ol-chat-input .ol-input{flex:1}
+.ol-chat-input .btn-p{flex-shrink:0;padding:9px 16px;font-size:14px}
 </style>
 </head>
 <body>
@@ -498,6 +544,11 @@ button,input,select{font-family:inherit}
         <span class="mt-icon">🔍</span>
         <span class="mt-name">Card Database</span>
         <span class="mt-desc">Search &amp; inspect all cards in the game</span>
+      </button>
+      <button class="menu-tile" data-go="screen-online" style="grid-column:1/-1">
+        <span class="mt-icon">🌐</span>
+        <span class="mt-name">Duel en ligne</span>
+        <span class="mt-desc">Affronte un ami via ZeroTier / Tailscale</span>
       </button>
     </div>
   </div>
@@ -776,6 +827,54 @@ button,input,select{font-family:inherit}
         <div id="db-extra" class="db-grid"></div>
       </div>
       <button id="db-save">Save Deck</button>
+    </div>
+  </div>
+</section>
+
+<!-- Online Duel -->
+<section class="screen" id="screen-online">
+  <!-- Lobby -->
+  <div id="ol-lobby" class="ol-view">
+    <div class="ol-card">
+      <h2 class="ol-title">🌐 Duel en ligne</h2>
+      <p class="ol-desc">Joue contre un ami via ZeroTier ou Tailscale. L'hôte lance le serveur avec <code style="background:var(--bg3);padding:1px 5px;border-radius:3px;font-size:12px">ONLINE_MODE=1 npm start</code>, puis partage le code de room à son adversaire.</p>
+      <div class="ol-field">
+        <label for="ol-pseudo">Ton pseudo</label>
+        <input id="ol-pseudo" class="ol-input" type="text" maxlength="20" placeholder="Entrez votre pseudo…" autocomplete="off">
+      </div>
+      <div class="ol-actions">
+        <button id="ol-host-btn" class="btn-p">Héberger un duel</button>
+        <div class="ol-separator">ou</div>
+        <div class="ol-join-row">
+          <input id="ol-code" class="ol-input" type="text" maxlength="6" placeholder="Code de room" autocomplete="off" autocapitalize="characters" style="text-transform:uppercase">
+          <button id="ol-join-btn" class="btn-p">Rejoindre</button>
+        </div>
+      </div>
+      <p id="ol-error" class="ol-err hidden" role="alert"></p>
+    </div>
+  </div>
+  <!-- Room view -->
+  <div id="ol-room-view" class="ol-view hidden" style="max-width:720px">
+    <div class="ol-room-header">
+      <div style="display:flex;align-items:center;gap:4px">
+        <span class="ol-room-code-label">Code room :</span>
+        <span id="ol-room-code" class="ol-room-code">——</span>
+        <button id="ol-copy-btn" class="ol-copy" title="Copier le code">📋</button>
+      </div>
+      <button id="ol-leave-btn" class="btn-back">Quitter la room</button>
+    </div>
+    <div class="ol-room-body">
+      <div class="ol-presence">
+        <div class="ol-presence-title">Joueurs</div>
+        <div id="ol-presence-list"></div>
+      </div>
+      <div class="ol-chat">
+        <div id="ol-messages" class="ol-messages"></div>
+        <div class="ol-chat-input">
+          <input id="ol-chat-inp" class="ol-input" type="text" maxlength="500" placeholder="Message…" autocomplete="off">
+          <button id="ol-send-btn" class="btn-p">Envoyer</button>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -1556,8 +1655,9 @@ const SCREEN_SECTION={
   'screen-deckbuilder':'deckbuilder',
   'screen-allsets':'packs',
   'screen-database':'database',
+  'screen-online':'online',
 };
-const SECTION_TITLE={home:'',packs:'Open Packs',collection:'My Collection',deckbuilder:'Deck Builder',database:'Card Database'};
+const SECTION_TITLE={home:'',packs:'Open Packs',collection:'My Collection',deckbuilder:'Deck Builder',database:'Card Database',online:'Duel en ligne'};
 
 function goTo(id){
   document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
@@ -1575,6 +1675,7 @@ function goTo(id){
   if(id==='screen-deckbuilder') initDeckBuilder();
   if(id==='screen-allsets') renderAllSets();
   if(id==='screen-database') initDatabasePage();
+  if(id==='screen-online') initOnline();
 }
 
 function toast(msg){
@@ -3409,6 +3510,217 @@ function initUpdatePanel(){
       msg.textContent='Error: '+e.message;
       btn.disabled=false;
     }
+  });
+}
+
+/* ═══════════════════════════════════════════════════════
+   ONLINE DUEL
+═══════════════════════════════════════════════════════ */
+
+let _olSocket     = null;  // Socket.IO socket instance
+let _olRoomCode   = null;  // current room code
+let _olListenersOn = false; // ensure listeners are registered once
+
+function _olEl(id){ return document.getElementById(id); }
+
+// ── View switching ─────────────────────────────────────────────────────────
+function _olShowView(view){
+  _olEl('ol-lobby').classList.toggle('hidden',    view !== 'lobby');
+  _olEl('ol-room-view').classList.toggle('hidden', view !== 'room');
+}
+
+// ── Error display ──────────────────────────────────────────────────────────
+function _olShowError(msg){
+  const el = _olEl('ol-error');
+  el.textContent = msg;
+  el.classList.remove('hidden');
+}
+function _olClearError(){
+  const el = _olEl('ol-error');
+  el.textContent = '';
+  el.classList.add('hidden');
+}
+
+// ── Presence rendering (no innerHTML for user data) ────────────────────────
+function _olRenderPresence(players){
+  const el = _olEl('ol-presence-list');
+  el.innerHTML = '';
+  players.forEach(p => {
+    const row  = document.createElement('div');
+    row.className = 'ol-player';
+    const dot  = document.createElement('span');
+    dot.className = 'ol-player-dot online';
+    const name = document.createElement('span');
+    name.className = 'ol-player-name';
+    name.textContent = p.pseudo + (p.isHost ? ' 👑' : '');
+    row.appendChild(dot);
+    row.appendChild(name);
+    el.appendChild(row);
+  });
+  if(players.length < 2){
+    const row  = document.createElement('div');
+    row.className = 'ol-player ol-player-empty';
+    const dot  = document.createElement('span');
+    dot.className = 'ol-player-dot offline';
+    const name = document.createElement('span');
+    name.className = 'ol-player-name';
+    name.textContent = 'En attente d\'un adversaire…';
+    row.appendChild(dot);
+    row.appendChild(name);
+    el.appendChild(row);
+  }
+}
+
+// ── Chat message rendering (no innerHTML for user data) ────────────────────
+function _olAppendMsg(msg){
+  const el   = _olEl('ol-messages');
+  const div  = document.createElement('div');
+  div.className = 'ol-msg';
+  const who  = document.createElement('span');
+  who.className = 'ol-msg-who';
+  who.textContent = msg.pseudo;
+  const text = document.createElement('span');
+  text.className = 'ol-msg-text';
+  text.textContent = msg.text;
+  div.appendChild(who);
+  div.appendChild(text);
+  el.appendChild(div);
+  el.scrollTop = el.scrollHeight;
+}
+
+function _olAppendSysMsg(text){
+  const el  = _olEl('ol-messages');
+  const div = document.createElement('div');
+  div.className = 'ol-msg ol-msg-sys';
+  div.textContent = text;
+  el.appendChild(div);
+  el.scrollTop = el.scrollHeight;
+}
+
+function _olRenderHistory(msgs){
+  _olEl('ol-messages').innerHTML = '';
+  msgs.forEach(_olAppendMsg);
+}
+
+// ── Socket lifecycle ───────────────────────────────────────────────────────
+function _olLoadSocketScript(){
+  if(window.io) return Promise.resolve();
+  return new Promise((resolve, reject) => {
+    const s  = document.createElement('script');
+    s.src    = '/socket.io/socket.io.js';
+    s.onload = resolve;
+    s.onerror = () => reject(new Error('Socket.IO script not found. Relancez avec ONLINE_MODE=1 npm start.'));
+    document.head.appendChild(s);
+  });
+}
+
+async function _olEnsureSocket(){
+  if(_olSocket && _olSocket.connected) return true;
+
+  try {
+    await _olLoadSocketScript();
+  } catch(e) {
+    _olShowError(e.message);
+    return false;
+  }
+
+  _olSocket = window.io({ reconnectionAttempts: 5 });
+
+  _olSocket.on('room:created', ({ code, presence, history }) => {
+    _olRoomCode = code;
+    _olEl('ol-room-code').textContent = code;
+    _olRenderPresence(presence);
+    _olRenderHistory(history);
+    _olShowView('room');
+  });
+
+  _olSocket.on('room:joined', ({ code, presence, history }) => {
+    _olRoomCode = code;
+    _olEl('ol-room-code').textContent = code;
+    _olRenderPresence(presence);
+    _olRenderHistory(history);
+    _olShowView('room');
+  });
+
+  _olSocket.on('room:error', ({ message }) => {
+    _olShowError(message);
+  });
+
+  _olSocket.on('presence:update', _olRenderPresence);
+  _olSocket.on('chat:message',    _olAppendMsg);
+
+  _olSocket.on('player:left', ({ pseudo }) => {
+    _olAppendSysMsg(pseudo + ' a quitté la room.');
+  });
+
+  _olSocket.on('disconnect', () => {
+    _olAppendSysMsg('Connexion perdue.');
+  });
+
+  return true;
+}
+
+// ── Actions ────────────────────────────────────────────────────────────────
+function _olHost(){
+  const pseudo = _olEl('ol-pseudo').value.trim();
+  if(!pseudo){ _olShowError('Entre un pseudo (1–20 caractères).'); return; }
+  _olClearError();
+  _olEnsureSocket().then(ok => {
+    if(ok) _olSocket.emit('room:create', { pseudo });
+  });
+}
+
+function _olJoin(){
+  const pseudo = _olEl('ol-pseudo').value.trim();
+  const code   = _olEl('ol-code').value.trim().toUpperCase();
+  if(!pseudo){ _olShowError('Entre un pseudo.'); return; }
+  if(code.length !== 6){ _olShowError('Le code de room fait exactement 6 caractères.'); return; }
+  _olClearError();
+  _olEnsureSocket().then(ok => {
+    if(ok) _olSocket.emit('room:join', { pseudo, code });
+  });
+}
+
+function _olSend(){
+  const inp  = _olEl('ol-chat-inp');
+  const text = inp.value.trim();
+  if(!text || !_olSocket) return;
+  _olSocket.emit('chat:message', { text });
+  inp.value = '';
+}
+
+function _olLeave(){
+  if(_olSocket){ _olSocket.disconnect(); _olSocket = null; }
+  _olRoomCode = null;
+  _olEl('ol-messages').innerHTML = '';
+  _olEl('ol-presence-list').innerHTML = '';
+  _olClearError();
+  _olShowView('lobby');
+}
+
+// ── Init (called each time the screen becomes active) ──────────────────────
+function initOnline(){
+  if(_olRoomCode){
+    // Already in a room — stay on room view.
+    _olShowView('room');
+    return;
+  }
+  _olShowView('lobby');
+  if(_olListenersOn) return;
+  _olListenersOn = true;
+
+  _olEl('ol-host-btn').addEventListener('click', _olHost);
+  _olEl('ol-join-btn').addEventListener('click', _olJoin);
+  _olEl('ol-send-btn').addEventListener('click', _olSend);
+  _olEl('ol-leave-btn').addEventListener('click', _olLeave);
+  _olEl('ol-chat-inp').addEventListener('keydown', e => {
+    if(e.key === 'Enter' && !e.shiftKey){ e.preventDefault(); _olSend(); }
+  });
+  _olEl('ol-copy-btn').addEventListener('click', () => {
+    if(!_olRoomCode) return;
+    navigator.clipboard.writeText(_olRoomCode)
+      .then(() => toast('Code copié !'))
+      .catch(() => toast(_olRoomCode));
   });
 }
 

@@ -16,14 +16,16 @@ if (process.env.RUSH_SYNC) {
   process.exit(1);
 }
 
+const http    = require('http');
 const express = require('express');
 const path    = require('path');
 const fs      = require('fs');
 const { spawn, exec } = require('child_process');
 const { writeJsonAtomic } = require('./scripts/lib/fs-atomic');
 
-const app  = express();
-const PORT = process.env.PORT || 3000;
+const app        = express();
+const httpServer = http.createServer(app);
+const PORT       = process.env.PORT || 3000;
 
 // When running as a pkg .exe, resolve data files from the real exe directory
 const APP_DIR = process.pkg ? path.dirname(process.execPath) : __dirname;
@@ -166,7 +168,8 @@ function saveDecks(data) {
 
 // ── Middleware ─────────────────────────────────────────────────────────────
 
-// Derived from PORT so the app still works when PORT is overridden via env.
+// In local mode: restrict to localhost origins only.
+// In online mode: allow any origin (players connect from VPN IPs).
 const ALLOWED_ORIGINS = new Set([
   `http://localhost:${PORT}`,
   `http://127.0.0.1:${PORT}`,
@@ -174,8 +177,10 @@ const ALLOWED_ORIGINS = new Set([
 
 app.use((req, res, next) => {
   const origin = req.headers.origin;
-  if (origin && !ALLOWED_ORIGINS.has(origin)) {
-    return res.status(403).json({ error: 'forbidden origin' });
+  if (!process.env.ONLINE_MODE) {
+    if (origin && !ALLOWED_ORIGINS.has(origin)) {
+      return res.status(403).json({ error: 'forbidden origin' });
+    }
   }
   if (origin) res.setHeader('Access-Control-Allow-Origin', origin);
   res.setHeader('Vary', 'Origin');
@@ -277,7 +282,7 @@ function openBrowser(url) {
 
 // ── Heartbeat / auto-shutdown (packaged exe only) ──────────────────────────
 
-if (process.pkg) {
+if (process.pkg && !process.env.ONLINE_MODE) {
   let lastSeen = null;
   let watchdog = null;
 
@@ -292,75 +297,78 @@ if (process.pkg) {
   });
 }
 
-// ── Binary update API ──────────────────────────────────────────────────────
+// ── Binary update API (local mode only) ───────────────────────────────────
 
-const { checkUpdate, downloadUpdate, writeApplyScript } = require('./scripts/release/update');
+if (!process.env.ONLINE_MODE) {
+  const { checkUpdate, downloadUpdate, writeApplyScript } = require('./scripts/release/update');
 
-app.get('/api/update/check', async (req, res) => {
-  try {
-    const info = await checkUpdate();
-    res.json(info);
-  } catch (e) {
-    res.status(500).json({ error: e.message });
-  }
-});
-
-app.post('/api/update/apply', async (req, res) => {
-  res.setHeader('Content-Type', 'application/x-ndjson');
-  res.setHeader('Transfer-Encoding', 'chunked');
-  res.flushHeaders();
-  try {
-    const info = await checkUpdate();
-    if (!info.hasUpdate || !info.downloadUrl) {
-      res.write(JSON.stringify({ done: true, alreadyUpToDate: true }) + '\n');
-      return res.end();
+  app.get('/api/update/check', async (req, res) => {
+    try {
+      const info = await checkUpdate();
+      res.json(info);
+    } catch (e) {
+      res.status(500).json({ error: e.message });
     }
-    await downloadUpdate(info.downloadUrl, info.release, APP_DIR, pct => {
-      res.write(JSON.stringify({ progress: Math.round(pct * 100) / 100 }) + '\n');
-    });
-    const script = writeApplyScript(APP_DIR);
-    res.write(JSON.stringify({ done: true, version: info.latest, script }) + '\n');
-  } catch (e) {
-    res.write(JSON.stringify({ error: e.message }) + '\n');
-  }
-  res.end();
-});
+  });
 
-// ── Data update API ────────────────────────────────────────────────────────
-
-const { checkDataUpdate, downloadData } = require('./scripts/release/data-update');
-
-app.get('/api/data/check', async (req, res) => {
-  try {
-    const info = await checkDataUpdate(APP_DIR);
-    res.json(info);
-  } catch (e) {
-    res.status(500).json({ error: e.message });
-  }
-});
-
-app.post('/api/data/apply', async (req, res) => {
-  res.setHeader('Content-Type', 'application/x-ndjson');
-  res.setHeader('Transfer-Encoding', 'chunked');
-  res.flushHeaders();
-  try {
-    const info = await checkDataUpdate(APP_DIR);
-    if (!info.hasUpdate) {
-      res.write(JSON.stringify({ done: true, alreadyUpToDate: true }) + '\n');
-      return res.end();
+  app.post('/api/update/apply', async (req, res) => {
+    res.setHeader('Content-Type', 'application/x-ndjson');
+    res.setHeader('Transfer-Encoding', 'chunked');
+    res.flushHeaders();
+    try {
+      const info = await checkUpdate();
+      if (!info.hasUpdate || !info.downloadUrl) {
+        res.write(JSON.stringify({ done: true, alreadyUpToDate: true }) + '\n');
+        return res.end();
+      }
+      await downloadUpdate(info.downloadUrl, info.release, APP_DIR, pct => {
+        res.write(JSON.stringify({ progress: Math.round(pct * 100) / 100 }) + '\n');
+      });
+      const script = writeApplyScript(APP_DIR);
+      res.write(JSON.stringify({ done: true, version: info.latest, script }) + '\n');
+    } catch (e) {
+      res.write(JSON.stringify({ error: e.message }) + '\n');
     }
-    await downloadData(APP_DIR, info.files, info.hashes, info.rawBase, pct => {
-      res.write(JSON.stringify({ progress: Math.round(pct * 100) / 100 }) + '\n');
-    });
-    // Write updated local data-version.json
-    const verPath = path.join(APP_DIR, 'data', 'data-version.json');
-    writeJsonAtomic(verPath, info.remoteManifest);
-    res.write(JSON.stringify({ done: true, version: info.remoteVersion }) + '\n');
-  } catch (e) {
-    res.write(JSON.stringify({ error: e.message }) + '\n');
-  }
-  res.end();
-});
+    res.end();
+  });
+}
+
+// ── Data update API (local mode only) ─────────────────────────────────────
+
+if (!process.env.ONLINE_MODE) {
+  const { checkDataUpdate, downloadData } = require('./scripts/release/data-update');
+
+  app.get('/api/data/check', async (req, res) => {
+    try {
+      const info = await checkDataUpdate(APP_DIR);
+      res.json(info);
+    } catch (e) {
+      res.status(500).json({ error: e.message });
+    }
+  });
+
+  app.post('/api/data/apply', async (req, res) => {
+    res.setHeader('Content-Type', 'application/x-ndjson');
+    res.setHeader('Transfer-Encoding', 'chunked');
+    res.flushHeaders();
+    try {
+      const info = await checkDataUpdate(APP_DIR);
+      if (!info.hasUpdate) {
+        res.write(JSON.stringify({ done: true, alreadyUpToDate: true }) + '\n');
+        return res.end();
+      }
+      await downloadData(APP_DIR, info.files, info.hashes, info.rawBase, pct => {
+        res.write(JSON.stringify({ progress: Math.round(pct * 100) / 100 }) + '\n');
+      });
+      const verPath = path.join(APP_DIR, 'data', 'data-version.json');
+      writeJsonAtomic(verPath, info.remoteManifest);
+      res.write(JSON.stringify({ done: true, version: info.remoteVersion }) + '\n');
+    } catch (e) {
+      res.write(JSON.stringify({ error: e.message }) + '\n');
+    }
+    res.end();
+  });
+}
 
 // ── Migrations ─────────────────────────────────────────────────────────────
 
@@ -401,13 +409,24 @@ function runStartupMigrations() {
   }
 }
 
+// ── Online mode ────────────────────────────────────────────────────────────
+
+if (process.env.ONLINE_MODE) {
+  require('./online').mount(httpServer);
+}
+
 // ── Start server ───────────────────────────────────────────────────────────
 
-app.listen(PORT, '127.0.0.1', () => {
-  console.log(`Server running at http://localhost:${PORT}`);
+const HOST = process.env.ONLINE_MODE ? '0.0.0.0' : '127.0.0.1';
+
+httpServer.listen(PORT, HOST, () => {
+  console.log(`Server running at http://${HOST === '0.0.0.0' ? 'localhost' : HOST}:${PORT}`);
+  if (process.env.ONLINE_MODE) {
+    console.log(`[online] Listening on 0.0.0.0:${PORT} — reachable via ZeroTier/Tailscale IP`);
+  }
   runStartupMigrations();
 
-  if (process.pkg) openBrowser(`http://localhost:${PORT}`);
+  if (process.pkg && !process.env.ONLINE_MODE) openBrowser(`http://localhost:${PORT}`);
   startStaleSyncs();
   setInterval(startStaleSyncs, CHECK_INTERVAL_MS);
 });
