@@ -1484,8 +1484,9 @@ function confirmGetDeck(set,collId){
     else{ target.cards.push({cardTitle:ent.card.title,rarity,collectedAt:new Date().toISOString(),count:qty}); }
     added+=qty;
     const c=MAP.get(ent.card.title); if(!c) continue;
-    if(isExtraCard(c)) extra[ent.card.title]=qty;
-    else main[ent.card.title]=qty;
+    const dkey=deckKey(ent.card.title,rarity);
+    if(isExtraCard(c)) extra[dkey]=qty;
+    else main[dkey]=qty;
   }
   saveColls(data);
   const decksData=getDecks();

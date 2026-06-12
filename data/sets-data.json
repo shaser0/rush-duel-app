@@ -557,7 +557,21 @@
     "packsPerBox": 0,
     "coverImage": "RDP003-BoosterJP.png",
     "cardsPerPack": null,
-    "declaredSize": 3
+    "declaredSize": 3,
+    "deckContents": {
+      "RD/P003-JP001": {
+        "rarity": "Super Rare",
+        "qty": 1
+      },
+      "RD/P003-JP002": {
+        "rarity": "Super Rare",
+        "qty": 1
+      },
+      "RD/P003-JP003": {
+        "rarity": "Super Parallel Rare",
+        "qty": 1
+      }
+    }
   },
   "Rush Duel The Legend of Duelist Promotion Pack": {
     "releaseDateJP": "February 3, 2024",
@@ -690,7 +704,8 @@
     "packsPerBox": 0,
     "coverImage": "RDSDP1-BoosterKR.png",
     "cardsPerPack": null,
-    "declaredSize": 10
+    "declaredSize": 10,
+    "deckContents": null
   },
   "The Dinosaur Expo 2023 Promotion Pack": {
     "releaseDateJP": "April 3, 2023",
@@ -732,224 +747,3717 @@
     "packsPerBox": 0,
     "coverImage": "RDSBD3-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 45
+    "declaredSize": 45,
+    "deckContents": {
+      "RD/SBD3-JP001": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP002": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP003": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP004": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP005": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP006": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP007": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP008": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP009": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP010": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP011": {
+        "rarity": "C",
+        "qty": 3
+      },
+      "RD/SBD3-JP012": {
+        "rarity": "C",
+        "qty": 3
+      },
+      "RD/SBD3-JP013": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP014": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP015": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP016": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP017": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP018": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SBD3-JP019": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP020": {
+        "rarity": "C",
+        "qty": 3
+      },
+      "RD/SBD3-JP021": {
+        "rarity": "C",
+        "qty": 3
+      },
+      "RD/SBD3-JP022": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP023": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP024": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP025": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP026": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP027": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP028": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP029": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP030": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD3-JP031": {
+        "rarity": "C",
+        "qty": 1
+      }
+    }
   },
   "Structure Deck: The Ultimate Blue-Eyed Legend": {
     "releaseDateJP": "September 30, 2023",
     "packsPerBox": 0,
     "coverImage": "RDSD0A-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 48
+    "declaredSize": 48,
+    "deckContents": {
+      "RD/SD0A-JPS01": {
+        "rarity": "ORR",
+        "qty": 1
+      },
+      "RD/SD0A-JPS02": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0A-JPS03": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0A-JPS04": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0A-JPS05": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0A-JPS06": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0A-JPS07": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0A-JP001": {
+        "rarity": "UR",
+        "qty": 1
+      },
+      "RD/SD0A-JP002": {
+        "rarity": "UR // description :: (alternate artwork)",
+        "qty": 1
+      },
+      "RD/SD0A-JP003": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP004": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP005": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP006": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP007": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP008": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP009": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP010": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP011": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP012": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP013": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP014": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP015": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP016": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP017": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP018": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP019": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP020": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP021": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP022": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD0A-JP023": {
+        "rarity": "C",
+        "qty": 3
+      },
+      "RD/SD0A-JP024": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP025": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD0A-JP026": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0A-JP027": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP028": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP029": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP030": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP031": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP032": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP033": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP034": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP035": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP036": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0A-JP037": {
+        "rarity": "C",
+        "qty": 1
+      }
+    }
   },
   "Strongest Battle Deck Yuga - Hyper Machine Road": {
     "releaseDateJP": "August 21, 2021",
     "packsPerBox": 0,
     "coverImage": "RDSBD1-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 45
+    "declaredSize": 45,
+    "deckContents": {
+      "RD/SBD1-JP001": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP002": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP003": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP004": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP005": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP006": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP007": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP008": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP009": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP010": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP011": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SBD1-JP012": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP013": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP014": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP015": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP016": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SBD1-JP017": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SBD1-JP018": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SBD1-JP019": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP020": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SBD1-JP021": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SBD1-JP022": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/SBD1-JP023": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP024": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP025": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP026": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP027": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP028": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP029": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP030": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP031": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD1-JP032": {
+        "rarity": "Common",
+        "qty": 1
+      }
+    }
   },
   "Structure Deck: Black Magic Ritual": {
     "releaseDateJP": "April 26, 2025",
     "packsPerBox": 0,
     "coverImage": "RDSD0E-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 50
+    "declaredSize": 50,
+    "deckContents": {
+      "RD/SD0E-JPS01": {
+        "rarity": "ORR",
+        "qty": 1
+      },
+      "RD/SD0E-JPS02": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0E-JPS03": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0E-JPS04": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0E-JPS05": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0E-JPS06": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0E-JPS07": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0E-JP001": {
+        "rarity": "UR",
+        "qty": 1
+      },
+      "RD/SD0E-JP002": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP003": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP004": {
+        "rarity": "UR",
+        "qty": 1
+      },
+      "RD/SD0E-JP005": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0E-JP006": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP007": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP008": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP009": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP010": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP011": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP012": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP013": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP014": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP015": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0E-JP016": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0E-JP017": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP018": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP019": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP020": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP021": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP022": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP023": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP024": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP025": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP026": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP027": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP028": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP029": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0E-JP030": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP031": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD0E-JP032": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0E-JP033": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP034": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP035": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP036": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP037": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP038": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP039": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0E-JP040": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0E-JP041": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0E-JP042": {
+        "rarity": "C",
+        "qty": 1
+      }
+    }
   },
   "Go Rush Deck Bonus Cards": {
     "releaseDateJP": "April 29, 2022",
     "packsPerBox": 0,
     "coverImage": "RDGRD-Poster-JP.png",
     "cardsPerPack": null,
-    "declaredSize": 12
+    "declaredSize": 12,
+    "deckContents": {
+      "RD/GRD0-JP001": {
+        "rarity": "Normal Parallel Rare",
+        "qty": 1
+      },
+      "RD/GRD0-JP002": {
+        "rarity": "Normal Parallel Rare",
+        "qty": 1
+      },
+      "RD/GRD0-JP003": {
+        "rarity": "Normal Parallel Rare",
+        "qty": 1
+      },
+      "RD/GRD0-JP004": {
+        "rarity": "Normal Parallel Rare",
+        "qty": 1
+      },
+      "RD/GRD0-JP005": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD0-JP006": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD0-JP007": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD0-JP008": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD0-JP009": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD0-JP010": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD0-JP011": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD0-JP012": {
+        "rarity": "Common",
+        "qty": 1
+      }
+    }
   },
   "Structure Deck: Triumphant Return of the Monarchs": {
     "releaseDateJP": "September 20, 2025",
     "packsPerBox": 0,
     "coverImage": "RDSD0F-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 47
+    "declaredSize": 47,
+    "deckContents": {
+      "RD/SD0F-JPS01": {
+        "rarity": "ORR",
+        "qty": 1
+      },
+      "RD/SD0F-JPS02": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0F-JPS03": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0F-JPS04": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0F-JPS05": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0F-JPS06": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0F-JPS07": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0F-JP001": {
+        "rarity": "UR",
+        "qty": 1
+      },
+      "RD/SD0F-JP002": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP003": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP004": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP005": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0F-JP006": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0F-JP007": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0F-JP008": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD0F-JP009": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD0F-JP010": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP011": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP012": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD0F-JP013": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP014": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP015": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP016": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP017": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP018": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP019": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD0F-JP020": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP021": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD0F-JP022": {
+        "rarity": "UR",
+        "qty": 1
+      },
+      "RD/SD0F-JP023": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP024": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP025": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP026": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP027": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP028": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP029": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0F-JP030": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP031": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP032": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0F-JP033": {
+        "rarity": "NPR",
+        "qty": 1
+      }
+    }
   },
   "Half Deck: Spellcaster Type": {
     "releaseDateJP": "April 4, 2026",
     "packsPerBox": 0,
     "coverImage": "RDTH02-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 21
+    "declaredSize": 21,
+    "deckContents": {
+      "RD/TH02-JP001": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH02-JP002": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH02-JP003": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH02-JP004": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH02-JP005": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH02-JP006": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH02-JP007": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH02-JP008": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH02-JP009": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH02-JP010": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH02-JP011": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH02-JP012": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH02-JP013": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH02-JP014": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH02-JP015": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH02-JP016": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH02-JP017": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH02-JP018": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH02-JP019": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH02-JP020": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH02-JP021": {
+        "rarity": "Common",
+        "qty": 1
+      }
+    }
   },
   "Saikyo Starter Deck": {
     "releaseDateJP": "April 4, 2022",
     "packsPerBox": 0,
     "coverImage": "RDSST1-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 40
+    "declaredSize": 40,
+    "deckContents": {
+      "RD/SST1-JP001": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP002": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP003": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP004": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP005": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP006": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP007": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP008": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP009": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP010": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP011": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP012": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP013": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP014": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP015": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP016": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP017": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP018": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP019": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP020": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP021": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP022": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP023": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP024": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP025": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP026": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP027": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP028": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP029": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP030": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP031": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP032": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP033": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP034": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP035": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP036": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP037": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP038": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP039": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SST1-JP040": {
+        "rarity": "C",
+        "qty": 1
+      }
+    }
   },
   "Strongest Battle Deck Yuamu - Come Forth! High Tech Dragon!": {
     "releaseDateJP": "August 6, 2022",
     "packsPerBox": 0,
     "coverImage": "RDSD03-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 45
+    "declaredSize": 45,
+    "deckContents": {
+      "RD/SD03-JP001": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP002": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SD03-JP003": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP004": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP005": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP006": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP007": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP008": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP009": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP010": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP011": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP012": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP013": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP014": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP015": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP016": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP017": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SD03-JP018": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SD03-JP019": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP020": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP021": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SD03-JP022": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SD03-JP023": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SD03-JP024": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP025": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP026": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP027": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP028": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP029": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP030": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP031": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP032": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP033": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD03-JP034": {
+        "rarity": "Common",
+        "qty": 1
+      }
+    }
   },
   "Strongest Battle Deck Romin - Psychic Beat": {
     "releaseDateJP": "August 21, 2021",
     "packsPerBox": 0,
     "coverImage": "RDSBD4-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 45
+    "declaredSize": 45,
+    "deckContents": {
+      "RD/SBD4-JP001": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD4-JP002": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD4-JP003": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD4-JP004": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SBD4-JP005": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD4-JP006": {
+        "rarity": "C",
+        "qty": 3
+      },
+      "RD/SBD4-JP007": {
+        "rarity": "C",
+        "qty": 3
+      },
+      "RD/SBD4-JP008": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD4-JP009": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD4-JP010": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SBD4-JP011": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SBD4-JP012": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD4-JP013": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SBD4-JP014": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SBD4-JP015": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SBD4-JP016": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD4-JP017": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD4-JP018": {
+        "rarity": "C",
+        "qty": 3
+      },
+      "RD/SBD4-JP019": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD4-JP020": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD4-JP021": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD4-JP022": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD4-JP023": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD4-JP024": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD4-JP025": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD4-JP026": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD4-JP027": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD4-JP028": {
+        "rarity": "C",
+        "qty": 1
+      }
+    }
   },
   "Strongest Battle Deck Maddox - Chemist-Meow Draw of Flames!": {
     "releaseDateJP": "August 6, 2022",
     "packsPerBox": 0,
     "coverImage": "RDSD04-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 45
+    "declaredSize": 45,
+    "deckContents": {
+      "RD/SD04-JP001": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP002": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP003": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP004": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP005": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP006": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP007": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP008": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP009": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP010": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP011": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SD04-JP012": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SD04-JP013": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP014": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP015": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP016": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SD04-JP017": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP018": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP019": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/SD04-JP020": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP021": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SD04-JP022": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP023": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP024": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP025": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP026": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP027": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP028": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP029": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP030": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP031": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP032": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP033": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD04-JP034": {
+        "rarity": "Common",
+        "qty": 1
+      }
+    }
   },
   "Strongest Battle Deck Asana - Pride of the Heavy Cavalry Style": {
     "releaseDateJP": "August 21, 2021",
     "packsPerBox": 0,
     "coverImage": "RDSBD7-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 45
+    "declaredSize": 45,
+    "deckContents": {
+      "RD/SBD7-JP001": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP002": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP003": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP004": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP005": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP006": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP007": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP008": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/SBD7-JP009": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP010": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP011": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP012": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/SBD7-JP013": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SBD7-JP014": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP015": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP016": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP017": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP018": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP019": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/SBD7-JP020": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP021": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP022": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP023": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP024": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP025": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP026": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP027": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP028": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP029": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SBD7-JP030": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP031": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD7-JP032": {
+        "rarity": "Common",
+        "qty": 1
+      }
+    }
   },
   "Starter Deck Yuga - Cut Through! Sevens Road!!": {
     "releaseDateJP": "April 4, 2020",
     "packsPerBox": 0,
     "coverImage": "RDST01-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 40
+    "declaredSize": 40,
+    "deckContents": {
+      "RD/ST01-JP001": {
+        "rarity": "Super Parallel Rare",
+        "qty": 1
+      },
+      "RD/ST01-JP002": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/ST01-JP003": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/ST01-JP004": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/ST01-JP005": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/ST01-JP006": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/ST01-JP007": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/ST01-JP008": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/ST01-JP009": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/ST01-JP010": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/ST01-JP011": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/ST01-JP012": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/ST01-JP013": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/ST01-JP014": {
+        "rarity": "Common",
+        "qty": 3
+      }
+    }
   },
   "Go Rush Deck - Jointech Attack": {
     "releaseDateJP": "April 29, 2022",
     "packsPerBox": 0,
     "coverImage": "RDGRD2-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 52
+    "declaredSize": 52,
+    "deckContents": {
+      "RD/GRD2-JP001": {
+        "rarity": "Normal Parallel Rare",
+        "qty": 1
+      },
+      "RD/GRD2-JP002": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP003": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP004": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP005": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP006": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/GRD2-JP007": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP008": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/GRD2-JP009": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP010": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP011": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP012": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP013": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP014": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/GRD2-JP015": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP016": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP017": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP018": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP019": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/GRD2-JP020": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP021": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/GRD2-JP022": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP023": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/GRD2-JP024": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP025": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP026": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP027": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP028": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP029": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP030": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP031": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD2-JP032": {
+        "rarity": "Common",
+        "qty": 1
+      }
+    }
   },
   "Strongest Battle Deck 2022 +1 Bonus Card": {
     "releaseDateJP": "August 6, 2022",
     "packsPerBox": 0,
     "coverImage": "RDSD-Poster-JP.png",
     "cardsPerPack": null,
-    "declaredSize": 5
+    "declaredSize": 5,
+    "deckContents": null
   },
   "Strongest Battle Deck Roa - Demon's Rock": {
     "releaseDateJP": "August 21, 2021",
     "packsPerBox": 0,
     "coverImage": "RDSBD5-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 45
+    "declaredSize": 45,
+    "deckContents": {
+      "RD/SBD5-JP001": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD5-JP002": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD5-JP003": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD5-JP004": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD5-JP005": {
+        "rarity": "C",
+        "qty": 3
+      },
+      "RD/SBD5-JP006": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SBD5-JP007": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SBD5-JP008": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD5-JP009": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD5-JP010": {
+        "rarity": "C",
+        "qty": 3
+      },
+      "RD/SBD5-JP011": {
+        "rarity": "C",
+        "qty": 3
+      },
+      "RD/SBD5-JP012": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SBD5-JP013": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SBD5-JP014": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD5-JP015": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD5-JP016": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SBD5-JP017": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SBD5-JP018": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD5-JP019": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD5-JP020": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD5-JP021": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD5-JP022": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD5-JP023": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD5-JP024": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD5-JP025": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD5-JP026": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD5-JP027": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD5-JP028": {
+        "rarity": "C",
+        "qty": 1
+      }
+    }
   },
   "Go Rush Deck - Galactica Arrive": {
     "releaseDateJP": "April 29, 2022",
     "packsPerBox": 0,
     "coverImage": "RDGRD1-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 52
+    "declaredSize": 52,
+    "deckContents": {
+      "RD/GRD1-JP001": {
+        "rarity": "Normal Parallel Rare",
+        "qty": 1
+      },
+      "RD/GRD1-JP002": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP003": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP004": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP005": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP006": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP007": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/GRD1-JP008": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/GRD1-JP009": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP010": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP011": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP012": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP013": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/GRD1-JP014": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/GRD1-JP015": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/GRD1-JP016": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP017": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP018": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/GRD1-JP019": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/GRD1-JP020": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP021": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP022": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP023": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP024": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP025": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP026": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP027": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP028": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP029": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/GRD1-JP030": {
+        "rarity": "Common",
+        "qty": 1
+      }
+    }
   },
   "Strongest Battle Deck Yudias - Shining Velgariva": {
     "releaseDateJP": "August 6, 2022",
     "packsPerBox": 0,
     "coverImage": "RDSD01-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 45
+    "declaredSize": 45,
+    "deckContents": {
+      "RD/SD01-JP001": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP002": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SD01-JP003": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP004": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP005": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP006": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP007": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP008": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP009": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP010": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SD01-JP011": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP012": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP013": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP014": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP015": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP016": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP017": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP018": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP019": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP020": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/SD01-JP021": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/SD01-JP022": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/SD01-JP023": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP024": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP025": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP026": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP027": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP028": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP029": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP030": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP031": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD01-JP032": {
+        "rarity": "Common",
+        "qty": 1
+      }
+    }
   },
   "Strongest Battle Deck Nail - Maximum Haven": {
     "releaseDateJP": "August 21, 2021",
     "packsPerBox": 0,
     "coverImage": "RDSBD6-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 45
+    "declaredSize": 45,
+    "deckContents": {
+      "RD/SBD6-JP001": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD6-JP002": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD6-JP003": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD6-JP004": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD6-JP005": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD6-JP006": {
+        "rarity": "C",
+        "qty": 3
+      },
+      "RD/SBD6-JP007": {
+        "rarity": "C",
+        "qty": 3
+      },
+      "RD/SBD6-JP008": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD6-JP009": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD6-JP010": {
+        "rarity": "C",
+        "qty": 3
+      },
+      "RD/SBD6-JP011": {
+        "rarity": "C",
+        "qty": 3
+      },
+      "RD/SBD6-JP012": {
+        "rarity": "C",
+        "qty": 3
+      },
+      "RD/SBD6-JP013": {
+        "rarity": "C",
+        "qty": 3
+      },
+      "RD/SBD6-JP014": {
+        "rarity": "C",
+        "qty": 3
+      },
+      "RD/SBD6-JP015": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD6-JP016": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD6-JP017": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD6-JP018": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD6-JP019": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD6-JP020": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD6-JP021": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD6-JP022": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD6-JP023": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD6-JP024": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD6-JP025": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SBD6-JP026": {
+        "rarity": "C",
+        "qty": 1
+      }
+    }
   },
   "Half Deck: Warrior Type": {
     "releaseDateJP": "April 4, 2026",
     "packsPerBox": 0,
     "coverImage": "RDTH01-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 21
+    "declaredSize": 21,
+    "deckContents": {
+      "RD/TH01-JP001": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH01-JP002": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH01-JP003": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH01-JP004": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH01-JP005": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH01-JP006": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH01-JP007": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH01-JP008": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH01-JP009": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH01-JP010": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH01-JP011": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH01-JP012": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH01-JP013": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH01-JP014": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH01-JP015": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH01-JP016": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH01-JP017": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH01-JP018": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH01-JP019": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH01-JP020": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH01-JP021": {
+        "rarity": "Common",
+        "qty": 1
+      }
+    }
   },
   "Structure Deck: Harpie Lady Sisters": {
     "releaseDateJP": "March 8, 2025",
     "packsPerBox": 0,
     "coverImage": "RDSD0D-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 52
+    "declaredSize": 52,
+    "deckContents": {
+      "RD/SD0D-JPS01": {
+        "rarity": "ORR",
+        "qty": 1
+      },
+      "RD/SD0D-JPS02": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0D-JPS03": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0D-JPS04": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0D-JPS05": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0D-JPS06": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0D-JPS07": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0D-JP001": {
+        "rarity": "UR",
+        "qty": 1
+      },
+      "RD/SD0D-JP002": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP003": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP004": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP005": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP006": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP007": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP008": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD0D-JP009": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD0D-JP010": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP011": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP012": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP013": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP014": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP015": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP016": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP017": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP018": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP019": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD0D-JP020": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP021": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP022": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP023": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP024": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0D-JP025": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0D-JP026": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP027": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP028": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP029": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0D-JP030": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP031": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP032": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD0D-JP033": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP034": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0D-JP035": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP036": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0D-JP037": {
+        "rarity": "C",
+        "qty": 1
+      }
+    }
   },
   "Strongest Battle Deck Luke - Dragon's Dragons": {
     "releaseDateJP": "August 21, 2021",
     "packsPerBox": 0,
     "coverImage": "RDSBD2-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 45
+    "declaredSize": 45,
+    "deckContents": {
+      "RD/SBD2-JP001": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP002": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP003": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP004": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP005": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP006": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP007": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SBD2-JP008": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP009": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP010": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SBD2-JP011": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SBD2-JP012": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP013": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/SBD2-JP014": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP015": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SBD2-JP016": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SBD2-JP017": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SBD2-JP018": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP019": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/SBD2-JP020": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP021": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP022": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP023": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP024": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP025": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP026": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP027": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP028": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP029": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SBD2-JP030": {
+        "rarity": "Common",
+        "qty": 1
+      }
+    }
   },
   "Strongest Battle Deck Yuhi - Join and Explode! Join and Intensify!": {
     "releaseDateJP": "August 6, 2022",
     "packsPerBox": 0,
     "coverImage": "RDSD02-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 45
+    "declaredSize": 45,
+    "deckContents": {
+      "RD/SD02-JP001": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP002": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP003": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP004": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP005": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP006": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SD02-JP007": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SD02-JP008": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP009": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP010": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP011": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP012": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP013": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP014": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SD02-JP015": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/SD02-JP016": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP017": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SD02-JP018": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP019": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP020": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/SD02-JP021": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP022": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP023": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP024": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP025": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP026": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP027": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP028": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP029": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP030": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP031": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP032": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/SD02-JP033": {
+        "rarity": "Common",
+        "qty": 1
+      }
+    }
   },
   "Structure Deck: Chimeratech Cyber": {
     "releaseDateJP": "March 8, 2025",
     "packsPerBox": 0,
     "coverImage": "RDSD0C-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 52
+    "declaredSize": 52,
+    "deckContents": {
+      "RD/SD0C-JPS01": {
+        "rarity": "ORR",
+        "qty": 1
+      },
+      "RD/SD0C-JPS02": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0C-JPS03": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0C-JPS04": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0C-JPS05": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0C-JPS06": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0C-JPS07": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0C-JP001": {
+        "rarity": "UR",
+        "qty": 1
+      },
+      "RD/SD0C-JP002": {
+        "rarity": "UR",
+        "qty": 1
+      },
+      "RD/SD0C-JP003": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0C-JP004": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP005": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP006": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP007": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP008": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP009": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP010": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP011": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP012": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP013": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP014": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD0C-JP015": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP016": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD0C-JP017": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP018": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD0C-JP019": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP020": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0C-JP021": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP022": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP023": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0C-JP024": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP025": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP026": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP027": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0C-JP028": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP029": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP030": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP031": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP032": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP033": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP034": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD0C-JP035": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP036": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0C-JP037": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP038": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0C-JP039": {
+        "rarity": "C",
+        "qty": 1
+      }
+    }
   },
   "Strongest Battle Deck Zuwijo - Voidvelg of the Empty Sky": {
     "releaseDateJP": "August 6, 2022",
     "packsPerBox": 0,
     "coverImage": "RDSD05-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 45
+    "declaredSize": 45,
+    "deckContents": {
+      "RD/SD05-JP001": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP002": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP003": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP004": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD05-JP005": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP006": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD05-JP007": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP008": {
+        "rarity": "C",
+        "qty": 3
+      },
+      "RD/SD05-JP009": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD05-JP010": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP011": {
+        "rarity": "C",
+        "qty": 3
+      },
+      "RD/SD05-JP012": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP013": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD05-JP014": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD05-JP015": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP016": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP017": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP018": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD05-JP019": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP020": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP021": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP022": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP023": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP024": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP025": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP026": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP027": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP028": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP029": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD05-JP030": {
+        "rarity": "C",
+        "qty": 1
+      }
+    }
   },
   "Half Deck: Galaxy Type": {
     "releaseDateJP": "April 4, 2026",
     "packsPerBox": 0,
     "coverImage": "RDTH03-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 21
+    "declaredSize": 21,
+    "deckContents": {
+      "RD/TH03-JP001": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH03-JP002": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH03-JP003": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH03-JP004": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH03-JP005": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH03-JP006": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH03-JP007": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH03-JP008": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH03-JP009": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH03-JP010": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH03-JP011": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH03-JP012": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH03-JP013": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH03-JP014": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH03-JP015": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH03-JP016": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH03-JP017": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH03-JP018": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH03-JP019": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH03-JP020": {
+        "rarity": "Common",
+        "qty": 1
+      },
+      "RD/TH03-JP021": {
+        "rarity": "Common",
+        "qty": 1
+      }
+    }
   },
   "Starter Deck Luke - Explosive Supremacy! Dragias!!": {
     "releaseDateJP": "April 4, 2020",
     "packsPerBox": 0,
     "coverImage": "RDST02-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 40
+    "declaredSize": 40,
+    "deckContents": {
+      "RD/ST02-JP001": {
+        "rarity": "Super Parallel Rare",
+        "qty": 1
+      },
+      "RD/ST02-JP002": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/ST02-JP003": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/ST02-JP004": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/ST02-JP005": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/ST02-JP006": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/ST02-JP007": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/ST02-JP008": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/ST02-JP009": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/ST02-JP010": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/ST02-JP011": {
+        "rarity": "Common",
+        "qty": 2
+      },
+      "RD/ST02-JP012": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/ST02-JP013": {
+        "rarity": "Common",
+        "qty": 3
+      },
+      "RD/ST02-JP014": {
+        "rarity": "Common",
+        "qty": 3
+      }
+    }
   },
   "Structure Deck: Birth of Hero": {
     "releaseDateJP": "July 13, 2024",
     "packsPerBox": 0,
     "coverImage": "RDSD0B-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 57
+    "declaredSize": 57,
+    "deckContents": {
+      "RD/SD0B-JPS01": {
+        "rarity": "ORR",
+        "qty": 1
+      },
+      "RD/SD0B-JPS02": {
+        "rarity": "ORR",
+        "qty": 1
+      },
+      "RD/SD0B-JPS03": {
+        "rarity": "UPR",
+        "qty": 1
+      },
+      "RD/SD0B-JPS04": {
+        "rarity": "UPR",
+        "qty": 1
+      },
+      "RD/SD0B-JPS05": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0B-JPS06": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0B-JPS07": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0B-JPS08": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0B-JPS09": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0B-JPS10": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0B-JPS11": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0B-JPS12": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0B-JPS13": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0B-JPS14": {
+        "rarity": "SR",
+        "qty": 1
+      },
+      "RD/SD0B-JP001": {
+        "rarity": "UR",
+        "qty": 1
+      },
+      "RD/SD0B-JP002": {
+        "rarity": "UR",
+        "qty": 1
+      },
+      "RD/SD0B-JP003": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP004": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP005": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP006": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP007": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD0B-JP008": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD0B-JP009": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP010": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP011": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP012": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP013": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0B-JP014": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0B-JP015": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP016": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP017": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP018": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP019": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP020": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP021": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP022": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP023": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP024": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP025": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP026": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP027": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP028": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0B-JP029": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0B-JP030": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP031": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP032": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP033": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP034": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP035": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP036": {
+        "rarity": "C",
+        "qty": 2
+      },
+      "RD/SD0B-JP037": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP038": {
+        "rarity": "NPR",
+        "qty": 1
+      },
+      "RD/SD0B-JP039": {
+        "rarity": "C",
+        "qty": 1
+      },
+      "RD/SD0B-JP040": {
+        "rarity": "C",
+        "qty": 1
+      }
+    }
   },
   "Strongest Battle Deck Tournament 2022 prize card": {
     "releaseDateJP": "August 6, 2022",
     "packsPerBox": 0,
     "coverImage": "StrongestBattleDeckTournament2022-PromoJP.png",
     "cardsPerPack": null,
-    "declaredSize": 1
+    "declaredSize": 1,
+    "deckContents": null
   },
   "Strongest Battle Deck +1 Bonus Card": {
     "releaseDateJP": "August 21, 2021",
     "packsPerBox": 0,
     "coverImage": "RDSBD-Poster-JP.png",
     "cardsPerPack": null,
-    "declaredSize": 5
+    "declaredSize": 5,
+    "deckContents": {
+      "RD/SBD0-JP001": {
+        "rarity": "Super Parallel Rare, Secret Rare",
+        "qty": 1
+      },
+      "RD/SBD0-JP002": {
+        "rarity": "Super Parallel Rare, Secret Rare",
+        "qty": 1
+      },
+      "RD/SBD0-JP003": {
+        "rarity": "Super Parallel Rare, Secret Rare",
+        "qty": 1
+      },
+      "RD/SBD0-JP004": {
+        "rarity": "Super Parallel Rare, Secret Rare",
+        "qty": 1
+      },
+      "RD/SBD0-JP005": {
+        "rarity": "Super Parallel Rare, Secret Rare",
+        "qty": 1
+      }
+    }
   },
   "Strongest Battle Deck Tournament prize card": {
     "releaseDateJP": "August 21, 2021",
     "packsPerBox": 0,
     "coverImage": "StrongestBattleDeckTournament-PromoJP.png",
     "cardsPerPack": null,
-    "declaredSize": 1
+    "declaredSize": 1,
+    "deckContents": null
   },
   "Starter Deck Set - Yuga vs. Luke": {
     "releaseDateJP": "April 4, 2020",
     "packsPerBox": 0,
     "coverImage": "RDVS01-DeckJP.png",
     "cardsPerPack": null,
-    "declaredSize": 81
+    "declaredSize": 81,
+    "deckContents": {
+      "RD/VS01-JP001": {
+        "rarity": "Super Parallel Rare",
+        "qty": 1
+      }
+    }
   },
   "Yu-Gi-Oh! Rush Duel LP Volume 1 promotional card": {
     "releaseDateJP": "June 3, 2022",
@@ -2193,7 +5701,7 @@
   "Yu-Gi-Oh! SEVENS Luke! Explosive Supremacy Legend!! Volume 3 promotional card": {
     "releaseDateJP": "May 2, 2022",
     "packsPerBox": null,
-    "coverImage": null,
+    "coverImage": "RDCL03-PromoJP.png",
     "cardsPerPack": null,
     "declaredSize": null
   },
