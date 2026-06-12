@@ -50,6 +50,7 @@ function createRoom(hostSocketId, hostPseudo, token) {
     messages: [],
     seats: [{ seat: 0, token: token || genToken(), pseudo: hostPseudo, socketId: hostSocketId, connected: true }],
     game: null,
+    settings: { banlistEnforced: true }, // host can change before game starts
   };
   rooms.set(code, room);
   return room;

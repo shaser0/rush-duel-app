@@ -84,6 +84,7 @@ function validate(type, data) {
     case 'room:join':    return isPseudo(data.pseudo) && isCode(data.code) && isToken(data.token);
     case 'chat:message': return isChatText(data.text);
     case 'duel:action':  return isDuelAction(data);
+    case 'room:setting': return typeof data.banlistEnforced === 'boolean';
     default:             return false;
   }
 }

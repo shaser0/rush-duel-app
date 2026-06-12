@@ -40,7 +40,12 @@ const ACTIONS = {
   ready(game, seat) {
     S.shuffle(game, seat);
     const both = game.players[0].deck.length > 0 && game.players[1].deck.length > 0;
-    if (both) game.started = true;
+    if (both) {
+      game.started = true;
+      // Deal opening hands
+      S.draw(game, 0, 4);
+      S.draw(game, 1, 4);
+    }
     S.pushLog(game, { type: 'ready', seat });
     return { ok: true };
   },

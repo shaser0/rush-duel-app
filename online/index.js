@@ -48,6 +48,7 @@ function mount(httpServer) {
         token:    playerToken, // client persists this for reconnection
         presence: rooms.getPresence(room),
         history:  room.messages,
+        settings: room.settings,
       });
       console.log(`[online] room ${room.code} created by ${playerPseudo}`);
     });
@@ -86,7 +87,8 @@ function mount(httpServer) {
         token:       playerToken,
         reconnected: !!result.reconnected,
         presence,
-        history: result.room.messages,
+        history:  result.room.messages,
+        settings: result.room.settings,
       });
       // Tell all room members (including joiner) about updated presence.
       io.to(code).emit('presence:update', presence);
@@ -94,6 +96,17 @@ function mount(httpServer) {
       // If a duel is already running, hand the (re)joining player their snapshot.
       if (result.room.game) duel.sendSnapshot(io, result.room, playerSeat);
       console.log(`[online] ${playerPseudo} ${result.reconnected ? 'reconnected to' : 'joined'} room ${code} (seat ${playerSeat})`);
+    });
+
+    // ── room:setting ───────────────────────────────────────────────────────
+    // Host-only: change a room setting before the game starts.
+    socket.on('room:setting', (data) => {
+      if (!playerRoom) return;
+      if (!validate('room:setting', data)) return;
+      const room = rooms.getRoom(playerRoom);
+      if (!room || room.host !== socket.id || room.game) return;
+      Object.assign(room.settings, { banlistEnforced: data.banlistEnforced });
+      io.to(playerRoom).emit('settings:update', room.settings);
     });
 
     // ── duel:action ────────────────────────────────────────────────────────
