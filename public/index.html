@@ -471,6 +471,98 @@ button,input,select{font-family:inherit}
 .ol-chat-input{display:flex;gap:8px}
 .ol-chat-input .ol-input{flex:1}
 .ol-chat-input .btn-p{flex-shrink:0;padding:9px 16px;font-size:14px}
+/* Ready section in room view */
+.ol-ready-section{margin-top:12px;padding:12px 14px;background:var(--bg3);border:1px solid var(--border);border-radius:8px;display:flex;flex-direction:column;gap:8px}
+.ol-ready-status{font-size:12px;color:var(--muted);text-align:center}
+.ol-ready-status.ready{color:#4caf50;font-weight:700}
+
+/* ── Duel Board ─────────────────────────────────────────────────────── */
+:root{--du-cw:62px;--du-ch:90px;--du-hw:74px;--du-hh:107px}
+#screen-online.board-mode{align-items:stretch;justify-content:flex-start;padding:0}
+#ol-board{display:flex;flex-direction:column;height:calc(100vh - 50px);background:var(--bg);overflow:hidden;position:relative}
+/* top bar */
+.du-topbar{display:flex;align-items:center;gap:10px;padding:4px 12px;background:var(--bg2);border-bottom:1px solid var(--border);font-size:12px;flex-shrink:0;flex-wrap:wrap}
+.du-player-info{display:flex;align-items:center;gap:8px;flex:1}
+.du-player-name{font-weight:700;font-size:13px}
+.du-lp-badge{font-size:14px;font-weight:800;color:var(--gold);padding:2px 8px;background:var(--bg3);border-radius:5px}
+.du-turn-label{font-size:10px;text-transform:uppercase;letter-spacing:.5px;padding:2px 8px;border-radius:10px;border:1px solid var(--border);color:var(--muted)}
+.du-turn-label.active{border-color:var(--accent);color:var(--accent);background:rgba(124,77,255,.15)}
+.du-opp-hand-backs{display:flex;align-items:center}
+.du-hand-back{width:22px;height:32px;border-radius:2px;background:radial-gradient(ellipse at 50% 35%,#1e0e58,#090420);border:1px solid #4a28a8;margin-left:-6px;flex-shrink:0}
+.du-hand-back:first-child{margin-left:0}
+/* board grid */
+.du-board-area{flex:1;display:flex;flex-direction:column;padding:4px 8px;gap:3px;overflow:hidden;min-height:0}
+.du-side{display:flex;align-items:center;gap:6px;flex:1;min-height:0}
+.du-divider{height:3px;background:linear-gradient(90deg,transparent,var(--border),transparent);flex-shrink:0;margin:2px 0}
+/* groups */
+.du-pile-group{display:flex;flex-direction:column;gap:4px;align-items:center;flex-shrink:0}
+.du-zones-group{display:flex;flex-direction:column;gap:4px;align-items:center;flex-shrink:0}
+.du-zone-label{font-size:8px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px;text-align:center;line-height:1;margin-bottom:1px}
+.du-zone-row{display:flex;gap:4px}
+/* slots */
+.du-slot{width:var(--du-cw);height:var(--du-ch);border:1px dashed var(--border);border-radius:5px;background:rgba(255,255,255,.015);display:flex;align-items:center;justify-content:center;position:relative;flex-shrink:0;transition:border-color .15s,background .15s}
+.du-slot.drag-over{border-color:var(--accent)!important;background:rgba(124,77,255,.14)!important}
+.du-slot-field{border-color:rgba(255,215,0,.25);background:rgba(255,215,0,.02)}
+.du-slot-field.drag-over{border-color:var(--gold)!important;background:rgba(255,215,0,.1)!important}
+/* piles */
+.du-pile{width:var(--du-cw);height:var(--du-ch);border:1px solid var(--border);border-radius:5px;background:var(--bg3);display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;flex-shrink:0;transition:border-color .15s;gap:2px}
+.du-pile:hover{border-color:var(--accent)}
+.du-pile-n{font-size:18px;font-weight:800;color:var(--text);line-height:1}
+.du-pile-lbl{font-size:8px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);line-height:1}
+.du-deck-pile{background:radial-gradient(ellipse at 50% 40%,#1e0e58,#090420);border-color:#4a28a8}
+.du-deck-pile .du-pile-n{color:#c0a8ff}
+/* field card */
+.du-fc{width:100%;height:100%;border-radius:4px;overflow:hidden;position:relative;cursor:pointer;background:#12121f}
+.du-fc img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none}
+.du-fc-back{width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:radial-gradient(ellipse at 50% 35%,#1e0e58,#090420);font-size:22px;color:rgba(160,110,255,.3)}
+.du-fc.def{transform:rotate(90deg);transform-origin:center}
+.du-fc.dragging{opacity:.35}
+/* hand */
+.du-hand-wrap{display:flex;align-items:flex-end;gap:2px;padding:5px 8px 6px;background:var(--bg2);border-top:1px solid var(--border);overflow-x:auto;flex-shrink:0;min-height:calc(var(--du-hh) + 18px)}
+.du-hc{width:var(--du-hw);height:var(--du-hh);border-radius:6px;overflow:hidden;flex-shrink:0;cursor:grab;transition:transform .15s,box-shadow .15s;background:#12121f;position:relative}
+.du-hc:hover{transform:translateY(-10px);box-shadow:0 6px 20px rgba(124,77,255,.5);z-index:10}
+.du-hc img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none}
+.du-hc.dragging{opacity:.3}
+.du-hand-empty{color:var(--muted);font-size:12px;font-style:italic;padding:0 10px;align-self:center}
+/* controls */
+.du-controls{display:flex;align-items:center;gap:6px;padding:5px 10px;background:var(--bg2);border-top:1px solid var(--border);flex-wrap:wrap;flex-shrink:0}
+.du-btn{padding:5px 12px;background:var(--bg3);border:1px solid var(--border);border-radius:5px;color:var(--text);cursor:pointer;font-size:12px;font-weight:600;transition:all .15s;white-space:nowrap}
+.du-btn:hover{border-color:var(--accent);color:var(--accent)}
+.du-btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.du-btn.primary:hover{opacity:.85}
+.du-btn.danger{border-color:rgba(244,67,54,.3);color:#f44336}
+.du-btn.danger:hover{background:rgba(244,67,54,.1)}
+.du-btn:disabled{opacity:.4;cursor:default}
+.du-lp-ctrl{display:flex;align-items:center;gap:4px}
+.du-lp-val{font-size:15px;font-weight:800;color:var(--gold);min-width:56px;text-align:center;cursor:pointer;padding:4px 8px;background:var(--bg3);border:1px solid var(--border);border-radius:5px;user-select:none}
+.du-lp-val:hover{border-color:var(--gold)}
+.du-lp-q{padding:4px 7px;background:var(--bg3);border:1px solid var(--border);border-radius:4px;color:var(--muted);cursor:pointer;font-size:11px;font-weight:600;transition:all .15s}
+.du-lp-q:hover{border-color:var(--accent);color:var(--text)}
+/* context menu */
+#du-ctx{position:fixed;z-index:600;background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:4px 0;min-width:190px;box-shadow:0 6px 24px rgba(0,0,0,.65);font-size:13px}
+#du-ctx.hidden{display:none}
+.du-ctx-item{padding:8px 14px;cursor:pointer;color:var(--text);width:100%;text-align:left;background:none;border:none;font-size:13px;font-family:inherit;display:block;transition:background .1s}
+.du-ctx-item:hover{background:rgba(124,77,255,.2);color:#fff}
+.du-ctx-sep{height:1px;background:var(--border);margin:3px 0}
+/* log overlay */
+.du-log{position:absolute;right:8px;bottom:10px;display:flex;flex-direction:column;gap:3px;z-index:20;pointer-events:none;max-width:200px}
+.du-log-entry{background:rgba(8,8,20,.88);border:1px solid var(--border);border-radius:5px;padding:4px 8px;font-size:11px;color:var(--muted);animation:log-in .2s ease}
+@keyframes log-in{from{opacity:0;transform:translateX(8px)}to{opacity:1;transform:translateX(0)}}
+/* modals */
+#du-import-modal .modal{max-width:460px}
+#du-import-ta{width:100%;height:190px;padding:8px;background:var(--bg3);border:1px solid var(--border);border-radius:6px;color:var(--text);font-size:12px;font-family:'Courier New',monospace;resize:vertical;display:block}
+#du-import-ta:focus{outline:none;border-color:var(--accent)}
+#du-lp-modal .modal{max-width:280px}
+#du-lp-inp{width:100%;padding:10px;font-size:20px;font-weight:800;text-align:center;background:var(--bg3);border:1px solid var(--border);border-radius:6px;color:var(--text);display:block}
+#du-lp-inp:focus{outline:none;border-color:var(--accent)}
+.du-lp-presets{display:flex;flex-wrap:wrap;gap:6px;justify-content:center}
+.du-lp-preset{padding:6px 11px;background:var(--bg3);border:1px solid var(--border);border-radius:5px;cursor:pointer;font-size:12px;font-weight:600;color:var(--muted)}
+.du-lp-preset:hover{border-color:var(--accent);color:var(--text)}
+#du-viewer-modal .modal{max-width:560px;max-height:80vh;overflow-y:auto}
+.du-viewer-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(58px,1fr));gap:4px;margin-top:8px}
+.du-vcard{width:100%;aspect-ratio:62/90;border-radius:4px;overflow:hidden;background:#12121f;cursor:pointer}
+.du-vcard img{width:100%;height:100%;object-fit:cover;display:block}
+.du-vcard-ph{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:9px;color:var(--muted);background:var(--bg3);text-align:center;padding:2px}
 </style>
 </head>
 <body>
@@ -876,8 +968,179 @@ button,input,select{font-family:inherit}
         </div>
       </div>
     </div>
+    <!-- Ready section -->
+    <div class="ol-ready-section">
+      <p style="font-size:12px;color:var(--muted);margin:0">Importe ton deck (format Deck Builder) puis clique <b style="color:var(--text)">Prêt</b> pour lancer le duel.</p>
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+        <button id="ol-import-btn" class="btn-p" style="font-size:13px;padding:8px 18px">Importer mon deck</button>
+        <span id="ol-ready-status" class="ol-ready-status">En attente du deck…</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Duel Board -->
+  <div id="ol-board" class="ol-view hidden">
+    <!-- Opponent info bar -->
+    <div class="du-topbar">
+      <div class="du-player-info">
+        <span class="du-player-name" id="du-opp-name">Adversaire</span>
+        <span class="du-lp-badge" id="du-opp-lp">8000</span>
+        <span id="du-opp-deck-lbl" style="font-size:11px;color:var(--muted)">Deck: <b id="du-opp-deck-n">40</b></span>
+        <span id="du-opp-gy-lbl" style="font-size:11px;color:var(--muted)">Cim: <b id="du-opp-gy-n">0</b></span>
+        <span id="du-opp-hand-backs" class="du-opp-hand-backs"></span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px">
+        <span class="du-turn-label" id="du-turn-opp">Tour adverse</span>
+        <span class="du-turn-label active" id="du-turn-self">Ton tour</span>
+      </div>
+    </div>
+
+    <!-- Main board -->
+    <div class="du-board-area">
+      <!-- Opponent side -->
+      <div class="du-side" id="du-opp-side">
+        <!-- Deck + GY -->
+        <div class="du-pile-group">
+          <div class="du-zone-label">Deck</div>
+          <div class="du-pile du-deck-pile" id="du-opp-deck" title="Deck adversaire">
+            <span class="du-pile-n" id="du-opp-deck-cnt">0</span>
+          </div>
+          <div class="du-zone-label">Cim.</div>
+          <div class="du-pile" id="du-opp-gy" title="Cimetière adversaire (cliquer pour voir)">
+            <span class="du-pile-n" id="du-opp-gy-cnt">0</span>
+          </div>
+        </div>
+        <!-- Spell/Trap zones (opp: outer = far from center) -->
+        <div class="du-zones-group">
+          <div class="du-zone-label">Magie / Piège</div>
+          <div class="du-zone-row" id="du-opp-st"></div>
+        </div>
+        <!-- Monster zones (opp: inner = close to center) -->
+        <div class="du-zones-group">
+          <div class="du-zone-label">Monstres</div>
+          <div class="du-zone-row" id="du-opp-m"></div>
+        </div>
+        <!-- Field zone -->
+        <div class="du-zones-group">
+          <div class="du-zone-label">Terrain</div>
+          <div class="du-slot du-slot-field" id="du-opp-field-0" data-owner="opp" data-zone="field" data-slot="0"></div>
+        </div>
+      </div>
+
+      <div class="du-divider"></div>
+
+      <!-- Self side -->
+      <div class="du-side" id="du-self-side">
+        <!-- Field zone -->
+        <div class="du-zones-group">
+          <div class="du-zone-label">Terrain</div>
+          <div class="du-slot du-slot-field" id="du-self-field-0" data-owner="self" data-zone="field" data-slot="0"></div>
+        </div>
+        <!-- Monster zones (self: inner = close to center) -->
+        <div class="du-zones-group">
+          <div class="du-zone-label">Monstres</div>
+          <div class="du-zone-row" id="du-self-m"></div>
+        </div>
+        <!-- Spell/Trap zones -->
+        <div class="du-zones-group">
+          <div class="du-zone-label">Magie / Piège</div>
+          <div class="du-zone-row" id="du-self-st"></div>
+        </div>
+        <!-- Deck + GY -->
+        <div class="du-pile-group">
+          <div class="du-zone-label">Deck</div>
+          <div class="du-pile du-deck-pile" id="du-self-deck" title="Ton deck">
+            <span class="du-pile-n" id="du-self-deck-cnt">0</span>
+          </div>
+          <div class="du-zone-label">Cim.</div>
+          <div class="du-pile" id="du-self-gy" title="Ton cimetière">
+            <span class="du-pile-n" id="du-self-gy-cnt">0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hand -->
+    <div class="du-hand-wrap" id="du-hand">
+      <span class="du-hand-empty">Main vide</span>
+    </div>
+
+    <!-- Log overlay -->
+    <div class="du-log" id="du-log"></div>
+
+    <!-- Controls -->
+    <div class="du-controls">
+      <div class="du-lp-ctrl">
+        <span style="font-size:11px;color:var(--muted);margin-right:2px">LP</span>
+        <span class="du-lp-val" id="du-self-lp" title="Cliquer pour modifier">8000</span>
+        <button class="du-lp-q" data-delta="-100">-100</button>
+        <button class="du-lp-q" data-delta="-500">-500</button>
+        <button class="du-lp-q" data-delta="-1000">-1K</button>
+        <button class="du-lp-q" data-delta="+100">+100</button>
+        <button class="du-lp-q" data-delta="+500">+500</button>
+      </div>
+      <div style="width:1px;height:20px;background:var(--border);flex-shrink:0"></div>
+      <button class="du-btn primary" id="du-pass-btn">Passer le tour</button>
+      <button class="du-btn" id="du-coin-btn">🪙 Pièce</button>
+      <button class="du-btn" id="du-dice-btn">🎲 Dé</button>
+      <button class="du-btn" id="du-draw1-btn">Piocher</button>
+      <button class="du-btn" id="du-shuffle-btn">Mélanger</button>
+      <button class="du-btn" id="du-max-btn" title="Activer/désactiver le rendu Maximum">MAX</button>
+      <button class="du-btn danger" id="du-surrender-btn">Abandonner</button>
+      <button class="du-btn" id="du-back-board-btn" style="margin-left:auto">← Salon</button>
+    </div>
   </div>
 </section>
+
+<!-- Context menu (global) -->
+<div id="du-ctx" class="hidden" role="menu"></div>
+
+<!-- Deck import modal -->
+<div class="modal-back hidden" id="du-import-modal">
+  <div class="modal" id="du-import-modal">
+    <h2>Importer mon deck</h2>
+    <p style="font-size:12px;color:var(--muted)">Colle la liste de ton deck (format export du Deck Builder).</p>
+    <textarea id="du-import-ta" placeholder="Monster&#10;3 Sevens Road Magician&#10;...&#10;Spell&#10;3 Sevens Road Boost&#10;..."></textarea>
+    <div style="display:flex;gap:8px;justify-content:flex-end">
+      <button class="modal-cancel" id="du-import-cancel">Annuler</button>
+      <button class="modal-ok" id="du-import-ok">Importer et prêt</button>
+    </div>
+    <p id="du-import-err" style="color:#f44336;font-size:12px;display:none"></p>
+  </div>
+</div>
+
+<!-- LP edit modal -->
+<div class="modal-back hidden" id="du-lp-modal">
+  <div class="modal">
+    <h2>Modifier mes LP</h2>
+    <input id="du-lp-inp" type="number" min="0" max="99999" value="8000">
+    <div class="du-lp-presets">
+      <button class="du-lp-preset" data-delta="-100">-100</button>
+      <button class="du-lp-preset" data-delta="-300">-300</button>
+      <button class="du-lp-preset" data-delta="-500">-500</button>
+      <button class="du-lp-preset" data-delta="-1000">-1000</button>
+      <button class="du-lp-preset" data-delta="-2000">-2000</button>
+      <button class="du-lp-preset" data-delta="+100">+100</button>
+      <button class="du-lp-preset" data-delta="+300">+300</button>
+      <button class="du-lp-preset" data-delta="+500">+500</button>
+      <button class="du-lp-preset" data-delta="+1000">+1000</button>
+      <button class="du-lp-preset" data-delta="=8000">Reset 8000</button>
+    </div>
+    <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:4px">
+      <button class="modal-cancel" id="du-lp-cancel">Annuler</button>
+      <button class="modal-ok" id="du-lp-ok">Appliquer</button>
+    </div>
+  </div>
+</div>
+
+<!-- Card viewer modal (GY / deck private view) -->
+<div class="modal-back hidden" id="du-viewer-modal">
+  <div class="modal" id="du-viewer-modal">
+    <h2 id="du-viewer-title">Cimetière</h2>
+    <div class="du-viewer-grid" id="du-viewer-grid"></div>
+    <button class="modal-cancel" id="du-viewer-close" style="margin-top:10px;align-self:center">Fermer</button>
+  </div>
+</div>
 
 <!-- Quantity modal -->
 <!-- Get Deck modal -->
@@ -3527,6 +3790,8 @@ function _olEl(id){ return document.getElementById(id); }
 function _olShowView(view){
   _olEl('ol-lobby').classList.toggle('hidden',    view !== 'lobby');
   _olEl('ol-room-view').classList.toggle('hidden', view !== 'room');
+  _olEl('ol-board').classList.toggle('hidden',    view !== 'board');
+  if(view !== 'board') document.getElementById('screen-online').classList.remove('board-mode');
 }
 
 // ── Error display ──────────────────────────────────────────────────────────
@@ -3626,19 +3891,27 @@ async function _olEnsureSocket(){
 
   _olSocket = window.io({ reconnectionAttempts: 5 });
 
-  _olSocket.on('room:created', ({ code, presence, history }) => {
+  _olSocket.on('room:created', ({ code, seat, token, presence, history }) => {
     _olRoomCode = code;
+    _duSeat  = seat;
+    _duToken = token;
+    _duSaveSession(code, seat, token);
     _olEl('ol-room-code').textContent = code;
     _olRenderPresence(presence);
     _olRenderHistory(history);
+    _duSetOppName(presence, seat);
     _olShowView('room');
   });
 
-  _olSocket.on('room:joined', ({ code, presence, history }) => {
+  _olSocket.on('room:joined', ({ code, seat, token, reconnected, presence, history }) => {
     _olRoomCode = code;
+    _duSeat  = seat;
+    _duToken = token;
+    _duSaveSession(code, seat, token);
     _olEl('ol-room-code').textContent = code;
     _olRenderPresence(presence);
-    _olRenderHistory(history);
+    if(!reconnected) _olRenderHistory(history);
+    _duSetOppName(presence, seat);
     _olShowView('room');
   });
 
@@ -3646,7 +3919,10 @@ async function _olEnsureSocket(){
     _olShowError(message);
   });
 
-  _olSocket.on('presence:update', _olRenderPresence);
+  _olSocket.on('presence:update', pl => {
+    _olRenderPresence(pl);
+    _duSetOppName(pl, _duSeat);
+  });
   _olSocket.on('chat:message',    _olAppendMsg);
 
   _olSocket.on('player:left', ({ pseudo }) => {
@@ -3657,7 +3933,20 @@ async function _olEnsureSocket(){
     _olAppendSysMsg('Connexion perdue.');
   });
 
+  // Duel board handlers
+  _duBindSocket(_olSocket);
+
   return true;
+}
+
+function _duSetOppName(players, mySeat){
+  const opp = players && players.find(p => {
+    // seat index isn't in presence list directly, so we identify opp by order
+    return mySeat === 0 ? !p.isHost : p.isHost;
+  });
+  if(opp) window._duOppPseudo = opp.pseudo;
+  const el = document.getElementById('du-opp-name');
+  if(el && window._duOppPseudo) el.textContent = window._duOppPseudo;
 }
 
 // ── Actions ────────────────────────────────────────────────────────────────
@@ -3666,7 +3955,10 @@ function _olHost(){
   if(!pseudo){ _olShowError('Entre un pseudo (1–20 caractères).'); return; }
   _olClearError();
   _olEnsureSocket().then(ok => {
-    if(ok) _olSocket.emit('room:create', { pseudo });
+    if(!ok) return;
+    const sess = _duLoadSession();
+    // Pass a stored token if one exists so the server can match it on reconnect
+    _olSocket.emit('room:create', { pseudo, token: sess ? sess.token : undefined });
   });
 }
 
@@ -3677,7 +3969,10 @@ function _olJoin(){
   if(code.length !== 6){ _olShowError('Le code de room fait exactement 6 caractères.'); return; }
   _olClearError();
   _olEnsureSocket().then(ok => {
-    if(ok) _olSocket.emit('room:join', { pseudo, code });
+    if(!ok) return;
+    const sess = _duLoadSession();
+    const token = (sess && sess.code === code) ? sess.token : undefined;
+    _olSocket.emit('room:join', { pseudo, code, token });
   });
 }
 
@@ -3690,10 +3985,17 @@ function _olSend(){
 }
 
 function _olLeave(){
+  _duClearSession();
   if(_olSocket){ _olSocket.disconnect(); _olSocket = null; }
-  _olRoomCode = null;
+  _olRoomCode = null; _duSeat = null; _duToken = null; _duState = null;
+  _duBoardInited = false; _olListenersOn = false;
   _olEl('ol-messages').innerHTML = '';
   _olEl('ol-presence-list').innerHTML = '';
+  // Reset ready section
+  const rs = _olEl('ol-ready-status');
+  if(rs){ rs.textContent='En attente du deck…'; rs.className='ol-ready-status'; }
+  const ib = _olEl('ol-import-btn');
+  if(ib) ib.disabled = false;
   _olClearError();
   _olShowView('lobby');
 }
@@ -3701,9 +4003,18 @@ function _olLeave(){
 // ── Init (called each time the screen becomes active) ──────────────────────
 function initOnline(){
   if(_olRoomCode){
-    // Already in a room — stay on room view.
-    _olShowView('room');
+    // Already in a room — restore the right view.
+    if(_duState && _duState.started) _duGoBoard();
+    else _olShowView('room');
     return;
+  }
+  // Try to auto-reconnect from a stored session.
+  const sess = _duLoadSession();
+  if(sess && sess.code && sess.token){
+    const storedPseudo = _olEl('ol-pseudo').value.trim() || 'Joueur';
+    _olEnsureSocket().then(ok => {
+      if(ok) _olSocket.emit('room:join', { pseudo: storedPseudo, code: sess.code, token: sess.token });
+    });
   }
   _olShowView('lobby');
   if(_olListenersOn) return;
@@ -3723,6 +4034,582 @@ function initOnline(){
       .catch(() => toast(_olRoomCode));
   });
 }
+
+/* ═══════════════════════════════════════════════════════
+   DUEL BOARD — Phase 2
+═══════════════════════════════════════════════════════ */
+
+// ── State ────────────────────────────────────────────────────────────────────
+let _duState   = null;  // last duel:state snapshot
+let _duSeat    = null;  // our seat (0 or 1)
+let _duToken   = null;  // reconnect token
+let _duDragIid = null;  // iid being dragged
+let _duCtxIid  = null;  // iid with open context menu
+let _duLogTimer = null;
+const _DU_STORAGE_KEY = 'du-session';
+
+function _duEl(id){ return document.getElementById(id); }
+
+// ── Persist / restore token ──────────────────────────────────────────────────
+function _duSaveSession(code, seat, token){
+  try{ localStorage.setItem(_DU_STORAGE_KEY, JSON.stringify({code, seat, token})); }catch{}
+}
+function _duLoadSession(){
+  try{ return JSON.parse(localStorage.getItem(_DU_STORAGE_KEY)||'null'); }catch{ return null; }
+}
+function _duClearSession(){
+  try{ localStorage.removeItem(_DU_STORAGE_KEY); }catch{}
+}
+
+// ── Emit helper ──────────────────────────────────────────────────────────────
+function _duEmit(action, payload){
+  if(!_olSocket) return;
+  _olSocket.emit('duel:action', { action, payload: payload || {} });
+}
+
+// ── imgUrl for board cards (reuses global imgUrl from existing code) ──────────
+function _duCardImgSrc(c){
+  if(!c || c.hidden) return null;
+  return c.imgFile ? imgUrl(c.imgFile) : null;
+}
+
+// ── Render helpers ────────────────────────────────────────────────────────────
+function _duMkCardEl(c, isOwner){
+  const el = document.createElement('div');
+  el.className = 'du-fc';
+  if(!c) return el;
+  if(c.hidden || c.faceDown && !isOwner){
+    const back = document.createElement('div');
+    back.className = 'du-fc-back';
+    back.textContent = '★';
+    el.appendChild(back);
+    if(c.position === 'def') el.classList.add('def');
+    el.dataset.iid = c.iid;
+    return el;
+  }
+  if(c.position === 'def') el.classList.add('def');
+  if(c.faceDown) el.style.opacity = '0.65';
+  const src = _duCardImgSrc(c);
+  if(src){
+    const img = document.createElement('img');
+    img.src = src;
+    img.alt = '';
+    img.onerror = () => { img.remove(); const ph=document.createElement('div');ph.className='cph';ph.textContent='?';el.insertBefore(ph,el.firstChild); };
+    el.appendChild(img);
+  } else {
+    const ph = document.createElement('div');
+    ph.className = 'cph';
+    ph.style.cssText = 'position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--muted)';
+    ph.textContent = '?';
+    el.appendChild(ph);
+  }
+  el.dataset.iid = c.iid;
+  return el;
+}
+
+function _duRenderSlot(slotEl, cardData, isOwner, zone, slotIdx){
+  slotEl.innerHTML = '';
+  slotEl.dataset.zone = zone;
+  slotEl.dataset.slot = slotIdx;
+  slotEl.dataset.owner = isOwner ? 'self' : 'opp';
+  if(!cardData){ return; }
+  const fc = _duMkCardEl(cardData, isOwner);
+  if(isOwner){
+    fc.draggable = true;
+    fc.addEventListener('dragstart', e => _duOnDragStart(e, cardData.iid));
+    fc.addEventListener('dragend',   _duOnDragEnd);
+    fc.addEventListener('contextmenu', e => { e.preventDefault(); _duShowCtxField(e, cardData, zone, slotIdx); });
+    fc.addEventListener('click', e => { if(e.detail===2) _duShowCtxField(e, cardData, zone, slotIdx); });
+  }
+  slotEl.appendChild(fc);
+}
+
+// Build N slots inside a container; return the slot elements.
+function _duBuildSlots(container, n, prefix, zone, isOwner){
+  container.innerHTML = '';
+  const slots = [];
+  for(let i=0;i<n;i++){
+    const s = document.createElement('div');
+    s.className = 'du-slot' + (zone==='field' ? ' du-slot-field' : '');
+    s.id = `${prefix}-${i}`;
+    s.dataset.zone = zone;
+    s.dataset.slot = i;
+    s.dataset.owner = isOwner ? 'self' : 'opp';
+    if(isOwner){
+      s.addEventListener('dragover',  _duOnDragOver);
+      s.addEventListener('dragleave', _duOnDragLeave);
+      s.addEventListener('drop',      e => _duOnDrop(e, zone, i));
+    }
+    container.appendChild(s);
+    slots.push(s);
+  }
+  return slots;
+}
+
+// ── Full state render ─────────────────────────────────────────────────────────
+function _duRenderState(st){
+  _duState = st;
+  if(!st) return;
+
+  const self = st.self;
+  const opp  = st.opp;
+
+  // Turn badges
+  const myTurn = st.turn === st.you;
+  _duEl('du-turn-self').classList.toggle('active', myTurn);
+  _duEl('du-turn-opp').classList.toggle('active', !myTurn);
+  _duEl('du-pass-btn').disabled = !myTurn || st.ended;
+
+  // Own LP
+  _duEl('du-self-lp').textContent = self.lp;
+  // Opp LP
+  _duEl('du-opp-lp').textContent = opp.lp;
+
+  // Opp deck / GY counts (header + pile)
+  _duEl('du-opp-deck-n').textContent  = opp.deckCount;
+  _duEl('du-opp-gy-n').textContent    = opp.graveyard.length;
+  _duEl('du-opp-deck-cnt').textContent = opp.deckCount;
+  _duEl('du-opp-gy-cnt').textContent   = opp.graveyard.length;
+  // Self deck / GY
+  _duEl('du-self-deck-cnt').textContent = self.deckCount;
+  _duEl('du-self-gy-cnt').textContent   = self.graveyard.length;
+
+  // Opp hand backs
+  const oppHandEl = _duEl('du-opp-hand-backs');
+  oppHandEl.innerHTML = '';
+  for(let i=0;i<opp.handCount;i++){
+    const b=document.createElement('div'); b.className='du-hand-back'; oppHandEl.appendChild(b);
+  }
+
+  // Self player name (from presence if available)
+  if(st.you !== undefined){
+    const oName = _duEl('du-opp-name');
+    // Try to get name from presence data stored on init
+    if(window._duOppPseudo) oName.textContent = window._duOppPseudo;
+  }
+
+  // Build zone slots (only rebuild on first render or if count changed — cheap check)
+  _duRenderZones(self, opp);
+
+  // Hand
+  _duRenderHand(self.hand);
+
+  // Surrender state
+  if(st.ended){
+    _duEl('du-surrender-btn').disabled = true;
+    _duEl('du-pass-btn').disabled = true;
+    const msg = st.winner === st.you ? '🏆 Vous avez gagné !' : '💀 Vous avez perdu.';
+    _duToast(msg);
+  }
+
+  // Log
+  if(st.log && st.log.length){
+    const last = st.log[st.log.length-1];
+    _duLogEntry(last);
+  }
+}
+
+function _duRenderZones(self, opp){
+  const zones3 = ['monster','spellTrap'];
+  for(const z of zones3){
+    const selfRow = _duEl('du-self-'+z.replace('spellTrap','st').replace('monster','m'));
+    const oppRow  = _duEl('du-opp-' +z.replace('spellTrap','st').replace('monster','m'));
+    if(!selfRow || !oppRow) continue;
+    // Rebuild if empty (first time)
+    if(!selfRow.children.length) _duBuildSlots(selfRow, 3, 'du-self-'+z, z, true);
+    if(!oppRow.children.length)  _duBuildSlots(oppRow,  3, 'du-opp-'+z,  z, false);
+    for(let i=0;i<3;i++){
+      const ss = _duEl(`du-self-${z}-${i}`) || selfRow.children[i];
+      const os = _duEl(`du-opp-${z}-${i}`)  || oppRow.children[i];
+      if(ss) _duRenderSlot(ss, self[z][i],  true,  z, i);
+      if(os) _duRenderSlot(os, opp[z][i],   false, z, i);
+    }
+  }
+  // Field
+  const sf = _duEl('du-self-field-0');
+  const of_ = _duEl('du-opp-field-0');
+  if(sf){
+    sf.innerHTML = '';
+    sf.dataset.zone='field'; sf.dataset.slot=0; sf.dataset.owner='self';
+    sf.addEventListener('dragover', _duOnDragOver);
+    sf.addEventListener('dragleave', _duOnDragLeave);
+    sf.addEventListener('drop', e => _duOnDrop(e,'field',0));
+    if(self.field[0]) _duRenderSlot(sf, self.field[0], true, 'field', 0);
+  }
+  if(of_){
+    of_.innerHTML = '';
+    of_.dataset.zone='field'; of_.dataset.slot=0; of_.dataset.owner='opp';
+    if(opp.field[0]) _duRenderSlot(of_, opp.field[0], false, 'field', 0);
+  }
+}
+
+function _duRenderHand(cards){
+  const wrap = _duEl('du-hand');
+  wrap.innerHTML = '';
+  if(!cards || !cards.length){
+    const e=document.createElement('span'); e.className='du-hand-empty'; e.textContent='Main vide'; wrap.appendChild(e); return;
+  }
+  for(const c of cards){
+    const hc = document.createElement('div');
+    hc.className = 'du-hc';
+    hc.dataset.iid = c.iid;
+    hc.draggable = true;
+    hc.addEventListener('dragstart', e => _duOnDragStart(e, c.iid));
+    hc.addEventListener('dragend',   _duOnDragEnd);
+    hc.addEventListener('contextmenu', e => { e.preventDefault(); _duShowCtxHand(e, c); });
+    hc.addEventListener('click', e => { if(e.detail===2) _duShowCtxHand(e, c); });
+    const src = _duCardImgSrc(c);
+    if(src){
+      const img = document.createElement('img'); img.src=src; img.alt='';
+      img.onerror=()=>{ img.remove(); const ph=document.createElement('div');ph.style.cssText='width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--muted)';ph.textContent='?';hc.appendChild(ph); };
+      hc.appendChild(img);
+    } else {
+      const ph=document.createElement('div');ph.style.cssText='width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--muted)';ph.textContent='?';hc.appendChild(ph);
+    }
+    wrap.appendChild(hc);
+  }
+}
+
+// ── Drag and drop ─────────────────────────────────────────────────────────────
+function _duOnDragStart(e, iid){
+  _duDragIid = iid;
+  e.currentTarget.classList.add('dragging');
+  e.dataTransfer.effectAllowed = 'move';
+  e.dataTransfer.setData('text/plain', iid);
+}
+function _duOnDragEnd(e){
+  e.currentTarget.classList.remove('dragging');
+  _duDragIid = null;
+}
+function _duOnDragOver(e){
+  e.preventDefault();
+  e.currentTarget.classList.add('drag-over');
+  e.dataTransfer.dropEffect = 'move';
+}
+function _duOnDragLeave(e){ e.currentTarget.classList.remove('drag-over'); }
+function _duOnDrop(e, zone, slot){
+  e.preventDefault();
+  e.currentTarget.classList.remove('drag-over');
+  const iid = _duDragIid || e.dataTransfer.getData('text/plain');
+  if(!iid) return;
+  const payload = { iid, zone };
+  if(slot !== undefined) payload.slot = slot;
+  _duEmit('move', payload);
+}
+
+// ── Deck zone: drop to send back to deck ─────────────────────────────────────
+function _duBindDeckDrop(){
+  const el = _duEl('du-self-deck');
+  if(!el || el._duDropBound) return;
+  el._duDropBound = true;
+  el.addEventListener('dragover',  _duOnDragOver);
+  el.addEventListener('dragleave', _duOnDragLeave);
+  el.addEventListener('drop', e => {
+    e.preventDefault(); e.currentTarget.classList.remove('drag-over');
+    const iid = _duDragIid||e.dataTransfer.getData('text/plain');
+    if(!iid) return;
+    _duEmit('move', { iid, zone:'deck', deckPos:'top' });
+  });
+  // GY: drop to send to graveyard
+  const gy = _duEl('du-self-gy');
+  if(gy && !gy._duDropBound){
+    gy._duDropBound = true;
+    gy.addEventListener('dragover',  _duOnDragOver);
+    gy.addEventListener('dragleave', _duOnDragLeave);
+    gy.addEventListener('drop', e => {
+      e.preventDefault(); e.currentTarget.classList.remove('drag-over');
+      const iid = _duDragIid||e.dataTransfer.getData('text/plain');
+      if(!iid) return;
+      _duEmit('move', { iid, zone:'graveyard' });
+    });
+  }
+}
+
+// ── Context menu ──────────────────────────────────────────────────────────────
+function _duCtxShow(x, y, items){
+  const ctx = _duEl('du-ctx');
+  ctx.innerHTML = '';
+  for(const item of items){
+    if(item === '---'){ const s=document.createElement('div');s.className='du-ctx-sep';ctx.appendChild(s); continue; }
+    const btn = document.createElement('button');
+    btn.className = 'du-ctx-item';
+    btn.textContent = item.label;
+    btn.addEventListener('click', ()=>{ _duCtxHide(); item.fn(); });
+    ctx.appendChild(btn);
+  }
+  ctx.classList.remove('hidden');
+  // Position (keep on screen)
+  const vw=window.innerWidth, vh=window.innerHeight;
+  let lx=x, ly=y;
+  ctx.style.left='0'; ctx.style.top='0'; // reset to measure
+  const w=ctx.offsetWidth, h=ctx.offsetHeight;
+  if(lx+w>vw) lx=vw-w-8;
+  if(ly+h>vh) ly=vh-h-8;
+  ctx.style.left=lx+'px'; ctx.style.top=ly+'px';
+}
+function _duCtxHide(){ _duEl('du-ctx').classList.add('hidden'); }
+document.addEventListener('click', ()=> _duCtxHide());
+document.addEventListener('keydown', e=>{ if(e.key==='Escape') _duCtxHide(); });
+
+function _duShowCtxHand(e, card){
+  _duCtxShow(e.clientX, e.clientY, [
+    { label:'→ Zone Monstre 1',    fn:()=> _duEmit('move',{iid:card.iid,zone:'monster',slot:0}) },
+    { label:'→ Zone Monstre 2',    fn:()=> _duEmit('move',{iid:card.iid,zone:'monster',slot:1}) },
+    { label:'→ Zone Monstre 3',    fn:()=> _duEmit('move',{iid:card.iid,zone:'monster',slot:2}) },
+    '---',
+    { label:'→ Zone M/P 1 (face caché)', fn:()=> _duEmit('move',{iid:card.iid,zone:'spellTrap',slot:0,faceDown:true}) },
+    { label:'→ Zone M/P 2 (face caché)', fn:()=> _duEmit('move',{iid:card.iid,zone:'spellTrap',slot:1,faceDown:true}) },
+    { label:'→ Zone M/P 3 (face caché)', fn:()=> _duEmit('move',{iid:card.iid,zone:'spellTrap',slot:2,faceDown:true}) },
+    '---',
+    { label:'→ Zone Terrain',     fn:()=> _duEmit('move',{iid:card.iid,zone:'field',slot:0}) },
+    { label:'→ Cimetière',        fn:()=> _duEmit('move',{iid:card.iid,zone:'graveyard'}) },
+    { label:'Révéler à l\'adversaire', fn:()=> _duEmit('reveal',{iid:card.iid}) },
+  ]);
+}
+
+function _duShowCtxField(e, card, zone, slot){
+  const items = [];
+  if(zone !== 'graveyard'){
+    items.push({ label: card.faceDown ? 'Retourner face visible' : 'Retourner face cachée', fn:()=> _duEmit('flip',{iid:card.iid}) });
+    items.push({ label: card.position==='atk' ? 'Passer en Défense' : 'Passer en Attaque', fn:()=> _duEmit('position',{iid:card.iid}) });
+    items.push('---');
+  }
+  items.push({ label:'→ Main',             fn:()=> _duEmit('move',{iid:card.iid,zone:'hand'}) });
+  items.push({ label:'→ Cimetière',        fn:()=> _duEmit('move',{iid:card.iid,zone:'graveyard'}) });
+  items.push({ label:'→ Dessus du deck',   fn:()=> _duEmit('move',{iid:card.iid,zone:'deck',deckPos:'top'}) });
+  items.push({ label:'→ Dessous du deck',  fn:()=> _duEmit('move',{iid:card.iid,zone:'deck',deckPos:'bottom'}) });
+  items.push({ label:'→ Mélanger dans deck', fn:()=> _duEmit('move',{iid:card.iid,zone:'deck',deckPos:'shuffle'}) });
+  if(zone !== 'graveyard'){
+    items.push('---');
+    items.push({ label:'Révéler à l\'adversaire', fn:()=> _duEmit('reveal',{iid:card.iid}) });
+  }
+  _duCtxShow(e.clientX, e.clientY, items);
+}
+
+// ── Log display ───────────────────────────────────────────────────────────────
+const _duLogLabels = {
+  draw:'Pioche', shuffle:'Mélange', lp:'LP', coin:'Pièce', dice:'Dé',
+  passTurn:'Tour passé', surrender:'Abandon', reveal:'Révélation',
+  flip:'Retournement', position:'Position', move:'Déplacement',
+  loadDeck:'Deck chargé', ready:'Prêt', maximum:'Maximum', lookDeck:'Consultation deck',
+};
+let _duLastLogTs = 0;
+function _duLogEntry(entry){
+  if(!entry || entry.ts === _duLastLogTs) return;
+  _duLastLogTs = entry.ts;
+  let txt = _duLogLabels[entry.type] || entry.type;
+  if(entry.type==='lp')      txt += ` → ${entry.lp}`;
+  if(entry.type==='coin')    txt += ` : ${entry.result}`;
+  if(entry.type==='dice')    txt += ` : ${entry.result}`;
+  if(entry.type==='passTurn') txt += ` (tour ${entry.turn===0?'J1':'J2'})`;
+  const side = entry.seat === _duSeat ? 'Vous' : 'Adverse';
+  const logWrap = _duEl('du-log');
+  const div = document.createElement('div');
+  div.className = 'du-log-entry';
+  div.textContent = `${side} — ${txt}`;
+  logWrap.appendChild(div);
+  while(logWrap.children.length > 6) logWrap.removeChild(logWrap.firstChild);
+  clearTimeout(_duLogTimer);
+  _duLogTimer = setTimeout(()=>{ if(logWrap.firstChild) logWrap.removeChild(logWrap.firstChild); }, 4000);
+}
+
+// ── GY viewer ─────────────────────────────────────────────────────────────────
+function _duShowViewer(title, cards){
+  _duEl('du-viewer-title').textContent = title;
+  const grid = _duEl('du-viewer-grid');
+  grid.innerHTML = '';
+  if(!cards || !cards.length){
+    const e=document.createElement('p'); e.style.color='var(--muted)'; e.textContent='Vide.'; grid.appendChild(e);
+  } else {
+    for(const c of cards){
+      const d=document.createElement('div'); d.className='du-vcard';
+      const src=_duCardImgSrc(c);
+      if(src){ const img=document.createElement('img');img.src=src;img.alt='';d.appendChild(img); }
+      else { const ph=document.createElement('div');ph.className='du-vcard-ph';ph.textContent=c.cardKey||'?';d.appendChild(ph); }
+      grid.appendChild(d);
+    }
+  }
+  _duEl('du-viewer-modal').classList.remove('hidden');
+}
+
+// ── Deck import ───────────────────────────────────────────────────────────────
+function _duParseImport(txt){
+  // Reuse the existing importDeckText logic indirectly — we need a flat list of
+  // { cardKey, rarity, imgFile }. We parse the text format ourselves to avoid
+  // mutating the deck builder state.
+  const idx = nameIndex(); // from existing code
+  const instances = [];
+  let section = 'main';
+  for(const raw of txt.split(/\r?\n/)){
+    const line = raw.trim();
+    if(!line) continue;
+    if(!/^\d/.test(line)){
+      const lo = line.toLowerCase();
+      if(/^(extra|fusion)/.test(lo)) section='extra';
+      else if(/^side/.test(lo)) section='side';
+      else section='main';
+      continue;
+    }
+    if(section==='side') continue;
+    const m = line.match(/^(\d+)\s*x?\s+(.+)$/i);
+    const count = m ? parseInt(m[1]) : 1;
+    const name  = (m ? m[2] : line).trim();
+    const title = idx.get(name.toLowerCase()) || name;
+    const card  = MAP.get(title);
+    const imgFile = card ? (rarityImg(card,'') || '') : '';
+    for(let i=0;i<count;i++) instances.push({ cardKey: title, rarity: '', imgFile });
+  }
+  return instances;
+}
+
+// ── Init board ────────────────────────────────────────────────────────────────
+let _duBoardInited = false;
+function _duInitBoard(){
+  if(_duBoardInited) return;
+  _duBoardInited = true;
+
+  // Import button (room view)
+  _duEl('ol-import-btn').addEventListener('click', ()=>{
+    _duEl('du-import-modal').classList.remove('hidden');
+    _duEl('du-import-ta').focus();
+  });
+  _duEl('du-import-cancel').addEventListener('click', ()=> _duEl('du-import-modal').classList.add('hidden'));
+  _duEl('du-import-ok').addEventListener('click', ()=>{
+    const txt = _duEl('du-import-ta').value.trim();
+    const errEl = _duEl('du-import-err');
+    errEl.style.display='none';
+    if(!txt){ errEl.textContent='Colle une liste de deck.'; errEl.style.display=''; return; }
+    const instances = _duParseImport(txt);
+    if(!instances.length){ errEl.textContent='Aucune carte reconnue.'; errEl.style.display=''; return; }
+    _duEmit('loadDeck', { deck: instances });
+    // Short delay then ready
+    setTimeout(()=> _duEmit('ready', {}), 120);
+    _duEl('du-import-modal').classList.add('hidden');
+    _duEl('ol-ready-status').textContent = '✓ Deck chargé, prêt !';
+    _duEl('ol-ready-status').className = 'ol-ready-status ready';
+    _duEl('ol-import-btn').disabled = true;
+  });
+
+  // LP controls (quick buttons)
+  document.querySelectorAll('.du-lp-q').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      const d = parseInt(btn.dataset.delta); if(!d) return;
+      _duEmit('lp', { mode:'delta', value: d });
+    });
+  });
+
+  // LP click → modal
+  _duEl('du-self-lp').addEventListener('click', ()=>{
+    if(_duState) _duEl('du-lp-inp').value = _duState.self.lp;
+    _duEl('du-lp-modal').classList.remove('hidden');
+    _duEl('du-lp-inp').select();
+  });
+  _duEl('du-lp-cancel').addEventListener('click', ()=> _duEl('du-lp-modal').classList.add('hidden'));
+  _duEl('du-lp-ok').addEventListener('click', ()=>{
+    const v = parseInt(_duEl('du-lp-inp').value);
+    if(Number.isFinite(v)) _duEmit('lp', { mode:'set', value: v });
+    _duEl('du-lp-modal').classList.add('hidden');
+  });
+  _duEl('du-lp-inp').addEventListener('keydown', e=>{ if(e.key==='Enter'){ _duEl('du-lp-ok').click(); } });
+  document.querySelectorAll('.du-lp-preset').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      const d = btn.dataset.delta;
+      if(d.startsWith('=')){ _duEmit('lp',{mode:'set',value:parseInt(d.slice(1))}); }
+      else { _duEmit('lp',{mode:'delta',value:parseInt(d)}); }
+      _duEl('du-lp-modal').classList.add('hidden');
+    });
+  });
+
+  // Pass turn
+  _duEl('du-pass-btn').addEventListener('click', ()=> _duEmit('passTurn', {}));
+
+  // Coin / dice
+  _duEl('du-coin-btn').addEventListener('click', ()=> _duEmit('coin', {}));
+  _duEl('du-dice-btn').addEventListener('click', ()=> _duEmit('dice', {}));
+
+  // Draw 1
+  _duEl('du-draw1-btn').addEventListener('click', ()=> _duEmit('draw', { n:1 }));
+
+  // Shuffle
+  _duEl('du-shuffle-btn').addEventListener('click', ()=> _duEmit('shuffle', {}));
+
+  // Maximum toggle
+  _duEl('du-max-btn').addEventListener('click', ()=>{
+    const on = !(_duState && _duState.self && _duState.self.maximum);
+    _duEmit('maximum', { on });
+  });
+
+  // Deck pile click → draw menu or look deck
+  _duEl('du-self-deck').addEventListener('click', ()=>{
+    _duCtxShow(
+      _duEl('du-self-deck').getBoundingClientRect().left,
+      _duEl('du-self-deck').getBoundingClientRect().top - 10,
+      [
+        { label:'Piocher 1',  fn:()=> _duEmit('draw',{n:1}) },
+        { label:'Piocher 5',  fn:()=> _duEmit('draw',{n:5}) },
+        { label:'Mélanger',   fn:()=> _duEmit('shuffle',{}) },
+        { label:'Consulter mon deck', fn:()=> _duEmit('lookDeck',{}) },
+      ]
+    );
+  });
+
+  // GY click → show graveyard viewer
+  _duEl('du-self-gy').addEventListener('click', ()=>{
+    if(!_duState) return;
+    _duShowViewer('Mon cimetière', _duState.self.graveyard);
+  });
+  _duEl('du-opp-gy').addEventListener('click', ()=>{
+    if(!_duState) return;
+    _duShowViewer('Cimetière adversaire', _duState.opp.graveyard);
+  });
+
+  // Viewer close
+  _duEl('du-viewer-close').addEventListener('click', ()=> _duEl('du-viewer-modal').classList.add('hidden'));
+
+  // Surrender
+  _duEl('du-surrender-btn').addEventListener('click', ()=>{
+    if(!confirm('Abandonner la partie ?')) return;
+    _duEmit('surrender', {});
+    _duClearSession();
+  });
+
+  // Back to lobby (without socket disconnect — session kept for reconnect)
+  _duEl('du-back-board-btn').addEventListener('click', ()=>{
+    _olShowView('room');
+    _duEl('screen-online').classList.remove('board-mode');
+  });
+
+  // Deck drop binding
+  _duBindDeckDrop();
+}
+
+// ── Show board ────────────────────────────────────────────────────────────────
+function _duGoBoard(){
+  _duInitBoard();
+  _duBindDeckDrop();
+  _olShowView('board');
+  document.getElementById('screen-online').classList.add('board-mode');
+}
+
+// ── Socket handlers (called once in _olEnsureSocket) ─────────────────────────
+function _duBindSocket(socket){
+  socket.on('duel:state', st=>{
+    // Save seat + names on first state
+    if(_duSeat === null && st.you !== undefined) _duSeat = st.you;
+    _duRenderState(st);
+    if(st.started) _duGoBoard();
+  });
+  socket.on('duel:private', data=>{
+    if(data && data.what === 'deck' && Array.isArray(data.cards)){
+      _duShowViewer('Mon deck (ordre actuel)', data.cards);
+    }
+  });
+  socket.on('duel:error', data=>{
+    _duToast('Erreur duel : ' + (data && data.code || '?'));
+  });
+}
+
+function _duToast(msg){ if(typeof toast === 'function') toast(msg); }
 
 document.addEventListener('DOMContentLoaded',init);
 </script>
