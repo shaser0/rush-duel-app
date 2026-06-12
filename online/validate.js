@@ -7,11 +7,12 @@ const CODE_RE        = /^[A-Z2-9]{6}$/;
 const TOKEN_RE       = /^[a-f0-9]{16,64}$/i;
 
 // Duel structural limits (kept in sync with duel/state.js).
-const MAX_DECK = 100;
-const ZONES    = new Set(['hand', 'deck', 'graveyard', 'monster', 'spellTrap', 'field']);
+const MAX_DECK       = 100;
+const MAX_EXTRA_DECK = 15;
+const ZONES    = new Set(['hand', 'deck', 'extraDeck', 'graveyard', 'monster', 'spellTrap', 'field']);
 const ACTIONS  = new Set([
-  'loadDeck', 'ready', 'shuffle', 'draw', 'lookDeck', 'move', 'flip', 'position',
-  'maximum', 'reveal', 'lp', 'coin', 'dice', 'passTurn', 'surrender',
+  'loadDeck', 'loadExtraDeck', 'ready', 'chooseFirst', 'millTop', 'shuffle', 'draw', 'lookDeck', 'lookExtraDeck',
+  'move', 'flip', 'position', 'maximum', 'attack', 'activateEffect', 'target', 'reveal', 'lp', 'coin', 'dice', 'passTurn', 'surrender',
 ]);
 
 function isPseudo(v) {
@@ -54,6 +55,11 @@ function isDuelAction(data) {
     case 'loadDeck':
       return Array.isArray(p.deck) && p.deck.length > 0 && p.deck.length <= MAX_DECK
         && p.deck.every(isCardDesc);
+    case 'loadExtraDeck':
+      return Array.isArray(p.deck) && p.deck.length > 0 && p.deck.length <= MAX_EXTRA_DECK
+        && p.deck.every(isCardDesc);
+    case 'chooseFirst':
+      return typeof p.goFirst === 'boolean';
     case 'draw':
       return p.n === undefined || (Number.isInteger(p.n) && p.n >= 1 && p.n <= 20);
     case 'move':
@@ -62,8 +68,14 @@ function isDuelAction(data) {
         && (p.deckPos === undefined || ['top', 'bottom', 'shuffle'].includes(p.deckPos))
         && (p.faceDown === undefined || typeof p.faceDown === 'boolean')
         && (p.position === undefined || ['atk', 'def'].includes(p.position));
+    case 'attack':
+      return typeof p.attackerIid === 'string'
+        && (p.defenderSlot === undefined || p.defenderSlot === null
+            || (Number.isInteger(p.defenderSlot) && p.defenderSlot >= 0 && p.defenderSlot < 3));
+    case 'target':
     case 'flip':
     case 'position':
+    case 'activateEffect':
     case 'reveal':
       return typeof p.iid === 'string';
     case 'maximum':

@@ -18,10 +18,11 @@ const MONSTER_SLOTS    = 3;
 const SPELLTRAP_SLOTS  = 3;
 const FIELD_SLOTS      = 1;
 const MAX_DECK         = 100; // structural payload bound (legality is à l'honneur)
+const MAX_EXTRA_DECK   = 15;
 const MAX_DRAW         = 20;
 
 // Zones that hold an ordered array of instances (piles).
-const PILE_ZONES  = new Set(['hand', 'deck', 'graveyard']);
+const PILE_ZONES  = new Set(['hand', 'deck', 'extraDeck', 'graveyard']);
 // Zones that hold a fixed number of single-card slots.
 const SLOT_ZONES  = { monster: MONSTER_SLOTS, spellTrap: SPELLTRAP_SLOTS, field: FIELD_SLOTS };
 const ALL_ZONES   = new Set([...PILE_ZONES, ...Object.keys(SLOT_ZONES)]);
@@ -34,6 +35,7 @@ function createBoard(token) {
     lp:        STARTING_LP,
     hand:      [],
     deck:      [],         // top of deck = index 0
+    extraDeck: [],         // Fusion/Ritual monsters — private, owner-only
     graveyard: [],
     monster:   new Array(MONSTER_SLOTS).fill(null),
     spellTrap: new Array(SPELLTRAP_SLOTS).fill(null),
@@ -44,11 +46,13 @@ function createBoard(token) {
 
 function createGame(seat0Token, seat1Token) {
   return {
-    _iidSeq: 0,
-    turn:    0,            // seat index currently holding the turn token
-    started: false,
-    ended:   false,
-    winner:  null,         // seat index of winner on surrender, else null
+    _iidSeq:    0,
+    _readyMask: 0,         // bits 0|1: which seats have pressed ready
+    turn:       0,         // seat index currently holding the turn token
+    started:    false,
+    ended:      false,
+    winner:     null,      // seat index of winner on surrender, else null
+    tossWinner: null,      // seat that won the coin toss (gets to pick first/second)
     players: { 0: createBoard(seat0Token), 1: createBoard(seat1Token) },
     log:     [],           // public ephemeral events (coin/dice/reveal/lp/turn…)
   };
@@ -116,6 +120,11 @@ function loadDeck(game, seat, instances) {
   board.deck = instances.slice(0, MAX_DECK).map(raw => makeInstance(game, raw));
 }
 
+function loadExtraDeck(game, seat, instances) {
+  const board = game.players[seat];
+  board.extraDeck = instances.slice(0, MAX_EXTRA_DECK).map(raw => makeInstance(game, raw));
+}
+
 function shuffle(game, seat) {
   const deck = game.players[seat].deck;
   for (let i = deck.length - 1; i > 0; i--) {
@@ -160,23 +169,26 @@ function move(game, seat, loc, dest) {
 
   if (zone in SLOT_ZONES) {
     board[zone][dest.slot] = card;
+    // Spell/Trap and Field zones have no ATK/DEF orientation — always upright.
+    if (zone !== 'monster') card.position = 'atk';
   } else if (zone === 'deck') {
     card.faceDown = false; card.position = 'atk';
     const where = dest.deckPos || 'top';
     if (where === 'bottom')       board.deck.push(card);
     else if (where === 'shuffle') { board.deck.push(card); shuffle(game, seat); }
     else                          board.deck.unshift(card); // top
-  } else { // hand or graveyard
+  } else { // hand, extraDeck, or graveyard
     if (zone === 'hand')      { card.faceDown = false; card.position = 'atk'; }
     if (zone === 'graveyard') { card.faceDown = false; }
+    // extraDeck: preserve face state (caller sets faceDown if desired)
     board[zone].push(card);
   }
   return { ok: true };
 }
 
 module.exports = {
-  STARTING_LP, MONSTER_SLOTS, SPELLTRAP_SLOTS, FIELD_SLOTS, MAX_DECK, MAX_DRAW,
+  STARTING_LP, MONSTER_SLOTS, SPELLTRAP_SLOTS, FIELD_SLOTS, MAX_DECK, MAX_EXTRA_DECK, MAX_DRAW,
   PILE_ZONES, SLOT_ZONES, ALL_ZONES,
   createGame, createBoard, nextIid, pushLog, makeInstance,
-  locate, removeAt, loadDeck, shuffle, draw, move,
+  locate, removeAt, loadDeck, loadExtraDeck, shuffle, draw, move,
 };

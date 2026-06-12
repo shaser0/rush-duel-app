@@ -56,6 +56,9 @@ function boardView(board, isOwner) {
     hand:      board.hand.map(c => (isOwner ? pub(c) : hidden(c))),
     // Deck: NEVER expose contents or order to anyone — only the count.
     deckCount: board.deck.length,
+    // Extra Deck: private like the main deck — opponent only sees the count.
+    extraDeckCount: board.extraDeck.length,
+    extraDeck: isOwner ? board.extraDeck.map(pub) : board.extraDeck.map(hidden),
     // Graveyard is a public, face-up pile for both players.
     graveyard: board.graveyard.map(pub),
     monster:   board.monster.map(c => slotView(c, isOwner)),
@@ -67,14 +70,15 @@ function boardView(board, isOwner) {
 function viewFor(game, seat) {
   const opp = seat === 0 ? 1 : 0;
   return {
-    you:     seat,
-    turn:    game.turn,
-    started: game.started,
-    ended:   game.ended,
-    winner:  game.winner,
-    self:    boardView(game.players[seat], true),
-    opp:     boardView(game.players[opp], false),
-    log:     game.log.slice(-50),
+    you:        seat,
+    turn:       game.turn,
+    tossWinner: game.tossWinner,
+    started:    game.started,
+    ended:      game.ended,
+    winner:     game.winner,
+    self:       boardView(game.players[seat], true),
+    opp:        boardView(game.players[opp], false),
+    log:        game.log.slice(-50),
   };
 }
 

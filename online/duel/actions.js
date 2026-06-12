@@ -35,22 +35,49 @@ const ACTIONS = {
     return { ok: true };
   },
 
-  // First shuffle + readiness. When both seats have a non-empty deck the game is
-  // considered "started" (purely a UI gate; no rules are enforced).
+  // First shuffle + readiness. When both seats are ready a coin is tossed to
+  // decide who picks first/second. The actual start is gated on chooseFirst.
   ready(game, seat) {
+    if (game.started) return { error: 'already_started' };
     S.shuffle(game, seat);
-    const both = game.players[0].deck.length > 0 && game.players[1].deck.length > 0;
-    if (both) {
-      game.started = true;
-      // Deal opening hands
-      S.draw(game, 0, 4);
-      S.draw(game, 1, 4);
-    }
+    game._readyMask |= (1 << seat);
     S.pushLog(game, { type: 'ready', seat });
+    if ((game._readyMask & 3) === 3 && game.tossWinner === null) {
+      const both = game.players[0].deck.length > 0 && game.players[1].deck.length > 0;
+      if (both) {
+        game.tossWinner = Math.floor(Math.random() * 2);
+        S.pushLog(game, { type: 'coinToss', tossWinner: game.tossWinner });
+      }
+    }
+    return { ok: true };
+  },
+
+  // Toss winner declares who goes first. This starts the game and deals hands.
+  chooseFirst(game, seat, p) {
+    if (game.started)           return { error: 'already_started' };
+    if (game.tossWinner !== seat) return { error: 'not_your_choice' };
+    if (typeof p.goFirst !== 'boolean') return { error: 'bad_payload' };
+    game.turn    = p.goFirst ? seat : (seat === 0 ? 1 : 0);
+    game.started = true;
+    S.draw(game, 0, 4);
+    S.draw(game, 1, 4);
+    S.pushLog(game, { type: 'chooseFirst', seat, goFirst: p.goFirst, startSeat: game.turn });
     return { ok: true };
   },
 
   // ── Deck operations ───────────────────────────────────────────────────────
+  // Send the top card of the deck directly to the graveyard (publicly logged).
+  millTop(game, seat) {
+    const board = game.players[seat];
+    if (!board.deck.length) return { error: 'deck_empty' };
+    const loc = { zone: 'deck', index: 0, card: board.deck[0] };
+    const cardKey = board.deck[0].cardKey;
+    const res = S.move(game, seat, loc, { zone: 'graveyard' });
+    if (res.error) return res;
+    S.pushLog(game, { type: 'millTop', seat, cardKey });
+    return { ok: true };
+  },
+
   shuffle(game, seat) {
     S.shuffle(game, seat);
     S.pushLog(game, { type: 'shuffle', seat });
@@ -76,14 +103,46 @@ const ACTIONS = {
     return { ok: true, private: { what: 'deck', cards } };
   },
 
+  // Load Fusion/Ritual monsters into the Extra Deck (before game starts).
+  loadExtraDeck(game, seat, p) {
+    if (game.started) return { error: 'already_started' };
+    if (!Array.isArray(p.deck) || p.deck.length === 0) return { error: 'empty_deck' };
+    if (p.deck.length > S.MAX_EXTRA_DECK) return { error: 'extra_deck_too_large' };
+    S.loadExtraDeck(game, seat, p.deck);
+    S.pushLog(game, { type: 'loadExtraDeck', seat, count: game.players[seat].extraDeck.length });
+    return { ok: true };
+  },
+
+  // Owner privately views their own Extra Deck contents.
+  lookExtraDeck(game, seat) {
+    const cards = game.players[seat].extraDeck.map(c => ({
+      iid: c.iid, cardKey: c.cardKey, rarity: c.rarity, imgFile: c.imgFile,
+    }));
+    S.pushLog(game, { type: 'lookExtraDeck', seat });
+    return { ok: true, private: { what: 'extraDeck', cards } };
+  },
+
   // ── Card movement (drag-and-drop) ─────────────────────────────────────────
   // The general mover. payload: { iid, zone, slot?, deckPos?, faceDown?, position? }
   move(game, seat, p) {
     const o = own(game, seat, p.iid);
     if (o.error) return o;
+    const fromZone = o.loc.zone;
     const res = S.move(game, seat, o.loc, p);
     if (res.error) return res;
-    S.pushLog(game, { type: 'move', seat, zone: p.zone });
+    // Find the card in its new location to read final state for the log.
+    const board = game.players[seat];
+    let card = null;
+    if (p.zone in S.SLOT_ZONES)    card = board[p.zone][p.slot];
+    else if (p.zone !== 'deck')    card = board[p.zone][board[p.zone].length - 1];
+    const faceDown = card ? card.faceDown : !!p.faceDown;
+    // Identity is public only when face-up and in a visible zone (not hand/deck/extra).
+    const visible = p.zone === 'graveyard' || p.zone in S.SLOT_ZONES;
+    const cardKey = (!faceDown && visible && card) ? card.cardKey : undefined;
+    S.pushLog(game, {
+      type: 'move', seat, fromZone, zone: p.zone,
+      slot: p.slot, faceDown, position: card ? card.position : undefined, cardKey,
+    });
     return { ok: true };
   },
 
@@ -94,7 +153,10 @@ const ACTIONS = {
     if (o.error) return o;
     if (S.PILE_ZONES.has(o.loc.zone)) return { error: 'not_on_field' };
     o.loc.card.faceDown = typeof p.faceDown === 'boolean' ? p.faceDown : !o.loc.card.faceDown;
-    S.pushLog(game, { type: 'flip', seat });
+    const card = o.loc.card;
+    // Identity is public when the card is now face-up on the field.
+    const cardKey = !card.faceDown ? card.cardKey : undefined;
+    S.pushLog(game, { type: 'flip', seat, zone: o.loc.zone, faceDown: card.faceDown, cardKey });
     return { ok: true };
   },
 
@@ -107,7 +169,9 @@ const ACTIONS = {
       ? p.position
       : (o.loc.card.position === 'atk' ? 'def' : 'atk');
     o.loc.card.position = next;
-    S.pushLog(game, { type: 'position', seat, position: next });
+    // Position is always public for face-up cards.
+    const cardKey = !o.loc.card.faceDown ? o.loc.card.cardKey : undefined;
+    S.pushLog(game, { type: 'position', seat, zone: o.loc.zone, position: next, cardKey });
     return { ok: true };
   },
 
@@ -115,6 +179,72 @@ const ACTIONS = {
   maximum(game, seat, p) {
     game.players[seat].maximum = typeof p.on === 'boolean' ? p.on : !game.players[seat].maximum;
     S.pushLog(game, { type: 'maximum', seat, on: game.players[seat].maximum });
+    return { ok: true };
+  },
+
+  // ── Declare an attack (public). Logs attacker + defender for both clients. ───
+  attack(game, seat, p) {
+    const o = own(game, seat, p.attackerIid);
+    if (o.error) return { error: o.error };
+    if (o.loc.zone !== 'monster') return { error: 'not_a_monster' };
+    const opp = game.players[seat === 0 ? 1 : 0];
+    let defenderCardKey = null;
+    if (Number.isInteger(p.defenderSlot)) {
+      const def = opp.monster[p.defenderSlot];
+      defenderCardKey = def && !def.faceDown ? def.cardKey : null;
+    }
+    S.pushLog(game, {
+      type: 'attack', seat,
+      attackerIid:      p.attackerIid,
+      attackerCardKey:  o.loc.card.cardKey,
+      defenderSlot:     Number.isInteger(p.defenderSlot) ? p.defenderSlot : null,
+      defenderCardKey,
+    });
+    return { ok: true };
+  },
+
+  // ── Target an opponent's card on the field or in the GY (public declaratory) ─
+  target(game, seat, p) {
+    const oppSeat = seat === 0 ? 1 : 0;
+    const opp = game.players[oppSeat];
+    let found = null;
+    let cardKey = null;
+    for (const zone of Object.keys(S.SLOT_ZONES)) {
+      for (let i = 0; i < S.SLOT_ZONES[zone]; i++) {
+        const c = opp[zone][i];
+        if (c && c.iid === p.iid) {
+          found = { zone, slot: i };
+          if (!c.faceDown) cardKey = c.cardKey;
+          break;
+        }
+      }
+      if (found) break;
+    }
+    if (!found) {
+      const idx = opp.graveyard.findIndex(c => c && c.iid === p.iid);
+      if (idx !== -1) {
+        found = { zone: 'graveyard', slot: idx };
+        cardKey = opp.graveyard[idx].cardKey;
+      }
+    }
+    if (!found) return { error: 'not_found' };
+    S.pushLog(game, {
+      type: 'target', seat,
+      targetIid: p.iid, targetZone: found.zone, targetSlot: found.slot, cardKey,
+    });
+    return { ok: true };
+  },
+
+  // ── Announce effect activation (public declaratory — no rule enforcement) ───
+  activateEffect(game, seat, p) {
+    const o = own(game, seat, p.iid);
+    if (o.error) return o;
+    if (S.PILE_ZONES.has(o.loc.zone)) return { error: 'not_on_field' };
+    if (o.loc.card.faceDown) return { error: 'card_face_down' };
+    S.pushLog(game, {
+      type: 'activateEffect', seat,
+      zone: o.loc.zone, cardKey: o.loc.card.cardKey,
+    });
     return { ok: true };
   },
 
@@ -136,9 +266,16 @@ const ACTIONS = {
     const v = Number(p.value);
     if (!Number.isFinite(v)) return { error: 'bad_value' };
     const board = game.players[seat];
+    const prev = board.lp;
     if (p.mode === 'set') board.lp = Math.max(0, Math.round(v));
     else                  board.lp = Math.max(0, board.lp + Math.round(v));
-    S.pushLog(game, { type: 'lp', seat, lp: board.lp });
+    const delta = board.lp - prev;
+    S.pushLog(game, { type: 'lp', seat, lp: board.lp, delta });
+    if (board.lp === 0 && !game.ended) {
+      game.ended = true;
+      game.winner = seat === 0 ? 1 : 0;
+      S.pushLog(game, { type: 'lpLoss', seat });
+    }
     return { ok: true };
   },
 
