@@ -100,11 +100,6 @@ ok('occupied slot rejects a second card (slot_occupied)', () => {
 });
 
 // ── Misc actions ─────────────────────────────────────────────────────────────
-ok('lp set/delta clamps at 0 and never goes negative', () => {
-  apply(game, 0, 'lp', { mode: 'set', value: 8000 });
-  apply(game, 0, 'lp', { mode: 'delta', value: -10000 });
-  assert.strictEqual(game.players[0].lp, 0);
-});
 ok('coin + dice produce in-range public results in the log', () => {
   apply(game, 0, 'coin', {});
   apply(game, 0, 'dice', {});
@@ -125,6 +120,17 @@ ok('lookDeck returns a PRIVATE payload, not a broadcast field', () => {
   // And the public log only records that a look happened, not the contents.
   const entry = [...game.log].reverse().find(e => e.type === 'lookDeck');
   assert.ok(entry && entry.cards === undefined);
+});
+// Runs LAST: dropping LP to 0 clamps at 0 AND triggers auto-loss (game.ended),
+// which blocks every further non-surrender action — so keep this after the rest.
+ok('lp clamps at 0 and reaching 0 triggers auto-loss', () => {
+  apply(game, 0, 'lp', { mode: 'set', value: 8000 });
+  apply(game, 0, 'lp', { mode: 'delta', value: -10000 });
+  assert.strictEqual(game.players[0].lp, 0);
+  assert.strictEqual(game.ended, true);
+  assert.strictEqual(game.winner, 1);
+  // Once the game is over, non-surrender actions are rejected.
+  assert.strictEqual(apply(game, 0, 'coin', {}).error, 'game_over');
 });
 
 console.log(`\n${passed} checks passed.`);
