@@ -24,9 +24,15 @@ function includeInRelease(src) {
 
 const PKG = path.join(__dirname, '../../node_modules/.bin/pkg');
 const pkgEnv = { ...process.env, NODE_OPTIONS: '--use-system-ca' };
-execSync(`"${PKG}" . --targets node22-win-x64   --options use-system-ca --output dist/rush-app-win.exe`, { stdio: 'inherit', env: pkgEnv });
-execSync(`"${PKG}" . --targets node22-linux-x64 --options use-system-ca --output dist/rush-app-linux`,   { stdio: 'inherit', env: pkgEnv });
-execSync(`"${PKG}" . --targets node22-macos-x64 --options use-system-ca --output dist/rush-app-macos`,   { stdio: 'inherit', env: pkgEnv });
+// `--no-bytecode --public --public-packages "*"`: ship plain JS source instead of
+// V8 bytecode. pkg's bytecode cache is tied to the *host* V8, so cross-compiling
+// the win/macos targets from a Linux CI runner produces binaries that reject their
+// own snapshot at startup ("V8 rejected the bytecode cache for server.js"). Source
+// mode is fully portable across host/target.
+const PKG_FLAGS = '--no-bytecode --public --public-packages "*"';
+execSync(`"${PKG}" . --targets node22-win-x64   ${PKG_FLAGS} --options use-system-ca --output dist/rush-app-win.exe`, { stdio: 'inherit', env: pkgEnv });
+execSync(`"${PKG}" . --targets node22-linux-x64 ${PKG_FLAGS} --options use-system-ca --output dist/rush-app-linux`,   { stdio: 'inherit', env: pkgEnv });
+execSync(`"${PKG}" . --targets node22-macos-x64 ${PKG_FLAGS} --options use-system-ca --output dist/rush-app-macos`,   { stdio: 'inherit', env: pkgEnv });
 
 // Patch the Windows exe PE header: change subsystem from console (3) to GUI (2).
 // This tells Windows not to create a terminal window when the exe is launched,
