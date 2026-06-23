@@ -660,7 +660,11 @@ button,input,select{font-family:inherit}
   <div id="menu-wrap">
     <h1 id="menu-title">Rush Duel</h1>
     <p id="menu-sub">Pack Opening Simulator &amp; Deck Builder</p>
-    <span id="app-version" style="font-size:11px;color:var(--muted);margin-bottom:18px"></span>
+    <span id="app-version" style="font-size:11px;color:var(--muted)"></span>
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:18px">
+      <button id="data-upd-btn" title="Check for card-data update" style="padding:3px 9px;background:none;border:1px solid var(--border);border-radius:6px;color:var(--muted);cursor:pointer;font-size:11px">⟳ Check for card-data update</button>
+      <span id="data-upd-msg" style="font-size:11px;color:var(--muted)"></span>
+    </div>
     <div id="menu-grid">
       <button class="menu-tile" data-go="screen-sets">
         <span class="mt-icon">📦</span>
@@ -684,8 +688,8 @@ button,input,select{font-family:inherit}
       </button>
       <button class="menu-tile" data-go="screen-online" style="grid-column:1/-1">
         <span class="mt-icon">🌐</span>
-        <span class="mt-name">Duel en ligne</span>
-        <span class="mt-desc">Affronte un ami via ZeroTier / Tailscale</span>
+        <span class="mt-name">Online Duel</span>
+        <span class="mt-desc">Take on a friend over ZeroTier / Tailscale</span>
       </button>
     </div>
   </div>
@@ -973,18 +977,18 @@ button,input,select{font-family:inherit}
   <!-- Lobby -->
   <div id="ol-lobby" class="ol-view">
     <div class="ol-card">
-      <h2 class="ol-title">🌐 Duel en ligne</h2>
-      <p class="ol-desc">Joue contre un ami via ZeroTier ou Tailscale. L'hôte lance le serveur avec <code style="background:var(--bg3);padding:1px 5px;border-radius:3px;font-size:12px">ONLINE_MODE=1 npm start</code>, puis partage le code de room à son adversaire.</p>
+      <h2 class="ol-title">🌐 Online Duel</h2>
+      <p class="ol-desc">Play against a friend over ZeroTier or Tailscale. The host starts the server with <code style="background:var(--bg3);padding:1px 5px;border-radius:3px;font-size:12px">ONLINE_MODE=1 npm start</code>, then shares the room code with their opponent.</p>
       <div class="ol-field">
-        <label for="ol-pseudo">Ton pseudo</label>
-        <input id="ol-pseudo" class="ol-input" type="text" maxlength="20" placeholder="Entrez votre pseudo…" autocomplete="off">
+        <label for="ol-pseudo">Your nickname</label>
+        <input id="ol-pseudo" class="ol-input" type="text" maxlength="20" placeholder="Enter your nickname…" autocomplete="off">
       </div>
       <div class="ol-actions">
-        <button id="ol-host-btn" class="btn-p">Héberger un duel</button>
-        <div class="ol-separator">ou</div>
+        <button id="ol-host-btn" class="btn-p">Host a duel</button>
+        <div class="ol-separator">or</div>
         <div class="ol-join-row">
-          <input id="ol-code" class="ol-input" type="text" maxlength="6" placeholder="Code de room" autocomplete="off" autocapitalize="characters" style="text-transform:uppercase">
-          <button id="ol-join-btn" class="btn-p">Rejoindre</button>
+          <input id="ol-code" class="ol-input" type="text" maxlength="6" placeholder="Room code" autocomplete="off" autocapitalize="characters" style="text-transform:uppercase">
+          <button id="ol-join-btn" class="btn-p">Join</button>
         </div>
       </div>
       <p id="ol-error" class="ol-err hidden" role="alert"></p>
@@ -994,22 +998,22 @@ button,input,select{font-family:inherit}
   <div id="ol-room-view" class="ol-view hidden" style="max-width:720px">
     <div class="ol-room-header">
       <div style="display:flex;align-items:center;gap:4px">
-        <span class="ol-room-code-label">Code room :</span>
+        <span class="ol-room-code-label">Room code:</span>
         <span id="ol-room-code" class="ol-room-code">——</span>
-        <button id="ol-copy-btn" class="ol-copy" title="Copier le code">📋</button>
+        <button id="ol-copy-btn" class="ol-copy" title="Copy code">📋</button>
       </div>
-      <button id="ol-leave-btn" class="btn-back">Quitter la room</button>
+      <button id="ol-leave-btn" class="btn-back">Leave room</button>
     </div>
     <div class="ol-room-body">
       <div class="ol-presence">
-        <div class="ol-presence-title">Joueurs</div>
+        <div class="ol-presence-title">Players</div>
         <div id="ol-presence-list"></div>
       </div>
       <div class="ol-chat">
         <div id="ol-messages" class="ol-messages"></div>
         <div class="ol-chat-input">
           <input id="ol-chat-inp" class="ol-input" type="text" maxlength="500" placeholder="Message…" autocomplete="off">
-          <button id="ol-send-btn" class="btn-p">Envoyer</button>
+          <button id="ol-send-btn" class="btn-p">Send</button>
         </div>
       </div>
     </div>
@@ -1017,7 +1021,7 @@ button,input,select{font-family:inherit}
     <div class="ol-ready-section">
       <div class="du-banlist-row">
         <p style="font-size:12px;color:var(--muted);margin:0">Choose your deck then click <b style="color:var(--text)">Ready</b> to start the duel.</p>
-        <label class="du-banlist-lbl" id="du-bl-label" title="Les decks non conformes seront grisés (réglage hôte)">
+        <label class="du-banlist-lbl" id="du-bl-label" title="Non-compliant decks will be greyed out (host setting)">
           <input type="checkbox" id="du-bl-chk" checked>
           <span>Banlist Rush Duel</span>
         </label>
@@ -1176,8 +1180,8 @@ button,input,select{font-family:inherit}
       <button class="du-lp-preset" data-delta="=8000">Reset 8000</button>
     </div>
     <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:4px">
-      <button class="modal-cancel" id="du-lp-cancel">Annuler</button>
-      <button class="modal-ok" id="du-lp-ok">Appliquer</button>
+      <button class="modal-cancel" id="du-lp-cancel">Cancel</button>
+      <button class="modal-ok" id="du-lp-ok">Apply</button>
     </div>
   </div>
 </div>
@@ -1185,9 +1189,9 @@ button,input,select{font-family:inherit}
 <!-- Card viewer modal (GY / deck private view) -->
 <div class="modal-back hidden" id="du-viewer-modal">
   <div class="modal">
-    <h2 id="du-viewer-title">Cimetière</h2>
+    <h2 id="du-viewer-title">Graveyard</h2>
     <div class="du-viewer-grid" id="du-viewer-grid"></div>
-    <button class="modal-cancel" id="du-viewer-close" style="margin-top:10px;align-self:center">Fermer</button>
+    <button class="modal-cancel" id="du-viewer-close" style="margin-top:10px;align-self:center">Close</button>
   </div>
 </div>
 
@@ -1975,7 +1979,7 @@ const SCREEN_SECTION={
   'screen-database':'database',
   'screen-online':'online',
 };
-const SECTION_TITLE={home:'',packs:'Open Packs',collection:'My Collection',deckbuilder:'Deck Builder',database:'Card Database',online:'Duel en ligne'};
+const SECTION_TITLE={home:'',packs:'Open Packs',collection:'My Collection',deckbuilder:'Deck Builder',database:'Card Database',online:'Online Duel'};
 
 function goTo(id){
   document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
@@ -3705,68 +3709,99 @@ async function refCached(db){
   const recs=await Promise.all(REF_FILES.map(f=>refIdbGet(db,'files',f)));
   return recs.every(r=>r&&r.data!==undefined) ? recs : null;
 }
-// Load reference data: cache (same tag) → CDN download → cache fallback (offline).
-// dataBase '' means same-origin (dev fallback); cache is keyed by immutable dataTag.
-async function loadReferenceData(dataBase, dataTag){
-  const base=dataBase||'';
+// Config + active-data state, lifted to module scope so the background/manual
+// data-channel check can reach them after init() has run.
+let DATA_BASE='', DATA_TAG='', DATA_CHANNEL_URL='';
+const DATA_STATE={ version:0, tag:'' };
+
+// Build the CDN base for a specific data tag by swapping the @<tag> segment of
+// the baseline dataBase (…/rush-duel-app@<tag>/data). Same-origin base ('') has
+// no tag to swap, so channel updates don't apply in dev.
+function refBaseForTag(dataBase, tag){
+  if(!dataBase) return '';
+  return dataBase.replace(/@[^/]+\/data$/, '@'+tag+'/data');
+}
+
+// Download all REF_FILES from `base`, parse, and (when complete) cache under
+// `tag`. cards.json is mandatory; optional files may be absent. allOk gates
+// caching so a transiently-empty optional file isn't frozen under this tag
+// (e.g. empty IMG_URLS → every image stuck on the slow fallback). Partial loads
+// stay in-memory so the next launch retries. Returns { ref, version }.
+async function refDownload(db, base, tag){
   const url=f=> base ? `${base}/${f}` : `/${f}`;
+  let allOk=true;
+  const res=await Promise.all(REF_FILES.map(f=>fetch(url(f)).catch(()=>null)));
+  if(!res[0]||!res[0].ok) throw new Error('cards.json unavailable');
+  const parsed=[];
+  parsed[0]=await res[0].json();
+  if(!Array.isArray(parsed[0])||!parsed[0].length) throw new Error('cards.json empty/invalid');
+  for(let i=1;i<REF_FILES.length;i++){
+    if(res[i]&&res[i].ok){ parsed[i]=await res[i].json().catch(()=>{ allOk=false; return {}; }); }
+    else { parsed[i]={}; allOk=false; }
+  }
+  let version=0,hashes={};
+  try{ const man=await fetch(url('data-version.json')).then(r=>r&&r.ok?r.json():null); if(man){ version=man.version||0; hashes=man.hashes||{}; } }catch{}
+  if(db && allOk){
+    try{
+      const records=REF_FILES.map((f,i)=>({name:f,data:parsed[i]}));
+      await refIdbPutAll(db,records,{dataTag:tag,version,hashes});
+    }catch{ /* quota/etc → keep in-memory for this session */ }
+  }
+  return { ref: packRef(REF_FILES.map((f,i)=>({name:f,data:parsed[i]}))), version };
+}
+
+// First-paint load: serve any complete cache immediately (offline-friendly,
+// independent of which data tag produced it), else download the baseline tag.
+// checkDataChannel() refreshes it afterwards if newer data has been published.
+async function loadReferenceData(dataBase, dataTag){
   let db=null;
   try{ db=await refIdbOpen(); }catch{ /* private mode / no IndexedDB */ }
-
-  // Cache hit: same tag → serve parsed records (no network, no re-parse)
-  if(db&&dataTag){
+  if(db){
     try{
       const man=await refIdbGet(db,'meta','manifest');
-      if(man&&man.dataTag===dataTag){
-        const recs=await refCached(db);
-        if(recs) return packRef(recs);
-      }
+      const recs=await refCached(db);
+      if(man&&recs){ DATA_STATE.version=man.version||0; DATA_STATE.tag=man.dataTag||dataTag; return packRef(recs); }
     }catch{}
   }
-
-  // Download from CDN (or same-origin fallback). cards.json is mandatory.
-  let parsed, allOk=true;
   try{
-    const res=await Promise.all(REF_FILES.map(f=>fetch(url(f)).catch(()=>null)));
-    if(!res[0]||!res[0].ok) throw new Error('cards.json unavailable');
-    parsed=[];
-    parsed[0]=await res[0].json();
-    if(!Array.isArray(parsed[0])||!parsed[0].length) throw new Error('cards.json empty/invalid');
-    for(let i=1;i<REF_FILES.length;i++){
-      if(res[i]&&res[i].ok){ parsed[i]=await res[i].json().catch(()=>{ allOk=false; return {}; }); }
-      else { parsed[i]={}; allOk=false; }
-    }
+    const { ref, version }=await refDownload(db, dataBase||'', dataTag);
+    DATA_STATE.version=version; DATA_STATE.tag=dataTag;
+    return ref;
   }catch(e){
-    // Offline / failed download → fall back to any cached copy, else surface error
     if(db){ try{ const recs=await refCached(db); if(recs) return packRef(recs); }catch{} }
     throw e;
   }
+}
 
-  // Persist only when ALL files loaded: caching a transiently-empty optional file
-  // under this tag would mask it forever (same tag → cache hit), e.g. empty
-  // IMG_URLS → every image stuck on the slow fallback. Partial loads stay
-  // in-memory so the next launch retries.
-  if(db && allOk){
-    try{
-      let version=0,hashes={};
-      try{ const man=await fetch(url('data-version.json')).then(r=>r&&r.ok?r.json():null); if(man){ version=man.version||0; hashes=man.hashes||{}; } }catch{}
-      const records=REF_FILES.map((f,i)=>({name:f,data:parsed[i]}));
-      await refIdbPutAll(db,records,{dataTag,version,hashes});
-    }catch{ /* quota/etc → keep in-memory for this session */ }
-  }
-  return packRef(REF_FILES.map((f,i)=>({name:f,data:parsed[i]})));
+// Data channel: fetch the pointer file; if it names a newer data version than
+// what's cached, download + re-cache it under its tag. Returns
+// { updated, version }. Drives both the launch background check and the manual
+// "check for card-data update" button. Decouples data from the app version.
+async function checkDataChannel(channelUrl, dataBase){
+  if(!channelUrl || !dataBase) return { updated:false };
+  let ch=null;
+  try{ ch=await fetch(channelUrl,{cache:'no-store'}).then(r=>r&&r.ok?r.json():null); }catch{}
+  if(!ch || !ch.tag || typeof ch.version!=='number') return { updated:false };
+  if(ch.version<=(DATA_STATE.version||0)) return { updated:false, version:ch.version };
+  let db=null;
+  try{ db=await refIdbOpen(); }catch{}
+  const { version }=await refDownload(db, refBaseForTag(dataBase, ch.tag), ch.tag);
+  DATA_STATE.version=version; DATA_STATE.tag=ch.tag;
+  return { updated:true, version };
 }
 
 /* ═══════════════════════════════════════════════════════
    18. INIT
 ═══════════════════════════════════════════════════════ */
 async function init(){
-  let DATA_BASE='', DATA_TAG='', APP_CONFIG={};
+  let APP_CONFIG={};
   try{
-    // Client config: CDN base for reference data + dataTag (cache key) + maintainer flag
+    // Client config: CDN base for reference data + dataTag (cache key) + data
+    // channel (version-independent refresh) + maintainer flag
     try{
       APP_CONFIG=await fetch('/api/config').then(r=>r.json())||{};
       DATA_BASE=APP_CONFIG.dataBase||''; DATA_TAG=APP_CONFIG.dataTag||'';
+      DATA_CHANNEL_URL=APP_CONFIG.dataChannelUrl||'';
     }catch{}
     // Load collections from server; one-time migration from localStorage if server is empty
     const colRes=await fetch('/api/collections').catch(()=>null);
@@ -3842,6 +3877,28 @@ async function init(){
   // Check for binary update in the background (non-blocking)
   checkUpdateOnInit();
   initUpdatePanel();
+  // Card data can refresh independently of the app version via the data channel.
+  initDataUpdateBtn();
+  checkDataChannel(DATA_CHANNEL_URL, DATA_BASE).then(r=>{
+    if(r.updated){ toast('Card data updated — reloading…'); setTimeout(()=>location.reload(),1200); }
+  }).catch(()=>{});
+}
+
+// Manual "check for card-data update" button (home screen). Hidden when no
+// channel is configured (e.g. same-origin dev).
+function initDataUpdateBtn(){
+  const btn=document.getElementById('data-upd-btn');
+  const msg=document.getElementById('data-upd-msg');
+  if(!btn) return;
+  if(!DATA_CHANNEL_URL){ btn.style.display='none'; return; }
+  btn.addEventListener('click',async()=>{
+    btn.disabled=true; if(msg) msg.textContent='Checking…';
+    try{
+      const r=await checkDataChannel(DATA_CHANNEL_URL, DATA_BASE);
+      if(r.updated){ if(msg) msg.textContent='Updated! Reloading…'; setTimeout(()=>location.reload(),1000); }
+      else { if(msg) msg.textContent='Card data is up to date.'; btn.disabled=false; }
+    }catch(e){ if(msg) msg.textContent='Error: '+e.message; btn.disabled=false; }
+  });
 }
 
 function checkUpdateOnInit(){
@@ -4017,7 +4074,7 @@ function _olLoadSocketScript(){
     const s  = document.createElement('script');
     s.src    = '/socket.io/socket.io.js';
     s.onload = resolve;
-    s.onerror = () => reject(new Error('Socket.IO script not found. Relancez avec ONLINE_MODE=1 npm start.'));
+    s.onerror = () => reject(new Error('Socket.IO script not found. Restart with ONLINE_MODE=1 npm start.'));
     document.head.appendChild(s);
   });
 }
@@ -4076,19 +4133,19 @@ async function _olEnsureSocket(){
   _olSocket.on('chat:message',    _olAppendMsg);
 
   _olSocket.on('player:left', ({ pseudo }) => {
-    _olAppendSysMsg(pseudo + ' a quitté la room.');
+    _olAppendSysMsg(pseudo + ' left the room.');
   });
 
   _olSocket.on('settings:update', (s) => {
     if(!s) return;
     _duBanlistEnforced = !!s.banlistEnforced;
     _duRenderDeckList(); // re-check compliance + update checkbox
-    const msg = 'Banlist Rush Duel ' + (_duBanlistEnforced ? 'activée' : 'désactivée') + ' par l\'hôte.';
+    const msg = 'Rush Duel banlist ' + (_duBanlistEnforced ? 'enabled' : 'disabled') + ' by the host.';
     _olAppendSysMsg(msg);
   });
 
   _olSocket.on('disconnect', () => {
-    _olAppendSysMsg('Connexion perdue.');
+    _olAppendSysMsg('Connection lost.');
   });
 
   // Duel board handlers
@@ -4110,7 +4167,7 @@ function _duSetOppName(players, mySeat){
 // ── Actions ────────────────────────────────────────────────────────────────
 function _olHost(){
   const pseudo = _olEl('ol-pseudo').value.trim();
-  if(!pseudo){ _olShowError('Entre un pseudo (1–20 caractères).'); return; }
+  if(!pseudo){ _olShowError('Enter a nickname (1–20 characters).'); return; }
   _olClearError();
   _olEnsureSocket().then(ok => {
     if(!ok) return;
@@ -4123,8 +4180,8 @@ function _olHost(){
 function _olJoin(){
   const pseudo = _olEl('ol-pseudo').value.trim();
   const code   = _olEl('ol-code').value.trim().toUpperCase();
-  if(!pseudo){ _olShowError('Entre un pseudo.'); return; }
-  if(code.length !== 6){ _olShowError('Le code de room fait exactement 6 caractères.'); return; }
+  if(!pseudo){ _olShowError('Enter a nickname.'); return; }
+  if(code.length !== 6){ _olShowError('The room code must be exactly 6 characters.'); return; }
   _olClearError();
   _olEnsureSocket().then(ok => {
     if(!ok) return;
@@ -4173,7 +4230,7 @@ function initOnline(){
   // Try to auto-reconnect from a stored session.
   const sess = _duLoadSession();
   if(sess && sess.code && sess.token){
-    const storedPseudo = _olEl('ol-pseudo').value.trim() || 'Joueur';
+    const storedPseudo = _olEl('ol-pseudo').value.trim() || 'Player';
     _olEnsureSocket().then(ok => {
       if(ok) _olSocket.emit('room:join', { pseudo: storedPseudo, code: sess.code, token: sess.token });
     });
@@ -4192,7 +4249,7 @@ function initOnline(){
   _olEl('ol-copy-btn').addEventListener('click', () => {
     if(!_olRoomCode) return;
     navigator.clipboard.writeText(_olRoomCode)
-      .then(() => toast('Code copié !'))
+      .then(() => toast('Code copied!'))
       .catch(() => toast(_olRoomCode));
   });
 }

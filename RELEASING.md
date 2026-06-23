@@ -100,6 +100,42 @@ npm run hash-data -- --bump # met à jour hashes ET incrémente version
 
 ---
 
+## Mettre à jour les données SANS publier un binaire (data channel)
+
+Les clients résolvent leur jeu de données via un **fichier pointeur** `data/data-channel.json` lu depuis la branche `main` (jsDelivr `@main`, cache ~12 h). Il nomme le **tag** et la **version** des données courantes :
+
+```json
+{ "tag": "data-v6", "version": 6 }
+```
+
+Au lancement (et via le bouton « ⟳ Check for card-data update » sur l'accueil), le client compare `version` à ce qu'il a en cache IndexedDB ; si c'est plus récent, il télécharge les JSON depuis `cdn.jsdelivr.net/gh/shaser0/rush-duel-app@<tag>/data` et recharge. **Aucun rebuild de binaire n'est nécessaire.** `GET /api/config` expose l'URL du pointeur (`dataChannelUrl`), surchargeable via `DATA_CHANNEL_URL` (Phase 3 : Oracle pourra fournir un endpoint à la place).
+
+**Important :** jsDelivr met en cache un tag de façon **permanente** (immuable). Il ne faut donc **jamais déplacer** un tag de données : on en crée un **nouveau, incrémental** (`data-v6`, `data-v7`, …).
+
+### Flux de publication data-only
+
+```bash
+# 1. Rafraîchir les données + recalculer hashes/version
+npm run sync-cards && npm run sync-sets && npm run sync-gallery && npm run sync-banlist
+npm run hash-data -- --bump          # → data-version.json version = 6
+
+# 2. Pointer data-channel.json sur le futur tag, puis committer
+#    éditer data/data-channel.json : { "tag": "data-v6", "version": 6 }
+git add data/
+git commit -m "chore(data): refresh card data (data-v6)"
+
+# 3. Créer le tag de données immuable (préfixe "data-", PAS "vX.Y.Z" → ne
+#    déclenche pas le workflow de build binaire) et pousser
+git tag data-v6
+git push origin main --tags
+```
+
+Dès que jsDelivr a rafraîchi `@main/data/data-channel.json` (≤ 12 h), les clients basculent automatiquement sur `data-v6` ; le bouton manuel force la vérification immédiatement.
+
+> Le tag `data-vN` ne contient que `data/` — le binaire reste celui de la dernière release `vX.Y.Z`. La prochaine vraie release binaire doit, elle, embarquer une `version` de données ≥ celle du channel (sinon le channel reprend le dessus, ce qui est correct).
+
+---
+
 ## Nouveau workflow CI : `.github/workflows/release.yml`
 
 Déclenché automatiquement sur tout push d'un tag `vX.Y.Z`.
