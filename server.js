@@ -30,6 +30,11 @@ const PORT       = process.env.PORT || 3000;
 // When running as a pkg .exe, resolve data files from the real exe directory
 const APP_DIR = process.pkg ? path.dirname(process.execPath) : __dirname;
 
+// Reference data (cards.json & co) now ships from the jsDelivr CDN and is cached
+// client-side; distributed clients no longer carry it on disk. A checkout that
+// still has it locally is a maintainer/dev env (live wiki-sync tooling enabled).
+const HAS_LOCAL_DATA = fs.existsSync(path.join(APP_DIR, 'data', 'cards.json'));
+
 // Always write logs to data/rush-app.log; in pkg mode suppress console output.
 {
   const logPath = path.join(APP_DIR, 'data', 'rush-app.log');
@@ -191,33 +196,37 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // ── Static + data endpoints ────────────────────────────────────────────────
 
-app.get('/cards.json',         (req, res) => res.sendFile(path.join(APP_DIR, 'data', 'cards.json')));
+// Same-origin fallback used only in dev (DATA_CDN_BASE=""); in prod the client
+// loads reference data from the CDN, so these files may be absent on disk.
+app.get('/cards.json',         (req, res) => res.sendFile(path.join(APP_DIR, 'data', 'cards.json'),         err => { if (err) res.status(404).json({}); }));
 app.get('/sets-data.json',     (req, res) => res.sendFile(path.join(APP_DIR, 'data', 'sets-data.json'),      err => { if (err) res.json({}); }));
 app.get('/gallery-images.json',(req, res) => res.sendFile(path.join(APP_DIR, 'data', 'gallery-images.json'), err => { if (err) res.json({}); }));
 app.get('/image-urls.json',    (req, res) => res.sendFile(path.join(APP_DIR, 'data', 'image-urls.json'),     err => { if (err) res.json({}); }));
 app.get('/banlist.json',       (req, res) => res.sendFile(path.join(APP_DIR, 'data', 'banlist.json'),        err => { if (err) res.json({}); }));
 
-// ── Collections API ────────────────────────────────────────────────────────
+// ── Collections + Decks API (local client only) ─────────────────────────────
+// These persist to a single shared file on disk. On a public ONLINE_MODE host
+// that is a global file writable by anyone — so the routes are local-only until
+// Phase 3 replaces them with authenticated, per-Discord-account storage (SQLite).
+if (!process.env.ONLINE_MODE) {
+  app.get('/api/collections', (req, res) => res.json(loadCollections()));
 
-app.get('/api/collections', (req, res) => res.json(loadCollections()));
+  app.put('/api/collections', (req, res) => {
+    if (!req.body || !Array.isArray(req.body.collections))
+      return res.status(400).json({ error: 'invalid body' });
+    saveCollections(req.body);
+    res.json({ ok: true });
+  });
 
-app.put('/api/collections', (req, res) => {
-  if (!req.body || !Array.isArray(req.body.collections))
-    return res.status(400).json({ error: 'invalid body' });
-  saveCollections(req.body);
-  res.json({ ok: true });
-});
+  app.get('/api/decks', (req, res) => res.json(loadDecks()));
 
-// ── Decks API ──────────────────────────────────────────────────────────────
-
-app.get('/api/decks', (req, res) => res.json(loadDecks()));
-
-app.put('/api/decks', (req, res) => {
-  if (!req.body || !Array.isArray(req.body.decks))
-    return res.status(400).json({ error: 'invalid body' });
-  saveDecks(req.body);
-  res.json({ ok: true });
-});
+  app.put('/api/decks', (req, res) => {
+    if (!req.body || !Array.isArray(req.body.decks))
+      return res.status(400).json({ error: 'invalid body' });
+    saveDecks(req.body);
+    res.json({ ok: true });
+  });
+}
 
 // ── Version API ────────────────────────────────────────────────────────────
 
@@ -225,8 +234,28 @@ app.get('/api/version', (req, res) => {
   res.json({ version: require('./package.json').version });
 });
 
-// ── Sync API ───────────────────────────────────────────────────────────────
+// ── Client config ──────────────────────────────────────────────────────────
+// Tells the SPA where to load reference data (jsDelivr CDN, pinned to an
+// immutable release tag) and, later, the Oracle backend for duels/auth.
+// `maintainer` enables the live-sync UI only on a checkout that has local data.
 
+app.get('/api/config', (req, res) => {
+  const tag = process.env.DATA_TAG || ('v' + require('./package.json').version);
+  // Setting DATA_CDN_BASE="" (empty) forces the same-origin dev fallback.
+  const cdnBase = ('DATA_CDN_BASE' in process.env)
+    ? process.env.DATA_CDN_BASE
+    : `https://cdn.jsdelivr.net/gh/shaser0/rush-duel-app@${tag}/data`;
+  res.json({
+    dataBase:   cdnBase.replace(/\/+$/, ''),
+    dataTag:    tag,
+    oracleBase: (process.env.ORACLE_URL || '').replace(/\/+$/, ''),
+    maintainer: HAS_LOCAL_DATA,
+  });
+});
+
+// ── Sync API (maintainer/dev only — needs local data + wiki-sync tooling) ────
+
+if (HAS_LOCAL_DATA) {
 app.get('/api/sync-status', (req, res) => {
   // Read sync-state.json written by sync-cards.js for the authoritative cards sync timestamp
   let cardsLastSync = null;
@@ -255,6 +284,7 @@ app.post('/api/sync', (req, res) => {
     alreadyRunning: targets.filter(n => SYNCS[n].running && !started.includes(n)),
   });
 });
+} // end HAS_LOCAL_DATA (sync API)
 
 // ── Browser launcher ──────────────────────────────────────────────────────
 
@@ -333,42 +363,8 @@ if (!process.env.ONLINE_MODE) {
   });
 }
 
-// ── Data update API (local mode only) ─────────────────────────────────────
-
-if (!process.env.ONLINE_MODE) {
-  const { checkDataUpdate, downloadData } = require('./scripts/release/data-update');
-
-  app.get('/api/data/check', async (req, res) => {
-    try {
-      const info = await checkDataUpdate(APP_DIR);
-      res.json(info);
-    } catch (e) {
-      res.status(500).json({ error: e.message });
-    }
-  });
-
-  app.post('/api/data/apply', async (req, res) => {
-    res.setHeader('Content-Type', 'application/x-ndjson');
-    res.setHeader('Transfer-Encoding', 'chunked');
-    res.flushHeaders();
-    try {
-      const info = await checkDataUpdate(APP_DIR);
-      if (!info.hasUpdate) {
-        res.write(JSON.stringify({ done: true, alreadyUpToDate: true }) + '\n');
-        return res.end();
-      }
-      await downloadData(APP_DIR, info.files, info.hashes, info.rawBase, pct => {
-        res.write(JSON.stringify({ progress: Math.round(pct * 100) / 100 }) + '\n');
-      });
-      const verPath = path.join(APP_DIR, 'data', 'data-version.json');
-      writeJsonAtomic(verPath, info.remoteManifest);
-      res.write(JSON.stringify({ done: true, version: info.remoteVersion }) + '\n');
-    } catch (e) {
-      res.write(JSON.stringify({ error: e.message }) + '\n');
-    }
-    res.end();
-  });
-}
+// Data-update-to-disk API removed: reference data is now served from the
+// jsDelivr CDN and cached client-side (see /api/config + the SPA loader).
 
 // ── Migrations ─────────────────────────────────────────────────────────────
 
@@ -427,6 +423,10 @@ httpServer.listen(PORT, HOST, () => {
   runStartupMigrations();
 
   if (process.pkg && !process.env.ONLINE_MODE) openBrowser(`http://localhost:${PORT}`);
-  startStaleSyncs();
-  setInterval(startStaleSyncs, CHECK_INTERVAL_MS);
+  // Live wiki-sync only on a maintainer/dev checkout; distributed clients and the
+  // Oracle host get reference data from the CDN, so they never scrape.
+  if (HAS_LOCAL_DATA) {
+    startStaleSyncs();
+    setInterval(startStaleSyncs, CHECK_INTERVAL_MS);
+  }
 });

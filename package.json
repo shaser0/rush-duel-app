@@ -23,8 +23,7 @@
       "scripts/lib/**/*.js",
       "scripts/sync/**/*.js",
       "scripts/pipeline/**/*.js",
-      "scripts/release/update.js",
-      "scripts/release/data-update.js"
+      "scripts/release/update.js"
     ]
   },
   "dependencies": {

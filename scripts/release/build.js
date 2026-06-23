@@ -5,10 +5,17 @@ const path   = require('path');
 const { computeFileHash } = require('../lib/fs-atomic');
 
 // Files in data/ that must NOT ship in a release: user state, runtime logs,
-// and the bulky raw-cards.json (the binary only serves the cleaned cards.json).
+// the bulky raw-cards.json, and the reference data itself — clients now load
+// reference data (cards/sets/gallery/image-urls/banlist + the version manifest)
+// from the jsDelivr CDN and cache it locally (see /api/config + the SPA loader).
+const REFERENCE_DATA = [
+  'cards.json', 'sets-data.json', 'gallery-images.json', 'image-urls.json',
+  'banlist.json', 'data-version.json',
+];
 function includeInRelease(src) {
   const base = path.basename(src);
   if (['collections.json', 'decks.json', 'sync-state.json', 'raw-cards.json'].includes(base)) return false;
+  if (REFERENCE_DATA.includes(base)) return false;
   if (/^sync-progress.*\.json$/.test(base)) return false;
   if (/\.bak-/.test(base)) return false;
   if (base.endsWith('.log')) return false;
