@@ -45,9 +45,6 @@ button,input,select{font-family:inherit}
 #sync-all-btn{padding:8px;background:var(--accent);border:none;border-radius:7px;color:#fff;font-weight:700;font-size:13px;cursor:pointer;margin-top:2px}
 #sync-all-btn:hover{opacity:.9}
 #sync-all-btn:disabled{opacity:.45;cursor:default}
-#data-dl-btn{padding:8px;background:var(--bg3);border:1px solid var(--border);border-radius:7px;color:var(--text);font-weight:700;font-size:13px;cursor:pointer;width:100%}
-#data-dl-btn:hover{border-color:var(--accent);color:var(--text)}
-#data-dl-btn:disabled{opacity:.45;cursor:default}
 #update-btn{padding:5px 9px;background:none;border:1px solid #ff9800;border-radius:6px;color:#ff9800;cursor:pointer;font-size:12px;font-weight:700;display:none;transition:all .18s}
 #update-btn:hover{background:rgba(255,152,0,.15)}
 #update-panel{position:fixed;top:46px;right:12px;z-index:150;background:var(--bg2);border:1px solid #ff9800;border-radius:10px;padding:14px 16px;min-width:300px;display:none;flex-direction:column;gap:10px;box-shadow:0 4px 24px rgba(0,0,0,.5)}
@@ -558,6 +555,13 @@ button,input,select{font-family:inherit}
 .du-slot.in-combat-def{box-shadow:0 0 0 2px rgba(255,60,60,.85),0 0 10px rgba(255,60,60,.35);z-index:2}
 .du-slot.in-targeted{box-shadow:0 0 0 2px rgba(0,200,255,.9),0 0 12px rgba(0,200,255,.4);z-index:2}
 .du-pile.in-targeted{outline:2px solid rgba(0,200,255,.9);outline-offset:-2px}
+/* Maximum mode: the 3 monster zones read as one merged Maximum unit */
+.du-zone-row.du-max-mode{gap:0;outline:2px solid var(--gold);outline-offset:3px;border-radius:6px;box-shadow:0 0 14px rgba(255,215,0,.4)}
+.du-zone-row.du-max-mode .du-slot{border-radius:0;border-left-width:0;border-style:solid;border-color:rgba(255,215,0,.3)}
+.du-zone-row.du-max-mode .du-slot:first-child{border-left-width:1px;border-top-left-radius:5px;border-bottom-left-radius:5px}
+.du-zone-row.du-max-mode .du-slot:last-child{border-top-right-radius:5px;border-bottom-right-radius:5px}
+.du-btn.on{background:var(--gold);color:#1a1407;border-color:var(--gold);font-weight:700}
+.du-log-card{color:#a0e8ff;cursor:default;text-decoration:underline dotted;text-underline-offset:2px}
 /* field card */
 .du-fc{width:100%;height:100%;border-radius:4px;overflow:hidden;position:relative;cursor:pointer;background:#12121f}
 .du-fc img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none}
@@ -644,14 +648,6 @@ button,input,select{font-family:inherit}
 </div>
 
 <div id="sync-panel">
-  <button id="data-dl-btn">⬇ Download latest data</button>
-  <div id="data-dl-progress" style="display:none">
-    <div style="background:var(--bg3);border-radius:4px;overflow:hidden;height:6px;margin:2px 0 4px">
-      <div id="data-dl-bar" style="height:100%;background:var(--accent);width:0;transition:width .2s"></div>
-    </div>
-    <span id="data-dl-msg" style="font-size:11px;color:var(--muted)"></span>
-  </div>
-  <div style="border-top:1px solid var(--border);margin:4px 0 2px"></div>
   <div class="sync-row"><span class="sync-dot" id="dot-cards"></span><span class="sync-label">Cards</span><span class="sync-time" id="time-cards">—</span></div>
   <div class="sync-row"><span class="sync-dot" id="dot-sets"></span><span class="sync-label">Sets</span><span class="sync-time" id="time-sets">—</span></div>
   <div class="sync-row"><span class="sync-dot" id="dot-gallery"></span><span class="sync-label">Gallery</span><span class="sync-time" id="time-gallery">—</span></div>
@@ -1188,7 +1184,7 @@ button,input,select{font-family:inherit}
 
 <!-- Card viewer modal (GY / deck private view) -->
 <div class="modal-back hidden" id="du-viewer-modal">
-  <div class="modal" id="du-viewer-modal">
+  <div class="modal">
     <h2 id="du-viewer-title">Cimetière</h2>
     <div class="du-viewer-grid" id="du-viewer-grid"></div>
     <button class="modal-cancel" id="du-viewer-close" style="margin-top:10px;align-self:center">Fermer</button>
@@ -1385,7 +1381,12 @@ function cardSubtypes(card){
 let IMG_URLS={};  // filename → direct CDN URL, populated from image-urls.json
 let BANLIST={};   // card name → "Forbidden" | "Limited" | "Semi-Limited"
 function cleanFile(f){ return (f||'').replace(/^\d+\.\d+;\s*/,'').trim(); }
-function imgUrl(f){ if(!f) return null; const c=cleanFile(f); return IMG_URLS[c]||`https://yugipedia.com/wiki/Special:FilePath/${encodeURIComponent(c)}`; }
+// Card images are huge full-res PNGs (~0.9 MB) on a slow host. Route them through
+// the wsrv.nl image CDN: resize + webp + Cloudflare cache → ~0.9 MB drops to ~40 KB
+// and repeat loads are served from the CDN edge. `we` = never upscale past original.
+const IMG_CDN='https://wsrv.nl/';
+function cdnImg(url, w){ return url ? `${IMG_CDN}?url=${encodeURIComponent(url)}&w=${w||400}&output=webp&we=1` : url; }
+function imgUrl(f, w){ if(!f) return null; const c=cleanFile(f); const raw=IMG_URLS[c]||`https://yugipedia.com/wiki/Special:FilePath/${encodeURIComponent(c)}`; return cdnImg(raw, w); }
 
 function bestImg(card,setPrefix,rarity){
   if(!card.images||!card.images.length) return null;
@@ -3629,44 +3630,6 @@ async function fetchSyncStatus(){
   }catch{}
 }
 
-async function runDataDownload(){
-  const dlBtn=document.getElementById('data-dl-btn');
-  const prog=document.getElementById('data-dl-progress');
-  const bar=document.getElementById('data-dl-bar');
-  const msg=document.getElementById('data-dl-msg');
-  dlBtn.disabled=true;
-  prog.style.display='block';
-  msg.textContent='Checking…';
-  bar.style.width='0%';
-  try{
-    const res=await fetch('/api/data/apply',{method:'POST'});
-    const reader=res.body.getReader();
-    const dec=new TextDecoder();
-    let buf='';
-    while(true){
-      const {done,value}=await reader.read();
-      if(done) break;
-      buf+=dec.decode(value,{stream:true});
-      const lines=buf.split('\n');
-      buf=lines.pop();
-      for(const line of lines){
-        if(!line.trim()) continue;
-        try{
-          const d=JSON.parse(line);
-          if(d.progress!=null){bar.style.width=Math.round(d.progress*100)+'%';msg.textContent='Downloading… '+Math.round(d.progress*100)+'%';}
-          if(d.alreadyUpToDate){msg.textContent='Already up to date.';bar.style.width='100%';}
-          if(d.done&&!d.alreadyUpToDate){msg.textContent='Done! Reloading…';bar.style.width='100%';setTimeout(()=>location.reload(),1200);}
-          if(d.error){msg.textContent='Error: '+d.error;dlBtn.disabled=false;}
-        }catch{}
-      }
-    }
-  }catch(e){
-    msg.textContent='Error: '+e.message;
-    dlBtn.disabled=false;
-  }
-  setTimeout(()=>{prog.style.display='none';dlBtn.disabled=false;},3000);
-}
-
 function initSyncPanel(){
   const btn=document.getElementById('sync-btn');
   const panel=document.getElementById('sync-panel');
@@ -3684,15 +3647,123 @@ function initSyncPanel(){
     fetchSyncStatus();
     if(!syncPollTimer) syncPollTimer=setInterval(fetchSyncStatus,2500);
   });
-  document.getElementById('data-dl-btn').addEventListener('click',runDataDownload);
   fetchSyncStatus();
+}
+
+/* ═══════════════════════════════════════════════════════
+   17b. REFERENCE DATA (CDN + IndexedDB cache)
+   Reference JSON is served from a CDN (jsDelivr, pinned to an immutable
+   release tag) and cached in IndexedDB so the app works offline after the
+   first load. Cache is keyed by the tag: same tag = same content.
+═══════════════════════════════════════════════════════ */
+const REF_FILES=['cards.json','sets-data.json','gallery-images.json','image-urls.json','banlist.json'];
+const REF_DB='rush-ref', REF_DB_VER=1;
+
+function refIdbOpen(){
+  return new Promise((resolve,reject)=>{
+    const req=indexedDB.open(REF_DB,REF_DB_VER);
+    req.onupgradeneeded=()=>{
+      const db=req.result;
+      if(!db.objectStoreNames.contains('files')) db.createObjectStore('files',{keyPath:'name'});
+      if(!db.objectStoreNames.contains('meta'))  db.createObjectStore('meta');
+    };
+    req.onsuccess=()=>resolve(req.result);
+    req.onerror=()=>reject(req.error);
+  });
+}
+function refIdbGet(db,store,key){
+  return new Promise((resolve,reject)=>{
+    const r=db.transaction(store,'readonly').objectStore(store).get(key);
+    r.onsuccess=()=>resolve(r.result);
+    r.onerror=()=>reject(r.error);
+  });
+}
+function refIdbPutAll(db,records,manifest){
+  return new Promise((resolve,reject)=>{
+    const tx=db.transaction(['files','meta'],'readwrite');
+    tx.oncomplete=()=>resolve();
+    tx.onerror=()=>reject(tx.error);
+    tx.onabort=()=>reject(tx.error);
+    const store=tx.objectStore('files');
+    for(const rec of records) store.put(rec);
+    tx.objectStore('meta').put(manifest,'manifest');
+  });
+}
+// Map the file records (keyed by name) onto the shape init() expects.
+function packRef(recs){
+  const byName={};
+  for(const r of recs) if(r) byName[r.name]=r.data;
+  return {
+    ALL:         byName['cards.json'],
+    SDATA:       byName['sets-data.json']||{},
+    galleryImgs: byName['gallery-images.json']||{},
+    IMG_URLS:    byName['image-urls.json']||{},
+    BANLIST:     byName['banlist.json']||{},
+  };
+}
+async function refCached(db){
+  const recs=await Promise.all(REF_FILES.map(f=>refIdbGet(db,'files',f)));
+  return recs.every(r=>r&&r.data!==undefined) ? recs : null;
+}
+// Load reference data: cache (same tag) → CDN download → cache fallback (offline).
+// dataBase '' means same-origin (dev fallback); cache is keyed by immutable dataTag.
+async function loadReferenceData(dataBase, dataTag){
+  const base=dataBase||'';
+  const url=f=> base ? `${base}/${f}` : `/${f}`;
+  let db=null;
+  try{ db=await refIdbOpen(); }catch{ /* private mode / no IndexedDB */ }
+
+  // Cache hit: same tag → serve parsed records (no network, no re-parse)
+  if(db&&dataTag){
+    try{
+      const man=await refIdbGet(db,'meta','manifest');
+      if(man&&man.dataTag===dataTag){
+        const recs=await refCached(db);
+        if(recs) return packRef(recs);
+      }
+    }catch{}
+  }
+
+  // Download from CDN (or same-origin fallback). cards.json is mandatory.
+  let parsed;
+  try{
+    const res=await Promise.all(REF_FILES.map(f=>fetch(url(f)).catch(()=>null)));
+    if(!res[0]||!res[0].ok) throw new Error('cards.json unavailable');
+    parsed=[];
+    parsed[0]=await res[0].json();
+    if(!Array.isArray(parsed[0])||!parsed[0].length) throw new Error('cards.json empty/invalid');
+    for(let i=1;i<REF_FILES.length;i++){
+      parsed[i]=(res[i]&&res[i].ok) ? await res[i].json().catch(()=>({})) : {};
+    }
+  }catch(e){
+    // Offline / failed download → fall back to any cached copy, else surface error
+    if(db){ try{ const recs=await refCached(db); if(recs) return packRef(recs); }catch{} }
+    throw e;
+  }
+
+  // Persist parsed objects + manifest in one transaction (best-effort)
+  if(db){
+    try{
+      let version=0,hashes={};
+      try{ const man=await fetch(url('data-version.json')).then(r=>r&&r.ok?r.json():null); if(man){ version=man.version||0; hashes=man.hashes||{}; } }catch{}
+      const records=REF_FILES.map((f,i)=>({name:f,data:parsed[i]}));
+      await refIdbPutAll(db,records,{dataTag,version,hashes});
+    }catch{ /* quota/etc → keep in-memory for this session */ }
+  }
+  return packRef(REF_FILES.map((f,i)=>({name:f,data:parsed[i]})));
 }
 
 /* ═══════════════════════════════════════════════════════
    18. INIT
 ═══════════════════════════════════════════════════════ */
 async function init(){
+  let DATA_BASE='', DATA_TAG='', APP_CONFIG={};
   try{
+    // Client config: CDN base for reference data + dataTag (cache key) + maintainer flag
+    try{
+      APP_CONFIG=await fetch('/api/config').then(r=>r.json())||{};
+      DATA_BASE=APP_CONFIG.dataBase||''; DATA_TAG=APP_CONFIG.dataTag||'';
+    }catch{}
     // Load collections from server; one-time migration from localStorage if server is empty
     const colRes=await fetch('/api/collections').catch(()=>null);
     if(colRes?.ok){ const d=await colRes.json(); if(d&&Array.isArray(d.collections)&&d.collections.length) COLLS=d; }
@@ -3724,18 +3795,12 @@ async function init(){
       }catch{}
     }
 
-    const [cr,sr,gr,ur,br]=await Promise.all([
-      fetch('/cards.json'),
-      fetch('/sets-data.json').catch(()=>({ok:false})),
-      fetch('/gallery-images.json').catch(()=>({ok:false})),
-      fetch('/image-urls.json').catch(()=>({ok:false})),
-      fetch('/banlist.json').catch(()=>({ok:false})),
-    ]);
-    ALL=await cr.json();
-    SDATA=sr.ok?await sr.json().catch(()=>({})):{};
-    const galleryImgs=gr.ok?await gr.json().catch(()=>({})):{};
-    IMG_URLS=ur.ok?await ur.json().catch(()=>({})): {};
-    BANLIST=br.ok?await br.json().catch(()=>({})):{};
+    const ref=await loadReferenceData(DATA_BASE,DATA_TAG);
+    ALL=ref.ALL;
+    SDATA=ref.SDATA;
+    const galleryImgs=ref.galleryImgs;
+    IMG_URLS=ref.IMG_URLS;
+    BANLIST=ref.BANLIST;
     const titleIdx=new Map(ALL.map(c=>[c.title,c]));
     for(const [title,files] of Object.entries(galleryImgs)){
       const card=titleIdx.get(title);
@@ -3758,7 +3823,8 @@ async function init(){
   initGetDeckModal();
   initCardPopup();
   initTooltip();
-  initSyncPanel();
+  // Live wiki-sync UI only on a maintainer/dev checkout (server exposes it conditionally)
+  if(APP_CONFIG.maintainer) initSyncPanel(); else document.getElementById('sync-btn')?.remove();
   setupNumFilter('f-lv-op','f-lv-v1','f-lv-v2','f-lv-sep');
   setupNumFilter('f-atk-op','f-atk-v1','f-atk-v2','f-atk-sep');
   setupNumFilter('f-def-op','f-def-v1','f-def-v2','f-def-sep');
@@ -3919,6 +3985,16 @@ function _olAppendSysMsg(text){
     const div = document.createElement('div');
     div.className = 'ol-msg ol-msg-sys';
     div.textContent = text;
+    el.appendChild(div);
+    el.scrollTop = el.scrollHeight;
+  }
+}
+function _olAppendSysHtml(html){
+  for(const id of ['ol-messages','du-chat-msgs']){
+    const el = _duEl(id); if(!el) continue;
+    const div = document.createElement('div');
+    div.className = 'ol-msg ol-msg-sys';
+    div.innerHTML = html;
     el.appendChild(div);
     el.scrollTop = el.scrollHeight;
   }
@@ -4220,6 +4296,15 @@ function _duEmit(action, payload){
   _olSocket.emit('duel:action', { action, payload: payload || {} });
 }
 
+// Ask the player for a card count (server accepts 1–20) and run cb with it.
+function _duCountPrompt(promptText, def, cb){
+  const raw = prompt(promptText, def);
+  if(raw === null) return; // cancelled
+  const n = parseInt(raw, 10);
+  if(!Number.isInteger(n) || n < 1 || n > 20){ _duToast('Enter a number from 1 to 20.'); return; }
+  cb(n);
+}
+
 // ── imgUrl for board cards (reuses global imgUrl from existing code) ──────────
 function _duCardImgSrc(c){
   if(!c || c.hidden) return null;
@@ -4406,6 +4491,9 @@ function _duRenderZones(self, opp){
       const os = _duEl(`du-opp-${z}-${i}`)  || oppRow.children[i];
       if(ss) _duRenderSlot(ss, self[z][i],  true,  z, i);
       if(os) _duRenderSlot(os, opp[z][i],   false, z, i);
+      // Clear stale glow classes before conditionally re-applying
+      if(ss) ss.classList.remove('in-combat-atk','in-combat-def','in-targeted');
+      if(os) os.classList.remove('in-combat-atk','in-combat-def','in-targeted');
       // Combat glow (monster zone only, perspective-aware)
       if(z === 'monster' && _duCombatState){
         const iAmAtk = _duCombatState.attackerSeat === _duSeat;
@@ -4421,12 +4509,22 @@ function _duRenderZones(self, opp){
             ss.classList.add('in-combat-def');
         }
       }
-      // Target glow — opponent's slot on the field
+      // Target glow — perspective-aware (same logic as combat)
       if(_duTargetState && _duTargetState.targetZone === z && _duTargetState.targetSlot === i){
-        if(os) os.classList.add('in-targeted');
+        const iAmTargeter = _duTargetState.targeterSeat === _duSeat;
+        if(iAmTargeter){ if(os) os.classList.add('in-targeted'); }
+        else            { if(ss) ss.classList.add('in-targeted'); }
       }
     }
+    // Maximum mode: merge the 3 monster zones into one unit (per-side flag)
+    if(z === 'monster'){
+      selfRow.classList.toggle('du-max-mode', !!self.maximum);
+      oppRow.classList.toggle('du-max-mode',  !!opp.maximum);
+    }
   }
+  // Reflect own Maximum-mode state on the MAX button
+  const maxBtn = _duEl('du-max-btn');
+  if(maxBtn) maxBtn.classList.toggle('on', !!self.maximum);
   // Field
   const sf = _duEl('du-self-field-0');
   const of_ = _duEl('du-opp-field-0');
@@ -4437,19 +4535,29 @@ function _duRenderZones(self, opp){
     sf.addEventListener('dragleave', _duOnDragLeave);
     sf.addEventListener('drop', e => _duOnDrop(e,'field',0));
     if(self.field[0]) _duRenderSlot(sf, self.field[0], true, 'field', 0);
+    sf.classList.remove('in-targeted');
   }
   if(of_){
     of_.innerHTML = '';
     of_.dataset.zone='field'; of_.dataset.slot=0; of_.dataset.owner='opp';
     if(opp.field[0]) _duRenderSlot(of_, opp.field[0], false, 'field', 0);
-    // Target glow on opp field slot
-    if(_duTargetState && _duTargetState.targetZone === 'field' && of_) of_.classList.toggle('in-targeted', true);
+    of_.classList.remove('in-targeted');
   }
-  // Target glow on GY pile when a GY card is targeted
-  const oppGyEl = _duEl('du-opp-gy');
-  if(oppGyEl) oppGyEl.classList.toggle('in-targeted', !!(
-    _duTargetState && _duTargetState.targetZone === 'graveyard'
-  ));
+  if(_duTargetState && _duTargetState.targetZone === 'field'){
+    const iAmTargeter = _duTargetState.targeterSeat === _duSeat;
+    const tEl = iAmTargeter ? of_ : sf;
+    if(tEl) tEl.classList.add('in-targeted');
+  }
+  // Target glow on GY pile when a GY card is targeted (perspective-aware)
+  const selfGyEl = _duEl('du-self-gy');
+  const oppGyEl  = _duEl('du-opp-gy');
+  if(selfGyEl) selfGyEl.classList.remove('in-targeted');
+  if(oppGyEl)  oppGyEl.classList.remove('in-targeted');
+  if(_duTargetState && _duTargetState.targetZone === 'graveyard'){
+    const iAmTargeter = _duTargetState.targeterSeat === _duSeat;
+    const gyEl = iAmTargeter ? oppGyEl : selfGyEl;
+    if(gyEl) gyEl.classList.add('in-targeted');
+  }
 }
 
 function _duRenderHand(cards){
@@ -4560,6 +4668,32 @@ function _duBindDeckDrop(){
       _duEmit('move', { iid, zone:'graveyard' });
     });
   }
+  // Hand: drop to return card to hand
+  const hand = _duEl('du-hand');
+  if(hand && !hand._duDropBound){
+    hand._duDropBound = true;
+    hand.addEventListener('dragover',  _duOnDragOver);
+    hand.addEventListener('dragleave', _duOnDragLeave);
+    hand.addEventListener('drop', e => {
+      e.preventDefault(); e.currentTarget.classList.remove('drag-over');
+      const iid = _duDragIid||e.dataTransfer.getData('text/plain');
+      if(!iid) return;
+      _duEmit('move', { iid, zone:'hand' });
+    });
+  }
+  // Extra Deck: drop to send a card back to the Extra Deck (manual move)
+  const extra = _duEl('du-self-extra');
+  if(extra && !extra._duDropBound){
+    extra._duDropBound = true;
+    extra.addEventListener('dragover',  _duOnDragOver);
+    extra.addEventListener('dragleave', _duOnDragLeave);
+    extra.addEventListener('drop', e => {
+      e.preventDefault(); e.currentTarget.classList.remove('drag-over');
+      const iid = _duDragIid||e.dataTransfer.getData('text/plain');
+      if(!iid) return;
+      _duEmit('move', { iid, zone:'extraDeck' });
+    });
+  }
 
   // Opponent half: drop anywhere beyond individual slots = direct attack declaration
   const oppHalf = _duEl('du-opp-side');
@@ -4614,9 +4748,16 @@ function _duCtxHide(){ _duEl('du-ctx').classList.add('hidden'); }
 document.addEventListener('click', ()=> _duCtxHide());
 document.addEventListener('keydown', e=>{ if(e.key==='Escape') _duCtxHide(); });
 
+// True only for Fusion/Ritual monsters — the cards that belong in the Extra Deck.
+function _duIsExtraMonster(card){
+  if(!card || card.hidden || !card.cardKey || typeof MAP === 'undefined') return false;
+  const c = MAP.get(card.cardKey);
+  return !!(c && isExtraCard(c));
+}
+
 // Rush Duel hand context menu: Summon (ATK face-up) or Set (DEF face-down)
 function _duShowCtxHand(e, card){
-  _duCtxShow(e.clientX, e.clientY, [
+  const items = [
     { label:'Summon – Monster Zone 1 (ATK)', fn:()=> _duEmit('move',{iid:card.iid,zone:'monster',slot:0,position:'atk'}) },
     { label:'Summon – Monster Zone 2 (ATK)', fn:()=> _duEmit('move',{iid:card.iid,zone:'monster',slot:1,position:'atk'}) },
     { label:'Summon – Monster Zone 3 (ATK)', fn:()=> _duEmit('move',{iid:card.iid,zone:'monster',slot:2,position:'atk'}) },
@@ -4632,8 +4773,11 @@ function _duShowCtxHand(e, card){
     { label:'Activate – Field Zone',         fn:()=> _duEmit('move',{iid:card.iid,zone:'field',slot:0}) },
     { label:'Set – Field Zone (face-down)', fn:()=> _duEmit('move',{iid:card.iid,zone:'field',slot:0,faceDown:true}) },
     { label:'→ Graveyard',             fn:()=> _duEmit('move',{iid:card.iid,zone:'graveyard'}) },
-    { label:'Reveal to opponent',      fn:()=> _duEmit('reveal',{iid:card.iid}) },
-  ]);
+  ];
+  if(_duIsExtraMonster(card))
+    items.push({ label:'→ Extra Deck', fn:()=> _duEmit('move',{iid:card.iid,zone:'extraDeck'}) });
+  items.push({ label:'Reveal to opponent', fn:()=> _duEmit('reveal',{iid:card.iid}) });
+  _duCtxShow(e.clientX, e.clientY, items);
 }
 
 function _duShowCtxField(e, card, zone){
@@ -4652,6 +4796,10 @@ function _duShowCtxField(e, card, zone){
       } else {
         items.push({ label:'Change to ATK', fn:()=> _duEmit('position',{iid:card.iid,position:'atk'}) });
       }
+      items.push({ label:'Set face-down (DEF)', fn:()=>{
+        _duEmit('flip',{iid:card.iid,faceDown:true});
+        setTimeout(()=> _duEmit('position',{iid:card.iid,position:'def'}), 60);
+      }});
       items.push({ label:'Reveal to opponent', fn:()=> _duEmit('reveal',{iid:card.iid}) });
     }
     items.push('---');
@@ -4668,7 +4816,8 @@ function _duShowCtxField(e, card, zone){
   // Move destinations (available from any zone including GY)
   items.push({ label:'→ Hand',              fn:()=> _duEmit('move',{iid:card.iid,zone:'hand'}) });
   items.push({ label:'→ Graveyard',         fn:()=> _duEmit('move',{iid:card.iid,zone:'graveyard'}) });
-  items.push({ label:'→ Extra Deck',        fn:()=> _duEmit('move',{iid:card.iid,zone:'extraDeck'}) });
+  if(_duIsExtraMonster(card))
+    items.push({ label:'→ Extra Deck',      fn:()=> _duEmit('move',{iid:card.iid,zone:'extraDeck'}) });
   items.push({ label:'→ Deck (top)',        fn:()=> _duEmit('move',{iid:card.iid,zone:'deck',deckPos:'top'}) });
   items.push({ label:'→ Deck (bottom)',     fn:()=> _duEmit('move',{iid:card.iid,zone:'deck',deckPos:'bottom'}) });
   items.push({ label:'→ Deck (shuffle in)',fn:()=> _duEmit('move',{iid:card.iid,zone:'deck',deckPos:'shuffle'}) });
@@ -4683,6 +4832,13 @@ function _duShowCtxOppField(e, card, zone){
 }
 
 // ── Log display (routes to chat sidebar) ─────────────────────────────────────
+function _duEscHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function _duLogCardSpan(cardKey){
+  if(!cardKey) return '"?"';
+  const esc = _duEscHtml(cardKey);
+  return `<span class="du-log-card" data-key="${esc}">&quot;${esc}&quot;</span>`;
+}
+
 const _DU_ZONE_LABEL = {
   monster:'Monster Zone', spellTrap:'Spell/Trap Zone', field:'Field Zone',
   hand:'hand', deck:'deck', graveyard:'Graveyard', extraDeck:'Extra Deck',
@@ -4692,100 +4848,111 @@ function _duLogEntry(entry){
   if(!entry || entry.ts === _duLastLogTs) return;
   _duLastLogTs = entry.ts;
   const who = entry.seat === _duSeat ? 'You' : 'Opp';
-  let txt = '';
+  let html = '';
   switch(entry.type){
-    case 'draw':     txt = `${who} drew ${entry.n} card${entry.n>1?'s':''}`; break;
-    case 'shuffle':  txt = `${who} shuffled their deck`; break;
+    case 'draw':     html = `${who} drew ${entry.n} card${entry.n>1?'s':''}`; break;
+    case 'shuffle':  html = `${who} shuffled their deck`; break;
     case 'lp': {
       const sign = entry.delta > 0 ? `+${entry.delta}` : entry.delta < 0 ? `${entry.delta}` : '±0';
-      txt = `${who} LP → ${entry.lp} (${sign})`;
+      html = `${who} LP → ${entry.lp} (${sign})`;
       break;
     }
-    case 'lpLoss':   txt = `${who} lost — LP reached 0`; break;
-    case 'coin':     txt = `${who} flipped a coin: ${entry.result}`; break;
-    case 'dice':     txt = `${who} rolled a die: ${entry.result}`; break;
-    case 'passTurn': _duTurnCount++; _duCombatState = null; _duTargetState = null; txt = `${who} ended their turn`; break;
-    case 'surrender':txt = `${who} surrendered`; break;
+    case 'lpLoss':   html = `${who} lost — LP reached 0`; break;
+    case 'coin':     html = `${who} flipped a coin: ${entry.result}`; break;
+    case 'dice':     html = `${who} rolled a die: ${entry.result}`; break;
+    case 'passTurn':
+      _duTurnCount++; _duCombatState = null; _duTargetState = null;
+      if(_duState) _duRenderZones(_duState.self, _duState.opp);
+      html = `${who} ended ${entry.seat === _duSeat ? 'your' : 'their'} turn`; break;
+    case 'surrender':html = `${who} surrendered`; break;
     case 'attack': {
       _duCombatState = { attackerSeat: entry.seat, attackerIid: entry.attackerIid, defenderSlot: entry.defenderSlot };
       if(_duState) _duRenderZones(_duState.self, _duState.opp);
-      const attName = entry.attackerCardKey || 'a monster';
+      const attSpan = entry.attackerCardKey ? _duLogCardSpan(entry.attackerCardKey) : '"a monster"';
       if(entry.defenderSlot === null || entry.defenderSlot === undefined){
-        txt = `${who} declared a direct attack with "${attName}"!`;
+        html = `${who} declared a direct attack with ${attSpan}!`;
       } else {
-        const defName = entry.defenderCardKey || 'a face-down monster';
-        txt = `${who} attacked "${defName}" with "${attName}"!`;
+        const defSpan = entry.defenderCardKey ? _duLogCardSpan(entry.defenderCardKey) : '"a face-down monster"';
+        html = `${who} attacked ${defSpan} with ${attSpan}!`;
       }
       break;
     }
     case 'target': {
-      _duTargetState = { targetIid: entry.targetIid, targetZone: entry.targetZone, targetSlot: entry.targetSlot };
+      _duTargetState = { targetIid: entry.targetIid, targetZone: entry.targetZone, targetSlot: entry.targetSlot, targeterSeat: entry.seat };
       if(_duState) _duRenderZones(_duState.self, _duState.opp);
-      const tzl  = _DU_ZONE_LABEL[entry.targetZone] || entry.targetZone;
-      const tname = entry.cardKey ? `"${entry.cardKey}"` : 'a face-down card';
-      txt = `${who} targeted ${tname} in ${tzl}`;
+      const tzl   = _DU_ZONE_LABEL[entry.targetZone] || entry.targetZone;
+      const tSpan = entry.cardKey ? _duLogCardSpan(entry.cardKey) : 'a face-down card';
+      html = `${who} targeted ${tSpan} in ${tzl}`;
       break;
     }
     case 'activateEffect': {
-      const azl  = _DU_ZONE_LABEL[entry.zone] || entry.zone || 'field';
-      const aname = entry.cardKey ? ` "${entry.cardKey}"` : '';
-      txt = `${who} activated${aname}'s effect (${azl})`;
+      const azl   = _DU_ZONE_LABEL[entry.zone] || entry.zone || 'field';
+      const aSpan = entry.cardKey ? ` ${_duLogCardSpan(entry.cardKey)}` : '';
+      html = `${who} activated${aSpan}'s effect (${azl})`;
       break;
     }
     case 'reveal': {
-      const rname = entry.card && entry.card.cardKey ? ` "${entry.card.cardKey}"` : '';
-      txt = `${who} revealed${rname} to opponent`;
+      const rSpan = entry.card && entry.card.cardKey ? ` ${_duLogCardSpan(entry.card.cardKey)}` : '';
+      html = `${who} revealed${rSpan} to opponent`;
       break;
     }
     case 'flip': {
       const fzl = _DU_ZONE_LABEL[entry.zone] || entry.zone || 'zone';
       if(entry.faceDown){
-        txt = `${who} set a card face-down in ${fzl}`;
+        html = `${who} set a card face-down in ${fzl}`;
       } else {
-        const fn = entry.cardKey ? ` "${entry.cardKey}"` : ' a card';
-        txt = `${who} flipped${fn} face-up in ${fzl}`;
+        const fSpan = entry.cardKey ? ` ${_duLogCardSpan(entry.cardKey)}` : ' a card';
+        html = `${who} flipped${fSpan} face-up in ${fzl}`;
       }
       break;
     }
     case 'position': {
-      const pn = entry.cardKey ? ` "${entry.cardKey}"` : ' a card';
-      txt = `${who} switched${pn} to ${entry.position === 'atk' ? 'ATK' : 'DEF'}`;
+      const pSpan = entry.cardKey ? ` ${_duLogCardSpan(entry.cardKey)}` : ' a card';
+      html = `${who} switched${pSpan} to ${entry.position === 'atk' ? 'ATK' : 'DEF'}`;
       break;
     }
     case 'move': {
       const fromLbl = _DU_ZONE_LABEL[entry.fromZone] || entry.fromZone || '?';
       const toLbl   = _DU_ZONE_LABEL[entry.zone]     || entry.zone     || '?';
       if(entry.cardKey){
-        const slotZone = entry.zone === 'monster' || entry.zone === 'spellTrap' || entry.zone === 'field';
-        const posStr   = slotZone && entry.position ? ` (${entry.position.toUpperCase()})` : '';
-        const fdStr    = entry.faceDown ? ' face-down' : '';
-        txt = `${who} played "${entry.cardKey}"${fdStr}${posStr} → ${toLbl}`;
+        const posStr = entry.zone === 'monster' && entry.position ? ` (${entry.position.toUpperCase()})` : '';
+        const fdStr  = entry.faceDown ? ' face-down' : '';
+        html = `${who} played ${_duLogCardSpan(entry.cardKey)}${fdStr}${posStr} → ${toLbl}`;
       } else if(entry.faceDown){
-        txt = `${who} placed a card face-down → ${toLbl}`;
+        html = `${who} placed a card face-down → ${toLbl}`;
       } else {
-        txt = `${who} moved a card: ${fromLbl} → ${toLbl}`;
+        html = `${who} moved a card: ${fromLbl} → ${toLbl}`;
       }
       break;
     }
-    case 'millTop':       txt = `${who} sent "${entry.cardKey}" to the Graveyard from the top of their deck`; break;
-    case 'loadDeck':      txt = `${who} loaded a deck (${entry.count} cards)`; break;
-    case 'loadExtraDeck': txt = `${who} loaded an extra deck (${entry.count} cards)`; break;
-    case 'ready':         txt = `${who} is ready`; break;
-    case 'coinToss':      txt = entry.tossWinner === _duSeat ? 'Coin toss: you won! Choose who goes first.' : 'Coin toss: opponent won — waiting for their choice.'; break;
-    case 'chooseFirst':   txt = `${entry.startSeat === _duSeat ? 'You' : 'Opp'} will go first`; break;
-    case 'maximum':       txt = `${who} toggled Maximum mode`; break;
-    case 'lookDeck':      txt = `${who} looked at their deck`; break;
-    case 'lookExtraDeck': txt = `${who} looked at their extra deck`; break;
-    default:              txt = `${who}: ${entry.type}`;
+    case 'millTop':       html = `${who} sent ${_duLogCardSpan(entry.cardKey)} to the Graveyard from the top of their deck`; break;
+    case 'loadDeck':      html = `${who} loaded a deck (${entry.count} cards)`; break;
+    case 'loadExtraDeck': html = `${who} loaded an extra deck (${entry.count} cards)`; break;
+    case 'ready':         html = `${who} is ready`; break;
+    case 'coinToss':      html = entry.tossWinner === _duSeat ? 'Coin toss: you won! Choose who goes first.' : 'Coin toss: opponent won — waiting for their choice.'; break;
+    case 'chooseFirst':   html = `${entry.startSeat === _duSeat ? 'You' : 'Opp'} will go first`; break;
+    case 'maximum':       html = `${who} toggled Maximum mode`; break;
+    case 'excavate': {
+      const spans = (entry.cardKeys || []).map(_duLogCardSpan).join(', ');
+      html = `${who} excavated ${spans} from the top of their deck`;
+      break;
+    }
+    case 'lookDeck':      html = `${who} looked at their deck`; break;
+    case 'lookExtraDeck': html = `${who} looked at their extra deck`; break;
+    default:              html = `${who}: ${_duEscHtml(entry.type)}`;
   }
-  _olAppendSysMsg(txt);
+  _olAppendSysHtml(html);
 }
 
 // ── GY / Deck viewer ───────────────────────────────────────────────────────────
 // cardActions: optional array of {label, fn(card)} — shown on right-click for each card
 // dragSrcZone: if set, cards become draggable from this zone (closes modal on dragstart)
-function _duShowViewer(title, cards, cardActions, dragSrcZone){
-  _duEl('du-viewer-title').textContent = title;
+// persistent: when true, choosing an action removes that card from the viewer
+// and keeps the modal open until every card has been moved out (used for
+// "excavate", where the player resolves a pile of revealed cards one by one).
+function _duShowViewer(title, cards, cardActions, dragSrcZone, persistent){
+  _duEl('du-viewer-title').textContent = persistent && cards && cards.length
+    ? `${title} (${cards.length} left)` : title;
   const grid = _duEl('du-viewer-grid');
   grid.innerHTML = '';
   if(!cards || !cards.length){
@@ -4801,7 +4968,24 @@ function _duShowViewer(title, cards, cardActions, dragSrcZone){
         d.style.cursor = 'context-menu';
         d.addEventListener('contextmenu', e=>{
           e.preventDefault();
-          _duCtxShow(e.clientX, e.clientY, cardActions.map(a=>({ label:a.label, fn:()=>{ a.fn(c); _duEl('du-viewer-modal').classList.add('hidden'); } })));
+          // Build the menu: keep '---' separators, drop actions whose `when(c)` is false.
+          const menu = [];
+          for(const a of cardActions){
+            if(a === '---'){ menu.push('---'); continue; }
+            if(a.when && !a.when(c)) continue;
+            menu.push({ label:a.label, fn:()=>{
+              a.fn(c);
+              if(persistent){
+                // Drop the resolved card and re-render; close once the pile is empty.
+                const idx = cards.indexOf(c); if(idx !== -1) cards.splice(idx, 1);
+                if(cards.length) _duShowViewer(title, cards, cardActions, dragSrcZone, persistent);
+                else _duEl('du-viewer-modal').classList.add('hidden');
+              } else {
+                _duEl('du-viewer-modal').classList.add('hidden');
+              }
+            }});
+          }
+          _duCtxShow(e.clientX, e.clientY, menu);
         });
       }
       if(dragSrcZone && c.iid){
@@ -5060,11 +5244,12 @@ function _duInitBoard(){
     e.preventDefault();
     const r = _duEl('du-self-deck').getBoundingClientRect();
     _duCtxShow(r.left, r.top - 10, [
-      { label:'Draw 1',              fn:()=> _duEmit('draw',{n:1}) },
-      { label:'Draw 5',              fn:()=> _duEmit('draw',{n:5}) },
+      { label:'Draw N…',             fn:()=> _duCountPrompt('Draw how many cards? (1–20)', '1', n=> _duEmit('draw',{n})) },
       { label:'Shuffle',             fn:()=> _duEmit('shuffle',{}) },
       '---',
       { label:'Send top → Graveyard', fn:()=> _duEmit('millTop',{}) },
+      '---',
+      { label:'Excavate top N…',     fn:()=> _duCountPrompt('Excavate how many cards from the top of your deck? (1–20)', '3', n=> _duEmit('excavate',{n})) },
       '---',
       { label:'View Deck',           fn:()=> _duEmit('lookDeck',{}) },
     ]);
@@ -5076,6 +5261,7 @@ function _duInitBoard(){
     { label:'→ Monster Zone 1 (ATK)', fn:(c)=> _duEmit('move',{iid:c.iid,zone:'monster',slot:0,position:'atk'}) },
     { label:'→ Monster Zone 2 (ATK)', fn:(c)=> _duEmit('move',{iid:c.iid,zone:'monster',slot:1,position:'atk'}) },
     { label:'→ Monster Zone 3 (ATK)', fn:(c)=> _duEmit('move',{iid:c.iid,zone:'monster',slot:2,position:'atk'}) },
+    { label:'→ Extra Deck', when:_duIsExtraMonster, fn:(c)=> _duEmit('move',{iid:c.iid,zone:'extraDeck'}) },
     { label:'→ Deck (top)',       fn:(c)=> _duEmit('move',{iid:c.iid,zone:'deck',deckPos:'top'}) },
     { label:'→ Deck (bottom)',    fn:(c)=> _duEmit('move',{iid:c.iid,zone:'deck',deckPos:'bottom'}) },
     { label:'→ Deck (shuffle in)',fn:(c)=> _duEmit('move',{iid:c.iid,zone:'deck',deckPos:'shuffle'}) },
@@ -5093,14 +5279,6 @@ function _duInitBoard(){
   });
 
   // Extra Deck: owner views contents; opponent sees count only
-  const _extraActions = [
-    { label:'Special Summon → M1 (ATK)', fn:(c)=> _duEmit('move',{iid:c.iid,zone:'monster',slot:0,position:'atk'}) },
-    { label:'Special Summon → M2 (ATK)', fn:(c)=> _duEmit('move',{iid:c.iid,zone:'monster',slot:1,position:'atk'}) },
-    { label:'Special Summon → M3 (ATK)', fn:(c)=> _duEmit('move',{iid:c.iid,zone:'monster',slot:2,position:'atk'}) },
-    '---',
-    { label:'→ Graveyard', fn:(c)=> _duEmit('move',{iid:c.iid,zone:'graveyard'}) },
-    { label:'→ Hand',      fn:(c)=> _duEmit('move',{iid:c.iid,zone:'hand'}) },
-  ];
   _duEl('du-self-extra').addEventListener('click', ()=> _duEmit('lookExtraDeck', {}));
   _duEl('du-opp-extra').addEventListener('click', ()=>{
     if(!_duState) return;
@@ -5109,6 +5287,18 @@ function _duInitBoard(){
 
   // Viewer close
   _duEl('du-viewer-close').addEventListener('click', ()=> _duEl('du-viewer-modal').classList.add('hidden'));
+
+  // Hoverable card names in the log — event delegation on both log containers
+  for(const id of ['ol-messages','du-chat-msgs']){
+    const logEl = _duEl(id); if(!logEl) continue;
+    logEl.addEventListener('mousemove', e => {
+      const span = e.target.closest && e.target.closest('.du-log-card');
+      if(!span){ if(typeof hideTooltip==='function') hideTooltip(); return; }
+      const card = (typeof MAP !== 'undefined') && MAP.get(span.dataset.key);
+      if(card && typeof showTooltip==='function') showTooltip(card, '', e.clientX, e.clientY);
+    });
+    logEl.addEventListener('mouseleave', ()=>{ if(typeof hideTooltip==='function') hideTooltip(); });
+  }
 
   // Surrender → emit + return to lobby
   _duEl('du-surrender-btn').addEventListener('click', ()=>{
@@ -5133,7 +5323,8 @@ function _duInitBoard(){
     const phases = _duTurnCount === 0 ? ['draw','main','end'] : ['draw','main','battle','end'];
     const labels = { draw:'Draw Phase', main:'Main Phase', battle:'Battle Phase', end:'End Phase' };
     const idx = phases.indexOf(_duPhase);
-    if(idx === phases.length - 1){
+    const passing = idx === phases.length - 1;
+    if(passing){
       // In End Phase: pass turn
       _duEmit('passTurn', {});
       _duPhase = 'draw';
@@ -5141,8 +5332,10 @@ function _duInitBoard(){
       _duPhase = phases[idx + 1];
     }
     _duUpdatePhaseBtn();
-    // Announce phase change in chat
-    _olSocket && _olSocket.emit('chat:message', { text: `[Phase] ${labels[_duPhase] || _duPhase}` });
+    // Announce phase change in chat — but NOT when passing: the next Draw Phase
+    // belongs to the opponent, and passTurn already logs "ended their turn".
+    if(!passing)
+      _olSocket && _olSocket.emit('chat:message', { text: `[Phase] ${labels[_duPhase] || _duPhase}` });
     // Enable/disable attack drop targets during Battle Phase
     _duToggleBattleTargets(_duPhase === 'battle');
     // Clear combat highlights when leaving Battle Phase
@@ -5183,12 +5376,30 @@ function _duBindSocket(socket){
       const deckActions = [
         { label:'→ Graveyard',          fn:(c)=> _duEmit('move',{iid:c.iid,zone:'graveyard'}) },
         { label:'→ Hand',               fn:(c)=> _duEmit('move',{iid:c.iid,zone:'hand'}) },
+        { label:'→ Extra Deck', when:_duIsExtraMonster, fn:(c)=> _duEmit('move',{iid:c.iid,zone:'extraDeck'}) },
         { label:'→ Deck top (keep)',    fn:(c)=> _duEmit('move',{iid:c.iid,zone:'deck',deckPos:'top'}) },
         { label:'→ Deck bottom',        fn:(c)=> _duEmit('move',{iid:c.iid,zone:'deck',deckPos:'bottom'}) },
       ];
       _duShowViewer('My Deck (current order)', data.cards, deckActions);
+    } else if(data.what === 'excavate' && Array.isArray(data.cards)){
+      const excavateActions = [
+        { label:'→ Graveyard',       fn:(c)=> _duEmit('move',{iid:c.iid,zone:'graveyard'}) },
+        { label:'→ Hand',            fn:(c)=> _duEmit('move',{iid:c.iid,zone:'hand'}) },
+        { label:'→ Deck (top)',      fn:(c)=> _duEmit('move',{iid:c.iid,zone:'deck',deckPos:'top'}) },
+        { label:'→ Deck (bottom)',   fn:(c)=> _duEmit('move',{iid:c.iid,zone:'deck',deckPos:'bottom'}) },
+      ];
+      _duShowViewer('Excavated Cards', data.cards, excavateActions, null, true);
     } else if(data.what === 'extraDeck' && Array.isArray(data.cards)){
-      _duShowViewer('My Extra Deck', data.cards, _extraActions, 'extraDeck');
+      const extraActions = [
+        { label:'Special Summon → M1 (ATK)', fn:(c)=> _duEmit('move',{iid:c.iid,zone:'monster',slot:0,position:'atk'}) },
+        { label:'Special Summon → M2 (ATK)', fn:(c)=> _duEmit('move',{iid:c.iid,zone:'monster',slot:1,position:'atk'}) },
+        { label:'Special Summon → M3 (ATK)', fn:(c)=> _duEmit('move',{iid:c.iid,zone:'monster',slot:2,position:'atk'}) },
+        '---',
+        { label:'→ Graveyard', fn:(c)=> _duEmit('move',{iid:c.iid,zone:'graveyard'}) },
+        { label:'→ Hand',      fn:(c)=> _duEmit('move',{iid:c.iid,zone:'hand'}) },
+        { label:'Reveal to opponent', fn:(c)=> _duEmit('reveal',{iid:c.iid}) },
+      ];
+      _duShowViewer('My Extra Deck', data.cards, extraActions, 'extraDeck');
     }
   });
   socket.on('duel:error', data=>{
