@@ -11,7 +11,7 @@ const MAX_DECK       = 100;
 const MAX_EXTRA_DECK = 15;
 const ZONES    = new Set(['hand', 'deck', 'extraDeck', 'graveyard', 'monster', 'spellTrap', 'field']);
 const ACTIONS  = new Set([
-  'loadDeck', 'loadExtraDeck', 'ready', 'chooseFirst', 'millTop', 'shuffle', 'draw', 'lookDeck', 'lookExtraDeck',
+  'loadDeck', 'loadExtraDeck', 'ready', 'chooseFirst', 'millTop', 'shuffle', 'draw', 'excavate', 'lookDeck', 'lookExtraDeck',
   'move', 'flip', 'position', 'maximum', 'attack', 'activateEffect', 'target', 'reveal', 'lp', 'coin', 'dice', 'passTurn', 'surrender',
 ]);
 
@@ -61,6 +61,7 @@ function isDuelAction(data) {
     case 'chooseFirst':
       return typeof p.goFirst === 'boolean';
     case 'draw':
+    case 'excavate':
       return p.n === undefined || (Number.isInteger(p.n) && p.n >= 1 && p.n <= 20);
     case 'move':
       return typeof p.iid === 'string' && ZONES.has(p.zone)

@@ -78,6 +78,21 @@ const ACTIONS = {
     return { ok: true };
   },
 
+  // Reveal top N cards of the deck publicly (both players see the cardKeys in the log).
+  // Cards stay in the deck; private response carries iids so the acting player can
+  // move them individually via the existing move action.
+  excavate(game, seat, p) {
+    const n = Number.isInteger(p.n) ? Math.max(1, p.n) : 1;
+    const board = game.players[seat];
+    if (!board.deck.length) return { error: 'deck_empty' };
+    const actual = Math.min(n, board.deck.length);
+    const cards = board.deck.slice(0, actual).map(c => ({
+      iid: c.iid, cardKey: c.cardKey, rarity: c.rarity, imgFile: c.imgFile,
+    }));
+    S.pushLog(game, { type: 'excavate', seat, cardKeys: cards.map(c => c.cardKey) });
+    return { ok: true, private: { what: 'excavate', cards } };
+  },
+
   shuffle(game, seat) {
     S.shuffle(game, seat);
     S.pushLog(game, { type: 'shuffle', seat });
