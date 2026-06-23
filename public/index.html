@@ -3725,7 +3725,7 @@ async function loadReferenceData(dataBase, dataTag){
   }
 
   // Download from CDN (or same-origin fallback). cards.json is mandatory.
-  let parsed;
+  let parsed, allOk=true;
   try{
     const res=await Promise.all(REF_FILES.map(f=>fetch(url(f)).catch(()=>null)));
     if(!res[0]||!res[0].ok) throw new Error('cards.json unavailable');
@@ -3733,7 +3733,8 @@ async function loadReferenceData(dataBase, dataTag){
     parsed[0]=await res[0].json();
     if(!Array.isArray(parsed[0])||!parsed[0].length) throw new Error('cards.json empty/invalid');
     for(let i=1;i<REF_FILES.length;i++){
-      parsed[i]=(res[i]&&res[i].ok) ? await res[i].json().catch(()=>({})) : {};
+      if(res[i]&&res[i].ok){ parsed[i]=await res[i].json().catch(()=>{ allOk=false; return {}; }); }
+      else { parsed[i]={}; allOk=false; }
     }
   }catch(e){
     // Offline / failed download → fall back to any cached copy, else surface error
@@ -3741,8 +3742,11 @@ async function loadReferenceData(dataBase, dataTag){
     throw e;
   }
 
-  // Persist parsed objects + manifest in one transaction (best-effort)
-  if(db){
+  // Persist only when ALL files loaded: caching a transiently-empty optional file
+  // under this tag would mask it forever (same tag → cache hit), e.g. empty
+  // IMG_URLS → every image stuck on the slow fallback. Partial loads stay
+  // in-memory so the next launch retries.
+  if(db && allOk){
     try{
       let version=0,hashes={};
       try{ const man=await fetch(url('data-version.json')).then(r=>r&&r.ok?r.json():null); if(man){ version=man.version||0; hashes=man.hashes||{}; } }catch{}
