@@ -5760,5 +5760,61 @@
     "coverImage": "GalaxyCup-LogoJP.png",
     "cardsPerPack": null,
     "declaredSize": null
+  },
+  "Battle Bonus Pack 2026 Vol.2": {
+    "releaseDateJP": "July 1, 2026",
+    "packsPerBox": null,
+    "coverImage": "RDB262-BoosterJP.png",
+    "cardsPerPack": 1,
+    "declaredSize": null
+  },
+  "Limited Pack Remastered Edition": {
+    "releaseDateJP": "October 2026",
+    "packsPerBox": 10,
+    "coverImage": "RDLP01-BoosterJP.png",
+    "cardsPerPack": 4,
+    "declaredSize": null
+  },
+  "Secret Ace Pack (series)": {
+    "releaseDateJP": null,
+    "packsPerBox": null,
+    "coverImage": null,
+    "cardsPerPack": null,
+    "declaredSize": null
+  },
+  "Special Victory Pack": {
+    "releaseDateJP": null,
+    "packsPerBox": null,
+    "coverImage": null,
+    "cardsPerPack": null,
+    "declaredSize": null
+  },
+  "Special Victory Pack 2026 Vol.2": {
+    "releaseDateJP": "July 1, 2026",
+    "packsPerBox": null,
+    "coverImage": "RDS262-BoosterJP.png",
+    "cardsPerPack": 1,
+    "declaredSize": null
+  },
+  "Galaxy Cup 2026 Team Tournament Qualifiers prize card": {
+    "releaseDateJP": "June 14, 2026",
+    "packsPerBox": null,
+    "coverImage": "GalaxyCup-LogoJP.png",
+    "cardsPerPack": null,
+    "declaredSize": null
+  },
+  "Galaxy Cup 2026 Team Tournament Qualifiers participation card": {
+    "releaseDateJP": "June 14, 2026",
+    "packsPerBox": null,
+    "coverImage": "GalaxyCup-LogoJP.png",
+    "cardsPerPack": null,
+    "declaredSize": null
+  },
+  "Galaxy Cup 2026 Team Tournament Finals prize card": {
+    "releaseDateJP": "February 2027",
+    "packsPerBox": null,
+    "coverImage": "GalaxyCup-LogoJP.png",
+    "cardsPerPack": null,
+    "declaredSize": null
   }
 }

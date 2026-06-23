@@ -2261,7 +2261,7 @@
     ],
     "password": null,
     "title": "Accel Wonder Dark",
-    "_wiki_ts": "2025-09-08T22:17:28Z",
+    "_wiki_ts": "2026-06-14T19:02:00Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -3602,6 +3602,8 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Fairy / Normal",
+    "card_type": null,
+    "property": null,
     "level": 5,
     "atk": 100,
     "def": 100,
@@ -3623,6 +3625,11 @@
         "code": "RD/B224-JP009",
         "name": "Battle Pack 2022 Vol.4",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/AP03-JP041",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "sets_kr": [
@@ -3635,11 +3642,9 @@
     "database_id": "18652",
     "archseries": [],
     "password": null,
-    "title": "Aitsu",
-    "_wiki_ts": "2025-05-16T12:27:38Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Aitsu",
+    "_wiki_ts": "2026-06-12T14:43:59Z",
     "raw_name_en": "Aitsu (Rush Duel)"
   },
   {
@@ -4802,6 +4807,8 @@
     "name_es": null,
     "attribute": "DARK",
     "types": "Psychic / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 2000,
     "def": 1500,
@@ -4816,6 +4823,10 @@
       {
         "artwork": 1,
         "file": "AmabearLilith-RDKP10-JP-C.png"
+      },
+      {
+        "artwork": 2,
+        "file": "AmabearLilith-RDS262-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -4823,6 +4834,11 @@
         "code": "RD/KP10-JP043",
         "name": "Deck Mod Pack: Requiem of Destruction!!",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/S262-JP004",
+        "name": "Special Victory Pack 2026 Vol.2",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -4837,11 +4853,9 @@
       "Psychic Musician"
     ],
     "password": null,
-    "title": "Amabear Lilith",
-    "_wiki_ts": "2025-05-20T19:30:56Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Amabear Lilith",
+    "_wiki_ts": "2026-06-19T19:25:12Z",
     "raw_name_en": "Amabear Lilith"
   },
   {
@@ -10298,7 +10312,7 @@
     ],
     "password": null,
     "title": "Aussa the Earth Charmer",
-    "_wiki_ts": "2026-04-11T17:06:17Z",
+    "_wiki_ts": "2026-06-22T19:42:15Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -10476,6 +10490,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Field",
     "level": null,
     "atk": null,
     "def": null,
@@ -10483,8 +10499,8 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "Activate this card by placing 1 Wyrm Type monster from your Graveyard on top of the Deck.",
-    "effect": "While this card is face-up in the Field Zone, face-up Wyrm Type monsters on the field gain 300 ATK, and they inflict piercing battle damage.",
+    "requirement": "Activate this card by placing 1 Wyrm Type monster from your Graveyard on top of your Deck.",
+    "effect": "While this card is face-up in the Field Zone, face-up Wyrm Type monsters on the field gain 300 ATK and inflict piercing battle damage.",
     "flavor_text": null,
     "images": [
       {
@@ -10511,11 +10527,9 @@
       "Blisstopia"
     ],
     "password": null,
-    "title": "Autumn Leaves of Blisstopia",
-    "_wiki_ts": "2025-01-11T03:12:16Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Field",
+    "title": "Autumn Leaves of Blisstopia",
+    "_wiki_ts": "2026-06-22T08:55:59Z",
     "raw_name_en": "Autumn Leaves of Blisstopia"
   },
   {
@@ -12682,13 +12696,15 @@
     "name_en": "Beast Blader",
     "name_ja": "ビースト・ブレイダー",
     "name_ja_romaji": "Bīsuto Bureidā",
-    "name_ko": null,
+    "name_ko": "비스트 블레이더",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "EARTH",
     "types": "Beast-Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1000,
     "def": 900,
@@ -12712,15 +12728,19 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR026",
+        "name": "Overforce of the Abyss",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "22856",
     "archseries": [],
     "password": null,
-    "title": "Beast Blader",
-    "_wiki_ts": "2026-02-13T14:31:24Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Beast Blader",
+    "_wiki_ts": "2026-06-11T11:16:50Z",
     "raw_name_en": "Beast Blader"
   },
   {
@@ -13328,13 +13348,15 @@
     "name_en": "Beast King Barbaros",
     "name_ja": "神獣王バルバロス",
     "name_ja_romaji": "Shinjūō Barubarosu",
-    "name_ko": null,
+    "name_ko": "신수왕 바르바로스",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "EARTH",
     "types": "Beast-Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 8,
     "atk": 3000,
     "def": 1200,
@@ -13358,15 +13380,19 @@
         "rarity": "Super Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR000",
+        "name": "Overforce of the Abyss",
+        "rarity": "Super Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "22830",
     "archseries": [],
     "password": null,
-    "title": "Beast King Barbaros",
-    "_wiki_ts": "2026-02-13T14:25:22Z",
     "is_legend": true,
-    "card_type": null,
-    "property": null,
+    "title": "Beast King Barbaros",
+    "_wiki_ts": "2026-06-11T14:36:51Z",
     "raw_name_en": "Beast King Barbaros (Rush Duel)"
   },
   {
@@ -13630,13 +13656,15 @@
     "name_en": "Beginning Hiyashi the Sonic Noodle Ninja",
     "name_ja": "火麺速忍ビギニング・ヒヤシ",
     "name_ja_romaji": "Kamen Sokunin Biginingu Hiyashi",
-    "name_ko": null,
+    "name_ko": "화면속인 비기닝 히야시",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "FIRE",
     "types": "Pyro / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 2900,
     "def": 0,
@@ -13660,17 +13688,21 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR035",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22865",
     "archseries": [
       "Noodle Ninja"
     ],
     "password": null,
-    "title": "Beginning Hiyashi the Sonic Noodle Ninja",
-    "_wiki_ts": "2026-03-09T18:06:44Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Beginning Hiyashi the Sonic Noodle Ninja",
+    "_wiki_ts": "2026-06-11T11:18:30Z",
     "raw_name_en": "Beginning Hiyashi the Sonic Noodle Ninja"
   },
   {
@@ -14575,7 +14607,7 @@
     "archseries": [],
     "password": null,
     "title": "Bikuribot",
-    "_wiki_ts": "2025-12-01T23:14:55Z",
+    "_wiki_ts": "2026-06-13T16:44:22Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -16901,6 +16933,8 @@
     "name_es": "Dragón Blanco de Ojos Azules",
     "attribute": "LIGHT",
     "types": "Dragon / Normal",
+    "card_type": null,
+    "property": null,
     "level": 8,
     "atk": 3000,
     "def": 2500,
@@ -16923,6 +16957,10 @@
       {
         "artwork": 3,
         "file": "BlueEyesWhiteDragon-RDSD0A-JP-UR.png"
+      },
+      {
+        "artwork": 4,
+        "file": "BlueEyesWhiteDragon-RDLP01-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -16954,6 +16992,11 @@
       {
         "code": "RD/SD0A-JP002",
         "name": "Structure Deck: The Ultimate Blue-Eyed Legend",
+        "rarity": "Ultra Rare"
+      },
+      {
+        "code": "RD/LP01-JP028",
+        "name": "Limited Pack Remastered Edition",
         "rarity": "Ultra Rare"
       }
     ],
@@ -16994,11 +17037,9 @@
       "Blue-Eyes"
     ],
     "password": null,
-    "title": "Blue-Eyes White Dragon",
-    "_wiki_ts": "2026-06-01T12:22:53Z",
     "is_legend": true,
-    "card_type": null,
-    "property": null,
+    "title": "Blue-Eyes White Dragon",
+    "_wiki_ts": "2026-06-23T07:38:40Z",
     "raw_name_en": "Blue-Eyes White Dragon (Rush Duel)"
   },
   {
@@ -17149,7 +17190,7 @@
     ],
     "password": null,
     "title": "Blue-Fang Concurrent Burst Dragon",
-    "_wiki_ts": "2025-12-01T08:46:43Z",
+    "_wiki_ts": "2026-06-13T16:44:44Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -19733,6 +19774,8 @@
     "name_es": "Buster Blader",
     "attribute": "EARTH",
     "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 7,
     "atk": 2600,
     "def": 2300,
@@ -19773,6 +19816,11 @@
         "code": "RD/ORP4-JP079",
         "name": "Over Rush Pack 4",
         "rarity": "Common, Secret Rare"
+      },
+      {
+        "code": "RD/LP01-JP033",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -19790,11 +19838,9 @@
     "database_id": "16307",
     "archseries": [],
     "password": null,
-    "title": "Buster Blader",
-    "_wiki_ts": "2026-04-10T16:35:54Z",
     "is_legend": true,
-    "card_type": null,
-    "property": null,
+    "title": "Buster Blader",
+    "_wiki_ts": "2026-06-23T07:35:34Z",
     "raw_name_en": "Buster Blader (Rush Duel)"
   },
   {
@@ -22258,7 +22304,7 @@
     ],
     "password": null,
     "title": "Celeb Rose Incognito Magician",
-    "_wiki_ts": "2025-12-01T23:15:33Z",
+    "_wiki_ts": "2026-06-13T16:45:07Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -23368,13 +23414,15 @@
     "name_en": "Chainsaw Insect",
     "name_ja": "電動刃虫",
     "name_ja_romaji": "Chēnsō Insekuto",
-    "name_ko": null,
+    "name_ko": "체인소우 인섹트",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "EARTH",
     "types": "Insect / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 2400,
     "def": 0,
@@ -23398,15 +23446,19 @@
         "rarity": "Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR029",
+        "name": "Overforce of the Abyss",
+        "rarity": "Rare"
+      }
+    ],
     "database_id": "22859",
     "archseries": [],
     "password": null,
-    "title": "Chainsaw Insect",
-    "_wiki_ts": "2026-02-13T14:32:05Z",
     "is_legend": true,
-    "card_type": null,
-    "property": null,
+    "title": "Chainsaw Insect",
+    "_wiki_ts": "2026-06-11T11:17:30Z",
     "raw_name_en": "Chainsaw Insect (Rush Duel)"
   },
   {
@@ -23461,7 +23513,7 @@
     ],
     "password": null,
     "title": "Change of Dessert",
-    "_wiki_ts": "2024-12-05T19:12:51Z",
+    "_wiki_ts": "2026-06-19T19:45:12Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -23573,7 +23625,7 @@
     ],
     "password": null,
     "title": "Change Slime - Skull Dragon Mode",
-    "_wiki_ts": "2026-01-05T07:06:56Z",
+    "_wiki_ts": "2026-06-14T18:50:18Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -27049,15 +27101,17 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1200,
     "def": 1900,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
-    "effect_types": null,
-    "requirement": "| text           =",
-    "effect": null,
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "Face-up Warrior Type monsters on your field gain 400 ATK. If you have another face-up Warrior Type monster on your field, your opponent cannot attack this card.",
     "flavor_text": null,
     "images": [
       {
@@ -27076,11 +27130,9 @@
     "database_id": null,
     "archseries": [],
     "password": null,
-    "title": "Command Knight",
-    "_wiki_ts": "2026-06-03T14:56:32Z",
     "is_legend": true,
-    "card_type": null,
-    "property": null,
+    "title": "Command Knight",
+    "_wiki_ts": "2026-06-16T02:09:30Z",
     "raw_name_en": "Command Knight (Rush Duel)"
   },
   {
@@ -28849,6 +28901,8 @@
     "name_es": null,
     "attribute": "DARK",
     "types": "Galaxy / Normal",
+    "card_type": null,
+    "property": null,
     "level": 1,
     "atk": 0,
     "def": 1300,
@@ -28870,6 +28924,11 @@
         "code": "RD/KP18-JP001",
         "name": "Dark Matter of Phantoms",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/B262-JP007",
+        "name": "Battle Bonus Pack 2026 Vol.2",
+        "rarity": "Normal Parallel Rare, Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -28884,11 +28943,9 @@
       "Dark Matter"
     ],
     "password": null,
-    "title": "Contact Darkmatter Explorer",
-    "_wiki_ts": "2026-05-11T12:42:43Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Contact Darkmatter Explorer",
+    "_wiki_ts": "2026-06-19T18:19:33Z",
     "raw_name_en": "Contact Darkmatter Explorer"
   },
   {
@@ -31839,6 +31896,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Machine / Effect",
+    "card_type": null,
+    "property": null,
     "level": 5,
     "atk": 2100,
     "def": 1600,
@@ -31853,6 +31912,10 @@
       {
         "artwork": 1,
         "file": "CyberDragon-RDSD0C-JP-C.png"
+      },
+      {
+        "artwork": 2,
+        "file": "CyberDragon-RDLP01-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -31870,6 +31933,11 @@
         "code": "RD/P008-JP001",
         "name": "Seven Theme Duel Tournament Part 1 prize cards",
         "rarity": "Secret Rare (Special Red Version)"
+      },
+      {
+        "code": "RD/LP01-JP059",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -31889,11 +31957,9 @@
       "Cyber Dragon"
     ],
     "password": null,
-    "title": "Cyber Dragon",
-    "_wiki_ts": "2026-05-02T16:41:34Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Cyber Dragon",
+    "_wiki_ts": "2026-06-23T07:25:53Z",
     "raw_name_en": "Cyber Dragon (Rush Duel)"
   },
   {
@@ -32688,7 +32754,7 @@
     ],
     "password": null,
     "title": "Cyber Rush Fusion",
-    "_wiki_ts": "2025-06-18T19:17:57Z",
+    "_wiki_ts": "2026-06-14T19:06:53Z",
     "is_legend": false,
     "card_type": "Spell",
     "property": "Normal",
@@ -35102,6 +35168,8 @@
     "name_es": "Mago Oscuro",
     "attribute": "DARK",
     "types": "Spellcaster / Normal",
+    "card_type": null,
+    "property": null,
     "level": 7,
     "atk": 2500,
     "def": 2100,
@@ -35124,6 +35192,10 @@
       {
         "artwork": 3,
         "file": "DarkMagician-RD5THS-JP-SPR.png"
+      },
+      {
+        "artwork": 4,
+        "file": "DarkMagician-RDLP01-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -35166,6 +35238,11 @@
         "code": "RD/5THS-JPA07",
         "name": "5th Special Pack",
         "rarity": "Super Parallel Rare"
+      },
+      {
+        "code": "RD/LP01-JP027",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -35215,11 +35292,9 @@
       "Dark Magician"
     ],
     "password": null,
-    "title": "Dark Magician",
-    "_wiki_ts": "2025-10-22T20:56:48Z",
     "is_legend": true,
-    "card_type": null,
-    "property": null,
+    "title": "Dark Magician",
+    "_wiki_ts": "2026-06-23T06:56:43Z",
     "raw_name_en": "Dark Magician (Rush Duel)"
   },
   {
@@ -35233,6 +35308,8 @@
     "name_es": "Chica Maga Oscura",
     "attribute": "DARK",
     "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
     "level": 6,
     "atk": 2000,
     "def": 1700,
@@ -35267,6 +35344,10 @@
       {
         "artwork": 3.1,
         "file": "DarkMagicianGirl-RDORP2-KR-ORR.png"
+      },
+      {
+        "artwork": 4,
+        "file": "DarkMagicianGirl-RDLP01-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -35294,6 +35375,11 @@
         "code": "RD/5THS-JPA08",
         "name": "5th Special Pack",
         "rarity": "Super Parallel Rare"
+      },
+      {
+        "code": "RD/LP01-JP031",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -35333,11 +35419,9 @@
       "Dark Magician"
     ],
     "password": null,
-    "title": "Dark Magician Girl",
-    "_wiki_ts": "2025-10-22T21:00:54Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Dark Magician Girl",
+    "_wiki_ts": "2026-06-23T07:37:23Z",
     "raw_name_en": "Dark Magician Girl (Rush Duel)"
   },
   {
@@ -35778,7 +35862,7 @@
     ],
     "password": null,
     "title": "Dark Matter Elysium",
-    "_wiki_ts": "2026-05-11T12:43:02Z",
+    "_wiki_ts": "2026-06-13T16:45:29Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -35831,7 +35915,7 @@
     ],
     "password": null,
     "title": "Dark Matter Emperor Dragon",
-    "_wiki_ts": "2025-12-01T23:48:45Z",
+    "_wiki_ts": "2026-06-13T16:45:51Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -36158,7 +36242,7 @@
     ],
     "password": null,
     "title": "Dark Matter Galaxy Dragon",
-    "_wiki_ts": "2025-12-01T23:19:30Z",
+    "_wiki_ts": "2026-06-13T16:46:13Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -36476,7 +36560,7 @@
     ],
     "password": null,
     "title": "Dark Matter Requiem",
-    "_wiki_ts": "2026-05-11T12:43:39Z",
+    "_wiki_ts": "2026-06-13T16:46:33Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -36529,7 +36613,7 @@
     ],
     "password": null,
     "title": "Dark Matter Requiem Omega",
-    "_wiki_ts": "2025-12-01T23:53:05Z",
+    "_wiki_ts": "2026-06-13T16:46:55Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -36688,7 +36772,7 @@
     ],
     "password": null,
     "title": "Dark Matter Transcend Dragon",
-    "_wiki_ts": "2025-12-01T23:20:22Z",
+    "_wiki_ts": "2026-06-13T16:47:17Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -36756,6 +36840,8 @@
     "name_es": null,
     "attribute": "DARK",
     "types": "Spellcaster / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 8,
     "atk": 2900,
     "def": 2400,
@@ -36770,6 +36856,10 @@
       {
         "artwork": 1,
         "file": "DarkPaladin-RD5TH1-JP-UPR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "DarkPaladin-RDLP01-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -36777,6 +36867,11 @@
         "code": "RD/5TH1-JP002",
         "name": "5th Anniversary Pack",
         "rarity": "Ultra Parallel Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/LP01-JP034",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -36791,11 +36886,9 @@
       "Dark Magician"
     ],
     "password": null,
-    "title": "Dark Paladin",
-    "_wiki_ts": "2025-08-01T01:10:26Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Dark Paladin",
+    "_wiki_ts": "2026-06-23T07:22:37Z",
     "raw_name_en": "Dark Paladin (Rush Duel)"
   },
   {
@@ -36896,7 +36989,7 @@
     ],
     "password": null,
     "title": "Dark Renewal",
-    "_wiki_ts": "2025-09-08T22:19:53Z",
+    "_wiki_ts": "2026-06-22T19:05:14Z",
     "is_legend": false,
     "card_type": "Trap",
     "property": "Normal",
@@ -40684,13 +40777,15 @@
     "name_en": "Delirium Teega",
     "name_ja": "夢中のティーガ",
     "name_ja_romaji": "Muchū no Tīga",
-    "name_ko": null,
+    "name_ko": "몽중의 티거",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Insect / Effect",
+    "card_type": null,
+    "property": null,
     "level": 2,
     "atk": 800,
     "def": 1200,
@@ -40718,17 +40813,21 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR025",
+        "name": "Overforce of the Abyss",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "22855",
     "archseries": [
       "Delirium"
     ],
     "password": null,
-    "title": "Delirium Teega",
-    "_wiki_ts": "2026-02-14T08:47:12Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Delirium Teega",
+    "_wiki_ts": "2026-06-11T11:37:33Z",
     "raw_name_en": "Delirium Teega"
   },
   {
@@ -46509,7 +46608,7 @@
     ],
     "password": null,
     "title": "Draco the Doubly Tiny",
-    "_wiki_ts": "2026-02-26T21:19:48Z",
+    "_wiki_ts": "2026-06-13T16:47:39Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -49913,7 +50012,7 @@
     ],
     "password": null,
     "title": "Duordoll the Adorable Star",
-    "_wiki_ts": "2026-02-26T21:21:18Z",
+    "_wiki_ts": "2026-06-13T16:48:07Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -49971,13 +50070,15 @@
     "name_en": "Dust Tornado",
     "name_ja": "砂塵の大竜巻",
     "name_ja_romaji": "Sajin no Ōtatsumaki",
-    "name_ko": null,
+    "name_ko": "더스트 토네이도",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -50001,15 +50102,19 @@
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR064",
+        "name": "Overforce of the Abyss",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "22894",
     "archseries": [],
     "password": null,
-    "title": "Dust Tornado",
-    "_wiki_ts": "2026-02-13T14:39:57Z",
     "is_legend": false,
-    "card_type": "Trap",
-    "property": "Normal",
+    "title": "Dust Tornado",
+    "_wiki_ts": "2026-06-11T11:23:14Z",
     "raw_name_en": "Dust Tornado (Rush Duel)"
   },
   {
@@ -51368,7 +51473,7 @@
     ],
     "password": null,
     "title": "Elemental Circulation",
-    "_wiki_ts": "2026-02-24T16:26:00Z",
+    "_wiki_ts": "2026-06-14T18:57:15Z",
     "is_legend": false,
     "card_type": "Spell",
     "property": "Normal",
@@ -51460,13 +51565,15 @@
     "name_en": "Elemental HERO Bladedge",
     "name_ja": "Ｅ・ＨＥＲＯ エッジマン",
     "name_ja_romaji": "Erementaru Hīrō Ejjiman",
-    "name_ko": null,
+    "name_ko": "엘리멘틀 히어로 에지맨",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "EARTH",
     "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 7,
     "atk": 2600,
     "def": 1800,
@@ -51490,17 +51597,21 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR065",
+        "name": "Overforce of the Abyss",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "22895",
     "archseries": [
       "Elemental HERO"
     ],
     "password": null,
-    "title": "Elemental HERO Bladedge",
-    "_wiki_ts": "2026-02-13T14:40:10Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Elemental HERO Bladedge",
+    "_wiki_ts": "2026-06-11T11:23:25Z",
     "raw_name_en": "Elemental HERO Bladedge (Rush Duel)"
   },
   {
@@ -51924,7 +52035,7 @@
     ],
     "password": null,
     "title": "Elemental HERO Heat Neos",
-    "_wiki_ts": "2025-12-01T08:45:03Z",
+    "_wiki_ts": "2026-06-13T16:48:32Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -52162,13 +52273,15 @@
     "name_en": "Elemental HERO Plasma Vice",
     "name_ja": "Ｅ・ＨＥＲＯ プラズマヴァイスマン",
     "name_ja_romaji": "Erementaru Hīrō Purazuma Vaisuman",
-    "name_ko": null,
+    "name_ko": "엘리멘틀 히어로 플라즈마 바이스맨",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "EARTH",
     "types": "Warrior / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 8,
     "atk": 2600,
     "def": 2300,
@@ -52192,17 +52305,21 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR066",
+        "name": "Overforce of the Abyss",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "22896",
     "archseries": [
       "Elemental HERO"
     ],
     "password": null,
-    "title": "Elemental HERO Plasma Vice",
-    "_wiki_ts": "2026-02-13T14:40:25Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Elemental HERO Plasma Vice",
+    "_wiki_ts": "2026-06-11T11:23:36Z",
     "raw_name_en": "Elemental HERO Plasma Vice (Rush Duel)"
   },
   {
@@ -52257,7 +52374,7 @@
     ],
     "password": null,
     "title": "Elemental HERO Prisma",
-    "_wiki_ts": "2025-11-29T15:52:39Z",
+    "_wiki_ts": "2026-06-14T19:03:04Z",
     "is_legend": true,
     "card_type": null,
     "property": null,
@@ -52311,7 +52428,7 @@
     ],
     "password": null,
     "title": "Elemental HERO Pulse Neos",
-    "_wiki_ts": "2025-12-01T08:44:28Z",
+    "_wiki_ts": "2026-06-13T16:48:57Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -52427,7 +52544,7 @@
     ],
     "password": null,
     "title": "Elemental HERO Sky Neos",
-    "_wiki_ts": "2025-12-01T23:54:08Z",
+    "_wiki_ts": "2026-06-13T16:49:24Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -53205,13 +53322,15 @@
     "name_en": "Emir of the Monumenthes",
     "name_ja": "冥跡のアミール",
     "name_ja_romaji": "Meiseki no Amīru",
-    "name_ko": null,
+    "name_ko": "명적의 아미르",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "EARTH",
     "types": "Beast-Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 7,
     "atk": 2000,
     "def": 2000,
@@ -53235,17 +53354,21 @@
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR010",
+        "name": "Overforce of the Abyss",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "22840",
     "archseries": [
       "Monumenthes"
     ],
     "password": null,
-    "title": "Emir of the Monumenthes",
-    "_wiki_ts": "2026-02-13T14:27:40Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Emir of the Monumenthes",
+    "_wiki_ts": "2026-06-11T11:14:14Z",
     "raw_name_en": "Emir of the Monumenthes"
   },
   {
@@ -53429,6 +53552,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Galaxy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 1,
     "atk": 1000,
     "def": 0,
@@ -53450,17 +53575,20 @@
         "code": "RD/KP25-JP003",
         "name": "Rising of the Aurora",
         "rarity": "Rare"
+      },
+      {
+        "code": "RD/B262-JP002",
+        "name": "Battle Bonus Pack 2026 Vol.2",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [],
     "database_id": "23200",
     "archseries": [],
     "password": null,
-    "title": "Enceladustellime",
-    "_wiki_ts": "2026-05-22T16:46:51Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Enceladustellime",
+    "_wiki_ts": "2026-06-19T18:02:36Z",
     "raw_name_en": "Enceladustellime"
   },
   {
@@ -53612,13 +53740,15 @@
     "name_en": "Endless Partner",
     "name_ja": "心の友だち",
     "name_ja_romaji": "Endoresu Pātonā",
-    "name_ko": null,
+    "name_ko": "엔드리스 파트너",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Ritual",
     "level": null,
     "atk": null,
     "def": null,
@@ -53642,17 +53772,21 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR050",
+        "name": "Overforce of the Abyss",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "22880",
     "archseries": [
       "Moonforce"
     ],
     "password": null,
-    "title": "Endless Partner",
-    "_wiki_ts": "2026-02-13T14:36:58Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Ritual",
+    "title": "Endless Partner",
+    "_wiki_ts": "2026-06-11T11:20:56Z",
     "raw_name_en": "Endless Partner"
   },
   {
@@ -53994,7 +54128,7 @@
     "archseries": [],
     "password": null,
     "title": "Enigmatic Princess of Eternal Heaven",
-    "_wiki_ts": "2026-04-22T10:14:09Z",
+    "_wiki_ts": "2026-06-13T16:50:00Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -54230,7 +54364,7 @@
     ],
     "password": null,
     "title": "Eria the Water Charmer",
-    "_wiki_ts": "2026-04-11T17:06:38Z",
+    "_wiki_ts": "2026-06-22T19:42:38Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -54454,13 +54588,15 @@
     "name_en": "The Eternal Land -Spectrika-",
     "name_ja": "悠久の郷－スペクトリカ－",
     "name_ja_romaji": "Yūkyū no Sato -Supekutorika-",
-    "name_ko": null,
+    "name_ko": "유구의 고향－스펙트리카－",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Field",
     "level": null,
     "atk": null,
     "def": null,
@@ -54489,17 +54625,21 @@
         "rarity": "Super Parallel Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR052",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22882",
     "archseries": [
       "Moonforce"
     ],
     "password": null,
-    "title": "The Eternal Land -Spectrika-",
-    "_wiki_ts": "2026-03-23T17:56:06Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Field",
+    "title": "The Eternal Land -Spectrika-",
+    "_wiki_ts": "2026-06-11T11:21:16Z",
     "raw_name_en": "The Eternal Land -Spectrika-"
   },
   {
@@ -54624,13 +54764,15 @@
     "name_en": "Eternum Voidvelg Requiem",
     "name_ja": "エテルナム・ヴォイドヴェルグ・レクイエム",
     "name_ja_romaji": "Eterunamu Voidoverugu Rekuiemu",
-    "name_ko": null,
+    "name_ko": "에테르넘 보이드베르그 레퀴엠",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "DARK",
     "types": "Galaxy / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 3500,
     "def": 2500,
@@ -54654,17 +54796,21 @@
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR032",
+        "name": "Overforce of the Abyss",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "22862",
     "archseries": [
       "Voidvelg"
     ],
     "password": null,
-    "title": "Eternum Voidvelg Requiem",
-    "_wiki_ts": "2026-02-13T14:32:56Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Eternum Voidvelg Requiem",
+    "_wiki_ts": "2026-06-11T11:18:00Z",
     "raw_name_en": "Eternum Voidvelg Requiem"
   },
   {
@@ -56188,6 +56334,8 @@
     "name_es": null,
     "attribute": "WATER",
     "types": "Wyrm / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 2500,
     "def": 2100,
@@ -56219,11 +56367,9 @@
     "database_id": "23267",
     "archseries": [],
     "password": null,
-    "title": "Exalted Celestial Custodian of the Sacred Summit",
-    "_wiki_ts": "2026-05-22T17:02:26Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Exalted Celestial Custodian of the Sacred Summit",
+    "_wiki_ts": "2026-06-14T21:59:35Z",
     "raw_name_en": "Exalted Celestial Custodian of the Sacred Summit"
   },
   {
@@ -56782,7 +56928,7 @@
     ],
     "password": null,
     "title": "Excutie Leya Frontier",
-    "_wiki_ts": "2026-05-11T06:37:56Z",
+    "_wiki_ts": "2026-06-13T16:50:54Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -57052,7 +57198,7 @@
     ],
     "password": null,
     "title": "Excutie Lumière Frontier",
-    "_wiki_ts": "2026-03-11T16:03:55Z",
+    "_wiki_ts": "2026-06-13T16:51:15Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -57352,7 +57498,7 @@
     ],
     "password": null,
     "title": "Excutie Plawtie Frontier",
-    "_wiki_ts": "2026-03-11T16:04:49Z",
+    "_wiki_ts": "2026-06-13T16:51:36Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -58057,7 +58203,7 @@
     ],
     "password": null,
     "title": "The Eye of Timaeus",
-    "_wiki_ts": "2026-05-28T18:04:24Z",
+    "_wiki_ts": "2026-06-14T19:05:07Z",
     "is_legend": true,
     "card_type": "Spell",
     "property": "Normal",
@@ -58074,6 +58220,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Fiend / Effect",
+    "card_type": null,
+    "property": null,
     "level": 6,
     "atk": 1500,
     "def": 0,
@@ -58088,6 +58236,10 @@
       {
         "artwork": 1,
         "file": "FacelessCuldesac-RDTB02-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "FacelessCuldesac-RDS262-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -58100,6 +58252,11 @@
         "code": "RD/TB02-JP019",
         "name": "Triple Build Pack: Evolution Impact",
         "rarity": "Super Rare"
+      },
+      {
+        "code": "RD/S262-JP003",
+        "name": "Special Victory Pack 2026 Vol.2",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -58117,11 +58274,9 @@
     "database_id": "19760",
     "archseries": [],
     "password": null,
-    "title": "Faceless Culdesac",
-    "_wiki_ts": "2025-10-25T23:16:12Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Faceless Culdesac",
+    "_wiki_ts": "2026-06-19T19:19:53Z",
     "raw_name_en": "Faceless Culdesac"
   },
   {
@@ -58871,7 +59026,7 @@
     ],
     "password": null,
     "title": "Familiar-Possessed - Wynn",
-    "_wiki_ts": "2026-05-27T19:56:59Z",
+    "_wiki_ts": "2026-06-13T16:51:57Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -59474,6 +59629,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Field",
     "level": null,
     "atk": null,
     "def": null,
@@ -59484,12 +59641,22 @@
     "requirement": "None",
     "effect": "While this card is face-up in the Field Zone, face-up FIRE Attribute monsters on your field gain 400 ATK during your turn, and face-up FIRE Attribute monsters on your opponent's field gain 400 ATK during your opponent's turn.",
     "flavor_text": null,
-    "images": [],
+    "images": [
+      {
+        "artwork": 1,
+        "file": "FeverousSpiritStadium-RDKP07-JP-R.png"
+      }
+    ],
     "sets_jp": [
       {
         "code": "RD/KP07-JP047",
         "name": "Deck Mod Pack: Chaotic Omega Rising!!",
         "rarity": "Rare"
+      },
+      {
+        "code": "RD/B262-JP005",
+        "name": "Battle Bonus Pack 2026 Vol.2",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -59504,11 +59671,9 @@
       "Baseball"
     ],
     "password": null,
-    "title": "Feverous Spirit Stadium",
-    "_wiki_ts": "2025-06-26T15:16:42Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Field",
+    "title": "Feverous Spirit Stadium",
+    "_wiki_ts": "2026-06-19T18:11:13Z",
     "raw_name_en": "Feverous Spirit Stadium"
   },
   {
@@ -60626,6 +60791,8 @@
     "name_es": null,
     "attribute": "DARK",
     "types": "Dragon / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 12,
     "atk": 5000,
     "def": 5000,
@@ -60661,6 +60828,11 @@
         "code": "RD/5TH1-JP060",
         "name": "5th Anniversary Pack",
         "rarity": "Super Parallel Rare"
+      },
+      {
+        "code": "RD/LP01-JP060",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -60683,11 +60855,9 @@
     "database_id": "18681",
     "archseries": [],
     "password": null,
-    "title": "Five-Headed Dragon",
-    "_wiki_ts": "2026-03-15T16:05:59Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Five-Headed Dragon",
+    "_wiki_ts": "2026-06-23T07:14:47Z",
     "raw_name_en": "Five-Headed Dragon (Rush Duel)"
   },
   {
@@ -61258,7 +61428,7 @@
     ],
     "password": null,
     "title": "Flash Memory Fusion",
-    "_wiki_ts": "2025-09-08T22:19:45Z",
+    "_wiki_ts": "2026-06-14T19:10:12Z",
     "is_legend": false,
     "card_type": "Trap",
     "property": "Normal",
@@ -62103,13 +62273,15 @@
     "name_en": "Fortress Whale",
     "name_ja": "要塞クジラ",
     "name_ja_romaji": "Yōsai Kujira",
-    "name_ko": null,
+    "name_ko": "요새 고래",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "WATER",
     "types": "Fish / Ritual",
+    "card_type": null,
+    "property": null,
     "level": 7,
     "atk": 2400,
     "def": 2200,
@@ -62133,28 +62305,34 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR041",
+        "name": "Overforce of the Abyss",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "22871",
     "archseries": [],
     "password": null,
-    "title": "Fortress Whale",
-    "_wiki_ts": "2026-02-13T14:34:54Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Fortress Whale",
+    "_wiki_ts": "2026-06-11T11:19:28Z",
     "raw_name_en": "Fortress Whale (Rush Duel)"
   },
   {
     "name_en": "Fortress Whale's Oath",
     "name_ja": "要塞クジラの誓い",
     "name_ja_romaji": "Yōsai Kujira no Chikai",
-    "name_ko": null,
+    "name_ko": "요새 고래의 맹세",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Ritual",
     "level": null,
     "atk": null,
     "def": null,
@@ -62178,15 +62356,19 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR057",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22887",
     "archseries": [],
     "password": null,
-    "title": "Fortress Whale's Oath",
-    "_wiki_ts": "2026-02-13T14:38:29Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Ritual",
+    "title": "Fortress Whale's Oath",
+    "_wiki_ts": "2026-06-11T11:22:06Z",
     "raw_name_en": "Fortress Whale's Oath (Rush Duel)"
   },
   {
@@ -62391,7 +62573,7 @@
     ],
     "password": null,
     "title": "Frenzied Panda Cotta",
-    "_wiki_ts": "2024-12-05T23:20:52Z",
+    "_wiki_ts": "2026-06-19T19:46:19Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -62667,6 +62849,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Field",
     "level": null,
     "atk": null,
     "def": null,
@@ -62688,6 +62872,11 @@
         "code": "RD/KP18-JP057",
         "name": "Dark Matter of Phantoms",
         "rarity": "Rare"
+      },
+      {
+        "code": "RD/B262-JP014",
+        "name": "Battle Bonus Pack 2026 Vol.2",
+        "rarity": "Normal Parallel Rare, Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -62702,11 +62891,9 @@
       "Freshberry"
     ],
     "password": null,
-    "title": "Freshberry Garden",
-    "_wiki_ts": "2026-01-30T20:06:57Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Field",
+    "title": "Freshberry Garden",
+    "_wiki_ts": "2026-06-19T18:54:58Z",
     "raw_name_en": "Freshberry Garden"
   },
   {
@@ -62771,7 +62958,7 @@
     ],
     "password": null,
     "title": "Freshberry Happiness",
-    "_wiki_ts": "2025-12-01T13:12:52Z",
+    "_wiki_ts": "2026-06-19T19:47:49Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -63548,6 +63735,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -63642,6 +63831,11 @@
         "code": "RD/P013-JP001",
         "name": "Over Rush Challenge Cup prize card 2",
         "rarity": "Over Rush Rare"
+      },
+      {
+        "code": "RD/AP03-JP023",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "sets_kr": [
@@ -63704,11 +63898,9 @@
     "database_id": "16934",
     "archseries": [],
     "password": null,
-    "title": "Fusion",
-    "_wiki_ts": "2026-05-25T18:57:23Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Fusion",
+    "_wiki_ts": "2026-06-08T15:18:33Z",
     "raw_name_en": "Fusion (Rush Duel)"
   },
   {
@@ -63770,7 +63962,7 @@
     "archseries": [],
     "password": null,
     "title": "Fusion Cancel",
-    "_wiki_ts": "2025-06-25T10:38:41Z",
+    "_wiki_ts": "2026-06-14T19:07:46Z",
     "is_legend": false,
     "card_type": "Trap",
     "property": "Normal",
@@ -64387,6 +64579,8 @@
     "name_es": "Gaia el Caballero Feroz",
     "attribute": "EARTH",
     "types": "Warrior / Normal",
+    "card_type": null,
+    "property": null,
     "level": 7,
     "atk": 2300,
     "def": 2100,
@@ -64446,6 +64640,11 @@
         "code": "RD/5TH1-JP138",
         "name": "5th Anniversary Pack",
         "rarity": "Secret Rare"
+      },
+      {
+        "code": "RD/P011-JP001",
+        "name": "Galaxy Cup 2026 Team Tournament Qualifiers prize card",
+        "rarity": "Secret Rare (Special Red Version)"
       }
     ],
     "sets_kr": [
@@ -64475,11 +64674,9 @@
       "Gaia"
     ],
     "password": null,
-    "title": "Gaia The Fierce Knight",
-    "_wiki_ts": "2025-08-21T18:43:17Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Gaia The Fierce Knight",
+    "_wiki_ts": "2026-06-12T15:57:02Z",
     "raw_name_en": "Gaia The Fierce Knight (Rush Duel)"
   },
   {
@@ -68415,6 +68612,8 @@
     "name_es": null,
     "attribute": "EARTH",
     "types": "Beast-Warrior / Normal",
+    "card_type": null,
+    "property": null,
     "level": 8,
     "atk": 2500,
     "def": 2000,
@@ -68429,6 +68628,10 @@
       {
         "artwork": 1,
         "file": "GladinesstheFlagbearerofVictory-RDGC26-JP-OP.png"
+      },
+      {
+        "artwork": 2,
+        "file": "GladinesstheFlagbearerofVictory-RDGC26-JP-OP-AA.png"
       }
     ],
     "sets_jp": [
@@ -68439,7 +68642,17 @@
       },
       {
         "code": "RD/GC26-JP001",
+        "name": "Galaxy Cup 2026 Team Tournament Qualifiers participation card",
+        "rarity": "Normal Parallel Rare"
+      },
+      {
+        "code": "RD/GC26-JP001",
         "name": "Galaxy Cup 2026 Finals prize card",
+        "rarity": "Over Rush Rare"
+      },
+      {
+        "code": "RD/GC26-JP001",
+        "name": "Galaxy Cup 2026 Team Tournament Finals prize card",
         "rarity": "Over Rush Rare"
       }
     ],
@@ -68453,12 +68666,9 @@
     "database_id": "23152",
     "archseries": [],
     "password": null,
-    "title": "Gladiness, the Flagbearer of Victory",
-    "_wiki_ts": "2026-05-30T12:29:32Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
-    "jp_sets": "RD/GC26-JP001; Galaxy Cup 2026 Area Representative Match participation card; Normal Parallel Rare\nRD/GC26-JP001; Galaxy Cup 2026 Finals prize card; Over Rush Rare",
+    "title": "Gladiness, the Flagbearer of Victory",
+    "_wiki_ts": "2026-06-12T16:10:50Z",
     "raw_name_en": "Gladiness, the Flagbearer of Victory"
   },
   {
@@ -69104,13 +69314,15 @@
     "name_en": "Grace Dog",
     "name_ja": "いとをかしいぬ",
     "name_ja_romaji": "Itowokashi Inu",
-    "name_ko": null,
+    "name_ko": "앙갱멍멍이",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Aqua / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 0,
     "def": 1400,
@@ -69134,17 +69346,21 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR020",
+        "name": "Overforce of the Abyss",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "22850",
     "archseries": [
       "Grace Princess"
     ],
     "password": null,
-    "title": "Grace Dog",
-    "_wiki_ts": "2026-02-13T14:29:52Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Grace Dog",
+    "_wiki_ts": "2026-06-11T11:15:53Z",
     "raw_name_en": "Grace Dog"
   },
   {
@@ -69314,13 +69530,15 @@
     "name_en": "Grace Princess Emaki",
     "name_ja": "いとをかしえまきひめ",
     "name_ja_romaji": "Itowokashi Emakihime",
-    "name_ko": null,
+    "name_ko": "앙갱회권희",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Aqua / Effect",
+    "card_type": null,
+    "property": null,
     "level": 5,
     "atk": 1700,
     "def": 1400,
@@ -69344,17 +69562,21 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR021",
+        "name": "Overforce of the Abyss",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "22851",
     "archseries": [
       "Grace Princess"
     ],
     "password": null,
-    "title": "Grace Princess Emaki",
-    "_wiki_ts": "2026-02-13T14:30:02Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Grace Princess Emaki",
+    "_wiki_ts": "2026-06-11T11:16:03Z",
     "raw_name_en": "Grace Princess Emaki"
   },
   {
@@ -69797,6 +70019,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Machine / Normal",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1200,
     "def": 800,
@@ -69811,6 +70035,10 @@
       {
         "artwork": 1,
         "file": "Gradius-RDKP23-JP-R.png"
+      },
+      {
+        "artwork": 2,
+        "file": "Gradius-RDLP01-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -69823,6 +70051,11 @@
         "code": "RD/P009-JP001",
         "name": "Seven Theme Duel Tournament Part 3 prize cards",
         "rarity": "Secret Rare (Special Red Version)"
+      },
+      {
+        "code": "RD/LP01-JP057",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Secret Rare"
       }
     ],
     "sets_kr": [
@@ -69837,11 +70070,9 @@
       "Gradius"
     ],
     "password": null,
-    "title": "Gradius",
-    "_wiki_ts": "2026-02-26T21:12:40Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Gradius",
+    "_wiki_ts": "2026-06-23T06:57:28Z",
     "raw_name_en": "Gradius (Rush Duel)"
   },
   {
@@ -72964,7 +73195,7 @@
     ],
     "password": null,
     "title": "Harpie Cara Charming Dress",
-    "_wiki_ts": "2025-12-01T23:23:41Z",
+    "_wiki_ts": "2026-06-13T16:52:37Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -73103,7 +73334,7 @@
     ],
     "password": null,
     "title": "Harpie Cielo Light Skirt",
-    "_wiki_ts": "2025-12-01T23:24:29Z",
+    "_wiki_ts": "2026-06-13T16:52:58Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -73328,7 +73559,7 @@
     ],
     "password": null,
     "title": "Harpie Lady 1 & 2 & 3",
-    "_wiki_ts": "2026-05-27T19:56:31Z",
+    "_wiki_ts": "2026-06-13T16:53:23Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -73454,7 +73685,7 @@
     ],
     "password": null,
     "title": "Harpie Lady 2 & 3",
-    "_wiki_ts": "2025-12-01T23:25:15Z",
+    "_wiki_ts": "2026-06-13T16:53:45Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -73575,7 +73806,7 @@
     ],
     "password": null,
     "title": "Harpie Lady 3 & 1",
-    "_wiki_ts": "2025-12-01T23:25:35Z",
+    "_wiki_ts": "2026-06-13T16:54:06Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -73701,7 +73932,7 @@
     ],
     "password": null,
     "title": "Harpie Lady Feather Duster",
-    "_wiki_ts": "2025-12-01T23:25:52Z",
+    "_wiki_ts": "2026-06-13T16:54:27Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -73953,7 +74184,7 @@
     ],
     "password": null,
     "title": "Harpie Lady Sisters Triangle Beauty",
-    "_wiki_ts": "2026-05-27T19:56:21Z",
+    "_wiki_ts": "2026-06-13T16:54:49Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -74126,7 +74357,7 @@
     ],
     "password": null,
     "title": "Harpie Regina Splendid Armor",
-    "_wiki_ts": "2025-12-01T23:26:31Z",
+    "_wiki_ts": "2026-06-13T16:55:09Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -75514,6 +75745,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -75545,6 +75778,11 @@
         "code": "RD/SD04-JP027",
         "name": "Strongest Battle Deck Maddox - Chemist-Meow Draw of Flames!",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/AP03-JP040",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "sets_kr": [
@@ -75564,11 +75802,9 @@
       "Baseball"
     ],
     "password": null,
-    "title": "Heavy Roller",
-    "_wiki_ts": "2025-06-25T08:44:49Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Heavy Roller",
+    "_wiki_ts": "2026-06-08T15:39:31Z",
     "raw_name_en": "Heavy Roller"
   },
   {
@@ -76334,7 +76570,7 @@
     ],
     "password": null,
     "title": "Hiita the Fire Charmer",
-    "_wiki_ts": "2026-04-11T17:06:53Z",
+    "_wiki_ts": "2026-06-22T19:42:59Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -77436,13 +77672,15 @@
     "name_en": "Hungry Onion Rings",
     "name_ja": "ハングリーオニオン",
     "name_ja_romaji": "Hangurī Onion",
-    "name_ko": null,
+    "name_ko": "헝그리 어니언",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "DARK",
     "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 3,
     "atk": 1200,
     "def": 900,
@@ -77466,17 +77704,21 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR022",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22852",
     "archseries": [
       "Hungry"
     ],
     "password": null,
-    "title": "Hungry Onion Rings",
-    "_wiki_ts": "2026-02-13T14:30:13Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Hungry Onion Rings",
+    "_wiki_ts": "2026-06-11T11:16:12Z",
     "raw_name_en": "Hungry Onion Rings"
   },
   {
@@ -77589,13 +77831,15 @@
     "name_en": "Hungry Special Coupon",
     "name_ja": "ハングリースペシャルクーポン",
     "name_ja_romaji": "Hangurī Supesharu Kūpon",
-    "name_ko": null,
+    "name_ko": "헝그리 스페셜쿠폰",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -77619,17 +77863,21 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR055",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22885",
     "archseries": [
       "Hungry"
     ],
     "password": null,
-    "title": "Hungry Special Coupon",
-    "_wiki_ts": "2026-02-13T14:37:55Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Hungry Special Coupon",
+    "_wiki_ts": "2026-06-11T11:21:46Z",
     "raw_name_en": "Hungry Special Coupon"
   },
   {
@@ -81208,13 +81456,15 @@
     "name_en": "Insect Taurus",
     "name_ja": "インセクト・トーラス",
     "name_ja_romaji": "Insekuto Tōrasu",
-    "name_ko": null,
+    "name_ko": "인섹트 토라스",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -81238,17 +81488,21 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR060",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22890",
     "archseries": [
       "Voidalfr"
     ],
     "password": null,
-    "title": "Insect Taurus",
-    "_wiki_ts": "2026-02-13T14:39:16Z",
     "is_legend": false,
-    "card_type": "Trap",
-    "property": "Normal",
+    "title": "Insect Taurus",
+    "_wiki_ts": "2026-06-11T11:22:35Z",
     "raw_name_en": "Insect Taurus"
   },
   {
@@ -81617,7 +81871,7 @@
     "archseries": [],
     "password": null,
     "title": "Interscrime",
-    "_wiki_ts": "2026-05-22T16:54:31Z",
+    "_wiki_ts": "2026-06-13T16:55:30Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -81687,6 +81941,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Galaxy / Normal",
+    "card_type": null,
+    "property": null,
     "level": 1,
     "atk": 1000,
     "def": 0,
@@ -81701,6 +81957,10 @@
       {
         "artwork": 1,
         "file": "Interstellime-RDSD01-JP-C.png"
+      },
+      {
+        "artwork": 2,
+        "file": "Interstellime-RDS262-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -81718,6 +81978,11 @@
         "code": "RD/TH03-JP013",
         "name": "Half Deck: Galaxy Type",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/S262-JP001",
+        "name": "Special Victory Pack 2026 Vol.2",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -81735,11 +82000,9 @@
     "database_id": "17580",
     "archseries": [],
     "password": null,
-    "title": "Interstellime",
-    "_wiki_ts": "2026-04-13T22:38:25Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Interstellime",
+    "_wiki_ts": "2026-06-19T19:10:23Z",
     "raw_name_en": "Interstellime"
   },
   {
@@ -82041,13 +82304,15 @@
     "name_en": "Isyria, Deity of the Monumenthes",
     "name_ja": "冥跡神イシリア",
     "name_ja_romaji": "Meisekishin Ishiria",
-    "name_ko": null,
+    "name_ko": "명적신 이실리아",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "EARTH",
     "types": "Beast-Warrior / Ritual / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1000,
     "def": 3500,
@@ -82075,17 +82340,21 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR037",
+        "name": "Overforce of the Abyss",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "22867",
     "archseries": [
       "Monumenthes"
     ],
     "password": null,
-    "title": "Isyria, Deity of the Monumenthes",
-    "_wiki_ts": "2026-02-13T14:33:53Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Isyria, Deity of the Monumenthes",
+    "_wiki_ts": "2026-06-11T11:37:37Z",
     "raw_name_en": "Isyria, Deity of the Monumenthes"
   },
   {
@@ -82541,13 +82810,15 @@
     "name_en": "Jar of Greed",
     "name_ja": "強欲な瓶",
     "name_ja_romaji": "Gōyoku na Kame",
-    "name_ko": null,
+    "name_ko": "욕망의 단지",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -82571,15 +82842,19 @@
         "rarity": "Normal Parallel Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KRS02",
+        "name": "Overforce of the Abyss",
+        "rarity": "Super Rare"
+      }
+    ],
     "database_id": "22919",
     "archseries": [],
     "password": null,
-    "title": "Jar of Greed",
-    "_wiki_ts": "2026-03-16T19:42:57Z",
     "is_legend": false,
-    "card_type": "Trap",
-    "property": "Normal",
+    "title": "Jar of Greed",
+    "_wiki_ts": "2026-06-11T11:39:59Z",
     "raw_name_en": "Jar of Greed (Rush Duel)"
   },
   {
@@ -85455,6 +85730,8 @@
     "name_es": null,
     "attribute": "EARTH",
     "types": "Warrior / Normal",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1400,
     "def": 1400,
@@ -85476,17 +85753,20 @@
         "code": "RD/TDPR-JP001",
         "name": "Rush Duel The Legend of Duelist Promotion Pack",
         "rarity": "Normal Parallel Rare, Super Rare"
+      },
+      {
+        "code": "RD/LP01-JP058",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Secret Rare"
       }
     ],
     "sets_kr": [],
     "database_id": "20050",
     "archseries": [],
     "password": null,
-    "title": "Kanan the Swordmistress",
-    "_wiki_ts": "2025-11-27T16:10:52Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Kanan the Swordmistress",
+    "_wiki_ts": "2026-06-23T07:18:40Z",
     "raw_name_en": "Kanan the Swordmistress (Rush Duel)"
   },
   {
@@ -87910,13 +88190,15 @@
     "name_en": "Lastcal Chainverse",
     "name_ja": "ラストカル・チェインバース",
     "name_ja_romaji": "Rasutokaru Cheinbāsu",
-    "name_ko": null,
+    "name_ko": "라스트컬 체인버스",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "WIND",
     "types": "Galaxy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 1500,
     "def": 1500,
@@ -87944,15 +88226,19 @@
         "rarity": "Super Rare, Over Rush Rare (Premium Black Version)"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KRS00",
+        "name": "Overforce of the Abyss",
+        "rarity": "Super Rare, Over Rush Rare (Premium Black Version)"
+      }
+    ],
     "database_id": "22897",
     "archseries": [],
     "password": null,
-    "title": "Lastcal Chainverse",
-    "_wiki_ts": "2026-02-19T17:43:17Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Lastcal Chainverse",
+    "_wiki_ts": "2026-06-11T12:59:44Z",
     "raw_name_en": "Lastcal Chainverse"
   },
   {
@@ -89979,7 +90265,7 @@
     ],
     "password": null,
     "title": "Light-Calling Griffore",
-    "_wiki_ts": "2025-12-30T23:29:28Z",
+    "_wiki_ts": "2026-06-14T18:49:29Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -89996,6 +90282,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Wyrm / Effect",
+    "card_type": null,
+    "property": null,
     "level": 1,
     "atk": 0,
     "def": 900,
@@ -90017,6 +90305,11 @@
         "code": "RD/KP25-JP015",
         "name": "Rising of the Aurora",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/B262-JP001",
+        "name": "Battle Bonus Pack 2026 Vol.2",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [],
@@ -90025,11 +90318,9 @@
       "Clad Dragon"
     ],
     "password": null,
-    "title": "Lightclad Dragon - Llates",
-    "_wiki_ts": "2026-05-22T16:49:08Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Lightclad Dragon - Llates",
+    "_wiki_ts": "2026-06-19T17:59:27Z",
     "raw_name_en": "Lightclad Dragon - Llates"
   },
   {
@@ -90077,7 +90368,7 @@
     ],
     "password": null,
     "title": "Lightclad Dragon Egg",
-    "_wiki_ts": "2026-05-22T16:54:56Z",
+    "_wiki_ts": "2026-06-13T16:55:51Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -91580,6 +91871,8 @@
     "name_es": null,
     "attribute": "DARK",
     "types": "Fairy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 0,
     "def": 0,
@@ -91601,6 +91894,11 @@
         "code": "RD/KP19-JP026",
         "name": "Salamandeus of Scorching",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/B262-JP008",
+        "name": "Battle Bonus Pack 2026 Vol.2",
+        "rarity": "Normal Parallel Rare, Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -91615,11 +91913,9 @@
       "Lovely"
     ],
     "password": null,
-    "title": "Lovely Ange",
-    "_wiki_ts": "2025-12-01T21:40:28Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Lovely Ange",
+    "_wiki_ts": "2026-06-19T18:23:49Z",
     "raw_name_en": "Lovely Ange"
   },
   {
@@ -91742,13 +92038,15 @@
     "name_en": "Lovely Clean",
     "name_ja": "ラヴ・クリーン",
     "name_ja_romaji": "Ravu Kurīn",
-    "name_ko": null,
+    "name_ko": "라브 클린",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -91772,30 +92070,36 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR063",
+        "name": "Overforce of the Abyss",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "22893",
     "archseries": [
       "Lovely"
     ],
     "password": null,
-    "title": "Lovely Clean",
-    "_wiki_ts": "2026-02-13T14:39:47Z",
     "is_legend": false,
-    "card_type": "Trap",
-    "property": "Normal",
+    "title": "Lovely Clean",
+    "_wiki_ts": "2026-06-11T11:23:05Z",
     "raw_name_en": "Lovely Clean"
   },
   {
     "name_en": "Lovely Connect",
     "name_ja": "ラヴ・コネクト",
     "name_ja_romaji": "Ravu Konekuto",
-    "name_ko": null,
+    "name_ko": "라브 커넥트",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -91819,17 +92123,21 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR054",
+        "name": "Overforce of the Abyss",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "22884",
     "archseries": [
       "Lovely"
     ],
     "password": null,
-    "title": "Lovely Connect",
-    "_wiki_ts": "2026-02-13T14:37:44Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Lovely Connect",
+    "_wiki_ts": "2026-06-11T11:21:36Z",
     "raw_name_en": "Lovely Connect"
   },
   {
@@ -91889,13 +92197,15 @@
     "name_en": "Lovely Fereshte",
     "name_ja": "ラヴ・フェレシュテ",
     "name_ja_romaji": "Ravu Fereshute",
-    "name_ko": null,
+    "name_ko": "라브 페레슈테",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Fairy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 5,
     "atk": 0,
     "def": 0,
@@ -91919,17 +92229,21 @@
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR019",
+        "name": "Overforce of the Abyss",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "22849",
     "archseries": [
       "Lovely"
     ],
     "password": null,
-    "title": "Lovely Fereshte",
-    "_wiki_ts": "2026-02-13T14:29:15Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Lovely Fereshte",
+    "_wiki_ts": "2026-06-11T11:15:42Z",
     "raw_name_en": "Lovely Fereshte"
   },
   {
@@ -92095,13 +92409,15 @@
     "name_en": "Lovely Rabbit",
     "name_ja": "ラヴ・ラビット",
     "name_ja_romaji": "Ravu Rabitto",
-    "name_ko": null,
+    "name_ko": "라브 래빗",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Fairy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 2,
     "atk": 0,
     "def": 1400,
@@ -92125,17 +92441,21 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR018",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22848",
     "archseries": [
       "Lovely"
     ],
     "password": null,
-    "title": "Lovely Rabbit",
-    "_wiki_ts": "2026-02-13T14:29:01Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Lovely Rabbit",
+    "_wiki_ts": "2026-06-11T11:15:32Z",
     "raw_name_en": "Lovely Rabbit"
   },
   {
@@ -92755,13 +93075,15 @@
     "name_en": "Luna Moonforce Alba",
     "name_ja": "ルナムーンフォース・アルバ",
     "name_ja_romaji": "Runa Mūnfōsu Aruba",
-    "name_ko": null,
+    "name_ko": "루나문포스 알버",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "EARTH",
     "types": "Galaxy / Ritual / Effect",
+    "card_type": null,
+    "property": null,
     "level": 5,
     "atk": 2200,
     "def": 2200,
@@ -92785,30 +93107,36 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR038",
+        "name": "Overforce of the Abyss",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "22868",
     "archseries": [
       "Moonforce"
     ],
     "password": null,
-    "title": "Luna Moonforce Alba",
-    "_wiki_ts": "2026-02-13T14:34:05Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Luna Moonforce Alba",
+    "_wiki_ts": "2026-06-11T11:18:59Z",
     "raw_name_en": "Luna Moonforce Alba"
   },
   {
     "name_en": "Luna Moonforce Dralia",
     "name_ja": "ルナムーンフォース・ドラリア",
     "name_ja_romaji": "Runa Mūnfōsu Doraria",
-    "name_ko": null,
+    "name_ko": "루나문포스 드라리아",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "EARTH",
     "types": "Galaxy / Ritual / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 2900,
     "def": 2900,
@@ -92836,30 +93164,36 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR040",
+        "name": "Overforce of the Abyss",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "22870",
     "archseries": [
       "Moonforce"
     ],
     "password": null,
-    "title": "Luna Moonforce Dralia",
-    "_wiki_ts": "2026-02-13T14:34:41Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Luna Moonforce Dralia",
+    "_wiki_ts": "2026-06-11T11:37:40Z",
     "raw_name_en": "Luna Moonforce Dralia"
   },
   {
     "name_en": "Luna Moonforce Mochi",
     "name_ja": "ルナムーンフォース・モチ",
     "name_ja_romaji": "Runa Mūnfōsu Mochi",
-    "name_ko": null,
+    "name_ko": "루나문포스 모찌",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "EARTH",
     "types": "Galaxy / Ritual / Effect",
+    "card_type": null,
+    "property": null,
     "level": 7,
     "atk": 2000,
     "def": 2000,
@@ -92883,17 +93217,21 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR039",
+        "name": "Overforce of the Abyss",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "22869",
     "archseries": [
       "Moonforce"
     ],
     "password": null,
-    "title": "Luna Moonforce Mochi",
-    "_wiki_ts": "2026-02-13T14:34:17Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Luna Moonforce Mochi",
+    "_wiki_ts": "2026-06-11T11:19:08Z",
     "raw_name_en": "Luna Moonforce Mochi"
   },
   {
@@ -93238,13 +93576,15 @@
     "name_en": "Mad Rare Amelo",
     "name_ja": "マッドレア・アメロ",
     "name_ja_romaji": "Maddorea Amero",
-    "name_ko": null,
+    "name_ko": "매드레어 아메로",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "DARK",
     "types": "Reptile / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1300,
     "def": 1100,
@@ -93272,15 +93612,19 @@
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR028",
+        "name": "Overforce of the Abyss",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "22858",
     "archseries": [],
     "password": null,
-    "title": "Mad Rare Amelo",
-    "_wiki_ts": "2026-02-13T14:31:49Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Mad Rare Amelo",
+    "_wiki_ts": "2026-06-11T11:17:19Z",
     "raw_name_en": "Mad Rare Amelo"
   },
   {
@@ -96398,6 +96742,8 @@
     "name_es": null,
     "attribute": "EARTH",
     "types": "Beast-Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1200,
     "def": 1500,
@@ -96412,6 +96758,10 @@
       {
         "artwork": 1,
         "file": "MarchingBeaverWarrior-RDSD0E-JP-C.png"
+      },
+      {
+        "artwork": 2,
+        "file": "MarchingBeaverWarrior-RDS262-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -96424,6 +96774,11 @@
         "code": "RD/SD0E-JPS05",
         "name": "Structure Deck: Black Magic Ritual",
         "rarity": "Super Rare"
+      },
+      {
+        "code": "RD/S262-JP002",
+        "name": "Special Victory Pack 2026 Vol.2",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -96443,11 +96798,9 @@
       "Dark Magician"
     ],
     "password": null,
-    "title": "Marching Beaver Warrior",
-    "_wiki_ts": "2025-08-20T08:56:07Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Marching Beaver Warrior",
+    "_wiki_ts": "2026-06-19T19:14:57Z",
     "raw_name_en": "Marching Beaver Warrior"
   },
   {
@@ -97805,13 +98158,15 @@
     "name_en": "Mech Dolphin",
     "name_ja": "サイボーグ・ドルフィン",
     "name_ja_romaji": "Saibōgu Dorufin",
-    "name_ko": null,
+    "name_ko": "사이보그 돌핀",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "WATER",
     "types": "Fish / Effect",
+    "card_type": null,
+    "property": null,
     "level": 2,
     "atk": 500,
     "def": 400,
@@ -97835,28 +98190,34 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR023",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22853",
     "archseries": [],
     "password": null,
-    "title": "Mech Dolphin",
-    "_wiki_ts": "2026-02-13T14:30:23Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Mech Dolphin",
+    "_wiki_ts": "2026-06-11T11:16:22Z",
     "raw_name_en": "Mech Dolphin"
   },
   {
     "name_en": "Mech Misairuzame",
     "name_ja": "サイボーグ・ナイル",
     "name_ja_romaji": "Saibōgu Nairu",
-    "name_ko": null,
+    "name_ko": "사이보그 나일",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "WATER",
     "types": "Fish / Effect",
+    "card_type": null,
+    "property": null,
     "level": 5,
     "atk": 1400,
     "def": 1600,
@@ -97880,15 +98241,19 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR024",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22854",
     "archseries": [],
     "password": null,
-    "title": "Mech Misairuzame",
-    "_wiki_ts": "2026-02-13T14:30:34Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Mech Misairuzame",
+    "_wiki_ts": "2026-06-11T11:16:30Z",
     "raw_name_en": "Mech Misairuzame"
   },
   {
@@ -99101,13 +99466,15 @@
     "name_en": "Memory of Sunlit",
     "name_ja": "陽だまりのひととき",
     "name_ja_romaji": "Memorī Obu Sanritto",
-    "name_ko": null,
+    "name_ko": "메모리 오브 선릿",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -99131,17 +99498,21 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR051",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22881",
     "archseries": [
       "Moonforce"
     ],
     "password": null,
-    "title": "Memory of Sunlit",
-    "_wiki_ts": "2026-02-13T14:37:07Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Memory of Sunlit",
+    "_wiki_ts": "2026-06-11T11:21:06Z",
     "raw_name_en": "Memory of Sunlit"
   },
   {
@@ -100975,13 +101346,15 @@
     "name_en": "Micronova",
     "name_ja": "マイクロノヴァ",
     "name_ja_romaji": "Maikuronova",
-    "name_ko": null,
+    "name_ko": "마이크로노바",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -101005,30 +101378,36 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR044",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22874",
     "archseries": [
       "Voidalfr"
     ],
     "password": null,
-    "title": "Micronova",
-    "_wiki_ts": "2026-02-13T14:35:32Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Micronova",
+    "_wiki_ts": "2026-06-11T11:19:57Z",
     "raw_name_en": "Micronova"
   },
   {
     "name_en": "Micronova Fusion",
     "name_ja": "マイクロノヴァ・フュージョン",
     "name_ja_romaji": "Maikuronova Fyūjon",
-    "name_ko": null,
+    "name_ko": "마이크로노바 퓨전",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -101052,17 +101431,21 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR045",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22875",
     "archseries": [
       "Voidalfr"
     ],
     "password": null,
-    "title": "Micronova Fusion",
-    "_wiki_ts": "2026-02-17T15:56:36Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Micronova Fusion",
+    "_wiki_ts": "2026-06-14T18:55:04Z",
     "raw_name_en": "Micronova Fusion"
   },
   {
@@ -101402,7 +101785,7 @@
     ],
     "password": null,
     "title": "Miracle Contact",
-    "_wiki_ts": "2025-06-04T09:05:38Z",
+    "_wiki_ts": "2026-06-14T19:04:26Z",
     "is_legend": false,
     "card_type": "Spell",
     "property": "Normal",
@@ -102034,6 +102417,8 @@
     "name_es": null,
     "attribute": "WATER",
     "types": "Aqua / Effect",
+    "card_type": null,
+    "property": null,
     "level": 6,
     "atk": 2400,
     "def": 1000,
@@ -102055,6 +102440,11 @@
         "code": "RD/LGP2-JP003",
         "name": "Neo Legend Awakening Pack",
         "rarity": "Super Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/LP01-JP032",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -102069,11 +102459,9 @@
       "Monarch"
     ],
     "password": null,
-    "title": "Mobius the Frost Monarch",
-    "_wiki_ts": "2025-01-17T11:20:17Z",
     "is_legend": true,
-    "card_type": null,
-    "property": null,
+    "title": "Mobius the Frost Monarch",
+    "_wiki_ts": "2026-06-23T07:07:46Z",
     "raw_name_en": "Mobius the Frost Monarch (Rush Duel)"
   },
   {
@@ -102619,13 +103007,15 @@
     "name_en": "Monsterlode Rumble Pile",
     "name_ja": "獣岩塊ランブルパイル",
     "name_ja_romaji": "Jūgankai Ranburu Pairu",
-    "name_ko": null,
+    "name_ko": "수암괴 럼블파일",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "DARK",
     "types": "Galaxy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 8,
     "atk": 2000,
     "def": 2300,
@@ -102649,28 +103039,34 @@
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR030",
+        "name": "Overforce of the Abyss",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "22860",
     "archseries": [],
     "password": null,
-    "title": "Monsterlode Rumble Pile",
-    "_wiki_ts": "2026-02-13T14:32:33Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Monsterlode Rumble Pile",
+    "_wiki_ts": "2026-06-11T11:17:39Z",
     "raw_name_en": "Monsterlode Rumble Pile"
   },
   {
     "name_en": "Monumenthes Festival -The Isyria Seance-",
     "name_ja": "冥跡祭－イシリアの降霊－",
     "name_ja_romaji": "Meisekisai -Ishiria no Kōrei-",
-    "name_ko": null,
+    "name_ko": "명적제－이실리아의 강령－",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Ritual",
     "level": null,
     "atk": null,
     "def": null,
@@ -102694,30 +103090,36 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR046",
+        "name": "Overforce of the Abyss",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "22876",
     "archseries": [
       "Monumenthes"
     ],
     "password": null,
-    "title": "Monumenthes Festival -The Isyria Seance-",
-    "_wiki_ts": "2026-05-28T17:51:54Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Ritual",
+    "title": "Monumenthes Festival -The Isyria Seance-",
+    "_wiki_ts": "2026-06-11T11:20:17Z",
     "raw_name_en": "Monumenthes Festival -The Isyria Seance-"
   },
   {
     "name_en": "Monumenthes Records",
     "name_ja": "冥跡の記録",
     "name_ja_romaji": "Meiseki no Kiroku",
-    "name_ko": null,
+    "name_ko": "명적의 기록",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -102741,30 +103143,36 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR062",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22892",
     "archseries": [
       "Monumenthes"
     ],
     "password": null,
-    "title": "Monumenthes Records",
-    "_wiki_ts": "2026-02-13T14:39:36Z",
     "is_legend": false,
-    "card_type": "Trap",
-    "property": "Normal",
+    "title": "Monumenthes Records",
+    "_wiki_ts": "2026-06-11T11:22:55Z",
     "raw_name_en": "Monumenthes Records"
   },
   {
     "name_en": "Moonforce Piyopi",
     "name_ja": "ムーンフォース・ピヨピ",
     "name_ja_romaji": "Mūnfōsu Piyopi",
-    "name_ko": null,
+    "name_ko": "문포스 피요피",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "EARTH",
     "types": "Galaxy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 1,
     "atk": 300,
     "def": 800,
@@ -102788,30 +103196,36 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR011",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22841",
     "archseries": [
       "Moonforce"
     ],
     "password": null,
-    "title": "Moonforce Piyopi",
-    "_wiki_ts": "2026-03-09T15:57:28Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Moonforce Piyopi",
+    "_wiki_ts": "2026-06-11T11:14:23Z",
     "raw_name_en": "Moonforce Piyopi"
   },
   {
     "name_en": "Moonforce Rifet",
     "name_ja": "ムーンフォース・リフェット",
     "name_ja_romaji": "Mūnfōsu Rifetto",
-    "name_ko": null,
+    "name_ko": "문포스 리펫",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "EARTH",
     "types": "Galaxy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 1,
     "atk": 800,
     "def": 800,
@@ -102835,30 +103249,36 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR012",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22842",
     "archseries": [
       "Moonforce"
     ],
     "password": null,
-    "title": "Moonforce Rifet",
-    "_wiki_ts": "2026-02-13T14:28:00Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Moonforce Rifet",
+    "_wiki_ts": "2026-06-11T11:14:33Z",
     "raw_name_en": "Moonforce Rifet"
   },
   {
     "name_en": "Moonforce Sheila",
     "name_ja": "ムーンフォース・シーラ",
     "name_ja_romaji": "Mūnfōsu Shīra",
-    "name_ko": null,
+    "name_ko": "문포스 실러",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "EARTH",
     "types": "Galaxy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 2,
     "atk": 1000,
     "def": 1100,
@@ -102882,30 +103302,36 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR013",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22843",
     "archseries": [
       "Moonforce"
     ],
     "password": null,
-    "title": "Moonforce Sheila",
-    "_wiki_ts": "2026-02-13T14:28:10Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Moonforce Sheila",
+    "_wiki_ts": "2026-06-11T11:14:42Z",
     "raw_name_en": "Moonforce Sheila"
   },
   {
     "name_en": "Moonforce Timo",
     "name_ja": "ムーンフォース・ティモ",
     "name_ja_romaji": "Mūnfōsu Timo",
-    "name_ko": null,
+    "name_ko": "문포스 티모",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "EARTH",
     "types": "Galaxy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1300,
     "def": 1100,
@@ -102929,30 +103355,36 @@
         "rarity": "Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR015",
+        "name": "Overforce of the Abyss",
+        "rarity": "Rare"
+      }
+    ],
     "database_id": "22845",
     "archseries": [
       "Moonforce"
     ],
     "password": null,
-    "title": "Moonforce Timo",
-    "_wiki_ts": "2026-02-13T14:28:30Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Moonforce Timo",
+    "_wiki_ts": "2026-06-11T11:15:01Z",
     "raw_name_en": "Moonforce Timo"
   },
   {
     "name_en": "Moonforce Ziggy",
     "name_ja": "ムーンフォース・ズィジー",
     "name_ja_romaji": "Mūnfōsu Zijī",
-    "name_ko": null,
+    "name_ko": "문포스 지지",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "EARTH",
     "types": "Galaxy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 3,
     "atk": 0,
     "def": 1400,
@@ -102976,17 +103408,21 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR014",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22844",
     "archseries": [
       "Moonforce"
     ],
     "password": null,
-    "title": "Moonforce Ziggy",
-    "_wiki_ts": "2026-02-13T14:28:20Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Moonforce Ziggy",
+    "_wiki_ts": "2026-06-11T11:14:51Z",
     "raw_name_en": "Moonforce Ziggy"
   },
   {
@@ -104708,13 +105144,15 @@
     "name_en": "Nafl of the Monumenthes",
     "name_ja": "冥跡のナフル",
     "name_ja_romaji": "Meiseki no Nafuru",
-    "name_ko": null,
+    "name_ko": "명적의 나후르",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "EARTH",
     "types": "Beast-Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 600,
     "def": 1100,
@@ -104738,17 +105176,21 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR007",
+        "name": "Overforce of the Abyss",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "22837",
     "archseries": [
       "Monumenthes"
     ],
     "password": null,
-    "title": "Nafl of the Monumenthes",
-    "_wiki_ts": "2026-02-13T14:26:44Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Nafl of the Monumenthes",
+    "_wiki_ts": "2026-06-11T11:13:44Z",
     "raw_name_en": "Nafl of the Monumenthes"
   },
   {
@@ -104915,7 +105357,7 @@
     ],
     "password": null,
     "title": "Nativity of the Monarchs",
-    "_wiki_ts": "2025-12-09T11:47:49Z",
+    "_wiki_ts": "2026-06-22T19:05:40Z",
     "is_legend": false,
     "card_type": "Trap",
     "property": "Normal",
@@ -105144,6 +105586,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Zombie / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1200,
     "def": 700,
@@ -105165,6 +105609,11 @@
         "code": "RD/KP23-JP017",
         "name": "Gias Charge of the Nova",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/B262-JP011",
+        "name": "Battle Bonus Pack 2026 Vol.2",
+        "rarity": "Normal Parallel Rare, Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -105179,11 +105628,9 @@
       "Necromaid"
     ],
     "password": null,
-    "title": "Necromaid Cook",
-    "_wiki_ts": "2026-02-26T21:14:09Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Necromaid Cook",
+    "_wiki_ts": "2026-06-19T18:43:29Z",
     "raw_name_en": "Necromaid Cook"
   },
   {
@@ -107239,13 +107686,15 @@
     "name_en": "The Noodle Art of Flavor Shift",
     "name_ja": "火麺味変化の術",
     "name_ja_romaji": "Kamen Ajihenge no Jutsu",
-    "name_ko": null,
+    "name_ko": "화면맛변화술",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -107269,17 +107718,21 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR053",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22883",
     "archseries": [
       "Noodle Ninja"
     ],
     "password": null,
-    "title": "The Noodle Art of Flavor Shift",
-    "_wiki_ts": "2026-03-09T17:59:38Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "The Noodle Art of Flavor Shift",
+    "_wiki_ts": "2026-06-14T18:55:47Z",
     "raw_name_en": "The Noodle Art of Flavor Shift"
   },
   {
@@ -107896,6 +108349,8 @@
     "name_es": null,
     "attribute": "EARTH",
     "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1400,
     "def": 1200,
@@ -107910,6 +108365,10 @@
       {
         "artwork": 1,
         "file": "ObnoxiousCelticGuard-RDSD0E-JP-C.png"
+      },
+      {
+        "artwork": 2,
+        "file": "ObnoxiousCelticGuard-RDLP01-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -107927,6 +108386,11 @@
         "code": "RD/TH01-JP009",
         "name": "Half Deck: Warrior Type",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/LP01-JP030",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -107944,11 +108408,9 @@
     "database_id": "19980",
     "archseries": [],
     "password": null,
-    "title": "Obnoxious Celtic Guard",
-    "_wiki_ts": "2026-04-06T19:44:21Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Obnoxious Celtic Guard",
+    "_wiki_ts": "2026-06-23T07:25:20Z",
     "raw_name_en": "Obnoxious Celtic Guard (Rush Duel)"
   },
   {
@@ -108076,13 +108538,15 @@
     "name_en": "Offering to Isyria",
     "name_ja": "イシリアの供物",
     "name_ja_romaji": "Ishiria no Kumotsu",
-    "name_ko": null,
+    "name_ko": "이실리아의 공물",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -108106,17 +108570,21 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR047",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22877",
     "archseries": [
       "Monumenthes"
     ],
     "password": null,
-    "title": "Offering to Isyria",
-    "_wiki_ts": "2026-02-13T14:36:06Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Offering to Isyria",
+    "_wiki_ts": "2026-06-11T11:20:27Z",
     "raw_name_en": "Offering to Isyria"
   },
   {
@@ -109782,6 +110250,8 @@
     "name_es": null,
     "attribute": "DARK",
     "types": "Machine / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1300,
     "def": 800,
@@ -109803,6 +110273,11 @@
         "code": "RD/KP22-JP005",
         "name": "OuTerverSe of Terror",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/B262-JP009",
+        "name": "Battle Bonus Pack 2026 Vol.2",
+        "rarity": "Normal Parallel Rare, Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -109817,11 +110292,9 @@
       "OuTerverSe"
     ],
     "password": null,
-    "title": "OuTerverSe Needle Maker",
-    "_wiki_ts": "2025-11-11T09:35:30Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "OuTerverSe Needle Maker",
+    "_wiki_ts": "2026-06-19T18:27:32Z",
     "raw_name_en": "OuTerverSe Needle Maker"
   },
   {
@@ -112344,7 +112817,7 @@
     ],
     "password": null,
     "title": "Phantasm Mask Master",
-    "_wiki_ts": "2025-01-17T11:25:56Z",
+    "_wiki_ts": "2026-06-14T19:01:20Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -113835,6 +114308,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Ritual",
     "level": null,
     "atk": null,
     "def": null,
@@ -113856,6 +114331,11 @@
         "code": "RD/ORP4-JP070",
         "name": "Over Rush Pack 4",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/B262-JP006",
+        "name": "Battle Bonus Pack 2026 Vol.2",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [],
@@ -113864,11 +114344,9 @@
       "Plasmatic Model"
     ],
     "password": null,
-    "title": "Plasmatic Model Another Play",
-    "_wiki_ts": "2026-04-10T16:34:07Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Ritual",
+    "title": "Plasmatic Model Another Play",
+    "_wiki_ts": "2026-06-19T18:14:48Z",
     "raw_name_en": "Plasmatic Model Another Play"
   },
   {
@@ -115315,6 +115793,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Psychic / Effect",
+    "card_type": null,
+    "property": null,
     "level": 3,
     "atk": 1000,
     "def": 1000,
@@ -115340,6 +115820,11 @@
         "code": "RD/TB02-JP069",
         "name": "Triple Build Pack: Evolution Impact",
         "rarity": "Super Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/AP03-JP019",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "sets_kr": [
@@ -115354,11 +115839,9 @@
       "Pliage"
     ],
     "password": null,
-    "title": "Pliage the Sacred Shooting Star",
-    "_wiki_ts": "2026-05-25T18:46:38Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Pliage the Sacred Shooting Star",
+    "_wiki_ts": "2026-06-08T15:01:47Z",
     "raw_name_en": "Pliage the Sacred Shooting Star"
   },
   {
@@ -115947,13 +116430,15 @@
     "name_en": "Post-Stellar Shower Princess Cosmos",
     "name_ja": "宙上がりコスモス姫",
     "name_ja_romaji": "Yuagari Kosumosu-hime",
-    "name_ko": null,
+    "name_ko": "우주뽀송 코스모스 공주",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -115981,17 +116466,21 @@
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR056",
+        "name": "Overforce of the Abyss",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "22886",
     "archseries": [
       "Princess Cosmos"
     ],
     "password": null,
-    "title": "Post-Stellar Shower Princess Cosmos",
-    "_wiki_ts": "2026-04-21T22:17:00Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Post-Stellar Shower Princess Cosmos",
+    "_wiki_ts": "2026-06-11T11:21:56Z",
     "raw_name_en": "Post-Stellar Shower Princess Cosmos"
   },
   {
@@ -116144,6 +116633,8 @@
     "name_es": "Olla de la Codicia",
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -116189,6 +116680,11 @@
         "code": "RD/ORP4-JP007",
         "name": "Over Rush Pack 4",
         "rarity": "Common, Over Rush Rare"
+      },
+      {
+        "code": "RD/LP01-JP035",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -116211,11 +116707,9 @@
     "database_id": "16372",
     "archseries": [],
     "password": null,
-    "title": "Pot of Greed",
-    "_wiki_ts": "2026-04-10T16:20:23Z",
     "is_legend": true,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Pot of Greed",
+    "_wiki_ts": "2026-06-23T06:59:00Z",
     "raw_name_en": "Pot of Greed (Rush Duel)"
   },
   {
@@ -117489,13 +117983,15 @@
     "name_en": "Preparations for the Monumenthes Festival",
     "name_ja": "冥跡祭の準備",
     "name_ja_romaji": "Meisekisai no Junbi",
-    "name_ko": null,
+    "name_ko": "명적제의 준비",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -117519,17 +118015,21 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR049",
+        "name": "Overforce of the Abyss",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "22879",
     "archseries": [
       "Monumenthes"
     ],
     "password": null,
-    "title": "Preparations for the Monumenthes Festival",
-    "_wiki_ts": "2026-02-13T14:36:38Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Preparations for the Monumenthes Festival",
+    "_wiki_ts": "2026-06-11T11:20:46Z",
     "raw_name_en": "Preparations for the Monumenthes Festival"
   },
   {
@@ -117637,6 +118137,8 @@
     "name_es": null,
     "attribute": "WATER",
     "types": "Wyrm / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1200,
     "def": 0,
@@ -117647,7 +118149,12 @@
     "requirement": "Shuffle 1 \"Fusion\" from your Graveyard into the Deck.",
     "effect": "Draw 1 card. Then, if you have a face-up Level 9 monster on your field, all face-up monsters on your field gain 400 ATK until the end of this turn.",
     "flavor_text": null,
-    "images": [],
+    "images": [
+      {
+        "artwork": 1,
+        "file": "PriestessofStarSalvation-RDTB01-JP-C.png"
+      }
+    ],
     "sets_jp": [
       {
         "code": "RD/EXT1-JP044",
@@ -117657,6 +118164,11 @@
       {
         "code": "RD/TB01-JP061",
         "name": "Triple Build Pack: Godbreath Wing",
+        "rarity": "Common"
+      },
+      {
+        "code": "RD/AP03-JP048",
+        "name": "Advance Pack: Union Base",
         "rarity": "Common"
       }
     ],
@@ -117675,11 +118187,9 @@
     "database_id": "16928",
     "archseries": [],
     "password": null,
-    "title": "Priestess of Star Salvation",
-    "_wiki_ts": "2024-12-06T06:57:22Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Priestess of Star Salvation",
+    "_wiki_ts": "2026-06-15T14:51:37Z",
     "raw_name_en": "Priestess of Star Salvation"
   },
   {
@@ -120097,7 +120607,7 @@
     ],
     "password": null,
     "title": "Pupating Larvae Moth",
-    "_wiki_ts": "2026-04-22T10:12:34Z",
+    "_wiki_ts": "2026-06-13T16:56:13Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -120227,13 +120737,15 @@
     "name_en": "Qadi of the Monumenthes",
     "name_ja": "冥跡のカーディー",
     "name_ja_romaji": "Meiseki no Kādī",
-    "name_ko": null,
+    "name_ko": "명적의 카디",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "EARTH",
     "types": "Beast-Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 7,
     "atk": 1400,
     "def": 2600,
@@ -120257,17 +120769,21 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR009",
+        "name": "Overforce of the Abyss",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "22839",
     "archseries": [
       "Monumenthes"
     ],
     "password": null,
-    "title": "Qadi of the Monumenthes",
-    "_wiki_ts": "2026-02-13T14:27:15Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Qadi of the Monumenthes",
+    "_wiki_ts": "2026-06-11T11:14:04Z",
     "raw_name_en": "Qadi of the Monumenthes"
   },
   {
@@ -121703,7 +122219,7 @@
     "archseries": [],
     "password": null,
     "title": "Rare Dragorite",
-    "_wiki_ts": "2026-02-26T21:13:20Z",
+    "_wiki_ts": "2026-06-14T19:03:48Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -121824,6 +122340,8 @@
     "name_es": "Grito del Rebelde",
     "attribute": null,
     "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -121834,7 +122352,12 @@
     "requirement": "When your opponent Normal Summons a monster, send 2 Fiend Type monsters from your hand to the Graveyard.",
     "effect": "Destroy all face-up Level 8 or lower monsters on the field.",
     "flavor_text": null,
-    "images": [],
+    "images": [
+      {
+        "artwork": 1,
+        "file": "RebelsScream-RDSBD5-JP-C.png"
+      }
+    ],
     "sets_jp": [
       {
         "code": "RD/CP01-JP027",
@@ -121862,11 +122385,9 @@
     "database_id": "15675",
     "archseries": [],
     "password": null,
-    "title": "Rebel's Scream",
-    "_wiki_ts": "2024-12-06T07:22:11Z",
     "is_legend": false,
-    "card_type": "Trap",
-    "property": "Normal",
+    "title": "Rebel's Scream",
+    "_wiki_ts": "2026-06-22T19:06:37Z",
     "raw_name_en": "Rebel's Scream"
   },
   {
@@ -122590,6 +123111,8 @@
     "name_es": "Dragón Negro de Ojos Rojos",
     "attribute": "DARK",
     "types": "Dragon / Normal",
+    "card_type": null,
+    "property": null,
     "level": 7,
     "atk": 2400,
     "def": 2000,
@@ -122644,6 +123167,11 @@
         "code": "RD/TB02-JP076",
         "name": "Triple Build Pack: Evolution Impact",
         "rarity": "Common, Over Rush Rare"
+      },
+      {
+        "code": "RD/LP01-JP026",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -122673,11 +123201,9 @@
       "Red-Eyes"
     ],
     "password": null,
-    "title": "Red-Eyes Black Dragon",
-    "_wiki_ts": "2025-03-19T10:04:21Z",
     "is_legend": true,
-    "card_type": null,
-    "property": null,
+    "title": "Red-Eyes Black Dragon",
+    "_wiki_ts": "2026-06-23T07:30:10Z",
     "raw_name_en": "Red-Eyes Black Dragon (Rush Duel)"
   },
   {
@@ -123871,6 +124397,8 @@
     "name_es": null,
     "attribute": "EARTH",
     "types": "Beast / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 300,
     "def": 100,
@@ -123885,6 +124413,10 @@
       {
         "artwork": 1,
         "file": "RescueRabbit-RDSJMP-JP-NPR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "RescueRabbit-RDLP01-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -123892,6 +124424,11 @@
         "code": "RD/SJMP-JP057",
         "name": "Saikyō Jump December 2025 promotional card",
         "rarity": "Normal Parallel Rare"
+      },
+      {
+        "code": "RD/LP01-JP029",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -123904,11 +124441,9 @@
     "database_id": "22343",
     "archseries": [],
     "password": null,
-    "title": "Rescue Rabbit",
-    "_wiki_ts": "2026-02-26T21:14:30Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Rescue Rabbit",
+    "_wiki_ts": "2026-06-23T07:00:07Z",
     "raw_name_en": "Rescue Rabbit (Rush Duel)"
   },
   {
@@ -125211,7 +125746,7 @@
     ],
     "password": null,
     "title": "Rising HERO Argent",
-    "_wiki_ts": "2026-04-10T20:38:42Z",
+    "_wiki_ts": "2026-06-14T18:51:15Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -125566,7 +126101,7 @@
     ],
     "password": null,
     "title": "Rising License",
-    "_wiki_ts": "2026-05-22T16:57:30Z",
+    "_wiki_ts": "2026-06-14T18:56:28Z",
     "is_legend": false,
     "card_type": "Spell",
     "property": "Normal",
@@ -125846,6 +126381,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 7,
     "atk": 2000,
     "def": 1000,
@@ -125867,6 +126404,11 @@
         "code": "RD/KP25-JP026",
         "name": "Rising of the Aurora",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/B262-JP004",
+        "name": "Battle Bonus Pack 2026 Vol.2",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [],
@@ -125875,11 +126417,9 @@
       "Rising HERO"
     ],
     "password": null,
-    "title": "Rising Unit",
-    "_wiki_ts": "2026-05-22T16:51:34Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Rising Unit",
+    "_wiki_ts": "2026-06-19T18:08:18Z",
     "raw_name_en": "Rising Unit"
   },
   {
@@ -126677,7 +127217,7 @@
     ],
     "password": null,
     "title": "Roadstar Gladimagia",
-    "_wiki_ts": "2026-04-20T08:05:45Z",
+    "_wiki_ts": "2026-06-13T16:56:59Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -128093,6 +128633,8 @@
     "name_es": "Metal Maldito del Rebelde Real",
     "attribute": "LIGHT",
     "types": "Fiend / Effect",
+    "card_type": null,
+    "property": null,
     "level": 8,
     "atk": 2500,
     "def": 2000,
@@ -128124,6 +128666,11 @@
         "code": "RD/HC01-JP071",
         "name": "High-Grade Collection",
         "rarity": "Common, Super Rare"
+      },
+      {
+        "code": "RD/B262-JP013",
+        "name": "Battle Bonus Pack 2026 Vol.2",
+        "rarity": "Normal Parallel Rare, Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -128143,11 +128690,9 @@
       "Royal Rebel's"
     ],
     "password": null,
-    "title": "Royal Rebel's Doom Metal",
-    "_wiki_ts": "2025-05-10T21:41:27Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Royal Rebel's Doom Metal",
+    "_wiki_ts": "2026-06-19T18:51:24Z",
     "raw_name_en": "Royal Rebel's Doom Metal"
   },
   {
@@ -128214,6 +128759,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Fiend / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1200,
     "def": 0,
@@ -128240,6 +128787,11 @@
         "code": "RD/AP01-JP075",
         "name": "Advance Pack: Devil's Ceremony",
         "rarity": "Common, Super Parallel Rare"
+      },
+      {
+        "code": "RD/B262-JP010",
+        "name": "Battle Bonus Pack 2026 Vol.2",
+        "rarity": "Normal Parallel Rare, Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -128259,11 +128811,9 @@
       "Royal Rebel's"
     ],
     "password": null,
-    "title": "Royal Rebel's Elite Amp",
-    "_wiki_ts": "2025-10-22T18:08:42Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Royal Rebel's Elite Amp",
+    "_wiki_ts": "2026-06-19T18:38:37Z",
     "raw_name_en": "Royal Rebel's Elite Amp"
   },
   {
@@ -128557,6 +129107,8 @@
     "name_es": "Heavy Metal del Rebelde Real",
     "attribute": "LIGHT",
     "types": "Fiend / Effect",
+    "card_type": null,
+    "property": null,
     "level": 8,
     "atk": 2500,
     "def": 0,
@@ -128611,6 +129163,11 @@
         "code": "RD/CCC2-JP003",
         "name": "Coco's x Yu-Gi-Oh! Card Game Anniversary Campaign 2024 Part 1",
         "rarity": "Normal Parallel Rare"
+      },
+      {
+        "code": "RD/B262-JP012",
+        "name": "Battle Bonus Pack 2026 Vol.2",
+        "rarity": "Normal Parallel Rare, Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -128640,11 +129197,9 @@
       "Royal Rebel's"
     ],
     "password": null,
-    "title": "Royal Rebel's Heavy Metal",
-    "_wiki_ts": "2024-12-06T07:51:29Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Royal Rebel's Heavy Metal",
+    "_wiki_ts": "2026-06-19T18:47:07Z",
     "raw_name_en": "Royal Rebel's Heavy Metal"
   },
   {
@@ -129521,7 +130076,7 @@
     "archseries": [],
     "password": null,
     "title": "Sacred Tower in Collapse",
-    "_wiki_ts": "2026-05-11T12:18:05Z",
+    "_wiki_ts": "2026-06-22T19:07:11Z",
     "is_legend": false,
     "card_type": "Trap",
     "property": "Normal",
@@ -130248,13 +130803,15 @@
     "name_en": "Sarcophagus of Isyria",
     "name_ja": "イシリアの棺",
     "name_ja_romaji": "Ishiria no Hitsugi",
-    "name_ko": null,
+    "name_ko": "이실리아의 관",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -130282,17 +130839,21 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR048",
+        "name": "Overforce of the Abyss",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "22878",
     "archseries": [
       "Monumenthes"
     ],
     "password": null,
-    "title": "Sarcophagus of Isyria",
-    "_wiki_ts": "2026-02-13T14:36:27Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Sarcophagus of Isyria",
+    "_wiki_ts": "2026-06-11T11:37:50Z",
     "raw_name_en": "Sarcophagus of Isyria"
   },
   {
@@ -134264,6 +134825,8 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1000,
     "def": 1200,
@@ -134285,6 +134848,11 @@
         "code": "RD/MRP2-JP050",
         "name": "Megaroad Pack 2",
         "rarity": "Rare"
+      },
+      {
+        "code": "RD/AP03-JP049",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "sets_kr": [
@@ -134297,11 +134865,9 @@
     "database_id": "19574",
     "archseries": [],
     "password": null,
-    "title": "Seyanen the Blazing Conqueror",
-    "_wiki_ts": "2025-07-24T12:09:21Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Seyanen the Blazing Conqueror",
+    "_wiki_ts": "2026-06-15T14:54:58Z",
     "raw_name_en": "Seyanen the Blazing Conqueror"
   },
   {
@@ -135004,13 +135570,15 @@
     "name_en": "Shadowforce Explosion",
     "name_ja": "シャドウフォース・エクスプロージョン",
     "name_ja_romaji": "Shadoufōsu Ekusupurōjon",
-    "name_ko": null,
+    "name_ko": "섀도우포스 익스플로전",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -135034,28 +135602,34 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR042",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22872",
     "archseries": [],
     "password": null,
-    "title": "Shadowforce Explosion",
-    "_wiki_ts": "2026-02-13T14:35:05Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Shadowforce Explosion",
+    "_wiki_ts": "2026-06-11T11:19:37Z",
     "raw_name_en": "Shadowforce Explosion"
   },
   {
     "name_en": "The Shallow Grave",
     "name_ja": "浅すぎた墓穴",
     "name_ja_romaji": "Asasugita Hakaana",
-    "name_ko": null,
+    "name_ko": "얕은 무덤",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -135079,15 +135653,19 @@
         "rarity": "Super Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR058",
+        "name": "Overforce of the Abyss",
+        "rarity": "Super Rare"
+      }
+    ],
     "database_id": "22888",
     "archseries": [],
     "password": null,
-    "title": "The Shallow Grave",
-    "_wiki_ts": "2026-02-13T14:38:41Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "The Shallow Grave",
+    "_wiki_ts": "2026-06-11T11:22:15Z",
     "raw_name_en": "The Shallow Grave (Rush Duel)"
   },
   {
@@ -136081,6 +136659,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -136095,6 +136675,10 @@
       {
         "artwork": 1,
         "file": "ShinyShady-RD5TH1-JP-ScR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "ShinyShady-RDS262-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -136107,6 +136691,11 @@
         "code": "RD/5TH1-JP141",
         "name": "5th Anniversary Pack",
         "rarity": "Secret Rare"
+      },
+      {
+        "code": "RD/S262-JP005",
+        "name": "Special Victory Pack 2026 Vol.2",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -136124,11 +136713,9 @@
     "database_id": "20151",
     "archseries": [],
     "password": null,
-    "title": "Shiny Shady",
-    "_wiki_ts": "2025-08-01T19:08:19Z",
     "is_legend": false,
-    "card_type": "Trap",
-    "property": "Normal",
+    "title": "Shiny Shady",
+    "_wiki_ts": "2026-06-19T19:32:29Z",
     "raw_name_en": "Shiny Shady"
   },
   {
@@ -136587,13 +137174,15 @@
     "name_en": "Shrine Rhynchus",
     "name_ja": "シュライン・リンコス",
     "name_ja_romaji": "Shurain Rinkosu",
-    "name_ko": null,
+    "name_ko": "슈라인 린코스",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "WATER",
     "types": "Fish / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1000,
     "def": 1300,
@@ -136617,15 +137206,19 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR027",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22857",
     "archseries": [],
     "password": null,
-    "title": "Shrine Rhynchus",
-    "_wiki_ts": "2026-02-13T14:31:35Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Shrine Rhynchus",
+    "_wiki_ts": "2026-06-11T11:16:59Z",
     "raw_name_en": "Shrine Rhynchus"
   },
   {
@@ -139302,6 +139895,8 @@
     "name_es": null,
     "attribute": "WIND",
     "types": "Fairy / Normal",
+    "card_type": null,
+    "property": null,
     "level": 3,
     "atk": 0,
     "def": 0,
@@ -139323,6 +139918,11 @@
         "code": "RD/B231-JP008",
         "name": "Battle Pack 2023 Vol.1",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/AP03-JP042",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "sets_kr": [
@@ -139335,11 +139935,9 @@
     "database_id": "18894",
     "archseries": [],
     "password": null,
-    "title": "Soitsu",
-    "_wiki_ts": "2025-05-16T12:27:43Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Soitsu",
+    "_wiki_ts": "2026-06-12T14:48:47Z",
     "raw_name_en": "Soitsu (Rush Duel)"
   },
   {
@@ -141315,13 +141913,15 @@
     "name_en": "Special Operative Flavor Inspector",
     "name_ja": "特務万能調味査察官",
     "name_ja_romaji": "Supesharu Teisuto Insupekutā",
-    "name_ko": null,
+    "name_ko": "스페셜 테이스트 인스펙터",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "FIRE",
     "types": "Pyro / Effect",
+    "card_type": null,
+    "property": null,
     "level": 7,
     "atk": 1600,
     "def": 0,
@@ -141345,15 +141945,19 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR017",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22847",
     "archseries": [],
     "password": null,
-    "title": "Special Operative Flavor Inspector",
-    "_wiki_ts": "2026-03-09T09:40:02Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Special Operative Flavor Inspector",
+    "_wiki_ts": "2026-06-11T11:15:22Z",
     "raw_name_en": "Special Operative Flavor Inspector"
   },
   {
@@ -142461,13 +143065,15 @@
     "name_en": "Spice the Special Noodle Ninja Rich Broth",
     "name_ja": "火麺特忍ゴックブート・ノウコウ弐星",
     "name_ja_romaji": "Kamen Tokunin Gokkubūto Noukou Niboshi",
-    "name_ko": null,
+    "name_ko": "화면특인 고크부트 농후 2별",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "FIRE",
     "types": "Pyro / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 2900,
     "def": 0,
@@ -142491,17 +143097,21 @@
         "rarity": "Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR036",
+        "name": "Overforce of the Abyss",
+        "rarity": "Rare"
+      }
+    ],
     "database_id": "22866",
     "archseries": [
       "Noodle Ninja"
     ],
     "password": null,
-    "title": "Spice the Special Noodle Ninja Rich Broth",
-    "_wiki_ts": "2026-03-09T13:11:12Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Spice the Special Noodle Ninja Rich Broth",
+    "_wiki_ts": "2026-06-11T11:18:41Z",
     "raw_name_en": "Spice the Special Noodle Ninja Rich Broth"
   },
   {
@@ -142617,13 +143227,15 @@
     "name_en": "Spinning Abduction",
     "name_ja": "スピニング・アブダクション",
     "name_ja_romaji": "Supiningu Abudakushon",
-    "name_ko": null,
+    "name_ko": "스피닝 어브덕션",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -142647,15 +143259,19 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR059",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22889",
     "archseries": [],
     "password": null,
-    "title": "Spinning Abduction",
-    "_wiki_ts": "2026-02-13T14:38:52Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Spinning Abduction",
+    "_wiki_ts": "2026-06-11T11:22:24Z",
     "raw_name_en": "Spinning Abduction"
   },
   {
@@ -142723,13 +143339,15 @@
     "name_en": "Spirit of Isyria",
     "name_ja": "イシリアの霊魂",
     "name_ja_romaji": "Ishiria no Reikon",
-    "name_ko": null,
+    "name_ko": "이실리아의 영혼",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -142758,17 +143376,21 @@
         "rarity": "Super Parallel Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR061",
+        "name": "Overforce of the Abyss",
+        "rarity": "Rare"
+      }
+    ],
     "database_id": "22891",
     "archseries": [
       "Monumenthes"
     ],
     "password": null,
-    "title": "Spirit of Isyria",
-    "_wiki_ts": "2026-03-23T18:01:16Z",
     "is_legend": false,
-    "card_type": "Trap",
-    "property": "Normal",
+    "title": "Spirit of Isyria",
+    "_wiki_ts": "2026-06-11T11:22:45Z",
     "raw_name_en": "Spirit of Isyria"
   },
   {
@@ -144407,6 +145029,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -144438,6 +145062,11 @@
         "code": "RD/TB02-JP073",
         "name": "Triple Build Pack: Evolution Impact",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/AP03-JP022",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "sets_kr": [
@@ -144462,11 +145091,9 @@
       "Pliage"
     ],
     "password": null,
-    "title": "Star Restart",
-    "_wiki_ts": "2026-05-26T01:17:42Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Star Restart",
+    "_wiki_ts": "2026-06-08T15:13:40Z",
     "raw_name_en": "Star Restart"
   },
   {
@@ -145712,13 +146339,15 @@
     "name_en": "Straigh the Noodle Ninja",
     "name_ja": "火麺忍者ストレー",
     "name_ja_romaji": "Kamen Ninja Sutorē",
-    "name_ko": null,
+    "name_ko": "화면첩자 스트레",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "FIRE",
     "types": "Pyro / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1100,
     "def": 1100,
@@ -145742,17 +146371,21 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR016",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22846",
     "archseries": [
       "Noodle Ninja"
     ],
     "password": null,
-    "title": "Straigh the Noodle Ninja",
-    "_wiki_ts": "2026-03-09T13:09:43Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Straigh the Noodle Ninja",
+    "_wiki_ts": "2026-06-11T11:15:12Z",
     "raw_name_en": "Straigh the Noodle Ninja"
   },
   {
@@ -147688,7 +148321,7 @@
     ],
     "password": null,
     "title": "Super Graphagas Vapor Lancer",
-    "_wiki_ts": "2025-02-28T20:02:51Z",
+    "_wiki_ts": "2026-06-21T15:46:36Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -153492,6 +154125,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -153518,6 +154153,11 @@
         "code": "RD/LGP2-JP078",
         "name": "Neo Legend Awakening Pack",
         "rarity": "Common, Ultra Parallel Rare"
+      },
+      {
+        "code": "RD/AP03-JP055",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "sets_kr": [
@@ -153535,11 +154175,9 @@
     "database_id": "17928",
     "archseries": [],
     "password": null,
-    "title": "Torrential Tribute",
-    "_wiki_ts": "2025-01-17T11:29:36Z",
     "is_legend": true,
-    "card_type": "Trap",
-    "property": "Normal",
+    "title": "Torrential Tribute",
+    "_wiki_ts": "2026-06-15T14:58:41Z",
     "raw_name_en": "Torrential Tribute (Rush Duel)"
   },
   {
@@ -154631,7 +155269,7 @@
     ],
     "password": null,
     "title": "Transam Nebula Fusion",
-    "_wiki_ts": "2026-05-11T05:58:13Z",
+    "_wiki_ts": "2026-06-14T18:53:02Z",
     "is_legend": false,
     "card_type": "Spell",
     "property": "Normal",
@@ -157052,7 +157690,7 @@
     ],
     "password": null,
     "title": "Tune Cornetlass the Music Princess",
-    "_wiki_ts": "2026-04-16T18:38:06Z",
+    "_wiki_ts": "2026-06-13T16:57:24Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -157119,7 +157757,7 @@
     ],
     "password": null,
     "title": "Tune Flutomahawk the Music Princess",
-    "_wiki_ts": "2025-12-01T23:41:13Z",
+    "_wiki_ts": "2026-06-13T16:57:44Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -157177,7 +157815,7 @@
     ],
     "password": null,
     "title": "Tune Ophiclaymore the Music Princess",
-    "_wiki_ts": "2025-12-26T17:40:41Z",
+    "_wiki_ts": "2026-06-13T16:58:06Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -160695,7 +161333,7 @@
     "archseries": [],
     "password": null,
     "title": "Variable Stellarizer",
-    "_wiki_ts": "2025-05-16T07:16:52Z",
+    "_wiki_ts": "2026-06-14T18:58:32Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -160919,7 +161557,7 @@
     ],
     "password": null,
     "title": "The Versus Fusion",
-    "_wiki_ts": "2025-07-24T14:44:53Z",
+    "_wiki_ts": "2026-06-14T19:05:44Z",
     "is_legend": false,
     "card_type": "Spell",
     "property": "Normal",
@@ -161198,7 +161836,7 @@
     ],
     "password": null,
     "title": "Vic Viper Full Custom",
-    "_wiki_ts": "2026-02-26T21:20:05Z",
+    "_wiki_ts": "2026-06-13T16:58:34Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -161255,7 +161893,7 @@
     ],
     "password": null,
     "title": "Vic Viper Ripple Laser",
-    "_wiki_ts": "2026-02-26T21:21:07Z",
+    "_wiki_ts": "2026-06-13T16:58:55Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -161975,13 +162613,15 @@
     "name_en": "Voidalfr Antromeda",
     "name_ja": "ヴォイドアルヴ・アントロメダ",
     "name_ja_romaji": "Voidoaruvu Antoromeda",
-    "name_ko": null,
+    "name_ko": "보이드알브 안트로메다",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "EARTH",
     "types": "Galaxy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 5,
     "atk": 1000,
     "def": 1700,
@@ -162005,30 +162645,36 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR005",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22835",
     "archseries": [
       "Voidalfr"
     ],
     "password": null,
-    "title": "Voidalfr Antromeda",
-    "_wiki_ts": "2026-02-13T14:26:21Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Voidalfr Antromeda",
+    "_wiki_ts": "2026-06-11T11:13:24Z",
     "raw_name_en": "Voidalfr Antromeda"
   },
   {
     "name_en": "Voidalfr Buprestruve",
     "name_ja": "ヴォイドアルヴ・タマムシュトルーベ",
     "name_ja_romaji": "Voidoaruvu Tamamushutorūbe",
-    "name_ko": null,
+    "name_ko": "보이드알브 타마무슈트루베",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "WIND",
     "types": "Galaxy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 2,
     "atk": 900,
     "def": 1300,
@@ -162050,32 +162696,43 @@
         "code": "RD/KP24-JP003",
         "name": "Overforce of the Abyss",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/B262-JP003",
+        "name": "Battle Bonus Pack 2026 Vol.2",
+        "rarity": "Super Parallel Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR003",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22833",
     "archseries": [
       "Voidalfr"
     ],
     "password": null,
-    "title": "Voidalfr Buprestruve",
-    "_wiki_ts": "2026-02-13T14:25:58Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Voidalfr Buprestruve",
+    "_wiki_ts": "2026-06-19T18:05:15Z",
     "raw_name_en": "Voidalfr Buprestruve"
   },
   {
     "name_en": "Voidalfr Heavenstar",
     "name_ja": "ヴォイドアルヴ・ヘヴンスター",
     "name_ja_romaji": "Voidoaruvu Hevunsutā",
-    "name_ko": null,
+    "name_ko": "보이드알브 헤븐스타",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "FIRE",
     "types": "Galaxy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 7,
     "atk": 2400,
     "def": 1600,
@@ -162099,30 +162756,36 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR006",
+        "name": "Overforce of the Abyss",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "22836",
     "archseries": [
       "Voidalfr"
     ],
     "password": null,
-    "title": "Voidalfr Heavenstar",
-    "_wiki_ts": "2026-02-13T14:26:32Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Voidalfr Heavenstar",
+    "_wiki_ts": "2026-06-11T11:13:34Z",
     "raw_name_en": "Voidalfr Heavenstar"
   },
   {
     "name_en": "Voidalfr Mantistar",
     "name_ja": "ヴォイドアルヴ・マンティスター",
     "name_ja_romaji": "Voidoaruvu Mantisutā",
-    "name_ko": null,
+    "name_ko": "보이드알브 맨티스터",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "WIND",
     "types": "Galaxy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1000,
     "def": 600,
@@ -162146,30 +162809,36 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR004",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22834",
     "archseries": [
       "Voidalfr"
     ],
     "password": null,
-    "title": "Voidalfr Mantistar",
-    "_wiki_ts": "2026-02-13T14:26:10Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Voidalfr Mantistar",
+    "_wiki_ts": "2026-06-11T11:13:14Z",
     "raw_name_en": "Voidalfr Mantistar"
   },
   {
     "name_en": "Voidalfr Star Mayfly",
     "name_ja": "ヴォイドアルヴ・スターメイフライ",
     "name_ja_romaji": "Voidoaruvu Sutāmeifurai",
-    "name_ko": null,
+    "name_ko": "보이드알브 스타메이플라이",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "WATER",
     "types": "Galaxy / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 3000,
     "def": 2400,
@@ -162193,30 +162862,36 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR034",
+        "name": "Overforce of the Abyss",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "22864",
     "archseries": [
       "Voidalfr"
     ],
     "password": null,
-    "title": "Voidalfr Star Mayfly",
-    "_wiki_ts": "2026-02-13T14:33:18Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Voidalfr Star Mayfly",
+    "_wiki_ts": "2026-06-11T11:18:21Z",
     "raw_name_en": "Voidalfr Star Mayfly"
   },
   {
     "name_en": "Voidalfr Star Stripe",
     "name_ja": "ヴォイドアルヴ・スターストライプ",
     "name_ja_romaji": "Voidoaruvu Sutāsutoraipu",
-    "name_ko": null,
+    "name_ko": "보이드알브 스타스트라이프",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "WIND",
     "types": "Galaxy / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 3000,
     "def": 2400,
@@ -162240,30 +162915,36 @@
         "rarity": "Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR033",
+        "name": "Overforce of the Abyss",
+        "rarity": "Rare"
+      }
+    ],
     "database_id": "22863",
     "archseries": [
       "Voidalfr"
     ],
     "password": null,
-    "title": "Voidalfr Star Stripe",
-    "_wiki_ts": "2026-02-13T14:33:07Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Voidalfr Star Stripe",
+    "_wiki_ts": "2026-06-11T11:18:11Z",
     "raw_name_en": "Voidalfr Star Stripe"
   },
   {
     "name_en": "Voidalfr Voyastrider",
     "name_ja": "ヴォイドアルヴ・アメンボイジャー",
     "name_ja_romaji": "Voidoaruvu Amenboijā",
-    "name_ko": null,
+    "name_ko": "보이드알브 아멘보이저",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "WATER",
     "types": "Galaxy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 1,
     "atk": 100,
     "def": 100,
@@ -162287,17 +162968,21 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR002",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22832",
     "archseries": [
       "Voidalfr"
     ],
     "password": null,
-    "title": "Voidalfr Voyastrider",
-    "_wiki_ts": "2026-02-13T14:25:47Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Voidalfr Voyastrider",
+    "_wiki_ts": "2026-06-11T11:12:53Z",
     "raw_name_en": "Voidalfr Voyastrider"
   },
   {
@@ -162357,13 +163042,15 @@
     "name_en": "Voidvelg Beyond Probe",
     "name_ja": "ヴォイドヴェルグ・ビヨンドプローブ",
     "name_ja_romaji": "Voidoverugu Biyondo Purōbu",
-    "name_ko": null,
+    "name_ko": "보이드베르그 비욘드프로브",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "DARK",
     "types": "Galaxy / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 7,
     "atk": 2000,
     "def": 1300,
@@ -162387,17 +163074,21 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR031",
+        "name": "Overforce of the Abyss",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "22861",
     "archseries": [
       "Voidvelg"
     ],
     "password": null,
-    "title": "Voidvelg Beyond Probe",
-    "_wiki_ts": "2026-05-11T12:44:08Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Voidvelg Beyond Probe",
+    "_wiki_ts": "2026-06-13T16:59:15Z",
     "raw_name_en": "Voidvelg Beyond Probe"
   },
   {
@@ -162741,7 +163432,7 @@
     ],
     "password": null,
     "title": "Voidvelg Forbidden Requiem",
-    "_wiki_ts": "2026-05-11T07:49:08Z",
+    "_wiki_ts": "2026-06-13T16:59:43Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -163833,13 +164524,15 @@
     "name_en": "Voidvelg Stork",
     "name_ja": "ヴォイドヴェルグ・ストーク",
     "name_ja_romaji": "Voidoverugu Sutōku",
-    "name_ko": null,
+    "name_ko": "보이드베르그 스토크",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "DARK",
     "types": "Galaxy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 2,
     "atk": 1100,
     "def": 1100,
@@ -163863,17 +164556,21 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR001",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22831",
     "archseries": [
       "Voidvelg"
     ],
     "password": null,
-    "title": "Voidvelg Stork",
-    "_wiki_ts": "2026-05-11T12:44:33Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Voidvelg Stork",
+    "_wiki_ts": "2026-06-11T11:12:42Z",
     "raw_name_en": "Voidvelg Stork"
   },
   {
@@ -164101,13 +164798,15 @@
     "name_en": "Voidvelg Whiterider",
     "name_ja": "ヴォイドヴェルグ・ホワイトライダー",
     "name_ja_romaji": "Voidoverugu Howaitoraidā",
-    "name_ko": null,
+    "name_ko": "보이드베르그 화이트라이더",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "DARK",
     "types": "Galaxy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1300,
     "def": 300,
@@ -164131,17 +164830,21 @@
         "rarity": "Normal Parallel Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KRS01",
+        "name": "Overforce of the Abyss",
+        "rarity": "Super Rare"
+      }
+    ],
     "database_id": "22827",
     "archseries": [
       "Voidvelg"
     ],
     "password": null,
-    "title": "Voidvelg Whiterider",
-    "_wiki_ts": "2026-05-11T06:56:13Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Voidvelg Whiterider",
+    "_wiki_ts": "2026-06-11T11:40:33Z",
     "raw_name_en": "Voidvelg Whiterider"
   },
   {
@@ -165919,7 +166622,7 @@
     "archseries": [],
     "password": null,
     "title": "Whispurring Fairy",
-    "_wiki_ts": "2025-12-01T23:43:17Z",
+    "_wiki_ts": "2026-06-13T17:00:03Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -166700,7 +167403,7 @@
     ],
     "password": null,
     "title": "Wish of OuTerverSe the World-Shattering Emperor",
-    "_wiki_ts": "2026-04-04T07:23:36Z",
+    "_wiki_ts": "2026-06-22T05:03:01Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -168425,13 +169128,15 @@
     "name_en": "Worm Void Hole",
     "name_ja": "ワーム・ヴォイド・ホール",
     "name_ja_romaji": "Wāmu Voido Hōru",
-    "name_ko": null,
+    "name_ko": "웜 보이드 홀",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -168455,15 +169160,19 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR043",
+        "name": "Overforce of the Abyss",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "22873",
     "archseries": [],
     "password": null,
-    "title": "Worm Void Hole",
-    "_wiki_ts": "2026-05-11T12:44:45Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Worm Void Hole",
+    "_wiki_ts": "2026-06-14T18:54:28Z",
     "raw_name_en": "Worm Void Hole"
   },
   {
@@ -168680,7 +169389,7 @@
     ],
     "password": null,
     "title": "Wynn the Wind Charmer",
-    "_wiki_ts": "2026-05-14T16:54:10Z",
+    "_wiki_ts": "2026-06-22T19:43:12Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -169041,7 +169750,7 @@
     ],
     "password": null,
     "title": "X-Head Cannon",
-    "_wiki_ts": "2026-05-25T17:45:44Z",
+    "_wiki_ts": "2026-06-15T15:22:47Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -169088,7 +169797,7 @@
     ],
     "password": null,
     "title": "XY-Dragon Cannon",
-    "_wiki_ts": "2026-05-25T16:19:23Z",
+    "_wiki_ts": "2026-06-13T17:02:19Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -169135,7 +169844,7 @@
     ],
     "password": null,
     "title": "XYZ-Dragon Cannon",
-    "_wiki_ts": "2026-05-25T15:54:22Z",
+    "_wiki_ts": "2026-06-13T17:02:05Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -169182,7 +169891,7 @@
     ],
     "password": null,
     "title": "XZ-Tank Cannon",
-    "_wiki_ts": "2026-05-25T16:34:05Z",
+    "_wiki_ts": "2026-06-13T17:02:43Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -169229,7 +169938,7 @@
     ],
     "password": null,
     "title": "Y-Dragon Head",
-    "_wiki_ts": "2026-05-25T17:59:50Z",
+    "_wiki_ts": "2026-06-15T15:22:23Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -170172,13 +170881,15 @@
     "name_en": "Yorishiro of Isyria",
     "name_ja": "イシリアの依代",
     "name_ja_romaji": "Ishiria no Yorishiro",
-    "name_ko": null,
+    "name_ko": "이실리아의 의대",
     "name_fr": null,
     "name_de": null,
     "name_it": null,
     "name_es": null,
     "attribute": "EARTH",
     "types": "Beast-Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1000,
     "def": 1400,
@@ -170206,17 +170917,21 @@
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP24-KR008",
+        "name": "Overforce of the Abyss",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "22838",
     "archseries": [
       "Monumenthes"
     ],
     "password": null,
-    "title": "Yorishiro of Isyria",
-    "_wiki_ts": "2026-02-13T14:26:59Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Yorishiro of Isyria",
+    "_wiki_ts": "2026-06-11T11:13:54Z",
     "raw_name_en": "Yorishiro of Isyria"
   },
   {
@@ -170590,7 +171305,7 @@
     ],
     "password": null,
     "title": "YZ-Tank Dragon",
-    "_wiki_ts": "2026-05-25T16:45:42Z",
+    "_wiki_ts": "2026-06-13T17:02:54Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -170637,7 +171352,7 @@
     ],
     "password": null,
     "title": "Z-Metal Tank",
-    "_wiki_ts": "2026-05-25T18:08:18Z",
+    "_wiki_ts": "2026-06-15T15:23:16Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -171446,7 +172161,7 @@
     "password": null,
     "is_legend": false,
     "title": "Encounter of the Stars",
-    "_wiki_ts": "2026-06-08T12:17:00Z",
+    "_wiki_ts": "2026-06-08T15:26:27Z",
     "raw_name_en": "Encounter of the Stars"
   },
   {
@@ -171493,7 +172208,7 @@
     "password": null,
     "is_legend": false,
     "title": "Onomatopitcher",
-    "_wiki_ts": "2026-06-08T12:18:19Z",
+    "_wiki_ts": "2026-06-08T15:32:17Z",
     "raw_name_en": "Onomatopitcher"
   },
   {
@@ -171517,7 +172232,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "During your Main Phase that you Normal or Special Summoned this card.",
-    "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, you can Fusion Summon a monster that mentions \"Spirit of the Stars\" or \"Pliage the Sacred Shooting Star\" as material by sending monsters from your hand or field to the Graveyard as material.",
+    "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, you can Fusion Summon a monster that mentions \"Spirit of the Stars\" or \"Pliage the Sacred Shooting Star\" as material by sending monsters from your hand and/or field to the Graveyard as material.",
     "flavor_text": null,
     "images": [
       {
@@ -171540,7 +172255,7 @@
     "password": null,
     "is_legend": false,
     "title": "Spirit of the Stars",
-    "_wiki_ts": "2026-06-08T12:15:37Z",
+    "_wiki_ts": "2026-06-14T18:51:54Z",
     "raw_name_en": "Spirit of the Stars"
   },
   {
@@ -171564,7 +172279,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "Send the top 2 cards of your Deck to the Graveyard.",
-    "effect": "This turn, this card's name becomes \"X-Head Cannon\". Then, you can add 1 \"Y-Trial Dragon\" or \"Z-Trial Tank\" from your Graveyard to your hand. You cannot Special Summon non-LIGHT Attribute monsters from the Extra Deck for the rest of this turn.",
+    "effect": "This turn, this card's name becomes \"X-Head Cannon\". Then, you can add 1 \"Y-Trial Dragon\" or \"Z-Trial Tank\" from your Graveyard to your hand. You cannot Special Summon non-LIGHT Attribute monsters from the Extra Deck until the end of this turn.",
     "flavor_text": null,
     "images": [
       {
@@ -171587,7 +172302,7 @@
     "password": null,
     "is_legend": false,
     "title": "X-Trial Cannon",
-    "_wiki_ts": "2026-06-08T12:13:00Z",
+    "_wiki_ts": "2026-06-08T14:37:51Z",
     "raw_name_en": "X-Trial Cannon"
   },
   {
@@ -171605,13 +172320,13 @@
     "property": null,
     "level": 4,
     "atk": 1000,
-    "def": 1000,
+    "def": 1100,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
     "requirement": "Send the top card of your Deck to the Graveyard.",
-    "effect": "This turn, this card's name becomes \"Y-Dragon Head\". Then, you can Fusion Summon \"XY-Dragon Cannon\" or \"YZ-Tank Dragon\" by placing monsters from your field or Graveyard on the bottom of the owner's Deck in any order as material, including this card.",
+    "effect": "This turn, this card's name becomes \"Y-Dragon Head\". Then, you can Fusion Summon \"XY-Dragon Cannon\" or \"YZ-Tank Dragon\" by placing monsters from your field and/or Graveyard on the bottom of the owner's Deck in any order as material, including this card.",
     "flavor_text": null,
     "images": [
       {
@@ -171634,7 +172349,7 @@
     "password": null,
     "is_legend": false,
     "title": "Y-Trial Dragon",
-    "_wiki_ts": "2026-06-08T12:13:38Z",
+    "_wiki_ts": "2026-06-08T14:47:11Z",
     "raw_name_en": "Y-Trial Dragon"
   },
   {
@@ -171658,7 +172373,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "Send the top card of your Deck to the Graveyard.",
-    "effect": "This turn, this card's name becomes \"Z-Metal Tank\". Then, you can Fusion Summon \"XZ-Tank Cannon\" or \"YZ-Tank Dragon\" by placing monsters from your field or Graveyard on the bottom of the owner's Deck in any order as material, including this card.",
+    "effect": "This turn, this card's name becomes \"Z-Metal Tank\". Then, you can Fusion Summon \"XZ-Tank Cannon\" or \"YZ-Tank Dragon\" by placing monsters from your field and/or Graveyard on the bottom of the owner's Deck in any order as material, including this card.",
     "flavor_text": null,
     "images": [
       {
@@ -171681,7 +172396,921 @@
     "password": null,
     "is_legend": false,
     "title": "Z-Trial Tank",
-    "_wiki_ts": "2026-06-08T12:14:43Z",
+    "_wiki_ts": "2026-06-08T14:56:11Z",
     "raw_name_en": "Z-Trial Tank"
+  },
+  {
+    "name_en": "Chaos Emperor Dragon - Envoy of the End",
+    "name_ja": "混沌帝龍 －終焉の使者－",
+    "name_ja_romaji": "Kaosu Enperā Doragon -Shūen no Shisha-",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "DARK",
+    "types": "Dragon / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 8,
+    "atk": 3000,
+    "def": 2500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "You can Special Summon this card from your hand face-up to your field by placing 1 LIGHT Attribute and 1 DARK Attribute monster from your Graveyard on the bottom of the Deck in any order.",
+    "effect_types": null,
+    "requirement": "If you have not activated any effect during the turn you Special Summoned this card the above way, pay 1000 LP.",
+    "effect": "Send all cards in both players' hands and fields to the Graveyard. Then, inflict damage to your opponent equal to [the number of cards sent to their Graveyard by this effect] x 300.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ChaosEmperorDragonEnvoyoftheEnd-RDAP03-JP-OP.png"
+      },
+      {
+        "artwork": 2,
+        "file": "ChaosEmperorDragonEnvoyoftheEnd-RDAP03-JP-OP-AA.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/AP03-JP001",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Full Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": true,
+    "title": "Chaos Emperor Dragon - Envoy of the End",
+    "_wiki_ts": "2026-06-13T17:58:50Z",
+    "raw_name_en": "Chaos Emperor Dragon - Envoy of the End (Rush Duel)"
+  },
+  {
+    "name_en": "Dirham the Holy Empress",
+    "name_ja": "聖皇ディアラム",
+    "name_ja_romaji": "Jōō Diaramu",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "FIRE",
+    "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1000,
+    "def": 1100,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During the turn you Normal Summoned this card.",
+    "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, you can add 1 Union monster or 1 Field Spell Card from your Graveyard to your hand. If you do, send 1 monster from your field or 1 card from your hand to the Graveyard.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "DirhamtheHolyEmpress-RDAP03-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/AP03-JP050",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Dirham the Holy Empress",
+    "_wiki_ts": "2026-06-15T15:32:30Z",
+    "raw_name_en": "Dirham the Holy Empress"
+  },
+  {
+    "name_en": "Doitsu",
+    "name_ja": "ドイツ",
+    "name_ja_romaji": "Doitsu",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "EARTH",
+    "types": "Fairy / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 100,
+    "def": 200,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Equip this card to 1 face-up \"Soitsu\" on your field that is not equipped with a Union Monster Card as an Equip Spell Card with the following effect. ●The equipped monster gains 2500 ATK.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "Doitsu-RDAP03-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/AP03-JP044",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Doitsu",
+    "_wiki_ts": "2026-06-13T17:04:27Z",
+    "raw_name_en": "Doitsu (Rush Duel)"
+  },
+  {
+    "name_en": "Koitsu",
+    "name_ja": "コイツ",
+    "name_ja_romaji": "Koitsu",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "WATER",
+    "types": "Fairy / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 10,
+    "atk": 200,
+    "def": 100,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Equip this card to 1 face-up \"Aitsu\" on your field that is not equipped with a Union Monster Card as an Equip Spell Card with the following effect. ●The equipped monster gains 3000 ATK, and it inflicts piercing battle damage.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "Koitsu-RDAP03-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/AP03-JP043",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Koitsu",
+    "_wiki_ts": "2026-06-13T17:04:05Z",
+    "raw_name_en": "Koitsu (Rush Duel)"
+  },
+  {
+    "name_en": "Reliefcar D",
+    "name_ja": "リリーフカー・Ｄ",
+    "name_ja_romaji": "Rirīfukā Dī",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "FIRE",
+    "types": "Machine / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 2,
+    "atk": 800,
+    "def": 400,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During the turn you Normal Summoned this card, send all monsters from your field to the Graveyard.",
+    "effect": "Draw 1 card. Then, if you have \"Feverous Spirit Stadium\" face-up on your field, you can draw 1 additional card. This turn, you cannot activate the effect of \"Reliefcar D\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ReliefcarD-RDAP03-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/AP03-JP034",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Baseball"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Reliefcar D",
+    "_wiki_ts": "2026-06-13T16:28:11Z",
+    "raw_name_en": "Reliefcar D"
+  },
+  {
+    "name_en": "YXZ-Cannon Dragon",
+    "name_ja": "ＹＸＺ－キャノン・ドラゴン",
+    "name_ja_romaji": "Wai Ekkusu Zetto - Kyanon Doragon",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "LIGHT",
+    "types": "Machine / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 8,
+    "atk": 2800,
+    "def": 2600,
+    "maximum_atk": null,
+    "materials": "\"Y-Dragon Head\" + \"X-Head Cannon\" + \"Z-Metal Tank\"",
+    "condition": "This card can be Union Fusioned. This card's name becomes \"XYZ-Dragon Cannon\" while in the Extra Deck.",
+    "effect_types": null,
+    "requirement": "During your Main Phase that you Fusion Summoned this card.",
+    "effect": "Special Summon 1 Level 8 LIGHT Attribute Machine Type monster from your Graveyard face-up to your field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "YXZCannonDragon-RDAP03-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/AP03-JP004",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "XYZ"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "YXZ-Cannon Dragon",
+    "_wiki_ts": "2026-06-15T15:11:23Z",
+    "raw_name_en": "YXZ-Cannon Dragon"
+  },
+  {
+    "name_en": "Bottomless Trap Hole",
+    "name_ja": "奈落の落とし穴",
+    "name_ja_romaji": "Naraku no Otoshiana",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "When your opponent Normal or Special Summons a monster with 1500 or more ATK face-up.",
+    "effect": "Destroy 1 of those monsters, and place it on the bottom of the owner's Deck.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "BottomlessTrapHole-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP004",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": true,
+    "title": "Bottomless Trap Hole",
+    "_wiki_ts": "2026-06-23T07:29:21Z",
+    "raw_name_en": "Bottomless Trap Hole (Rush Duel)"
+  },
+  {
+    "name_en": "Breaker the Magical Warrior",
+    "name_ja": "魔導戦士 ブレイカー",
+    "name_ja_romaji": "Madōsenshi Bureikā",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "DARK",
+    "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1600,
+    "def": 1000,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": "Multi-Choice",
+    "requirement": "During the turn you Normal Summoned this card.",
+    "effect": "●Send the top card of your Deck to the Graveyard. Then, while this card is face-up, it gains 300 ATK. ●Destroy 1 Spell/Trap Card on the field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "BreakertheMagicalWarrior-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP002",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": true,
+    "title": "Breaker the Magical Warrior",
+    "_wiki_ts": "2026-06-23T07:20:18Z",
+    "raw_name_en": "Breaker the Magical Warrior (Rush Duel)"
+  },
+  {
+    "name_en": "Dark Magician of Chaos",
+    "name_ja": "混沌の黒魔術師",
+    "name_ja_romaji": "Konton no Kuromajutsushi",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "DARK",
+    "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 8,
+    "atk": 2800,
+    "def": 2600,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During the turn you Normal Summoned this card.",
+    "effect": "Add 1 non-Legend Spell Card from your Graveyard to your hand. Then, monsters destroyed by battle with this card this turn are placed on the bottom of the owner's Deck instead of being sent to the Graveyard. This turn, you cannot activate the effect of \"Dark Magician of Chaos\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "DarkMagicianofChaos-RDLP01-JP-OP.png"
+      },
+      {
+        "artwork": 2,
+        "file": "DarkMagicianofChaos-RDLP01-JP-OP-AA.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP001",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Parallel Rare, Secret Rare, Full Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Dark Magician"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Dark Magician of Chaos",
+    "_wiki_ts": "2026-06-23T07:21:22Z",
+    "raw_name_en": "Dark Magician of Chaos (Rush Duel)"
+  },
+  {
+    "name_en": "Duel Marker",
+    "name_ja": "デュエルマーカー",
+    "name_ja_romaji": "Dyueru Mākā",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "Duel Marker",
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "Go First",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "DuelMarker-RDB262-JP-OP-YukaGohaGoFirst.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/B262-JP015",
+        "name": "Battle Bonus Pack 2026 Vol.2",
+        "rarity": "Super Parallel Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Duel Marker",
+    "_wiki_ts": "2026-06-19T18:59:18Z",
+    "raw_name_en": "Duel Marker (Yuka Goha - Go First)"
+  },
+  {
+    "name_en": "Duel Marker",
+    "name_ja": "デュエルマーカー",
+    "name_ja_romaji": "Dyueru Mākā",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "Duel Marker",
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "Go Second",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "DuelMarker-RDB262-JP-OP-YukaGohaGoSecond.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/B262-JP016",
+        "name": "Battle Bonus Pack 2026 Vol.2",
+        "rarity": "Super Parallel Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Duel Marker",
+    "_wiki_ts": "2026-06-19T19:03:11Z",
+    "raw_name_en": "Duel Marker (Yuka Goha - Go Second)"
+  },
+  {
+    "name_en": "Magician of Faith",
+    "name_ja": "聖なる魔術師",
+    "name_ja_romaji": "Seinto Majishan",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "LIGHT",
+    "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 1,
+    "atk": 300,
+    "def": 400,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During your Main Phase this card was flipped face-up.",
+    "effect": "Add 1 non-Legend Spell Card from your Graveyard to your hand. This turn, you cannot activate the effect of \"Magician of Faith\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MagicianofFaith-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP006",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Magician of Faith",
+    "_wiki_ts": "2026-06-23T07:14:16Z",
+    "raw_name_en": "Magician of Faith (Rush Duel)"
+  },
+  {
+    "name_en": "Maha Vailo",
+    "name_ja": "マハー・ヴァイロ",
+    "name_ja_romaji": "Mahā Vairo",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "LIGHT",
+    "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1600,
+    "def": 1400,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "This card gains ATK equal to [the number of Equip Cards equipped to this card] x 500.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MahaVailo-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP010",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Maha Vailo",
+    "_wiki_ts": "2026-06-23T07:17:33Z",
+    "raw_name_en": "Maha Vailo (Rush Duel)"
+  },
+  {
+    "name_en": "Mask of Darkness",
+    "name_ja": "闇の仮面",
+    "name_ja_romaji": "Yami no Kamen",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "DARK",
+    "types": "Fiend / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 2,
+    "atk": 900,
+    "def": 400,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During your Main Phase this card was flipped face-up.",
+    "effect": "Add 1 non-Legend Trap Card from your Graveyard to your hand. This turn, you cannot activate the effect of \"Mask of Darkness\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MaskofDarkness-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP007",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Mask of Darkness",
+    "_wiki_ts": "2026-06-23T07:10:20Z",
+    "raw_name_en": "Mask of Darkness (Rush Duel)"
+  },
+  {
+    "name_en": "Mystical Space Typhoon",
+    "name_ja": "サイクロン",
+    "name_ja_romaji": "Saikuron",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During a turn you have not activated \"Mystical Space Typhoon\".",
+    "effect": "Destroy 1 Spell/Trap Card on the field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MysticalSpaceTyphoon-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP012",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Mystical Space Typhoon",
+    "_wiki_ts": "2026-06-23T07:26:29Z",
+    "raw_name_en": "Mystical Space Typhoon (Rush Duel)"
+  },
+  {
+    "name_en": "Panther Warrior",
+    "name_ja": "漆黒の豹戦士パンサーウォリアー",
+    "name_ja_romaji": "Shikkoku no Hyōsenshi Pansā Woriā",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "EARTH",
+    "types": "Beast-Warrior / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 2000,
+    "def": 1600,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "This card cannot attack during a turn its effect was not activated.",
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Send 1 other monster from your field to the Graveyard.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "PantherWarrior-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP024",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Panther Warrior",
+    "_wiki_ts": "2026-06-23T07:09:55Z",
+    "raw_name_en": "Panther Warrior (Rush Duel)"
+  },
+  {
+    "name_en": "Penguin Soldier",
+    "name_ja": "ペンギン・ソルジャー",
+    "name_ja_romaji": "Pengin Sorujā",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "WATER",
+    "types": "Aqua / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 2,
+    "atk": 800,
+    "def": 500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During your Main Phase this card was flipped face-up.",
+    "effect": "Return up to 2 face-up Level 8 or lower monsters from your opponent's field to the owner's hand. This turn, you cannot activate the effect of \"Penguin Soldier\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "PenguinSoldier-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP022",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Penguin Soldier",
+    "_wiki_ts": "2026-06-23T07:03:25Z",
+    "raw_name_en": "Penguin Soldier (Rush Duel)"
+  },
+  {
+    "name_en": "Rescue Cat",
+    "name_ja": "レスキューキャット",
+    "name_ja_romaji": "Resukyū Kyatto",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "EARTH",
+    "types": "Beast / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 300,
+    "def": 100,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Send this face-up card from your field to the Graveyard.",
+    "effect": "Special Summon 2 Level 3 or lower Beast Type monsters from your Graveyard face-up to your field. Destroy the monsters Special Summoned by this effect during the End Phase of this turn. This turn, you cannot activate the effect of \"Rescue Cat\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "RescueCat-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP008",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Rescue Cat",
+    "_wiki_ts": "2026-06-23T07:29:01Z",
+    "raw_name_en": "Rescue Cat (Rush Duel)"
+  },
+  {
+    "name_en": "Robotic Knight",
+    "name_ja": "機械軍曹",
+    "name_ja_romaji": "Kikai Gunsō",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "FIRE",
+    "types": "Machine / Normal",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1600,
+    "def": 1800,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "''The Commander of Machine Types, he serves the Machine King. He is famous for the way he controls his troops.''",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "RoboticKnight-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP020",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Robotic Knight",
+    "_wiki_ts": "2026-06-23T07:35:04Z",
+    "raw_name_en": "Robotic Knight (Rush Duel)"
+  },
+  {
+    "name_en": "Summoner Monk",
+    "name_ja": "召喚僧サモンプリースト",
+    "name_ja_romaji": "Shōkansō Samon Purīsuto",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "DARK",
+    "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 800,
+    "def": 1600,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Send 1 Spell Card from your hand to the Graveyard, and change this Attack Position card to face-up Defense Position.",
+    "effect": "Excavate the top 6 cards of your Deck. You can Special Summon 1 excavated Level 4 monster face-up to your field. Shuffle the other cards into the Deck. This turn, the monster Special Summoned by this effect cannot attack.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "SummonerMonk-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP009",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Summoner Monk",
+    "_wiki_ts": "2026-06-23T07:36:14Z",
+    "raw_name_en": "Summoner Monk (Rush Duel)"
   }
 ]
