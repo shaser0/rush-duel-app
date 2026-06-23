@@ -16,17 +16,24 @@ if (process.env.RUSH_SYNC) {
   process.exit(1);
 }
 
+const http    = require('http');
 const express = require('express');
 const path    = require('path');
 const fs      = require('fs');
 const { spawn, exec } = require('child_process');
 const { writeJsonAtomic } = require('./scripts/lib/fs-atomic');
 
-const app  = express();
-const PORT = process.env.PORT || 3000;
+const app        = express();
+const httpServer = http.createServer(app);
+const PORT       = process.env.PORT || 3000;
 
 // When running as a pkg .exe, resolve data files from the real exe directory
 const APP_DIR = process.pkg ? path.dirname(process.execPath) : __dirname;
+
+// Reference data (cards.json & co) now ships from the jsDelivr CDN and is cached
+// client-side; distributed clients no longer carry it on disk. A checkout that
+// still has it locally is a maintainer/dev env (live wiki-sync tooling enabled).
+const HAS_LOCAL_DATA = fs.existsSync(path.join(APP_DIR, 'data', 'cards.json'));
 
 // Always write logs to data/rush-app.log; in pkg mode suppress console output.
 {
@@ -166,7 +173,8 @@ function saveDecks(data) {
 
 // ── Middleware ─────────────────────────────────────────────────────────────
 
-// Derived from PORT so the app still works when PORT is overridden via env.
+// In local mode: restrict to localhost origins only.
+// In online mode: allow any origin (players connect from VPN IPs).
 const ALLOWED_ORIGINS = new Set([
   `http://localhost:${PORT}`,
   `http://127.0.0.1:${PORT}`,
@@ -174,8 +182,10 @@ const ALLOWED_ORIGINS = new Set([
 
 app.use((req, res, next) => {
   const origin = req.headers.origin;
-  if (origin && !ALLOWED_ORIGINS.has(origin)) {
-    return res.status(403).json({ error: 'forbidden origin' });
+  if (!process.env.ONLINE_MODE) {
+    if (origin && !ALLOWED_ORIGINS.has(origin)) {
+      return res.status(403).json({ error: 'forbidden origin' });
+    }
   }
   if (origin) res.setHeader('Access-Control-Allow-Origin', origin);
   res.setHeader('Vary', 'Origin');
@@ -186,33 +196,37 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // ── Static + data endpoints ────────────────────────────────────────────────
 
-app.get('/cards.json',         (req, res) => res.sendFile(path.join(APP_DIR, 'data', 'cards.json')));
+// Same-origin fallback used only in dev (DATA_CDN_BASE=""); in prod the client
+// loads reference data from the CDN, so these files may be absent on disk.
+app.get('/cards.json',         (req, res) => res.sendFile(path.join(APP_DIR, 'data', 'cards.json'),         err => { if (err) res.status(404).json({}); }));
 app.get('/sets-data.json',     (req, res) => res.sendFile(path.join(APP_DIR, 'data', 'sets-data.json'),      err => { if (err) res.json({}); }));
 app.get('/gallery-images.json',(req, res) => res.sendFile(path.join(APP_DIR, 'data', 'gallery-images.json'), err => { if (err) res.json({}); }));
 app.get('/image-urls.json',    (req, res) => res.sendFile(path.join(APP_DIR, 'data', 'image-urls.json'),     err => { if (err) res.json({}); }));
 app.get('/banlist.json',       (req, res) => res.sendFile(path.join(APP_DIR, 'data', 'banlist.json'),        err => { if (err) res.json({}); }));
 
-// ── Collections API ────────────────────────────────────────────────────────
+// ── Collections + Decks API (local client only) ─────────────────────────────
+// These persist to a single shared file on disk. On a public ONLINE_MODE host
+// that is a global file writable by anyone — so the routes are local-only until
+// Phase 3 replaces them with authenticated, per-Discord-account storage (SQLite).
+if (!process.env.ONLINE_MODE) {
+  app.get('/api/collections', (req, res) => res.json(loadCollections()));
 
-app.get('/api/collections', (req, res) => res.json(loadCollections()));
+  app.put('/api/collections', (req, res) => {
+    if (!req.body || !Array.isArray(req.body.collections))
+      return res.status(400).json({ error: 'invalid body' });
+    saveCollections(req.body);
+    res.json({ ok: true });
+  });
 
-app.put('/api/collections', (req, res) => {
-  if (!req.body || !Array.isArray(req.body.collections))
-    return res.status(400).json({ error: 'invalid body' });
-  saveCollections(req.body);
-  res.json({ ok: true });
-});
+  app.get('/api/decks', (req, res) => res.json(loadDecks()));
 
-// ── Decks API ──────────────────────────────────────────────────────────────
-
-app.get('/api/decks', (req, res) => res.json(loadDecks()));
-
-app.put('/api/decks', (req, res) => {
-  if (!req.body || !Array.isArray(req.body.decks))
-    return res.status(400).json({ error: 'invalid body' });
-  saveDecks(req.body);
-  res.json({ ok: true });
-});
+  app.put('/api/decks', (req, res) => {
+    if (!req.body || !Array.isArray(req.body.decks))
+      return res.status(400).json({ error: 'invalid body' });
+    saveDecks(req.body);
+    res.json({ ok: true });
+  });
+}
 
 // ── Version API ────────────────────────────────────────────────────────────
 
@@ -220,8 +234,28 @@ app.get('/api/version', (req, res) => {
   res.json({ version: require('./package.json').version });
 });
 
-// ── Sync API ───────────────────────────────────────────────────────────────
+// ── Client config ──────────────────────────────────────────────────────────
+// Tells the SPA where to load reference data (jsDelivr CDN, pinned to an
+// immutable release tag) and, later, the Oracle backend for duels/auth.
+// `maintainer` enables the live-sync UI only on a checkout that has local data.
 
+app.get('/api/config', (req, res) => {
+  const tag = process.env.DATA_TAG || ('v' + require('./package.json').version);
+  // Setting DATA_CDN_BASE="" (empty) forces the same-origin dev fallback.
+  const cdnBase = ('DATA_CDN_BASE' in process.env)
+    ? process.env.DATA_CDN_BASE
+    : `https://cdn.jsdelivr.net/gh/shaser0/rush-duel-app@${tag}/data`;
+  res.json({
+    dataBase:   cdnBase.replace(/\/+$/, ''),
+    dataTag:    tag,
+    oracleBase: (process.env.ORACLE_URL || '').replace(/\/+$/, ''),
+    maintainer: HAS_LOCAL_DATA,
+  });
+});
+
+// ── Sync API (maintainer/dev only — needs local data + wiki-sync tooling) ────
+
+if (HAS_LOCAL_DATA) {
 app.get('/api/sync-status', (req, res) => {
   // Read sync-state.json written by sync-cards.js for the authoritative cards sync timestamp
   let cardsLastSync = null;
@@ -250,6 +284,7 @@ app.post('/api/sync', (req, res) => {
     alreadyRunning: targets.filter(n => SYNCS[n].running && !started.includes(n)),
   });
 });
+} // end HAS_LOCAL_DATA (sync API)
 
 // ── Browser launcher ──────────────────────────────────────────────────────
 
@@ -277,7 +312,7 @@ function openBrowser(url) {
 
 // ── Heartbeat / auto-shutdown (packaged exe only) ──────────────────────────
 
-if (process.pkg) {
+if (process.pkg && !process.env.ONLINE_MODE) {
   let lastSeen = null;
   let watchdog = null;
 
@@ -292,75 +327,44 @@ if (process.pkg) {
   });
 }
 
-// ── Binary update API ──────────────────────────────────────────────────────
+// ── Binary update API (local mode only) ───────────────────────────────────
 
-const { checkUpdate, downloadUpdate, writeApplyScript } = require('./scripts/release/update');
+if (!process.env.ONLINE_MODE) {
+  const { checkUpdate, downloadUpdate, writeApplyScript } = require('./scripts/release/update');
 
-app.get('/api/update/check', async (req, res) => {
-  try {
-    const info = await checkUpdate();
-    res.json(info);
-  } catch (e) {
-    res.status(500).json({ error: e.message });
-  }
-});
-
-app.post('/api/update/apply', async (req, res) => {
-  res.setHeader('Content-Type', 'application/x-ndjson');
-  res.setHeader('Transfer-Encoding', 'chunked');
-  res.flushHeaders();
-  try {
-    const info = await checkUpdate();
-    if (!info.hasUpdate || !info.downloadUrl) {
-      res.write(JSON.stringify({ done: true, alreadyUpToDate: true }) + '\n');
-      return res.end();
+  app.get('/api/update/check', async (req, res) => {
+    try {
+      const info = await checkUpdate();
+      res.json(info);
+    } catch (e) {
+      res.status(500).json({ error: e.message });
     }
-    await downloadUpdate(info.downloadUrl, info.release, APP_DIR, pct => {
-      res.write(JSON.stringify({ progress: Math.round(pct * 100) / 100 }) + '\n');
-    });
-    const script = writeApplyScript(APP_DIR);
-    res.write(JSON.stringify({ done: true, version: info.latest, script }) + '\n');
-  } catch (e) {
-    res.write(JSON.stringify({ error: e.message }) + '\n');
-  }
-  res.end();
-});
+  });
 
-// ── Data update API ────────────────────────────────────────────────────────
-
-const { checkDataUpdate, downloadData } = require('./scripts/release/data-update');
-
-app.get('/api/data/check', async (req, res) => {
-  try {
-    const info = await checkDataUpdate(APP_DIR);
-    res.json(info);
-  } catch (e) {
-    res.status(500).json({ error: e.message });
-  }
-});
-
-app.post('/api/data/apply', async (req, res) => {
-  res.setHeader('Content-Type', 'application/x-ndjson');
-  res.setHeader('Transfer-Encoding', 'chunked');
-  res.flushHeaders();
-  try {
-    const info = await checkDataUpdate(APP_DIR);
-    if (!info.hasUpdate) {
-      res.write(JSON.stringify({ done: true, alreadyUpToDate: true }) + '\n');
-      return res.end();
+  app.post('/api/update/apply', async (req, res) => {
+    res.setHeader('Content-Type', 'application/x-ndjson');
+    res.setHeader('Transfer-Encoding', 'chunked');
+    res.flushHeaders();
+    try {
+      const info = await checkUpdate();
+      if (!info.hasUpdate || !info.downloadUrl) {
+        res.write(JSON.stringify({ done: true, alreadyUpToDate: true }) + '\n');
+        return res.end();
+      }
+      await downloadUpdate(info.downloadUrl, info.release, APP_DIR, pct => {
+        res.write(JSON.stringify({ progress: Math.round(pct * 100) / 100 }) + '\n');
+      });
+      const script = writeApplyScript(APP_DIR);
+      res.write(JSON.stringify({ done: true, version: info.latest, script }) + '\n');
+    } catch (e) {
+      res.write(JSON.stringify({ error: e.message }) + '\n');
     }
-    await downloadData(APP_DIR, info.files, info.hashes, info.rawBase, pct => {
-      res.write(JSON.stringify({ progress: Math.round(pct * 100) / 100 }) + '\n');
-    });
-    // Write updated local data-version.json
-    const verPath = path.join(APP_DIR, 'data', 'data-version.json');
-    writeJsonAtomic(verPath, info.remoteManifest);
-    res.write(JSON.stringify({ done: true, version: info.remoteVersion }) + '\n');
-  } catch (e) {
-    res.write(JSON.stringify({ error: e.message }) + '\n');
-  }
-  res.end();
-});
+    res.end();
+  });
+}
+
+// Data-update-to-disk API removed: reference data is now served from the
+// jsDelivr CDN and cached client-side (see /api/config + the SPA loader).
 
 // ── Migrations ─────────────────────────────────────────────────────────────
 
@@ -401,13 +405,28 @@ function runStartupMigrations() {
   }
 }
 
+// ── Online mode ────────────────────────────────────────────────────────────
+
+if (process.env.ONLINE_MODE) {
+  require('./online').mount(httpServer);
+}
+
 // ── Start server ───────────────────────────────────────────────────────────
 
-app.listen(PORT, '127.0.0.1', () => {
-  console.log(`Server running at http://localhost:${PORT}`);
+const HOST = process.env.ONLINE_MODE ? '0.0.0.0' : '127.0.0.1';
+
+httpServer.listen(PORT, HOST, () => {
+  console.log(`Server running at http://${HOST === '0.0.0.0' ? 'localhost' : HOST}:${PORT}`);
+  if (process.env.ONLINE_MODE) {
+    console.log(`[online] Listening on 0.0.0.0:${PORT} — reachable via ZeroTier/Tailscale IP`);
+  }
   runStartupMigrations();
 
-  if (process.pkg) openBrowser(`http://localhost:${PORT}`);
-  startStaleSyncs();
-  setInterval(startStaleSyncs, CHECK_INTERVAL_MS);
+  if (process.pkg && !process.env.ONLINE_MODE) openBrowser(`http://localhost:${PORT}`);
+  // Live wiki-sync only on a maintainer/dev checkout; distributed clients and the
+  // Oracle host get reference data from the CDN, so they never scrape.
+  if (HAS_LOCAL_DATA) {
+    startStaleSyncs();
+    setInterval(startStaleSyncs, CHECK_INTERVAL_MS);
+  }
 });
