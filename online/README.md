@@ -53,7 +53,7 @@ Share the `https://xxx.trycloudflare.com` URL and the room code with your oppone
 
 ## Module architecture
 
-```
+```text
 online/
   index.js      ← Socket.IO mount + event handlers (authoritative)
   rooms.js      ← In-memory room state (Map code → room)

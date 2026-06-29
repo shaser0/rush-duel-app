@@ -82,6 +82,8 @@ function makeInstance(game, raw) {
     imgFile:  raw && raw.imgFile != null ? String(raw.imgFile) : '',
     faceDown: false,
     position: 'atk',
+    atkOverride: null,
+    defOverride: null,
   };
 }
 

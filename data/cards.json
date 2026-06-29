@@ -5880,6 +5880,8 @@
     "name_es": null,
     "attribute": "EARTH",
     "types": "Machine / Effect",
+    "card_type": null,
+    "property": null,
     "level": 5,
     "atk": 1700,
     "def": 1700,
@@ -5893,7 +5895,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AncientGearGadjiltronManticore-RDKP19-JP-C.png"
+        "file": "AncientGearGadjiltronManticore-RDB244-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -5920,11 +5922,9 @@
       "Ancient Gear"
     ],
     "password": null,
-    "title": "Ancient Gear Gadjiltron Manticore",
-    "_wiki_ts": "2025-02-14T12:37:36Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Ancient Gear Gadjiltron Manticore",
+    "_wiki_ts": "2026-06-28T13:09:09Z",
     "raw_name_en": "Ancient Gear Gadjiltron Manticore"
   },
   {
@@ -6629,6 +6629,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -6642,7 +6644,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AngelJudge-RDMAX2-JP-R.png"
+        "file": "AngelJudge-RDB244-JP-SR.png"
       },
       {
         "artwork": 1.1,
@@ -6676,11 +6678,9 @@
     "database_id": "16612",
     "archseries": [],
     "password": null,
-    "title": "Angel Judge",
-    "_wiki_ts": "2025-04-25T19:53:53Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Angel Judge",
+    "_wiki_ts": "2026-06-28T09:30:58Z",
     "raw_name_en": "Angel Judge"
   },
   {
@@ -19794,6 +19794,10 @@
       {
         "artwork": 2,
         "file": "BusterBlader-RDS23P-JP-UPR.png"
+      },
+      {
+        "artwork": 3,
+        "file": "BusterBlader-RDLP01-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -19840,7 +19844,7 @@
     "password": null,
     "is_legend": true,
     "title": "Buster Blader",
-    "_wiki_ts": "2026-06-23T07:35:34Z",
+    "_wiki_ts": "2026-06-25T17:18:09Z",
     "raw_name_en": "Buster Blader (Rush Duel)"
   },
   {
@@ -24933,6 +24937,8 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Pyro / Effect",
+    "card_type": null,
+    "property": null,
     "level": 1,
     "atk": 600,
     "def": 0,
@@ -24946,7 +24952,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ChemipetChirp-RDKP17-JP-R.png"
+        "file": "ChemipetChirp-RDB244-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -24973,11 +24979,9 @@
       "Chemistry"
     ],
     "password": null,
-    "title": "Chemipet Chirp",
-    "_wiki_ts": "2025-02-27T21:16:07Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Chemipet Chirp",
+    "_wiki_ts": "2026-06-28T09:30:11Z",
     "raw_name_en": "Chemipet Chirp"
   },
   {
@@ -28838,6 +28842,8 @@
     "name_es": null,
     "attribute": "DARK",
     "types": "Galaxy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 5,
     "atk": 1500,
     "def": 1300,
@@ -28851,7 +28857,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ContactDarkMatterWyvern-RDKP18-JP-R.png"
+        "file": "ContactDarkMatterWyvern-RDB243-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -28883,11 +28889,9 @@
       "Dark Matter"
     ],
     "password": null,
-    "title": "Contact Dark Matter Wyvern",
-    "_wiki_ts": "2025-11-26T16:23:18Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Contact Dark Matter Wyvern",
+    "_wiki_ts": "2026-06-28T09:39:13Z",
     "raw_name_en": "Contact Dark Matter Wyvern"
   },
   {
@@ -33316,6 +33320,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -33342,6 +33348,11 @@
         "code": "RD/B252-JP005",
         "name": "Battle Pack 2025 Vol.2",
         "rarity": "Super Rare"
+      },
+      {
+        "code": "RD/AP03-JP054",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "sets_kr": [
@@ -33361,11 +33372,9 @@
       "Cyber Dragon"
     ],
     "password": null,
-    "title": "Cyber Variation",
-    "_wiki_ts": "2025-11-26T17:05:20Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Cyber Variation",
+    "_wiki_ts": "2026-06-25T14:02:18Z",
     "raw_name_en": "Cyber Variation"
   },
   {
@@ -34977,6 +34986,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -34990,7 +35001,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DarkHoleDevice-RDKP14-JP-R.png"
+        "file": "DarkHoleDevice-RDB243-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -35020,11 +35031,9 @@
     "database_id": "19327",
     "archseries": [],
     "password": null,
-    "title": "Dark Hole Device",
-    "_wiki_ts": "2025-05-20T20:30:37Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Dark Hole Device",
+    "_wiki_ts": "2026-06-28T09:39:55Z",
     "raw_name_en": "Dark Hole Device"
   },
   {
@@ -37680,6 +37689,8 @@
     "name_es": null,
     "attribute": "DARK",
     "types": "Fairy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 8,
     "atk": 2800,
     "def": 2300,
@@ -37693,7 +37704,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DarklordZerato-RDKP11-JP-ScR.png"
+        "file": "DarklordZerato-RDB243-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -37720,11 +37731,9 @@
       "Zera"
     ],
     "password": null,
-    "title": "Darklord Zerato",
-    "_wiki_ts": "2025-08-24T23:41:39Z",
     "is_legend": true,
-    "card_type": null,
-    "property": null,
+    "title": "Darklord Zerato",
+    "_wiki_ts": "2026-06-28T09:39:07Z",
     "raw_name_en": "Darklord Zerato (Rush Duel)"
   },
   {
@@ -50707,6 +50716,8 @@
     "name_es": null,
     "attribute": "EARTH",
     "types": "Insect / Effect",
+    "card_type": null,
+    "property": null,
     "level": 8,
     "atk": 2500,
     "def": 1700,
@@ -50720,7 +50731,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DynasDorcustheBeetleKing-RDKP09-JP-R.png"
+        "file": "DynasDorcustheBeetleKing-RDB244-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -50745,11 +50756,9 @@
     "database_id": "17522",
     "archseries": [],
     "password": null,
-    "title": "Dynas Dorcus the Beetle King",
-    "_wiki_ts": "2025-05-21T14:28:44Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Dynas Dorcus the Beetle King",
+    "_wiki_ts": "2026-06-28T09:30:42Z",
     "raw_name_en": "Dynas Dorcus the Beetle King"
   },
   {
@@ -58515,6 +58524,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -58528,7 +58539,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "FairysInjection-RDKP19-JP-C.png"
+        "file": "FairysInjection-RDB244-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -58553,11 +58564,9 @@
     "database_id": "21012",
     "archseries": [],
     "password": null,
-    "title": "Fairy's Injection",
-    "_wiki_ts": "2026-04-20T22:26:59Z",
     "is_legend": false,
-    "card_type": "Trap",
-    "property": "Normal",
+    "title": "Fairy's Injection",
+    "_wiki_ts": "2026-06-28T09:30:06Z",
     "raw_name_en": "Fairy's Injection"
   },
   {
@@ -58647,6 +58656,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1300,
     "def": 1000,
@@ -58660,7 +58671,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "FakeNeos-RDKP18-JP-C.png"
+        "file": "FakeNeos-RDB244-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -58688,11 +58699,9 @@
       "Neos"
     ],
     "password": null,
-    "title": "Fake Neos",
-    "_wiki_ts": "2025-12-01T08:40:43Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Fake Neos",
+    "_wiki_ts": "2026-06-28T09:29:57Z",
     "raw_name_en": "Fake Neos"
   },
   {
@@ -59657,6 +59666,11 @@
         "code": "RD/B262-JP005",
         "name": "Battle Bonus Pack 2026 Vol.2",
         "rarity": "Super Parallel Rare"
+      },
+      {
+        "code": "RD/AP03-JP038",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "sets_kr": [
@@ -59673,7 +59687,7 @@
     "password": null,
     "is_legend": false,
     "title": "Feverous Spirit Stadium",
-    "_wiki_ts": "2026-06-19T18:11:13Z",
+    "_wiki_ts": "2026-06-24T21:46:52Z",
     "raw_name_en": "Feverous Spirit Stadium"
   },
   {
@@ -63900,7 +63914,7 @@
     "password": null,
     "is_legend": false,
     "title": "Fusion",
-    "_wiki_ts": "2026-06-08T15:18:33Z",
+    "_wiki_ts": "2026-06-28T17:48:32Z",
     "raw_name_en": "Fusion (Rush Duel)"
   },
   {
@@ -65075,6 +65089,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Galaxy / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 7,
     "atk": 2400,
     "def": 1600,
@@ -65088,7 +65104,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "GalactiaraFUSEEve-RDKP13-JP-C.png"
+        "file": "GalactiaraFUSEEve-RDB244-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -65113,11 +65129,9 @@
     "database_id": "18963",
     "archseries": [],
     "password": null,
-    "title": "Galactiara FUSE Eve",
-    "_wiki_ts": "2025-05-09T02:39:29Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Galactiara FUSE Eve",
+    "_wiki_ts": "2026-06-28T09:30:48Z",
     "raw_name_en": "Galactiara FUSE Eve"
   },
   {
@@ -65805,6 +65819,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Galaxy / Normal",
+    "card_type": null,
+    "property": null,
     "level": 7,
     "atk": 2500,
     "def": 2500,
@@ -65922,11 +65938,9 @@
       "Galactica"
     ],
     "password": null,
-    "title": "Galactica Oblivion",
-    "_wiki_ts": "2026-05-21T22:17:22Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Galactica Oblivion",
+    "_wiki_ts": "2026-06-28T17:40:57Z",
     "raw_name_en": "Galactica Oblivion"
   },
   {
@@ -68323,6 +68337,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 8,
     "atk": 2800,
     "def": 1400,
@@ -68336,7 +68352,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "GilfordtheLightning-RDKP12-JP-ScR.png"
+        "file": "GilfordtheLightning-RDB244-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -68366,11 +68382,9 @@
     "database_id": "18582",
     "archseries": [],
     "password": null,
-    "title": "Gilford the Lightning",
-    "_wiki_ts": "2026-04-06T19:19:47Z",
     "is_legend": true,
-    "card_type": null,
-    "property": null,
+    "title": "Gilford the Lightning",
+    "_wiki_ts": "2026-06-28T09:29:27Z",
     "raw_name_en": "Gilford the Lightning (Rush Duel)"
   },
   {
@@ -88252,6 +88266,8 @@
     "name_es": null,
     "attribute": "WIND",
     "types": "Plant / Normal",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1500,
     "def": 0,
@@ -88278,6 +88294,11 @@
         "code": "RD/ATR1-JP027",
         "name": "Attraction Pack",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/AP03-JP045",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "sets_kr": [
@@ -88288,13 +88309,13 @@
       }
     ],
     "database_id": "17284",
-    "archseries": [],
+    "archseries": [
+      "Lauan Adventurers"
+    ],
     "password": null,
-    "title": "Lauan Adventurers",
-    "_wiki_ts": "2025-05-21T17:17:59Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Lauan Adventurers",
+    "_wiki_ts": "2026-06-29T02:48:32Z",
     "raw_name_en": "Lauan Adventurers"
   },
   {
@@ -90552,6 +90573,8 @@
     "name_es": null,
     "attribute": "EARTH",
     "types": "Thunder / Effect",
+    "card_type": null,
+    "property": null,
     "level": 2,
     "atk": 800,
     "def": 1200,
@@ -90565,7 +90588,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LightningBringerSpirit-RDKP08-JP-UR.png"
+        "file": "LightningBringerSpirit-RDB243-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -90597,11 +90620,9 @@
       "Lightning Bringer"
     ],
     "password": null,
-    "title": "Lightning Bringer Spirit",
-    "_wiki_ts": "2025-05-20T19:24:04Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Lightning Bringer Spirit",
+    "_wiki_ts": "2026-06-28T09:35:44Z",
     "raw_name_en": "Lightning Bringer Spirit"
   },
   {
@@ -95782,6 +95803,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -95795,7 +95818,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MaidsBanefulGift-RDKP08-JP-C.png"
+        "file": "MaidsBanefulGift-RDB243-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -95827,11 +95850,9 @@
       "Necromaid"
     ],
     "password": null,
-    "title": "Maid's Baneful Gift",
-    "_wiki_ts": "2025-10-22T02:45:27Z",
     "is_legend": false,
-    "card_type": "Trap",
-    "property": "Normal",
+    "title": "Maid's Baneful Gift",
+    "_wiki_ts": "2026-06-28T09:40:05Z",
     "raw_name_en": "Maid's Baneful Gift"
   },
   {
@@ -102433,6 +102454,10 @@
       {
         "artwork": 1,
         "file": "MobiustheFrostMonarch-RDLGP2-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "MobiustheFrostMonarch-RDLP01-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -102461,7 +102486,7 @@
     "password": null,
     "is_legend": true,
     "title": "Mobius the Frost Monarch",
-    "_wiki_ts": "2026-06-23T07:07:46Z",
+    "_wiki_ts": "2026-06-25T17:13:55Z",
     "raw_name_en": "Mobius the Frost Monarch (Rush Duel)"
   },
   {
@@ -107794,6 +107819,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -107807,7 +107834,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheNoodleArtofSaucery-RDSD04-JP-C.png"
+        "file": "TheNoodleArtofSaucery-RDB243-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -107844,11 +107871,9 @@
       "Noodle Ninja"
     ],
     "password": null,
-    "title": "The Noodle Art of Saucery",
-    "_wiki_ts": "2025-01-12T04:55:24Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "The Noodle Art of Saucery",
+    "_wiki_ts": "2026-06-28T09:39:26Z",
     "raw_name_en": "The Noodle Art of Saucery"
   },
   {
@@ -115433,6 +115458,8 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 8,
     "atk": 2500,
     "def": 2000,
@@ -115443,12 +115470,22 @@
     "requirement": "If a face-up \"Feverous Spirit Stadium\" is on the field, send 2 face-up Level 4 FIRE Attribute monsters from your field to the Graveyard.",
     "effect": "This card gains 2500 ATK until the end of this turn. This turn, you can only attack with this card.",
     "flavor_text": null,
-    "images": [],
+    "images": [
+      {
+        "artwork": 1,
+        "file": "Player39HomeRunHitter-RDKP07-JP-UR.png"
+      }
+    ],
     "sets_jp": [
       {
         "code": "RD/KP07-JP028",
         "name": "Deck Mod Pack: Chaotic Omega Rising!!",
         "rarity": "Ultra Rare"
+      },
+      {
+        "code": "RD/AP03-JP061",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common, Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -115463,11 +115500,9 @@
       "Baseball"
     ],
     "password": null,
-    "title": "Player 39: Home Run Hitter",
-    "_wiki_ts": "2025-06-25T16:57:27Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Player 39: Home Run Hitter",
+    "_wiki_ts": "2026-06-24T21:51:16Z",
     "raw_name_en": "Player #39: Home Run Hitter"
   },
   {
@@ -115481,6 +115516,8 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Dragon / Effect",
+    "card_type": null,
+    "property": null,
     "level": 8,
     "atk": 2000,
     "def": 2000,
@@ -115491,12 +115528,22 @@
     "requirement": "Shuffle 3 FIRE Attribute monsters from your Graveyard into the Deck.",
     "effect": "Special Summon 1 \"Player #39: Home Run Hitter\" from your Graveyard face-up to your field. Then, this card gains 2000 ATK until the end of this turn.",
     "flavor_text": null,
-    "images": [],
+    "images": [
+      {
+        "artwork": 1,
+        "file": "Player99GrandSlamDragon-RDKP07-JP-SR.png"
+      }
+    ],
     "sets_jp": [
       {
         "code": "RD/KP07-JP027",
         "name": "Deck Mod Pack: Chaotic Omega Rising!!",
         "rarity": "Super Rare"
+      },
+      {
+        "code": "RD/AP03-JP030",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "sets_kr": [
@@ -115511,11 +115558,9 @@
       "Baseball"
     ],
     "password": null,
-    "title": "Player 99: Grand Slam Dragon",
-    "_wiki_ts": "2025-06-25T16:58:25Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Player 99: Grand Slam Dragon",
+    "_wiki_ts": "2026-06-24T21:26:14Z",
     "raw_name_en": "Player #99: Grand Slam Dragon"
   },
   {
@@ -115529,6 +115574,8 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 8,
     "atk": 2500,
     "def": 2000,
@@ -115550,6 +115597,11 @@
         "code": "RD/KP08-JP016",
         "name": "Deck Mod Pack: Genesis Master Road!!",
         "rarity": "Super Rare"
+      },
+      {
+        "code": "RD/AP03-JP029",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "sets_kr": [
@@ -115564,11 +115616,9 @@
       "Baseball"
     ],
     "password": null,
-    "title": "Player C39: Home Run Smasher",
-    "_wiki_ts": "2025-06-25T18:46:30Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Player C39: Home Run Smasher",
+    "_wiki_ts": "2026-06-24T21:21:21Z",
     "raw_name_en": "Player #C39: Home Run Smasher"
   },
   {
@@ -115855,6 +115905,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Psychic / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 10,
     "atk": 2700,
     "def": 3200,
@@ -115875,7 +115927,7 @@
       {
         "code": "RD/AP03-JP014",
         "name": "Advance Pack: Union Base",
-        "rarity": "Ultra Rare,Over Rush Rare"
+        "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -115884,12 +115936,9 @@
       "Pliage"
     ],
     "password": null,
-    "title": "Pliage the Star Sanctuary",
-    "_wiki_ts": "2026-05-25T19:34:47Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
-    "jp_sets": "RD/AP03-JP014; Advance Pack: Union Base; Ultra Rare, Over Rush Rare",
+    "title": "Pliage the Star Sanctuary",
+    "_wiki_ts": "2026-06-25T21:21:33Z",
     "raw_name_en": "Pliage the Star Sanctuary"
   },
   {
@@ -115903,6 +115952,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Psychic / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 5,
     "atk": 1700,
     "def": 2500,
@@ -115924,6 +115975,11 @@
         "code": "RD/KP20-JP050",
         "name": "Galactica of Eternity",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/AP03-JP060",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -115938,11 +115994,9 @@
       "Pliage"
     ],
     "password": null,
-    "title": "Pliage the Stylish Sacred Shooting Star",
-    "_wiki_ts": "2026-05-25T18:47:01Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Pliage the Stylish Sacred Shooting Star",
+    "_wiki_ts": "2026-06-29T02:51:28Z",
     "raw_name_en": "Pliage the Stylish Sacred Shooting Star"
   },
   {
@@ -116653,6 +116707,10 @@
       {
         "artwork": 2,
         "file": "PotofGreed-RDORP4-JP-ORR.png"
+      },
+      {
+        "artwork": 3,
+        "file": "PotofGreed-RDLP01-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -116709,7 +116767,7 @@
     "password": null,
     "is_legend": true,
     "title": "Pot of Greed",
-    "_wiki_ts": "2026-06-23T06:59:00Z",
+    "_wiki_ts": "2026-06-25T17:21:33Z",
     "raw_name_en": "Pot of Greed (Rush Duel)"
   },
   {
@@ -117317,6 +117375,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -117330,7 +117390,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "PraimeCall-RDKP16-JP-C.png"
+        "file": "PraimeCall-RDB243-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -117357,11 +117417,9 @@
       "Praime"
     ],
     "password": null,
-    "title": "Praime Call",
-    "_wiki_ts": "2024-12-06T06:52:35Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Praime Call",
+    "_wiki_ts": "2026-06-28T09:39:16Z",
     "raw_name_en": "Praime Call"
   },
   {
@@ -118185,11 +118243,13 @@
       }
     ],
     "database_id": "16928",
-    "archseries": [],
+    "archseries": [
+      "Star Protector"
+    ],
     "password": null,
     "is_legend": false,
     "title": "Priestess of Star Salvation",
-    "_wiki_ts": "2026-06-15T14:51:37Z",
+    "_wiki_ts": "2026-06-28T19:17:51Z",
     "raw_name_en": "Priestess of Star Salvation"
   },
   {
@@ -123135,6 +123195,10 @@
       {
         "artwork": 3,
         "file": "RedEyesBlackDragon-RDTB02-JP-ORR.png"
+      },
+      {
+        "artwork": 4,
+        "file": "RedEyesBlackDragon-RDLP01-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -123203,7 +123267,7 @@
     "password": null,
     "is_legend": true,
     "title": "Red-Eyes Black Dragon",
-    "_wiki_ts": "2026-06-23T07:30:10Z",
+    "_wiki_ts": "2026-06-25T17:08:29Z",
     "raw_name_en": "Red-Eyes Black Dragon (Rush Duel)"
   },
   {
@@ -144790,6 +144854,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -144804,6 +144870,10 @@
       {
         "artwork": 1,
         "file": "StaroftheBeginning-RDLGP2-JP-UR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "StaroftheBeginning-RDAP03-JP-OP-AA.png"
       }
     ],
     "sets_jp": [
@@ -144811,6 +144881,11 @@
         "code": "RD/LGP2-JP074",
         "name": "Neo Legend Awakening Pack",
         "rarity": "Ultra Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/AP03-JP002",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Super Rare, Full Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -144825,11 +144900,9 @@
       "Pliage"
     ],
     "password": null,
-    "title": "Star of the Beginning",
-    "_wiki_ts": "2026-05-26T01:19:39Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Star of the Beginning",
+    "_wiki_ts": "2026-06-28T17:45:04Z",
     "raw_name_en": "Star of the Beginning"
   },
   {
@@ -144843,6 +144916,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -144884,13 +144959,13 @@
       }
     ],
     "database_id": "19700",
-    "archseries": [],
+    "archseries": [
+      "Star Protector"
+    ],
     "password": null,
-    "title": "Star Protector's Protection",
-    "_wiki_ts": "2026-04-20T08:46:24Z",
     "is_legend": false,
-    "card_type": "Trap",
-    "property": "Normal",
+    "title": "Star Protector's Protection",
+    "_wiki_ts": "2026-06-28T19:18:35Z",
     "raw_name_en": "Star Protector's Protection"
   },
   {
@@ -144981,6 +145056,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Dragon / Normal",
+    "card_type": null,
+    "property": null,
     "level": 5,
     "atk": 2100,
     "def": 2100,
@@ -145010,12 +145087,9 @@
       "Pliage"
     ],
     "password": null,
-    "title": "Star Replete",
-    "_wiki_ts": "2026-05-25T18:25:32Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
-    "jp_sets": "RD/AP03-JP017; Advance Pack: Union Base; Common",
+    "title": "Star Replete",
+    "_wiki_ts": "2026-06-24T20:56:55Z",
     "raw_name_en": "Star Replete"
   },
   {
@@ -147098,6 +147172,8 @@
     "name_es": null,
     "attribute": "EARTH",
     "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
     "level": 1,
     "atk": 0,
     "def": 1400,
@@ -147111,7 +147187,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "StrayngeMagician-RDSJMP-JP-NPR.png"
+        "file": "StrayngeMagician-RDB243-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -147138,11 +147214,9 @@
       "Straynge Cat"
     ],
     "password": null,
-    "title": "Straynge Magician",
-    "_wiki_ts": "2025-05-09T06:44:27Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Straynge Magician",
+    "_wiki_ts": "2026-06-28T09:39:20Z",
     "raw_name_en": "Straynge Magician"
   },
   {
@@ -149881,6 +149955,8 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Dinosaur / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 500,
     "def": 1200,
@@ -149894,7 +149970,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SupressaurusSternptera-RDMAX2-JP-C.png"
+        "file": "SupressaurusSternptera-RDB244-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -149919,11 +149995,9 @@
     "database_id": "16579",
     "archseries": [],
     "password": null,
-    "title": "Supressaurus Sternptera",
-    "_wiki_ts": "2024-12-21T15:19:01Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Supressaurus Sternptera",
+    "_wiki_ts": "2026-06-28T09:30:34Z",
     "raw_name_en": "Supressaurus Sternptera"
   },
   {
@@ -154287,6 +154361,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -154328,6 +154404,11 @@
         "code": "RD/SD0F-JP027",
         "name": "Structure Deck: Triumphant Return of the Monarchs",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/AP03-JP062",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "sets_kr": [
@@ -154360,11 +154441,9 @@
     "database_id": "17721",
     "archseries": [],
     "password": null,
-    "title": "Trade-In",
-    "_wiki_ts": "2026-01-29T07:39:43Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Trade-In",
+    "_wiki_ts": "2026-06-27T17:14:12Z",
     "raw_name_en": "Trade-In (Rush Duel)"
   },
   {
@@ -163754,6 +163833,8 @@
     "name_es": null,
     "attribute": "DARK",
     "types": "Galaxy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 7,
     "atk": 2000,
     "def": 2600,
@@ -163767,7 +163848,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "VoidvelgHecatoncheir-RDSD05-JP-C.png"
+        "file": "VoidvelgHecatoncheir-RDB244-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -163794,11 +163875,9 @@
       "Voidvelg"
     ],
     "password": null,
-    "title": "Voidvelg Hecatoncheir",
-    "_wiki_ts": "2025-01-15T02:10:02Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Voidvelg Hecatoncheir",
+    "_wiki_ts": "2026-06-28T09:30:40Z",
     "raw_name_en": "Voidvelg Hecatoncheir"
   },
   {
@@ -172255,7 +172334,7 @@
     "password": null,
     "is_legend": false,
     "title": "Spirit of the Stars",
-    "_wiki_ts": "2026-06-14T18:51:54Z",
+    "_wiki_ts": "2026-06-24T21:00:20Z",
     "raw_name_en": "Spirit of the Stars"
   },
   {
@@ -173175,7 +173254,7 @@
     "password": null,
     "is_legend": false,
     "title": "Penguin Soldier",
-    "_wiki_ts": "2026-06-23T07:03:25Z",
+    "_wiki_ts": "2026-06-24T03:18:39Z",
     "raw_name_en": "Penguin Soldier (Rush Duel)"
   },
   {
@@ -173312,5 +173391,1908 @@
     "title": "Summoner Monk",
     "_wiki_ts": "2026-06-23T07:36:14Z",
     "raw_name_en": "Summoner Monk (Rush Duel)"
+  },
+  {
+    "name_en": "Brain Control",
+    "name_ja": "洗脳－ブレインコントロール",
+    "name_ja_romaji": "Sennō - Burein Kontorōru",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Pay 800 LP.",
+    "effect": "Take control of 1 face-up Level 8 or lower monster on your opponent's field that is not in Maximum Mode until the End Phase (when control of that monster is returned, if there is no Monster Zone to return to, send it to the Graveyard). This turn, you cannot activate that monster's effect.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "BrainControl-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP003",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": true,
+    "title": "Brain Control",
+    "_wiki_ts": "2026-06-23T23:34:08Z",
+    "raw_name_en": "Brain Control (Rush Duel)"
+  },
+  {
+    "name_en": "Contractor of the Deep Dragon",
+    "name_ja": "深竜の契約者",
+    "name_ja_romaji": "Shinryū no Keiyakusha",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "???",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ContractoroftheDeepDragon-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Star Protector"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Contractor of the Deep Dragon",
+    "_wiki_ts": "2026-06-28T19:22:32Z",
+    "raw_name_en": "Contractor of the Deep Dragon"
+  },
+  {
+    "name_en": "Ein Sof Ritter",
+    "name_ja": "アインソフ・リッター",
+    "name_ja_romaji": "Ainsofu Rittā",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "???",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "EinSofRitter-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Ein Sof Ritter",
+    "_wiki_ts": "2026-06-28T20:38:44Z",
+    "raw_name_en": "Ein Sof Ritter"
+  },
+  {
+    "name_en": "Encounter with the Sacred Tree",
+    "name_ja": "神樹との出会い",
+    "name_ja_romaji": "Shinjū to no Deai",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "???",
+    "property": "???",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "EncounterwiththeSacredTree-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lauan Adventurers"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Encounter with the Sacred Tree",
+    "_wiki_ts": "2026-06-29T07:44:55Z",
+    "raw_name_en": "Encounter with the Sacred Tree"
+  },
+  {
+    "name_en": "Evergreen of Blisstopia",
+    "name_ja": "透幻郷の万緑",
+    "name_ja_romaji": "Tōgenkyō no Banryoku",
+    "name_ko": "투환향의 만록",
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Field",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Activate this card if you have face-up monsters on your field whose total Levels equal 10 or more.",
+    "effect": "While this card is face-up in the Field Zone, face-up non-EARTH Attribute monsters on the field lose 300 ATK/DEF.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "EvergreenofBlisstopia-RDSBD7-JP-C.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/SBD7-JP027",
+        "name": "Strongest Battle Deck Asana - Pride of the Heavy Cavalry Style",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [
+      {
+        "code": "RD/SBD7-KR027",
+        "name": "Strongest Battle Deck Asana - Pride of the Heavy Cavalry Style",
+        "rarity": "Common"
+      }
+    ],
+    "database_id": "16799",
+    "archseries": [
+      "Blisstopia"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Evergreen of Blisstopia",
+    "_wiki_ts": "2026-06-28T08:29:45Z",
+    "raw_name_en": "Evergreen of Blisstopia"
+  },
+  {
+    "name_en": "Evolution of the Star Dragon",
+    "name_ja": "星竜の進化",
+    "name_ja_romaji": "Hoshiryū no Shinka",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Return 1 LIGHT or DARK Attribute Fusion Monster from your Graveyard to the Extra Deck.",
+    "effect": "Destroy 1 card on your opponent's field. Then, you can Special Summon 1 LIGHT Attribute Normal Monster from your Graveyard face-up to your field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "EvolutionoftheStarDragon-RDAP03-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/AP03-JP026",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Pliage"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Evolution of the Star Dragon",
+    "_wiki_ts": "2026-06-24T21:08:34Z",
+    "raw_name_en": "Evolution of the Star Dragon"
+  },
+  {
+    "name_en": "Fairy of the Stars",
+    "name_ja": "星の妖精",
+    "name_ja_romaji": "Hoshi no Yōsei",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "DARK",
+    "types": "Spellcaster / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1600,
+    "def": 2500,
+    "maximum_atk": null,
+    "materials": "\"Spirit of the Stars\" + 1 Normal Monster",
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Shuffle 3 monsters from your Graveyard into the Deck.",
+    "effect": "Choose 1 Level 5 or lower monster in your Graveyard. This turn, this card's name becomes the same name as that monster. Then, you can add 1 \"Fusion\" from your Graveyard to your hand. This turn, you cannot activate the effect of \"Fairy of the Stars\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "FairyoftheStars-RDAP03-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/AP03-JP016",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Pliage"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Fairy of the Stars",
+    "_wiki_ts": "2026-06-24T20:49:56Z",
+    "raw_name_en": "Fairy of the Stars"
+  },
+  {
+    "name_en": "Fist the Star Protector Roaring Fist",
+    "name_ja": "救惺の轟拳 フィスト",
+    "name_ja_romaji": "Kyūsei no Gōken Fisuto",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "???",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "FisttheStarProtectorRoaringFist-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Star Protector"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Fist the Star Protector Roaring Fist",
+    "_wiki_ts": "2026-06-28T18:50:13Z",
+    "raw_name_en": "Fist the Star Protector Roaring Fist"
+  },
+  {
+    "name_en": "The Forceful Sentry",
+    "name_ja": "強引な番兵",
+    "name_ja_romaji": "Gōin na Banpei",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Look at your opponent's hand, choose 1 card, and shuffle it into the Deck.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "TheForcefulSentry-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP011",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "The Forceful Sentry",
+    "_wiki_ts": "2026-06-23T23:47:29Z",
+    "raw_name_en": "The Forceful Sentry (Rush Duel)"
+  },
+  {
+    "name_en": "Gagaga Cheergirl",
+    "name_ja": "ガガガチアガール",
+    "name_ja_romaji": "Gagaga Chiagāru",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "FIRE",
+    "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1000,
+    "def": 400,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Send 2 face-up Level 4 FIRE Attribute monsters from your field to the Graveyard. Then, you can Special Summon 1 FIRE Attribute monster from your Graveyard face-up to your field. If you do, you can make 1 face-up monster on your opponent's field lose 1000 ATK until the end of this turn. This turn, you cannot activate the effect of \"Gagaga Cheergirl\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "GagagaCheergirl-RDAP03-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/AP03-JP033",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Baseball"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Gagaga Cheergirl",
+    "_wiki_ts": "2026-06-24T21:42:25Z",
+    "raw_name_en": "Gagaga Cheergirl"
+  },
+  {
+    "name_en": "Goblin Attack Force",
+    "name_ja": "ゴブリン突撃部隊",
+    "name_ja_romaji": "Goburin Totsugeki Butai",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "EARTH",
+    "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 2300,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "If this card destroys an opponent's monster by battle and sends it to the Graveyard, change it to face-up Defense Position.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "GoblinAttackForce-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP025",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": true,
+    "title": "Goblin Attack Force",
+    "_wiki_ts": "2026-06-24T01:31:39Z",
+    "raw_name_en": "Goblin Attack Force (Rush Duel)"
+  },
+  {
+    "name_en": "Happy Lover",
+    "name_ja": "ハッピー・ラヴァー",
+    "name_ja_romaji": "Happī Ravā",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "LIGHT",
+    "types": "Fairy / Normal",
+    "card_type": null,
+    "property": null,
+    "level": 2,
+    "atk": 800,
+    "def": 500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "''Enemies become overjoyed when struck by the Heart Ray emitted from the forehead of this tiny cherub.''",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "HappyLover-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP016",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Happy Lover",
+    "_wiki_ts": "2026-06-23T20:52:21Z",
+    "raw_name_en": "Happy Lover (Rush Duel)"
+  },
+  {
+    "name_en": "Healthy's High!",
+    "name_ja": "健康ズハイ！",
+    "name_ja_romaji": "Kenkōzu Hai!",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "???",
+    "property": "???",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "HealthysHigh-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Helthy"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Healthy's High!",
+    "_wiki_ts": "2026-06-28T20:23:30Z",
+    "raw_name_en": "Healthy's High!"
+  },
+  {
+    "name_en": "Helthy Olivia",
+    "name_ja": "ヘルシィ・オリビア",
+    "name_ja_romaji": "Herushī Oribia",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "???",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "HelthyOlivia-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Helthy"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Helthy Olivia",
+    "_wiki_ts": "2026-06-28T20:18:04Z",
+    "raw_name_en": "Helthy Olivia"
+  },
+  {
+    "name_en": "Helthy Rem",
+    "name_ja": "ヘルシィ・レム",
+    "name_ja_romaji": "Herushī Remu",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "???",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "HelthyRem-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Helthy"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Helthy Rem",
+    "_wiki_ts": "2026-06-28T20:19:43Z",
+    "raw_name_en": "Helthy Rem"
+  },
+  {
+    "name_en": "Helthy Satie",
+    "name_ja": "ヘルシィ・サティー",
+    "name_ja_romaji": "Herushī Satī",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "???",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "HelthySatie-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Helthy"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Helthy Satie",
+    "_wiki_ts": "2026-06-28T20:21:34Z",
+    "raw_name_en": "Helthy Satie"
+  },
+  {
+    "name_en": "The Imprisoned Dragon Princess",
+    "name_ja": "捕らわれの竜姫",
+    "name_ja_romaji": "Toraware no Ryūhime",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "???",
+    "property": "???",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "TheImprisonedDragonPrincess-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Star Protector"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "The Imprisoned Dragon Princess",
+    "_wiki_ts": "2026-06-28T19:33:03Z",
+    "raw_name_en": "The Imprisoned Dragon Princess"
+  },
+  {
+    "name_en": "Jerry Beans Man",
+    "name_ja": "ジェリービーンズマン",
+    "name_ja_romaji": "Jerībīnzuman",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "EARTH",
+    "types": "Plant / Normal",
+    "card_type": null,
+    "property": null,
+    "level": 3,
+    "atk": 1800,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "''Jerry, a bean soldier, believes he is the strongest warrior in the world, but his true abilities are still untested.''",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "JerryBeansMan-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP018",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Jerry Beans Man",
+    "_wiki_ts": "2026-06-23T20:52:27Z",
+    "raw_name_en": "Jerry Beans Man (Rush Duel)"
+  },
+  {
+    "name_en": "Mad Reloader",
+    "name_ja": "マッド・リローダー",
+    "name_ja_romaji": "Maddo Rirōdā",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "DARK",
+    "types": "Fiend / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 1,
+    "atk": 0,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "If your opponent has an Attack Position monster with 100 or more ATK on their field, send this face-up card from your field to the Graveyard.",
+    "effect": "Send 2 cards from your hand to the Graveyard. Then, draw 2 cards.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MadReloader-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP005",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Mad Reloader",
+    "_wiki_ts": "2026-06-23T23:41:36Z",
+    "raw_name_en": "Mad Reloader (Rush Duel)"
+  },
+  {
+    "name_en": "Magical Weapon Tract",
+    "name_ja": "魔導兵器トラクト",
+    "name_ja_romaji": "Madōheiki Torakuto",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "???",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MagicalWeaponTract-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Star Protector"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Magical Weapon Tract",
+    "_wiki_ts": "2026-06-28T19:28:23Z",
+    "raw_name_en": "Magical Weapon Tract"
+  },
+  {
+    "name_en": "The Mysterious Flying Plants Are Real",
+    "name_ja": "謎の飛行植物は実在した！！",
+    "name_ja_romaji": "Nazo no Hikōshokubutsu ha Jitsuzai Shita!!",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "???",
+    "property": "???",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "TheMysteriousFlyingPlantsAreReal-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lauan Adventurers"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "The Mysterious Flying Plants Are Real",
+    "_wiki_ts": "2026-06-28T19:40:42Z",
+    "raw_name_en": "The Mysterious Flying Plants Are Real"
+  },
+  {
+    "name_en": "One for One",
+    "name_ja": "ワン・フォー・ワン",
+    "name_ja_romaji": "Wan Fō Wan",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Send 1 monster from your hand to the Graveyard.",
+    "effect": "Excavate the top 4 cards of your Deck. You can Special Summon 1 Level 1 monster from among the excavated cards or your Graveyard face-up to your field. Shuffle the other cards into the Deck.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "OneforOne-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP015",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "One for One",
+    "_wiki_ts": "2026-06-24T00:05:27Z",
+    "raw_name_en": "One for One (Rush Duel)"
+  },
+  {
+    "name_en": "Pliage's Clustering Stars",
+    "name_ja": "プリアージュの星集め",
+    "name_ja_romaji": "Puriāju no Hoshiatsume",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Send 1 \"Fusion\", \"Star of the Beginning\", or \"Star Restart\" from your hand to the Graveyard.",
+    "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, you can add to your hand 2 cards from among the cards sent. This turn, you can only attack with Fusion or Normal Monsters.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "PliagesClusteringStars-RDAP03-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/AP03-JP024",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Super Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Pliage"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Pliage's Clustering Stars",
+    "_wiki_ts": "2026-06-28T17:51:36Z",
+    "raw_name_en": "Pliage's Clustering Stars"
+  },
+  {
+    "name_en": "Product Union",
+    "name_ja": "プロダクト・ユニオン",
+    "name_ja_romaji": "Purodakuto Yunion",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Add 1 \"X-Head Cannon\", \"Y-Dragon Head\", or \"Z-Metal Tank\" from your Graveyard to your hand. Then, you can look at 1 face-down card in your opponent's Spell & Trap Zone. If that card is a Trap Card, destroy it.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ProductUnion-RDAP03-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/AP03-JP013",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "XYZ"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Product Union",
+    "_wiki_ts": "2026-06-25T17:30:27Z",
+    "raw_name_en": "Product Union"
+  },
+  {
+    "name_en": "Rocket Warrior",
+    "name_ja": "ロケット戦士",
+    "name_ja_romaji": "Roketto Senshi",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "LIGHT",
+    "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1500,
+    "def": 1300,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Send the top card of your Deck to the Graveyard.",
+    "effect": "Make 1 face-up monster on your opponent's field lose 500 ATK until the end of this turn. Then, this turn, this card cannot be destroyed by battle, and you take no battle damage from battles involving it.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "RocketWarrior-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP023",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Rocket Warrior",
+    "_wiki_ts": "2026-06-24T01:03:04Z",
+    "raw_name_en": "Rocket Warrior (Rush Duel)"
+  },
+  {
+    "name_en": "Royal Rebel's Extreme",
+    "name_ja": "ロイヤルデモンズ・エクストリーム",
+    "name_ja_romaji": "Roiyaru Demonzu Ekusutorīmu",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "LIGHT",
+    "types": "Fiend / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "RoyalRebelsExtreme-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Royal Rebel's"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Royal Rebel's Extreme",
+    "_wiki_ts": "2026-06-28T17:25:44Z",
+    "raw_name_en": "Royal Rebel's Extreme"
+  },
+  {
+    "name_en": "Royal Rebel's Great Mixer",
+    "name_ja": "ロイヤルデモンズ・グレートミキサー",
+    "name_ja_romaji": "Roiyaru Demonzu Gurēto Mikisā",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "LIGHT",
+    "types": "Fiend / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "RoyalRebelsGreatMixer-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Royal Rebel's"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Royal Rebel's Great Mixer",
+    "_wiki_ts": "2026-06-28T17:28:05Z",
+    "raw_name_en": "Royal Rebel's Great Mixer"
+  },
+  {
+    "name_en": "Royal Rebel's Starting",
+    "name_ja": "ロイヤルデモンズ・スターティング",
+    "name_ja_romaji": "Roiyaru Demonzu Sutātingu",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "???",
+    "property": "???",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "RoyalRebelsStarting-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Royal Rebel's"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Royal Rebel's Starting",
+    "_wiki_ts": "2026-06-28T17:30:23Z",
+    "raw_name_en": "Royal Rebel's Starting"
+  },
+  {
+    "name_en": "Saggi the Dark Clown",
+    "name_ja": "闇・道化師のサギー",
+    "name_ja_romaji": "Yami Dōkeshi no Sagī",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "DARK",
+    "types": "Spellcaster / Normal",
+    "card_type": null,
+    "property": null,
+    "level": 3,
+    "atk": 600,
+    "def": 1500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "''This clown appears from nowhere and executes very strange moves to avoid enemy attacks.''",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "SaggitheDarkClown-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP017",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Saggi the Dark Clown",
+    "_wiki_ts": "2026-06-23T20:52:23Z",
+    "raw_name_en": "Saggi the Dark Clown (Rush Duel)"
+  },
+  {
+    "name_en": "Shield Crush",
+    "name_ja": "シールドクラッシュ",
+    "name_ja_romaji": "Shīrudo Kurasshu",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During a turn you have not activated \"Shield Crush\".",
+    "effect": "Destroy 1 Defense Position monster on the field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ShieldCrush-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP013",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Shield Crush",
+    "_wiki_ts": "2026-06-23T23:52:10Z",
+    "raw_name_en": "Shield Crush (Rush Duel)"
+  },
+  {
+    "name_en": "Shining Friendship",
+    "name_ja": "フレンドシップ",
+    "name_ja_romaji": "Furendoshippu",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "LIGHT",
+    "types": "Fairy / Normal",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1300,
+    "def": 1100,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "''The peacemaker among monsters.''",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ShiningFriendship-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP019",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Shining Friendship",
+    "_wiki_ts": "2026-06-23T20:52:28Z",
+    "raw_name_en": "Shining Friendship (Rush Duel)"
+  },
+  {
+    "name_en": "Staaart Boasting About Your Health!",
+    "name_ja": "健康自慢、はじめっ！",
+    "name_ja_romaji": "Kenkōjiman, Hajimeh!",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "???",
+    "property": "???",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "StaaartBoastingAboutYourHealth-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Helthy"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Staaart Boasting About Your Health!",
+    "_wiki_ts": "2026-06-28T20:31:58Z",
+    "raw_name_en": "Staaart Boasting About Your Health!"
+  },
+  {
+    "name_en": "Star Protector Awakening",
+    "name_ja": "救惺覚醒",
+    "name_ja_romaji": "Kyūsei Kakusei",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "???",
+    "property": "???",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "StarProtectorAwakening-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Star Protector"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Star Protector Awakening",
+    "_wiki_ts": "2026-06-28T17:34:41Z",
+    "raw_name_en": "Star Protector Awakening"
+  },
+  {
+    "name_en": "Star Replete of the Star Sanctuary",
+    "name_ja": "星域のスター・リプリート",
+    "name_ja_romaji": "Seiiki no Sutā Ripurīto",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "LIGHT",
+    "types": "Dragon / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 8,
+    "atk": 2800,
+    "def": 2800,
+    "maximum_atk": null,
+    "materials": "\"Star Replete\" + 1 Normal Monster",
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During your Main Phase that you Special Summoned this card, shuffle 2 monsters from your Graveyard into the Deck.",
+    "effect": "Destroy up to 2 Spell/Trap Cards on your opponent's field. Then, this card inflicts piercing battle damage this turn.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "StarRepleteoftheStarSanctuary-RDAP03-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/AP03-JP015",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Super Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Pliage"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Star Replete of the Star Sanctuary",
+    "_wiki_ts": "2026-06-25T18:48:05Z",
+    "raw_name_en": "Star Replete of the Star Sanctuary"
+  },
+  {
+    "name_en": "Star Sanctuary of the Beginning",
+    "name_ja": "はじまりの星域",
+    "name_ja_romaji": "Hajimari no Seiiki",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "This card's name becomes \"Star of the Beginning\" while in the hand or Graveyard.",
+    "effect_types": null,
+    "requirement": "When your opponent Normal Summons a monster, place 1 Fusion Monster or Normal Monster from your Graveyard on the bottom of the Deck.",
+    "effect": "Change that Normal Summoned monster to face-down Defense Position. Then, if you placed a Fusion Monster to meet the requirement, you can destroy 1 face-down card on your opponent's field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "StarSanctuaryoftheBeginning-RDAP03-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/AP03-JP027",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Pliage"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Star Sanctuary of the Beginning",
+    "_wiki_ts": "2026-06-25T18:49:30Z",
+    "raw_name_en": "Star Sanctuary of the Beginning"
+  },
+  {
+    "name_en": "Super Polymerization",
+    "name_ja": "超融合",
+    "name_ja_romaji": "Chōyūgō",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Send 1 card from your hand to the Graveyard.",
+    "effect": "Fusion Summon by sending monsters from either field to the Graveyard as material (you cannot use face-down monsters on your opponent's field as material). Neither player can activate Trap Cards when a monster is Special Summoned by this effect.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "SuperPolymerization-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP014",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Super Polymerization",
+    "_wiki_ts": "2026-06-23T23:59:17Z",
+    "raw_name_en": "Super Polymerization (Rush Duel)"
+  },
+  {
+    "name_en": "Surtr the Brilliant Magical Sword",
+    "name_ja": "赫奕たる魔剣スルト",
+    "name_ja_romaji": "Kakuyakutaru Maken Suruto",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "???",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "SurtrtheBrilliantMagicalSword-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Surtr the Brilliant Magical Sword",
+    "_wiki_ts": "2026-06-28T20:35:34Z",
+    "raw_name_en": "Surtr the Brilliant Magical Sword"
+  },
+  {
+    "name_en": "SW - Asura Bat",
+    "name_ja": "ＳＷ－阿修羅副打",
+    "name_ja_romaji": "Sayonara Wepon - Ashura Batto",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "FIRE",
+    "types": "Warrior / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1000,
+    "def": 400,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "\"Feverous Spirit Stadium\" is face-up on the field.",
+    "effect": "Equip this card to 1 face-up Level 8 or higher FIRE Attribute Warrior Type monster on your field as an Equip Spell Card with the following effect. This turn, you can only declare up to 3 attacks. ●The equipped monster can attack all opponent's monsters once each.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "SWAsuraBat-RDAP03-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/AP03-JP032",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Baseball"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "SW - Asura Bat",
+    "_wiki_ts": "2026-06-27T17:03:29Z",
+    "raw_name_en": "SW - Asura Bat"
+  },
+  {
+    "name_en": "Swordstalker",
+    "name_ja": "復讐のソード・ストーカー",
+    "name_ja_romaji": "Fukushū no Sōdo Sutōkā",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "DARK",
+    "types": "Warrior / Normal",
+    "card_type": null,
+    "property": null,
+    "level": 6,
+    "atk": 2000,
+    "def": 1600,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "''A monster formed by the vengeful souls of those who passed away in battle.''",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "Swordstalker-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP021",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Swordstalker",
+    "_wiki_ts": "2026-06-23T20:53:51Z",
+    "raw_name_en": "Swordstalker (Rush Duel)"
+  },
+  {
+    "name_en": "A Throw Thanks to Good Health!",
+    "name_ja": "健康あってのもの投げ！",
+    "name_ja_romaji": "Kenkō Atte no Mono Nage!",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "???",
+    "property": "???",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "AThrowThankstoGoodHealth-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Helthy"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "A Throw Thanks to Good Health!",
+    "_wiki_ts": "2026-06-28T20:28:20Z",
+    "raw_name_en": "A Throw Thanks to Good Health!"
+  },
+  {
+    "name_en": "UMP Sky Folvia",
+    "name_ja": "ＵＭＰスカイフォルビア",
+    "name_ja_romaji": "Yūemupī Sukai Forubia",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "WIND",
+    "types": "Plant / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "UMPSkyFolvia-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lauan Adventurers"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "UMP Sky Folvia",
+    "_wiki_ts": "2026-06-29T07:46:08Z",
+    "raw_name_en": "UMP Sky Folvia"
   }
 ]

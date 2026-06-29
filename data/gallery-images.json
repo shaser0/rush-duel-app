@@ -1949,7 +1949,8 @@
     "Fusion-RDTB01-JP-C.png",
     "Fusion-RDSD0C-JP-C.png",
     "Fusion-RDSD0B-JP-C.png",
-    "Fusion-RDP006-JP-NPR.png"
+    "Fusion-RDP006-JP-NPR.png",
+    "Fusion-RDB243-JP-SR.png"
   ],
   "Gear Section": [
     "GearSection-RDLGP2-JP-SR.png",
@@ -3715,7 +3716,8 @@
   ],
   "The Noodle Art of Saucery": [
     "TheNoodleArtofSaucery-RDSD04-JP-C.png",
-    "TheNoodleArtofSaucery-RDKP07-JP-C.png"
+    "TheNoodleArtofSaucery-RDKP07-JP-C.png",
+    "TheNoodleArtofSaucery-RDB243-JP-SR.png"
   ],
   "Unidentified Mysterious Urchin": [
     "UnidentifiedMysteriousUrchin-RDKP07-JP-C.png"
@@ -3733,7 +3735,9 @@
   ],
   "Darklord Zerato": [
     "DarklordZerato-RDKP11-JP-ScR.png",
-    "DarklordZerato-RDKP11-JP-RR.png"
+    "DarklordZerato-RDKP11-JP-RR.png",
+    "DarklordZerato-RDB243-JP-SR.png",
+    "DarklordZerato-RDB243-JP-URRed.png"
   ],
   "Galactica Tabula Rasa": [
     "GalacticaTabulaRasa-RDKP11-JP-UR.png",
@@ -3778,7 +3782,9 @@
   ],
   "Gilford the Lightning": [
     "GilfordtheLightning-RDKP12-JP-ScR.png",
-    "GilfordtheLightning-RDKP12-JP-RR.png"
+    "GilfordtheLightning-RDKP12-JP-RR.png",
+    "GilfordtheLightning-RDB244-JP-SR.png",
+    "GilfordtheLightning-RDB244-JP-URRed.png"
   ],
   "Gilford the Rising": [
     "GilfordtheRising-RDSD0B-JP-C.png",
@@ -6157,38 +6163,47 @@
     "WyrmExcavatortheHeavyCavalryDracoR-RDSBD7-JP-C.png"
   ],
   "Ancient Gear Gadjiltron Manticore": [
-    "AncientGearGadjiltronManticore-RDKP19-JP-C.png"
+    "AncientGearGadjiltronManticore-RDKP19-JP-C.png",
+    "AncientGearGadjiltronManticore-RDB244-JP-SR.png"
   ],
   "Angel Judge": [
     "AngelJudge-RDMAX2-JP-R.png",
-    "AngelJudge-RDMAX2-KR-R.png"
+    "AngelJudge-RDMAX2-KR-R.png",
+    "AngelJudge-RDB244-JP-SR.png"
   ],
   "Chemipet Chirp": [
-    "ChemipetChirp-RDKP17-JP-R.png"
+    "ChemipetChirp-RDKP17-JP-R.png",
+    "ChemipetChirp-RDB244-JP-SR.png"
   ],
   "Dice Key Mix": [
     "DiceKeyMix-RDKP19-JP-R.png"
   ],
   "Dynas Dorcus the Beetle King": [
-    "DynasDorcustheBeetleKing-RDKP09-JP-R.png"
+    "DynasDorcustheBeetleKing-RDKP09-JP-R.png",
+    "DynasDorcustheBeetleKing-RDB244-JP-SR.png"
   ],
   "Fairy's Injection": [
-    "FairysInjection-RDKP19-JP-C.png"
+    "FairysInjection-RDKP19-JP-C.png",
+    "FairysInjection-RDB244-JP-SR.png"
   ],
   "Fake Neos": [
-    "FakeNeos-RDKP18-JP-C.png"
+    "FakeNeos-RDKP18-JP-C.png",
+    "FakeNeos-RDB244-JP-SR.png"
   ],
   "Galactiara FUSE Eve": [
-    "GalactiaraFUSEEve-RDKP13-JP-C.png"
+    "GalactiaraFUSEEve-RDKP13-JP-C.png",
+    "GalactiaraFUSEEve-RDB244-JP-SR.png"
   ],
   "Ruler's Current": [
     "RulersCurrent-RDKP06-JP-R.png"
   ],
   "Supressaurus Sternptera": [
-    "SupressaurusSternptera-RDMAX2-JP-C.png"
+    "SupressaurusSternptera-RDMAX2-JP-C.png",
+    "SupressaurusSternptera-RDB244-JP-SR.png"
   ],
   "Voidvelg Hecatoncheir": [
-    "VoidvelgHecatoncheir-RDSD05-JP-C.png"
+    "VoidvelgHecatoncheir-RDSD05-JP-C.png",
+    "VoidvelgHecatoncheir-RDB244-JP-SR.png"
   ],
   "Anglercoilfish": [
     "Anglercoilfish-RDKP08-JP-R.png"
@@ -6376,7 +6391,8 @@
     "EverGracePrincessKana-RDSS01-JP-OP-AA10.png",
     "EverGracePrincessKana-RDSS01-JP-OP-AA11.png",
     "EverGracePrincessKana-RDSS01-JP-OP.png",
-    "EverGracePrincessKana-RDB254-JP-SR.png"
+    "EverGracePrincessKana-RDB254-JP-SR.png",
+    "EverGracePrincessKana-RDB254-JP-URRed.png"
   ],
   "Ghost Vicious": [
     "GhostVicious-RDKP11-JP-C.png"
@@ -7816,28 +7832,35 @@
     "ElttaestheMasterofDuels-RDWC24-JP-ORR-RP.png"
   ],
   "Contact Dark Matter Wyvern": [
-    "ContactDarkMatterWyvern-RDKP18-JP-R.png"
+    "ContactDarkMatterWyvern-RDKP18-JP-R.png",
+    "ContactDarkMatterWyvern-RDB243-JP-SR.png"
   ],
   "Dark Hole Device": [
-    "DarkHoleDevice-RDKP14-JP-R.png"
+    "DarkHoleDevice-RDKP14-JP-R.png",
+    "DarkHoleDevice-RDB243-JP-SR.png"
   ],
   "Freshberry Swimming": [
     "FreshberrySwimming-RDKP18-JP-R.png"
   ],
   "Lightning Bringer Spirit": [
-    "LightningBringerSpirit-RDKP08-JP-UR.png"
+    "LightningBringerSpirit-RDKP08-JP-UR.png",
+    "LightningBringerSpirit-RDB243-JP-C.png",
+    "LightningBringerSpirit-RDB243-JP-SR.png"
   ],
   "Maid's Baneful Gift": [
-    "MaidsBanefulGift-RDKP08-JP-C.png"
+    "MaidsBanefulGift-RDKP08-JP-C.png",
+    "MaidsBanefulGift-RDB243-JP-SR.png"
   ],
   "Praime Call": [
-    "PraimeCall-RDKP16-JP-C.png"
+    "PraimeCall-RDKP16-JP-C.png",
+    "PraimeCall-RDB243-JP-SR.png"
   ],
   "Rising HERO Tantalum": [
     "RisingHEROTantalum-RDKP18-JP-R.png"
   ],
   "Straynge Magician": [
-    "StrayngeMagician-RDSJMP-JP-NPR.png"
+    "StrayngeMagician-RDSJMP-JP-NPR.png",
+    "StrayngeMagician-RDB243-JP-SR.png"
   ],
   "Crossroads of Zera": [
     "CrossroadsofZera-RDKP22-JP-C.png"

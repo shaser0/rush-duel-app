@@ -211,7 +211,7 @@ async function syncSets() {
     const hasMetadata = entry
       && 'coverImage' in entry
       && 'packsPerBox' in entry
-      && (deck || entry.cardsPerPack != null)
+      && (deck || 'cardsPerPack' in entry)
       && (entry.releaseDateJP || deck);
     const hasDeckContents = !deck || 'deckContents' in (entry || {});
 

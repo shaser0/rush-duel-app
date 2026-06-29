@@ -14,12 +14,14 @@
 function pub(card) {
   if (!card) return null;
   return {
-    iid:      card.iid,
-    cardKey:  card.cardKey,
-    rarity:   card.rarity,
-    imgFile:  card.imgFile,
-    faceDown: card.faceDown,
-    position: card.position,
+    iid:         card.iid,
+    cardKey:     card.cardKey,
+    rarity:      card.rarity,
+    imgFile:     card.imgFile,
+    faceDown:    card.faceDown,
+    position:    card.position,
+    atkOverride: card.atkOverride,
+    defOverride: card.defOverride,
   };
 }
 
@@ -82,4 +84,19 @@ function viewFor(game, seat) {
   };
 }
 
-module.exports = { viewFor, boardView, slotView, pub, hidden };
+// Vue spectateur : both boards public (isOwner=false) → mains masquées pour les deux.
+function spectatorView(game) {
+  return {
+    you:        'spectator',
+    turn:       game.turn,
+    tossWinner: game.tossWinner,
+    started:    game.started,
+    ended:      game.ended,
+    winner:     game.winner,
+    self:       boardView(game.players[0], false),
+    opp:        boardView(game.players[1], false),
+    log:        game.log.slice(-50),
+  };
+}
+
+module.exports = { viewFor, spectatorView, boardView, slotView, pub, hidden };

@@ -36,16 +36,14 @@ function mount(httpServer) {
         return reject(socket, 'rate_limited', 'Too many attempts. Wait a moment.');
 
       playerPseudo = data.pseudo.trim();
-      const room   = rooms.createRoom(socket.id, playerPseudo, data.token);
+      const room   = rooms.createRoom(socket.id, playerPseudo);
       playerRoom   = room.code;
-      playerSeat   = 0;
-      playerToken  = room.seats[0].token;
+      // No seat assigned yet — creator starts as spectator.
       socket.join(room.code);
 
       socket.emit('room:created', {
         code:     room.code,
-        seat:     playerSeat,
-        token:    playerToken, // client persists this for reconnection
+        isHost:   true,
         presence: rooms.getPresence(room),
         history:  room.messages,
         settings: room.settings,
@@ -54,6 +52,8 @@ function mount(httpServer) {
     });
 
     // ── room:join ──────────────────────────────────────────────────────────
+    // Everyone joins as spectator by default. If a valid token for a seat in this
+    // room is provided, the seat is re-claimed automatically (reconnection).
     socket.on('room:join', (data) => {
       if (!validate('room:join', data))
         return reject(socket, 'invalid_data', 'Invalid nickname or code.');
@@ -69,33 +69,79 @@ function mount(httpServer) {
       if (result.error) {
         const MSGS = {
           room_not_found:  'Room not found. Check the code.',
-          room_full:       'The room is full (2 players max).',
           already_in_room: 'You are already in this room.',
         };
         return reject(socket, result.error, MSGS[result.error] || 'Error.');
       }
 
       playerRoom  = code;
-      playerSeat  = result.seat;
-      playerToken = result.token;
+      playerSeat  = result.seat !== undefined ? result.seat : null;
+      playerToken = result.token || null;
       socket.join(code);
 
-      const presence = rooms.getPresence(result.room);
+      const room     = result.room;
+      const presence = rooms.getPresence(room);
       socket.emit('room:joined', {
         code,
-        seat:        playerSeat,
-        token:       playerToken,
+        isHost:      room.host === socket.id,
+        seat:        playerSeat,   // null when spectator
+        token:       playerToken,  // null when spectator
         reconnected: !!result.reconnected,
         presence,
-        history:  result.room.messages,
-        settings: result.room.settings,
+        history:     room.messages,
+        settings:    room.settings,
       });
-      // Tell all room members (including joiner) about updated presence.
       io.to(code).emit('presence:update', presence);
 
-      // If a duel is already running, hand the (re)joining player their snapshot.
-      if (result.room.game) duel.sendSnapshot(io, result.room, playerSeat);
-      console.log(`[online] ${playerPseudo} ${result.reconnected ? 'reconnected to' : 'joined'} room ${code} (seat ${playerSeat})`);
+      if (room.game) {
+        if (playerSeat !== null) duel.sendSnapshot(io, room, playerSeat);
+        else duel.sendSpectatorSnapshot(socket, room);
+      }
+      console.log(`[online] ${playerPseudo} ${result.reconnected ? 'reconnected to' : 'joined'} room ${code} (seat ${playerSeat ?? 'spectator'})`);
+    });
+
+    // ── room:claim-seat ────────────────────────────────────────────────────
+    socket.on('room:claim-seat', () => {
+      if (!validate('room:claim-seat', {})) return;
+      if (!playerRoom) return reject(socket, 'not_in_room', 'Not in a room.');
+      if (playerSeat !== null) return reject(socket, 'already_a_player', 'Already seated.');
+
+      const result = rooms.claimSeat(playerRoom, socket.id);
+      if (result.error) {
+        const MSGS = {
+          game_in_progress: 'A duel is in progress.',
+          room_full:        'Both seats are taken.',
+          already_a_player: 'Already seated.',
+        };
+        return reject(socket, result.error, MSGS[result.error] || 'Error.');
+      }
+
+      playerSeat  = result.seat;
+      playerToken = result.token;
+
+      socket.emit('room:seated', { seat: playerSeat, token: playerToken });
+      io.to(playerRoom).emit('presence:update', rooms.getPresence(result.room));
+      console.log(`[online] ${playerPseudo} claimed seat ${playerSeat} in room ${playerRoom}`);
+    });
+
+    // ── room:release-seat ──────────────────────────────────────────────────
+    socket.on('room:release-seat', () => {
+      if (!validate('room:release-seat', {})) return;
+      if (!playerRoom) return reject(socket, 'not_in_room', 'Not in a room.');
+      if (playerSeat === null) return reject(socket, 'not_a_player', 'Not seated.');
+
+      const result = rooms.releaseSeat(playerRoom, socket.id);
+      if (result.error) {
+        const MSGS = { game_in_progress: 'Cannot release seat during a duel.' };
+        return reject(socket, result.error, MSGS[result.error] || 'Error.');
+      }
+
+      playerSeat  = null;
+      playerToken = null;
+
+      socket.emit('room:released', {});
+      io.to(playerRoom).emit('presence:update', rooms.getPresence(result.room));
+      console.log(`[online] ${playerPseudo} released their seat in room ${playerRoom}`);
     });
 
     // ── room:setting ───────────────────────────────────────────────────────

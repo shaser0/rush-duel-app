@@ -203,17 +203,39 @@ const ACTIONS = {
     if (o.error) return { error: o.error };
     if (o.loc.zone !== 'monster') return { error: 'not_a_monster' };
     const opp = game.players[seat === 0 ? 1 : 0];
-    let defenderCardKey = null;
-    if (Number.isInteger(p.defenderSlot)) {
-      const def = opp.monster[p.defenderSlot];
-      defenderCardKey = def && !def.faceDown ? def.cardKey : null;
-    }
+    const defCard = Number.isInteger(p.defenderSlot) ? opp.monster[p.defenderSlot] : null;
+    // Always reveal cardKey on attack — face-down defenders flip during battle.
+    const defenderCardKey = defCard ? defCard.cardKey : null;
     S.pushLog(game, {
       type: 'attack', seat,
-      attackerIid:      p.attackerIid,
-      attackerCardKey:  o.loc.card.cardKey,
-      defenderSlot:     Number.isInteger(p.defenderSlot) ? p.defenderSlot : null,
+      attackerIid:     p.attackerIid,
+      attackerCardKey: o.loc.card.cardKey,
+      defenderSlot:    Number.isInteger(p.defenderSlot) ? p.defenderSlot : null,
       defenderCardKey,
+      // Stat snapshots at time of attack (null = client uses reference data).
+      attackerAtkOvr:  o.loc.card.atkOverride,
+      defenderAtkOvr:  defCard?.atkOverride ?? null,
+      defenderDefOvr:  defCard?.defOverride ?? null,
+      defenderPos:     defCard?.position    ?? null,
+    });
+    return { ok: true };
+  },
+
+  // ── Override ATK/DEF of a face-up monster (synchronised boost/debuff). ──────
+  statOverride(game, seat, p) {
+    const o = own(game, seat, p.iid);
+    if (o.error) return o;
+    if (S.PILE_ZONES.has(o.loc.zone))   return { error: 'not_on_field' };
+    if (o.loc.zone !== 'monster')        return { error: 'not_a_monster' };
+    if (o.loc.card.faceDown)             return { error: 'card_face_down' };
+    const card = o.loc.card;
+    if (typeof p.atk === 'number') card.atkOverride = Math.max(0, Math.round(p.atk));
+    if (p.atk === null)            card.atkOverride = null;
+    if (typeof p.def === 'number') card.defOverride = Math.max(0, Math.round(p.def));
+    if (p.def === null)            card.defOverride = null;
+    S.pushLog(game, {
+      type: 'statOverride', seat, iid: card.iid, cardKey: card.cardKey,
+      atk: card.atkOverride, def: card.defOverride,
     });
     return { ok: true };
   },

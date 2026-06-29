@@ -12,7 +12,7 @@ const MAX_EXTRA_DECK = 15;
 const ZONES    = new Set(['hand', 'deck', 'extraDeck', 'graveyard', 'monster', 'spellTrap', 'field']);
 const ACTIONS  = new Set([
   'loadDeck', 'loadExtraDeck', 'ready', 'chooseFirst', 'millTop', 'shuffle', 'draw', 'excavate', 'lookDeck', 'lookExtraDeck',
-  'move', 'flip', 'position', 'maximum', 'attack', 'activateEffect', 'target', 'reveal', 'lp', 'coin', 'dice', 'passTurn', 'surrender',
+  'move', 'flip', 'position', 'maximum', 'attack', 'statOverride', 'activateEffect', 'target', 'reveal', 'lp', 'coin', 'dice', 'passTurn', 'surrender',
 ]);
 
 function isPseudo(v) {
@@ -73,6 +73,11 @@ function isDuelAction(data) {
       return typeof p.attackerIid === 'string'
         && (p.defenderSlot === undefined || p.defenderSlot === null
             || (Number.isInteger(p.defenderSlot) && p.defenderSlot >= 0 && p.defenderSlot < 3));
+    case 'statOverride': {
+      const validStat = v => v === undefined || v === null
+        || (typeof v === 'number' && Number.isFinite(v) && v >= 0 && v <= 99999);
+      return typeof p.iid === 'string' && validStat(p.atk) && validStat(p.def);
+    }
     case 'target':
     case 'flip':
     case 'position':
@@ -93,12 +98,14 @@ function isDuelAction(data) {
 function validate(type, data) {
   if (!data || typeof data !== 'object') return false;
   switch (type) {
-    case 'room:create':  return isPseudo(data.pseudo) && isToken(data.token);
-    case 'room:join':    return isPseudo(data.pseudo) && isCode(data.code) && isToken(data.token);
-    case 'chat:message': return isChatText(data.text);
-    case 'duel:action':  return isDuelAction(data);
-    case 'room:setting': return typeof data.banlistEnforced === 'boolean';
-    default:             return false;
+    case 'room:create':       return isPseudo(data.pseudo);
+    case 'room:join':         return isPseudo(data.pseudo) && isCode(data.code) && isToken(data.token);
+    case 'room:claim-seat':   return true; // no payload needed
+    case 'room:release-seat': return true; // no payload needed
+    case 'chat:message':      return isChatText(data.text);
+    case 'duel:action':       return isDuelAction(data);
+    case 'room:setting':      return typeof data.banlistEnforced === 'boolean';
+    default:                  return false;
   }
 }
 

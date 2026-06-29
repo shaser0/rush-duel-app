@@ -17,7 +17,7 @@ From the main menu you can:
 
 No installation required. Just download and run. The `data/` folder must stay next to the executable at all times.
 
-```
+```text
 rush-app/
   rush-app-win.exe    ← Windows
   rush-app-macos      ← macOS
@@ -36,22 +36,28 @@ rush-app/
 ## Running the app
 
 ### Windows
-Double-click **`rush-app-win.exe`** — no terminal will appear. Your browser opens automatically to **http://localhost:3000**.
+
+Double-click **`rush-app-win.exe`** — no terminal will appear. Your browser opens automatically to <http://localhost:3000>.
 
 ### macOS
+
 Double-click **`rush-app-macos`**.
 
 > If macOS blocks it: right-click → Open → Open anyway.
 
 ### Linux
+
 Mark the binary executable once (only needed the first time):
-```
+
+```sh
 chmod +x rush-app-linux
 ```
+
 Then double-click it from your file manager, or run it from a terminal.
 
 ### From source
-```
+
+```sh
 npm install
 npm start
 ```
@@ -64,15 +70,53 @@ Just close the browser window. The server stops automatically within 15 seconds.
 
 ---
 
+## Online Duel
+
+Play against a friend over the internet — no VPN or port-forwarding required.
+
+### Host
+
+1. **Launch the binary** — it automatically runs in online mode (no config needed).
+2. **Expose it with [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/):**
+
+   ```sh
+   cloudflared tunnel --url http://localhost:3000
+   ```
+
+3. Copy the `https://xxx.trycloudflare.com` URL from the terminal output.
+4. Open **Online Duel → Host a duel**, then share the tunnel URL and room code with your opponent.
+
+### Guest
+
+1. Launch your own copy of the app (binary or `npm start`).
+2. Go to **Online Duel**.
+3. Paste the host's `https://xxx.trycloudflare.com` URL into **Host server URL**.
+4. Enter the room code and your nickname → **Join**.
+
+> **From source:** set `ONLINE_MODE=1` before `npm start` (PowerShell: `$env:ONLINE_MODE=1; npm start`), then run cloudflared in a second terminal.
+
+### What you can do in a room
+
+- **Spectators welcome** — anyone who joins without claiming a seat watches the duel in real time (cards in hand are hidden).
+- **Claim / release a seat** — click *Sit Down* in the lobby to become a player; *Stand Up* to go back to spectator. You can swap freely between games.
+- **Duel** — full Rush Duel rules: draw phase, main phase, battle phase, pass turn. ATK/DEF stats are shown on field monsters and can be edited live (stat buffs, effects). Combat damage is calculated automatically in the log.
+- **Win counter** — wins are tracked per seat for the session and shown in the presence panel.
+- **Rematches** — when a game ends you return to the lobby automatically; hit *Sit Down* again to play another game.
+
+---
+
 ## Features
 
 ### Open Packs
+
 Simulate opening booster packs, structure decks, and special/promo sets with box-rate-accurate rarity odds and animated card flips. You can also build **custom packs** to open.
 
 ### Collection
+
 Every pull can be added to a named collection. Browse and filter by rarity, attribute, type (Monster / Spell / Trap), race, sub-type, series, and Level/ATK/DEF ranges. Collections are saved to `data/collections.json`.
 
 ### Deck Builder
+
 - Search/filter the full card pool (Skills and Duel Markers are excluded — they aren't playable).
 - Click to add cards; build a **Main Deck** (40–60) and **Extra Deck** (Fusion **and** Ritual monsters, up to 15).
 - Rush Duel rules enforced: max 3 copies per card.
@@ -80,7 +124,7 @@ Every pull can be added to a named collection. Browse and filter by rarity, attr
 - Save multiple named decks (stored in `data/decks.json`).
 - **Import/Export** decks via the clipboard in a plain-text format:
 
-```
+```text
 Monster
 3 Sevens Road Magician
 ...
@@ -108,19 +152,24 @@ Card, set, and gallery data are synced from [Yugipedia](https://yugipedia.com). 
 ## Troubleshooting
 
 ### Nothing happens when I double-click
+
 Check `data/rush-app.log` for error details.
 
 ### The page shows no cards
+
 Make sure the `data/` folder is in the same directory as the executable and that `cards.json` is present inside it.
 
 ### Port 3000 is already in use (Windows)
-```
+
+```sh
 set PORT=3001 && rush-app-win.exe
 ```
+
 Then open <http://localhost:3001> instead.
 
 ### Port 3000 is already in use (macOS / Linux)
-```
+
+```sh
 PORT=3001 ./rush-app-macos   # macOS
 PORT=3001 ./rush-app-linux   # Linux
 ```

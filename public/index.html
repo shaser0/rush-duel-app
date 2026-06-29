@@ -570,6 +570,23 @@ button,input,select{font-family:inherit}
 .du-fc.opp-card{transform:rotate(180deg);transform-origin:center}
 .du-fc.opp-card.def{transform:rotate(270deg);transform-origin:center}
 .du-fc.dragging{opacity:.35}
+/* ATK/DEF overlay */
+.du-stat-bar{position:absolute;bottom:2px;left:0;right:0;display:flex;justify-content:space-between;font-size:10px;font-weight:700;padding:0 3px;background:rgba(0,0,0,.6);border-radius:0 0 4px 4px;pointer-events:none}
+.du-stat.atk{color:#f0a830;pointer-events:auto}
+.du-stat.def{color:#6ec6ff;pointer-events:auto}
+.du-stat.editable{cursor:pointer;text-decoration-line:underline;text-decoration-style:dotted}
+/* Card detail panel */
+.du-card-detail{width:220px;flex-shrink:0;display:flex;flex-direction:column;gap:6px;padding:10px 8px;background:var(--bg2);border-left:1px solid var(--border);overflow-y:auto;position:relative}
+.du-card-detail.hidden{display:none}
+.du-cd-close{position:absolute;top:6px;right:6px;background:none;border:none;color:var(--muted);cursor:pointer;font-size:14px;line-height:1;padding:2px}
+.du-cd-close:hover{color:var(--text)}
+.du-cd-img{width:100%;border-radius:6px;display:block}
+.du-cd-name{font-size:13px;font-weight:700;color:var(--gold);text-align:center;line-height:1.2}
+.du-cd-meta{font-size:11px;color:var(--muted);text-align:center}
+.du-cd-stats{font-size:12px;font-weight:600;display:flex;gap:12px;justify-content:center}
+.du-cd-stats .cd-atk{color:#f0a830}
+.du-cd-stats .cd-def{color:#6ec6ff}
+.du-cd-effect{font-size:11px;color:var(--text);line-height:1.5;white-space:pre-wrap;word-break:break-word}
 /* hand */
 .du-hand-wrap{display:flex;align-items:flex-end;justify-content:center;gap:4px;padding:4px 8px 5px;background:rgba(9,4,32,0.55);border-top:1px solid rgba(255,255,255,.06);overflow-x:auto;flex-shrink:0;min-height:calc(var(--du-hh) + 12px)}
 .du-hc{width:var(--du-hw);height:var(--du-hh);border-radius:6px;overflow:hidden;flex-shrink:0;cursor:grab;transition:transform .15s,box-shadow .15s;background:#12121f;position:relative}
@@ -689,7 +706,7 @@ button,input,select{font-family:inherit}
       <button class="menu-tile" data-go="screen-online" style="grid-column:1/-1">
         <span class="mt-icon">🌐</span>
         <span class="mt-name">Online Duel</span>
-        <span class="mt-desc">Take on a friend over ZeroTier / Tailscale</span>
+        <span class="mt-desc">Play against a friend directly over the internet</span>
       </button>
     </div>
   </div>
@@ -978,16 +995,16 @@ button,input,select{font-family:inherit}
   <div id="ol-lobby" class="ol-view">
     <div class="ol-card">
       <h2 class="ol-title">🌐 Online Duel</h2>
-      <p class="ol-desc">Play against a friend over ZeroTier or Tailscale. The host starts the server with <code style="background:var(--bg3);padding:1px 5px;border-radius:3px;font-size:12px">ONLINE_MODE=1 npm start</code>, then shares the room code with their opponent.</p>
+      <p class="ol-desc">Play against a friend over the internet. The host starts the server with <code style="background:var(--bg3);padding:1px 5px;border-radius:3px;font-size:12px">ONLINE_MODE=1 npm start</code>, then shares the URL and room code with their opponent.</p>
       <div class="ol-field">
         <label for="ol-pseudo">Your nickname</label>
         <input id="ol-pseudo" class="ol-input" type="text" maxlength="20" placeholder="Enter your nickname…" autocomplete="off">
       </div>
       <div class="ol-actions">
         <button id="ol-host-btn" class="btn-p">Héberger un duel</button>
-        <div class="ol-separator">ou</div>
+        <div class="ol-separator">or</div>
         <div class="ol-field">
-          <label for="ol-server-url">URL du serveur hôte</label>
+          <label for="ol-server-url">Host server URL</label>
           <input id="ol-server-url" class="ol-input" type="url" placeholder="https://xxx.trycloudflare.com" autocomplete="off">
         </div>
         <div class="ol-join-row">
@@ -1012,6 +1029,10 @@ button,input,select{font-family:inherit}
       <div class="ol-presence">
         <div class="ol-presence-title">Players</div>
         <div id="ol-presence-list"></div>
+        <div id="ol-seat-controls" style="display:flex;gap:8px;margin-top:10px">
+          <button id="ol-sit-btn" class="btn-p" style="font-size:13px;padding:6px 14px">Prendre une place</button>
+          <button id="ol-stand-btn" class="btn-p" style="background:var(--bg3);border-color:var(--muted);color:var(--muted);font-size:13px;padding:6px 14px" hidden>Devenir spectateur</button>
+        </div>
       </div>
       <div class="ol-chat">
         <div id="ol-messages" class="ol-messages"></div>
@@ -1021,8 +1042,8 @@ button,input,select{font-family:inherit}
         </div>
       </div>
     </div>
-    <!-- Ready section -->
-    <div class="ol-ready-section">
+    <!-- Ready section — visible only when seated as a player -->
+    <div class="ol-ready-section hidden" id="ol-ready-section">
       <div class="du-banlist-row">
         <p style="font-size:12px;color:var(--muted);margin:0">Choose your deck then click <b style="color:var(--text)">Ready</b> to start the duel.</p>
         <label class="du-banlist-lbl" id="du-bl-label" title="Non-compliant decks will be greyed out (host setting)">
@@ -1147,6 +1168,16 @@ button,input,select{font-family:inherit}
       <button class="du-btn danger" id="du-leave-duel-btn" style="margin-left:auto" title="Leave room (duel in progress)">Leave Room</button>
     </div>
     </div><!-- /.du-main-area -->
+
+    <!-- Card detail panel (middle-click / Ctrl+click) -->
+    <div id="du-card-detail" class="du-card-detail hidden">
+      <button id="du-cd-close" class="du-cd-close" title="Fermer">✕</button>
+      <img id="du-cd-img" class="du-cd-img" src="" alt="">
+      <div id="du-cd-name" class="du-cd-name"></div>
+      <div id="du-cd-meta" class="du-cd-meta"></div>
+      <div id="du-cd-stats" class="du-cd-stats"></div>
+      <div id="du-cd-effect" class="du-cd-effect"></div>
+    </div>
   </div>
 </section>
 
@@ -1186,6 +1217,29 @@ button,input,select{font-family:inherit}
     <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:4px">
       <button class="modal-cancel" id="du-lp-cancel">Cancel</button>
       <button class="modal-ok" id="du-lp-ok">Apply</button>
+    </div>
+  </div>
+</div>
+
+<!-- ATK/DEF stat override modal -->
+<div class="modal-back hidden" id="du-stat-modal">
+  <div class="modal">
+    <h2 id="du-stat-modal-title">Edit ATK</h2>
+    <input id="du-stat-inp" type="number" min="0" max="99999" value="0">
+    <div class="du-lp-presets">
+      <button class="du-stat-preset" data-delta="+100">+100</button>
+      <button class="du-stat-preset" data-delta="+200">+200</button>
+      <button class="du-stat-preset" data-delta="+300">+300</button>
+      <button class="du-stat-preset" data-delta="+500">+500</button>
+      <button class="du-stat-preset" data-delta="-100">-100</button>
+      <button class="du-stat-preset" data-delta="-200">-200</button>
+      <button class="du-stat-preset" data-delta="-300">-300</button>
+      <button class="du-stat-preset" data-delta="-500">-500</button>
+      <button class="du-stat-preset" data-delta="reset">Reset</button>
+    </div>
+    <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:4px">
+      <button class="modal-cancel" id="du-stat-cancel">Cancel</button>
+      <button class="modal-ok" id="du-stat-ok">Apply</button>
     </div>
   </div>
 </div>
@@ -3967,10 +4021,11 @@ function initUpdatePanel(){
    ONLINE DUEL
 ═══════════════════════════════════════════════════════ */
 
-let _olSocket     = null;  // Socket.IO socket instance
-let _olRoomCode   = null;  // current room code
+let _olSocket      = null;  // Socket.IO socket instance
+let _olRoomCode    = null;  // current room code
 let _olListenersOn = false; // ensure listeners are registered once
-let _olServerUrl  = null;  // remote server URL (null = hosting locally)
+let _olServerUrl   = null;  // remote server URL (null = hosting locally)
+let _olIsSpectator = false; // true when connected as spectator (read-only)
 
 function _olEl(id){ return document.getElementById(id); }
 
@@ -3995,7 +4050,9 @@ function _olClearError(){
 }
 
 // ── Presence rendering (no innerHTML for user data) ────────────────────────
-function _olRenderPresence(players){
+function _olRenderPresence(presence){
+  const players = Array.isArray(presence) ? presence : (presence && presence.players || []);
+  const spectatorCount = Array.isArray(presence) ? 0 : (presence && presence.spectatorCount || 0);
   const el = _olEl('ol-presence-list');
   el.innerHTML = '';
   players.forEach(p => {
@@ -4005,7 +4062,9 @@ function _olRenderPresence(players){
     dot.className = 'ol-player-dot online';
     const name = document.createElement('span');
     name.className = 'ol-player-name';
-    name.textContent = p.pseudo + (p.isHost ? ' 👑' : '');
+    let label = p.pseudo + (p.isHost ? ' 👑' : '');
+    if(p.wins) label += ' · ' + p.wins + 'W';
+    name.textContent = label;
     row.appendChild(dot);
     row.appendChild(name);
     el.appendChild(row);
@@ -4017,10 +4076,43 @@ function _olRenderPresence(players){
     dot.className = 'ol-player-dot offline';
     const name = document.createElement('span');
     name.className = 'ol-player-name';
-    name.textContent = 'Waiting for opponent…';
+    name.textContent = players.length === 0 ? 'Aucun joueur pour le moment…' : 'En attente d\'un adversaire…';
     row.appendChild(dot);
     row.appendChild(name);
     el.appendChild(row);
+  }
+  if(spectatorCount > 0){
+    const row  = document.createElement('div');
+    row.className = 'ol-player';
+    const dot  = document.createElement('span');
+    dot.className = 'ol-player-dot';
+    dot.style.background = 'var(--muted)';
+    const name = document.createElement('span');
+    name.className = 'ol-player-name';
+    name.style.color = 'var(--muted)';
+    name.textContent = `👁 ${spectatorCount} spectateur${spectatorCount > 1 ? 's' : ''}`;
+    row.appendChild(dot);
+    row.appendChild(name);
+    el.appendChild(row);
+  }
+}
+
+// Show/hide "Sit Down" and "Stand Up" buttons based on current seat state + presence.
+function _olUpdateSeatControls(presence){
+  const players = Array.isArray(presence) ? presence : (presence && presence.players || []);
+  const sit  = _olEl('ol-sit-btn');
+  const stand = _olEl('ol-stand-btn');
+  if(!sit || !stand) return;
+  if(_duSeat !== null){
+    // Seated — show Stand Up, hide Sit Down.
+    sit.hidden  = true;
+    stand.hidden = false;
+    stand.disabled = !!(  _duState && _duState.started && !_duState.ended );
+  } else {
+    // Spectator — show Sit Down if a seat is free.
+    sit.hidden  = false;
+    stand.hidden = true;
+    sit.disabled = players.length >= 2;
   }
 }
 
@@ -4098,34 +4190,67 @@ async function _olEnsureSocket(){
     ? window.io(_olServerUrl, { reconnectionAttempts: 5 })
     : window.io({ reconnectionAttempts: 5 });
 
-  _olSocket.on('room:created', ({ code, seat, token, presence, history, settings }) => {
+  _olSocket.on('room:created', ({ code, isHost, presence, history, settings }) => {
     _olRoomCode = code;
-    _duSeat  = seat;
-    _duToken = token;
-    _duIsHost = (seat === 0);
+    _duSeat  = null; // creator starts as spectator — claim a seat manually
+    _duToken = null;
+    _duIsHost = !!isHost;
+    _olIsSpectator = true;
     if(settings) _duBanlistEnforced = !!settings.banlistEnforced;
-    _duSaveSession(code, seat, token);
     _olEl('ol-room-code').textContent = code;
     _olRenderPresence(presence);
     _olRenderHistory(history);
-    _duSetOppName(presence, seat);
-    _duRenderDeckList();
+    _duSetOppName(presence, null);
+    _olUpdateSeatControls(presence);
     _olShowView('room');
   });
 
-  _olSocket.on('room:joined', ({ code, seat, token, reconnected, presence, history, settings }) => {
+  _olSocket.on('room:joined', ({ code, isHost, seat, token, reconnected, presence, history, settings }) => {
     _olRoomCode = code;
-    _duSeat  = seat;
-    _duToken = token;
-    _duIsHost = (seat === 0);
+    _duSeat  = seat !== undefined ? seat : null;
+    _duToken = token || null;
+    _duIsHost = !!isHost;
+    _olIsSpectator = (_duSeat === null);
     if(settings) _duBanlistEnforced = !!settings.banlistEnforced;
-    _duSaveSession(code, seat, token);
+    if(_duSeat !== null) _duSaveSession(code, _duSeat, _duToken);
     _olEl('ol-room-code').textContent = code;
     _olRenderPresence(presence);
     if(!reconnected) _olRenderHistory(history);
-    _duSetOppName(presence, seat);
+    _duSetOppName(presence, _duSeat);
     _duRenderDeckList();
+    _olUpdateSeatControls(presence);
+    _olEl('ol-ready-section').classList.toggle('hidden', _duSeat === null);
     _olShowView('room');
+  });
+
+  _olSocket.on('room:seated', ({ seat, token }) => {
+    _duSeat  = seat;
+    _duToken = token;
+    _olIsSpectator = false;
+    if(_olRoomCode) _duSaveSession(_olRoomCode, seat, token);
+    _duRenderDeckList();
+    const readySec = _olEl('ol-ready-section');
+    if(readySec) readySec.classList.remove('hidden');
+    const sit  = _olEl('ol-sit-btn');
+    const stand = _olEl('ol-stand-btn');
+    if(sit) sit.hidden = true;
+    if(stand) stand.hidden = false;
+    _olAppendSysMsg('Vous êtes maintenant joueur (siège ' + (seat + 1) + ').');
+  });
+
+  _olSocket.on('room:released', () => {
+    _duSeat  = null;
+    _duToken = null;
+    _olIsSpectator = true;
+    _duClearSession();
+    _duRenderDeckList();
+    const readySec = _olEl('ol-ready-section');
+    if(readySec) readySec.classList.add('hidden');
+    const sit  = _olEl('ol-sit-btn');
+    const stand = _olEl('ol-stand-btn');
+    if(sit) sit.hidden = false;
+    if(stand) stand.hidden = true;
+    _olAppendSysMsg('Vous êtes maintenant spectateur.');
   });
 
   _olSocket.on('room:error', ({ message }) => {
@@ -4135,7 +4260,8 @@ async function _olEnsureSocket(){
   _olSocket.on('presence:update', pl => {
     _olRenderPresence(pl);
     _duSetOppName(pl, _duSeat);
-    _duRenderDeckList(); // refresh deck list when room membership changes
+    _olUpdateSeatControls(pl);
+    _duRenderDeckList();
   });
   _olSocket.on('chat:message',    _olAppendMsg);
 
@@ -4161,11 +4287,12 @@ async function _olEnsureSocket(){
   return true;
 }
 
-function _duSetOppName(players, mySeat){
-  const opp = players && players.find(p => {
-    // seat index isn't in presence list directly, so we identify opp by order
-    return mySeat === 0 ? !p.isHost : p.isHost;
-  });
+function _duSetOppName(presence, mySeat){
+  const players = Array.isArray(presence) ? presence : (presence && presence.players || []);
+  // Match by seat if available (new model), fall back to isHost heuristic.
+  const opp = mySeat !== null
+    ? players.find(p => p.seat !== undefined ? p.seat !== mySeat : (mySeat === 0 ? !p.isHost : p.isHost))
+    : null;
   if(opp) window._duOppPseudo = opp.pseudo;
   const el = document.getElementById('du-opp-name');
   if(el && window._duOppPseudo) el.textContent = window._duOppPseudo;
@@ -4178,9 +4305,7 @@ function _olHost(){
   _olClearError();
   _olEnsureSocket().then(ok => {
     if(!ok) return;
-    const sess = _duLoadSession();
-    // Pass a stored token if one exists so the server can match it on reconnect
-    _olSocket.emit('room:create', { pseudo, token: sess ? sess.token : undefined });
+    _olSocket.emit('room:create', { pseudo });
   });
 }
 
@@ -4198,6 +4323,16 @@ function _olJoin(){
   });
 }
 
+function _olSitDown(){
+  if(!_olSocket) return;
+  _olSocket.emit('room:claim-seat');
+}
+
+function _olStandUp(){
+  if(!_olSocket) return;
+  _olSocket.emit('room:release-seat');
+}
+
 function _olSend(){
   const inp  = _olEl('ol-chat-inp');
   const text = inp.value.trim();
@@ -4210,7 +4345,7 @@ function _olLeave(){
   _duClearSession();
   if(_olSocket){ _olSocket.disconnect(); _olSocket = null; }
   _olRoomCode = null; _duSeat = null; _duToken = null; _duState = null;
-  _duBoardInited = false; _olListenersOn = false;
+  _duBoardInited = false; _olListenersOn = false; _olIsSpectator = false;
   _duSelectedDeck = null; _duBanlistEnforced = true; _duIsHost = false;
   for(const id of ['ol-messages','du-chat-msgs']){
     const el = _duEl(id); if(el) el.innerHTML = '';
@@ -4248,6 +4383,8 @@ function initOnline(){
 
   _olEl('ol-host-btn').addEventListener('click', _olHost);
   _olEl('ol-join-btn').addEventListener('click', _olJoin);
+  _olEl('ol-sit-btn').addEventListener('click', _olSitDown);
+  _olEl('ol-stand-btn').addEventListener('click', _olStandUp);
   _olEl('ol-send-btn').addEventListener('click', _olSend);
   _olEl('ol-leave-btn').addEventListener('click', _olLeave);
   _olEl('ol-chat-inp').addEventListener('keydown', e => {
@@ -4279,6 +4416,8 @@ let _duPhase          = 'draw'; // Rush Duel phase: draw|main|battle|end
 let _duTurnCount      = 0;     // total turns passed so far (0 = first player's first turn)
 let _duCombatState    = null;  // { attackerSeat, attackerIid, defenderSlot? } — cleared on passTurn
 let _duTargetState    = null;  // { targetIid, targetZone, targetSlot } — cleared on passTurn
+let _duStatEditIid    = null;  // iid of card whose stat is being edited
+let _duStatEditType   = 'atk'; // 'atk' or 'def'
 
 const _DU_PHASES      = ['draw','main','battle','end'];
 const _DU_PHASE_LABELS = { draw:'Draw Phase', main:'Main Phase', battle:'Battle Phase', end:'End Phase' };
@@ -4386,9 +4525,65 @@ function _duCardTooltip(e, c){
   if(!card) return;
   if(typeof showTooltip === 'function') showTooltip(card, c.rarity || '', e.clientX, e.clientY);
 }
+
+// ── Card detail panel (middle-click / Ctrl+click) ─────────────────────────────
+function _duShowCardDetail(c){
+  if(!c || c.hidden || !c.cardKey) return;
+  const card = (typeof MAP !== 'undefined') && MAP.get(c.cardKey);
+  const panel = _duEl('du-card-detail');
+  if(!panel) return;
+
+  // Image: prefer card instance imgFile, fall back to card's best image.
+  const imgEl = _duEl('du-cd-img');
+  const url = _duCardImgUrl(c);
+  if(url){ imgEl.src = url; imgEl.style.display = ''; }
+  else if(card && typeof lowestRarityImg === 'function'){
+    const imgs = lowestRarityImg(card, null);
+    const f = imgs?.[0]?.imgFile;
+    imgEl.src = f ? imgUrl(f) : '';
+    imgEl.style.display = f ? '' : 'none';
+  } else { imgEl.style.display = 'none'; }
+
+  _duEl('du-cd-name').textContent = card ? cname(card) : c.cardKey;
+
+  if(card){
+    const mainType = (typeof cardMainType === 'function') ? cardMainType(card) : '';
+    const parts = [];
+    if(card.attribute) parts.push(card.attribute);
+    if(mainType === 'Monster' && card.level != null) parts.push('Level ' + card.level);
+    if(card.types) parts.push(card.types.replace(/\//g, ' / '));
+    else if(card.card_type) parts.push(card.card_type);
+    _duEl('du-cd-meta').textContent = parts.join(' · ');
+
+    const statsEl = _duEl('du-cd-stats');
+    if(mainType === 'Monster'){
+      statsEl.innerHTML = `<span class="cd-atk">ATK ${card.atk != null ? card.atk : '?'}</span><span class="cd-def">DEF ${card.def != null ? card.def : '?'}</span>`;
+    } else { statsEl.innerHTML = ''; }
+
+    _duEl('du-cd-effect').textContent = card.effect || card.flavor_text || '';
+  } else {
+    _duEl('du-cd-meta').textContent = '';
+    _duEl('du-cd-stats').innerHTML = '';
+    _duEl('du-cd-effect').textContent = '';
+  }
+
+  panel.classList.remove('hidden');
+}
+function _duHideCardDetail(){
+  const panel = _duEl('du-card-detail');
+  if(panel) panel.classList.add('hidden');
+}
+
 function _duBindCardHover(el, c){
   el.addEventListener('mousemove', e => _duCardTooltip(e, c));
   el.addEventListener('mouseleave', ()=>{ if(typeof hideTooltip==='function') hideTooltip(); });
+  // Middle-click or Ctrl+click → detail panel.
+  el.addEventListener('mousedown', e=>{
+    if(e.button === 1){ e.preventDefault(); _duShowCardDetail(c); }
+  });
+  el.addEventListener('click', e=>{
+    if(e.ctrlKey){ e.preventDefault(); e.stopPropagation(); _duShowCardDetail(c); }
+  });
 }
 
 // ── Render helpers ────────────────────────────────────────────────────────────
@@ -4426,6 +4621,53 @@ function _duMkCardEl(c, isOwner, zone){
   }
   el.dataset.iid = c.iid;
   _duBindCardHover(el, c);
+  // ATK/DEF overlay for face-up monsters
+  if(zone === 'monster' && !c.faceDown && !c.hidden){
+    const ref = (typeof _refData !== 'undefined' && _refData && _refData.cards) ? _refData.cards : {};
+    const baseAtk = ref[c.cardKey]?.atk;
+    const baseDef = ref[c.cardKey]?.def;
+    const atkVal = c.atkOverride !== null && c.atkOverride !== undefined ? c.atkOverride : baseAtk;
+    const defVal = c.defOverride !== null && c.defOverride !== undefined ? c.defOverride : baseDef;
+    if(atkVal !== undefined || defVal !== undefined){
+      const bar = document.createElement('div');
+      bar.className = 'du-stat-bar';
+      const atkSpan = document.createElement('span');
+      atkSpan.className = 'du-stat atk';
+      atkSpan.dataset.iid  = c.iid;
+      atkSpan.dataset.stat = 'atk';
+      atkSpan.textContent  = atkVal ?? '?';
+      const defSpan = document.createElement('span');
+      defSpan.className = 'du-stat def';
+      defSpan.dataset.iid  = c.iid;
+      defSpan.dataset.stat = 'def';
+      defSpan.textContent  = defVal ?? '?';
+      if(isOwner && !_olIsSpectator){
+        atkSpan.classList.add('editable');
+        defSpan.classList.add('editable');
+        atkSpan.addEventListener('click', e => {
+          e.stopPropagation();
+          _duStatEditIid  = c.iid;
+          _duStatEditType = 'atk';
+          _duEl('du-stat-modal-title').textContent = 'Edit ATK';
+          _duEl('du-stat-inp').value = atkVal ?? 0;
+          _duEl('du-stat-modal').classList.remove('hidden');
+          _duEl('du-stat-inp').select();
+        });
+        defSpan.addEventListener('click', e => {
+          e.stopPropagation();
+          _duStatEditIid  = c.iid;
+          _duStatEditType = 'def';
+          _duEl('du-stat-modal-title').textContent = 'Edit DEF';
+          _duEl('du-stat-inp').value = defVal ?? 0;
+          _duEl('du-stat-modal').classList.remove('hidden');
+          _duEl('du-stat-inp').select();
+        });
+      }
+      bar.appendChild(atkSpan);
+      bar.appendChild(defSpan);
+      el.appendChild(bar);
+    }
+  }
   return el;
 }
 
@@ -4475,6 +4717,10 @@ function _duBuildSlots(container, n, prefix, zone, isOwner){
 function _duRenderState(st){
   _duState = st;
   if(!st) return;
+  if(st.you === 'spectator') _olIsSpectator = true;
+  // Keep Stand Up button disabled while a game is running.
+  const standBtn = _olEl('ol-stand-btn');
+  if(standBtn && _duSeat !== null) standBtn.disabled = st.started && !st.ended;
 
   const self = st.self;
   const opp  = st.opp;
@@ -4552,13 +4798,14 @@ function _duRenderZones(self, opp){
     const oppRow  = _duEl('du-opp-' +z.replace('spellTrap','st').replace('monster','m'));
     if(!selfRow || !oppRow) continue;
     // Rebuild if empty (first time)
-    if(!selfRow.children.length) _duBuildSlots(selfRow, 3, 'du-self-'+z, z, true);
+    const selfOwner = !_olIsSpectator;
+    if(!selfRow.children.length) _duBuildSlots(selfRow, 3, 'du-self-'+z, z, selfOwner);
     if(!oppRow.children.length)  _duBuildSlots(oppRow,  3, 'du-opp-'+z,  z, false);
     for(let i=0;i<3;i++){
       const ss = _duEl(`du-self-${z}-${i}`) || selfRow.children[i];
       const os = _duEl(`du-opp-${z}-${i}`)  || oppRow.children[i];
-      if(ss) _duRenderSlot(ss, self[z][i],  true,  z, i);
-      if(os) _duRenderSlot(os, opp[z][i],   false, z, i);
+      if(ss) _duRenderSlot(ss, self[z][i],  selfOwner, z, i);
+      if(os) _duRenderSlot(os, opp[z][i],   false,     z, i);
       // Clear stale glow classes before conditionally re-applying
       if(ss) ss.classList.remove('in-combat-atk','in-combat-def','in-targeted');
       if(os) os.classList.remove('in-combat-atk','in-combat-def','in-targeted');
@@ -4599,10 +4846,12 @@ function _duRenderZones(self, opp){
   if(sf){
     sf.innerHTML = '';
     sf.dataset.zone='field'; sf.dataset.slot=0; sf.dataset.owner='self';
-    sf.addEventListener('dragover', _duOnDragOver);
-    sf.addEventListener('dragleave', _duOnDragLeave);
-    sf.addEventListener('drop', e => _duOnDrop(e,'field',0));
-    if(self.field[0]) _duRenderSlot(sf, self.field[0], true, 'field', 0);
+    if(!_olIsSpectator){
+      sf.addEventListener('dragover', _duOnDragOver);
+      sf.addEventListener('dragleave', _duOnDragLeave);
+      sf.addEventListener('drop', e => _duOnDrop(e,'field',0));
+    }
+    if(self.field[0]) _duRenderSlot(sf, self.field[0], !_olIsSpectator, 'field', 0);
     sf.classList.remove('in-targeted');
   }
   if(of_){
@@ -4911,6 +5160,40 @@ const _DU_ZONE_LABEL = {
   monster:'Monster Zone', spellTrap:'Spell/Trap Zone', field:'Field Zone',
   hand:'hand', deck:'deck', graveyard:'Graveyard', extraDeck:'Extra Deck',
 };
+// Calcul des dégâts de combat selon les règles Rush Duel.
+// Retourne { direct, damage, victim, note } ou null si données insuffisantes.
+function _duCalcDamage(entry){
+  const ref = (typeof _refData !== 'undefined' && _refData && _refData.cards) ? _refData.cards : {};
+  const ovr  = v => (v !== null && v !== undefined) ? v : undefined;
+  const lookup = (key, stat) => ref[key] ? ref[key][stat] : undefined;
+  const atkOvr = ovr(entry.attackerAtkOvr);
+  const attackerAtk = atkOvr !== undefined ? atkOvr : lookup(entry.attackerCardKey, 'atk');
+  if(attackerAtk == null) return null;
+
+  if(entry.defenderSlot == null){
+    return { direct: true, damage: attackerAtk, victim: 'opp' };
+  }
+
+  const defPos = entry.defenderPos;
+  if(defPos === 'def'){
+    const defOvr2 = ovr(entry.defenderDefOvr);
+    const defDef  = defOvr2 !== undefined ? defOvr2 : lookup(entry.defenderCardKey, 'def');
+    if(defDef == null) return null;
+    const diff = attackerAtk - defDef;
+    if(diff > 0)  return { damage: 0, note: 'No damage (defender destroyed)' };
+    if(diff < 0)  return { damage: -diff, victim: 'atk' };
+    return { damage: 0, note: 'No damage (equal)' };
+  } else {
+    const defOvr3 = ovr(entry.defenderAtkOvr);
+    const defAtk  = defOvr3 !== undefined ? defOvr3 : lookup(entry.defenderCardKey, 'atk');
+    if(defAtk == null) return null;
+    const diff = attackerAtk - defAtk;
+    if(diff > 0)  return { damage: diff, victim: 'opp' };
+    if(diff < 0)  return { damage: -diff, victim: 'atk' };
+    return { damage: 0, note: 'No damage (equal)' };
+  }
+}
+
 let _duLastLogTs = 0;
 function _duLogEntry(entry){
   if(!entry || entry.ts === _duLastLogTs) return;
@@ -4942,6 +5225,20 @@ function _duLogEntry(entry){
       } else {
         const defSpan = entry.defenderCardKey ? _duLogCardSpan(entry.defenderCardKey) : '"a face-down monster"';
         html = `${who} attacked ${defSpan} with ${attSpan}!`;
+      }
+      // Damage calculation
+      const dmg = _duCalcDamage(entry);
+      if(dmg){
+        if(dmg.note){
+          html += `<br><span style="color:var(--muted);font-size:.85em">→ ${_duEscHtml(dmg.note)}</span>`;
+        } else if(dmg.direct){
+          const victim = entry.seat === _duSeat ? 'Opp' : 'You';
+          html += `<br><span style="color:#f0a830;font-size:.85em">→ Direct attack: ${_duEscHtml(victim)} takes <strong>${dmg.damage}</strong> damage</span>`;
+        } else {
+          const isAtkVictim = dmg.victim === 'atk';
+          const victim = (entry.seat === _duSeat) === isAtkVictim ? 'You' : 'Opp';
+          html += `<br><span style="color:${isAtkVictim && entry.seat===_duSeat ? '#f44336' : '#f0a830'};font-size:.85em">→ ${_duEscHtml(victim)} takes <strong>${dmg.damage}</strong> damage</span>`;
+        }
       }
       break;
     }
@@ -5007,6 +5304,16 @@ function _duLogEntry(entry){
     }
     case 'lookDeck':      html = `${who} looked at their deck`; break;
     case 'lookExtraDeck': html = `${who} looked at their extra deck`; break;
+    case 'statOverride': {
+      const cSpan = entry.cardKey ? _duLogCardSpan(entry.cardKey) : 'a card';
+      const parts = [];
+      if(entry.atk !== null && entry.atk !== undefined) parts.push(`ATK → <strong>${entry.atk}</strong>`);
+      if(entry.def !== null && entry.def !== undefined) parts.push(`DEF → <strong>${entry.def}</strong>`);
+      html = parts.length
+        ? `${who} modified ${cSpan}: ${parts.join(' / ')}`
+        : `${who} reset ${cSpan}'s stats`;
+      break;
+    }
     default:              html = `${who}: ${_duEscHtml(entry.type)}`;
   }
   _olAppendSysHtml(html);
@@ -5265,8 +5572,9 @@ function _duInitBoard(){
     });
   });
 
-  // LP click → modal
+  // LP click → modal (disabled for spectators)
   _duEl('du-self-lp').addEventListener('click', ()=>{
+    if(_olIsSpectator) return;
     if(_duState) _duEl('du-lp-inp').value = _duState.self.lp;
     _duEl('du-lp-modal').classList.remove('hidden');
     _duEl('du-lp-inp').select();
@@ -5284,6 +5592,36 @@ function _duInitBoard(){
       if(d.startsWith('=')){ _duEmit('lp',{mode:'set',value:parseInt(d.slice(1))}); }
       else { _duEmit('lp',{mode:'delta',value:parseInt(d)}); }
       _duEl('du-lp-modal').classList.add('hidden');
+    });
+  });
+
+  // Card detail panel close
+  const cdClose = _duEl('du-cd-close');
+  if(cdClose) cdClose.addEventListener('click', _duHideCardDetail);
+  document.addEventListener('keydown', e=>{ if(e.key==='Escape') _duHideCardDetail(); });
+
+  // Stat (ATK/DEF) override modal
+  _duEl('du-stat-cancel').addEventListener('click', ()=> _duEl('du-stat-modal').classList.add('hidden'));
+  _duEl('du-stat-ok').addEventListener('click', ()=>{
+    const v = parseInt(_duEl('du-stat-inp').value);
+    if(_duStatEditIid && Number.isFinite(v)){
+      _duEmit('statOverride', { iid: _duStatEditIid, [_duStatEditType]: v });
+    }
+    _duEl('du-stat-modal').classList.add('hidden');
+  });
+  _duEl('du-stat-inp').addEventListener('keydown', e=>{ if(e.key==='Enter'){ _duEl('du-stat-ok').click(); } });
+  document.querySelectorAll('.du-stat-preset').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      const d = btn.dataset.delta;
+      const inp = _duEl('du-stat-inp');
+      if(d === 'reset'){
+        // null = reset to reference data value
+        if(_duStatEditIid) _duEmit('statOverride', { iid: _duStatEditIid, [_duStatEditType]: null });
+        _duEl('du-stat-modal').classList.add('hidden');
+      } else {
+        const delta = parseInt(d);
+        inp.value = Math.max(0, (parseInt(inp.value) || 0) + delta);
+      }
     });
   });
 
@@ -5428,8 +5766,8 @@ function _duGoBoard(){
 // ── Socket handlers (called once in _olEnsureSocket) ─────────────────────────
 function _duBindSocket(socket){
   socket.on('duel:state', st=>{
-    // Save seat + names on first state
-    if(_duSeat === null && st.you !== undefined) _duSeat = st.you;
+    // Save seat on first state (only for actual seats, not spectator string).
+    if(_duSeat === null && typeof st.you === 'number') _duSeat = st.you;
     _duRenderState(st);
     if(st.started){
       _duTossHide();

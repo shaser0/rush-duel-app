@@ -5678,44 +5678,44 @@
     "declaredSize": null
   },
   "Saikyō Jump October 2021 promotional card": {
-    "releaseDateJP": "September 3, 2021",
+    "releaseDateJP": null,
     "packsPerBox": null,
-    "coverImage": "SJMP-2021-10-Cover.png",
+    "coverImage": null,
     "cardsPerPack": null,
     "declaredSize": null
   },
   "Yu-Gi-Oh! RUSH DUEL: Saikyo Battle Royale!! Winner's Spirit promotional card": {
-    "releaseDateJP": "August 12, 2021",
+    "releaseDateJP": null,
     "packsPerBox": null,
-    "coverImage": "SaikyoBattleRoyaleWinnersSpirit-PromoJP.png",
+    "coverImage": null,
     "cardsPerPack": null,
     "declaredSize": null
   },
   "Saikyō Jump March 2022 promotional card": {
-    "releaseDateJP": "February 4, 2022",
+    "releaseDateJP": null,
     "packsPerBox": null,
-    "coverImage": "SJMP-2022-3-Cover.png",
+    "coverImage": null,
     "cardsPerPack": null,
     "declaredSize": null
   },
   "Yu-Gi-Oh! SEVENS Luke! Explosive Supremacy Legend!! Volume 3 promotional card": {
-    "releaseDateJP": "May 2, 2022",
+    "releaseDateJP": null,
     "packsPerBox": null,
-    "coverImage": "RDCL03-PromoJP.png",
+    "coverImage": null,
     "cardsPerPack": null,
     "declaredSize": null
   },
   "Saikyō Jump March 2025 promotional card": {
-    "releaseDateJP": "February 4, 2025",
+    "releaseDateJP": null,
     "packsPerBox": null,
-    "coverImage": "SJMP-2025-3-Cover.png",
+    "coverImage": null,
     "cardsPerPack": null,
     "declaredSize": null
   },
   "Yu-Gi-Oh! GO RUSH!! Complete Challenge 4": {
-    "releaseDateJP": "January 22, 2024",
+    "releaseDateJP": null,
     "packsPerBox": null,
-    "coverImage": "RDD002-PromoJP.png",
+    "coverImage": null,
     "cardsPerPack": null,
     "declaredSize": null
   },
@@ -5815,6 +5815,13 @@
     "packsPerBox": null,
     "coverImage": "GalaxyCup-LogoJP.png",
     "cardsPerPack": null,
+    "declaredSize": null
+  },
+  "Jointech of Passion": {
+    "releaseDateJP": "November 7, 2026",
+    "packsPerBox": 30,
+    "coverImage": "RDKP27-BoosterJP.png",
+    "cardsPerPack": 5,
     "declaredSize": null
   }
 }
