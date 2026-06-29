@@ -249,11 +249,20 @@ app.get('/api/config', (req, res) => {
   const cdnBase = ('DATA_CDN_BASE' in process.env)
     ? process.env.DATA_CDN_BASE
     : `https://cdn.jsdelivr.net/gh/shaser0/rush-duel-app@${tag}/data`;
+  // Data "channel": a small pointer file on the main branch naming the current
+  // data tag + version, so card data can be refreshed independently of the app
+  // version (push a data-only tag + bump the pointer — no binary rebuild). The
+  // client polls it in the background (and on demand) and re-caches when the
+  // version advances. Phase 3 (Oracle) can override this with a server endpoint.
+  const channelUrl = ('DATA_CHANNEL_URL' in process.env)
+    ? process.env.DATA_CHANNEL_URL
+    : (cdnBase ? 'https://cdn.jsdelivr.net/gh/shaser0/rush-duel-app@main/data/data-channel.json' : '');
   res.json({
-    dataBase:   cdnBase.replace(/\/+$/, ''),
-    dataTag:    tag,
-    oracleBase: (process.env.ORACLE_URL || '').replace(/\/+$/, ''),
-    maintainer: HAS_LOCAL_DATA,
+    dataBase:       cdnBase.replace(/\/+$/, ''),
+    dataTag:        tag,
+    dataChannelUrl: channelUrl,
+    oracleBase:     (process.env.ORACLE_URL || '').replace(/\/+$/, ''),
+    maintainer:     HAS_LOCAL_DATA,
   });
 });
 

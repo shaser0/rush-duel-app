@@ -29,11 +29,11 @@ function mount(httpServer) {
     // ── room:create ────────────────────────────────────────────────────────
     socket.on('room:create', (data) => {
       if (!validate('room:create', data))
-        return reject(socket, 'invalid_data', 'Pseudo invalide (1–20 caractères).');
+        return reject(socket, 'invalid_data', 'Invalid nickname (1–20 characters).');
       if (playerRoom)
-        return reject(socket, 'already_in_room', 'Tu es déjà dans une room.');
+        return reject(socket, 'already_in_room', 'You are already in a room.');
       if (!joinLimiter.check(socket.id))
-        return reject(socket, 'rate_limited', 'Trop de tentatives. Attends un peu.');
+        return reject(socket, 'rate_limited', 'Too many attempts. Wait a moment.');
 
       playerPseudo = data.pseudo.trim();
       const room   = rooms.createRoom(socket.id, playerPseudo, data.token);
@@ -56,11 +56,11 @@ function mount(httpServer) {
     // ── room:join ──────────────────────────────────────────────────────────
     socket.on('room:join', (data) => {
       if (!validate('room:join', data))
-        return reject(socket, 'invalid_data', 'Pseudo ou code invalide.');
+        return reject(socket, 'invalid_data', 'Invalid nickname or code.');
       if (playerRoom)
-        return reject(socket, 'already_in_room', 'Tu es déjà dans une room.');
+        return reject(socket, 'already_in_room', 'You are already in a room.');
       if (!joinLimiter.check(socket.id))
-        return reject(socket, 'rate_limited', 'Trop de tentatives. Attends un peu.');
+        return reject(socket, 'rate_limited', 'Too many attempts. Wait a moment.');
 
       playerPseudo = data.pseudo.trim();
       const code   = data.code.trim().toUpperCase();
@@ -68,11 +68,11 @@ function mount(httpServer) {
 
       if (result.error) {
         const MSGS = {
-          room_not_found:  'Room introuvable. Vérifie le code.',
-          room_full:       'La room est pleine (2 joueurs max).',
-          already_in_room: 'Tu es déjà dans cette room.',
+          room_not_found:  'Room not found. Check the code.',
+          room_full:       'The room is full (2 players max).',
+          already_in_room: 'You are already in this room.',
         };
-        return reject(socket, result.error, MSGS[result.error] || 'Erreur.');
+        return reject(socket, result.error, MSGS[result.error] || 'Error.');
       }
 
       playerRoom  = code;
@@ -130,16 +130,16 @@ function mount(httpServer) {
     // ── chat:message ───────────────────────────────────────────────────────
     socket.on('chat:message', (data) => {
       if (!playerRoom)
-        return reject(socket, 'not_in_room', 'Tu n\'es pas dans une room.');
+        return reject(socket, 'not_in_room', 'You are not in a room.');
       if (!validate('chat:message', data))
-        return reject(socket, 'invalid_data', 'Message invalide ou trop long.');
+        return reject(socket, 'invalid_data', 'Invalid or too long message.');
       if (!chatLimiter.check(socket.id))
-        return reject(socket, 'rate_limited', 'Ralentis !');
+        return reject(socket, 'rate_limited', 'Slow down!');
 
       // Re-verify membership server-side (prevents spoofed room codes).
       const room = rooms.getRoom(playerRoom);
       if (!room || !room.players.has(socket.id))
-        return reject(socket, 'not_in_room', 'Tu n\'es pas dans cette room.');
+        return reject(socket, 'not_in_room', 'You are not in this room.');
 
       const msg = rooms.addMessage(playerRoom, socket.id, data.text.trim());
       if (msg) io.to(playerRoom).emit('chat:message', msg);
