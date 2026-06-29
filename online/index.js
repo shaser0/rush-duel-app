@@ -149,7 +149,7 @@ function mount(httpServer) {
     socket.on('disconnect', () => {
       if (!playerRoom) return;
       const { affected } = rooms.leaveRoom(socket.id);
-      const pseudo = playerPseudo || '(inconnu)';
+      const pseudo = playerPseudo || '(unknown)';
 
       // Notify rooms that still exist (seat may be kept reserved if a game runs).
       for (const code of affected) {

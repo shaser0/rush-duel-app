@@ -984,8 +984,12 @@ button,input,select{font-family:inherit}
         <input id="ol-pseudo" class="ol-input" type="text" maxlength="20" placeholder="Enter your nickname…" autocomplete="off">
       </div>
       <div class="ol-actions">
-        <button id="ol-host-btn" class="btn-p">Host a duel</button>
-        <div class="ol-separator">or</div>
+        <button id="ol-host-btn" class="btn-p">Héberger un duel</button>
+        <div class="ol-separator">ou</div>
+        <div class="ol-field">
+          <label for="ol-server-url">URL du serveur hôte</label>
+          <input id="ol-server-url" class="ol-input" type="url" placeholder="https://xxx.trycloudflare.com" autocomplete="off">
+        </div>
         <div class="ol-join-row">
           <input id="ol-code" class="ol-input" type="text" maxlength="6" placeholder="Room code" autocomplete="off" autocapitalize="characters" style="text-transform:uppercase">
           <button id="ol-join-btn" class="btn-p">Join</button>
@@ -1165,7 +1169,7 @@ button,input,select{font-family:inherit}
 <!-- LP edit modal -->
 <div class="modal-back hidden" id="du-lp-modal">
   <div class="modal">
-    <h2>Modifier mes LP</h2>
+    <h2>Edit my LP</h2>
     <input id="du-lp-inp" type="number" min="0" max="99999" value="8000">
     <div class="du-lp-presets">
       <button class="du-lp-preset" data-delta="-100">-100</button>
@@ -3966,6 +3970,7 @@ function initUpdatePanel(){
 let _olSocket     = null;  // Socket.IO socket instance
 let _olRoomCode   = null;  // current room code
 let _olListenersOn = false; // ensure listeners are registered once
+let _olServerUrl  = null;  // remote server URL (null = hosting locally)
 
 function _olEl(id){ return document.getElementById(id); }
 
@@ -4072,7 +4077,7 @@ function _olLoadSocketScript(){
   if(window.io) return Promise.resolve();
   return new Promise((resolve, reject) => {
     const s  = document.createElement('script');
-    s.src    = '/socket.io/socket.io.js';
+    s.src    = _olServerUrl ? `${_olServerUrl}/socket.io/socket.io.js` : '/socket.io/socket.io.js';
     s.onload = resolve;
     s.onerror = () => reject(new Error('Socket.IO script not found. Restart with ONLINE_MODE=1 npm start.'));
     document.head.appendChild(s);
@@ -4089,7 +4094,9 @@ async function _olEnsureSocket(){
     return false;
   }
 
-  _olSocket = window.io({ reconnectionAttempts: 5 });
+  _olSocket = _olServerUrl
+    ? window.io(_olServerUrl, { reconnectionAttempts: 5 })
+    : window.io({ reconnectionAttempts: 5 });
 
   _olSocket.on('room:created', ({ code, seat, token, presence, history, settings }) => {
     _olRoomCode = code;
@@ -4625,7 +4632,7 @@ function _duRenderHand(cards){
   const wrap = _duEl('du-hand');
   wrap.innerHTML = '';
   if(!cards || !cards.length){
-    const e=document.createElement('span'); e.className='du-hand-empty'; e.textContent='Main vide'; wrap.appendChild(e); return;
+    const e=document.createElement('span'); e.className='du-hand-empty'; e.textContent='Empty hand'; wrap.appendChild(e); return;
   }
   for(const c of cards){
     const hc = document.createElement('div');
