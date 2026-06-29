@@ -685,7 +685,7 @@ button,input,select{font-family:inherit}
       <button class="menu-tile" data-go="screen-online" style="grid-column:1/-1">
         <span class="mt-icon">🌐</span>
         <span class="mt-name">Duel en ligne</span>
-        <span class="mt-desc">Affronte un ami via ZeroTier / Tailscale</span>
+        <span class="mt-desc">Affronte un ami via Cloudflare Tunnel</span>
       </button>
     </div>
   </div>
@@ -974,7 +974,7 @@ button,input,select{font-family:inherit}
   <div id="ol-lobby" class="ol-view">
     <div class="ol-card">
       <h2 class="ol-title">🌐 Duel en ligne</h2>
-      <p class="ol-desc">Joue contre un ami via ZeroTier ou Tailscale. L'hôte lance le serveur avec <code style="background:var(--bg3);padding:1px 5px;border-radius:3px;font-size:12px">ONLINE_MODE=1 npm start</code>, puis partage le code de room à son adversaire.</p>
+      <p class="ol-desc">Joue contre un ami via Cloudflare Tunnel. L'hôte lance <code style="background:var(--bg3);padding:1px 5px;border-radius:3px;font-size:12px">cloudflared tunnel --url http://localhost:3000</code> et partage l'URL et le code de room à son adversaire.</p>
       <div class="ol-field">
         <label for="ol-pseudo">Ton pseudo</label>
         <input id="ol-pseudo" class="ol-input" type="text" maxlength="20" placeholder="Entrez votre pseudo…" autocomplete="off">
@@ -982,6 +982,10 @@ button,input,select{font-family:inherit}
       <div class="ol-actions">
         <button id="ol-host-btn" class="btn-p">Héberger un duel</button>
         <div class="ol-separator">ou</div>
+        <div class="ol-field">
+          <label for="ol-server-url">URL du serveur hôte</label>
+          <input id="ol-server-url" class="ol-input" type="url" placeholder="https://xxx.trycloudflare.com" autocomplete="off">
+        </div>
         <div class="ol-join-row">
           <input id="ol-code" class="ol-input" type="text" maxlength="6" placeholder="Code de room" autocomplete="off" autocapitalize="characters" style="text-transform:uppercase">
           <button id="ol-join-btn" class="btn-p">Rejoindre</button>
@@ -1161,7 +1165,7 @@ button,input,select{font-family:inherit}
 <!-- LP edit modal -->
 <div class="modal-back hidden" id="du-lp-modal">
   <div class="modal">
-    <h2>Modifier mes LP</h2>
+    <h2>Edit my LP</h2>
     <input id="du-lp-inp" type="number" min="0" max="99999" value="8000">
     <div class="du-lp-presets">
       <button class="du-lp-preset" data-delta="-100">-100</button>
@@ -3909,6 +3913,7 @@ function initUpdatePanel(){
 let _olSocket     = null;  // Socket.IO socket instance
 let _olRoomCode   = null;  // current room code
 let _olListenersOn = false; // ensure listeners are registered once
+let _olServerUrl  = null;  // remote server URL (null = hosting locally)
 
 function _olEl(id){ return document.getElementById(id); }
 
@@ -4015,9 +4020,13 @@ function _olLoadSocketScript(){
   if(window.io) return Promise.resolve();
   return new Promise((resolve, reject) => {
     const s  = document.createElement('script');
-    s.src    = '/socket.io/socket.io.js';
+    s.src    = _olServerUrl ? `${_olServerUrl}/socket.io/socket.io.js` : '/socket.io/socket.io.js';
     s.onload = resolve;
-    s.onerror = () => reject(new Error('Socket.IO script not found. Relancez avec ONLINE_MODE=1 npm start.'));
+    s.onerror = () => reject(new Error(
+      _olServerUrl
+        ? `Impossible de joindre le serveur : ${_olServerUrl}`
+        : 'Socket.IO script not found. Relancez avec ONLINE_MODE=1 npm start.'
+    ));
     document.head.appendChild(s);
   });
 }
@@ -4032,7 +4041,9 @@ async function _olEnsureSocket(){
     return false;
   }
 
-  _olSocket = window.io({ reconnectionAttempts: 5 });
+  _olSocket = _olServerUrl
+    ? window.io(_olServerUrl, { reconnectionAttempts: 5 })
+    : window.io({ reconnectionAttempts: 5 });
 
   _olSocket.on('room:created', ({ code, seat, token, presence, history, settings }) => {
     _olRoomCode = code;
@@ -4111,6 +4122,7 @@ function _duSetOppName(players, mySeat){
 function _olHost(){
   const pseudo = _olEl('ol-pseudo').value.trim();
   if(!pseudo){ _olShowError('Entre un pseudo (1–20 caractères).'); return; }
+  _olServerUrl = null; // hosting locally, no remote URL
   _olClearError();
   _olEnsureSocket().then(ok => {
     if(!ok) return;
@@ -4123,8 +4135,10 @@ function _olHost(){
 function _olJoin(){
   const pseudo = _olEl('ol-pseudo').value.trim();
   const code   = _olEl('ol-code').value.trim().toUpperCase();
+  const rawUrl = _olEl('ol-server-url').value.trim();
   if(!pseudo){ _olShowError('Entre un pseudo.'); return; }
   if(code.length !== 6){ _olShowError('Le code de room fait exactement 6 caractères.'); return; }
+  _olServerUrl = rawUrl ? rawUrl.replace(/\/$/, '') : null;
   _olClearError();
   _olEnsureSocket().then(ok => {
     if(!ok) return;
@@ -4568,7 +4582,7 @@ function _duRenderHand(cards){
   const wrap = _duEl('du-hand');
   wrap.innerHTML = '';
   if(!cards || !cards.length){
-    const e=document.createElement('span'); e.className='du-hand-empty'; e.textContent='Main vide'; wrap.appendChild(e); return;
+    const e=document.createElement('span'); e.className='du-hand-empty'; e.textContent='Empty hand'; wrap.appendChild(e); return;
   }
   for(const c of cards){
     const hc = document.createElement('div');

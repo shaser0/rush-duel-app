@@ -30,6 +30,10 @@ const PORT       = process.env.PORT || 3000;
 // When running as a pkg .exe, resolve data files from the real exe directory
 const APP_DIR = process.pkg ? path.dirname(process.execPath) : __dirname;
 
+// pkg binary always runs in online-capable mode (each user has their own binary,
+// so there is no shared-file concern; Socket.IO + 0.0.0.0 are always enabled).
+const IS_ONLINE = !!(process.env.ONLINE_MODE || process.pkg);
+
 // Reference data (cards.json & co) now ships from the jsDelivr CDN and is cached
 // client-side; distributed clients no longer carry it on disk. A checkout that
 // still has it locally is a maintainer/dev env (live wiki-sync tooling enabled).
@@ -182,7 +186,7 @@ const ALLOWED_ORIGINS = new Set([
 
 app.use((req, res, next) => {
   const origin = req.headers.origin;
-  if (!process.env.ONLINE_MODE) {
+  if (!IS_ONLINE) {
     if (origin && !ALLOWED_ORIGINS.has(origin)) {
       return res.status(403).json({ error: 'forbidden origin' });
     }
@@ -208,7 +212,7 @@ app.get('/banlist.json',       (req, res) => res.sendFile(path.join(APP_DIR, 'da
 // These persist to a single shared file on disk. On a public ONLINE_MODE host
 // that is a global file writable by anyone — so the routes are local-only until
 // Phase 3 replaces them with authenticated, per-Discord-account storage (SQLite).
-if (!process.env.ONLINE_MODE) {
+if (!process.env.ONLINE_MODE || process.pkg) {
   app.get('/api/collections', (req, res) => res.json(loadCollections()));
 
   app.put('/api/collections', (req, res) => {
@@ -312,7 +316,7 @@ function openBrowser(url) {
 
 // ── Heartbeat / auto-shutdown (packaged exe only) ──────────────────────────
 
-if (process.pkg && !process.env.ONLINE_MODE) {
+if (process.pkg) {
   let lastSeen = null;
   let watchdog = null;
 
@@ -329,7 +333,7 @@ if (process.pkg && !process.env.ONLINE_MODE) {
 
 // ── Binary update API (local mode only) ───────────────────────────────────
 
-if (!process.env.ONLINE_MODE) {
+if (!process.env.ONLINE_MODE || process.pkg) {
   const { checkUpdate, downloadUpdate, writeApplyScript } = require('./scripts/release/update');
 
   app.get('/api/update/check', async (req, res) => {
@@ -407,22 +411,22 @@ function runStartupMigrations() {
 
 // ── Online mode ────────────────────────────────────────────────────────────
 
-if (process.env.ONLINE_MODE) {
+if (IS_ONLINE) {
   require('./online').mount(httpServer);
 }
 
 // ── Start server ───────────────────────────────────────────────────────────
 
-const HOST = process.env.ONLINE_MODE ? '0.0.0.0' : '127.0.0.1';
+const HOST = IS_ONLINE ? '0.0.0.0' : '127.0.0.1';
 
 httpServer.listen(PORT, HOST, () => {
   console.log(`Server running at http://${HOST === '0.0.0.0' ? 'localhost' : HOST}:${PORT}`);
-  if (process.env.ONLINE_MODE) {
-    console.log(`[online] Listening on 0.0.0.0:${PORT} — reachable via ZeroTier/Tailscale IP`);
+  if (IS_ONLINE) {
+    console.log(`[online] Listening on 0.0.0.0:${PORT} — reachable via Cloudflare Tunnel`);
   }
   runStartupMigrations();
 
-  if (process.pkg && !process.env.ONLINE_MODE) openBrowser(`http://localhost:${PORT}`);
+  if (process.pkg) openBrowser(`http://localhost:${PORT}`);
   // Live wiki-sync only on a maintainer/dev checkout; distributed clients and the
   // Oracle host get reference data from the CDN, so they never scrape.
   if (HAS_LOCAL_DATA) {
