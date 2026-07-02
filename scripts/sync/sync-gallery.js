@@ -46,6 +46,36 @@ function titleToSlug(title){
     .replace(/[^a-zA-Z0-9]/g, '');             // keep only alphanumeric
 }
 
+// Name-slug of a gallery filename ("LindwurmtheMegaMonarch-RDSD0F-JP-C.png" →
+// "LindwurmtheMegaMonarch"), or null if it doesn't match the expected shape.
+function nameSlugOfFile(f){ const m = f.match(/^(.+?)-RD[A-Z0-9]/); return m ? m[1] : null; }
+// Printing key = everything from the set code onward ("RDSD0F-JP-C.png"), so the
+// same physical printing under two different name spellings groups together.
+function printingOfFile(f){ const m = f.match(/^.+?-(RD[A-Z0-9].*)$/); return m ? m[1] : f; }
+
+// Remove former-title duplicate gallery files per card (see call site for why).
+// Returns the number of files dropped. Exported for a standalone data cleanup.
+function dedupeRenamedArt(galleryData, cardByTitle){
+  let dropped = 0;
+  for(const [key, files] of Object.entries(galleryData)){
+    const card = cardByTitle.get(key);
+    if(!card || !Array.isArray(card.former_titles) || !card.former_titles.length) continue;
+    const curSlug = titleToSlug(card.title);
+    const formerSlugs = new Set(card.former_titles.map(titleToSlug).filter(Boolean));
+    if(!formerSlugs.size) continue;
+    // Printings that already have a current-name file.
+    const curPrintings = new Set();
+    for(const f of files){ if(nameSlugOfFile(f) === curSlug) curPrintings.add(printingOfFile(f)); }
+    const kept = files.filter(f => {
+      const ns = nameSlugOfFile(f);
+      if(ns && formerSlugs.has(ns) && curPrintings.has(printingOfFile(f))){ dropped++; return false; }
+      return true;
+    });
+    galleryData[key] = kept;
+  }
+  return dropped;
+}
+
 async function syncGallery(){
   let cards;
   try { cards = JSON.parse(fs.readFileSync(CARDS_FILE, 'utf8')); }
@@ -188,12 +218,26 @@ async function syncGallery(){
   if(opDropped)      console.log(`[sync-gallery] Dropped ${opDropped} OP placeholder(s) superseded by complete rarity scans.`);
   if(phantomDropped) console.log(`[sync-gallery] Dropped ${phantomDropped} unreleased file(s) with no uploaded image on Yugipedia.`);
 
+  // De-dupe renamed-card art. A renamed card can accumulate gallery files under
+  // both its current name-slug and a former-title slug for the SAME printing
+  // (set + region + rarity) — e.g. "Lindwurm…" + stale "Lindorm…". Drop the
+  // former-title duplicate, but ONLY when a current-title file for that same
+  // printing exists; otherwise the former-title file is the only art we have and
+  // must be kept (e.g. a card whose gallery only ever had old-name uploads).
+  const cardByTitle = new Map(cards.map(c => [c.title, c]));
+  const renameDupsDropped = dedupeRenamedArt(galleryData, cardByTitle);
+  if(renameDupsDropped) console.log(`[sync-gallery] Dropped ${renameDupsDropped} renamed-card duplicate image(s).`);
+
   writeJsonAtomic(OUT_FILE, galleryData);
   writeJsonAtomic(URLS_FILE, urlCache);
   console.log(`[sync-gallery] Done. Queried ${setsQueried} sets, ${setsWithImages} had galleries, ${newImages} new images for ${Object.keys(galleryData).length} cards. ${Object.keys(urlCache).length} URLs cached.`);
 }
 
-syncGallery().catch(e => {
-  console.error('[sync-gallery] Fatal:', e.message);
-  process.exit(1);
-});
+module.exports = { dedupeRenamedArt, titleToSlug, nameSlugOfFile, printingOfFile };
+
+if(require.main === module){
+  syncGallery().catch(e => {
+    console.error('[sync-gallery] Fatal:', e.message);
+    process.exit(1);
+  });
+}

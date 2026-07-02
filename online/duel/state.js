@@ -84,6 +84,9 @@ function makeInstance(game, raw) {
     position: 'atk',
     atkOverride: null,
     defOverride: null,
+    levelOverride: null,
+    attrOverride: null,
+    raceOverride: null,
   };
 }
 

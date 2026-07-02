@@ -284,8 +284,7 @@ button,input,select{font-family:inherit}
 #cp-info{flex:1;display:flex;flex-direction:column;gap:8px;font-size:14px;min-width:0}
 #cp-name{font-size:18px;font-weight:700;color:var(--gold)}
 #cp-type{font-size:13px;color:var(--muted)}
-#cp-stats{font-size:13px;display:flex;gap:8px;flex-wrap:wrap;color:var(--text)}
-#cp-maxatk{font-size:15px;font-weight:700;color:#ff9800;letter-spacing:.5px;padding:2px 0}
+#cp-numstats{margin:2px 0}
 #cp-materials{font-size:13px;color:#c8e6c9;font-style:italic;line-height:1.4}
 #cp-condition{font-size:13px;color:#ffcc80;font-style:italic;line-height:1.4}
 #cp-req,#cp-eff{font-size:13px;line-height:1.5}
@@ -305,6 +304,47 @@ button,input,select{font-family:inherit}
 .tt-attr-EARTH{color:#a78b5c}
 .tt-attr-WIND{color:#4ade80}
 .tt-attr-DIVINE{color:#e2e8f0}
+/* ── Colored metadata tags (card info panels) ───────────────────────────── */
+.card-tags{display:flex;gap:5px;flex-wrap:wrap;align-items:center;margin:2px 0}
+.card-tag{display:inline-block;padding:1px 7px;border-radius:4px;font-size:10px;font-weight:800;letter-spacing:.4px;border:1px solid currentColor;line-height:1.5;white-space:nowrap}
+.tag-level{color:#ffca28}
+.tag-max{color:#ff8f00}
+.tag-attr-LIGHT{color:#ffd700}
+.tag-attr-DARK{color:#c084fc}
+.tag-attr-FIRE{color:#f87171}
+.tag-attr-WATER{color:#60a5fa}
+.tag-attr-EARTH{color:#a78b5c}
+.tag-attr-WIND{color:#4ade80}
+.tag-sub{color:#9e9e9e}
+.tag-sub-Effect{color:#ff9800}
+.tag-sub-Normal{color:#cfd8dc}
+.tag-sub-Fusion{color:#ba68c8}
+.tag-sub-Ritual{color:#4fc3f7}
+.tag-sub-Union{color:#26a69a}
+.tag-sub-Maximum{color:#ff6d00}
+.tag-type{color:#b0bec5}
+.tag-type-Dragon,.tag-type-HighDragon,.tag-type-Wyrm{color:#ef5350}
+.tag-type-Machine,.tag-type-Cyborg,.tag-type-Cyberse{color:#90a4ae}
+.tag-type-Spellcaster,.tag-type-MagicalKnight{color:#ab47bc}
+.tag-type-Warrior,.tag-type-BeastWarrior,.tag-type-CelestialWarrior{color:#ffa726}
+.tag-type-Aqua,.tag-type-SeaSerpent,.tag-type-Fish{color:#42a5f5}
+.tag-type-Fiend{color:#8d6e63}
+.tag-type-Fairy{color:#f48fb1}
+.tag-type-Beast,.tag-type-WingedBeast{color:#a1887f}
+.tag-type-Psychic,.tag-type-OmegaPsychic{color:#7e57c2}
+.tag-type-Pyro{color:#ff7043}
+.tag-type-Insect{color:#9ccc65}
+.tag-type-Thunder{color:#ffee58}
+.tag-type-Zombie{color:#78909c}
+.tag-type-Plant{color:#66bb6a}
+.tag-type-Reptile,.tag-type-Dinosaur{color:#26a69a}
+.tag-type-Rock{color:#bcaaa4}
+.tag-type-Galaxy{color:#5c6bc0}
+/* ── Unified ATK/DEF/MAX numeric display (non-tooltip panels) ────────────── */
+.card-stats{display:flex;gap:12px;flex-wrap:wrap;align-items:center;font-weight:700;font-size:13px}
+.stat-atk{color:#f44336}
+.stat-def{color:#6ec6ff}
+.stat-max{color:#ff8f00;font-weight:800}
 #tt-stats{font-size:11px;display:flex;gap:8px;flex-wrap:wrap;color:var(--text)}
 #tt-materials{font-size:11px;color:#c8e6c9;font-style:italic;line-height:1.4}
 #tt-condition{font-size:11px;color:#ffcc80;font-style:italic;line-height:1.4}
@@ -429,8 +469,8 @@ button,input,select{font-family:inherit}
 .dbp-thumb:hover,.dbp-thumb.sel{opacity:1;border-color:var(--accent)}
 #dbp-name{font-size:16px;font-weight:700;color:var(--gold);line-height:1.3}
 #dbp-type{font-size:12px;color:var(--muted)}
-#dbp-stats{font-size:12px;margin-top:2px;display:flex;gap:8px;flex-wrap:wrap;align-items:center;color:var(--text)}
-#dbp-maxatk{font-size:14px;font-weight:700;color:#ff9800}
+#dbp-tags{margin-top:2px}
+#dbp-numstats{margin-top:4px}
 #dbp-sets table{width:100%;border-collapse:collapse}
 #dbp-sets td{padding:2px 6px 2px 0;font-size:11px;vertical-align:top}
 .dbp-sel{border-color:var(--accent) !important}
@@ -542,7 +582,12 @@ button,input,select{font-family:inherit}
 .du-brow{display:flex;align-items:center;gap:calc(var(--du-cw)*0.5)}
 .du-brow-spacer{width:var(--du-cw);height:var(--du-ch);flex-shrink:0}
 .du-divider{position:relative;display:flex;align-items:center;justify-content:center;flex-shrink:0;height:32px;margin:4px 0}.du-divider::before{content:'';position:absolute;left:0;right:0;top:50%;height:2px;background:linear-gradient(90deg,transparent,var(--border),transparent);z-index:0}.du-phase-badge{position:relative;z-index:1}
-.du-zone-row{display:flex;gap:calc(var(--du-cw)*0.5)}
+.du-zone-row{display:flex;gap:calc(var(--du-cw)*0.5);position:relative}
+/* Full Maximum monster in Maximum mode: hide per-piece stats, show one MAX ATK */
+.du-zone-row.du-max-full .du-stat-bar,
+.du-zone-row.du-max-full .du-meta-attr,
+.du-zone-row.du-max-full .du-meta-lv,
+.du-zone-row.du-max-full .du-meta-type{display:none}
 #du-opp-m,#du-opp-st{flex-direction:row-reverse}
 /* slots */
 .du-slot{width:var(--du-cw);height:var(--du-ch);border:1px dashed var(--border);border-radius:5px;background:rgba(255,255,255,.015);display:flex;align-items:center;justify-content:center;position:relative;flex-shrink:0;transition:border-color .15s,background .15s}
@@ -569,7 +614,7 @@ button,input,select{font-family:inherit}
 .du-zone-row.du-max-mode .du-slot:first-child{border-left-width:1px;border-top-left-radius:5px;border-bottom-left-radius:5px}
 .du-zone-row.du-max-mode .du-slot:last-child{border-top-right-radius:5px;border-bottom-right-radius:5px}
 .du-btn.on{background:var(--gold);color:#1a1407;border-color:var(--gold);font-weight:700}
-.du-log-card{color:#a0e8ff;cursor:default;text-decoration:underline dotted;text-underline-offset:2px}
+.du-log-card{color:#a0e8ff;cursor:pointer;text-decoration:underline dotted;text-underline-offset:2px}
 /* field card */
 .du-fc{width:100%;height:100%;border-radius:4px;overflow:hidden;position:relative;cursor:pointer;background:#12121f}
 .du-fc img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none}
@@ -580,9 +625,18 @@ button,input,select{font-family:inherit}
 .du-fc.dragging{opacity:.35}
 /* ATK/DEF overlay */
 .du-stat-bar{position:absolute;bottom:2px;left:0;right:0;display:flex;justify-content:space-between;font-size:10px;font-weight:700;padding:0 3px;background:rgba(0,0,0,.6);border-radius:0 0 4px 4px;pointer-events:none}
-.du-stat.atk{color:#f0a830;pointer-events:auto}
+.du-stat.atk{color:#f44336;pointer-events:auto}
 .du-stat.def{color:#6ec6ff;pointer-events:auto}
 .du-stat.editable{cursor:pointer;text-decoration-line:underline;text-decoration-style:dotted}
+/* Level / Attribute / Type overlays on a face-up monster */
+.du-meta-attr{position:absolute;top:2px;right:2px;font-size:11px;font-weight:800;background:rgba(0,0,0,.7);border:1px solid currentColor;border-radius:3px;padding:0 3px;line-height:1.35;z-index:3}
+.du-meta-lv{position:absolute;bottom:15px;left:2px;font-size:9px;font-weight:800;color:#ffca28;background:rgba(0,0,0,.7);border:1px solid currentColor;border-radius:3px;padding:0 3px;line-height:1.4;z-index:3}
+.du-meta-type{position:absolute;bottom:15px;right:2px;font-size:12px;line-height:1;background:rgba(0,0,0,.55);border-radius:3px;padding:1px 2px;z-index:3}
+.du-meta-edit{cursor:pointer}
+.du-meta-edit:hover{filter:brightness(1.3);box-shadow:0 0 6px rgba(255,255,255,.4)}
+.du-max-atk{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:22px;font-weight:900;color:#f44336;text-shadow:0 0 6px rgba(0,0,0,.9),0 2px 4px rgba(0,0,0,.9);z-index:4;pointer-events:none}
+.du-max-atk small{font-size:9px;font-weight:800;color:#ffca28;letter-spacing:1px}
+.du-lp-presets.level-mode .du-stat-preset:not([data-delta="reset"]){display:none}
 /* Card detail panel */
 .du-card-detail{width:220px;flex-shrink:0;display:flex;flex-direction:column;gap:6px;padding:10px 8px;background:var(--bg2);border-left:1px solid var(--border);overflow-y:auto;position:relative}
 .du-card-detail.hidden{display:none}
@@ -591,10 +645,13 @@ button,input,select{font-family:inherit}
 .du-cd-img{width:100%;border-radius:6px;display:block}
 .du-cd-name{font-size:13px;font-weight:700;color:var(--gold);text-align:center;line-height:1.2}
 .du-cd-meta{font-size:11px;color:var(--muted);text-align:center}
-.du-cd-stats{font-size:12px;font-weight:600;display:flex;gap:12px;justify-content:center}
-.du-cd-stats .cd-atk{color:#f0a830}
-.du-cd-stats .cd-def{color:#6ec6ff}
-.du-cd-effect{font-size:11px;color:var(--text);line-height:1.5;white-space:pre-wrap;word-break:break-word}
+.du-cd-stats{font-size:12px;font-weight:700;display:flex;gap:12px;justify-content:center}
+#du-cd-tags .card-tags{justify-content:center}
+.du-cd-materials{font-size:11px;color:#c8e6c9;font-style:italic;line-height:1.4}
+.du-cd-condition{font-size:11px;color:#ffcc80;font-style:italic;line-height:1.4}
+.du-cd-req{font-size:11px;line-height:1.45}
+#du-cd-effect-wrap{font-size:11px;line-height:1.5;border-top:1px solid var(--border);padding-top:5px;margin-top:2px}
+.du-cd-effect{color:var(--text);white-space:pre-wrap;word-break:break-word}
 /* hand */
 .du-hand-wrap{display:flex;align-items:flex-end;justify-content:center;gap:4px;padding:4px 8px 5px;background:rgba(9,4,32,0.55);border-top:1px solid rgba(255,255,255,.06);overflow-x:auto;flex-shrink:0;min-height:calc(var(--du-hh) + 12px)}
 .du-hc{width:var(--du-hw);height:var(--du-hh);border-radius:6px;overflow:hidden;flex-shrink:0;cursor:grab;transition:transform .15s,box-shadow .15s;background:#12121f;position:relative}
@@ -617,7 +674,7 @@ button,input,select{font-family:inherit}
 .du-lp-q{padding:4px 7px;background:var(--bg3);border:1px solid var(--border);border-radius:4px;color:var(--muted);cursor:pointer;font-size:11px;font-weight:600;transition:all .15s}
 .du-lp-q:hover{border-color:var(--accent);color:var(--text)}
 /* context menu */
-#du-ctx{position:fixed;z-index:600;background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:4px 0;min-width:190px;box-shadow:0 6px 24px rgba(0,0,0,.65);font-size:13px}
+#du-ctx{position:fixed;z-index:600;background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:4px 0;min-width:190px;max-height:70vh;overflow-y:auto;box-shadow:0 6px 24px rgba(0,0,0,.65);font-size:13px}
 #du-ctx.hidden{display:none}
 .du-ctx-item{padding:8px 14px;cursor:pointer;color:var(--text);width:100%;text-align:left;background:none;border:none;font-size:13px;font-family:inherit;display:block;transition:background .1s}
 .du-ctx-item:hover{background:rgba(124,77,255,.2);color:#fff}
@@ -932,6 +989,7 @@ button,input,select{font-family:inherit}
   <div id="db-layout">
     <div id="db-pool">
       <div id="db-pool-filters">
+        <button id="db-back-duel" class="du-btn" style="display:none;font-size:13px;padding:6px 12px" title="Return to the duel lobby">← Back to Duel</button>
         <input id="db-search" type="text" placeholder="Search cards…" autocomplete="off">
         <select id="db-ctype">
           <option value="">All card types</option>
@@ -1062,8 +1120,9 @@ button,input,select{font-family:inherit}
         </label>
       </div>
       <div class="du-deck-list" id="du-deck-list"></div>
-      <div style="display:flex;gap:8px;align-items:center;margin-top:8px">
+      <div style="display:flex;gap:8px;align-items:center;margin-top:8px;flex-wrap:wrap">
         <button id="ol-ready-btn" class="btn-p" style="font-size:13px;padding:8px 18px" disabled>Ready!</button>
+        <button id="ol-editdecks-btn" class="du-btn" style="font-size:13px;padding:8px 14px" title="Open the Deck Builder to create or edit decks">✎ Edit Decks</button>
         <span id="ol-ready-status" class="ol-ready-status">Select a deck…</span>
       </div>
     </div>
@@ -1181,12 +1240,16 @@ button,input,select{font-family:inherit}
 
     <!-- Card detail panel (middle-click / Ctrl+click) -->
     <div id="du-card-detail" class="du-card-detail hidden">
-      <button id="du-cd-close" class="du-cd-close" title="Fermer">✕</button>
+      <button id="du-cd-close" class="du-cd-close" title="Close">✕</button>
       <img id="du-cd-img" class="du-cd-img" src="" alt="">
       <div id="du-cd-name" class="du-cd-name"></div>
       <div id="du-cd-meta" class="du-cd-meta"></div>
+      <div id="du-cd-tags"></div>
       <div id="du-cd-stats" class="du-cd-stats"></div>
-      <div id="du-cd-effect" class="du-cd-effect"></div>
+      <div id="du-cd-materials" class="du-cd-materials"></div>
+      <div id="du-cd-condition" class="du-cd-condition"></div>
+      <div id="du-cd-req" class="du-cd-req"><b class="tt-lbl">【Requirement】</b><span id="du-cd-req-body"></span></div>
+      <div id="du-cd-effect-wrap"><b id="du-cd-eff-lbl" class="tt-lbl"></b><span id="du-cd-effect" class="du-cd-effect"></span></div>
     </div>
   </div>
 </section>
@@ -1309,9 +1372,9 @@ button,input,select{font-family:inherit}
     <div id="cp-info">
       <div id="cp-name"></div>
       <div id="cp-type"></div>
+      <div id="cp-tags"></div>
+      <div id="cp-numstats"></div>
       <div id="cp-materials"></div>
-      <div id="cp-stats"></div>
-      <div id="cp-maxatk" style="display:none"></div>
       <div id="cp-condition"></div>
       <div id="cp-req"><b class="tt-lbl">【Requirement】</b><span id="cp-req-body"></span></div>
       <div id="cp-eff"><b id="cp-eff-lbl" class="tt-lbl"></b><span id="cp-eff-body"></span></div>
@@ -1445,6 +1508,48 @@ function cardSubtypes(card){
   if(!MONSTER_ATTRS.has(card.attribute)) return card.property?[card.property]:[];
   if(!card.types) return [];
   return card.types.split('/').map(p=>p.trim()).slice(1);
+}
+
+// Attribute kanji (Rush has 6 attributes; no DIVINE). Used by tags + duel overlay.
+const ATTR_KANJI={LIGHT:'光',DARK:'闇',FIRE:'炎',WATER:'水',EARTH:'地',WIND:'風'};
+// Monster-type → emoji (duel overlay). Adjust freely.
+const TYPE_EMOJI={
+  Machine:'⚙️',Warrior:'🗡️',Galaxy:'🌠',Dragon:'🐲',Spellcaster:'🧙',Fiend:'👿',
+  Fairy:'👼',Beast:'🐺',Aqua:'💧',Psychic:'🧠',Pyro:'🔥',Insect:'🐜',
+  'Beast-Warrior':'👹','Winged Beast':'🦅',Plant:'🌿',Reptile:'🐊',Dinosaur:'🦕',
+  Rock:'🗿',Fish:'🐠',Zombie:'💀',Thunder:'🌩️',
+  'Sea Serpent':'🐍',Wyrm:'🐉',Cyberse:'💻',Cyborg:'🤖','Celestial Warrior':'⭐',
+  'High Dragon':'👑','Magical Knight':'🛡️','Omega Psychic':'Ω',
+};
+// Race name → CSS-safe suffix for .tag-type-<race> (strip spaces/hyphens).
+function raceClass(race){ return (race||'').replace(/[^A-Za-z]/g,''); }
+// Colored metadata chips (Maximum, Attribute, Level, Type/race, subtypes) for
+// the big card-info panels. Keeps the same info as before, adds color.
+function cardMetaTagsHtml(card){
+  if(!card) return '';
+  const isMon=MONSTER_ATTRS.has(card.attribute);
+  const isMax=card.maximum_atk!=null||/\bMaximum\b/.test(card.types||'');
+  const tags=[];
+  if(isMax) tags.push('<span class="card-tag tag-max" title="Maximum Monster">MAXIMUM</span>');
+  if(isMon) tags.push(`<span class="card-tag tag-attr-${card.attribute}">${esc(card.attribute)}</span>`);
+  if(isMon&&card.level!=null) tags.push(`<span class="card-tag tag-level">LV ${card.level}</span>`);
+  const race=cardRace(card);
+  if(race) tags.push(`<span class="card-tag tag-type tag-type-${raceClass(race)}">${esc(race)}</span>`);
+  for(const s of cardSubtypes(card)){
+    if(!s||s==='???') continue;
+    if(s==='Maximum'&&isMax) continue; // already shown as the Maximum tag
+    tags.push(`<span class="card-tag tag-sub tag-sub-${esc(s)}">${esc(s)}</span>`);
+  }
+  return tags.length?`<div class="card-tags">${tags.join('')}</div>`:'';
+}
+// Unified ATK/DEF/MAX numeric display (red ATK, blue DEF). Not the tooltip.
+function cardStatHtml(card){
+  if(!card||!MONSTER_ATTRS.has(card.attribute)) return '';
+  const parts=[];
+  if(card.atk!=null) parts.push(`<span class="stat-atk">ATK ${card.atk}</span>`);
+  if(card.def!=null) parts.push(`<span class="stat-def">DEF ${card.def}</span>`);
+  if(card.maximum_atk!=null) parts.push(`<span class="stat-max">MAX ATK ${card.maximum_atk}</span>`);
+  return parts.length?`<div class="card-stats">${parts.join('')}</div>`:'';
 }
 
 /* ═══════════════════════════════════════════════════════
@@ -2389,13 +2494,6 @@ function showDbpDetail(card){
   const isMon=MONSTER_ATTRS.has(card.attribute);
   // Collect all unique JP images (exclude KR)
   const imgs=(card.images||[]).map(i=>cleanFile(i.file)).filter(f=>f&&!/-KRS?-/.test(f));
-  const statHtml=[];
-  if(card.attribute) statHtml.push(`<span class="tt-attr tt-attr-${card.attribute}">${card.attribute}</span>`);
-  const numParts=[];
-  if(isMon&&card.level!=null) numParts.push('LV '+card.level);
-  if(isMon&&card.atk!=null) numParts.push('ATK '+card.atk);
-  if(isMon&&card.def!=null) numParts.push('DEF '+card.def);
-  if(numParts.length) statHtml.push(numParts.join(' · '));
   const isFlavor=!card.effect&&!!card.flavor_text;
   const effLabel=isFlavor?'':(card.effect_types?'【'+card.effect_types+' Effect】':'【Effect】');
 
@@ -2405,8 +2503,8 @@ function showDbpDetail(card){
     <div id="dbp-gallery" style="display:none"></div>
     <div id="dbp-name"></div>
     <div id="dbp-type"></div>
-    <div id="dbp-stats" style="display:none"></div>
-    <div id="dbp-maxatk" style="display:none"></div>
+    <div id="dbp-tags"></div>
+    <div id="dbp-numstats"></div>
     <div id="dbp-materials" style="display:none;font-size:12px;color:#c8e6c9;font-style:italic;line-height:1.5"></div>
     <div id="dbp-condition" style="display:none;font-size:12px;color:#ffcc80;font-style:italic;line-height:1.5"></div>
     <div id="dbp-req" style="display:none;font-size:12px;line-height:1.5"><b style="color:var(--gold);font-weight:700">【Requirement】</b> <span id="dbp-req-body"></span></div>
@@ -2446,15 +2544,8 @@ function showDbpDetail(card){
 
   panel.querySelector('#dbp-type').textContent=card.types||(card.card_type?[card.card_type,card.property].filter(Boolean).join(' / '):'')||'';
 
-  if(statHtml.length){
-    const el=panel.querySelector('#dbp-stats');
-    el.innerHTML=statHtml.join(''); el.style.display='';
-  }
-
-  if(isMon&&card.maximum_atk!=null){
-    const el=panel.querySelector('#dbp-maxatk');
-    el.textContent='⚡ MAX ATK  '+card.maximum_atk; el.style.display='';
-  }
+  panel.querySelector('#dbp-tags').innerHTML=cardMetaTagsHtml(card);
+  panel.querySelector('#dbp-numstats').innerHTML=cardStatHtml(card);
 
   if(card.materials){
     const el=panel.querySelector('#dbp-materials');
@@ -2705,17 +2796,8 @@ function showCardPopup(card, rarity, imgFile){
   document.getElementById('cp-type').textContent=typeParts.join(' · ');
   const matEl=document.getElementById('cp-materials');
   matEl.textContent=card.materials||''; matEl.style.display=card.materials?'':'none';
-  const statHtml=[];
-  if(card.attribute) statHtml.push(`<span class="tt-attr tt-attr-${card.attribute}">${card.attribute}</span>`);
-  const numParts=[];
-  if(isMon&&card.level!=null) numParts.push('LV '+card.level);
-  if(isMon&&card.atk!=null) numParts.push('ATK '+card.atk);
-  if(isMon&&card.def!=null) numParts.push('DEF '+card.def);
-  if(numParts.length) statHtml.push(numParts.join(' · '));
-  document.getElementById('cp-stats').innerHTML=statHtml.join('');
-  const maxEl=document.getElementById('cp-maxatk');
-  if(isMon&&card.maximum_atk!=null){maxEl.textContent='⚡ MAX ATK  '+card.maximum_atk;maxEl.style.display='';}
-  else{maxEl.style.display='none';}
+  document.getElementById('cp-tags').innerHTML=cardMetaTagsHtml(card);
+  document.getElementById('cp-numstats').innerHTML=cardStatHtml(card);
   const condEl=document.getElementById('cp-condition');
   condEl.textContent=card.condition||''; condEl.style.display=card.condition?'':'none';
   const reqEl=document.getElementById('cp-req');
@@ -3393,6 +3475,15 @@ function refreshDbCollectionSel(){
 }
 
 function initDeckBuilder(){
+  // "Back to Duel" shortcut — only when we arrived here from the duel lobby.
+  const backDuel=document.getElementById('db-back-duel');
+  if(backDuel){
+    backDuel.style.display=_olReturnFromDeckBuilder?'':'none';
+    if(_olReturnFromDeckBuilder && !backDuel._bound){
+      backDuel._bound=true;
+      backDuel.addEventListener('click',()=>{ _olReturnFromDeckBuilder=false; backDuel.style.display='none'; goTo('screen-online'); });
+    }
+  }
   // Attribute filter (populate once)
   const attrSel=document.getElementById('db-attr');
   if(attrSel.options.length<=1){
@@ -4220,6 +4311,7 @@ let _olRoomCode    = null;  // current room code
 let _olListenersOn = false; // ensure listeners are registered once
 let _olServerUrl   = null;  // remote server URL (null = hosting locally)
 let _olIsSpectator = false; // true when connected as spectator (read-only)
+let _olReturnFromDeckBuilder = false; // set when leaving the lobby to edit decks
 
 function _olEl(id){ return document.getElementById(id); }
 
@@ -4557,6 +4649,9 @@ function _olLeave(){
 // ── Init (called each time the screen becomes active) ──────────────────────
 function initOnline(){
   _duInitBoard(); // attach import/LP/button listeners early (guarded; safe to call multiple times)
+  // Returning from the Deck Builder: refresh the deck picker so new/edited decks appear.
+  _olReturnFromDeckBuilder = false;
+  _duRenderDeckList();
   if(_olRoomCode){
     // Already in a room — restore the right view.
     if(_duState && _duState.started) _duGoBoard();
@@ -4738,27 +4833,36 @@ function _duShowCardDetail(c){
     imgEl.style.display = f ? '' : 'none';
   } else { imgEl.style.display = 'none'; }
 
-  _duEl('du-cd-name').textContent = card ? cname(card) : c.cardKey;
+  const nameEl = _duEl('du-cd-name');
+  nameEl.textContent = card ? cname(card) : c.cardKey;
+  if(card) nameEl.insertAdjacentHTML('beforeend', legendBadge(card));
+
+  const set = (id, html) => { const el=_duEl(id); if(el) el.innerHTML = html; };
+  const setText = (id, txt) => { const el=_duEl(id); if(el) el.textContent = txt; };
+  const show = (id, on) => { const el=_duEl(id); if(el) el.style.display = on ? '' : 'none'; };
 
   if(card){
-    const mainType = (typeof cardMainType === 'function') ? cardMainType(card) : '';
-    const parts = [];
-    if(card.attribute) parts.push(card.attribute);
-    if(mainType === 'Monster' && card.level != null) parts.push('Level ' + card.level);
-    if(card.types) parts.push(card.types.replace(/\//g, ' / '));
-    else if(card.card_type) parts.push(card.card_type);
-    _duEl('du-cd-meta').textContent = parts.join(' · ');
-
-    const statsEl = _duEl('du-cd-stats');
-    if(mainType === 'Monster'){
-      statsEl.innerHTML = `<span class="cd-atk">ATK ${card.atk != null ? card.atk : '?'}</span><span class="cd-def">DEF ${card.def != null ? card.def : '?'}</span>`;
-    } else { statsEl.innerHTML = ''; }
-
-    _duEl('du-cd-effect').textContent = fmtEffect(card.effect || card.flavor_text || '');
+    // Type / race line (attribute + level now shown as colored tags below)
+    setText('du-cd-meta', card.types || (card.card_type ? [card.card_type, card.property].filter(Boolean).join(' / ') : '') || '');
+    set('du-cd-tags', cardMetaTagsHtml(card));
+    set('du-cd-stats', cardStatHtml(card));
+    // Materials / condition / requirement
+    setText('du-cd-materials', card.materials || ''); show('du-cd-materials', !!card.materials);
+    setText('du-cd-condition', card.condition || ''); show('du-cd-condition', !!card.condition);
+    setText('du-cd-req-body', card.requirement || ''); show('du-cd-req', !!card.requirement);
+    // Effect (with dynamic label), falling back to flavor text
+    const isFlavor = !card.effect && !!card.flavor_text;
+    const eff = card.effect || card.flavor_text || '';
+    const effLbl = _duEl('du-cd-eff-lbl');
+    if(effLbl){ effLbl.textContent = isFlavor ? '' : (card.effect_types ? '【'+card.effect_types+' Effect】' : (eff ? '【Effect】' : '')); }
+    const effEl = _duEl('du-cd-effect');
+    if(effEl){ effEl.textContent = fmtEffect(eff); effEl.style.fontStyle = isFlavor ? 'italic' : ''; }
+    show('du-cd-effect-wrap', !!eff);
   } else {
-    _duEl('du-cd-meta').textContent = '';
-    _duEl('du-cd-stats').innerHTML = '';
-    _duEl('du-cd-effect').textContent = '';
+    setText('du-cd-meta', '');
+    set('du-cd-tags', ''); set('du-cd-stats', '');
+    show('du-cd-materials', false); show('du-cd-condition', false); show('du-cd-req', false);
+    setText('du-cd-effect', ''); show('du-cd-effect-wrap', false);
   }
 
   panel.classList.remove('hidden');
@@ -4815,54 +4919,105 @@ function _duMkCardEl(c, isOwner, zone){
   }
   el.dataset.iid = c.iid;
   _duBindCardHover(el, c);
-  // ATK/DEF overlay for face-up monsters
+  // Level / Attribute / Type + ATK/DEF overlays for face-up monsters
   if(zone === 'monster' && !c.faceDown && !c.hidden){
-    const refCard = (typeof MAP !== 'undefined') ? MAP.get(c.cardKey) : null;
-    const baseAtk = refCard?.atk;
-    const baseDef = refCard?.def;
-    const atkVal = c.atkOverride !== null && c.atkOverride !== undefined ? c.atkOverride : baseAtk;
-    const defVal = c.defOverride !== null && c.defOverride !== undefined ? c.defOverride : baseDef;
-    if(atkVal !== undefined || defVal !== undefined){
-      const bar = document.createElement('div');
-      bar.className = 'du-stat-bar';
-      const atkSpan = document.createElement('span');
-      atkSpan.className = 'du-stat atk';
-      atkSpan.dataset.iid  = c.iid;
-      atkSpan.dataset.stat = 'atk';
-      atkSpan.textContent  = atkVal ?? '?';
-      const defSpan = document.createElement('span');
-      defSpan.className = 'du-stat def';
-      defSpan.dataset.iid  = c.iid;
-      defSpan.dataset.stat = 'def';
-      defSpan.textContent  = defVal ?? '?';
-      if(isOwner && !_olIsSpectator){
-        atkSpan.classList.add('editable');
-        defSpan.classList.add('editable');
-        atkSpan.addEventListener('click', e => {
-          e.stopPropagation();
-          _duStatEditIid  = c.iid;
-          _duStatEditType = 'atk';
-          _duEl('du-stat-modal-title').textContent = 'Edit ATK';
-          _duEl('du-stat-inp').value = atkVal ?? 0;
-          _duEl('du-stat-modal').classList.remove('hidden');
-          _duEl('du-stat-inp').select();
-        });
-        defSpan.addEventListener('click', e => {
-          e.stopPropagation();
-          _duStatEditIid  = c.iid;
-          _duStatEditType = 'def';
-          _duEl('du-stat-modal-title').textContent = 'Edit DEF';
-          _duEl('du-stat-inp').value = defVal ?? 0;
-          _duEl('du-stat-modal').classList.remove('hidden');
-          _duEl('du-stat-inp').select();
-        });
-      }
-      bar.appendChild(atkSpan);
-      bar.appendChild(defSpan);
-      el.appendChild(bar);
-    }
+    _duAddMonsterOverlays(el, c, isOwner && !_olIsSpectator);
   }
   return el;
+}
+
+// Attach the Level (bottom-left), Attribute (top-right, kanji), Type (bottom-right,
+// emoji) and ATK/DEF (bottom bar) overlays to a face-up monster card element.
+// `editable` gates click-to-edit (owner, non-spectator).
+function _duAddMonsterOverlays(el, c, editable){
+  const ref = (typeof MAP !== 'undefined') ? MAP.get(c.cardKey) : null;
+  const atkVal   = c.atkOverride   ?? ref?.atk;
+  const defVal   = c.defOverride   ?? ref?.def;
+  const levelVal = c.levelOverride ?? ref?.level;
+  const attrVal  = c.attrOverride  || ref?.attribute;
+  const raceVal  = c.raceOverride  || (ref ? cardRace(ref) : '');
+
+  // Attribute (top-right): kanji, colored by attribute
+  if(attrVal){
+    const a = document.createElement('span');
+    a.className = 'du-meta-attr tag-attr-' + attrVal;
+    a.textContent = ATTR_KANJI[attrVal] || attrVal;
+    a.title = attrVal;
+    if(editable){
+      a.classList.add('du-meta-edit');
+      a.addEventListener('click', e => { e.stopPropagation(); _duPickMeta(e, c.iid, 'attribute', attrVal); });
+    }
+    el.appendChild(a);
+  }
+  // Level (bottom-left, above ATK)
+  if(levelVal != null){
+    const lv = document.createElement('span');
+    lv.className = 'du-meta-lv';
+    lv.textContent = 'LV' + levelVal;
+    if(editable){
+      lv.classList.add('du-meta-edit');
+      lv.addEventListener('click', e => { e.stopPropagation(); _duOpenNumEdit(c.iid, 'level', levelVal ?? 0); });
+    }
+    el.appendChild(lv);
+  }
+  // Type (bottom-right, above DEF): emoji
+  if(raceVal){
+    const ty = document.createElement('span');
+    ty.className = 'du-meta-type';
+    ty.textContent = TYPE_EMOJI[raceVal] || '▫';
+    ty.title = raceVal;
+    if(editable){
+      ty.classList.add('du-meta-edit');
+      ty.addEventListener('click', e => { e.stopPropagation(); _duPickMeta(e, c.iid, 'race', raceVal); });
+    }
+    el.appendChild(ty);
+  }
+  // ATK/DEF bottom bar
+  if(atkVal !== undefined || defVal !== undefined){
+    const bar = document.createElement('div');
+    bar.className = 'du-stat-bar';
+    const atkSpan = document.createElement('span');
+    atkSpan.className = 'du-stat atk';
+    atkSpan.textContent = atkVal ?? '?';
+    const defSpan = document.createElement('span');
+    defSpan.className = 'du-stat def';
+    defSpan.textContent = defVal ?? '?';
+    if(editable){
+      atkSpan.classList.add('editable');
+      defSpan.classList.add('editable');
+      atkSpan.addEventListener('click', e => { e.stopPropagation(); _duOpenNumEdit(c.iid, 'atk', atkVal ?? 0); });
+      defSpan.addEventListener('click', e => { e.stopPropagation(); _duOpenNumEdit(c.iid, 'def', defVal ?? 0); });
+    }
+    bar.appendChild(atkSpan);
+    bar.appendChild(defSpan);
+    el.appendChild(bar);
+  }
+}
+
+// Open the numeric edit modal for ATK / DEF / Level.
+function _duOpenNumEdit(iid, kind, curVal){
+  _duStatEditIid  = iid;
+  _duStatEditType = kind; // 'atk' | 'def' | 'level'
+  _duEl('du-stat-modal-title').textContent = 'Edit ' + (kind==='level' ? 'Level' : kind.toUpperCase());
+  const presets = _duEl('du-stat-modal').querySelector('.du-lp-presets');
+  if(presets) presets.classList.toggle('level-mode', kind==='level');
+  const inp = _duEl('du-stat-inp');
+  inp.value = curVal ?? 0;
+  _duEl('du-stat-modal').classList.remove('hidden');
+  inp.select();
+}
+
+// Context-menu picker for an enum meta field (attribute or race), with Reset.
+function _duPickMeta(e, iid, field, current){
+  const opts = field === 'attribute'
+    ? ['LIGHT','DARK','FIRE','WATER','EARTH','WIND']
+    : Object.keys(TYPE_EMOJI);
+  const items = opts.map(v => ({
+    label: (field==='attribute' ? (ATTR_KANJI[v]||'') : (TYPE_EMOJI[v]||'')) + ' ' + v + (v===current ? '  ✓' : ''),
+    fn: () => _duEmit('metaOverride', { iid, [field]: v }),
+  }));
+  items.push({ label: '↺ Reset to card default', fn: () => _duEmit('metaOverride', { iid, [field]: null }) });
+  _duCtxShow(e.clientX, e.clientY, items);
 }
 
 function _duRenderSlot(slotEl, cardData, isOwner, zone, slotIdx){
@@ -4993,6 +5148,24 @@ function _duRenderState(st){
   }
 }
 
+// When a side is in Maximum mode with a full Maximum monster on the field, hide
+// the per-piece stats and show one big MAX ATK spanning the merged rectangle.
+function _duApplyMaxUnit(row, side){
+  const old = row.querySelector('.du-max-atk');
+  if(old) old.remove();
+  const isFull = side && side.maximum && _duIsFullMaximum(side.monster);
+  row.classList.toggle('du-max-full', !!isFull);
+  if(!isFull) return;
+  const centre = _duMaxCenter(side.monster);
+  const ref = centre && (typeof MAP !== 'undefined') ? MAP.get(centre.cardKey) : null;
+  const maxAtk = (centre && centre.atkOverride != null) ? centre.atkOverride : (ref ? ref.maximum_atk : null);
+  if(maxAtk == null) return;
+  const box = document.createElement('div');
+  box.className = 'du-max-atk';
+  box.innerHTML = `<small>MAX ATK</small>${maxAtk}`;
+  row.appendChild(box);
+}
+
 function _duRenderZones(self, opp){
   const zones3 = ['monster','spellTrap'];
   for(const z of zones3){
@@ -5026,17 +5199,23 @@ function _duRenderZones(self, opp){
             ss.classList.add('in-combat-def');
         }
       }
-      // Target glow — perspective-aware (same logic as combat)
-      if(_duTargetState && _duTargetState.targetZone === z && _duTargetState.targetSlot === i){
-        const iAmTargeter = _duTargetState.targeterSeat === _duSeat;
-        if(iAmTargeter){ if(os) os.classList.add('in-targeted'); }
-        else            { if(ss) ss.classList.add('in-targeted'); }
+      // Target glow — highlight the board that OWNS the target. In Maximum mode,
+      // targeting any monster zone highlights all 3 as one big rectangle.
+      if(_duTargetState && _duTargetState.targetZone === z){
+        const ownerIsSelf = _duTargetState.targetOwnerSeat === _duSeat;
+        const ownerSideMax = z === 'monster' && (ownerIsSelf ? !!self.maximum : !!opp.maximum);
+        if(_duTargetState.targetSlot === i || ownerSideMax){
+          const cell = ownerIsSelf ? ss : os;
+          if(cell) cell.classList.add('in-targeted');
+        }
       }
     }
     // Maximum mode: merge the 3 monster zones into one unit (per-side flag)
     if(z === 'monster'){
       selfRow.classList.toggle('du-max-mode', !!self.maximum);
       oppRow.classList.toggle('du-max-mode',  !!opp.maximum);
+      _duApplyMaxUnit(selfRow, self);
+      _duApplyMaxUnit(oppRow,  opp);
     }
   }
   // Reflect own Maximum-mode state on the MAX button
@@ -5063,18 +5242,18 @@ function _duRenderZones(self, opp){
     of_.classList.remove('in-targeted');
   }
   if(_duTargetState && _duTargetState.targetZone === 'field'){
-    const iAmTargeter = _duTargetState.targeterSeat === _duSeat;
-    const tEl = iAmTargeter ? of_ : sf;
+    const ownerIsSelf = _duTargetState.targetOwnerSeat === _duSeat;
+    const tEl = ownerIsSelf ? sf : of_;
     if(tEl) tEl.classList.add('in-targeted');
   }
-  // Target glow on GY pile when a GY card is targeted (perspective-aware)
+  // Target glow on GY pile when a GY card is targeted (owner-aware)
   const selfGyEl = _duEl('du-self-gy');
   const oppGyEl  = _duEl('du-opp-gy');
   if(selfGyEl) selfGyEl.classList.remove('in-targeted');
   if(oppGyEl)  oppGyEl.classList.remove('in-targeted');
   if(_duTargetState && _duTargetState.targetZone === 'graveyard'){
-    const iAmTargeter = _duTargetState.targeterSeat === _duSeat;
-    const gyEl = iAmTargeter ? oppGyEl : selfGyEl;
+    const ownerIsSelf = _duTargetState.targetOwnerSeat === _duSeat;
+    const gyEl = ownerIsSelf ? selfGyEl : oppGyEl;
     if(gyEl) gyEl.classList.add('in-targeted');
   }
 }
@@ -5297,9 +5476,37 @@ function _duIsMonsterCard(card){
   return !!(c && typeof cardMainType === 'function' && cardMainType(c) === 'Monster');
 }
 
+// True for a Maximum "center" piece (carries maximum_atk in reference data).
+function _duIsMaxCenter(card){
+  if(!card || !card.cardKey || typeof MAP === 'undefined') return false;
+  const c = MAP.get(card.cardKey);
+  return !!(c && c.maximum_atk != null);
+}
+// The reference card of the center piece of a side's monster row, or null.
+function _duMaxCenter(monsterSlots){
+  const centre = monsterSlots && monsterSlots[1];
+  if(!centre || centre.hidden || !centre.cardKey || typeof MAP === 'undefined') return null;
+  const c = MAP.get(centre.cardKey);
+  return (c && c.maximum_atk != null) ? centre : null;
+}
+// A full Maximum monster = all 3 monster slots filled and the centre carries maximum_atk.
+function _duIsFullMaximum(monsterSlots){
+  if(!monsterSlots || !monsterSlots[0] || !monsterSlots[1] || !monsterSlots[2]) return false;
+  return !!_duMaxCenter(monsterSlots);
+}
+
 // Rush Duel hand context menu: Summon (ATK face-up) or Set (DEF face-down)
 function _duShowCtxHand(e, card){
-  const items = [
+  const items = [];
+  // Maximum Summon (centre piece): drop into the middle zone + enable Maximum mode.
+  if(_duIsMaxCenter(card)){
+    items.push({ label:'⭐ Maximum Summon (centre → Zone 2)', fn:()=>{
+      _duEmit('move',{iid:card.iid,zone:'monster',slot:1,position:'atk'});
+      setTimeout(()=> _duEmit('maximum',{on:true}), 60);
+    }});
+    items.push('---');
+  }
+  items.push(
     { label:'Summon – Monster Zone 1 (ATK)', fn:()=> _duEmit('move',{iid:card.iid,zone:'monster',slot:0,position:'atk'}) },
     { label:'Summon – Monster Zone 2 (ATK)', fn:()=> _duEmit('move',{iid:card.iid,zone:'monster',slot:1,position:'atk'}) },
     { label:'Summon – Monster Zone 3 (ATK)', fn:()=> _duEmit('move',{iid:card.iid,zone:'monster',slot:2,position:'atk'}) },
@@ -5315,7 +5522,7 @@ function _duShowCtxHand(e, card){
     { label:'Activate – Field Zone',         fn:()=> _duEmit('move',{iid:card.iid,zone:'field',slot:0}) },
     { label:'Set – Field Zone (face-down)', fn:()=> _duEmit('move',{iid:card.iid,zone:'field',slot:0,faceDown:true}) },
     { label:'→ Graveyard',             fn:()=> _duEmit('move',{iid:card.iid,zone:'graveyard'}) },
-  ];
+  );
   if(_duIsExtraMonster(card))
     items.push({ label:'→ Extra Deck', fn:()=> _duEmit('move',{iid:card.iid,zone:'extraDeck'}) });
   items.push({ label:'Reveal to opponent', fn:()=> _duEmit('reveal',{iid:card.iid}) });
@@ -5324,6 +5531,11 @@ function _duShowCtxHand(e, card){
 
 function _duShowCtxField(e, card, zone){
   const items = [];
+  // You can target your own field cards too (e.g. an effect that targets your monster).
+  if(zone === 'monster' || zone === 'spellTrap' || zone === 'field'){
+    items.push({ label:'🎯 Target', fn:()=> _duEmit('target',{iid:card.iid}) });
+    items.push('---');
+  }
   if(zone === 'monster'){
     if(card.faceDown){
       items.push({ label:'Flip Summon (face-up ATK)', fn:()=>{
@@ -5471,11 +5683,18 @@ function _duLogEntry(entry){
       break;
     }
     case 'target': {
-      _duTargetState = { targetIid: entry.targetIid, targetZone: entry.targetZone, targetSlot: entry.targetSlot, targeterSeat: entry.seat };
+      // targetOwnerSeat: which board the target sits on (self-target supported).
+      // Fall back to the opponent of the targeter for older log entries.
+      const ownerSeat = (entry.targetOwnerSeat !== undefined && entry.targetOwnerSeat !== null)
+        ? entry.targetOwnerSeat : (entry.seat === 0 ? 1 : 0);
+      _duTargetState = { targetIid: entry.targetIid, targetZone: entry.targetZone, targetSlot: entry.targetSlot, targetOwnerSeat: ownerSeat };
       if(_duState) _duRenderZones(_duState.self, _duState.opp);
       const tzl   = _DU_ZONE_LABEL[entry.targetZone] || entry.targetZone;
       const tSpan = entry.cardKey ? _duLogCardSpan(entry.cardKey) : 'a face-down card';
-      html = `${who} targeted ${tSpan} in ${tzl}`;
+      const ownLbl = ownerSeat === _duSeat
+        ? (entry.seat === _duSeat ? 'their own' : 'your')
+        : (entry.seat === _duSeat ? "opponent's" : 'their');
+      html = `${who} targeted ${tSpan} in ${ownLbl} ${tzl}`;
       break;
     }
     case 'activateEffect': {
@@ -5546,6 +5765,17 @@ function _duLogEntry(entry){
       html = parts.length
         ? `${who} modified ${cSpan}: ${parts.join(' / ')}`
         : `${who} reset ${cSpan}'s stats`;
+      break;
+    }
+    case 'metaOverride': {
+      const cSpan = entry.cardKey ? _duLogCardSpan(entry.cardKey) : 'a card';
+      const parts = [];
+      if(entry.level !== null && entry.level !== undefined)     parts.push(`Level → <strong>${entry.level}</strong>`);
+      if(entry.attribute !== null && entry.attribute !== undefined) parts.push(`Attribute → <strong>${_duEscHtml(entry.attribute)}</strong>`);
+      if(entry.race !== null && entry.race !== undefined)       parts.push(`Type → <strong>${_duEscHtml(entry.race)}</strong>`);
+      html = parts.length
+        ? `${who} modified ${cSpan}: ${parts.join(' / ')}`
+        : `${who} reset ${cSpan}'s Level/Attribute/Type`;
       break;
     }
     default:              html = `${who}: ${_duEscHtml(entry.type)}`;
@@ -5686,7 +5916,7 @@ function _duRenderDeckList(){
   if(!decks.length){
     const msg = document.createElement('p');
     msg.style.cssText = 'font-size:12px;color:var(--muted);text-align:center;margin:8px 0';
-    msg.textContent = 'No decks found. Build one in the Deck Builder first.';
+    msg.textContent = 'No decks found. Use “✎ Edit Decks” below to build one.';
     container.appendChild(msg);
     return;
   }
@@ -5768,6 +5998,13 @@ function _duInitBoard(){
     if(_olSocket) _olSocket.emit('room:setting', { banlistEnforced: blChk.checked });
   });
 
+  // Edit Decks → jump to the Deck Builder (returns to this lobby afterwards)
+  const editDecksBtn = _duEl('ol-editdecks-btn');
+  if(editDecksBtn) editDecksBtn.addEventListener('click', ()=>{
+    _olReturnFromDeckBuilder = true;
+    goTo('screen-deckbuilder');
+  });
+
   // Deck picker → Ready button
   _duRenderDeckList();
   const readyBtn = _duEl('ol-ready-btn');
@@ -5839,7 +6076,8 @@ function _duInitBoard(){
   _duEl('du-stat-ok').addEventListener('click', ()=>{
     const v = parseInt(_duEl('du-stat-inp').value);
     if(_duStatEditIid && Number.isFinite(v)){
-      _duEmit('statOverride', { iid: _duStatEditIid, [_duStatEditType]: v });
+      if(_duStatEditType === 'level') _duEmit('metaOverride', { iid: _duStatEditIid, level: v });
+      else _duEmit('statOverride', { iid: _duStatEditIid, [_duStatEditType]: v });
     }
     _duEl('du-stat-modal').classList.add('hidden');
   });
@@ -5850,7 +6088,10 @@ function _duInitBoard(){
       const inp = _duEl('du-stat-inp');
       if(d === 'reset'){
         // null = reset to reference data value
-        if(_duStatEditIid) _duEmit('statOverride', { iid: _duStatEditIid, [_duStatEditType]: null });
+        if(_duStatEditIid){
+          if(_duStatEditType === 'level') _duEmit('metaOverride', { iid: _duStatEditIid, level: null });
+          else _duEmit('statOverride', { iid: _duStatEditIid, [_duStatEditType]: null });
+        }
         _duEl('du-stat-modal').classList.add('hidden');
       } else {
         const delta = parseInt(d);
@@ -5945,6 +6186,13 @@ function _duInitBoard(){
       if(card && typeof showTooltip==='function') showTooltip(card, '', e.clientX, e.clientY);
     });
     logEl.addEventListener('mouseleave', ()=>{ if(typeof hideTooltip==='function') hideTooltip(); });
+    // Click a card name in the log → open the detail panel (right window)
+    logEl.addEventListener('click', e => {
+      const span = e.target.closest && e.target.closest('.du-log-card');
+      if(!span || !span.dataset.key) return;
+      if(typeof hideTooltip==='function') hideTooltip();
+      _duShowCardDetail({ cardKey: span.dataset.key });
+    });
   }
 
   // Surrender → emit + return to lobby

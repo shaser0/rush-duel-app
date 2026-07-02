@@ -256,34 +256,52 @@ const ACTIONS = {
     return { ok: true };
   },
 
+  // ── Override Level / Attribute / Type(race) of a face-up monster. ──────────
+  // Parallels statOverride; a value sets the override, null clears it (revert
+  // to reference data). Trust-based / manual, like the rest of the board.
+  metaOverride(game, seat, p) {
+    const o = own(game, seat, p.iid);
+    if (o.error) return o;
+    if (S.PILE_ZONES.has(o.loc.zone)) return { error: 'not_on_field' };
+    if (o.loc.zone !== 'monster')     return { error: 'not_a_monster' };
+    if (o.loc.card.faceDown)          return { error: 'card_face_down' };
+    const card = o.loc.card;
+    if (typeof p.level === 'number') card.levelOverride = Math.max(0, Math.round(p.level));
+    if (p.level === null)            card.levelOverride = null;
+    if (typeof p.attribute === 'string') card.attrOverride = p.attribute;
+    if (p.attribute === null)            card.attrOverride = null;
+    if (typeof p.race === 'string') card.raceOverride = p.race;
+    if (p.race === null)            card.raceOverride = null;
+    S.pushLog(game, {
+      type: 'metaOverride', seat, iid: card.iid, cardKey: card.cardKey,
+      level: card.levelOverride, attribute: card.attrOverride, race: card.raceOverride,
+    });
+    return { ok: true };
+  },
+
   // ── Target an opponent's card on the field or in the GY (public declaratory) ─
   target(game, seat, p) {
     const oppSeat = seat === 0 ? 1 : 0;
-    const opp = game.players[oppSeat];
-    let found = null;
-    let cardKey = null;
-    for (const zone of Object.keys(S.SLOT_ZONES)) {
-      for (let i = 0; i < S.SLOT_ZONES[zone]; i++) {
-        const c = opp[zone][i];
-        if (c && c.iid === p.iid) {
-          found = { zone, slot: i };
-          if (!c.faceDown) cardKey = c.cardKey;
-          break;
+    // A card can be targeted whether it sits on the opponent's board or the
+    // acting player's own (e.g. an effect that targets your own monster).
+    const findOn = (ownerSeat) => {
+      const board = game.players[ownerSeat];
+      for (const zone of Object.keys(S.SLOT_ZONES)) {
+        for (let i = 0; i < S.SLOT_ZONES[zone]; i++) {
+          const c = board[zone][i];
+          if (c && c.iid === p.iid) return { ownerSeat, zone, slot: i, cardKey: c.faceDown ? null : c.cardKey };
         }
       }
-      if (found) break;
-    }
-    if (!found) {
-      const idx = opp.graveyard.findIndex(c => c && c.iid === p.iid);
-      if (idx !== -1) {
-        found = { zone: 'graveyard', slot: idx };
-        cardKey = opp.graveyard[idx].cardKey;
-      }
-    }
+      const idx = board.graveyard.findIndex(c => c && c.iid === p.iid);
+      if (idx !== -1) return { ownerSeat, zone: 'graveyard', slot: idx, cardKey: board.graveyard[idx].cardKey };
+      return null;
+    };
+    const found = findOn(oppSeat) || findOn(seat);
     if (!found) return { error: 'not_found' };
     S.pushLog(game, {
       type: 'target', seat,
-      targetIid: p.iid, targetZone: found.zone, targetSlot: found.slot, cardKey,
+      targetIid: p.iid, targetZone: found.zone, targetSlot: found.slot,
+      targetOwnerSeat: found.ownerSeat, cardKey: found.cardKey,
     });
     return { ok: true };
   },

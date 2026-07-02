@@ -99,6 +99,43 @@ ok('occupied slot rejects a second card (slot_occupied)', () => {
   assert.strictEqual(res2.error, 'slot_occupied');
 });
 
+// ── metaOverride: Level / Attribute / Type of a face-up monster ──────────────
+ok('metaOverride sets level/attribute/race on your own face-up monster', () => {
+  const res = apply(game, 1, 'metaOverride', { iid: faceUpIid, level: 7, attribute: 'FIRE', race: 'Dragon' });
+  assert.strictEqual(res.ok, true);
+  const card = game.players[1].monster[1];
+  assert.strictEqual(card.levelOverride, 7);
+  assert.strictEqual(card.attrOverride, 'FIRE');
+  assert.strictEqual(card.raceOverride, 'Dragon');
+});
+ok('metaOverride with null clears an override', () => {
+  apply(game, 1, 'metaOverride', { iid: faceUpIid, level: null });
+  assert.strictEqual(game.players[1].monster[1].levelOverride, null);
+});
+ok('metaOverride is rejected on a face-down monster', () => {
+  const res = apply(game, 1, 'metaOverride', { iid: faceDownIid, level: 2 });
+  assert.strictEqual(res.error, 'card_face_down');
+});
+ok('metaOverride on an opponent-owned card is rejected', () => {
+  const res = apply(game, 0, 'metaOverride', { iid: faceUpIid, level: 3 });
+  assert.strictEqual(res.error, 'not_your_card');
+});
+ok('metaOverride fields surface in the snapshot view', () => {
+  apply(game, 1, 'metaOverride', { iid: faceUpIid, attribute: 'WIND' });
+  const v = viewFor(game, 1);
+  assert.strictEqual(v.self.monster[1].attrOverride, 'WIND');
+});
+
+// ── Targeting your OWN monster is allowed (self-target) ──────────────────────
+ok('a player can target their own monster (targetOwnerSeat = self)', () => {
+  const res = apply(game, 1, 'target', { iid: faceUpIid });
+  assert.strictEqual(res.ok, true);
+  const last = game.log[game.log.length - 1];
+  assert.strictEqual(last.type, 'target');
+  assert.strictEqual(last.targetOwnerSeat, 1);
+  assert.strictEqual(last.seat, 1);
+});
+
 // ── Misc actions ─────────────────────────────────────────────────────────────
 ok('coin + dice produce in-range public results in the log', () => {
   apply(game, 0, 'coin', {});

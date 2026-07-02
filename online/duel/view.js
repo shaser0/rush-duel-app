@@ -22,6 +22,9 @@ function pub(card) {
     position:    card.position,
     atkOverride: card.atkOverride,
     defOverride: card.defOverride,
+    levelOverride: card.levelOverride,
+    attrOverride:  card.attrOverride,
+    raceOverride:  card.raceOverride,
   };
 }
 

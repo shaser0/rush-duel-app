@@ -12,8 +12,9 @@ const MAX_EXTRA_DECK = 15;
 const ZONES    = new Set(['hand', 'deck', 'extraDeck', 'graveyard', 'monster', 'spellTrap', 'field']);
 const ACTIONS  = new Set([
   'loadDeck', 'loadExtraDeck', 'ready', 'chooseFirst', 'millTop', 'shuffle', 'draw', 'excavate', 'lookDeck', 'lookExtraDeck',
-  'move', 'flip', 'position', 'maximum', 'attack', 'statOverride', 'activateEffect', 'target', 'reveal', 'lp', 'coin', 'dice', 'passTurn', 'surrender', 'takeControl',
+  'move', 'flip', 'position', 'maximum', 'attack', 'statOverride', 'metaOverride', 'activateEffect', 'target', 'reveal', 'lp', 'coin', 'dice', 'passTurn', 'surrender', 'takeControl',
 ]);
+const ATTRS = new Set(['LIGHT', 'DARK', 'FIRE', 'WATER', 'EARTH', 'WIND']);
 
 function isPseudo(v) {
   if (typeof v !== 'string') return false;
@@ -79,6 +80,13 @@ function isDuelAction(data) {
       const validStat = v => v === undefined || v === null
         || (typeof v === 'number' && Number.isFinite(v) && v >= 0 && v <= 99999);
       return typeof p.iid === 'string' && validStat(p.atk) && validStat(p.def);
+    }
+    case 'metaOverride': {
+      const validLevel = v => v === undefined || v === null
+        || (typeof v === 'number' && Number.isInteger(v) && v >= 0 && v <= 13);
+      const validAttr = v => v === undefined || v === null || (typeof v === 'string' && ATTRS.has(v));
+      const validRace = v => v === undefined || v === null || (typeof v === 'string' && v.length > 0 && v.length <= 40);
+      return typeof p.iid === 'string' && validLevel(p.level) && validAttr(p.attribute) && validRace(p.race);
     }
     case 'target':
     case 'flip':
