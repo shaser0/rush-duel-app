@@ -50,6 +50,23 @@ jobs:
         #   rush-app-win.zip  rush-app-linux.tar.gz  rush-app-macos.tar.gz
         #   checksums.sha256
 
+      # This repo pushes straight to main with no PRs, so GitHub's
+      # generate_release_notes has nothing to summarize and falls back to a
+      # bare "Full Changelog: <compare link>" with no actual content. Use the
+      # version-bump commit's message as the real release body instead — by
+      # convention that commit already carries a full changelog (see e.g.
+      # 1252cac) — generate_release_notes below just appends the compare
+      # link after it.
+      - name: Extract changelog from the tagged commit
+        id: changelog
+        run: |
+          delim="EOF_$(date +%s)_$$"
+          {
+            echo "body<<$delim"
+            git log -1 --format=%B "${{ github.ref_name }}"
+            echo "$delim"
+          } >> "$GITHUB_OUTPUT"
+
       - name: Create GitHub Release and upload assets
         uses: softprops/action-gh-release@v2
         with:
@@ -62,6 +79,7 @@ jobs:
           # Fail the job if any listed asset is missing, instead of silently
           # publishing a partial release.
           fail_on_unmatched_files: true
+          body: ${{ steps.changelog.outputs.body }}
           generate_release_notes: true
           files: |
             dist/rush-app-win.exe
