@@ -1,0 +1,53 @@
+name: Data Sync
+
+# Runs the full card/set/gallery/banlist sync daily and publishes any
+# changes straight to main via the data channel (data-channel.json tag:
+# "main") — no vX.Y.Z tag, so this never triggers the binary-release
+# workflow. Clients pick up new data through the existing background/manual
+# "check for card-data update" mechanism, no app update required.
+
+on:
+  schedule:
+    - cron: '0 5 * * *'   # 05:00 UTC daily
+  workflow_dispatch: {}    # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Sync cards, sets, gallery, banlist + refresh data-version/data-channel
+        run: npm run sync-data
+
+      - name: Commit and push if anything changed
+        run: |
+          if git diff --quiet -- data/; then
+            echo "No data changes — nothing to publish."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/
+          {
+            echo "chore(data): automated sync $(date -u +%Y-%m-%d)"
+            echo
+            git diff --cached --stat data/
+          } > /tmp/commit-msg.txt
+          git commit -F /tmp/commit-msg.txt
+          git push origin HEAD:main

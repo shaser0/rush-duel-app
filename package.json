@@ -9,6 +9,7 @@
     "start": "node server.js",
     "build": "node --use-system-ca scripts/release/build.js",
     "hash-data": "node scripts/release/hash-data.js",
+    "sync-data": "node scripts/sync/sync-cards.js && node scripts/sync/sync-sets.js && node scripts/sync/sync-gallery.js && node scripts/sync/sync-banlist.js && node scripts/release/hash-data.js --bump --tag=main",
     "test": "node --test"
   },
   "keywords": [],
