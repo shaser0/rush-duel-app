@@ -265,6 +265,9 @@ button,input,select{font-family:inherit}
 .col-img-wrap .cph{position:absolute;inset:0;font-size:20px;width:auto;height:auto}
 .col-img-wrap img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;z-index:1}
 .stack-badge{position:absolute;bottom:4px;right:4px;background:rgba(0,0,0,.85);border:1px solid var(--gold);border-radius:4px;font-size:9px;font-weight:700;padding:1px 5px;color:var(--gold);z-index:2}
+.col-remove{position:absolute;top:3px;right:3px;z-index:3;width:18px;height:18px;line-height:16px;text-align:center;background:rgba(0,0,0,.75);border:1px solid var(--border);border-radius:4px;color:var(--text);font-size:12px;font-weight:700;cursor:pointer;opacity:0;transition:opacity .12s,background .12s,border-color .12s}
+.col-card:hover .col-remove{opacity:1}
+.col-remove:hover{background:#c0392b;border-color:#c0392b;color:#fff}
 .col-ci{padding:4px 6px}
 .col-cn{font-size:10px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .col-cr{font-size:9px;color:var(--muted);margin-top:2px}
@@ -362,7 +365,7 @@ button,input,select{font-family:inherit}
 #db-search{flex:1;min-width:140px}
 #db-pool-filters select:focus,#db-pool-filters input:focus{outline:none;border-color:var(--accent)}
 #db-owned-lbl{display:flex;align-items:center;gap:5px;font-size:12px;color:var(--muted);cursor:pointer;white-space:nowrap}
-#db-pool-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:8px;max-height:calc(100vh - 150px);overflow-y:auto;padding-right:4px}
+#db-pool-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(115px,1fr));gap:8px;max-height:calc(100vh - 150px);overflow-y:auto;padding-right:4px}
 .db-pcard{position:relative;cursor:pointer;border-radius:6px;overflow:hidden;border:1px solid var(--border);background:var(--bg3);aspect-ratio:59/86;transition:border-color .15s,transform .12s}
 .db-pcard:hover{border-color:var(--accent);transform:translateY(-2px)}
 .db-pcard img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;z-index:1}
@@ -417,7 +420,7 @@ button,input,select{font-family:inherit}
 #dbp-pool-filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:10px}
 #dbp-pool-filters input[type=text],#dbp-pool-filters select{padding:7px 9px;background:var(--bg2);border:1px solid var(--border);border-radius:6px;color:var(--text);font-size:13px}
 #dbp-pool-filters input[type=text]:focus,#dbp-pool-filters select:focus{outline:none;border-color:var(--accent)}
-#dbp-pool-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:8px;max-height:calc(100vh - 150px);overflow-y:auto;padding-right:4px}
+#dbp-pool-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(115px,1fr));gap:8px;max-height:calc(100vh - 150px);overflow-y:auto;padding-right:4px}
 #dbp-info{flex:0 0 calc(33.333% - 7px);min-width:260px;max-width:420px;background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:10px;position:sticky;top:58px;max-height:calc(100vh - 70px);overflow-y:auto}
 #dbp-img-wrap{position:relative;cursor:pointer;border-radius:8px;overflow:hidden;background:var(--bg3);width:100%;aspect-ratio:59/86;flex-shrink:0;display:flex;align-items:center;justify-content:center}
 #dbp-img-wrap img{width:100%;height:100%;object-fit:contain;display:block}
@@ -426,11 +429,15 @@ button,input,select{font-family:inherit}
 .dbp-thumb:hover,.dbp-thumb.sel{opacity:1;border-color:var(--accent)}
 #dbp-name{font-size:16px;font-weight:700;color:var(--gold);line-height:1.3}
 #dbp-type{font-size:12px;color:var(--muted)}
-#dbp-stats{font-size:12px;margin-top:2px}
+#dbp-stats{font-size:12px;margin-top:2px;display:flex;gap:8px;flex-wrap:wrap;align-items:center;color:var(--text)}
 #dbp-maxatk{font-size:14px;font-weight:700;color:#ff9800}
 #dbp-sets table{width:100%;border-collapse:collapse}
 #dbp-sets td{padding:2px 6px 2px 0;font-size:11px;vertical-align:top}
 .dbp-sel{border-color:var(--accent) !important}
+#dbp-collect{display:flex;flex-direction:column;gap:8px;border-top:1px solid var(--border);padding-top:10px;margin-top:2px}
+#dbp-collect select,#dbp-collect input{padding:8px 10px;background:var(--bg3);border:1px solid var(--border);border-radius:6px;color:var(--text);font-size:13px;width:100%}
+#dbp-add-btn{padding:9px;background:var(--accent);border:none;border-radius:7px;color:#fff;font-weight:700;cursor:pointer;font-size:13px}
+#dbp-add-btn:hover{opacity:.9}
 @media(max-width:760px){#dbp-layout{flex-direction:column}#dbp-info{width:100%;position:static;max-height:none}}
 
 /* ── Online Duel ────────────────────────────────────────────────────────── */
@@ -803,6 +810,8 @@ button,input,select{font-family:inherit}
   </div>
   <div id="pack-cards"></div>
   <div id="pack-ctrl">
+    <button class="btn-p" id="btn-flip-all" style="display:none">Flip All</button>
+    <button class="btn-p" id="btn-open-all" style="display:none">Open All Packs</button>
     <button class="btn-p" id="btn-next" style="display:none">Next Pack →</button>
   </div>
   <div id="summary" class="hidden"></div>
@@ -1463,6 +1472,22 @@ function bestImg(card,setPrefix,rarity){
     return bySet[0].cf;
   }
   return imgs[0].cf;
+}
+
+// All rarities this card has been printed in (canonical order, dedup).
+function dbpRarityOptions(card){
+  const set=new Set();
+  for(const s of card.sets_jp||[]) for(const r of (s.rarity||'').split(',').map(x=>x.trim()).filter(Boolean)) set.add(r);
+  const ordered=RARITY_ORDER.filter(r=>set.has(r));
+  for(const r of set) if(!ordered.includes(r)) ordered.push(r);
+  return ordered.length?ordered:['Common'];
+}
+// The sets_jp printing that carries the given rarity, for its set code/name.
+function dbpSetForRarity(card,rarity){
+  for(const s of card.sets_jp||[]){
+    if((s.rarity||'').split(',').map(x=>x.trim()).includes(rarity)) return s;
+  }
+  return null;
 }
 
 function mkPh(){
@@ -2364,11 +2389,13 @@ function showDbpDetail(card){
   const isMon=MONSTER_ATTRS.has(card.attribute);
   // Collect all unique JP images (exclude KR)
   const imgs=(card.images||[]).map(i=>cleanFile(i.file)).filter(f=>f&&!/-KRS?-/.test(f));
-  const stats=[];
-  if(card.attribute) stats.push(card.attribute);
-  if(isMon&&card.level!=null) stats.push('LV '+card.level);
-  if(isMon&&card.atk!=null) stats.push('ATK '+card.atk);
-  if(isMon&&card.def!=null) stats.push('DEF '+card.def);
+  const statHtml=[];
+  if(card.attribute) statHtml.push(`<span class="tt-attr tt-attr-${card.attribute}">${card.attribute}</span>`);
+  const numParts=[];
+  if(isMon&&card.level!=null) numParts.push('LV '+card.level);
+  if(isMon&&card.atk!=null) numParts.push('ATK '+card.atk);
+  if(isMon&&card.def!=null) numParts.push('DEF '+card.def);
+  if(numParts.length) statHtml.push(numParts.join(' · '));
   const isFlavor=!card.effect&&!!card.flavor_text;
   const effLabel=isFlavor?'':(card.effect_types?'【'+card.effect_types+' Effect】':'【Effect】');
 
@@ -2384,7 +2411,14 @@ function showDbpDetail(card){
     <div id="dbp-condition" style="display:none;font-size:12px;color:#ffcc80;font-style:italic;line-height:1.5"></div>
     <div id="dbp-req" style="display:none;font-size:12px;line-height:1.5"><b style="color:var(--gold);font-weight:700">【Requirement】</b> <span id="dbp-req-body"></span></div>
     <div id="dbp-eff" style="display:none;font-size:12px;line-height:1.55"><b id="dbp-eff-lbl" style="color:var(--gold);font-weight:700;display:none"></b> <span id="dbp-eff-body" style="white-space:pre-wrap"></span></div>
-    <div id="dbp-sets" style="display:none"><b style="font-size:12px;color:var(--gold)">Sets</b><table id="dbp-sets-table" style="margin-top:4px"></table></div>`;
+    <div id="dbp-sets" style="display:none"><b style="font-size:12px;color:var(--gold)">Sets</b><table id="dbp-sets-table" style="margin-top:4px"></table></div>
+    <div id="dbp-collect">
+      <b style="font-size:12px;color:var(--gold)">Add to Collection</b>
+      <select id="dbp-add-rarity"></select>
+      <select id="dbp-add-colsel"></select>
+      <input id="dbp-add-newname" placeholder="Collection name…" style="display:none">
+      <button id="dbp-add-btn">Add to Collection</button>
+    </div>`;
 
   // Populate via DOM API (textContent auto-escapes, no XSS risk)
   const imgWrap=panel.querySelector('#dbp-img-wrap');
@@ -2412,9 +2446,9 @@ function showDbpDetail(card){
 
   panel.querySelector('#dbp-type').textContent=card.types||(card.card_type?[card.card_type,card.property].filter(Boolean).join(' / '):'')||'';
 
-  if(stats.length){
+  if(statHtml.length){
     const el=panel.querySelector('#dbp-stats');
-    el.textContent=stats.join(' · '); el.style.display='';
+    el.innerHTML=statHtml.join(''); el.style.display='';
   }
 
   if(isMon&&card.maximum_atk!=null){
@@ -2464,6 +2498,43 @@ function showDbpDetail(card){
     }
     panel.querySelector('#dbp-sets').style.display='';
   }
+
+  // Add-to-collection controls
+  const raritySel=panel.querySelector('#dbp-add-rarity');
+  raritySel.innerHTML=dbpRarityOptions(card).map(r=>`<option value="${esc(r)}">${esc(r)}</option>`).join('');
+
+  const collData=getColls();
+  const colSel=panel.querySelector('#dbp-add-colsel');
+  const newNameInp=panel.querySelector('#dbp-add-newname');
+  colSel.innerHTML=collData.collections.map(c=>`<option value="${esc(c.id)}"${c.id===collData.activeId?' selected':''}>${esc(c.name)}</option>`).join('')
+    +`<option value="__new__">+ New collection…</option>`;
+  if(!collData.collections.length) colSel.value='__new__';
+  const toggleNewCol=()=>{ newNameInp.style.display=colSel.value==='__new__'?'':'none'; };
+  colSel.onchange=toggleNewCol;
+  toggleNewCol();
+
+  panel.querySelector('#dbp-add-btn').onclick=()=>{
+    const d=getColls();
+    let id=colSel.value;
+    if(id==='__new__'){
+      const nm=newNameInp.value.trim()||'New Collection';
+      id=`col_${Date.now()}`;
+      d.collections.push({id,name:nm,cards:[]});
+    }
+    d.activeId=id;
+    const col=d.collections.find(c=>c.id===id);
+    if(!col) return;
+    const rarity=raritySel.value;
+    const s=dbpSetForRarity(card,rarity);
+    const setPrefix=s?s.code.split('-')[0]:'';
+    const imgFile=bestImg(card,setPrefix,rarity);
+    upsertColCard(col.cards,{cardTitle:card.title,rarity,setPrefix,setName:s?s.name:'',imgFile:imgFile||null,pulledAt:Date.now()});
+    saveColls(d);
+    colSel.innerHTML=d.collections.map(c=>`<option value="${esc(c.id)}"${c.id===id?' selected':''}>${esc(c.name)}</option>`).join('')
+      +`<option value="__new__">+ New collection…</option>`;
+    toggleNewCol();
+    toast(`Added to "${col.name}"!`);
+  };
 
   // Gallery click: swap main image
   if(imgs.length>1){
@@ -2634,12 +2705,14 @@ function showCardPopup(card, rarity, imgFile){
   document.getElementById('cp-type').textContent=typeParts.join(' · ');
   const matEl=document.getElementById('cp-materials');
   matEl.textContent=card.materials||''; matEl.style.display=card.materials?'':'none';
-  const stats=[];
-  if(card.attribute) stats.push(card.attribute);
-  if(isMon&&card.level!=null) stats.push('LV '+card.level);
-  if(isMon&&card.atk!=null) stats.push('ATK '+card.atk);
-  if(isMon&&card.def!=null) stats.push('DEF '+card.def);
-  document.getElementById('cp-stats').textContent=stats.join(' · ');
+  const statHtml=[];
+  if(card.attribute) statHtml.push(`<span class="tt-attr tt-attr-${card.attribute}">${card.attribute}</span>`);
+  const numParts=[];
+  if(isMon&&card.level!=null) numParts.push('LV '+card.level);
+  if(isMon&&card.atk!=null) numParts.push('ATK '+card.atk);
+  if(isMon&&card.def!=null) numParts.push('DEF '+card.def);
+  if(numParts.length) statHtml.push(numParts.join(' · '));
+  document.getElementById('cp-stats').innerHTML=statHtml.join('');
   const maxEl=document.getElementById('cp-maxatk');
   if(isMon&&card.maximum_atk!=null){maxEl.textContent='⚡ MAX ATK  '+card.maximum_atk;maxEl.style.display='';}
   else{maxEl.style.display='none';}
@@ -2746,6 +2819,7 @@ function startSession(set,qty){
   document.getElementById('summary').classList.add('hidden');
   document.getElementById('assign-ui').classList.add('hidden');
   document.getElementById('btn-next').style.display='none';
+  document.getElementById('btn-open-all').style.display=packs.length>0?'':'none';
   showPack();
 }
 
@@ -2755,6 +2829,7 @@ function showPack(){
   const cont=document.getElementById('pack-cards');cont.innerHTML='';
   packs[cur].forEach(ent=>cont.appendChild(mkFlip(ent)));
   document.getElementById('btn-next').style.display='none';
+  document.getElementById('btn-flip-all').style.display='';
 }
 
 function mkFlip(ent){
@@ -2807,13 +2882,49 @@ function checkDone(){
   const ws=document.querySelectorAll('.flip-wrap');
   if(![...ws].every(w=>w.classList.contains('flipped'))) return;
   sess.pulled.push(...sess.packs[sess.cur]);
+  document.getElementById('btn-flip-all').style.display='none';
   const btn=document.getElementById('btn-next');
   if(sess.cur<sess.packs.length-1){
     btn.textContent='Next Pack →';btn.style.display='';
     btn.onclick=()=>{ sess.cur++;btn.style.display='none'; showPack(); };
   } else {
+    document.getElementById('btn-open-all').style.display='none';
     showSummary();
   }
+}
+
+// Reveals every still-unflipped card in the current pack at once.
+function flipAllCurrentPack(){
+  if(!sess) return;
+  const ws=[...document.querySelectorAll('#pack-cards .flip-wrap')];
+  const toFlip=ws.filter(w=>!w.classList.contains('flipped'));
+  if(!toFlip.length) return;
+  let bestRarity=null;
+  for(const w of toFlip){
+    w.classList.add('flipped');
+    w.closest('.card-slot')?.classList.add('revealed');
+    const ent=w.closest('.card-slot')?._ent;
+    if(ent&&(!bestRarity||rarityRank(ent.rarity)>rarityRank(bestRarity))) bestRarity=ent.rarity;
+  }
+  if(bestRarity){ const t=SOUND_TIER(bestRarity); if(t) snd(t); }
+  checkDone();
+}
+
+// Fast-forwards through every remaining pack in the session and jumps
+// straight to the pull summary, without requiring a click-through per pack.
+function openAllPacks(){
+  if(!sess) return;
+  const flippedInCur=document.querySelectorAll('#pack-cards .flip-wrap.flipped').length;
+  const totalInCur=sess.packs[sess.cur].length;
+  // If the current pack hasn't been fully counted into sess.pulled yet
+  // (checkDone only pushes once every card in it is flipped), count it now.
+  if(flippedInCur<totalInCur) sess.pulled.push(...sess.packs[sess.cur]);
+  for(let i=sess.cur+1;i<sess.packs.length;i++) sess.pulled.push(...sess.packs[i]);
+  sess.cur=sess.packs.length-1;
+  document.getElementById('btn-flip-all').style.display='none';
+  document.getElementById('btn-open-all').style.display='none';
+  document.getElementById('btn-next').style.display='none';
+  showSummary();
 }
 
 function showSummary(){
@@ -3054,7 +3165,7 @@ function renderColCards(){
   const legendOnly=document.getElementById('f-legend')?.checked||false;
 
   let ents=[...col.cards]
-    .map(e=>({...e,card:MAP.get(e.cardTitle)}))
+    .map((e,i)=>({...e,card:MAP.get(e.cardTitle),_idx:i}))
     .filter(e=>e.card);
 
   if(rf) ents=ents.filter(e=>e.rarity===rf);
@@ -3095,6 +3206,7 @@ function renderColCards(){
         ${f?`<img src="${imgUrl(f)}" alt="${esc(cname(e.card))}" loading="lazy"
               onload="this.previousElementSibling.style.display='none'"
               onerror="this.remove()">`:'' }
+        <button class="col-remove" type="button" title="Remove one copy (Shift+click to remove all)">✕</button>
         ${count>1?`<div class="stack-badge">×${count}</div>`:''}
         ${maxBadgeHtml(e.card)}
       </div>
@@ -3102,8 +3214,26 @@ function renderColCards(){
         <div class="col-cn">${cname(e.card)}</div>
         <div class="col-cr">${rbHtml(e.rarity)}</div>
       </div>`;
+    div.querySelector('.col-remove').addEventListener('click',evt=>{
+      evt.stopPropagation();
+      removeColCard(col.id,e._idx,evt.shiftKey);
+    });
     grid.appendChild(div);
   }
+}
+
+function removeColCard(colId,idx,all){
+  const data=getColls();
+  const col=data.collections.find(c=>c.id===colId);
+  if(!col) return;
+  const entry=col.cards[idx];
+  if(!entry) return;
+  if(!all&&(entry.count||1)>1){ entry.count=(entry.count||1)-1; }
+  else{ col.cards.splice(idx,1); }
+  saveColls(data);
+  buildFilters();
+  renderColCards();
+  toast('Card removed');
 }
 
 /* ═══════════════════════════════════════════════════════
@@ -3977,6 +4107,8 @@ async function init(){
   document.querySelectorAll('#menu-grid .menu-tile').forEach(t=>t.addEventListener('click',()=>goTo(t.dataset.go)));
   document.getElementById('home-btn').addEventListener('click',()=>goTo('screen-home'));
   document.getElementById('pack-back').addEventListener('click',()=>goTo('screen-sets'));
+  document.getElementById('btn-flip-all').addEventListener('click',flipAllCurrentPack);
+  document.getElementById('btn-open-all').addEventListener('click',openAllPacks);
   goTo('screen-home');
   initModal();
   initGetDeckModal();
@@ -4597,7 +4729,7 @@ function _duShowCardDetail(c){
 
   // Image: prefer card instance imgFile, fall back to card's best image.
   const imgEl = _duEl('du-cd-img');
-  const url = _duCardImgUrl(c);
+  const url = _duCardImgSrc(c);
   if(url){ imgEl.src = url; imgEl.style.display = ''; }
   else if(card && typeof lowestRarityImg === 'function'){
     const imgs = lowestRarityImg(card, null);
@@ -4685,9 +4817,9 @@ function _duMkCardEl(c, isOwner, zone){
   _duBindCardHover(el, c);
   // ATK/DEF overlay for face-up monsters
   if(zone === 'monster' && !c.faceDown && !c.hidden){
-    const ref = (typeof _refData !== 'undefined' && _refData && _refData.cards) ? _refData.cards : {};
-    const baseAtk = ref[c.cardKey]?.atk;
-    const baseDef = ref[c.cardKey]?.def;
+    const refCard = (typeof MAP !== 'undefined') ? MAP.get(c.cardKey) : null;
+    const baseAtk = refCard?.atk;
+    const baseDef = refCard?.def;
     const atkVal = c.atkOverride !== null && c.atkOverride !== undefined ? c.atkOverride : baseAtk;
     const defVal = c.defOverride !== null && c.defOverride !== undefined ? c.defOverride : baseDef;
     if(atkVal !== undefined || defVal !== undefined){
@@ -4749,6 +4881,14 @@ function _duRenderSlot(slotEl, cardData, isOwner, zone, slotIdx){
   } else {
     fc.addEventListener('contextmenu', e => { e.preventDefault(); _duShowCtxOppField(e, cardData, zone); });
     fc.addEventListener('click', e => { if(e.detail===2) _duShowCtxOppField(e, cardData, zone); });
+    // An opponent's monster can be dragged onto your own monster zone to
+    // represent taking control of it via a card effect (manual/trust-based,
+    // like every other duel action — the app doesn't enforce why).
+    if(zone === 'monster' && !_olIsSpectator){
+      fc.draggable = true;
+      fc.addEventListener('dragstart', e => _duOnDragStart(e, cardData.iid, 'oppMonster'));
+      fc.addEventListener('dragend',   _duOnDragEnd);
+    }
   }
   slotEl.appendChild(fc);
 }
@@ -4997,6 +5137,14 @@ function _duOnDrop(e, zone, slot){
   e.currentTarget.classList.remove('drag-over');
   const iid = _duDragIid || e.dataTransfer.getData('text/plain');
   if(!iid) return;
+  // Dragging an opponent's monster onto your own monster zone: take control of it.
+  if(_duDragSrcZone === 'oppMonster'){
+    if(zone !== 'monster') return;
+    const oc = (_duState?.opp?.monster || []).find(c => c && c.iid === iid);
+    const label = (oc && !oc.hidden && oc.cardKey) ? `Take control of "${oc.cardKey}"?` : 'Take control of this monster?';
+    _duConfirm(e.clientX, e.clientY, label, ()=> _duEmit('takeControl', { iid, slot }));
+    return;
+  }
   // Rush Duel: a card already in a slot zone cannot be repositioned within the same zone type
   if(_duDragSrcZone && _duDragSrcZone === zone && zone !== 'field') return;
   const payload = { iid, zone };
@@ -5127,11 +5275,26 @@ function _duCtxHide(){ _duEl('du-ctx').classList.add('hidden'); }
 document.addEventListener('click', ()=> _duCtxHide());
 document.addEventListener('keydown', e=>{ if(e.key==='Escape') _duCtxHide(); });
 
+// A one-shot Confirm/Cancel popup, reusing the context-menu widget.
+function _duConfirm(x, y, label, onConfirm){
+  _duCtxShow(x, y, [
+    { label, fn: onConfirm },
+    { label:'Cancel', fn:()=>{} },
+  ]);
+}
+
 // True only for Fusion/Ritual monsters — the cards that belong in the Extra Deck.
 function _duIsExtraMonster(card){
   if(!card || card.hidden || !card.cardKey || typeof MAP === 'undefined') return false;
   const c = MAP.get(card.cardKey);
   return !!(c && isExtraCard(c));
+}
+
+// True for Monster-type cards (used to gate "take control" to monsters only).
+function _duIsMonsterCard(card){
+  if(!card || card.hidden || !card.cardKey || typeof MAP === 'undefined') return false;
+  const c = MAP.get(card.cardKey);
+  return !!(c && typeof cardMainType === 'function' && cardMainType(c) === 'Monster');
 }
 
 // Rush Duel hand context menu: Summon (ATK face-up) or Set (DEF face-down)
@@ -5225,9 +5388,12 @@ const _DU_ZONE_LABEL = {
 // Calcul des dégâts de combat selon les règles Rush Duel.
 // Retourne { direct, damage, victim, note } ou null si données insuffisantes.
 function _duCalcDamage(entry){
-  const ref = (typeof _refData !== 'undefined' && _refData && _refData.cards) ? _refData.cards : {};
   const ovr  = v => (v !== null && v !== undefined) ? v : undefined;
-  const lookup = (key, stat) => ref[key] ? ref[key][stat] : undefined;
+  const lookup = (key, stat) => {
+    if(typeof MAP === 'undefined') return undefined;
+    const c = MAP.get(key);
+    return c ? c[stat] : undefined;
+  };
   const atkOvr = ovr(entry.attackerAtkOvr);
   const attackerAtk = atkOvr !== undefined ? atkOvr : lookup(entry.attackerCardKey, 'atk');
   if(attackerAtk == null) return null;
@@ -5366,6 +5532,12 @@ function _duLogEntry(entry){
     }
     case 'lookDeck':      html = `${who} looked at their deck`; break;
     case 'lookExtraDeck': html = `${who} looked at their extra deck`; break;
+    case 'takeControl': {
+      if(_duState) _duRenderZones(_duState.self, _duState.opp);
+      const ccSpan = entry.cardKey ? _duLogCardSpan(entry.cardKey) : 'a face-down monster';
+      html = `${who} took control of ${ccSpan}!`;
+      break;
+    }
     case 'statOverride': {
       const cSpan = entry.cardKey ? _duLogCardSpan(entry.cardKey) : 'a card';
       const parts = [];
@@ -5411,7 +5583,7 @@ function _duShowViewer(title, cards, cardActions, dragSrcZone, persistent){
             if(a === '---'){ menu.push('---'); continue; }
             if(a.when && !a.when(c)) continue;
             menu.push({ label:a.label, fn:()=>{
-              a.fn(c);
+              a.fn(c, e.clientX, e.clientY);
               if(persistent){
                 // Drop the resolved card and re-render; close once the pile is empty.
                 const idx = cards.indexOf(c); if(idx !== -1) cards.splice(idx, 1);
@@ -5742,6 +5914,13 @@ function _duInitBoard(){
     if(!_duState) return;
     const _oppGyActions = [
       { label:'Target', fn:(c)=> _duEmit('target', { iid: c.iid }) },
+      '---',
+      { label:'Take control → Monster Zone 1', when:_duIsMonsterCard,
+        fn:(c,x,y)=> _duConfirm(x, y, `Take control of "${c.cardKey}"?`, ()=> _duEmit('takeControl', { iid:c.iid, slot:0 })) },
+      { label:'Take control → Monster Zone 2', when:_duIsMonsterCard,
+        fn:(c,x,y)=> _duConfirm(x, y, `Take control of "${c.cardKey}"?`, ()=> _duEmit('takeControl', { iid:c.iid, slot:1 })) },
+      { label:'Take control → Monster Zone 3', when:_duIsMonsterCard,
+        fn:(c,x,y)=> _duConfirm(x, y, `Take control of "${c.cardKey}"?`, ()=> _duEmit('takeControl', { iid:c.iid, slot:2 })) },
     ];
     _duShowViewer("Opponent's Graveyard", _duState.opp.graveyard, _oppGyActions);
   });

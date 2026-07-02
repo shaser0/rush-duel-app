@@ -89,3 +89,16 @@ jobs:
             dist/rush-app-macos
             dist/rush-app-macos.tar.gz
             dist/checksums.sha256
+
+      # jsDelivr caches the @main ref for a while (their docs say up to ~12h).
+      # The release commit updates data/data-channel.json to point at this new
+      # tag before the tag is pushed, so without a purge, clients polling
+      # data-channel.json via @main can miss this release's data for hours.
+      # Also purge the newly tagged data files themselves in case anything
+      # requested them (and got cached) before this push completed.
+      - name: Purge jsDelivr cache for the data channel + tagged data
+        run: |
+          for f in data-channel.json cards.json sets-data.json gallery-images.json image-urls.json banlist.json; do
+            curl -fsS "https://purge.jsdelivr.net/gh/shaser0/rush-duel-app@main/data/$f" || true
+            curl -fsS "https://purge.jsdelivr.net/gh/shaser0/rush-duel-app@${{ github.ref_name }}/data/$f" || true
+          done

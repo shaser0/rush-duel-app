@@ -161,6 +161,22 @@ const ACTIONS = {
     return { ok: true };
   },
 
+  // ── Take control of an opponent's monster (manual, declarative — a card
+  // effect like "seize control" is trust-based like everything else here).
+  // Monsters only: on the field, or off it sitting in their Graveyard.
+  // payload: { iid, slot }
+  takeControl(game, seat, p) {
+    const oppSeat = seat === 0 ? 1 : 0;
+    const loc = S.locate(game, oppSeat, p.iid);
+    if (!loc) return { error: 'not_found' };
+    const cardKey = !loc.card.faceDown ? loc.card.cardKey : undefined;
+    const fromZone = loc.zone;
+    const res = S.takeControl(game, oppSeat, seat, loc, p.slot);
+    if (res.error) return res;
+    S.pushLog(game, { type: 'takeControl', seat, fromSeat: oppSeat, fromZone, slot: p.slot, cardKey });
+    return { ok: true };
+  },
+
   // ── In-place state changes ────────────────────────────────────────────────
   // Toggle (or set) face-up/face-down for a card sitting in a slot zone.
   flip(game, seat, p) {

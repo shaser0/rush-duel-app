@@ -12,7 +12,7 @@ const MAX_EXTRA_DECK = 15;
 const ZONES    = new Set(['hand', 'deck', 'extraDeck', 'graveyard', 'monster', 'spellTrap', 'field']);
 const ACTIONS  = new Set([
   'loadDeck', 'loadExtraDeck', 'ready', 'chooseFirst', 'millTop', 'shuffle', 'draw', 'excavate', 'lookDeck', 'lookExtraDeck',
-  'move', 'flip', 'position', 'maximum', 'attack', 'statOverride', 'activateEffect', 'target', 'reveal', 'lp', 'coin', 'dice', 'passTurn', 'surrender',
+  'move', 'flip', 'position', 'maximum', 'attack', 'statOverride', 'activateEffect', 'target', 'reveal', 'lp', 'coin', 'dice', 'passTurn', 'surrender', 'takeControl',
 ]);
 
 function isPseudo(v) {
@@ -73,6 +73,8 @@ function isDuelAction(data) {
       return typeof p.attackerIid === 'string'
         && (p.defenderSlot === undefined || p.defenderSlot === null
             || (Number.isInteger(p.defenderSlot) && p.defenderSlot >= 0 && p.defenderSlot < 3));
+    case 'takeControl':
+      return typeof p.iid === 'string' && Number.isInteger(p.slot) && p.slot >= 0 && p.slot < 3;
     case 'statOverride': {
       const validStat = v => v === undefined || v === null
         || (typeof v === 'number' && Number.isFinite(v) && v >= 0 && v <= 99999);

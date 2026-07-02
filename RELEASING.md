@@ -24,7 +24,7 @@ Avant, le binaire téléchargé depuis GitHub était installé tel quel, sans au
 
 Un asset `checksums.sha256` uploadé sur la GitHub Release, au format standard `sha256sum` :
 
-```
+```text
 <hash256>  rush-app-win.exe
 <hash256>  rush-app-linux
 <hash256>  rush-app-macos
@@ -201,7 +201,7 @@ Le workflow CI prend le relais : build, génération de `checksums.sha256`, cré
 Sur GitHub, la release doit contenir les 7 assets suivants :
 
 | Asset | Description |
-|-------|-------------|
+| ------- | ------------- |
 | `rush-app-win.exe` | Binaire Windows autonome |
 | `rush-app-win.zip` | Archive Windows (binaire + data + README) |
 | `rush-app-linux` | Binaire Linux autonome |
@@ -215,7 +215,7 @@ Sur GitHub, la release doit contenir les 7 assets suivants :
 ## Résumé des protections en place
 
 | Vecteur d'attaque | Protection |
-|-------------------|------------|
+| --- | --- |
 | Binaire malveillant sur compte GitHub compromis | SHA-256 vérifié avant installation (Item 15) |
 | Redirect HTTP intercepté vers binaire malveillant | Rejet de tout redirect non-HTTPS (T2/F3, déjà appliqué) |
 | Données falsifiées dans le manifeste | SHA-256 vérifié pour chaque fichier data (Item 16) |

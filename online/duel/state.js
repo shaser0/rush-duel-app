@@ -188,9 +188,29 @@ function move(game, seat, loc, dest) {
   return { ok: true };
 }
 
+// Relocate a monster from one seat's board straight onto another seat's board
+// — e.g. a card effect that seizes control of an opponent's monster, on the
+// field or off it in the Graveyard. Like the rest of this file, this is a
+// structural relocation only (no owner/controller split exists here); the
+// acting player is trusted to only do this because a card effect says so,
+// same as every other manual action.
+const TAKE_CONTROL_SRC_ZONES = new Set(['monster', 'graveyard']);
+function takeControl(game, fromSeat, toSeat, loc, destSlot) {
+  if (!TAKE_CONTROL_SRC_ZONES.has(loc.zone)) return { error: 'bad_source_zone' };
+  if (!Number.isInteger(destSlot) || destSlot < 0 || destSlot >= MONSTER_SLOTS)
+    return { error: 'bad_slot' };
+  const fromBoard = game.players[fromSeat];
+  const toBoard   = game.players[toSeat];
+  if (!fromBoard || !toBoard) return { error: 'bad_seat' };
+  if (toBoard.monster[destSlot]) return { error: 'slot_occupied' };
+  const card = removeAt(fromBoard, loc);
+  toBoard.monster[destSlot] = card;
+  return { ok: true };
+}
+
 module.exports = {
   STARTING_LP, MONSTER_SLOTS, SPELLTRAP_SLOTS, FIELD_SLOTS, MAX_DECK, MAX_EXTRA_DECK, MAX_DRAW,
   PILE_ZONES, SLOT_ZONES, ALL_ZONES,
   createGame, createBoard, nextIid, pushLog, makeInstance,
-  locate, removeAt, loadDeck, loadExtraDeck, shuffle, draw, move,
+  locate, removeAt, loadDeck, loadExtraDeck, shuffle, draw, move, takeControl,
 };

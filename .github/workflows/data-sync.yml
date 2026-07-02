@@ -36,9 +36,11 @@ jobs:
         run: npm run sync-data
 
       - name: Commit and push if anything changed
+        id: publish
         run: |
           if git diff --quiet -- data/; then
             echo "No data changes — nothing to publish."
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name 'github-actions[bot]'
@@ -51,3 +53,15 @@ jobs:
           } > /tmp/commit-msg.txt
           git commit -F /tmp/commit-msg.txt
           git push origin HEAD:main
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # jsDelivr caches the @main ref for a while (their docs say up to ~12h);
+      # clients poll data-channel.json via that ref to detect new data, so a
+      # stale CDN copy means the "check for card-data update" mechanism can't
+      # see this sync happened until the cache naturally expires. Force it.
+      - name: Purge jsDelivr cache for the data channel + files
+        if: steps.publish.outputs.pushed == 'true'
+        run: |
+          for f in data-channel.json cards.json sets-data.json gallery-images.json image-urls.json banlist.json; do
+            curl -fsS "https://purge.jsdelivr.net/gh/shaser0/rush-duel-app@main/data/$f" || true
+          done
