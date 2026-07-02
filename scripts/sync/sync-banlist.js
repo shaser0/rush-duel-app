@@ -11,6 +11,7 @@
 // On Windows, re-spawn with --use-system-ca if needed so HTTPS works.
 require('../lib/http').ensureSystemCa(__filename);
 
+const fs    = require('fs');
 const path  = require('path');
 const { fetchJson, sleep }  = require('../lib/http');
 const { writeJsonAtomic }   = require('../lib/fs-atomic');
@@ -18,6 +19,7 @@ const { DATA_DIR, YUGIPEDIA_API: API } = require('../lib/paths');
 const { RATE_MS } = require('../lib/yugipedia');
 
 const OUT = path.join(DATA_DIR, 'banlist.json');
+const CARDS_FILE = path.join(DATA_DIR, 'cards.json');
 
 // Known anchor — update if this page ever disappears.
 const ANCHOR_PAGE = 'April 2026 Lists (Rush Duel)';
@@ -93,7 +95,7 @@ async function syncBanlist() {
   const wikitext = await fetchWikitext(page);
   if (!wikitext) { console.error('[sync-banlist] Failed to fetch wikitext.'); process.exit(1); }
 
-  const banlist = {};
+  let banlist = {};
   const sections = { Forbidden: 'forbidden', Limited: 'limited', 'Semi-Limited': 'semi_limited' };
   for (const [status, param] of Object.entries(sections)) {
     const block = tmplParam(wikitext, param);
@@ -102,12 +104,32 @@ async function syncBanlist() {
     }
   }
 
-  const count = Object.keys(banlist).length;
-  if (count === 0) {
-    console.warn('[sync-banlist] ABORT: 0 entrées parsées — format inattendu, banlist.json inchangé.');
+  const rawCount = Object.keys(banlist).length;
+  if (rawCount === 0) {
+    console.warn('[sync-banlist] ABORT: 0 entries parsed — unexpected format, banlist.json unchanged.');
     console.warn('Wikitext sample:\n' + wikitext.substring(0, 500));
     process.exit(1);
   }
+
+  // addEntry() defensively stores both the "(Rush Duel)"-suffixed and
+  // unsuffixed form of each name, since it can't know which one the app's
+  // card data actually uses. The app looks a card up by
+  // card.raw_name_en || card.name_en || card.title (see public/index.html),
+  // so filter down to only the keys that match a real card that way —
+  // dropping whichever of the two forms never matches anything.
+  if (fs.existsSync(CARDS_FILE)) {
+    const cards = JSON.parse(fs.readFileSync(CARDS_FILE, 'utf8'));
+    const validKeys = new Set(cards.map(c => c.raw_name_en || c.name_en || c.title));
+    const dropped = [];
+    for (const key of Object.keys(banlist)) {
+      if (!validKeys.has(key)) { dropped.push(key); delete banlist[key]; }
+    }
+    if (dropped.length) console.log(`[sync-banlist] Dropped ${dropped.length} name variant(s) not matching any card: ${dropped.join(', ')}`);
+  } else {
+    console.warn('[sync-banlist] cards.json not found — skipping dead-key filtering.');
+  }
+
+  const count = Object.keys(banlist).length;
   writeJsonAtomic(OUT, banlist);
   console.log(`[sync-banlist] Saved ${count} entries from "${page}" → data/banlist.json`);
 }
