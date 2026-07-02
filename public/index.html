@@ -308,7 +308,7 @@ button,input,select{font-family:inherit}
 .tt-lbl{color:var(--gold);font-weight:700;display:block;margin-bottom:1px}
 #tt-req{font-size:11px;line-height:1.4}
 #tt-req-body{color:var(--text)}
-#tt-eff{font-size:11px;color:var(--text);line-height:1.5;border-top:1px solid var(--border);padding-top:5px;margin-top:2px}
+#tt-eff{font-size:11px;color:var(--text);line-height:1.5;border-top:1px solid var(--border);padding-top:5px;margin-top:2px;white-space:pre-wrap}
 
 /* ── Builder ───────────────────────────────────────────────────────────── */
 #builder-layout{display:flex;gap:14px;align-items:flex-start}
@@ -369,8 +369,9 @@ button,input,select{font-family:inherit}
 .db-pcard .cph{position:absolute;inset:0;font-size:18px;width:auto;height:auto}
 .db-have{position:absolute;top:3px;left:3px;background:rgba(0,0,0,.8);border:1px solid var(--accent);color:#fff;font-size:9px;font-weight:700;border-radius:4px;padding:1px 4px;z-index:2}
 .legend-badge{display:inline-block;background:linear-gradient(90deg,rgba(255,215,0,.18),rgba(255,140,0,.18));border:1px solid var(--gold);color:var(--gold);font-size:10px;font-weight:800;letter-spacing:.5px;border-radius:4px;padding:1px 6px;vertical-align:middle;white-space:nowrap}
-.db-legend{position:absolute;top:3px;right:3px;background:rgba(10,5,0,.85);border:1px solid var(--gold);color:var(--gold);font-size:8px;font-weight:800;letter-spacing:.3px;border-radius:4px;padding:1px 4px;z-index:3;line-height:1.3;white-space:nowrap;box-shadow:0 0 6px rgba(255,215,0,.5)}
-.db-dcard .db-legend{top:2px;right:2px;font-size:7px;padding:0 3px}
+.db-legend{position:absolute;top:3px;left:3px;background:rgba(10,5,0,.85);border:1px solid var(--gold);color:var(--gold);font-size:8px;font-weight:800;letter-spacing:.3px;border-radius:4px;padding:1px 4px;z-index:3;line-height:1.3;white-space:nowrap;box-shadow:0 0 6px rgba(255,215,0,.5)}
+.db-dcard .db-legend{top:2px;left:2px;font-size:7px;padding:0 3px}
+.db-have+.db-legend{top:20px}
 .db-indeck{position:absolute;bottom:3px;right:3px;background:rgba(0,0,0,.85);border:1px solid var(--gold);color:var(--gold);font-size:10px;font-weight:700;border-radius:4px;padding:1px 5px;z-index:2}
 .badge-max{position:absolute;bottom:3px;left:3px;background:rgba(255,100,0,.9);border:1px solid #ff6600;color:#fff;font-size:8px;font-weight:800;border-radius:3px;padding:1px 3px;z-index:3;line-height:1.3;letter-spacing:.3px}
 .badge-lr{position:absolute;bottom:3px;left:3px;background:rgba(0,80,200,.9);border:1px solid #2196f3;color:#fff;font-size:8px;font-weight:800;border-radius:3px;padding:1px 3px;z-index:3;line-height:1.3}
@@ -1474,6 +1475,10 @@ function mkPh(){
    4. UI UTILS
 ═══════════════════════════════════════════════════════ */
 function cname(card){ return card.name_en||card.title||''; }
+// Wiki effect text has no line breaks between "●" multi-choice options —
+// they're separated only by the bullet character itself. Break onto its own
+// line for readability (paired with white-space:pre-wrap on the container).
+function fmtEffect(text){ return (text||'').replace(/\s*●/g,'\n●').trim(); }
 function esc(s){ return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
 let cardImgObserver=null;
 function getCardImgObserver(){
@@ -1532,6 +1537,44 @@ function migrateColls(d){
   }
   return changed;
 }
+// Migrate saved collections + decks off any card title that's since been
+// renamed on the wiki (e.g. Yugipedia page moves). cardRenames maps
+// oldTitle → current title, built from each card's former_titles. Returns
+// { collsChanged, decksChanged } so callers only persist what actually moved.
+function migrateRenames(cardRenames, colls, decksData){
+  let collsChanged=false, decksChanged=false;
+  if(!cardRenames || !Object.keys(cardRenames).length) return {collsChanged,decksChanged};
+
+  for(const col of colls.collections){
+    const seen=new Map();
+    for(const e of col.cards){
+      const renamed=cardRenames[e.cardTitle];
+      if(renamed){ e.cardTitle=renamed; collsChanged=true; }
+      const k=`${e.cardTitle}||${e.rarity}||${e.imgFile||''}`;
+      if(seen.has(k)){ seen.get(k).count=(seen.get(k).count||1)+(e.count||1); collsChanged=true; }
+      else seen.set(k,e);
+    }
+    col.cards=[...seen.values()];
+  }
+
+  for(const deck of decksData.decks){
+    for(const sec of ['main','extra']){
+      const obj=deck[sec]; if(!obj) continue;
+      let sectionChanged=false;
+      const rebuilt={};
+      for(const [key,count] of Object.entries(obj)){
+        const {title,rarity}=deckKeyParts(key);
+        const renamed=cardRenames[title];
+        if(renamed) sectionChanged=true;
+        const finalKey=renamed?deckKey(renamed,rarity):key;
+        rebuilt[finalKey]=(rebuilt[finalKey]||0)+count;
+      }
+      if(sectionChanged){ deck[sec]=rebuilt; decksChanged=true; }
+    }
+  }
+
+  return {collsChanged,decksChanged};
+}
 function upsertColCard(cards,entry){
   const ex=cards.find(e=>e.cardTitle===entry.cardTitle&&e.rarity===entry.rarity&&(e.imgFile||'')===(entry.imgFile||''));
   if(ex){ ex.count=(ex.count||1)+1; }
@@ -1545,22 +1588,39 @@ function isJpsEnt(ent,setName){
   return s&&/-JPS\d/i.test(s.code);
 }
 
-function openGetDeckModal(set){
-  const data=getColls();
-  const cols=data.collections;
+// Resolves a deck into the concrete list of {card, rarity, qty} copies to add.
+// A deckContents value is either a single {rarity, qty} printing or an array of
+// them (a card printed under one code in several rarities — e.g. a Maximum
+// Monster as both Common and Normal Parallel Rare, one copy of each).
+function deckPrintings(set){
   const deckContents=SDATA[set.name]?.deckContents||null;
+  const out=[];
   const seenTitles=new Set();
-  let totalQty=0;
   for(const ent of set.ents){
     if(isJpsEnt(ent,set.name)) continue;
     if(seenTitles.has(ent.card.title)) continue;
     seenTitles.add(ent.card.title);
     const s=ent.card.sets_jp?.find(x=>x.name===set.name);
-    const qty=(s&&deckContents?.[s.code]?.qty)||1;
-    totalQty+=qty;
+    const val=s&&deckContents?deckContents[s.code]:null;
+    const printings=val?(Array.isArray(val)?val:[val]):null;
+    if(printings){
+      for(const p of printings) out.push({card:ent.card,rarity:p.rarity||ent.rarity,qty:p.qty||1});
+    } else {
+      out.push({card:ent.card,rarity:ent.rarity,qty:1});
+    }
   }
+  return out;
+}
+
+function openGetDeckModal(set){
+  const data=getColls();
+  const cols=data.collections;
+  const printings=deckPrintings(set);
+  let totalQty=0;
+  const uniqueTitles=new Set();
+  for(const p of printings){ totalQty+=p.qty; uniqueTitles.add(p.card.title); }
   document.getElementById('gd-title').textContent=set.name;
-  document.getElementById('gd-summary').textContent=`${totalQty} cards (${seenTitles.size} unique)`;
+  document.getElementById('gd-summary').textContent=`${totalQty} cards (${uniqueTitles.size} unique)`;
   const sel=document.getElementById('gd-col-sel');
   const ni=document.getElementById('gd-newname');
   const lbl=document.getElementById('gd-new-label');
@@ -1584,25 +1644,17 @@ function confirmGetDeck(set,collId){
   const data=getColls();
   const target=data.collections.find(c=>c.id===collId)||data.collections[0];
   if(!target){toast('Collection not found');return;}
-  const deckContents=SDATA[set.name]?.deckContents||null;
   let added=0;
-  const seenTitles=new Set();
   const main={},extra={};
-  for(const ent of set.ents){
-    if(isJpsEnt(ent,set.name)) continue;
-    if(seenTitles.has(ent.card.title)) continue;
-    seenTitles.add(ent.card.title);
-    const s=ent.card.sets_jp?.find(x=>x.name===set.name);
-    const qty=(s&&deckContents?.[s.code]?.qty)||1;
-    const rarity=(s&&deckContents?.[s.code]?.rarity)||ent.rarity;
-    const ex=target.cards.find(e=>e.cardTitle===ent.card.title&&e.rarity===rarity&&!e.imgFile);
+  for(const {card,rarity,qty} of deckPrintings(set)){
+    const ex=target.cards.find(e=>e.cardTitle===card.title&&e.rarity===rarity&&!e.imgFile);
     if(ex){ ex.count=(ex.count||1)+qty; }
-    else{ target.cards.push({cardTitle:ent.card.title,rarity,collectedAt:new Date().toISOString(),count:qty}); }
+    else{ target.cards.push({cardTitle:card.title,rarity,collectedAt:new Date().toISOString(),count:qty}); }
     added+=qty;
-    const c=MAP.get(ent.card.title); if(!c) continue;
-    const dkey=deckKey(ent.card.title,rarity);
-    if(isExtraCard(c)) extra[dkey]=qty;
-    else main[dkey]=qty;
+    const c=MAP.get(card.title); if(!c) continue;
+    const dkey=deckKey(card.title,rarity);
+    if(isExtraCard(c)) extra[dkey]=(extra[dkey]||0)+qty;
+    else main[dkey]=(main[dkey]||0)+qty;
   }
   saveColls(data);
   const decksData=getDecks();
@@ -2331,7 +2383,7 @@ function showDbpDetail(card){
     <div id="dbp-materials" style="display:none;font-size:12px;color:#c8e6c9;font-style:italic;line-height:1.5"></div>
     <div id="dbp-condition" style="display:none;font-size:12px;color:#ffcc80;font-style:italic;line-height:1.5"></div>
     <div id="dbp-req" style="display:none;font-size:12px;line-height:1.5"><b style="color:var(--gold);font-weight:700">【Requirement】</b> <span id="dbp-req-body"></span></div>
-    <div id="dbp-eff" style="display:none;font-size:12px;line-height:1.55"><b id="dbp-eff-lbl" style="color:var(--gold);font-weight:700;display:none"></b> <span id="dbp-eff-body"></span></div>
+    <div id="dbp-eff" style="display:none;font-size:12px;line-height:1.55"><b id="dbp-eff-lbl" style="color:var(--gold);font-weight:700;display:none"></b> <span id="dbp-eff-body" style="white-space:pre-wrap"></span></div>
     <div id="dbp-sets" style="display:none"><b style="font-size:12px;color:var(--gold)">Sets</b><table id="dbp-sets-table" style="margin-top:4px"></table></div>`;
 
   // Populate via DOM API (textContent auto-escapes, no XSS risk)
@@ -2392,7 +2444,7 @@ function showDbpDetail(card){
       const lbl=panel.querySelector('#dbp-eff-lbl');
       lbl.textContent=effLabel; lbl.style.display='';
     }
-    panel.querySelector('#dbp-eff-body').textContent=card.effect||card.flavor_text;
+    panel.querySelector('#dbp-eff-body').textContent=fmtEffect(card.effect||card.flavor_text);
     effDiv.style.display='';
   }
 
@@ -2548,7 +2600,7 @@ function showTooltip(card,rarity,x,y){
     const lbl=document.getElementById('tt-eff-lbl');
     lbl.textContent=isFlavor?'':(card.effect_types?'【'+card.effect_types+' Effect】':'【Effect】');
     const body=document.getElementById('tt-eff-body');
-    body.textContent=eff;
+    body.textContent=fmtEffect(eff);
     body.style.fontStyle=isFlavor?'italic':'';
   }
   el.classList.add('show');
@@ -2603,7 +2655,7 @@ function showCardPopup(card, rarity, imgFile){
   if(eff){
     document.getElementById('cp-eff-lbl').textContent=isFlavor?'':(card.effect_types?'【'+card.effect_types+' Effect】':'【Effect】');
     const body=document.getElementById('cp-eff-body');
-    body.textContent=eff;
+    body.textContent=fmtEffect(eff);
     body.style.fontStyle=isFlavor?'italic':'';
   }
 
@@ -3898,6 +3950,16 @@ async function init(){
     const galleryImgs=ref.galleryImgs;
     IMG_URLS=ref.IMG_URLS;
     BANLIST=ref.BANLIST;
+
+    // Migrate any collection/deck entries still pointing at a card's old
+    // (pre-rename) title. Renamed cards carry their prior title(s) in
+    // former_titles (set by sync-cards.js when it merges a wiki page rename).
+    const cardRenames={};
+    for(const c of ALL) for(const old of (c.former_titles||[])) cardRenames[old]=c.title;
+    const {collsChanged,decksChanged}=migrateRenames(cardRenames,COLLS,DECKS_DATA);
+    if(collsChanged) saveColls(COLLS);
+    if(decksChanged) saveDecksData(DECKS_DATA);
+
     const titleIdx=new Map(ALL.map(c=>[c.title,c]));
     for(const [title,files] of Object.entries(galleryImgs)){
       const card=titleIdx.get(title);
@@ -4560,7 +4622,7 @@ function _duShowCardDetail(c){
       statsEl.innerHTML = `<span class="cd-atk">ATK ${card.atk != null ? card.atk : '?'}</span><span class="cd-def">DEF ${card.def != null ? card.def : '?'}</span>`;
     } else { statsEl.innerHTML = ''; }
 
-    _duEl('du-cd-effect').textContent = card.effect || card.flavor_text || '';
+    _duEl('du-cd-effect').textContent = fmtEffect(card.effect || card.flavor_text || '');
   } else {
     _duEl('du-cd-meta').textContent = '';
     _duEl('du-cd-stats').innerHTML = '';
