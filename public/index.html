@@ -8,24 +8,27 @@
 /* ── Reset + Variables ─────────────────────────────────────────────────── */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{height:100%}
-body{min-height:100%;background:#0b0b16;color:#e8e0f0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px}
+body{min-height:100%;background:#14100a;color:#f3ece0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px}
 button,input,select{font-family:inherit}
 :root{
-  --bg:#0b0b16;--bg2:#13132a;--bg3:#1a1a35;--border:#2e2e5a;
-  --accent:#7c4dff;--gold:#ffd700;--text:#e8e0f0;--muted:#8888aa;
+  --bg:#14100a;--bg2:#1f1810;--bg3:#2a2116;--border:#4a3a22;
+  --accent:#ff9e2c;--gold:#ffd700;--text:#f3ece0;--muted:#b3a184;
   --card-w:180px;--card-h:262px;
 }
+/* Solid-accent buttons: the yellow-orange accent is light, so use dark ink
+   (not white) for legible label contrast. */
+.btn-p,.modal-ok,.tile-open,#sync-all-btn,#col-ok,#bld-save,#db-save,#dbp-add-btn,.du-btn.primary{color:#1c1206!important}
 
 /* ── Loading ───────────────────────────────────────────────────────────── */
-#loading{position:fixed;inset:0;background:rgba(8,8,20,.92);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:999;gap:18px}
+#loading{position:fixed;inset:0;background:rgba(18,12,4,.92);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:999;gap:18px}
 #loading.hidden{display:none}
 .spinner{width:48px;height:48px;border:4px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite}
 #loading-msg{color:var(--muted);font-size:15px}
 
 /* ── Navigation ────────────────────────────────────────────────────────── */
-#nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:4px;padding:8px 16px;background:#08080f;border-bottom:1px solid var(--border);flex-wrap:wrap}
+#nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:4px;padding:8px 16px;background:#0d0a04;border-bottom:1px solid var(--border);flex-wrap:wrap}
 .nav-btn{padding:6px 14px;background:transparent;border:1px solid var(--border);border-radius:6px;color:var(--muted);cursor:pointer;font-size:13px;transition:all .18s}
-.nav-btn:hover,.nav-btn.active{border-color:var(--accent);color:var(--text);background:rgba(124,77,255,.15)}
+.nav-btn:hover,.nav-btn.active{border-color:var(--accent);color:var(--text);background:rgba(255,158,44,.15)}
 
 /* ── Sync panel ── */
 #sync-btn{margin-left:auto;padding:6px 10px;background:none;border:1px solid var(--border);border-radius:6px;color:var(--muted);cursor:pointer;font-size:14px;line-height:1;transition:all .18s}
@@ -110,7 +113,7 @@ button,input,select{font-family:inherit}
 .modal-cover img{height:130px;border-radius:6px;object-fit:contain}
 .qty-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
 .qty-btn{padding:10px 0;background:var(--bg3);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:13px;font-weight:600;cursor:pointer;transition:all .18s;text-align:center}
-.qty-btn:hover,.qty-btn.sel{border-color:var(--accent);background:rgba(124,77,255,.22);color:#fff}
+.qty-btn:hover,.qty-btn.sel{border-color:var(--accent);background:rgba(255,158,44,.22);color:#fff}
 .modal-ok{padding:11px;background:var(--accent);border:none;border-radius:8px;color:#fff;font-size:15px;font-weight:700;cursor:pointer}
 .modal-ok:hover{opacity:.9}
 .modal-cancel{background:none;border:none;color:var(--muted);cursor:pointer;font-size:13px;align-self:center}
@@ -134,14 +137,14 @@ button,input,select{font-family:inherit}
 .flip{width:100%;height:100%;position:relative;transform-style:preserve-3d;transition:transform .55s cubic-bezier(.4,0,.2,1)}
 .flip-wrap.flipped .flip{transform:rotateY(180deg)}
 .face{position:absolute;inset:0;border-radius:10px;backface-visibility:hidden;-webkit-backface-visibility:hidden;overflow:hidden;border:2px solid var(--border)}
-.cback{background:radial-gradient(ellipse at 50% 35%,#1e0e58 0%,#090420 100%);border-color:#4a28a8;display:flex;align-items:center;justify-content:center}
-.cback::before{content:'';position:absolute;inset:10px;border:1px solid rgba(140,90,255,.28);border-radius:6px;background:repeating-conic-gradient(rgba(100,60,200,.1) 0deg 45deg,transparent 45deg 90deg) 0 0/22px 22px}
+.cback{background:radial-gradient(ellipse at 50% 35%,#4a2f0a 0%,#1a0f02 100%);border-color:#8a5a1e;display:flex;align-items:center;justify-content:center}
+.cback::before{content:'';position:absolute;inset:10px;border:1px solid rgba(255,180,90,.28);border-radius:6px;background:repeating-conic-gradient(rgba(200,130,40,.1) 0deg 45deg,transparent 45deg 90deg) 0 0/22px 22px}
 .cback::after{content:'★';font-size:50px;color:rgba(180,130,255,.22);position:relative;z-index:1}
 .cfront{transform:rotateY(180deg);background:#12121f}
 /* Image inside cfront: placeholder behind, img on top */
 .cfront .cph{position:absolute;inset:0;z-index:0;width:auto;height:auto;font-size:36px}
 .cfront img.cimg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;z-index:1}
-.cph{width:100%;height:100%;background:repeating-linear-gradient(45deg,#151528 0 10px,#111124 10px 20px);display:flex;align-items:center;justify-content:center;color:var(--muted)}
+.cph{width:100%;height:100%;background:repeating-linear-gradient(45deg,#221a10 0 10px,#1c1610 10px 20px);display:flex;align-items:center;justify-content:center;color:var(--muted)}
 
 /* ── Rarity effects ────────────────────────────────────────────────────── */
 .cfront.rarity-normal-parallel::before,.cfront.rarity-super-parallel::before,.cfront.rarity-ultra-parallel::before{
@@ -229,7 +232,7 @@ button,input,select{font-family:inherit}
 #col-sidebar{width:200px;flex-shrink:0;background:var(--bg2);border:1px solid var(--border);border-radius:10px;overflow:hidden}
 .col-item{padding:10px 12px;padding-left:9px;cursor:pointer;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:5px;transition:background .15s;border-left:3px solid transparent}
 .col-item:last-child{border-bottom:none}
-.col-item:hover,.col-item.active{background:rgba(124,77,255,.15)}
+.col-item:hover,.col-item.active{background:rgba(255,158,44,.15)}
 .col-iname{font-size:12px;font-weight:600;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .col-icnt{font-size:10px;color:var(--muted);flex-shrink:0}
 .col-gear{background:none;border:none;color:var(--muted);cursor:pointer;font-size:12px;line-height:1;padding:0 2px;flex-shrink:0}
@@ -360,7 +363,7 @@ button,input,select{font-family:inherit}
 #bld-search:focus{outline:none;border-color:var(--accent)}
 #bld-results{max-height:60vh;overflow-y:auto;background:var(--bg2);border:1px solid var(--border);border-radius:8px}
 .bld-item{display:flex;align-items:center;gap:10px;padding:7px 12px;border-bottom:1px solid var(--border);cursor:pointer;transition:background .15s}
-.bld-item:hover{background:rgba(124,77,255,.1)}
+.bld-item:hover{background:rgba(255,158,44,.1)}
 .bld-item:last-child{border-bottom:none}
 .bld-thumb{width:28px;height:41px;object-fit:cover;border-radius:3px;border:1px solid var(--border);flex-shrink:0}
 .bld-iname{font-size:12px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -379,7 +382,7 @@ button,input,select{font-family:inherit}
 
 /* ── Contextual nav ────────────────────────────────────────────────────────── */
 #home-btn{padding:6px 14px;background:transparent;border:1px solid var(--border);border-radius:6px;color:var(--text);cursor:pointer;font-size:13px;transition:all .18s}
-#home-btn:hover{border-color:var(--accent);background:rgba(124,77,255,.15)}
+#home-btn:hover{border-color:var(--accent);background:rgba(255,158,44,.15)}
 #section-title{font-size:14px;font-weight:700;color:var(--gold);margin-right:4px}
 #subnav-packs{display:flex;gap:4px;flex-wrap:wrap}
 
@@ -392,7 +395,7 @@ button,input,select{font-family:inherit}
 #menu-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;width:100%;max-width:560px}
 @media(max-width:480px){#menu-grid{grid-template-columns:1fr}}
 .menu-tile{display:flex;flex-direction:column;align-items:center;gap:10px;padding:32px 18px;background:var(--bg2);border:1px solid var(--border);border-radius:14px;color:var(--text);cursor:pointer;transition:border-color .18s,transform .15s,background .18s;text-align:center}
-.menu-tile:hover{border-color:var(--accent);transform:translateY(-3px);background:rgba(124,77,255,.12)}
+.menu-tile:hover{border-color:var(--accent);transform:translateY(-3px);background:rgba(255,158,44,.12)}
 .mt-icon{font-size:40px;line-height:1}
 .mt-name{font-size:17px;font-weight:700;color:var(--gold)}
 .mt-desc{font-size:12px;color:var(--muted);line-height:1.35}
@@ -443,10 +446,10 @@ button,input,select{font-family:inherit}
 .db-dcard img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;z-index:1}
 .db-dcard .cph{position:absolute;inset:0;font-size:13px;width:auto;height:auto}
 .db-qty{position:absolute;bottom:2px;right:2px;background:rgba(0,0,0,.85);border:1px solid var(--gold);color:var(--gold);font-size:9px;font-weight:700;border-radius:3px;padding:0 3px;z-index:2}
-#db-rar-picker{position:fixed;background:#1a1a35;border:1px solid #7c4dff;border-radius:7px;padding:6px 5px;z-index:9999;box-shadow:0 6px 24px rgba(0,0,0,.85);display:none;flex-direction:column;gap:2px;min-width:170px;max-width:260px;max-height:60vh;overflow-y:auto}
+#db-rar-picker{position:fixed;background:var(--bg3);border:1px solid var(--accent);border-radius:7px;padding:6px 5px;z-index:9999;box-shadow:0 6px 24px rgba(0,0,0,.85);display:none;flex-direction:column;gap:2px;min-width:170px;max-width:260px;max-height:60vh;overflow-y:auto}
 #db-rar-picker.open{display:flex}
-.db-rar-opt{padding:6px 12px;border-radius:5px;cursor:pointer;font-size:12px;display:flex;justify-content:space-between;align-items:center;gap:8px;color:#e8e0f0}
-.db-rar-opt:hover{background:#2e2e5a}
+.db-rar-opt{padding:6px 12px;border-radius:5px;cursor:pointer;font-size:12px;display:flex;justify-content:space-between;align-items:center;gap:8px;color:var(--text)}
+.db-rar-opt:hover{background:rgba(255,158,44,.16)}
 .db-rar-opt.disabled{opacity:.4;cursor:default;pointer-events:none}
 .db-empty{grid-column:1/-1;color:var(--muted);font-size:11px;text-align:center;padding:14px}
 #db-save{padding:9px;background:var(--accent);border:none;border-radius:7px;color:#fff;font-weight:700;cursor:pointer;font-size:13px}
@@ -552,8 +555,8 @@ button,input,select{font-family:inherit}
 /* deck picker */
 .du-deck-list{display:flex;flex-direction:column;gap:5px;max-height:220px;overflow-y:auto;padding:2px 0}
 .du-deck-item{display:flex;align-items:center;gap:8px;padding:7px 10px;background:var(--bg3);border:1px solid var(--border);border-radius:7px;cursor:pointer;transition:border-color .15s,background .15s;user-select:none}
-.du-deck-item:hover:not(.du-deck-banned){border-color:var(--accent);background:rgba(124,77,255,.07)}
-.du-deck-item.du-deck-sel{border-color:var(--accent);background:rgba(124,77,255,.12)}
+.du-deck-item:hover:not(.du-deck-banned){border-color:var(--accent);background:rgba(255,158,44,.07)}
+.du-deck-item.du-deck-sel{border-color:var(--accent);background:rgba(255,158,44,.12)}
 .du-deck-item.du-deck-banned{opacity:.5;cursor:not-allowed}
 .du-deck-name{font-weight:600;font-size:13px;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .du-deck-count{font-size:11px;color:var(--muted);flex-shrink:0}
@@ -568,13 +571,22 @@ button,input,select{font-family:inherit}
 .du-player-name{font-weight:700;font-size:13px}
 .du-lp-badge{font-size:14px;font-weight:800;color:var(--gold);padding:2px 8px;background:var(--bg3);border-radius:5px}
 .du-turn-label{font-size:10px;text-transform:uppercase;letter-spacing:.5px;padding:2px 8px;border-radius:10px;border:1px solid var(--border);color:var(--muted)}
-.du-turn-label.active{border-color:var(--accent);color:var(--accent);background:rgba(124,77,255,.15)}
+.du-turn-label.active{border-color:var(--accent);color:var(--accent);background:rgba(255,158,44,.15)}
+/* Turn tint — absolute by seat: seat 0 = blue, seat 1 = red. Applied on #ol-board. */
+#ol-board.turn-seat0 .du-topbar,#ol-board.turn-seat0 .du-controls{border-color:rgba(77,139,255,.55);box-shadow:inset 0 0 0 1px rgba(77,139,255,.12)}
+#ol-board.turn-seat1 .du-topbar,#ol-board.turn-seat1 .du-controls{border-color:rgba(255,82,82,.55);box-shadow:inset 0 0 0 1px rgba(255,82,82,.12)}
+#ol-board.turn-seat0 .du-board-area{box-shadow:inset 0 0 90px rgba(50,110,255,.12)}
+#ol-board.turn-seat1 .du-board-area{box-shadow:inset 0 0 90px rgba(255,60,60,.12)}
+#ol-board.turn-seat0 .du-divider::before{background:linear-gradient(90deg,transparent,#3d6bff,transparent)}
+#ol-board.turn-seat1 .du-divider::before{background:linear-gradient(90deg,transparent,#ff4d4d,transparent)}
+#ol-board.turn-seat0 .du-turn-label.active{border-color:#4d8bff;color:#9dc0ff;background:rgba(60,120,255,.16)}
+#ol-board.turn-seat1 .du-turn-label.active{border-color:#ff5252;color:#ff9a9a;background:rgba(255,60,60,.16)}
 .du-phase-badge{font-size:10px;font-weight:700;letter-spacing:.5px;padding:2px 10px;border-radius:10px;border:1px solid rgba(255,193,7,.4);color:#ffc107;background:rgba(255,193,7,.08);text-transform:uppercase;cursor:pointer;transition:all .15s;user-select:none}
 .du-phase-badge:hover{background:rgba(255,193,7,.18);border-color:#ffc107}
 .du-phase-badge.battle{border-color:rgba(244,67,54,.5);color:#f44336;background:rgba(244,67,54,.08)}
 .du-phase-badge.battle:hover{background:rgba(244,67,54,.18)}
 .du-opp-hand-backs{display:flex;align-items:center}
-.du-hand-back{width:26px;height:38px;border-radius:3px;background:radial-gradient(ellipse at 50% 35%,#1e0e58,#090420);border:1px solid #4a28a8;margin-left:-8px;flex-shrink:0}
+.du-hand-back{width:26px;height:38px;border-radius:3px;background:radial-gradient(ellipse at 50% 35%,#4a2f0a,#1a0f02);border:1px solid #8a5a1e;margin-left:-8px;flex-shrink:0}
 .du-hand-back:first-child{margin-left:0}
 /* board grid */
 .du-board-area{flex:1;display:flex;flex-direction:column;padding:6px 20px;gap:6px;overflow:hidden;min-height:0;justify-content:center;align-items:center}
@@ -583,15 +595,17 @@ button,input,select{font-family:inherit}
 .du-brow-spacer{width:var(--du-cw);height:var(--du-ch);flex-shrink:0}
 .du-divider{position:relative;display:flex;align-items:center;justify-content:center;flex-shrink:0;height:32px;margin:4px 0}.du-divider::before{content:'';position:absolute;left:0;right:0;top:50%;height:2px;background:linear-gradient(90deg,transparent,var(--border),transparent);z-index:0}.du-phase-badge{position:relative;z-index:1}
 .du-zone-row{display:flex;gap:calc(var(--du-cw)*0.5);position:relative}
-/* Full Maximum monster in Maximum mode: hide per-piece stats, show one MAX ATK */
+/* Full Maximum monster in Maximum mode: hide the per-piece stats/meta and show
+   one MAX ATK plus a single Attribute/Level/Type overlay for the merged unit. */
 .du-zone-row.du-max-full .du-stat-bar,
 .du-zone-row.du-max-full .du-meta-attr,
 .du-zone-row.du-max-full .du-meta-lv,
 .du-zone-row.du-max-full .du-meta-type{display:none}
+.du-zone-row.du-max-full .du-max-meta{display:inline-block!important}
 #du-opp-m,#du-opp-st{flex-direction:row-reverse}
 /* slots */
 .du-slot{width:var(--du-cw);height:var(--du-ch);border:1px dashed var(--border);border-radius:5px;background:rgba(255,255,255,.015);display:flex;align-items:center;justify-content:center;position:relative;flex-shrink:0;transition:border-color .15s,background .15s}
-.du-slot.drag-over{border-color:var(--accent)!important;background:rgba(124,77,255,.14)!important}
+.du-slot.drag-over{border-color:var(--accent)!important;background:rgba(255,158,44,.14)!important}
 .du-slot-field{border-color:rgba(255,215,0,.25);background:rgba(255,215,0,.02)}
 .du-slot-field.drag-over{border-color:var(--gold)!important;background:rgba(255,215,0,.1)!important}
 /* piles */
@@ -599,8 +613,8 @@ button,input,select{font-family:inherit}
 .du-pile:hover{border-color:var(--accent)}
 .du-pile-n{font-size:18px;font-weight:800;color:var(--text);line-height:1}
 .du-pile-lbl{font-size:8px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);line-height:1}
-.du-deck-pile{background:radial-gradient(ellipse at 50% 40%,#1e0e58,#090420);border-color:#4a28a8}
-.du-deck-pile .du-pile-n{color:#c0a8ff}
+.du-deck-pile{background:radial-gradient(ellipse at 50% 40%,#4a2f0a,#1a0f02);border-color:#8a5a1e}
+.du-deck-pile .du-pile-n{color:#ffcf8a}
 .du-extra-pile{background:radial-gradient(ellipse at 50% 40%,#0e3020,#040f09);border-color:#2d7a4f}
 .du-extra-pile .du-pile-n{color:#5eead4}
 .du-half.atk-zone{outline:2px dashed rgba(255,80,80,.45);outline-offset:-3px;border-radius:6px}
@@ -618,7 +632,7 @@ button,input,select{font-family:inherit}
 /* field card */
 .du-fc{width:100%;height:100%;border-radius:4px;overflow:hidden;position:relative;cursor:pointer;background:#12121f}
 .du-fc img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none}
-.du-fc-back{width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:radial-gradient(ellipse at 50% 35%,#1e0e58,#090420);font-size:22px;color:rgba(160,110,255,.3)}
+.du-fc-back{width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:radial-gradient(ellipse at 50% 35%,#4a2f0a,#1a0f02);font-size:22px;color:rgba(255,190,110,.3)}
 .du-fc.def{transform:rotate(90deg);transform-origin:center}
 .du-fc.opp-card{transform:rotate(180deg);transform-origin:center}
 .du-fc.opp-card.def{transform:rotate(270deg);transform-origin:center}
@@ -653,9 +667,9 @@ button,input,select{font-family:inherit}
 #du-cd-effect-wrap{font-size:11px;line-height:1.5;border-top:1px solid var(--border);padding-top:5px;margin-top:2px}
 .du-cd-effect{color:var(--text);white-space:pre-wrap;word-break:break-word}
 /* hand */
-.du-hand-wrap{display:flex;align-items:flex-end;justify-content:center;gap:4px;padding:4px 8px 5px;background:rgba(9,4,32,0.55);border-top:1px solid rgba(255,255,255,.06);overflow-x:auto;flex-shrink:0;min-height:calc(var(--du-hh) + 12px)}
+.du-hand-wrap{display:flex;align-items:flex-end;justify-content:center;gap:4px;padding:4px 8px 5px;background:rgba(28,19,7,0.55);border-top:1px solid rgba(255,255,255,.06);overflow-x:auto;flex-shrink:0;min-height:calc(var(--du-hh) + 12px)}
 .du-hc{width:var(--du-hw);height:var(--du-hh);border-radius:6px;overflow:hidden;flex-shrink:0;cursor:grab;transition:transform .15s,box-shadow .15s;background:#12121f;position:relative}
-.du-hc:hover{transform:translateY(-10px);box-shadow:0 6px 20px rgba(124,77,255,.5);z-index:10}
+.du-hc:hover{transform:translateY(-10px);box-shadow:0 6px 20px rgba(255,158,44,.5);z-index:10}
 .du-hc img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none}
 .du-hc.dragging{opacity:.3}
 .du-hand-empty{color:var(--muted);font-size:12px;font-style:italic;padding:0 10px;align-self:center}
@@ -677,13 +691,13 @@ button,input,select{font-family:inherit}
 #du-ctx{position:fixed;z-index:600;background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:4px 0;min-width:190px;max-height:70vh;overflow-y:auto;box-shadow:0 6px 24px rgba(0,0,0,.65);font-size:13px}
 #du-ctx.hidden{display:none}
 .du-ctx-item{padding:8px 14px;cursor:pointer;color:var(--text);width:100%;text-align:left;background:none;border:none;font-size:13px;font-family:inherit;display:block;transition:background .1s}
-.du-ctx-item:hover{background:rgba(124,77,255,.2);color:#fff}
+.du-ctx-item:hover{background:rgba(255,158,44,.2);color:#fff}
 .du-ctx-sep{height:1px;background:var(--border);margin:3px 0}
 /* phase badge enlarged for divider */
 #du-phase-btn{font-size:11px;padding:4px 16px}
 /* log overlay */
 .du-log{position:absolute;right:8px;bottom:10px;display:flex;flex-direction:column;gap:3px;z-index:20;pointer-events:none;max-width:200px}
-.du-log-entry{background:rgba(8,8,20,.88);border:1px solid var(--border);border-radius:5px;padding:4px 8px;font-size:11px;color:var(--muted);animation:log-in .2s ease}
+.du-log-entry{background:rgba(18,12,4,.88);border:1px solid var(--border);border-radius:5px;padding:4px 8px;font-size:11px;color:var(--muted);animation:log-in .2s ease}
 @keyframes log-in{from{opacity:0;transform:translateX(8px)}to{opacity:1;transform:translateX(0)}}
 /* modals */
 #du-lp-modal .modal{max-width:280px}
@@ -1609,6 +1623,14 @@ function cname(card){ return card.name_en||card.title||''; }
 // they're separated only by the bullet character itself. Break onto its own
 // line for readability (paired with white-space:pre-wrap on the container).
 function fmtEffect(text){ return (text||'').replace(/\s*●/g,'\n●').trim(); }
+// True when a card's text is flavor (no game effect) → shown italic with no
+// 【Effect】 label. Normal monsters store their flavor text in the `effect`
+// field (with no effect_types), so a plain `!effect` test misses them.
+function isFlavorCard(card){
+  if(!card) return false;
+  if(!card.effect && !!card.flavor_text) return true;
+  return !card.effect_types && MONSTER_ATTRS.has(card.attribute) && /\bNormal\b/.test(card.types||'');
+}
 function esc(s){ return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
 let cardImgObserver=null;
 function getCardImgObserver(){
@@ -2494,7 +2516,7 @@ function showDbpDetail(card){
   const isMon=MONSTER_ATTRS.has(card.attribute);
   // Collect all unique JP images (exclude KR)
   const imgs=(card.images||[]).map(i=>cleanFile(i.file)).filter(f=>f&&!/-KRS?-/.test(f));
-  const isFlavor=!card.effect&&!!card.flavor_text;
+  const isFlavor=isFlavorCard(card);
   const effLabel=isFlavor?'':(card.effect_types?'【'+card.effect_types+' Effect】':'【Effect】');
 
   // Static skeleton — no card data in innerHTML to prevent XSS
@@ -2754,7 +2776,7 @@ function showTooltip(card,rarity,x,y){
   const reqEl=document.getElementById('tt-req');
   reqEl.style.display=req?'':'none';
   if(req) document.getElementById('tt-req-body').textContent=req;
-  const isFlavor=!card.effect&&!!card.flavor_text;
+  const isFlavor=isFlavorCard(card);
   const eff=card.effect||card.flavor_text||'';
   const effEl=document.getElementById('tt-eff');
   effEl.style.display=eff?'':'none';
@@ -2803,7 +2825,7 @@ function showCardPopup(card, rarity, imgFile){
   const reqEl=document.getElementById('cp-req');
   reqEl.style.display=card.requirement?'':'none';
   if(card.requirement) document.getElementById('cp-req-body').textContent=card.requirement;
-  const isFlavor=!card.effect&&!!card.flavor_text;
+  const isFlavor=isFlavorCard(card);
   const eff=card.effect||card.flavor_text||'';
   const effEl=document.getElementById('cp-eff');
   effEl.style.display=eff?'':'none';
@@ -4827,8 +4849,8 @@ function _duShowCardDetail(c){
   const url = _duCardImgSrc(c);
   if(url){ imgEl.src = url; imgEl.style.display = ''; }
   else if(card && typeof lowestRarityImg === 'function'){
-    const imgs = lowestRarityImg(card, null);
-    const f = imgs?.[0]?.imgFile;
+    // lowestRarityImg returns a filename string (or null), not an array.
+    const f = lowestRarityImg(card, null);
     imgEl.src = f ? imgUrl(f) : '';
     imgEl.style.display = f ? '' : 'none';
   } else { imgEl.style.display = 'none'; }
@@ -4851,7 +4873,7 @@ function _duShowCardDetail(c){
     setText('du-cd-condition', card.condition || ''); show('du-cd-condition', !!card.condition);
     setText('du-cd-req-body', card.requirement || ''); show('du-cd-req', !!card.requirement);
     // Effect (with dynamic label), falling back to flavor text
-    const isFlavor = !card.effect && !!card.flavor_text;
+    const isFlavor = isFlavorCard(card);
     const eff = card.effect || card.flavor_text || '';
     const effLbl = _duEl('du-cd-eff-lbl');
     if(effLbl){ effLbl.textContent = isFlavor ? '' : (card.effect_types ? '【'+card.effect_types+' Effect】' : (eff ? '【Effect】' : '')); }
@@ -5086,6 +5108,12 @@ function _duRenderState(st){
   const myTurn = st.turn === st.you;
   _duEl('du-turn-self').classList.toggle('active', myTurn);
   _duEl('du-turn-opp').classList.toggle('active', !myTurn);
+  // Absolute turn tint: seat 0 → blue, seat 1 → red (independent of my seat)
+  const board = document.getElementById('ol-board');
+  if(board){
+    board.classList.toggle('turn-seat0', st.turn === 0);
+    board.classList.toggle('turn-seat1', st.turn === 1);
+  }
   _duEl('du-pass-btn').disabled = !myTurn || st.ended;
   // Reset phase to Draw when turn changes to opponent (so it shows correctly)
   if(!myTurn && _duPhase !== 'draw') { _duPhase = 'draw'; }
@@ -5150,9 +5178,8 @@ function _duRenderState(st){
 
 // When a side is in Maximum mode with a full Maximum monster on the field, hide
 // the per-piece stats and show one big MAX ATK spanning the merged rectangle.
-function _duApplyMaxUnit(row, side){
-  const old = row.querySelector('.du-max-atk');
-  if(old) old.remove();
+function _duApplyMaxUnit(row, side, editable){
+  row.querySelectorAll('.du-max-atk, .du-max-meta').forEach(el => el.remove());
   const isFull = side && side.maximum && _duIsFullMaximum(side.monster);
   row.classList.toggle('du-max-full', !!isFull);
   if(!isFull) return;
@@ -5160,6 +5187,45 @@ function _duApplyMaxUnit(row, side){
   const ref = centre && (typeof MAP !== 'undefined') ? MAP.get(centre.cardKey) : null;
   const maxAtk = (centre && centre.atkOverride != null) ? centre.atkOverride : (ref ? ref.maximum_atk : null);
   if(maxAtk == null) return;
+  // Single Attribute / Level / Type overlay for the merged Maximum unit,
+  // drawn from the centre piece (per-piece copies are hidden by CSS).
+  const iid      = centre && centre.iid;
+  const canEdit  = editable && iid != null;
+  const attrVal  = (centre && centre.attrOverride)  || ref?.attribute;
+  const levelVal = (centre && centre.levelOverride != null) ? centre.levelOverride : ref?.level;
+  const raceVal  = (centre && centre.raceOverride)  || (ref ? cardRace(ref) : '');
+  if(attrVal){
+    const a = document.createElement('span');
+    a.className = 'du-meta-attr du-max-meta tag-attr-' + attrVal;
+    a.textContent = ATTR_KANJI[attrVal] || attrVal;
+    a.title = attrVal;
+    if(canEdit){
+      a.classList.add('du-meta-edit');
+      a.addEventListener('click', e => { e.stopPropagation(); _duPickMeta(e, iid, 'attribute', attrVal); });
+    }
+    row.appendChild(a);
+  }
+  if(levelVal != null){
+    const lv = document.createElement('span');
+    lv.className = 'du-meta-lv du-max-meta';
+    lv.textContent = 'LV' + levelVal;
+    if(canEdit){
+      lv.classList.add('du-meta-edit');
+      lv.addEventListener('click', e => { e.stopPropagation(); _duOpenNumEdit(iid, 'level', levelVal ?? 0); });
+    }
+    row.appendChild(lv);
+  }
+  if(raceVal){
+    const ty = document.createElement('span');
+    ty.className = 'du-meta-type du-max-meta';
+    ty.textContent = TYPE_EMOJI[raceVal] || '▫';
+    ty.title = raceVal;
+    if(canEdit){
+      ty.classList.add('du-meta-edit');
+      ty.addEventListener('click', e => { e.stopPropagation(); _duPickMeta(e, iid, 'race', raceVal); });
+    }
+    row.appendChild(ty);
+  }
   const box = document.createElement('div');
   box.className = 'du-max-atk';
   box.innerHTML = `<small>MAX ATK</small>${maxAtk}`;
@@ -5214,8 +5280,8 @@ function _duRenderZones(self, opp){
     if(z === 'monster'){
       selfRow.classList.toggle('du-max-mode', !!self.maximum);
       oppRow.classList.toggle('du-max-mode',  !!opp.maximum);
-      _duApplyMaxUnit(selfRow, self);
-      _duApplyMaxUnit(oppRow,  opp);
+      _duApplyMaxUnit(selfRow, self, !_olIsSpectator);
+      _duApplyMaxUnit(oppRow,  opp,  false);
     }
   }
   // Reflect own Maximum-mode state on the MAX button
