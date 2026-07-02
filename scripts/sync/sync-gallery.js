@@ -122,7 +122,6 @@ async function syncGallery(){
     if(setsWithImages % 20 === 0){
       writeJsonAtomic(OUT_FILE, galleryData);
       writeJsonAtomic(URLS_FILE, urlCache);
-      writeJsonAtomic(path.join(DATA_DIR, 'sync-progress-gallery.json'), { current: setsQueried, total: setNames.length });
       console.log(`[sync-gallery] ${setsQueried}/${setNames.length} queried, ${setsWithImages} with galleries, ${newImages} new images`);
     }
   }

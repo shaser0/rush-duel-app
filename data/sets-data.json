@@ -7,11 +7,7 @@
     "declaredSize": null
   },
   "5th Promotion Pack": {
-    "releaseDateJP": null,
-    "packsPerBox": null,
-    "coverImage": "RD5THS-BoosterKR.png",
-    "cardsPerPack": 1,
-    "declaredSize": null
+    "krOnly": true
   },
   "5th Special Pack": {
     "releaseDateJP": "May 31, 2025",
@@ -56,18 +52,10 @@
     "declaredSize": null
   },
   "Advanced Victory Pack Vol.1": {
-    "releaseDateJP": null,
-    "packsPerBox": null,
-    "coverImage": "RDAD01-BoosterKR.png",
-    "cardsPerPack": 1,
-    "declaredSize": null
+    "krOnly": true
   },
   "Advanced Victory Pack Vol.2": {
-    "releaseDateJP": null,
-    "packsPerBox": null,
-    "coverImage": "RDAD02-BoosterKR.png",
-    "cardsPerPack": 1,
-    "declaredSize": null
+    "krOnly": true
   },
   "Attraction Pack": {
     "releaseDateJP": "July 21, 2024",
@@ -385,11 +373,7 @@
     "declaredSize": null
   },
   "Grand Rush Pack Plus Bonus Pack": {
-    "releaseDateJP": null,
-    "packsPerBox": null,
-    "coverImage": "RDGRP1P-BoosterKR.png",
-    "cardsPerPack": 1,
-    "declaredSize": null
+    "krOnly": true
   },
   "Headliner of Reigning": {
     "releaseDateJP": "August 22, 2026",
@@ -571,7 +555,8 @@
         "rarity": "Super Parallel Rare",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Rush Duel The Legend of Duelist Promotion Pack": {
     "releaseDateJP": "February 3, 2024",
@@ -705,7 +690,8 @@
     "coverImage": "RDSDP1-BoosterKR.png",
     "cardsPerPack": null,
     "declaredSize": 10,
-    "deckContents": null
+    "deckContents": null,
+    "deckListVersion": 2
   },
   "The Dinosaur Expo 2023 Promotion Pack": {
     "releaseDateJP": "April 3, 2023",
@@ -873,7 +859,8 @@
         "rarity": "C",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Structure Deck: The Ultimate Blue-Eyed Legend": {
     "releaseDateJP": "September 30, 2023",
@@ -1058,7 +1045,8 @@
         "rarity": "C",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Strongest Battle Deck Yuga - Hyper Machine Road": {
     "releaseDateJP": "August 21, 2021",
@@ -1195,7 +1183,8 @@
         "rarity": "Common",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Structure Deck: Black Magic Ritual": {
     "releaseDateJP": "April 26, 2025",
@@ -1400,64 +1389,8 @@
         "rarity": "C",
         "qty": 1
       }
-    }
-  },
-  "Go Rush Deck Bonus Cards": {
-    "releaseDateJP": "April 29, 2022",
-    "packsPerBox": 0,
-    "coverImage": "RDGRD-Poster-JP.png",
-    "cardsPerPack": null,
-    "declaredSize": 12,
-    "deckContents": {
-      "RD/GRD0-JP001": {
-        "rarity": "Normal Parallel Rare",
-        "qty": 1
-      },
-      "RD/GRD0-JP002": {
-        "rarity": "Normal Parallel Rare",
-        "qty": 1
-      },
-      "RD/GRD0-JP003": {
-        "rarity": "Normal Parallel Rare",
-        "qty": 1
-      },
-      "RD/GRD0-JP004": {
-        "rarity": "Normal Parallel Rare",
-        "qty": 1
-      },
-      "RD/GRD0-JP005": {
-        "rarity": "Common",
-        "qty": 1
-      },
-      "RD/GRD0-JP006": {
-        "rarity": "Common",
-        "qty": 1
-      },
-      "RD/GRD0-JP007": {
-        "rarity": "Common",
-        "qty": 1
-      },
-      "RD/GRD0-JP008": {
-        "rarity": "Common",
-        "qty": 1
-      },
-      "RD/GRD0-JP009": {
-        "rarity": "Common",
-        "qty": 1
-      },
-      "RD/GRD0-JP010": {
-        "rarity": "Common",
-        "qty": 1
-      },
-      "RD/GRD0-JP011": {
-        "rarity": "Common",
-        "qty": 1
-      },
-      "RD/GRD0-JP012": {
-        "rarity": "Common",
-        "qty": 1
-      }
-    }
+    },
+    "deckListVersion": 2
   },
   "Structure Deck: Triumphant Return of the Monarchs": {
     "releaseDateJP": "September 20, 2025",
@@ -1530,14 +1463,26 @@
         "rarity": "C",
         "qty": 2
       },
-      "RD/SD0F-JP010": {
-        "rarity": "C",
-        "qty": 1
-      },
-      "RD/SD0F-JP011": {
-        "rarity": "C",
-        "qty": 1
-      },
+      "RD/SD0F-JP010": [
+        {
+          "rarity": "NPR",
+          "qty": 1
+        },
+        {
+          "rarity": "C",
+          "qty": 1
+        }
+      ],
+      "RD/SD0F-JP011": [
+        {
+          "rarity": "NPR",
+          "qty": 1
+        },
+        {
+          "rarity": "C",
+          "qty": 1
+        }
+      ],
       "RD/SD0F-JP012": {
         "rarity": "C",
         "qty": 2
@@ -1626,7 +1571,8 @@
         "rarity": "NPR",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Half Deck: Spellcaster Type": {
     "releaseDateJP": "April 4, 2026",
@@ -1719,7 +1665,8 @@
         "rarity": "Common",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Saikyo Starter Deck": {
     "releaseDateJP": "April 4, 2022",
@@ -1888,7 +1835,8 @@
         "rarity": "C",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Strongest Battle Deck Yuamu - Come Forth! High Tech Dragon!": {
     "releaseDateJP": "August 6, 2022",
@@ -2033,7 +1981,8 @@
         "rarity": "Common",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Strongest Battle Deck Romin - Psychic Beat": {
     "releaseDateJP": "August 21, 2021",
@@ -2154,7 +2103,8 @@
         "rarity": "C",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Strongest Battle Deck Maddox - Chemist-Meow Draw of Flames!": {
     "releaseDateJP": "August 6, 2022",
@@ -2299,7 +2249,8 @@
         "rarity": "Common",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Strongest Battle Deck Asana - Pride of the Heavy Cavalry Style": {
     "releaseDateJP": "August 21, 2021",
@@ -2436,7 +2387,8 @@
         "rarity": "Common",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Starter Deck Yuga - Cut Through! Sevens Road!!": {
     "releaseDateJP": "April 4, 2020",
@@ -2449,10 +2401,16 @@
         "rarity": "Super Parallel Rare",
         "qty": 1
       },
-      "RD/ST01-JP002": {
-        "rarity": "Common",
-        "qty": 2
-      },
+      "RD/ST01-JP002": [
+        {
+          "rarity": "Rare",
+          "qty": 1
+        },
+        {
+          "rarity": "Common",
+          "qty": 2
+        }
+      ],
       "RD/ST01-JP003": {
         "rarity": "Common",
         "qty": 3
@@ -2465,10 +2423,16 @@
         "rarity": "Common",
         "qty": 3
       },
-      "RD/ST01-JP006": {
-        "rarity": "Common",
-        "qty": 2
-      },
+      "RD/ST01-JP006": [
+        {
+          "rarity": "Rare",
+          "qty": 1
+        },
+        {
+          "rarity": "Common",
+          "qty": 2
+        }
+      ],
       "RD/ST01-JP007": {
         "rarity": "Common",
         "qty": 3
@@ -2493,15 +2457,22 @@
         "rarity": "Common",
         "qty": 3
       },
-      "RD/ST01-JP013": {
-        "rarity": "Common",
-        "qty": 2
-      },
+      "RD/ST01-JP013": [
+        {
+          "rarity": "Rare",
+          "qty": 1
+        },
+        {
+          "rarity": "Common",
+          "qty": 2
+        }
+      ],
       "RD/ST01-JP014": {
         "rarity": "Common",
         "qty": 3
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Go Rush Deck - Jointech Attack": {
     "releaseDateJP": "April 29, 2022",
@@ -2638,15 +2609,8 @@
         "rarity": "Common",
         "qty": 1
       }
-    }
-  },
-  "Strongest Battle Deck 2022 +1 Bonus Card": {
-    "releaseDateJP": "August 6, 2022",
-    "packsPerBox": 0,
-    "coverImage": "RDSD-Poster-JP.png",
-    "cardsPerPack": null,
-    "declaredSize": 5,
-    "deckContents": null
+    },
+    "deckListVersion": 2
   },
   "Strongest Battle Deck Roa - Demon's Rock": {
     "releaseDateJP": "August 21, 2021",
@@ -2767,7 +2731,8 @@
         "rarity": "C",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Go Rush Deck - Galactica Arrive": {
     "releaseDateJP": "April 29, 2022",
@@ -2896,7 +2861,8 @@
         "rarity": "Common",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Strongest Battle Deck Yudias - Shining Velgariva": {
     "releaseDateJP": "August 6, 2022",
@@ -3033,7 +2999,8 @@
         "rarity": "Common",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Strongest Battle Deck Nail - Maximum Haven": {
     "releaseDateJP": "August 21, 2021",
@@ -3146,7 +3113,8 @@
         "rarity": "C",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Half Deck: Warrior Type": {
     "releaseDateJP": "April 4, 2026",
@@ -3239,7 +3207,8 @@
         "rarity": "Common",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Structure Deck: Harpie Lady Sisters": {
     "releaseDateJP": "March 8, 2025",
@@ -3304,26 +3273,50 @@
         "rarity": "C",
         "qty": 1
       },
-      "RD/SD0D-JP008": {
-        "rarity": "C",
-        "qty": 2
-      },
+      "RD/SD0D-JP008": [
+        {
+          "rarity": "UR",
+          "qty": 1
+        },
+        {
+          "rarity": "C",
+          "qty": 2
+        }
+      ],
       "RD/SD0D-JP009": {
         "rarity": "C",
         "qty": 2
       },
-      "RD/SD0D-JP010": {
-        "rarity": "C",
-        "qty": 1
-      },
-      "RD/SD0D-JP011": {
-        "rarity": "C",
-        "qty": 1
-      },
-      "RD/SD0D-JP012": {
-        "rarity": "C",
-        "qty": 1
-      },
+      "RD/SD0D-JP010": [
+        {
+          "rarity": "NPR",
+          "qty": 1
+        },
+        {
+          "rarity": "C",
+          "qty": 1
+        }
+      ],
+      "RD/SD0D-JP011": [
+        {
+          "rarity": "NPR",
+          "qty": 1
+        },
+        {
+          "rarity": "C",
+          "qty": 1
+        }
+      ],
+      "RD/SD0D-JP012": [
+        {
+          "rarity": "NPR",
+          "qty": 1
+        },
+        {
+          "rarity": "C",
+          "qty": 1
+        }
+      ],
       "RD/SD0D-JP013": {
         "rarity": "C",
         "qty": 1
@@ -3424,7 +3417,8 @@
         "rarity": "C",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Strongest Battle Deck Luke - Dragon's Dragons": {
     "releaseDateJP": "August 21, 2021",
@@ -3553,7 +3547,8 @@
         "rarity": "Common",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Strongest Battle Deck Yuhi - Join and Explode! Join and Intensify!": {
     "releaseDateJP": "August 6, 2022",
@@ -3694,7 +3689,8 @@
         "rarity": "Common",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Structure Deck: Chimeratech Cyber": {
     "releaseDateJP": "March 8, 2025",
@@ -3779,10 +3775,16 @@
         "rarity": "C",
         "qty": 1
       },
-      "RD/SD0C-JP013": {
-        "rarity": "C",
-        "qty": 1
-      },
+      "RD/SD0C-JP013": [
+        {
+          "rarity": "NPR",
+          "qty": 1
+        },
+        {
+          "rarity": "C",
+          "qty": 1
+        }
+      ],
       "RD/SD0C-JP014": {
         "rarity": "C",
         "qty": 2
@@ -3799,10 +3801,16 @@
         "rarity": "C",
         "qty": 1
       },
-      "RD/SD0C-JP018": {
-        "rarity": "C",
-        "qty": 2
-      },
+      "RD/SD0C-JP018": [
+        {
+          "rarity": "NPR",
+          "qty": 1
+        },
+        {
+          "rarity": "C",
+          "qty": 2
+        }
+      ],
       "RD/SD0C-JP019": {
         "rarity": "C",
         "qty": 1
@@ -3887,7 +3895,8 @@
         "rarity": "C",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Strongest Battle Deck Zuwijo - Voidvelg of the Empty Sky": {
     "releaseDateJP": "August 6, 2022",
@@ -4016,7 +4025,8 @@
         "rarity": "C",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Half Deck: Galaxy Type": {
     "releaseDateJP": "April 4, 2026",
@@ -4109,7 +4119,8 @@
         "rarity": "Common",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Starter Deck Luke - Explosive Supremacy! Dragias!!": {
     "releaseDateJP": "April 4, 2020",
@@ -4122,10 +4133,16 @@
         "rarity": "Super Parallel Rare",
         "qty": 1
       },
-      "RD/ST02-JP002": {
-        "rarity": "Common",
-        "qty": 2
-      },
+      "RD/ST02-JP002": [
+        {
+          "rarity": "Rare",
+          "qty": 1
+        },
+        {
+          "rarity": "Common",
+          "qty": 2
+        }
+      ],
       "RD/ST02-JP003": {
         "rarity": "Common",
         "qty": 3
@@ -4138,10 +4155,16 @@
         "rarity": "Common",
         "qty": 3
       },
-      "RD/ST02-JP006": {
-        "rarity": "Common",
-        "qty": 2
-      },
+      "RD/ST02-JP006": [
+        {
+          "rarity": "Rare",
+          "qty": 1
+        },
+        {
+          "rarity": "Common",
+          "qty": 2
+        }
+      ],
       "RD/ST02-JP007": {
         "rarity": "Common",
         "qty": 3
@@ -4158,10 +4181,16 @@
         "rarity": "Common",
         "qty": 3
       },
-      "RD/ST02-JP011": {
-        "rarity": "Common",
-        "qty": 2
-      },
+      "RD/ST02-JP011": [
+        {
+          "rarity": "Rare",
+          "qty": 1
+        },
+        {
+          "rarity": "Common",
+          "qty": 2
+        }
+      ],
       "RD/ST02-JP012": {
         "rarity": "Common",
         "qty": 3
@@ -4174,7 +4203,8 @@
         "rarity": "Common",
         "qty": 3
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Structure Deck: Birth of Hero": {
     "releaseDateJP": "July 13, 2024",
@@ -4399,7 +4429,8 @@
         "rarity": "C",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Strongest Battle Deck Tournament 2022 prize card": {
     "releaseDateJP": "August 6, 2022",
@@ -4407,36 +4438,8 @@
     "coverImage": "StrongestBattleDeckTournament2022-PromoJP.png",
     "cardsPerPack": null,
     "declaredSize": 1,
-    "deckContents": null
-  },
-  "Strongest Battle Deck +1 Bonus Card": {
-    "releaseDateJP": "August 21, 2021",
-    "packsPerBox": 0,
-    "coverImage": "RDSBD-Poster-JP.png",
-    "cardsPerPack": null,
-    "declaredSize": 5,
-    "deckContents": {
-      "RD/SBD0-JP001": {
-        "rarity": "Super Parallel Rare, Secret Rare",
-        "qty": 1
-      },
-      "RD/SBD0-JP002": {
-        "rarity": "Super Parallel Rare, Secret Rare",
-        "qty": 1
-      },
-      "RD/SBD0-JP003": {
-        "rarity": "Super Parallel Rare, Secret Rare",
-        "qty": 1
-      },
-      "RD/SBD0-JP004": {
-        "rarity": "Super Parallel Rare, Secret Rare",
-        "qty": 1
-      },
-      "RD/SBD0-JP005": {
-        "rarity": "Super Parallel Rare, Secret Rare",
-        "qty": 1
-      }
-    }
+    "deckContents": null,
+    "deckListVersion": 2
   },
   "Strongest Battle Deck Tournament prize card": {
     "releaseDateJP": "August 21, 2021",
@@ -4444,7 +4447,8 @@
     "coverImage": "StrongestBattleDeckTournament-PromoJP.png",
     "cardsPerPack": null,
     "declaredSize": 1,
-    "deckContents": null
+    "deckContents": null,
+    "deckListVersion": 2
   },
   "Starter Deck Set - Yuga vs. Luke": {
     "releaseDateJP": "April 4, 2020",
@@ -4457,7 +4461,8 @@
         "rarity": "Super Parallel Rare",
         "qty": 1
       }
-    }
+    },
+    "deckListVersion": 2
   },
   "Yu-Gi-Oh! Rush Duel LP Volume 1 promotional card": {
     "releaseDateJP": "June 3, 2022",
@@ -5678,44 +5683,44 @@
     "declaredSize": null
   },
   "Saikyō Jump October 2021 promotional card": {
-    "releaseDateJP": null,
+    "releaseDateJP": "September 3, 2021",
     "packsPerBox": null,
-    "coverImage": null,
+    "coverImage": "SJMP-2021-10-Cover.png",
     "cardsPerPack": null,
     "declaredSize": null
   },
   "Yu-Gi-Oh! RUSH DUEL: Saikyo Battle Royale!! Winner's Spirit promotional card": {
-    "releaseDateJP": null,
+    "releaseDateJP": "August 12, 2021",
     "packsPerBox": null,
-    "coverImage": null,
+    "coverImage": "SaikyoBattleRoyaleWinnersSpirit-PromoJP.png",
     "cardsPerPack": null,
     "declaredSize": null
   },
   "Saikyō Jump March 2022 promotional card": {
-    "releaseDateJP": null,
+    "releaseDateJP": "February 4, 2022",
     "packsPerBox": null,
-    "coverImage": null,
+    "coverImage": "SJMP-2022-3-Cover.png",
     "cardsPerPack": null,
     "declaredSize": null
   },
   "Yu-Gi-Oh! SEVENS Luke! Explosive Supremacy Legend!! Volume 3 promotional card": {
-    "releaseDateJP": null,
+    "releaseDateJP": "May 2, 2022",
     "packsPerBox": null,
-    "coverImage": null,
+    "coverImage": "RDCL03-PromoJP.png",
     "cardsPerPack": null,
     "declaredSize": null
   },
   "Saikyō Jump March 2025 promotional card": {
-    "releaseDateJP": null,
+    "releaseDateJP": "February 4, 2025",
     "packsPerBox": null,
-    "coverImage": null,
+    "coverImage": "SJMP-2025-3-Cover.png",
     "cardsPerPack": null,
     "declaredSize": null
   },
   "Yu-Gi-Oh! GO RUSH!! Complete Challenge 4": {
-    "releaseDateJP": null,
+    "releaseDateJP": "January 22, 2024",
     "packsPerBox": null,
-    "coverImage": null,
+    "coverImage": "RDD002-PromoJP.png",
     "cardsPerPack": null,
     "declaredSize": null
   },
@@ -5776,18 +5781,10 @@
     "declaredSize": null
   },
   "Secret Ace Pack (series)": {
-    "releaseDateJP": null,
-    "packsPerBox": null,
-    "coverImage": null,
-    "cardsPerPack": null,
-    "declaredSize": null
+    "notASet": true
   },
   "Special Victory Pack": {
-    "releaseDateJP": null,
-    "packsPerBox": null,
-    "coverImage": null,
-    "cardsPerPack": null,
-    "declaredSize": null
+    "notASet": true
   },
   "Special Victory Pack 2026 Vol.2": {
     "releaseDateJP": "July 1, 2026",
@@ -5823,5 +5820,84 @@
     "coverImage": "RDKP27-BoosterJP.png",
     "cardsPerPack": 5,
     "declaredSize": null
+  },
+  "Special Pack 2026 Vol.1": {
+    "releaseDateJP": "July 11, 2026",
+    "packsPerBox": null,
+    "coverImage": "RD26S1-BoosterJP.png",
+    "cardsPerPack": 1,
+    "declaredSize": null
+  },
+  "Go Rush Deck Bonus Cards": {
+    "releaseDateJP": "April 29, 2022",
+    "packsPerBox": null,
+    "coverImage": "RDGRD-Poster-JP.png",
+    "cardsPerPack": null,
+    "declaredSize": null
+  },
+  "Strongest Battle Deck 2022 +1 Bonus Card": {
+    "releaseDateJP": "August 6, 2022",
+    "packsPerBox": null,
+    "coverImage": "RDSD-Poster-JP.png",
+    "cardsPerPack": null,
+    "declaredSize": null
+  },
+  "Strongest Battle Deck +1 Bonus Card": {
+    "releaseDateJP": "August 21, 2021",
+    "packsPerBox": null,
+    "coverImage": "RDSBD-Poster-JP.png",
+    "cardsPerPack": null,
+    "declaredSize": null
+  },
+  "Deck Mod Pack": {
+    "notASet": true
+  },
+  "Battle Pack (Rush Duel)": {
+    "notASet": true
+  },
+  "Event Pack 2021 EX Vol.1": {
+    "krOnly": true
+  },
+  "Event Pack 2022 Vol.1": {
+    "krOnly": true
+  },
+  "Event Pack 2023 Vol.1": {
+    "krOnly": true
+  },
+  "Event Pack 2025 Vol.1": {
+    "krOnly": true
+  },
+  "Event Pack 2025 Vol.2": {
+    "krOnly": true
+  },
+  "Express Pack": {
+    "krOnly": true
+  },
+  "Maximum Ultra Pack": {
+    "notASet": true
+  },
+  "Rush Duel Event Pack 2024 Vol.1": {
+    "krOnly": true
+  },
+  "Rush Duel Event Pack 2024 Vol.2": {
+    "krOnly": true
+  },
+  "Rush Duel Event Pack 2026 Vol.1": {
+    "krOnly": true
+  },
+  "Secret Record Pack": {
+    "krOnly": true
+  },
+  "Secret Record Pack 2 Vol.1": {
+    "krOnly": true
+  },
+  "Secret Record Pack 2 Vol.2": {
+    "krOnly": true
+  },
+  "Secret Record Pack 3 Vol.1": {
+    "krOnly": true
+  },
+  "Secret Record Pack 3 Vol.2": {
+    "krOnly": true
   }
 }

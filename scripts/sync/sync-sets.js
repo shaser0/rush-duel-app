@@ -14,6 +14,12 @@ const { getCategoryMembers, resolveImageUrls, RATE_MS } = require('../lib/yugipe
 const OUT      = path.join(DATA_DIR, 'sets-data.json');
 const IMG_URLS = path.join(DATA_DIR, 'image-urls.json');
 
+// Bump whenever parseDeckListWikitext's output shape/logic changes, so
+// deckContents cached under an older version gets re-fetched and re-parsed
+// instead of silently staying stale (e.g. missing a rarity variant that an
+// older version of the parser dropped).
+const DECK_LIST_PARSER_VERSION = 2;
+
 async function getSetWikitext(title) {
   const url = `${API}?action=parse&page=${encodeURIComponent(title)}&prop=wikitext&format=json`;
   const data = await fetchJson(url);
@@ -85,7 +91,27 @@ function parseCardsPerPack(wikitext) {
   return null;
 }
 
+// Category:Yu-Gi-Oh! Rush Duel Booster Packs isn't JP-only — it also contains
+// series-overview/index pages (no {{Infobox set}} at all) and Korea-exclusive
+// releases (kr_release_date but no jp_release_date/ja_name). Neither has JP
+// data to find, so without this check they'd fail the metadata-completeness
+// check and get re-fetched forever.
+function hasInfoboxSet(wikitext) {
+  return /\{\{Infobox set/i.test(wikitext);
+}
+function isKrOnly(wikitext) {
+  return /\|\s*kr_release_date\s*=/.test(wikitext)
+    && !/\|\s*(jp_release_date|ja_release_date|japan_release|release_jp|jp_date)\s*=/.test(wikitext)
+    && !/\|\s*ja_name\s*=/.test(wikitext);
+}
+
 function isDeck(title) {
+  // Bonus/insert-card pools (e.g. "Strongest Battle Deck +1 Bonus Card",
+  // "Go Rush Deck Bonus Cards") contain a deck-line name but aren't
+  // themselves a preconstructed deck — they're a promo pool one random
+  // card is pulled from. Treat them as promos, matching the front-end's
+  // PROMO_NAME_RE classification.
+  if (/Bonus\s+(Cards?|Pack)|\+1\s+Bonus/i.test(title)) return false;
   return /(Strongest Battle|Structure|Starter|Half|Go Rush)\s+Deck/i.test(title);
 }
 
@@ -113,7 +139,21 @@ function parseDeckListWikitext(wikitext) {
       const qtyStr = parts[4] || '';
       const rarity = rarityOverride || defaultRarity;
       const qty = parseInt(qtyStr) || defaultQty;
-      contents[code] = { rarity, qty };
+      // The same code can appear on multiple lines (one per rarity) — e.g. a
+      // Maximum Monster printed as both Common and Normal Parallel Rare, 1 copy
+      // each (2 physical copies total). Record each rarity as its own printing
+      // rather than overwriting (which would drop every printing but the last).
+      // Value is a single {rarity, qty} object, or an array of them when a code
+      // spans multiple rarities.
+      if (contents[code]) {
+        const arr = Array.isArray(contents[code]) ? contents[code] : [contents[code]];
+        const same = arr.find(p => p.rarity === rarity);
+        if (same) same.qty += qty;
+        else arr.push({ rarity, qty });
+        contents[code] = arr.length > 1 ? arr : arr[0];
+      } else {
+        contents[code] = { rarity, qty };
+      }
     }
   }
   return Object.keys(contents).length ? contents : null;
@@ -208,12 +248,15 @@ async function syncSets() {
     const deck = isDeck(title);
     const entry = result[title];
 
-    const hasMetadata = entry
-      && 'coverImage' in entry
-      && 'packsPerBox' in entry
-      && (deck || 'cardsPerPack' in entry)
-      && (entry.releaseDateJP || deck);
-    const hasDeckContents = !deck || 'deckContents' in (entry || {});
+    const hasMetadata = entry && (
+      entry.notASet === true || entry.krOnly === true ||
+      ('coverImage' in entry
+        && 'packsPerBox' in entry
+        && (deck || 'cardsPerPack' in entry)
+        && (entry.releaseDateJP || deck))
+    );
+    const hasDeckContents = !deck
+      || (entry && 'deckContents' in entry && entry.deckListVersion === DECK_LIST_PARSER_VERSION);
 
     if (hasMetadata && hasDeckContents) continue;
 
@@ -227,9 +270,28 @@ async function syncSets() {
         continue;
       }
 
+      // Not a real set page (e.g. a "(series)" overview/index page) — this
+      // category member will never have JP set data. Mark it and move on
+      // instead of re-fetching it every future run.
+      if (!hasInfoboxSet(wikitext)) {
+        result[title] = { notASet: true };
+        fetched++;
+        continue;
+      }
+
       const releaseDateJP = parseReleaseDate(wikitext);
       const promo = isPromoSet(title);
-      if (!releaseDateJP && !deck && !promo) continue;
+      const krOnly = !releaseDateJP && !deck && isKrOnly(wikitext);
+      if (!releaseDateJP && !deck && !promo && !krOnly) continue;
+
+      if (krOnly) {
+        // Korea-exclusive release — no JP data exists to find, ever. Record
+        // the fact rather than leaving releaseDateJP permanently null, which
+        // would otherwise look "incomplete" and get re-fetched every run.
+        result[title] = { krOnly: true };
+        fetched++;
+        continue;
+      }
 
       const packsPerBox = deck ? 0 : (parsePacksPerBox(wikitext) ?? null);
       const coverImage = parseSetCoverImage(wikitext);
@@ -243,13 +305,12 @@ async function syncSets() {
     if (deck && !hasDeckContents) {
       await sleep(RATE_MS);
       const deckContents = await fetchDeckList(title);
-      result[title] = { ...(result[title] || {}), deckContents };
+      result[title] = { ...(result[title] || {}), deckContents, deckListVersion: DECK_LIST_PARSER_VERSION };
       fetched++;
     }
 
     if (fetched % 10 === 0) {
       writeJsonAtomic(OUT, result);
-      writeJsonAtomic(path.join(DATA_DIR, 'sync-progress-sets.json'), { current: fetched, total: setTitles.size });
       console.log(`[sync-sets] Saved ${fetched} sets so far...`);
     }
   }
