@@ -4485,7 +4485,14 @@ function _olLoadSocketScript(){
 }
 
 async function _olEnsureSocket(){
-  if(_olSocket && _olSocket.connected) return true;
+  // Reuse the live socket only if it points at the same host. A stale socket
+  // bound to a different origin (e.g. a prior same-origin attempt) would silently
+  // send room:join to the wrong server, so drop it and reconnect.
+  if(_olSocket && _olSocket.connected){
+    if(_olSocket._rushUrl === (_olServerUrl || null)) return true;
+    _olSocket.disconnect();
+    _olSocket = null;
+  }
 
   try {
     await _olLoadSocketScript();
@@ -4497,6 +4504,7 @@ async function _olEnsureSocket(){
   _olSocket = _olServerUrl
     ? window.io(_olServerUrl, { reconnectionAttempts: 5 })
     : window.io({ reconnectionAttempts: 5 });
+  _olSocket._rushUrl = _olServerUrl || null; // remember which host this socket targets
 
   _olSocket.on('room:created', ({ code, isHost, presence, history, settings }) => {
     _olRoomCode = code;
@@ -4620,6 +4628,10 @@ function _olHost(){
 function _olJoin(){
   const pseudo = _olEl('ol-pseudo').value.trim();
   const code   = _olEl('ol-code').value.trim().toUpperCase();
+  // The host's public URL — required to reach a room on another machine. Empty
+  // means "same origin" (both players connected directly to the host's server).
+  const rawUrl = _olEl('ol-server-url').value.trim();
+  _olServerUrl = rawUrl ? rawUrl.replace(/\/+$/, '') : null;
   if(!pseudo){ _olShowError('Enter a nickname.'); return; }
   if(code.length !== 6){ _olShowError('The room code must be exactly 6 characters.'); return; }
   _olClearError();
@@ -4683,6 +4695,7 @@ function initOnline(){
   // Try to auto-reconnect from a stored session.
   const sess = _duLoadSession();
   if(sess && sess.code && sess.token){
+    if(sess.server) _olServerUrl = sess.server; // reconnect to the same remote host
     const storedPseudo = _olEl('ol-pseudo').value.trim() || 'Player';
     _olEnsureSocket().then(ok => {
       if(ok) _olSocket.emit('room:join', { pseudo: storedPseudo, code: sess.code, token: sess.token });
@@ -4799,7 +4812,7 @@ function _duEl(id){ return document.getElementById(id); }
 
 // ── Persist / restore token ──────────────────────────────────────────────────
 function _duSaveSession(code, seat, token){
-  try{ sessionStorage.setItem(_DU_STORAGE_KEY, JSON.stringify({code, seat, token})); }catch{}
+  try{ sessionStorage.setItem(_DU_STORAGE_KEY, JSON.stringify({code, seat, token, server: _olServerUrl})); }catch{}
 }
 function _duLoadSession(){
   try{ return JSON.parse(sessionStorage.getItem(_DU_STORAGE_KEY)||'null'); }catch{ return null; }
