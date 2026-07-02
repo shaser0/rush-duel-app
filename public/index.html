@@ -4479,7 +4479,7 @@ function _olLoadSocketScript(){
     const s  = document.createElement('script');
     s.src    = _olServerUrl ? `${_olServerUrl}/socket.io/socket.io.js` : '/socket.io/socket.io.js';
     s.onload = resolve;
-    s.onerror = () => reject(new Error('Socket.IO script not found. Restart with ONLINE_MODE=1 npm start.'));
+    s.onerror = () => reject(new Error('Could not load the online client. The server may be running in offline mode (dev: start it with ONLINE_MODE=1 npm start).'));
     document.head.appendChild(s);
   });
 }

@@ -18,7 +18,8 @@
   "type": "commonjs",
   "pkg": {
     "assets": [
-      "public/**/*"
+      "public/**/*",
+      "node_modules/socket.io/client-dist/**/*"
     ],
     "scripts": [
       "scripts/lib/**/*.js",
