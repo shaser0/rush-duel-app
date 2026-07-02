@@ -97,4 +97,22 @@ async function resolveImageUrls(filenames, urlCache) {
   }
 }
 
-module.exports = { getCategoryMembers, getPagesBatch, getTimestampsBatch, resolveImageUrls, RATE_MS };
+// Resolve MediaWiki redirects for up to 50 titles per call.
+// Returns: Map<fromTitle, toTitle> containing only titles that ARE redirects.
+async function resolveRedirects(titles) {
+  const result = new Map();
+  for (let i = 0; i < titles.length; i += 50) {
+    const batch = titles.slice(i, i + 50);
+    if (i > 0) await sleep(RATE_MS);
+    const url = `${YUGIPEDIA_API}?action=query`
+      + `&titles=${batch.map(encodeURIComponent).join('|')}`
+      + `&redirects=1&format=json`;
+    const data = await fetchQuery(url);
+    for (const r of data.query.redirects ?? []) {
+      result.set(r.from, r.to);
+    }
+  }
+  return result;
+}
+
+module.exports = { getCategoryMembers, getPagesBatch, getTimestampsBatch, resolveImageUrls, resolveRedirects, fetchQuery, RATE_MS };

@@ -3,10 +3,10 @@
 require('../lib/http').ensureSystemCa(__filename);
 
 const fs           = require('fs');
-const { fetchJson, sleep } = require('../lib/http');
+const { sleep } = require('../lib/http');
 const { writeJsonAtomic }  = require('../lib/fs-atomic');
 const { DATA_DIR }         = require('../lib/paths');
-const { getCategoryMembers, getTimestampsBatch, RATE_MS } = require('../lib/yugipedia');
+const { getCategoryMembers, getTimestampsBatch, resolveRedirects, fetchQuery, RATE_MS } = require('../lib/yugipedia');
 const { cleanCards } = require('../pipeline/clean-cards');
 
 // ── Config ───────────────────────────────────────────────────────────────────
@@ -15,7 +15,24 @@ const _path         = require('path');
 const CARDS_FILE    = _path.join(DATA_DIR, 'raw-cards.json');
 const STATE_FILE    = _path.join(DATA_DIR, 'sync-state.json');
 const PROGRESS_FILE = _path.join(DATA_DIR, 'sync-progress.json');
+const GALLERY_FILE  = _path.join(DATA_DIR, 'gallery-images.json');
+const BANLIST_FILE  = _path.join(DATA_DIR, 'banlist.json');
 const BATCH_SIZE    = 50; // titles per timestamp API call
+
+// Other data files keyed by card title also go stale on a rename — patch them
+// in place so a rename doesn't orphan cached gallery images or banlist status.
+function renameKeyInJsonFile(filePath, oldTitle, newTitle) {
+  let data;
+  try { data = JSON.parse(fs.readFileSync(filePath, 'utf8')); } catch { return; }
+  if (!(oldTitle in data)) return;
+  if (Array.isArray(data[oldTitle]) && Array.isArray(data[newTitle])) {
+    data[newTitle] = [...new Set([...data[newTitle], ...data[oldTitle]])];
+  } else if (!(newTitle in data)) {
+    data[newTitle] = data[oldTitle];
+  }
+  delete data[oldTitle];
+  writeJsonAtomic(filePath, data);
+}
 
 // ── Wiki parsing ─────────────────────────────────────────────────────────────
 
@@ -69,9 +86,9 @@ function parseCardTable(wikitext) {
 // ── API calls ─────────────────────────────────────────────────────────────────
 
 async function fetchAllTitles() {
-  process.stdout.write('Récupération des titres...\r');
+  process.stdout.write('Fetching titles...\r');
   const titles = await getCategoryMembers('Category:Rush Duel cards', t => !t.startsWith('List of'));
-  console.log(`Récupération des titres... ${titles.length} cartes trouvées.`);
+  console.log(`Fetching titles... ${titles.length} cards found.`);
   return titles;
 }
 
@@ -80,7 +97,7 @@ async function fetchCardData(title) {
     + '&titles=' + encodeURIComponent(title)
     + '&prop=revisions&rvprop=content|timestamp&rvslots=main&format=json';
 
-  const result = await fetchJson(url);
+  const result = await fetchQuery(url);
   const page   = Object.values(result.query.pages)[0];
   if (page.missing !== undefined || !page.revisions) return null;
 
@@ -100,7 +117,7 @@ async function fetchJaName(rushDuelTitle) {
     + '&titles=' + encodeURIComponent(tcgTitle)
     + '&prop=revisions&rvprop=content&rvslots=main&format=json';
 
-  const result = await fetchJson(url);
+  const result = await fetchQuery(url);
   const page   = Object.values(result.query.pages)[0];
   if (page.missing !== undefined || !page.revisions) return null;
 
@@ -130,6 +147,25 @@ function diffFields(oldCard, newCard) {
   );
 }
 
+// Bump whenever parseCardTable's field-mapping logic changes, so cards
+// fetched under an older version get force re-fetched even if their wiki
+// revision hasn't changed (timestamp diffing alone can't catch a value that
+// was captured wrong and never touched again — see the stray legacy
+// `jp_sets` field bug this replaced).
+const CARD_SCHEMA_VERSION = 1;
+
+// Non-content bookkeeping fields alongside TRACKED_FIELDS. Anything else on a
+// card is unexpected — almost certainly a leftover from an old schema (like
+// the stray `jp_sets` field bug) rather than something a reader intended to
+// keep. Cheap, no network needed: run on every sync.
+const KNOWN_FIELDS = new Set([...TRACKED_FIELDS, 'title', '_wiki_ts', 'former_titles', 'card_schema_version']);
+function auditCardShape(cards) {
+  for (const card of cards) {
+    const stray = Object.keys(card).filter(k => !KNOWN_FIELDS.has(k));
+    if (stray.length) console.warn(`[sync-cards] "${card.title}" has unexpected field(s): ${stray.join(', ')}`);
+  }
+}
+
 // ── Main ──────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -138,7 +174,7 @@ async function main() {
     ? JSON.parse(fs.readFileSync(STATE_FILE, 'utf8'))
     : { last_synced: null };
 
-  const cards   = fs.existsSync(CARDS_FILE) && fs.statSync(CARDS_FILE).size > 2
+  let cards     = fs.existsSync(CARDS_FILE) && fs.statSync(CARDS_FILE).size > 2
     ? JSON.parse(fs.readFileSync(CARDS_FILE, 'utf8'))
     : [];
   const byTitle = new Map(cards.map((c, i) => [c.title, i]));
@@ -148,21 +184,82 @@ async function main() {
   const isEmptyDB     = cards.length === 0;
   const isFirstSync   = !isEmptyDB && !state.last_synced;
 
-  if (isEmptyDB)      console.log('=== Premier lancement — récupération complète ===\n');
-  else if (isFirstSync) console.log('=== Première synchronisation — établissement de la baseline ===\n');
-  else                console.log(`=== Synchronisation — dernière : ${state.last_synced} ===\n`);
+  if (isEmptyDB)      console.log('=== First run — full fetch ===\n');
+  else if (isFirstSync) console.log('=== First sync — establishing baseline ===\n');
+  else                console.log(`=== Sync — last run: ${state.last_synced} ===\n`);
+
+  if (!isEmptyDB) auditCardShape(cards);
 
   // ── 1. Title list ──────────────────────────────────────────────────────────
   const wikiTitles  = await fetchAllTitles();
   const wikiSet     = new Set(wikiTitles);
   const existingSet = new Set(cards.map(c => c.title));
 
-  const newTitles     = wikiTitles.filter(t => !existingSet.has(t));
-  const removedTitles = [...existingSet].filter(t => !wikiSet.has(t));
+  let removedTitles = wikiTitles.length
+    ? [...existingSet].filter(t => !wikiSet.has(t))
+    : [];
 
-  console.log(`  Nouvelles cartes sur le wiki : ${newTitles.length}`);
+  // A title missing from the wiki listing is often just a page rename
+  // (Yugipedia redirects the old title to a new one), not a deletion. Detect
+  // those and merge the existing card entry into its new title in place,
+  // instead of reporting it as gone while a duplicate gets created under the
+  // new title on some future sync.
   if (removedTitles.length) {
-    console.log(`  Absentes du wiki (signalement) :`);
+    const redirects = await resolveRedirects(removedTitles);
+    const stillRemoved = [];
+    const merged = [];
+
+    for (const oldTitle of removedTitles) {
+      const newTitle = redirects.get(oldTitle);
+      if (!newTitle || !wikiSet.has(newTitle)) { stillRemoved.push(oldTitle); continue; }
+
+      const oldIdx = byTitle.get(oldTitle);
+      let survivor;
+      if (existingSet.has(newTitle)) {
+        // A (possibly stale) entry already exists under the new title from
+        // an earlier sync — drop this stale duplicate; the newTitle entry
+        // will be refreshed normally via the timestamp check below.
+        survivor = cards[byTitle.get(newTitle)];
+        cards[oldIdx] = null;
+      } else {
+        survivor = cards[oldIdx];
+        survivor.title = newTitle;
+        existingSet.add(newTitle);
+      }
+      // Record the old title on the surviving card so the app can migrate any
+      // saved collection/deck entries still pointing at it. Chained renames
+      // (A→B, later B→C) land on the same array since it travels with the
+      // one surviving card object.
+      survivor.former_titles = [...new Set([...(survivor.former_titles || []), oldTitle])];
+
+      existingSet.delete(oldTitle);
+      byTitle.delete(oldTitle);
+      merged.push([oldTitle, newTitle]);
+    }
+
+    if (merged.length) {
+      cards = cards.filter(Boolean);
+      byTitle.clear();
+      cards.forEach((c, i) => byTitle.set(c.title, i));
+      console.log(`  Renamed on the wiki (merged): ${merged.length}`);
+      for (const [from, to] of merged) {
+        console.log(`    - ${from} -> ${to}`);
+        // gallery-images.json and banlist.json are dicts keyed by card title
+        // (unlike raw-cards.json/cards.json, which are arrays) — patch them
+        // directly so a rename doesn't orphan cached data under the old key.
+        renameKeyInJsonFile(GALLERY_FILE, from, to);
+        renameKeyInJsonFile(BANLIST_FILE, from, to);
+      }
+    }
+
+    removedTitles = stillRemoved;
+  }
+
+  const newTitles = wikiTitles.filter(t => !existingSet.has(t));
+
+  console.log(`  New cards on the wiki: ${newTitles.length}`);
+  if (removedTitles.length) {
+    console.log(`  Missing from the wiki (reporting only):`);
     removedTitles.forEach(t => console.log(`    - ${t}`));
   }
 
@@ -174,8 +271,8 @@ async function main() {
     let checked   = 0;
 
     console.log(isFirstSync
-      ? `\nBaseline : récupération des timestamps (${toCheck.length} cartes)...`
-      : `\nVérification des révisions (${toCheck.length} cartes)...`);
+      ? `\nBaseline: fetching timestamps (${toCheck.length} cards)...`
+      : `\nChecking for revisions (${toCheck.length} cards)...`);
 
     for (let i = 0; i < toCheck.length; i += BATCH_SIZE) {
       const batch      = toCheck.slice(i, i + BATCH_SIZE);
@@ -189,23 +286,26 @@ async function main() {
           // First sync: just stamp existing cards, don't mark as modified
           if (idx !== undefined) cards[idx]._wiki_ts = ts;
         } else {
-          // Normal sync: flag if wiki is newer than our stored timestamp
-          if (!stored || ts > stored) modifiedTitles.push(title);
+          // Normal sync: flag if wiki is newer than our stored timestamp, or
+          // if this card predates the current parser (its content may have
+          // been captured wrong by an older version and never revisited).
+          const staleSchema = cards[idx]?.card_schema_version !== CARD_SCHEMA_VERSION;
+          if (!stored || ts > stored || staleSchema) modifiedTitles.push(title);
         }
       }
 
       checked += batch.length;
-      process.stdout.write(`  ${checked}/${toCheck.length} traités...\r`);
+      process.stdout.write(`  ${checked}/${toCheck.length} processed...\r`);
       await sleep(RATE_MS);
     }
-    console.log(`  ${checked}/${toCheck.length} traités.    `);
+    console.log(`  ${checked}/${toCheck.length} processed.    `);
 
     if (isFirstSync) {
       // Save the stamped cards.json now so future runs have _wiki_ts
       writeJsonAtomic(CARDS_FILE, cards);
-      console.log(`  Timestamps enregistrés dans cards.json.`);
+      console.log(`  Timestamps saved to cards.json.`);
     } else {
-      console.log(`  Modifiées : ${modifiedTitles.length}`);
+      console.log(`  Modified: ${modifiedTitles.length}`);
     }
   }
 
@@ -217,16 +317,16 @@ async function main() {
     const prog = JSON.parse(fs.readFileSync(PROGRESS_FILE, 'utf8'));
     toFetch    = prog.toFetch;
     startAt    = prog.lastIndex + 1;
-    console.log(`\nReprise depuis #${startAt}/${toFetch.length}`);
+    console.log(`\nResuming from #${startAt}/${toFetch.length}`);
   }
 
   // ── 4. Fetch loop ──────────────────────────────────────────────────────────
   let added = 0, updated = 0, unchanged = 0, errors = 0, jaFetched = 0;
 
   if (toFetch.length === 0) {
-    console.log('\nAucune carte a mettre a jour.');
+    console.log('\nNo cards to update.');
   } else {
-    console.log(`\nRecuperation de ${toFetch.length} carte(s) (depuis #${startAt})...`);
+    console.log(`\nFetching ${toFetch.length} card(s) (from #${startAt})...`);
 
     for (let i = startAt; i < toFetch.length; i++) {
       const title = toFetch[i];
@@ -237,8 +337,10 @@ async function main() {
         const fetched = await fetchCardData(title);
 
         if (!fetched) {
-          process.stdout.write('(ignoree)\n');
+          process.stdout.write('(skipped)\n');
         } else {
+          fetched.card_schema_version = CARD_SCHEMA_VERSION;
+
           // Fetch JP name for (Rush Duel) cards missing it
           if (title.includes('(Rush Duel)') && !fetched.name_ja) {
             await sleep(RATE_MS);
@@ -255,23 +357,31 @@ async function main() {
             const diff = diffFields(cards[idx], fetched);
 
             if (diff.length > 0) {
-              cards[idx] = fetched;
-              process.stdout.write(`mis a jour (${diff.join(', ')})\n`);
+              // Preserve former_titles (set by the rename-merge step above) —
+              // a fresh wiki fetch has no concept of this card's prior titles.
+              cards[idx] = cards[idx].former_titles
+                ? { ...fetched, former_titles: cards[idx].former_titles }
+                : fetched;
+              process.stdout.write(`updated (${diff.join(', ')})\n`);
               updated++;
             } else {
-              cards[idx]._wiki_ts = fetched._wiki_ts; // keep timestamp fresh
-              process.stdout.write('inchangee\n');
+              // Tracked content is identical, but this fetch still confirms
+              // it under the current parser — keep timestamp and schema
+              // version fresh so a stale-schema flag doesn't loop forever.
+              cards[idx]._wiki_ts = fetched._wiki_ts;
+              cards[idx].card_schema_version = CARD_SCHEMA_VERSION;
+              process.stdout.write('unchanged\n');
               unchanged++;
             }
           } else {
             cards.push(fetched);
             byTitle.set(title, cards.length - 1);
-            process.stdout.write('ajoutee\n');
+            process.stdout.write('added\n');
             added++;
           }
         }
       } catch (err) {
-        process.stdout.write(`ERREUR: ${err.message}\n`);
+        process.stdout.write(`ERROR: ${err.message}\n`);
         errors++;
       }
 
@@ -298,21 +408,21 @@ async function main() {
   });
 
   // ── 6. Summary ─────────────────────────────────────────────────────────────
-  console.log('\n── Résumé ──────────────────────────────────────');
-  console.log(`  Total         : ${cards.length} cartes`);
-  if (added)     console.log(`  + Ajoutées    : ${added}`);
-  if (updated)   console.log(`  ~ Mises à jour: ${updated}`);
-  if (unchanged) console.log(`  = Inchangées  : ${unchanged}`);
-  if (jaFetched) console.log(`  JP récupérés  : ${jaFetched}`);
-  if (errors)    console.log(`  ! Erreurs     : ${errors}`);
+  console.log('\n── Summary ──────────────────────────────────────');
+  console.log(`  Total       : ${cards.length} cards`);
+  if (added)     console.log(`  + Added     : ${added}`);
+  if (updated)   console.log(`  ~ Updated   : ${updated}`);
+  if (unchanged) console.log(`  = Unchanged : ${unchanged}`);
+  if (jaFetched) console.log(`  JA fetched  : ${jaFetched}`);
+  if (errors)    console.log(`  ! Errors    : ${errors}`);
 
   // ── 7. Cleaning pipeline ───────────────────────────────────────────────────
-  console.log('\nNettoyage → cards.json...');
+  console.log('\nCleaning -> cards.json...');
   cleanCards();
-  console.log('Terminé.');
+  console.log('Done.');
 }
 
 main().catch(err => {
-  console.error('\nErreur fatale :', err.message);
+  console.error('\nFatal error:', err.message);
   process.exit(1);
 });

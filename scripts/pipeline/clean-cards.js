@@ -19,8 +19,8 @@ let raw;
 try {
   raw = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'raw-cards.json'), 'utf8'));
 } catch (e) {
-  throw new Error(`raw-cards.json illisible ou corrompu (${e.message}). ` +
-    `Supprimer le fichier et relancer le sync pour le régénérer.`);
+  throw new Error(`raw-cards.json unreadable or corrupted (${e.message}). ` +
+    `Delete the file and re-run the sync to regenerate it.`);
 }
 
 const cleaned = raw.map(card => ({
@@ -60,11 +60,11 @@ if (fs.existsSync(overridesPath)) {
       overrideCount++;
     }
   }
-  if (overrideCount) console.log(`${overrideCount} carte(s) avec sets_jp corrigés via sets-overrides.json`);
+  if (overrideCount) console.log(`${overrideCount} card(s) with sets_jp fixed via sets-overrides.json`);
 }
 
 writeJsonAtomic(path.join(DATA_DIR, 'cards.json'), cleaned);
-console.log(`${cleaned.length} cartes traitées → cards.json`);
+console.log(`${cleaned.length} cards processed -> cards.json`);
 return cleaned;
 }
 

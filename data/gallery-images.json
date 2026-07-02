@@ -2061,10 +2061,6 @@
     "MonsterReincarnation-RDSST1-JP-C.png",
     "MonsterReincarnation-RDP003-JP-SPR.png"
   ],
-  "Phantasm Mask Master": [
-    "PhantasmMaskMaster-RDLGP2-JP-SR.png",
-    "PhantasmMaskMaster-RDLGP2-JP-ScR.png"
-  ],
   "Polymerization": [
     "Polymerization-RDLGP2-JP-SR.png",
     "Polymerization-RDLGP2-JP-UPR.png",
@@ -2083,10 +2079,6 @@
     "ShadowGhoul-RDLGP2-JP-C.png",
     "ShadowGhoul-RDLGP2-JP-ScR.png",
     "ShadowGhoul-RDMRP1-JP-UR.png"
-  ],
-  "Star of the Beginning": [
-    "StaroftheBeginning-RDLGP2-JP-UR.png",
-    "StaroftheBeginning-RDLGP2-JP-ORR.png"
   ],
   "Sword Dancer": [
     "SwordDancer-RDLGP2-JP-C.png",
@@ -2357,13 +2349,6 @@
     "ExtraPlorer-RD5TH1-JP-SR.png",
     "ExtraPlorer-RD5TH1-JP-ScR.png",
     "ExtraPlorer-RDKP13-JP-C.png"
-  ],
-  "Fadronir the Pure": [
-    "FadronirthePure-RDKP17-JP-UR.png",
-    "FadronirthePure-RDKP17-JP-ORR.png",
-    "FadronirthePure-RDKP17-JP-ScR.png",
-    "FadronirthePure-RD5TH1-JP-UPR.png",
-    "FadronirthePure-RD5TH1-JP-ORR.png"
   ],
   "Harpie Lady 1 & 2 & 3": [
     "HarpieLady123-RD5TH1-JP-UR.png",
@@ -3004,10 +2989,6 @@
     "CANReD-RDKP05-JP-RR.png",
     "CANReD-RDKP05-JP-UR.png",
     "CANReD-RDMRP1-JP-R.png"
-  ],
-  "Coiled Dragon of Fertility": [
-    "CoiledDragonofFertility-RDKP05-JP-C.png",
-    "CoiledDragonofFertility-RDSBD7-JP-C.png"
   ],
   "Dian Keto the Security Master": [
     "DianKetotheSecurityMaster-RDWJMP-JP-NPR.png",
@@ -3961,10 +3942,6 @@
     "CaiustheShadowMonarch-RDSD0F-JP-UR.png",
     "CaiustheShadowMonarch-RDSD0F-JP-ORR.png"
   ],
-  "Drache the Dragon Vassal": [
-    "DrachetheDragonVassal-RDSD0F-JP-C.png",
-    "DrachetheDragonVassal-RDSD0F-JP-SR.png"
-  ],
   "Hebe the Star Vassal": [
     "HebetheStarVassal-RDSD0F-JP-C.png",
     "HebetheStarVassal-RDSD0F-JP-NPR.png",
@@ -3973,14 +3950,6 @@
   "Invasion of the Monarchs": [
     "InvasionoftheMonarchs-RDSD0F-JP-C.png",
     "InvasionoftheMonarchs-RDSD0F-JP-SR.png"
-  ],
-  "Lindorm the Dragon Monarch": [
-    "LindormtheDragonMonarch-RDSD0F-JP-C.png",
-    "LindormtheDragonMonarch-RDSD0F-JP-SR.png"
-  ],
-  "Lindorm the Mega Monarch": [
-    "LindormtheMegaMonarch-RDSD0F-JP-C.png",
-    "LindormtheMegaMonarch-RDSD0F-JP-SR.png"
   ],
   "Perseverance of the Monarchs": [
     "PerseveranceoftheMonarchs-RDSD0F-JP-C.png",
@@ -7671,10 +7640,6 @@
     "IntentionalDraw-RDKP18-JP-ORR.png",
     "IntentionalDraw-RDKP18-JP-ScR.png"
   ],
-  "Legendary Scale Ruler": [
-    "LegendaryScaleRuler-RDKP18-JP-SR.png",
-    "LegendaryScaleRuler-RDKP18-JP-ScR.png"
-  ],
   "Meini the Defiant Soul": [
     "MeinitheDefiantSoul-RDAP02-JP-C.png",
     "MeinitheDefiantSoul-RDKP18-JP-C.png"
@@ -8099,5 +8064,60 @@
   ],
   "Romin Kassidy": [
     "RominKassidy-RDSC01-JP-OP.png"
+  ],
+  "Phantasm Maskmaster": [
+    "PhantasmMaskmaster-RDLGP2-JP-SR.png",
+    "PhantasmMaskmaster-RDLGP2-JP-ScR.png",
+    "PhantasmMaskMaster-RDLGP2-JP-SR.png",
+    "PhantasmMaskMaster-RDLGP2-JP-ScR.png"
+  ],
+  "Star of Beginning": [
+    "StarofBeginning-RDLGP2-JP-UR.png",
+    "StarofBeginning-RDLGP2-JP-ORR.png",
+    "StarofBeginning-RDAP03-JP-OP-AA.png",
+    "StaroftheBeginning-RDLGP2-JP-UR.png",
+    "StaroftheBeginning-RDLGP2-JP-ORR.png"
+  ],
+  "Innocent Fadrawl": [
+    "InnocentFadrawl-RDKP17-JP-UR.png",
+    "InnocentFadrawl-RDKP17-JP-ORR.png",
+    "InnocentFadrawl-RDKP17-JP-ScR.png",
+    "InnocentFadrawl-RD5TH1-JP-UPR.png",
+    "InnocentFadrawl-RD5TH1-JP-ORR.png",
+    "FadronirthePure-RDKP17-JP-UR.png",
+    "FadronirthePure-RDKP17-JP-ORR.png",
+    "FadronirthePure-RDKP17-JP-ScR.png",
+    "FadronirthePure-RD5TH1-JP-UPR.png",
+    "FadronirthePure-RD5TH1-JP-ORR.png"
+  ],
+  "Coil Dragon of the Fertile Land": [
+    "CoilDragonoftheFertileLand-RDSBD7-JP-C.png",
+    "CoilDragonoftheFertileLand-RDKP05-JP-C.png",
+    "CoiledDragonofFertility-RDKP05-JP-C.png",
+    "CoiledDragonofFertility-RDSBD7-JP-C.png"
+  ],
+  "Drahe the Wyrm Vassal": [
+    "DrahetheWyrmVassal-RDSD0F-JP-C.png",
+    "DrahetheWyrmVassal-RDSD0F-JP-SR.png",
+    "DrachetheDragonVassal-RDSD0F-JP-C.png",
+    "DrachetheDragonVassal-RDSD0F-JP-SR.png"
+  ],
+  "Lindwurm the Mega Monarch": [
+    "LindwurmtheMegaMonarch-RDSD0F-JP-C.png",
+    "LindwurmtheMegaMonarch-RDSD0F-JP-SR.png",
+    "LindormtheMegaMonarch-RDSD0F-JP-C.png",
+    "LindormtheMegaMonarch-RDSD0F-JP-SR.png"
+  ],
+  "Lindwurm the Wyrm Monarch": [
+    "LindwurmtheWyrmMonarch-RDSD0F-JP-C.png",
+    "LindwurmtheWyrmMonarch-RDSD0F-JP-SR.png",
+    "LindormtheDragonMonarch-RDSD0F-JP-C.png",
+    "LindormtheDragonMonarch-RDSD0F-JP-SR.png"
+  ],
+  "Phantasmal Triangular Scale": [
+    "PhantasmalTriangularScale-RDKP18-JP-SR.png",
+    "PhantasmalTriangularScale-RDKP18-JP-ScR.png",
+    "LegendaryScaleRuler-RDKP18-JP-SR.png",
+    "LegendaryScaleRuler-RDKP18-JP-ScR.png"
   ]
 }

@@ -94,7 +94,7 @@ function parseSets(raw) {
     .map(line => {
       const parts = line.split(';').map(p => p.trim());
       if (parts.length < 2) return null;
-      if (parts.length < 3) console.warn(`[clean-cards] parseSets: ligne sans rarity: "${line}"`);
+      if (parts.length < 3) console.warn(`[clean-cards] parseSets: line without rarity: "${line}"`);
       // rejoin anything after the 2nd semicolon in case the rarity contains one
       const rarity = parts.length >= 3 ? parts.slice(2).join(';').trim() : '';
       return {
