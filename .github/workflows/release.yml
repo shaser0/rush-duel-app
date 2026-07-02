@@ -53,6 +53,15 @@ jobs:
       - name: Create GitHub Release and upload assets
         uses: softprops/action-gh-release@v2
         with:
+          # Pin to the pushed tag's release so the action always targets it,
+          # rather than creating a duplicate release when an existing one for
+          # the tag is not yet discoverable (the v1.5.0 race that dropped the
+          # raw binaries).
+          tag_name: ${{ github.ref_name }}
+          make_latest: true
+          # Fail the job if any listed asset is missing, instead of silently
+          # publishing a partial release.
+          fail_on_unmatched_files: true
           generate_release_notes: true
           files: |
             dist/rush-app-win.exe

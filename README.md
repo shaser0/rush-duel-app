@@ -37,7 +37,13 @@ rush-app/
 
 ### Windows
 
-Double-click **`rush-app-win.exe`** — no terminal will appear. Your browser opens automatically to <http://localhost:3000>.
+Download **`rush-app-win.exe`** (the standalone file on the release page), then double-click it — no terminal will appear. Your browser opens automatically to <http://localhost:3000>.
+
+> **If you downloaded the `.zip`:** do **not** extract it with Windows Explorer's built-in "Extract All". Explorer copies the download's *Mark of the Web* onto the extracted `.exe`, and Windows then silently blocks the (unsigned) app — so double-clicking appears to do nothing. Either:
+>
+> - grab the standalone **`rush-app-win.exe`** from the release instead, or
+> - extract with **[7-Zip](https://www.7-zip.org/)**, or
+> - after extracting, right-click `rush-app-win.exe` → **Properties** → tick **Unblock** → **OK** (or run `Unblock-File .\rush-app-win.exe` in PowerShell).
 
 ### macOS
 
@@ -153,7 +159,9 @@ Card, set, and gallery data are synced from [Yugipedia](https://yugipedia.com). 
 
 ### Nothing happens when I double-click
 
-Check `data/rush-app.log` for error details.
+**On Windows, this is almost always the *Mark of the Web*.** If you extracted the `.zip` with Windows Explorer's "Extract All", the extracted `.exe` inherits the download's Mark of the Web and Windows silently blocks the unsigned app. Fix it by right-clicking `rush-app-win.exe` → **Properties** → tick **Unblock** → **OK** (or `Unblock-File .\rush-app-win.exe`). Better still, download the standalone **`rush-app-win.exe`** from the release, or extract with [7-Zip](https://www.7-zip.org/), which doesn't propagate the Mark of the Web.
+
+Otherwise, check `data/rush-app.log` (next to the executable) for error details.
 
 ### The page shows no cards
 
