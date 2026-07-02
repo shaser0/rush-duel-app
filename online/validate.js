@@ -11,7 +11,7 @@ const MAX_DECK       = 100;
 const MAX_EXTRA_DECK = 15;
 const ZONES    = new Set(['hand', 'deck', 'extraDeck', 'graveyard', 'monster', 'spellTrap', 'field']);
 const ACTIONS  = new Set([
-  'loadDeck', 'loadExtraDeck', 'ready', 'chooseFirst', 'millTop', 'shuffle', 'draw', 'excavate', 'lookDeck', 'lookExtraDeck',
+  'loadDeck', 'loadExtraDeck', 'ready', 'unready', 'chooseFirst', 'millTop', 'shuffle', 'draw', 'excavate', 'lookDeck', 'lookExtraDeck',
   'move', 'flip', 'position', 'maximum', 'attack', 'statOverride', 'metaOverride', 'activateEffect', 'target', 'reveal', 'lp', 'coin', 'dice', 'passTurn', 'surrender', 'takeControl',
 ]);
 const ATTRS = new Set(['LIGHT', 'DARK', 'FIRE', 'WATER', 'EARTH', 'WIND']);
@@ -98,7 +98,7 @@ function isDuelAction(data) {
       return p.on === undefined || typeof p.on === 'boolean';
     case 'lp':
       return ['delta', 'set'].includes(p.mode) && Number.isFinite(Number(p.value));
-    // shuffle, ready, lookDeck, coin, dice, passTurn, surrender → no payload needed
+    // shuffle, ready, unready, lookDeck, coin, dice, passTurn, surrender → no payload needed
     default:
       return true;
   }

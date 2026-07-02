@@ -52,6 +52,17 @@ const ACTIONS = {
     return { ok: true };
   },
 
+  // Cancel readiness before the game starts. Also cancels any pending coin toss
+  // so the both-ready handshake restarts cleanly (e.g. if the opponent un-readies
+  // while the toss winner is still choosing who goes first).
+  unready(game, seat) {
+    if (game.started) return { error: 'already_started' };
+    game._readyMask &= ~(1 << seat);
+    game.tossWinner = null;
+    S.pushLog(game, { type: 'unready', seat });
+    return { ok: true };
+  },
+
   // Toss winner declares who goes first. This starts the game and deals hands.
   chooseFirst(game, seat, p) {
     if (game.started)           return { error: 'already_started' };

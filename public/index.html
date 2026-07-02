@@ -532,6 +532,7 @@ button,input,select{font-family:inherit}
 .ol-ready-section{margin-top:12px;padding:12px 14px;background:var(--bg3);border:1px solid var(--border);border-radius:8px;display:flex;flex-direction:column;gap:8px}
 .ol-ready-status{font-size:12px;color:var(--muted);text-align:center}
 .ol-ready-status.ready{color:#4caf50;font-weight:700}
+.ol-ready-cancel{background:#b23b3b !important;color:#fff !important}
 
 /* ── Duel Board ─────────────────────────────────────────────────────── */
 :root{
@@ -4677,7 +4678,8 @@ function _olLeave(){
   const rs = _olEl('ol-ready-status');
   if(rs){ rs.textContent='Select a deck…'; rs.className='ol-ready-status'; }
   const rb = _duEl('ol-ready-btn');
-  if(rb) rb.disabled = true;
+  if(rb){ rb.disabled = true; rb.textContent = 'Ready!'; rb.classList.remove('ol-ready-cancel'); }
+  _duReady = false;
   _olClearError();
   _olShowView('lobby');
 }
@@ -4736,6 +4738,7 @@ let _duDragIid        = null;  // iid being dragged
 let _duDragSrcZone    = null;  // zone the dragged card came from
 let _duCtxIid         = null;  // iid with open context menu
 let _duSelectedDeck   = null;  // deck chosen in picker
+let _duReady          = false; // whether this seat has pressed Ready (toggle)
 let _duBanlistEnforced = true; // room setting (server-authoritative, client enforces UI)
 let _duIsHost         = false; // true when seat === 0
 let _duPhase          = 'draw'; // Rush Duel phase: draw|main|battle|end
@@ -4804,11 +4807,28 @@ function _duReturnToLobby(){
   document.getElementById('screen-online').classList.remove('board-mode');
   // Reset ready button
   const rb = _duEl('ol-ready-btn');
-  if(rb) rb.disabled = true;
+  if(rb){ rb.disabled = true; rb.textContent = 'Ready!'; rb.classList.remove('ol-ready-cancel'); }
+  _duReady = false;
   const rs = _duEl('ol-ready-status');
   if(rs){ rs.textContent = ''; rs.className = 'ol-ready-status'; }
 }
 const _DU_STORAGE_KEY = 'du-session';
+
+// Reflect ready/un-ready state on the button + status line. When ready, the
+// button turns into a "Cancel" toggle so a player can un-ready before the duel
+// starts. When not ready, it's enabled only once a deck is selected.
+function _duSetReadyUI(ready){
+  _duReady = ready;
+  const btn = _duEl('ol-ready-btn');
+  const rs  = _duEl('ol-ready-status');
+  if(ready){
+    if(btn){ btn.textContent = 'Cancel'; btn.disabled = false; btn.classList.add('ol-ready-cancel'); }
+    if(rs){ rs.textContent = '✓ Ready — waiting for opponent (click Cancel to un-ready)'; rs.className = 'ol-ready-status ready'; }
+  } else {
+    if(btn){ btn.textContent = 'Ready!'; btn.disabled = !_duSelectedDeck; btn.classList.remove('ol-ready-cancel'); }
+    if(rs){ rs.textContent = _duSelectedDeck ? 'Ready when you are.' : 'Select a deck…'; rs.className = 'ol-ready-status'; }
+  }
+}
 
 function _duEl(id){ return document.getElementById(id); }
 
@@ -5822,6 +5842,7 @@ function _duLogEntry(entry){
     case 'loadDeck':      html = `${who} loaded a deck (${entry.count} cards)`; break;
     case 'loadExtraDeck': html = `${who} loaded an extra deck (${entry.count} cards)`; break;
     case 'ready':         html = `${who} is ready`; break;
+    case 'unready':       html = `${who} is no longer ready`; break;
     case 'coinToss':      html = entry.tossWinner === _duSeat ? 'Coin toss: you won! Choose who goes first.' : 'Coin toss: opponent won — waiting for their choice.'; break;
     case 'chooseFirst':   html = `${entry.startSeat === _duSeat ? 'You' : 'Opp'} will go first`; break;
     case 'maximum':       html = `${who} toggled Maximum mode`; break;
@@ -6033,6 +6054,7 @@ function _duRenderDeckList(){
 
     if(!blocked){
       item.addEventListener('click', ()=>{
+        if(_duReady) return; // can't switch decks while ready — Cancel first
         _duSelectedDeck = deck;
         const btn = _duEl('ol-ready-btn');
         if(btn) btn.disabled = false;
@@ -6042,8 +6064,9 @@ function _duRenderDeckList(){
     container.appendChild(item);
   }
 
-  // Disable ready button if selected deck became non-compliant after setting change
-  if(_duSelectedDeck){
+  // Disable ready button if selected deck became non-compliant after setting change.
+  // Skipped while ready (the deck is locked in server-side until the player cancels).
+  if(_duSelectedDeck && !_duReady){
     const c = _duCheckCompliance(_duSelectedDeck);
     if(_duBanlistEnforced && !c.ok){
       _duSelectedDeck = null;
@@ -6090,6 +6113,7 @@ function _duInitBoard(){
   _duRenderDeckList();
   const readyBtn = _duEl('ol-ready-btn');
   if(readyBtn) readyBtn.addEventListener('click', ()=>{
+    if(_duReady){ _duEmit('unready', {}); _duSetReadyUI(false); return; } // toggle off
     if(!_duSelectedDeck) return;
     const instances = _duDeckToInstances(_duSelectedDeck);
     if(!instances.length){ _duToast('Deck is empty.'); return; }
@@ -6097,9 +6121,7 @@ function _duInitBoard(){
     const extra = _duExtraToInstances(_duSelectedDeck);
     if(extra.length) setTimeout(()=> _duEmit('loadExtraDeck', { deck: extra }), 60);
     setTimeout(()=> _duEmit('ready', {}), 180);
-    readyBtn.disabled = true;
-    const rs = _duEl('ol-ready-status');
-    if(rs){ rs.textContent = '✓ Ready — waiting for opponent…'; rs.className = 'ol-ready-status ready'; }
+    _duSetReadyUI(true);
   });
 
   // Board chat send
@@ -6344,6 +6366,11 @@ function _duBindSocket(socket){
       _duGoBoard();
     } else if(st.tossWinner !== null && st.tossWinner !== undefined){
       _duTossShow(st.tossWinner);
+    } else {
+      // No game, no pending toss → hide any stale toss overlay (e.g. the opponent
+      // un-readied while choosing) and sync the ready button to the server.
+      _duTossHide();
+      if(typeof st.youReady === 'boolean' && st.youReady !== _duReady) _duSetReadyUI(st.youReady);
     }
   });
   socket.on('duel:private', data=>{

@@ -78,6 +78,7 @@ function viewFor(game, seat) {
     you:        seat,
     turn:       game.turn,
     tossWinner: game.tossWinner,
+    youReady:   !!(game._readyMask & (1 << seat)),
     started:    game.started,
     ended:      game.ended,
     winner:     game.winner,
