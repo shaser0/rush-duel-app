@@ -154,6 +154,11 @@ const ACTIONS = {
     const o = own(game, seat, p.iid);
     if (o.error) return o;
     const fromZone = o.loc.zone;
+    // Capture the source identity BEFORE the move: if the card was already public
+    // (face-up in a visible zone), its name stays loggable even when it lands in a
+    // hidden zone — e.g. shuffling a Graveyard card back into the Deck.
+    const srcVisible = fromZone === 'graveyard' || fromZone in S.SLOT_ZONES;
+    const srcKey = (srcVisible && o.loc.card && !o.loc.card.faceDown) ? o.loc.card.cardKey : undefined;
     const res = S.move(game, seat, o.loc, p);
     if (res.error) return res;
     // Find the card in its new location to read final state for the log.
@@ -164,7 +169,8 @@ const ACTIONS = {
     const faceDown = card ? card.faceDown : !!p.faceDown;
     // Identity is public only when face-up and in a visible zone (not hand/deck/extra).
     const visible = p.zone === 'graveyard' || p.zone in S.SLOT_ZONES;
-    const cardKey = (!faceDown && visible && card) ? card.cardKey : undefined;
+    const destKey = (!faceDown && visible && card) ? card.cardKey : undefined;
+    const cardKey = destKey ?? srcKey;
     S.pushLog(game, {
       type: 'move', seat, fromZone, zone: p.zone,
       slot: p.slot, faceDown, position: card ? card.position : undefined, cardKey,

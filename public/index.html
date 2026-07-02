@@ -545,7 +545,7 @@ button,input,select{font-family:inherit}
 #ol-board{display:flex;flex-direction:row;height:calc(100vh - 50px);background:var(--bg);overflow:hidden;max-width:none;width:100%}
 #ol-board.hidden{display:none}
 /* chat sidebar */
-.du-chat-side{width:220px;flex-shrink:0;display:flex;flex-direction:column;border-right:1px solid var(--border);background:var(--bg2)}
+.du-chat-side{width:280px;flex-shrink:0;display:flex;flex-direction:column;border-right:1px solid var(--border);background:var(--bg2)}
 .du-chat-title{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);padding:6px 10px;border-bottom:1px solid var(--border);flex-shrink:0}
 .du-chat-msgs{flex:1;overflow-y:auto;padding:6px 8px;display:flex;flex-direction:column;gap:2px}
 .du-chat-inp-row{display:flex;gap:4px;padding:6px;border-top:1px solid var(--border);flex-shrink:0}
@@ -631,7 +631,9 @@ button,input,select{font-family:inherit}
 .du-btn.on{background:var(--gold);color:#1a1407;border-color:var(--gold);font-weight:700}
 .du-log-card{color:#a0e8ff;cursor:pointer;text-decoration:underline dotted;text-underline-offset:2px}
 /* field card */
-.du-fc{width:100%;height:100%;border-radius:4px;overflow:hidden;position:relative;cursor:pointer;background:#12121f}
+.du-fc{width:100%;height:100%;border-radius:4px;overflow:hidden;position:relative;cursor:pointer;background:#12121f;touch-action:none}
+/* Pointer-drag ghost that follows the cursor (see _duMakeDragGhost) */
+.du-drag-ghost{position:fixed;left:0;top:0;pointer-events:none;z-index:9999;opacity:.85;border-radius:6px;overflow:hidden;box-shadow:0 6px 18px rgba(0,0,0,.5)}
 .du-fc img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none}
 .du-fc-back{width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:radial-gradient(ellipse at 50% 35%,#4a2f0a,#1a0f02);font-size:22px;color:rgba(255,190,110,.3)}
 .du-fc.def{transform:rotate(90deg);transform-origin:center}
@@ -653,7 +655,7 @@ button,input,select{font-family:inherit}
 .du-max-atk small{font-size:9px;font-weight:800;color:#ffca28;letter-spacing:1px}
 .du-lp-presets.level-mode .du-stat-preset:not([data-delta="reset"]){display:none}
 /* Card detail panel */
-.du-card-detail{width:220px;flex-shrink:0;display:flex;flex-direction:column;gap:6px;padding:10px 8px;background:var(--bg2);border-left:1px solid var(--border);overflow-y:auto;position:relative}
+.du-card-detail{width:280px;flex-shrink:0;display:flex;flex-direction:column;gap:6px;padding:10px 8px;background:var(--bg2);border-left:1px solid var(--border);overflow-y:auto;position:relative}
 .du-card-detail.hidden{display:none}
 .du-cd-close{position:absolute;top:6px;right:6px;background:none;border:none;color:var(--muted);cursor:pointer;font-size:14px;line-height:1;padding:2px}
 .du-cd-close:hover{color:var(--text)}
@@ -669,7 +671,7 @@ button,input,select{font-family:inherit}
 .du-cd-effect{color:var(--text);white-space:pre-wrap;word-break:break-word}
 /* hand */
 .du-hand-wrap{display:flex;align-items:flex-end;justify-content:center;gap:4px;padding:4px 8px 5px;background:rgba(28,19,7,0.55);border-top:1px solid rgba(255,255,255,.06);overflow-x:auto;flex-shrink:0;min-height:calc(var(--du-hh) + 12px)}
-.du-hc{width:var(--du-hw);height:var(--du-hh);border-radius:6px;overflow:hidden;flex-shrink:0;cursor:grab;transition:transform .15s,box-shadow .15s;background:#12121f;position:relative}
+.du-hc{width:var(--du-hw);height:var(--du-hh);border-radius:6px;overflow:hidden;flex-shrink:0;cursor:grab;transition:transform .15s,box-shadow .15s;background:#12121f;position:relative;touch-action:none}
 .du-hc:hover{transform:translateY(-10px);box-shadow:0 6px 20px rgba(255,158,44,.5);z-index:10}
 .du-hc img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none}
 .du-hc.dragging{opacity:.3}
@@ -1084,7 +1086,7 @@ button,input,select{font-family:inherit}
         <input id="ol-pseudo" class="ol-input" type="text" maxlength="20" placeholder="Enter your nickname…" autocomplete="off">
       </div>
       <div class="ol-actions">
-        <button id="ol-host-btn" class="btn-p">Héberger un duel</button>
+        <button id="ol-host-btn" class="btn-p">Host a duel</button>
         <div class="ol-separator">or</div>
         <div class="ol-field">
           <label for="ol-server-url">Host server URL</label>
@@ -1113,8 +1115,8 @@ button,input,select{font-family:inherit}
         <div class="ol-presence-title">Players</div>
         <div id="ol-presence-list"></div>
         <div id="ol-seat-controls" style="display:flex;gap:8px;margin-top:10px">
-          <button id="ol-sit-btn" class="btn-p" style="font-size:13px;padding:6px 14px">Prendre une place</button>
-          <button id="ol-stand-btn" class="btn-p" style="background:var(--bg3);border-color:var(--muted);color:var(--muted);font-size:13px;padding:6px 14px" hidden>Devenir spectateur</button>
+          <button id="ol-sit-btn" class="btn-p" style="font-size:13px;padding:6px 14px">Take a seat</button>
+          <button id="ol-stand-btn" class="btn-p" style="background:var(--bg3);border-color:var(--accent);color:var(--text);font-size:13px;padding:6px 14px" title="Available before a duel starts" hidden>Become spectator</button>
         </div>
       </div>
       <div class="ol-chat">
@@ -4385,7 +4387,7 @@ function _olRenderPresence(presence){
     dot.className = 'ol-player-dot offline';
     const name = document.createElement('span');
     name.className = 'ol-player-name';
-    name.textContent = players.length === 0 ? 'Aucun joueur pour le moment…' : 'En attente d\'un adversaire…';
+    name.textContent = players.length === 0 ? 'No players yet…' : 'Waiting for an opponent…';
     row.appendChild(dot);
     row.appendChild(name);
     el.appendChild(row);
@@ -4399,7 +4401,7 @@ function _olRenderPresence(presence){
     const name = document.createElement('span');
     name.className = 'ol-player-name';
     name.style.color = 'var(--muted)';
-    name.textContent = `👁 ${spectatorCount} spectateur${spectatorCount > 1 ? 's' : ''}`;
+    name.textContent = `👁 ${spectatorCount} spectator${spectatorCount > 1 ? 's' : ''}`;
     row.appendChild(dot);
     row.appendChild(name);
     el.appendChild(row);
@@ -4493,6 +4495,11 @@ async function _olEnsureSocket(){
     if(_olSocket._rushUrl === (_olServerUrl || null)) return true;
     _olSocket.disconnect();
     _olSocket = null;
+  } else if(_olSocket){
+    // A socket exists but is still connecting — tear it down so we never end up
+    // with two live sockets (each with a full handler set) firing duplicate work.
+    _olSocket.disconnect();
+    _olSocket = null;
   }
 
   try {
@@ -4552,7 +4559,7 @@ async function _olEnsureSocket(){
     const stand = _olEl('ol-stand-btn');
     if(sit) sit.hidden = true;
     if(stand) stand.hidden = false;
-    _olAppendSysMsg('Vous êtes maintenant joueur (siège ' + (seat + 1) + ').');
+    _olAppendSysMsg('You are now a player (seat ' + (seat + 1) + ').');
   });
 
   _olSocket.on('room:released', () => {
@@ -4567,7 +4574,7 @@ async function _olEnsureSocket(){
     const stand = _olEl('ol-stand-btn');
     if(sit) sit.hidden = false;
     if(stand) stand.hidden = true;
-    _olAppendSysMsg('Vous êtes maintenant spectateur.');
+    _olAppendSysMsg('You are now a spectator.');
   });
 
   _olSocket.on('room:error', ({ message }) => {
@@ -4606,6 +4613,7 @@ async function _olEnsureSocket(){
 
 function _duSetOppName(presence, mySeat){
   const players = Array.isArray(presence) ? presence : (presence && presence.players || []);
+  _duPresence = players; // cache for seat→name lookups in the duel log
   // Match by seat if available (new model), fall back to isHost heuristic.
   const opp = mySeat !== null
     ? players.find(p => p.seat !== undefined ? p.seat !== mySeat : (mySeat === 0 ? !p.isHost : p.isHost))
@@ -4615,10 +4623,21 @@ function _duSetOppName(presence, mySeat){
   if(el && window._duOppPseudo) el.textContent = window._duOppPseudo;
 }
 
+// Resolve a seat index (0/1) to a display name for the duel log. Uses the local
+// nickname for our own seat, the cached presence for the other seat, and sensible
+// fallbacks so the log never renders a blank name.
+function _duSeatName(seat){
+  if(seat === _duSeat) return _duMyPseudo || 'You';
+  const p = (_duPresence || []).find(x => x.seat === seat);
+  if(p && p.pseudo) return p.pseudo;
+  return window._duOppPseudo || 'Opponent';
+}
+
 // ── Actions ────────────────────────────────────────────────────────────────
 function _olHost(){
   const pseudo = _olEl('ol-pseudo').value.trim();
   if(!pseudo){ _olShowError('Enter a nickname (1–20 characters).'); return; }
+  _duMyPseudo = pseudo;
   _olServerUrl = null; // hosting is always local — clear any URL left by a prior Join
   _olClearError();
   _olEnsureSocket().then(ok => {
@@ -4635,6 +4654,7 @@ function _olJoin(){
   const rawUrl = _olEl('ol-server-url').value.trim();
   _olServerUrl = rawUrl ? rawUrl.replace(/\/+$/, '') : null;
   if(!pseudo){ _olShowError('Enter a nickname.'); return; }
+  _duMyPseudo = pseudo;
   if(code.length !== 6){ _olShowError('The room code must be exactly 6 characters.'); return; }
   _olClearError();
   _olEnsureSocket().then(ok => {
@@ -4667,7 +4687,11 @@ function _olLeave(){
   _duClearSession();
   if(_olSocket){ _olSocket.disconnect(); _olSocket = null; }
   _olRoomCode = null; _duSeat = null; _duToken = null; _duState = null;
-  _duBoardInited = false; _olListenersOn = false; _olIsSpectator = false;
+  // NB: _olListenersOn / _duBoardInited are NOT reset here — the lobby and board
+  // controls are static DOM that persists across leave/rejoin, so their click
+  // handlers stay bound. Resetting these re-bound every control on the next duel
+  // (draw fired twice, phase button skipped a step, etc.).
+  _olIsSpectator = false;
   _duSelectedDeck = null; _duBanlistEnforced = true; _duIsHost = false;
   _olServerUrl = null; // back to a clean local state for the next host/join
   for(const id of ['ol-messages','du-chat-msgs']){
@@ -4701,6 +4725,7 @@ function initOnline(){
   if(sess && sess.code && sess.token){
     if(sess.server) _olServerUrl = sess.server; // reconnect to the same remote host
     const storedPseudo = _olEl('ol-pseudo').value.trim() || 'Player';
+    _duMyPseudo = storedPseudo;
     _olEnsureSocket().then(ok => {
       if(ok) _olSocket.emit('room:join', { pseudo: storedPseudo, code: sess.code, token: sess.token });
     });
@@ -4733,6 +4758,8 @@ function initOnline(){
 // ── State ────────────────────────────────────────────────────────────────────
 let _duState          = null;  // last duel:state snapshot
 let _duSeat           = null;  // our seat (0 or 1)
+let _duMyPseudo       = null;  // our own nickname (for the duel log)
+let _duPresence       = [];    // latest presence array (seat→name lookups)
 let _duToken          = null;  // reconnect token
 let _duDragIid        = null;  // iid being dragged
 let _duDragSrcZone    = null;  // zone the dragged card came from
@@ -4763,35 +4790,14 @@ function _duUpdatePhaseBtn(){
 }
 
 // Enable/disable dragover on opponent monster slots for Battle Phase attack declarations
+// Battle phase affordance only: show a crosshair over the opponent's monster
+// slots. The actual attack drop is resolved by the pointer-drag system
+// (_duFindDrop → kind 'attack'), which works in any phase; the server validates.
 function _duToggleBattleTargets(enable){
   const row = _duEl('du-opp-m');
   if(!row) return;
   for(const slot of row.children){
-    if(enable){
-      if(!slot._battleBound){
-        slot._battleBound = true;
-        slot.addEventListener('dragover', e => { e.preventDefault(); slot.classList.add('drag-over'); e.dataTransfer.dropEffect='move'; });
-        slot.addEventListener('dragleave', ()=> slot.classList.remove('drag-over'));
-        slot.addEventListener('drop', e =>{
-          e.preventDefault(); slot.classList.remove('drag-over');
-          const iid = _duDragIid || e.dataTransfer.getData('text/plain');
-          if(!iid || !_duState) return;
-          // Find attacker name from own monsters
-          let attackerName = 'your monster';
-          for(const m of (_duState.self.monster||[])){
-            if(m && m.iid === iid){ attackerName = m.cardKey || 'your monster'; break; }
-          }
-          // Find defender name from opp slot
-          const slotIdx = Array.from(row.children).indexOf(slot);
-          const defender = _duState.opp.monster && _duState.opp.monster[slotIdx];
-          const defenderName = defender && !defender.hidden ? defender.cardKey : 'a face-down monster';
-          _duEmit('attack', { attackerIid: iid, defenderSlot: defender ? slotIdx : null });
-        });
-      }
-      slot.style.cursor = 'crosshair';
-    } else {
-      slot.style.cursor = '';
-    }
+    slot.style.cursor = enable ? 'crosshair' : '';
   }
 }
 
@@ -5085,9 +5091,7 @@ function _duRenderSlot(slotEl, cardData, isOwner, zone, slotIdx){
   if(!cardData){ return; }
   const fc = _duMkCardEl(cardData, isOwner, zone);
   if(isOwner){
-    fc.draggable = true;
-    fc.addEventListener('dragstart', e => _duOnDragStart(e, cardData.iid, zone));
-    fc.addEventListener('dragend',   _duOnDragEnd);
+    fc.addEventListener('pointerdown', e => _duBeginDrag(e, cardData.iid, zone, fc));
     fc.addEventListener('contextmenu', e => { e.preventDefault(); _duShowCtxField(e, cardData, zone, slotIdx); });
     fc.addEventListener('click', e => { if(e.detail===2) _duShowCtxField(e, cardData, zone, slotIdx); });
   } else {
@@ -5097,9 +5101,7 @@ function _duRenderSlot(slotEl, cardData, isOwner, zone, slotIdx){
     // represent taking control of it via a card effect (manual/trust-based,
     // like every other duel action — the app doesn't enforce why).
     if(zone === 'monster' && !_olIsSpectator){
-      fc.draggable = true;
-      fc.addEventListener('dragstart', e => _duOnDragStart(e, cardData.iid, 'oppMonster'));
-      fc.addEventListener('dragend',   _duOnDragEnd);
+      fc.addEventListener('pointerdown', e => _duBeginDrag(e, cardData.iid, 'oppMonster', fc));
     }
   }
   slotEl.appendChild(fc);
@@ -5116,11 +5118,8 @@ function _duBuildSlots(container, n, prefix, zone, isOwner){
     s.dataset.zone = zone;
     s.dataset.slot = i;
     s.dataset.owner = isOwner ? 'self' : 'opp';
-    if(isOwner){
-      s.addEventListener('dragover',  _duOnDragOver);
-      s.addEventListener('dragleave', _duOnDragLeave);
-      s.addEventListener('drop',      e => _duOnDrop(e, zone, i));
-    }
+    // Drops are resolved from the pointer position at release time (see
+    // _duFindDrop), so slots only need their data-owner/data-zone/data-slot tags.
     container.appendChild(s);
     slots.push(s);
   }
@@ -5328,11 +5327,6 @@ function _duRenderZones(self, opp){
   if(sf){
     sf.innerHTML = '';
     sf.dataset.zone='field'; sf.dataset.slot=0; sf.dataset.owner='self';
-    if(!_olIsSpectator){
-      sf.addEventListener('dragover', _duOnDragOver);
-      sf.addEventListener('dragleave', _duOnDragLeave);
-      sf.addEventListener('drop', e => _duOnDrop(e,'field',0));
-    }
     if(self.field[0]) _duRenderSlot(sf, self.field[0], !_olIsSpectator, 'field', 0);
     sf.classList.remove('in-targeted');
   }
@@ -5369,9 +5363,7 @@ function _duRenderHand(cards){
     const hc = document.createElement('div');
     hc.className = 'du-hc';
     hc.dataset.iid = c.iid;
-    hc.draggable = true;
-    hc.addEventListener('dragstart', e => _duOnDragStart(e, c.iid, 'hand'));
-    hc.addEventListener('dragend',   _duOnDragEnd);
+    hc.addEventListener('pointerdown', e => _duBeginDrag(e, c.iid, 'hand', hc));
     hc.addEventListener('contextmenu', e => { e.preventDefault(); _duShowCtxHand(e, c); });
     hc.addEventListener('click', e => { if(e.detail===2) _duShowCtxHand(e, c); });
     _duBindCardHover(hc, c);
@@ -5387,51 +5379,143 @@ function _duRenderHand(cards){
   }
 }
 
-// ── Drag and drop ─────────────────────────────────────────────────────────────
-function _duOnDragStart(e, iid, srcZone){
-  _duDragIid = iid;
-  _duDragSrcZone = srcZone || null;
-  e.currentTarget.classList.add('dragging');
-  e.dataTransfer.effectAllowed = 'move';
-  e.dataTransfer.setData('text/plain', iid);
+// ── Drag and drop (pointer-events based) ────────────────────────────────────
+// Native HTML5 DnD dropped silently on Linux/Chromium (CSS transforms on the
+// draggable cards break dragstart/drop). This pointer-based system works the
+// same on every platform (and on touch). A drag only starts after the pointer
+// moves past a small threshold, so plain clicks / double-clicks (which open the
+// context menus) and single-click draws still fire normally.
+const _DU_DRAG_THRESHOLD = 5; // px before a press becomes a drag
+
+// Begin a potential drag from `sourceEl`. `opts.onStart` (optional) runs once the
+// drag actually starts — used by the card viewer to hide its modal.
+function _duBeginDrag(e, iid, srcZone, sourceEl, opts){
+  if(e.button !== undefined && e.button !== 0) return; // left button / primary only
+  const startX = e.clientX, startY = e.clientY;
+  let active = false, ghost = null, lastTarget = null;
+
+  const clearHi = () => { if(lastTarget){ lastTarget.classList.remove('drag-over'); lastTarget = null; } };
+
+  const onMove = ev => {
+    if(!active){
+      if(Math.hypot(ev.clientX - startX, ev.clientY - startY) < _DU_DRAG_THRESHOLD) return;
+      active = true;
+      _duDragIid = iid; _duDragSrcZone = srcZone;
+      ghost = _duMakeDragGhost(sourceEl, ev);
+      sourceEl.classList.add('dragging');
+      if(srcZone === 'monster'){ const opp = _duEl('du-opp-side'); if(opp) opp.classList.add('atk-zone'); }
+      if(opts && opts.onStart) opts.onStart();
+    }
+    _duPositionGhost(ghost, ev);
+    const d = _duFindDrop(ev.clientX, ev.clientY, srcZone);
+    const tgt = d ? d.el : null;
+    if(tgt !== lastTarget){ clearHi(); if(tgt){ tgt.classList.add('drag-over'); lastTarget = tgt; } }
+  };
+  const onUp = ev => {
+    document.removeEventListener('pointermove', onMove, true);
+    document.removeEventListener('pointerup', onUp, true);
+    clearHi();
+    if(!active) return; // never crossed threshold → let the click/dblclick fire
+    if(ghost) ghost.remove();
+    sourceEl.classList.remove('dragging');
+    const opp = _duEl('du-opp-side'); if(opp) opp.classList.remove('atk-zone');
+    _duResolveDrop(ev.clientX, ev.clientY, iid, srcZone);
+    _duDragIid = null; _duDragSrcZone = null;
+  };
+  document.addEventListener('pointermove', onMove, true);
+  document.addEventListener('pointerup', onUp, true);
+}
+
+function _duMakeDragGhost(sourceEl, ev){
+  const r = sourceEl.getBoundingClientRect();
+  const g = sourceEl.cloneNode(true);
+  g.classList.add('du-drag-ghost');
+  g.classList.remove('dragging');
+  g.style.width = r.width + 'px';
+  g.style.height = r.height + 'px';
+  g._offX = ev.clientX - r.left;
+  g._offY = ev.clientY - r.top;
+  document.body.appendChild(g);
+  _duPositionGhost(g, ev);
+  return g;
+}
+function _duPositionGhost(g, ev){
+  if(!g) return;
+  g.style.transform = `translate(${ev.clientX - g._offX}px, ${ev.clientY - g._offY}px)`;
+}
+
+// Resolve the drop zone under a point into a descriptor { el, kind, ... }, or null.
+// `el` is the element to highlight; `kind` drives the action in _duResolveDrop.
+function _duFindDrop(x, y, srcZone){
+  const el = document.elementFromPoint(x, y);
+  if(!el) return null;
+  // Own field drop zones carry data-owner="self" + data-zone (monster/spellTrap/field).
+  const selfZone = el.closest('[data-owner="self"][data-zone]');
+  if(selfZone){
+    const raw = selfZone.dataset.slot;
+    return { el: selfZone, kind:'slot', zone: selfZone.dataset.zone,
+             slot: (raw !== undefined && raw !== '') ? +raw : undefined };
+  }
   if(srcZone === 'monster'){
-    const opp = _duEl('du-opp-side');
-    if(opp) opp.classList.add('atk-zone');
+    const oppMon = el.closest('[data-owner="opp"][data-zone="monster"]');
+    if(oppMon) return { el: oppMon, kind:'attack', slotIdx: +oppMon.dataset.slot };
+  }
+  const deck  = el.closest('#du-self-deck');  if(deck)  return { el:deck,  kind:'pile', zone:'deck', deckPos:'top' };
+  const gy    = el.closest('#du-self-gy');    if(gy)    return { el:gy,    kind:'pile', zone:'graveyard' };
+  const hand  = el.closest('#du-hand');       if(hand)  return { el:hand,  kind:'pile', zone:'hand' };
+  const extra = el.closest('#du-self-extra'); if(extra) return { el:extra, kind:'pile', zone:'extraDeck' };
+  if(srcZone === 'monster'){
+    const half = el.closest('#du-opp-side');  if(half)  return { el:half,  kind:'directAttack' };
+  }
+  return null;
+}
+
+// Perform the action for a drop at (x,y) given the dragged card + its source zone.
+function _duResolveDrop(x, y, iid, srcZone){
+  const d = _duFindDrop(x, y, srcZone);
+  if(!d) return;
+  if(d.kind === 'slot'){ _duHandleDrop(iid, srcZone, d.zone, d.slot, x, y); return; }
+  if(d.kind === 'attack'){
+    const defender = _duState && _duState.opp && _duState.opp.monster && _duState.opp.monster[d.slotIdx];
+    _duEmit('attack', { attackerIid: iid, defenderSlot: defender ? d.slotIdx : null });
+    return;
+  }
+  if(d.kind === 'pile'){
+    const payload = { iid, zone: d.zone };
+    if(d.deckPos) payload.deckPos = d.deckPos;
+    _duEmit('move', payload);
+    return;
+  }
+  if(d.kind === 'directAttack'){
+    let attackerKey = '';
+    for(const m of (_duState?.self?.monster || [])){ if(m && m.iid === iid){ attackerKey = m.cardKey || ''; break; } }
+    const label = attackerKey ? `⚔ Direct Attack with ${attackerKey}` : '⚔ Declare Direct Attack';
+    _duCtxShow(x, y, [
+      { label, fn:()=> _duEmit('attack', { attackerIid: iid, defenderSlot: null }) },
+      { label:'Cancel', fn:()=>{} },
+    ]);
   }
 }
-function _duOnDragEnd(e){
-  e.currentTarget.classList.remove('dragging');
-  const opp = _duEl('du-opp-side');
-  if(opp) opp.classList.remove('atk-zone');
-  _duDragIid = null;
-  _duDragSrcZone = null;
-}
-function _duOnDragOver(e){
-  e.preventDefault();
-  e.currentTarget.classList.add('drag-over');
-  e.dataTransfer.dropEffect = 'move';
-}
-function _duOnDragLeave(e){ e.currentTarget.classList.remove('drag-over'); }
-function _duOnDrop(e, zone, slot){
-  e.preventDefault();
-  e.currentTarget.classList.remove('drag-over');
-  const iid = _duDragIid || e.dataTransfer.getData('text/plain');
+
+// Drop of a card onto one of the player's own slot zones (or take-control of an
+// opponent monster dragged onto your monster zone). x/y position any follow-up menu.
+function _duHandleDrop(iid, srcZone, zone, slot, x, y){
   if(!iid) return;
   // Dragging an opponent's monster onto your own monster zone: take control of it.
-  if(_duDragSrcZone === 'oppMonster'){
+  if(srcZone === 'oppMonster'){
     if(zone !== 'monster') return;
     const oc = (_duState?.opp?.monster || []).find(c => c && c.iid === iid);
     const label = (oc && !oc.hidden && oc.cardKey) ? `Take control of "${oc.cardKey}"?` : 'Take control of this monster?';
-    _duConfirm(e.clientX, e.clientY, label, ()=> _duEmit('takeControl', { iid, slot }));
+    _duConfirm(x, y, label, ()=> _duEmit('takeControl', { iid, slot }));
     return;
   }
   // Rush Duel: a card already in a slot zone cannot be repositioned within the same zone type
-  if(_duDragSrcZone && _duDragSrcZone === zone && zone !== 'field') return;
+  if(srcZone && srcZone === zone && zone !== 'field') return;
   const payload = { iid, zone };
   if(slot !== undefined) payload.slot = slot;
   // Cards dropped onto a monster zone: ask position first
-  if(zone === 'monster' && (_duDragSrcZone === 'hand' || _duDragSrcZone === 'extraDeck' || _duDragSrcZone === 'graveyard')){
-    _duCtxShow(e.clientX, e.clientY, [
+  if(zone === 'monster' && (srcZone === 'hand' || srcZone === 'extraDeck' || srcZone === 'graveyard')){
+    _duCtxShow(x, y, [
       { label:'ATK (face-up)',       fn:()=> _duEmit('move', {...payload, position:'atk'}) },
       { label:'DEF (face-up)',       fn:()=> _duEmit('move', {...payload, position:'def'}) },
       { label:'Set (face-down DEF)', fn:()=> _duEmit('move', {...payload, position:'def', faceDown:true}) },
@@ -5439,94 +5523,14 @@ function _duOnDrop(e, zone, slot){
     return;
   }
   // Cards from hand dropped onto a spell/trap or field zone: ask activate or set
-  if((zone === 'spellTrap' || zone === 'field') && _duDragSrcZone === 'hand'){
-    _duCtxShow(e.clientX, e.clientY, [
+  if((zone === 'spellTrap' || zone === 'field') && srcZone === 'hand'){
+    _duCtxShow(x, y, [
       { label:'Activate (face-up)', fn:()=> _duEmit('move', {...payload}) },
       { label:'Set (face-down)',    fn:()=> _duEmit('move', {...payload, faceDown:true}) },
     ]);
     return;
   }
   _duEmit('move', payload);
-}
-
-// ── Deck zone: drop to send back to deck ─────────────────────────────────────
-function _duBindDeckDrop(){
-  const el = _duEl('du-self-deck');
-  if(!el || el._duDropBound) return;
-  el._duDropBound = true;
-  el.addEventListener('dragover',  _duOnDragOver);
-  el.addEventListener('dragleave', _duOnDragLeave);
-  el.addEventListener('drop', e => {
-    e.preventDefault(); e.currentTarget.classList.remove('drag-over');
-    const iid = _duDragIid||e.dataTransfer.getData('text/plain');
-    if(!iid) return;
-    _duEmit('move', { iid, zone:'deck', deckPos:'top' });
-  });
-  // GY: drop to send to graveyard
-  const gy = _duEl('du-self-gy');
-  if(gy && !gy._duDropBound){
-    gy._duDropBound = true;
-    gy.addEventListener('dragover',  _duOnDragOver);
-    gy.addEventListener('dragleave', _duOnDragLeave);
-    gy.addEventListener('drop', e => {
-      e.preventDefault(); e.currentTarget.classList.remove('drag-over');
-      const iid = _duDragIid||e.dataTransfer.getData('text/plain');
-      if(!iid) return;
-      _duEmit('move', { iid, zone:'graveyard' });
-    });
-  }
-  // Hand: drop to return card to hand
-  const hand = _duEl('du-hand');
-  if(hand && !hand._duDropBound){
-    hand._duDropBound = true;
-    hand.addEventListener('dragover',  _duOnDragOver);
-    hand.addEventListener('dragleave', _duOnDragLeave);
-    hand.addEventListener('drop', e => {
-      e.preventDefault(); e.currentTarget.classList.remove('drag-over');
-      const iid = _duDragIid||e.dataTransfer.getData('text/plain');
-      if(!iid) return;
-      _duEmit('move', { iid, zone:'hand' });
-    });
-  }
-  // Extra Deck: drop to send a card back to the Extra Deck (manual move)
-  const extra = _duEl('du-self-extra');
-  if(extra && !extra._duDropBound){
-    extra._duDropBound = true;
-    extra.addEventListener('dragover',  _duOnDragOver);
-    extra.addEventListener('dragleave', _duOnDragLeave);
-    extra.addEventListener('drop', e => {
-      e.preventDefault(); e.currentTarget.classList.remove('drag-over');
-      const iid = _duDragIid||e.dataTransfer.getData('text/plain');
-      if(!iid) return;
-      _duEmit('move', { iid, zone:'extraDeck' });
-    });
-  }
-
-  // Opponent half: drop anywhere beyond individual slots = direct attack declaration
-  const oppHalf = _duEl('du-opp-side');
-  if(oppHalf && !oppHalf._duAtkBound){
-    oppHalf._duAtkBound = true;
-    oppHalf.addEventListener('dragover', e => {
-      if(_duDragSrcZone === 'monster') e.preventDefault();
-    });
-    oppHalf.addEventListener('drop', e => {
-      if(_duDragSrcZone !== 'monster') return;
-      // If the drop landed on a real slot, pile, or card element, let that handler take it
-      if(e.target.closest && e.target.closest('.du-slot,.du-pile,.du-fc')) return;
-      e.preventDefault();
-      const iid = _duDragIid || e.dataTransfer.getData('text/plain');
-      if(!iid || !_duState) return;
-      let attackerKey = '';
-      for(const m of (_duState.self.monster || [])){
-        if(m && m.iid === iid){ attackerKey = m.cardKey || ''; break; }
-      }
-      const label = attackerKey ? `⚔ Direct Attack with ${attackerKey}` : '⚔ Declare Direct Attack';
-      _duCtxShow(e.clientX, e.clientY, [
-        { label, fn:()=> _duEmit('attack', { attackerIid: iid, defenderSlot: null }) },
-        { label:'Cancel', fn:()=>{} },
-      ]);
-    });
-  }
 }
 
 // ── Context menu ──────────────────────────────────────────────────────────────
@@ -5601,7 +5605,7 @@ function _duShowCtxHand(e, card){
   const items = [];
   // Maximum Summon (centre piece): drop into the middle zone + enable Maximum mode.
   if(_duIsMaxCenter(card)){
-    items.push({ label:'⭐ Maximum Summon (centre → Zone 2)', fn:()=>{
+    items.push({ label:'Maximum Summon (center → Zone 2)', fn:()=>{
       _duEmit('move',{iid:card.iid,zone:'monster',slot:1,position:'atk'});
       setTimeout(()=> _duEmit('maximum',{on:true}), 60);
     }});
@@ -5615,6 +5619,10 @@ function _duShowCtxHand(e, card){
     { label:'Set – Monster Zone 1 (DEF)', fn:()=> _duEmit('move',{iid:card.iid,zone:'monster',slot:0,position:'def',faceDown:true}) },
     { label:'Set – Monster Zone 2 (DEF)', fn:()=> _duEmit('move',{iid:card.iid,zone:'monster',slot:1,position:'def',faceDown:true}) },
     { label:'Set – Monster Zone 3 (DEF)', fn:()=> _duEmit('move',{iid:card.iid,zone:'monster',slot:2,position:'def',faceDown:true}) },
+    '---',
+    { label:'Activate – Spell/Trap Zone 1', fn:()=> _duEmit('move',{iid:card.iid,zone:'spellTrap',slot:0}) },
+    { label:'Activate – Spell/Trap Zone 2', fn:()=> _duEmit('move',{iid:card.iid,zone:'spellTrap',slot:1}) },
+    { label:'Activate – Spell/Trap Zone 3', fn:()=> _duEmit('move',{iid:card.iid,zone:'spellTrap',slot:2}) },
     '---',
     { label:'Set – Spell/Trap Zone 1', fn:()=> _duEmit('move',{iid:card.iid,zone:'spellTrap',slot:0,faceDown:true}) },
     { label:'Set – Spell/Trap Zone 2', fn:()=> _duEmit('move',{iid:card.iid,zone:'spellTrap',slot:1,faceDown:true}) },
@@ -5632,11 +5640,6 @@ function _duShowCtxHand(e, card){
 
 function _duShowCtxField(e, card, zone){
   const items = [];
-  // You can target your own field cards too (e.g. an effect that targets your monster).
-  if(zone === 'monster' || zone === 'spellTrap' || zone === 'field'){
-    items.push({ label:'🎯 Target', fn:()=> _duEmit('target',{iid:card.iid}) });
-    items.push('---');
-  }
   if(zone === 'monster'){
     if(card.faceDown){
       items.push({ label:'Flip Summon (face-up ATK)', fn:()=>{
@@ -5644,8 +5647,11 @@ function _duShowCtxField(e, card, zone){
         setTimeout(()=> _duEmit('position',{iid:card.iid,position:'atk'}), 60);
       }});
       items.push({ label:'Flip face-up (keep DEF)', fn:()=> _duEmit('flip',{iid:card.iid}) });
+      items.push({ label:'Target', fn:()=> _duEmit('target',{iid:card.iid}) });
     } else {
+      // Activate Effect is the most-used action for your own monster → keep it first.
       items.push({ label:'Activate Effect', fn:()=> _duEmit('activateEffect',{iid:card.iid}) });
+      items.push({ label:'Target', fn:()=> _duEmit('target',{iid:card.iid}) });
       if(card.position==='atk'){
         items.push({ label:'Change to DEF', fn:()=> _duEmit('position',{iid:card.iid,position:'def'}) });
       } else {
@@ -5661,8 +5667,10 @@ function _duShowCtxField(e, card, zone){
   } else if(zone === 'spellTrap' || zone === 'field'){
     if(card.faceDown){
       items.push({ label:'Flip / Activate', fn:()=> _duEmit('flip',{iid:card.iid}) });
+      items.push({ label:'Target',           fn:()=> _duEmit('target',{iid:card.iid}) });
     } else {
       items.push({ label:'Activate Effect', fn:()=> _duEmit('activateEffect',{iid:card.iid}) });
+      items.push({ label:'Target',              fn:()=> _duEmit('target',{iid:card.iid}) });
       items.push({ label:'Set face-down',       fn:()=> _duEmit('flip',{iid:card.iid,faceDown:true}) });
       items.push({ label:'Reveal to opponent',  fn:()=> _duEmit('reveal',{iid:card.iid}) });
     }
@@ -5681,9 +5689,20 @@ function _duShowCtxField(e, card, zone){
 
 function _duShowCtxOppField(e, card, zone){
   const name = (!card.hidden && card.cardKey) ? ` "${card.cardKey}"` : '';
-  _duCtxShow(e.clientX, e.clientY, [
+  const x = e.clientX, y = e.clientY;
+  const items = [
     { label:`Target${name}`, fn:()=> _duEmit('target', { iid: card.iid }) },
-  ]);
+  ];
+  // Take control of an opponent's monster into one of your monster zones.
+  if(zone === 'monster' && !_olIsSpectator){
+    const confLabel = `Take control of${name || ' this monster'}?`;
+    items.push('---');
+    for(let slot = 0; slot < 3; slot++){
+      items.push({ label:`Take control → Monster Zone ${slot+1}`,
+        fn:()=> _duConfirm(x, y, confLabel, ()=> _duEmit('takeControl', { iid: card.iid, slot })) });
+    }
+  }
+  _duCtxShow(x, y, items);
 }
 
 // ── Log display (routes to chat sidebar) ─────────────────────────────────────
@@ -5739,7 +5758,7 @@ let _duLastLogTs = 0;
 function _duLogEntry(entry){
   if(!entry || entry.ts === _duLastLogTs) return;
   _duLastLogTs = entry.ts;
-  const who = entry.seat === _duSeat ? 'You' : 'Opp';
+  const who = _duSeatName(entry.seat);
   let html = '';
   switch(entry.type){
     case 'draw':     html = `${who} drew ${entry.n} card${entry.n>1?'s':''}`; break;
@@ -5755,7 +5774,7 @@ function _duLogEntry(entry){
     case 'passTurn':
       _duTurnCount++; _duCombatState = null; _duTargetState = null;
       if(_duState) _duRenderZones(_duState.self, _duState.opp);
-      html = `${who} ended ${entry.seat === _duSeat ? 'your' : 'their'} turn`; break;
+      html = `${who} ended their turn`; break;
     case 'surrender':html = `${who} surrendered`; break;
     case 'attack': {
       _duCombatState = { attackerSeat: entry.seat, attackerIid: entry.attackerIid, defenderSlot: entry.defenderSlot };
@@ -5773,11 +5792,12 @@ function _duLogEntry(entry){
         if(dmg.note){
           html += `<br><span style="color:var(--muted);font-size:.85em">→ ${_duEscHtml(dmg.note)}</span>`;
         } else if(dmg.direct){
-          const victim = entry.seat === _duSeat ? 'Opp' : 'You';
+          const victim = _duSeatName(entry.seat === 0 ? 1 : 0); // the attacked player
           html += `<br><span style="color:#f0a830;font-size:.85em">→ Direct attack: ${_duEscHtml(victim)} takes <strong>${dmg.damage}</strong> damage</span>`;
         } else {
           const isAtkVictim = dmg.victim === 'atk';
-          const victim = (entry.seat === _duSeat) === isAtkVictim ? 'You' : 'Opp';
+          const victimSeat = isAtkVictim ? entry.seat : (entry.seat === 0 ? 1 : 0);
+          const victim = _duSeatName(victimSeat);
           html += `<br><span style="color:${isAtkVictim && entry.seat===_duSeat ? '#f44336' : '#f0a830'};font-size:.85em">→ ${_duEscHtml(victim)} takes <strong>${dmg.damage}</strong> damage</span>`;
         }
       }
@@ -5792,9 +5812,7 @@ function _duLogEntry(entry){
       if(_duState) _duRenderZones(_duState.self, _duState.opp);
       const tzl   = _DU_ZONE_LABEL[entry.targetZone] || entry.targetZone;
       const tSpan = entry.cardKey ? _duLogCardSpan(entry.cardKey) : 'a face-down card';
-      const ownLbl = ownerSeat === _duSeat
-        ? (entry.seat === _duSeat ? 'their own' : 'your')
-        : (entry.seat === _duSeat ? "opponent's" : 'their');
+      const ownLbl = ownerSeat === entry.seat ? 'their own' : `${_duSeatName(ownerSeat)}'s`;
       html = `${who} targeted ${tSpan} in ${ownLbl} ${tzl}`;
       break;
     }
@@ -5843,8 +5861,8 @@ function _duLogEntry(entry){
     case 'loadExtraDeck': html = `${who} loaded an extra deck (${entry.count} cards)`; break;
     case 'ready':         html = `${who} is ready`; break;
     case 'unready':       html = `${who} is no longer ready`; break;
-    case 'coinToss':      html = entry.tossWinner === _duSeat ? 'Coin toss: you won! Choose who goes first.' : 'Coin toss: opponent won — waiting for their choice.'; break;
-    case 'chooseFirst':   html = `${entry.startSeat === _duSeat ? 'You' : 'Opp'} will go first`; break;
+    case 'coinToss':      html = entry.tossWinner === _duSeat ? `Coin toss: ${_duSeatName(entry.tossWinner)} won! Choose who goes first.` : `Coin toss: ${_duSeatName(entry.tossWinner)} won — waiting for their choice.`; break;
+    case 'chooseFirst':   html = `${_duSeatName(entry.startSeat)} will go first`; break;
     case 'maximum':       html = `${who} toggled Maximum mode`; break;
     case 'excavate': {
       const spans = (entry.cardKeys || []).map(_duLogCardSpan).join(', ');
@@ -5887,7 +5905,7 @@ function _duLogEntry(entry){
 
 // ── GY / Deck viewer ───────────────────────────────────────────────────────────
 // cardActions: optional array of {label, fn(card)} — shown on right-click for each card
-// dragSrcZone: if set, cards become draggable from this zone (closes modal on dragstart)
+// dragSrcZone: if set, cards can be dragged (pointer) from this zone (closes modal on drag start)
 // persistent: when true, choosing an action removes that card from the viewer
 // and keeps the modal open until every card has been moved out (used for
 // "excavate", where the player resolves a pile of revealed cards one by one).
@@ -5930,16 +5948,10 @@ function _duShowViewer(title, cards, cardActions, dragSrcZone, persistent){
         });
       }
       if(dragSrcZone && c.iid){
-        d.draggable = true;
         d.style.cursor = 'grab';
-        d.addEventListener('dragstart', ev=>{
-          _duDragIid = c.iid;
-          _duDragSrcZone = dragSrcZone;
-          ev.dataTransfer.effectAllowed = 'move';
-          ev.dataTransfer.setData('text/plain', c.iid);
-          setTimeout(()=> _duEl('du-viewer-modal').classList.add('hidden'), 50);
-        });
-        d.addEventListener('dragend', ()=>{ _duDragIid = null; _duDragSrcZone = null; });
+        d.style.touchAction = 'none';
+        d.addEventListener('pointerdown', ev=> _duBeginDrag(ev, c.iid, dragSrcZone, d,
+          { onStart: ()=> _duEl('du-viewer-modal').classList.add('hidden') }));
       }
       grid.appendChild(d);
     }
@@ -6342,15 +6354,11 @@ function _duInitBoard(){
       if(_duState) _duRenderZones(_duState.self, _duState.opp);
     }
   });
-
-  // Deck drop binding
-  _duBindDeckDrop();
 }
 
 // ── Show board ────────────────────────────────────────────────────────────────
 function _duGoBoard(){
   _duInitBoard();
-  _duBindDeckDrop();
   _olShowView('board');
   document.getElementById('screen-online').classList.add('board-mode');
 }
