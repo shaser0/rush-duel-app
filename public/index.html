@@ -4618,6 +4618,7 @@ function _duSetOppName(presence, mySeat){
 function _olHost(){
   const pseudo = _olEl('ol-pseudo').value.trim();
   if(!pseudo){ _olShowError('Enter a nickname (1–20 characters).'); return; }
+  _olServerUrl = null; // hosting is always local — clear any URL left by a prior Join
   _olClearError();
   _olEnsureSocket().then(ok => {
     if(!ok) return;
@@ -4667,6 +4668,7 @@ function _olLeave(){
   _olRoomCode = null; _duSeat = null; _duToken = null; _duState = null;
   _duBoardInited = false; _olListenersOn = false; _olIsSpectator = false;
   _duSelectedDeck = null; _duBanlistEnforced = true; _duIsHost = false;
+  _olServerUrl = null; // back to a clean local state for the next host/join
   for(const id of ['ol-messages','du-chat-msgs']){
     const el = _duEl(id); if(el) el.innerHTML = '';
   }
