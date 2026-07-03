@@ -4761,8 +4761,6 @@ let _duSeat           = null;  // our seat (0 or 1)
 let _duMyPseudo       = null;  // our own nickname (for the duel log)
 let _duPresence       = [];    // latest presence array (seat→name lookups)
 let _duToken          = null;  // reconnect token
-let _duDragIid        = null;  // iid being dragged
-let _duDragSrcZone    = null;  // zone the dragged card came from
 let _duCtxIid         = null;  // iid with open context menu
 let _duSelectedDeck   = null;  // deck chosen in picker
 let _duReady          = false; // whether this seat has pressed Ready (toggle)
@@ -5396,11 +5394,21 @@ function _duBeginDrag(e, iid, srcZone, sourceEl, opts){
 
   const clearHi = () => { if(lastTarget){ lastTarget.classList.remove('drag-over'); lastTarget = null; } };
 
+  const cleanup = () => {
+    document.removeEventListener('pointermove', onMove, true);
+    document.removeEventListener('pointerup', onUp, true);
+    document.removeEventListener('pointercancel', onCancel, true);
+    clearHi();
+    if(active){
+      if(ghost) ghost.remove();
+      sourceEl.classList.remove('dragging');
+      const opp = _duEl('du-opp-side'); if(opp) opp.classList.remove('atk-zone');
+    }
+  };
   const onMove = ev => {
     if(!active){
       if(Math.hypot(ev.clientX - startX, ev.clientY - startY) < _DU_DRAG_THRESHOLD) return;
       active = true;
-      _duDragIid = iid; _duDragSrcZone = srcZone;
       ghost = _duMakeDragGhost(sourceEl, ev);
       sourceEl.classList.add('dragging');
       if(srcZone === 'monster'){ const opp = _duEl('du-opp-side'); if(opp) opp.classList.add('atk-zone'); }
@@ -5412,18 +5420,14 @@ function _duBeginDrag(e, iid, srcZone, sourceEl, opts){
     if(tgt !== lastTarget){ clearHi(); if(tgt){ tgt.classList.add('drag-over'); lastTarget = tgt; } }
   };
   const onUp = ev => {
-    document.removeEventListener('pointermove', onMove, true);
-    document.removeEventListener('pointerup', onUp, true);
-    clearHi();
-    if(!active) return; // never crossed threshold → let the click/dblclick fire
-    if(ghost) ghost.remove();
-    sourceEl.classList.remove('dragging');
-    const opp = _duEl('du-opp-side'); if(opp) opp.classList.remove('atk-zone');
-    _duResolveDrop(ev.clientX, ev.clientY, iid, srcZone);
-    _duDragIid = null; _duDragSrcZone = null;
+    const wasActive = active;
+    cleanup();
+    if(wasActive) _duResolveDrop(ev.clientX, ev.clientY, iid, srcZone); // else: a click — let it fire
   };
+  const onCancel = () => cleanup(); // interrupted (e.g. touch cancel) → drop nothing, no leak
   document.addEventListener('pointermove', onMove, true);
   document.addEventListener('pointerup', onUp, true);
+  document.addEventListener('pointercancel', onCancel, true);
 }
 
 function _duMakeDragGhost(sourceEl, ev){
@@ -5465,7 +5469,10 @@ function _duFindDrop(x, y, srcZone){
   const hand  = el.closest('#du-hand');       if(hand)  return { el:hand,  kind:'pile', zone:'hand' };
   const extra = el.closest('#du-self-extra'); if(extra) return { el:extra, kind:'pile', zone:'extraDeck' };
   if(srcZone === 'monster'){
-    const half = el.closest('#du-opp-side');  if(half)  return { el:half,  kind:'directAttack' };
+    // Direct attack: released over the opponent's half but not on any of their
+    // slots/piles/cards (those are handled above or are not valid drop targets).
+    const half = el.closest('#du-opp-side');
+    if(half && !el.closest('.du-slot,.du-pile,.du-fc')) return { el:half, kind:'directAttack' };
   }
   return null;
 }
@@ -5476,6 +5483,10 @@ function _duResolveDrop(x, y, iid, srcZone){
   if(!d) return;
   if(d.kind === 'slot'){ _duHandleDrop(iid, srcZone, d.zone, d.slot, x, y); return; }
   if(d.kind === 'attack'){
+    // Match the old UI: attacking a specific opponent monster is a Battle-Phase
+    // action. Outside battle, a monster dropped on an opp slot does nothing
+    // (prevents accidental attacks while repositioning).
+    if(_duPhase !== 'battle') return;
     const defender = _duState && _duState.opp && _duState.opp.monster && _duState.opp.monster[d.slotIdx];
     _duEmit('attack', { attackerIid: iid, defenderSlot: defender ? d.slotIdx : null });
     return;
