@@ -151,7 +151,8 @@ Déclenché automatiquement sur tout push d'un tag `vX.Y.Z`.
    - Copie `data/` et `README.md` dans `dist/`
    - Crée les archives `rush-app-win.zip`, `rush-app-linux.tar.gz`, `rush-app-macos.tar.gz`
    - **Génère `dist/checksums.sha256`** avec les hashes SHA-256 des trois binaires
-5. Création de la GitHub Release avec `generate_release_notes: true` et upload de :
+5. **Extraction du changelog** : le **corps** du message du commit taggé est utilisé comme corps de la release (convention — voir Étape 2). Si ce corps est vide (sujet seul, comme pour v1.5.3), un changelog est **synthétisé automatiquement** : sujet du commit taggé + liste à puces des commits depuis le tag précédent.
+6. Création de la GitHub Release avec `generate_release_notes: true` (qui ajoute le lien « Full Changelog » **après** le corps) et upload de :
    - `rush-app-win.exe` + `rush-app-win.zip`
    - `rush-app-linux` + `rush-app-linux.tar.gz`
    - `rush-app-macos` + `rush-app-macos.tar.gz`
@@ -179,13 +180,20 @@ git commit -m "chore: bump data version to X"
 
 ### Étape 2 — Bumper la version de l'application
 
-Éditer `package.json` pour mettre à jour `"version"` :
+Éditer `package.json` pour mettre à jour `"version"`, puis committer en mettant un **changelog complet dans le corps du message** : le workflow CI utilise ce corps comme corps de la release GitHub (convention — voir le commit `1252cac`).
 
 ```bash
 # éditer package.json : "version": "X.Y.Z"
 git add package.json
-git commit -m "chore: bump app version to X.Y.Z"
+git commit -m "chore(release): bump to vX.Y.Z — résumé court" -m "$(cat <<'EOF'
+Section :
+- point 1
+- point 2
+EOF
+)"
 ```
+
+> **Si le corps du commit est vide** (sujet seul), la release n'est plus cassée pour autant : le workflow synthétise automatiquement un changelog à partir du sujet du commit taggé + la liste des commits depuis le tag précédent. Fournir un vrai corps reste préférable — un résumé rédigé vaut mieux que la liste brute des sujets de commit.
 
 ### Étape 3 — Pousser le tag
 

@@ -19,6 +19,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Full history + all tags: the changelog fallback below needs the
+          # parent commit and the previous tag to build a commit-range list.
+          fetch-depth: 0
 
       - name: Set up Node 22
         uses: actions/setup-node@v4
@@ -54,16 +58,37 @@ jobs:
       # generate_release_notes has nothing to summarize and falls back to a
       # bare "Full Changelog: <compare link>" with no actual content. Use the
       # version-bump commit's message as the real release body instead — by
-      # convention that commit already carries a full changelog (see e.g.
-      # 1252cac) — generate_release_notes below just appends the compare
-      # link after it.
+      # convention that commit already carries a full changelog in its body
+      # (see e.g. 1252cac) — generate_release_notes below just appends the
+      # compare link after it.
+      #
+      # Fallback: if the tagged commit has no body (only a subject line, as
+      # happened for v1.5.3), synthesize a changelog from the tagged commit's
+      # subject plus a bullet list of every commit since the previous tag, so
+      # the release is never published with just a compare link.
       - name: Extract changelog from the tagged commit
         id: changelog
         run: |
+          TAG="${{ github.ref_name }}"
           delim="EOF_$(date +%s)_$$"
+          body="$(git log -1 --format=%b "$TAG")"
           {
             echo "body<<$delim"
-            git log -1 --format=%B "${{ github.ref_name }}"
+            if [ -n "$(printf '%s' "$body" | tr -d '[:space:]')" ]; then
+              # Version-bump commit carries a full changelog — use it verbatim.
+              git log -1 --format=%B "$TAG"
+            else
+              # No body: header = tagged commit's subject; bullets = commits
+              # since the previous tag, excluding the bump commit itself (TAG^).
+              prev="$(git describe --tags --abbrev=0 "${TAG}^" 2>/dev/null || true)"
+              git log -1 --format='%s' "$TAG"
+              echo
+              if [ -n "$prev" ]; then
+                git log --format='- %s' "${prev}..${TAG}^"
+              else
+                git log --format='- %s' "${TAG}^"
+              fi
+            fi
             echo "$delim"
           } >> "$GITHUB_OUTPUT"
 
