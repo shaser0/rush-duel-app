@@ -4765,11 +4765,13 @@
     "name_es": null,
     "attribute": "DARK",
     "types": "Celestial Warrior / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 2600,
     "def": 2400,
     "maximum_atk": null,
-    "materials": "\"Ciela the Skysavior Knight\" + \"Lua the Skysavior Angel\"",
+    "materials": "\"Ciela, the Knight of Skysavior\" + \"Lua, the Fairy of Skysavior\"",
     "condition": null,
     "effect_types": "Continuous",
     "requirement": "None",
@@ -4820,11 +4822,9 @@
       "Skysavior"
     ],
     "password": null,
-    "title": "Altierra the Skysavior Transience",
-    "_wiki_ts": "2026-04-10T16:28:04Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Altierra the Skysavior Transience",
+    "_wiki_ts": "2026-07-03T08:32:44Z",
     "card_schema_version": 1,
     "raw_name_en": "Altierra the Skysavior Transience"
   },
@@ -24529,11 +24529,13 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Celestial Warrior / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 2400,
     "def": 2200,
     "maximum_atk": null,
-    "materials": "\"Claymont the Skysavior Advisor\" + \"Soleil the Skysavior Angel\"",
+    "materials": "\"Claymont the Skysavior Advisor\" + \"Soleil, the Fairy of Skysavior\"",
     "condition": null,
     "effect_types": "Multi-Choice",
     "requirement": "During your Main Phase that you Special Summoned this card, send the top card of your Deck to the Graveyard.",
@@ -24558,11 +24560,9 @@
       "Skysavior"
     ],
     "password": null,
-    "title": "Chartres the Skysavior Shining Light",
-    "_wiki_ts": "2026-04-10T16:26:57Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Chartres the Skysavior Shining Light",
+    "_wiki_ts": "2026-07-03T08:32:34Z",
     "card_schema_version": 1,
     "raw_name_en": "Chartres the Skysavior Shining Light"
   },
@@ -25836,7 +25836,7 @@
     "raw_name_en": "Chu-Ske the Mouse Fighter (Rush Duel)"
   },
   {
-    "name_en": "Ciela the Skysavior Knight",
+    "name_en": "Ciela, the Knight of Skysavior",
     "name_ja": "蒼救騎士 シエーラ",
     "name_ja_romaji": "Sōkyūkishi Shiēra",
     "name_ko": "창구기사 시에라",
@@ -25846,6 +25846,8 @@
     "name_es": null,
     "attribute": "WATER",
     "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1100,
     "def": 1200,
@@ -25853,13 +25855,13 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "Reveal up to 5 Celestial Warrior Type monsters with different names in your Extra Deck.",
-    "effect": "Make 1 face-up monster on your opponent's field lose ATK equal to [the number of monsters revealed to meet the requirement] x 200 until the end of this turn. This turn, you can only attack with Celestial Warrior, Warrior, and/or Fairy Type monsters.",
+    "requirement": "Reveal up to 5 Celestial Warrior Type monsters with different names from your Extra Deck to your opponent.",
+    "effect": "Make 1 face-up monster on your opponent's field lose ATK equal to [the number of monsters revealed to meet the requirement] x 200 until the end of this turn. This turn, you can only attack with Celestial Warrior, Warrior, and Fairy Type monsters.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "CielatheSkysaviorKnight-RDORP4-JP-C.png"
+        "file": "CielatheKnightofSkysavior-RDORP4-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -25896,13 +25898,14 @@
       "Skysavior"
     ],
     "password": null,
-    "title": "Ciela the Skysavior Knight",
-    "_wiki_ts": "2026-04-10T16:35:39Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Ciela, the Knight of Skysavior",
+    "_wiki_ts": "2026-07-03T08:18:53Z",
     "card_schema_version": 1,
-    "raw_name_en": "Ciela the Skysavior Knight"
+    "former_titles": [
+      "Ciela the Skysavior Knight"
+    ],
+    "raw_name_en": "Ciela, the Knight of Skysavior"
   },
   {
     "name_en": "Civil Twirider",
@@ -31592,11 +31595,13 @@
     "name_es": null,
     "attribute": "DARK",
     "types": "Celestial Warrior / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 2400,
     "def": 2800,
     "maximum_atk": null,
-    "materials": "\"Claymont the Skysavior Advisor\" + \"Lua the Skysavior Angel\"",
+    "materials": "\"Claymont the Skysavior Advisor\" + \"Lua, the Fairy of Skysavior\"",
     "condition": null,
     "effect_types": "Continuous",
     "requirement": "None",
@@ -31621,11 +31626,9 @@
       "Skysavior"
     ],
     "password": null,
-    "title": "Cuilades the Skysavior Dismal Dark",
-    "_wiki_ts": "2026-04-10T16:27:07Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Cuilades the Skysavior Dismal Dark",
+    "_wiki_ts": "2026-07-03T08:32:45Z",
     "card_schema_version": 1,
     "raw_name_en": "Cuilades the Skysavior Dismal Dark"
   },
@@ -38909,7 +38912,7 @@
     ],
     "password": null,
     "title": "Darkness Phantomite",
-    "_wiki_ts": "2024-12-05T20:43:00Z",
+    "_wiki_ts": "2026-07-02T16:42:57Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -45177,7 +45180,7 @@
     "raw_name_en": "Digisoon the Music Fiend"
   },
   {
-    "name_en": "Digrace the Skysavior Radiance",
+    "name_en": "Degrace, the Flash Skysavior",
     "name_ja": "蒼救の一閃 ディグレイス",
     "name_ja_romaji": "Sōkyū no Issen Digureisu",
     "name_ko": "창구의 일섬 디그레이스",
@@ -45187,11 +45190,13 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Celestial Warrior / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 2700,
     "def": 1700,
     "maximum_atk": null,
-    "materials": "\"Dunkes the Skysavior Knight\" + \"Soleil the Skysavior Angel\"",
+    "materials": "\"Dankus, the Knight of Skysavior\" + \"Soleil, the Fairy of Skysavior\"",
     "condition": null,
     "effect_types": "Multi-Choice",
     "requirement": "Send the top card of your Deck to the Graveyard.",
@@ -45200,7 +45205,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DigracetheSkysaviorRadiance-RDORP4-JP-C.png"
+        "file": "DegracetheFlashSkysavior-RDORP4-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -45227,13 +45232,14 @@
       "Skysavior"
     ],
     "password": null,
-    "title": "Digrace the Skysavior Radiance",
-    "_wiki_ts": "2026-04-10T16:27:19Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Degrace, the Flash Skysavior",
+    "_wiki_ts": "2026-07-03T12:19:44Z",
     "card_schema_version": 1,
-    "raw_name_en": "Digrace the Skysavior Radiance"
+    "former_titles": [
+      "Digrace the Skysavior Radiance"
+    ],
+    "raw_name_en": "Degrace, the Flash Skysavior"
   },
   {
     "name_en": "Digracheon the Skysavior Radiaknight",
@@ -45246,11 +45252,13 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Celestial Warrior / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 10,
     "atk": 3000,
     "def": 2000,
     "maximum_atk": null,
-    "materials": "1 WATER Attribute Warrior Type monster + \"Soleil the Skysavior Angel\" + \"Soul of the Skysavior Angel\"",
+    "materials": "1 WATER Attribute Warrior Type monster + \"Soleil, the Fairy of Skysavior\" + \"Soul of the Skysavior Angel\"",
     "condition": null,
     "effect_types": "Multi-Choice",
     "requirement": "Send the top card of your Deck to the Graveyard.",
@@ -45275,11 +45283,9 @@
       "Skysavior"
     ],
     "password": null,
-    "title": "Digracheon the Skysavior Radiaknight",
-    "_wiki_ts": "2026-04-10T16:26:47Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Digracheon the Skysavior Radiaknight",
+    "_wiki_ts": "2026-07-03T08:41:34Z",
     "card_schema_version": 1,
     "raw_name_en": "Digracheon the Skysavior Radiaknight"
   },
@@ -50368,7 +50374,7 @@
     "raw_name_en": "Drowning Mirror Force (Rush Duel)"
   },
   {
-    "name_en": "Drukmoor the Skysavior Phantom",
+    "name_en": "Dulkmua, the Phantom Skysavior",
     "name_ja": "蒼救の幻影 ドルクムーア",
     "name_ja_romaji": "Sōkyū no Gen'ei Dorukumūa",
     "name_ko": "창구의 환영 도르크무아",
@@ -50378,11 +50384,13 @@
     "name_es": null,
     "attribute": "DARK",
     "types": "Celestial Warrior / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 2900,
     "def": 2500,
     "maximum_atk": null,
-    "materials": "\"Dunkes the Skysavior Knight\" + \"Lua the Skysavior Angel\"",
+    "materials": "\"Dankus, the Knight of Skysavior\" + \"Lua, the Fairy of Skysavior\"",
     "condition": null,
     "effect_types": "Continuous",
     "requirement": "None",
@@ -50391,7 +50399,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DrukmoortheSkysaviorPhantom-RDORP4-JP-C.png"
+        "file": "DulkmuathePhantomSkysavior-RDORP4-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -50418,13 +50426,14 @@
       "Skysavior"
     ],
     "password": null,
-    "title": "Drukmoor the Skysavior Phantom",
-    "_wiki_ts": "2026-04-10T16:27:30Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Dulkmua, the Phantom Skysavior",
+    "_wiki_ts": "2026-07-03T12:20:11Z",
     "card_schema_version": 1,
-    "raw_name_en": "Drukmoor the Skysavior Phantom"
+    "former_titles": [
+      "Drukmoor the Skysavior Phantom"
+    ],
+    "raw_name_en": "Dulkmua, the Phantom Skysavior"
   },
   {
     "name_en": "Dual Coratlus",
@@ -50627,7 +50636,7 @@
     "raw_name_en": "Duel Marker (Soleil the Skysavior Angel)"
   },
   {
-    "name_en": "Dunkes the Skysavior Knight",
+    "name_en": "Dankus, the Knight of Skysavior",
     "name_ja": "蒼救騎士 ダンクス",
     "name_ja_romaji": "Sōkyūkishi Dankusu",
     "name_ko": "창구기사 댄크스",
@@ -50637,6 +50646,8 @@
     "name_es": null,
     "attribute": "WATER",
     "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1300,
     "def": 700,
@@ -50644,13 +50655,13 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "Reveal up to 5 Celestial Warrior Type monsters with different names in your Extra Deck.",
-    "effect": "This card gains ATK equal to [the number of monsters revealed to meet the requirement] x 200 until the end of this turn. This turn, this card cannot attack directly, and you can only attack with Celestial Warrior, Warrior, and/or Fairy Type monsters.",
+    "requirement": "Reveal up to 5 Celestial Warrior Type monsters with different names from your Extra Deck to your opponent.",
+    "effect": "This card gains ATK equal to [the number of monsters revealed to meet the requirement] x 200 until the end of this turn. This turn, this card cannot attack directly, and you can only attack with Celestial Warrior, Warrior, and Fairy Type monsters.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "DunkestheSkysaviorKnight-RDORP4-JP-C.png"
+        "file": "DankustheKnightofSkysavior-RDORP4-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -50677,13 +50688,14 @@
       "Skysavior"
     ],
     "password": null,
-    "title": "Dunkes the Skysavior Knight",
-    "_wiki_ts": "2026-04-10T16:35:28Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Dankus, the Knight of Skysavior",
+    "_wiki_ts": "2026-07-03T08:21:46Z",
     "card_schema_version": 1,
-    "raw_name_en": "Dunkes the Skysavior Knight"
+    "former_titles": [
+      "Dunkes the Skysavior Knight"
+    ],
+    "raw_name_en": "Dankus, the Knight of Skysavior"
   },
   {
     "name_en": "Duordoll the Adorable Star",
@@ -67302,7 +67314,7 @@
     "raw_name_en": "Galaxy Topping Troll"
   },
   {
-    "name_en": "Galflare the Skysavior Shine",
+    "name_en": "Gulflare, the Skysavior",
     "name_ja": "蒼救の光耀 ガルフレア",
     "name_ja_romaji": "Sōkyū no Kōyō Garufurea",
     "name_ko": "창구의 광요 갈플레어",
@@ -67312,20 +67324,22 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Celestial Warrior / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 2600,
     "def": 2100,
     "maximum_atk": null,
-    "materials": "\"Ranga the Skysavior Knight\" + \"Soleil the Skysavior Angel\"",
+    "materials": "\"Langa, the Knight of Skysavior\" + \"Soleil, the Fairy of Skysavior\"",
     "condition": null,
     "effect_types": "Multi-Choice",
     "requirement": "Place 1 card from your hand on the bottom of the Deck.",
-    "effect": "●Shuffle cards from your opponent's Graveyard into the Deck, up to [the number of face-up Celestial Warrior Type monsters on your field] x 2. ●Add 1 Level 4 or lower LIGHT or DARK Attribute monster or 1 \"Skysavior Wish\" from your Graveyard to your hand.",
+    "effect": "● Shuffle cards from your opponent's Graveyard into the Deck, up to [the number of face-up Celestial Warrior Type monsters on your field] x 2. ● Add 1 Level 4 or lower LIGHT or DARK Attribute monster or 1 \"Wish of the Skysavior\" from your Graveyard to your hand.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "GalflaretheSkysaviorShine-RDORP4-JP-C.png"
+        "file": "GulflaretheSkysavior-RDORP4-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -67352,13 +67366,14 @@
       "Skysavior"
     ],
     "password": null,
-    "title": "Galflare the Skysavior Shine",
-    "_wiki_ts": "2026-04-10T16:28:27Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Gulflare, the Skysavior",
+    "_wiki_ts": "2026-07-03T12:20:38Z",
     "card_schema_version": 1,
-    "raw_name_en": "Galflare the Skysavior Shine"
+    "former_titles": [
+      "Galflare the Skysavior Shine"
+    ],
+    "raw_name_en": "Gulflare, the Skysavior"
   },
   {
     "name_en": "Gamabot",
@@ -92542,6 +92557,8 @@
     "name_es": null,
     "attribute": "DARK",
     "types": "Fairy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 1800,
     "def": 2300,
@@ -92550,7 +92567,7 @@
     "condition": "You can Tribute Summon this card in Attack Position by Tributing 1 WATER Attribute Warrior Type monster or 1 Fairy Type monster.",
     "effect_types": null,
     "requirement": "During the turn you Normal Summoned this card.",
-    "effect": "Add up to 2 \"Soleil the Skysavior Angel\", \"Lua the Skysavior Angel\", and/or \"Fusion\" from your Graveyard to your hand. Then, you can send 1 monster from your field to the Graveyard.",
+    "effect": "Add up to 2 \"Soleil, the Fairy of Skysavior\", \"Lua, the Fairy of Skysavior\", and/or \"Fusion\" from your Graveyard to your hand. Then, you can send 1 monster from your field to the Graveyard.",
     "flavor_text": null,
     "images": [
       {
@@ -92571,11 +92588,9 @@
       "Skysavior"
     ],
     "password": null,
-    "title": "Limlith the Skysavior Princess",
-    "_wiki_ts": "2026-04-13T14:03:46Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Limlith the Skysavior Princess",
+    "_wiki_ts": "2026-07-03T08:41:47Z",
     "card_schema_version": 1,
     "raw_name_en": "Limlith the Skysavior Princess"
   },
@@ -94052,7 +94067,7 @@
     "raw_name_en": "Lovely Ángel"
   },
   {
-    "name_en": "Lua the Skysavior Angel",
+    "name_en": "Lua, the Fairy of Skysavior",
     "name_ja": "蒼救天使 ルーア",
     "name_ja_romaji": "Sōkyūtenshi Rūa",
     "name_ko": "창구천사 루아",
@@ -94062,6 +94077,8 @@
     "name_es": null,
     "attribute": "DARK",
     "types": "Fairy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 1,
     "atk": 0,
     "def": 1000,
@@ -94069,17 +94086,17 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "Reveal 1 Warrior Type monster in your hand.",
-    "effect": "This turn, this card's name becomes \"Soleil the Skysavior Angel\". Then, send the top 3 cards of your Deck to the Graveyard. Then, you can add to your hand 1 \"Fusion\" from among the cards sent.",
+    "requirement": "Reveal 1 Warrior Type monster from your hand to your opponent.",
+    "effect": "This turn, this card's name becomes \"Soleil, the Fairy of Skysavior\". Then, send the top 3 cards of your Deck to the Graveyard. You can also add 1 \"Fusion\" from the cards sent to the Graveyard by this effect to your hand.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "LuatheSkysaviorAngel-RDORP4-JP-C.png"
+        "file": "LuatheFairyofSkysavior-RDORP4-JP-C.png"
       },
       {
         "artwork": 2,
-        "file": "LuatheSkysaviorAngel-RDORP4-JP-ORR.png"
+        "file": "LuatheFairyofSkysavior-RDORP4-JP-ORR.png"
       }
     ],
     "sets_jp": [
@@ -94116,13 +94133,14 @@
       "Skysavior"
     ],
     "password": null,
-    "title": "Lua the Skysavior Angel",
-    "_wiki_ts": "2026-04-10T16:19:58Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Lua, the Fairy of Skysavior",
+    "_wiki_ts": "2026-07-03T08:05:39Z",
     "card_schema_version": 1,
-    "raw_name_en": "Lua the Skysavior Angel"
+    "former_titles": [
+      "Lua the Skysavior Angel"
+    ],
+    "raw_name_en": "Lua, the Fairy of Skysavior"
   },
   {
     "name_en": "Lucky Mask of Omens",
@@ -96564,6 +96582,8 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Wyrm / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1600,
     "def": 1200,
@@ -96577,7 +96597,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MagmaDragon-RDSJMP-JP-OP.png"
+        "file": "MagmaDragon-RDSJMP-JP-NPR.png"
       }
     ],
     "sets_jp": [
@@ -96591,11 +96611,9 @@
     "database_id": "23322",
     "archseries": [],
     "password": null,
-    "title": "Magma Dragon",
-    "_wiki_ts": "2026-06-02T22:02:18Z",
     "is_legend": true,
-    "card_type": null,
-    "property": null,
+    "title": "Magma Dragon",
+    "_wiki_ts": "2026-07-03T10:30:01Z",
     "card_schema_version": 1,
     "raw_name_en": "Magma Dragon (Rush Duel)"
   },
@@ -108086,11 +108104,13 @@
     "name_es": null,
     "attribute": "DARK",
     "types": "Celestial Warrior / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 2800,
     "def": 2300,
     "maximum_atk": null,
-    "materials": "\"Seir the Skysavior Knight\" + \"Lua the Skysavior Angel\"",
+    "materials": "\"Sael, the Knight of Skysavior\" + \"Lua, the Fairy of Skysavior\"",
     "condition": null,
     "effect_types": "Continuous",
     "requirement": "None",
@@ -108126,11 +108146,9 @@
       "Skysavior"
     ],
     "password": null,
-    "title": "Nelkrita the Skysavior Hadal",
-    "_wiki_ts": "2026-03-23T18:47:20Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Nelkrita the Skysavior Hadal",
+    "_wiki_ts": "2026-07-03T08:32:47Z",
     "card_schema_version": 1,
     "raw_name_en": "Nelkrita the Skysavior Hadal"
   },
@@ -117551,7 +117569,7 @@
       {
         "code": "RD/AP03-JP060",
         "name": "Advance Pack: Union Base",
-        "rarity": "Over Rush Rare"
+        "rarity": "Common, Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -117568,7 +117586,7 @@
     "password": null,
     "is_legend": false,
     "title": "Pliage the Stylish Sacred Shooting Star",
-    "_wiki_ts": "2026-06-29T02:51:28Z",
+    "_wiki_ts": "2026-07-03T12:23:01Z",
     "card_schema_version": 1,
     "raw_name_en": "Pliage the Stylish Sacred Shooting Star"
   },
@@ -123794,7 +123812,7 @@
     "raw_name_en": "Rampaging Machine Headhorn"
   },
   {
-    "name_en": "Ranga the Skysavior Knight",
+    "name_en": "Langa, the Knight of Skysavior",
     "name_ja": "蒼救騎士 ランガ",
     "name_ja_romaji": "Sōkyūkishi Ranga",
     "name_ko": "창구기사 란가",
@@ -123804,6 +123822,8 @@
     "name_es": null,
     "attribute": "WATER",
     "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 2,
     "atk": 400,
     "def": 400,
@@ -123811,13 +123831,13 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "During the turn you Normal Summoned this card, reveal 1 \"Skysavior Prayer\" or \"Fusion\" in your hand.",
-    "effect": "Special Summon 1 \"Soleil the Skysavior Angel\" or \"Lua the Skysavior Angel\" from your Graveyard face-up to your field.",
+    "requirement": "During the turn you Normal Summoned this card, reveal 1 \"Skysavior Prayer\" or \"Fusion\" from your hand to your opponent.",
+    "effect": "Special Summon 1 \"Soleil, the Fairy of Skysavior\" or \"Lua, the Fairy of Skysavior\" from your Graveyard face-up to your field.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "RangatheSkysaviorKnight-RDORP4-JP-C.png"
+        "file": "LangatheKnightofSkysavior-RDORP4-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -123844,13 +123864,14 @@
       "Skysavior"
     ],
     "password": null,
-    "title": "Ranga the Skysavior Knight",
-    "_wiki_ts": "2026-04-10T16:29:26Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Langa, the Knight of Skysavior",
+    "_wiki_ts": "2026-07-03T08:09:08Z",
     "card_schema_version": 1,
-    "raw_name_en": "Ranga the Skysavior Knight"
+    "former_titles": [
+      "Ranga the Skysavior Knight"
+    ],
+    "raw_name_en": "Langa, the Knight of Skysavior"
   },
   {
     "name_en": "Rapid Carriearth",
@@ -132605,11 +132626,13 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Celestial Warrior / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 2600,
     "def": 2000,
     "maximum_atk": null,
-    "materials": "\"Seir the Skysavior Knight\" + \"Soleil the Skysavior Angel\"",
+    "materials": "\"Sael, the Knight of Skysavior\" + \"Soleil, the Fairy of Skysavior\"",
     "condition": null,
     "effect_types": "Multi-Choice",
     "requirement": "Show 1 other card from your hand or field, and place it on the bottom of the owner's Deck.",
@@ -132634,11 +132657,9 @@
       "Skysavior"
     ],
     "password": null,
-    "title": "Sanmarth the Skysavior Bright Brilliance",
-    "_wiki_ts": "2026-04-10T16:28:16Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Sanmarth the Skysavior Bright Brilliance",
+    "_wiki_ts": "2026-07-03T08:32:39Z",
     "card_schema_version": 1,
     "raw_name_en": "Sanmarth the Skysavior Bright Brilliance"
   },
@@ -134909,7 +134930,7 @@
     "raw_name_en": "Seedchrotron Brusselun"
   },
   {
-    "name_en": "Seir the Skysavior Knight",
+    "name_en": "Sael, the Knight of Skysavior",
     "name_ja": "蒼救騎士 セイル",
     "name_ja_romaji": "Sōkyūkishi Seiru",
     "name_ko": "창구기사 세일",
@@ -134919,6 +134940,8 @@
     "name_es": null,
     "attribute": "WATER",
     "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 3,
     "atk": 500,
     "def": 1300,
@@ -134926,13 +134949,13 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "During the turn you Normal Summoned this card, reveal 1 \"Skysavior Prayer\" or \"Fusion\" in your hand.",
-    "effect": "Draw 1 card.",
+    "requirement": "During the turn you Normal Summoned this card, reveal 1 \"Skysavior Prayer\" or \"Fusion\" from your hand to your opponent.",
+    "effect": "Draw 1 Card.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "SeirtheSkysaviorKnight-RDORP4-JP-C.png"
+        "file": "SaeltheKnightofSkysavior-RDORP4-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -134959,13 +134982,14 @@
       "Skysavior"
     ],
     "password": null,
-    "title": "Seir the Skysavior Knight",
-    "_wiki_ts": "2026-04-10T16:29:15Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Sael, the Knight of Skysavior",
+    "_wiki_ts": "2026-07-03T08:13:33Z",
     "card_schema_version": 1,
-    "raw_name_en": "Seir the Skysavior Knight"
+    "former_titles": [
+      "Seir the Skysavior Knight"
+    ],
+    "raw_name_en": "Sael, the Knight of Skysavior"
   },
   {
     "name_en": "Seiyaryu",
@@ -141266,7 +141290,7 @@
     "raw_name_en": "Skysavior Watch"
   },
   {
-    "name_en": "Skysavior Wish",
+    "name_en": "Wish of the Skysavior",
     "name_ja": "蒼救の願い",
     "name_ja_romaji": "Sōkyū no Negai",
     "name_ko": "창구의 소망",
@@ -141276,6 +141300,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -141283,17 +141309,17 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "When your opponent Normal or Special Summons a monster, place 1 WATER Attribute Warrior Type monster and 1 Fairy Type monster from your Graveyard on top of the Deck in any order.",
-    "effect": "Place 1 monster from your opponent's field on the bottom of the owner's Deck. Then, you can Set 1 \"Skysavior Watch\" or \"Fusion\" from your Graveyard to your Spell & Trap Zone.",
+    "requirement": "When your opponent Normal or Special Summons a monster, place 1 WATER Attribute Warrior Type monster and 1 Fairy Type monster from your Graveyard on top of your Deck in any order.",
+    "effect": "Place 1 monster on your opponent's field on the bottom of the owner's Deck. Then, you can Set 1 \"Skysavior Watch\" or 1 \"Fusion\" from your Graveyard to your Spell & Trap Zone.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "SkysaviorWish-RDORP4-JP-C.png"
+        "file": "WishoftheSkysavior-RDORP4-JP-C.png"
       },
       {
         "artwork": 2,
-        "file": "SkysaviorWish-RDORP4-JP-ORR.png"
+        "file": "WishoftheSkysavior-RDORP4-JP-ORR.png"
       }
     ],
     "sets_jp": [
@@ -141320,13 +141346,14 @@
       "Skysavior"
     ],
     "password": null,
-    "title": "Skysavior Wish",
-    "_wiki_ts": "2026-04-10T16:20:41Z",
     "is_legend": false,
-    "card_type": "Trap",
-    "property": "Normal",
+    "title": "Wish of the Skysavior",
+    "_wiki_ts": "2026-07-03T08:00:46Z",
     "card_schema_version": 1,
-    "raw_name_en": "Skysavior Wish"
+    "former_titles": [
+      "Skysavior Wish"
+    ],
+    "raw_name_en": "Wish of the Skysavior"
   },
   {
     "name_en": "Skyscraper",
@@ -142001,7 +142028,7 @@
     "raw_name_en": "Soitsu (Rush Duel)"
   },
   {
-    "name_en": "Solcier the Skysavior Lightflash",
+    "name_en": "Solciere, the Radiant Skysavior",
     "name_ja": "蒼救の閃光 ソルシュエール",
     "name_ja_romaji": "Sōkyū no Senkō Sorushuēru",
     "name_ko": "창구의 섬광 솔슈엘",
@@ -142011,20 +142038,22 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Celestial Warrior / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 2200,
     "def": 2800,
     "maximum_atk": null,
-    "materials": "\"Ciela the Skysavior Knight\" + \"Soleil the Skysavior Angel\"",
+    "materials": "\"Ciela, the Knight of Skysavior\" + \"Soleil, the Fairy of Skysavior\"",
     "condition": null,
     "effect_types": "Multi-Choice",
-    "requirement": "Show 1 other card from your field, and place it on the bottom of the owner's Deck.",
-    "effect": "●Destroy Spell/Trap Cards on your opponent's field, up to [the number of face-up Celestial Warrior Type monsters on your field]. ●Add 1 \"Skysavior Symbol\" from your Graveyard to your hand.",
+    "requirement": "Place 1 other card from your field on the bottom of the Deck.",
+    "effect": "●Destroy Spell/Trap Cards on your opponent's field up to [the number of face-up Celestial Warrior Type monsters on your field]. ●Add 1 \"Skysavior Symbol\" from your Graveyard to your hand.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "SolciertheSkysaviorLightflash-RDORP4-JP-C.png"
+        "file": "SolcieretheRadiantSkysavior-RDORP4-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -142051,16 +142080,17 @@
       "Skysavior"
     ],
     "password": null,
-    "title": "Solcier the Skysavior Lightflash",
-    "_wiki_ts": "2026-04-10T16:27:53Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Solciere, the Radiant Skysavior",
+    "_wiki_ts": "2026-07-03T17:12:30Z",
     "card_schema_version": 1,
-    "raw_name_en": "Solcier the Skysavior Lightflash"
+    "former_titles": [
+      "Solcier the Skysavior Lightflash"
+    ],
+    "raw_name_en": "Solciere, the Radiant Skysavior"
   },
   {
-    "name_en": "Soleil the Skysavior Angel",
+    "name_en": "Soleil, the Fairy of Skysavior",
     "name_ja": "蒼救天使 ソレイル",
     "name_ja_romaji": "Sōkyūtenshi Soreiru",
     "name_ko": "창구천사 솔레일",
@@ -142070,6 +142100,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Fairy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 1,
     "atk": 0,
     "def": 1000,
@@ -142077,17 +142109,17 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "Reveal 1 Warrior Type monster in your hand.",
-    "effect": "This turn, this card's name becomes \"Lua the Skysavior Angel\". Then, excavate the top 4 cards of your Deck. You can add 1 excavated \"Fusion\" to your hand. Place the other cards on the bottom of your Deck in any order.",
+    "requirement": "Reveal 1 Warrior Type monster from your hand to your opponent.",
+    "effect": "This turn, this card's name becomes \"Lua, the Fairy of Skysavior\". Then, excavate 4 cards from the top of your Deck and show them. You can add 1 \"Fusion\" from among the excavated cards to your hand. Place the other cards on the bottom of your Deck in any order.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "SoleiltheSkysaviorAngel-RDORP4-JP-C.png"
+        "file": "SoleiltheFairyofSkysavior-RDORP4-JP-C.png"
       },
       {
         "artwork": 2,
-        "file": "SoleiltheSkysaviorAngel-RDORP4-JP-ORR.png"
+        "file": "SoleiltheFairyofSkysavior-RDORP4-JP-ORR.png"
       }
     ],
     "sets_jp": [
@@ -142124,13 +142156,14 @@
       "Skysavior"
     ],
     "password": null,
-    "title": "Soleil the Skysavior Angel",
-    "_wiki_ts": "2026-04-10T16:19:37Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Soleil, the Fairy of Skysavior",
+    "_wiki_ts": "2026-07-03T07:54:28Z",
     "card_schema_version": 1,
-    "raw_name_en": "Soleil the Skysavior Angel"
+    "former_titles": [
+      "Soleil the Skysavior Angel"
+    ],
+    "raw_name_en": "Soleil, the Fairy of Skysavior"
   },
   {
     "name_en": "Solid Strike Dragon Metagiastar F",
@@ -142710,6 +142743,8 @@
     "name_es": null,
     "attribute": "WATER",
     "types": "Fairy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 1,
     "atk": 500,
     "def": 500,
@@ -142718,7 +142753,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "None",
-    "effect": "Send the top card of your Deck to the Graveyard. Then, you can add 1 \"Soleil the Skysavior Angel\" or \"Lua the Skysavior Angel\" from your Graveyard to your hand. If you do, you can send 1 monster from your field to the Graveyard.",
+    "effect": "Send the top card of your Deck to the Graveyard. Then, you can add 1 \"Soleil, the Fairy of Skysavior\" or \"Lua, the Fairy of Skysavior\" from your Graveyard to your hand. If you do, you can send 1 monster from your field to the Graveyard.",
     "flavor_text": null,
     "images": [
       {
@@ -142739,11 +142774,9 @@
       "Skysavior"
     ],
     "password": null,
-    "title": "Soul of the Skysavior Angel",
-    "_wiki_ts": "2026-04-10T16:29:38Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Soul of the Skysavior Angel",
+    "_wiki_ts": "2026-07-03T08:43:25Z",
     "card_schema_version": 1,
     "raw_name_en": "Soul of the Skysavior Angel"
   },
@@ -156602,7 +156635,7 @@
       {
         "code": "RD/AP03-JP062",
         "name": "Advance Pack: Union Base",
-        "rarity": "Common"
+        "rarity": "Common, Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -156637,7 +156670,7 @@
     "password": null,
     "is_legend": false,
     "title": "Trade-In",
-    "_wiki_ts": "2026-06-27T17:14:12Z",
+    "_wiki_ts": "2026-07-03T12:23:02Z",
     "card_schema_version": 1,
     "raw_name_en": "Trade-In (Rush Duel)"
   },
@@ -175361,7 +175394,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dark Magician of Chaos",
-    "_wiki_ts": "2026-06-23T07:21:22Z",
+    "_wiki_ts": "2026-07-02T16:32:33Z",
     "card_schema_version": 1,
     "raw_name_en": "Dark Magician of Chaos (Rush Duel)"
   },
@@ -178204,7 +178237,7 @@
     "password": null,
     "is_legend": false,
     "title": "Helpful Items",
-    "_wiki_ts": "2026-07-02T03:44:55Z",
+    "_wiki_ts": "2026-07-02T16:14:44Z",
     "card_schema_version": 1,
     "raw_name_en": "Helpful Items"
   },
@@ -178337,7 +178370,7 @@
     "password": null,
     "is_legend": false,
     "title": "Lindwurm the Mega Monarch",
-    "_wiki_ts": "2026-07-02T07:54:59Z",
+    "_wiki_ts": "2026-07-02T12:26:29Z",
     "former_titles": [
       "Lindorm the Mega Monarch"
     ],
@@ -178729,7 +178762,7 @@
     "password": null,
     "is_legend": false,
     "title": "Lindwurm the Wyrm Monarch",
-    "_wiki_ts": "2026-07-02T07:53:37Z",
+    "_wiki_ts": "2026-07-02T12:26:03Z",
     "former_titles": [
       "Lindorm the Dragon Monarch"
     ],
@@ -178738,7 +178771,7 @@
   },
   {
     "name_en": "Sasuke the Clockwork Ninja",
-    "name_ja": "からくり忍者SASUKE",
+    "name_ja": "からくり忍者ＳＡＳＵＫＥ",
     "name_ja_romaji": "Karakuri Ninja Sasuke",
     "name_ko": null,
     "name_fr": null,
@@ -178780,7 +178813,7 @@
     "password": null,
     "is_legend": false,
     "title": "Sasuke the Clockwork Ninja",
-    "_wiki_ts": "2026-07-02T03:40:12Z",
+    "_wiki_ts": "2026-07-02T12:30:31Z",
     "card_schema_version": 1,
     "raw_name_en": "Sasuke the Clockwork Ninja"
   },
@@ -178828,7 +178861,7 @@
     "password": null,
     "is_legend": false,
     "title": "Take A Short Break",
-    "_wiki_ts": "2026-07-02T03:46:19Z",
+    "_wiki_ts": "2026-07-02T16:15:48Z",
     "card_schema_version": 1,
     "raw_name_en": "Take A Short Break"
   },
@@ -178879,5 +178912,189 @@
     "_wiki_ts": "2026-07-02T03:38:39Z",
     "card_schema_version": 1,
     "raw_name_en": "Yae the Special Investigations Ninja"
+  },
+  {
+    "name_en": "Chaoskampf Beast Leviatriton",
+    "name_ja": "創争獣レヴィアトリトン",
+    "name_ja_romaji": "Sōsōjū Reviatoriton",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "DARK",
+    "types": "Fiend / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 3,
+    "atk": 1200,
+    "def": 1200,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "TBD",
+    "effect": "TBD",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ChaoskampfBeastLeviatriton-RDSJMP-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/SJMP-JP066",
+        "name": "Saikyō Jump September 2026 promotional card",
+        "rarity": "Normal Parallel Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Chaoskampf Beast Leviatriton",
+    "_wiki_ts": "2026-07-03T11:56:14Z",
+    "card_schema_version": 1,
+    "raw_name_en": "Chaoskampf Beast Leviatriton"
+  },
+  {
+    "name_en": "Coredrasil the Spirit Tree Bunrei",
+    "name_ja": "分霊樹コアドラシル",
+    "name_ja_romaji": "Bunreiju Koadorashiru",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": "???",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "CoredrasiltheSpiritTreeBunrei-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Coredrasil the Spirit Tree Bunrei",
+    "_wiki_ts": "2026-07-02T11:38:55Z",
+    "card_schema_version": 1,
+    "raw_name_en": "Coredrasil the Spirit Tree Bunrei"
+  },
+  {
+    "name_en": "Instant Fusion",
+    "name_ja": "簡易融合",
+    "name_ja_romaji": "Insutanto Fyūjon",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During a turn you have not activated \"Instant Fusion\", pay 1000 LP.",
+    "effect": "Fusion Summon 1 Level 5 or lower Fusion Monster without using materials. The monster Special Summoned by this effect cannot attack, and is sent to the Graveyard during the End Phase of this turn.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "InstantFusion-RDAP03-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/AP03-JP053",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": true,
+    "title": "Instant Fusion",
+    "_wiki_ts": "2026-07-03T15:48:41Z",
+    "card_schema_version": 1,
+    "raw_name_en": "Instant Fusion (Rush Duel)"
+  },
+  {
+    "name_en": "Rebel's Dive",
+    "name_ja": "絶超デモンスダイブ",
+    "name_ja_romaji": "Zecchō Demonsu Daibu",
+    "name_ko": null,
+    "name_fr": null,
+    "name_de": null,
+    "name_it": null,
+    "name_es": null,
+    "attribute": null,
+    "types": null,
+    "card_type": "???",
+    "property": "???",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "RebelsDive-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Rebel's Dive",
+    "_wiki_ts": "2026-07-02T16:18:50Z",
+    "card_schema_version": 1,
+    "raw_name_en": "Rebel's Dive"
   }
 ]

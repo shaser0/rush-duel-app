@@ -5899,5 +5899,12 @@
   },
   "Secret Record Pack 3 Vol.2": {
     "krOnly": true
+  },
+  "Saikyō Jump September 2026 promotional card": {
+    "releaseDateJP": "August 4, 2026",
+    "packsPerBox": null,
+    "coverImage": "SJMP-2026-9-Cover.png",
+    "cardsPerPack": null,
+    "declaredSize": null
   }
 }

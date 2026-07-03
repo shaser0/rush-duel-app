@@ -2304,12 +2304,6 @@
     "Chromatographagas-RDS241-JP-UPR.png",
     "Chromatographagas-RDKP12-JP-R.png"
   ],
-  "Ciela the Skysavior Knight": [
-    "CielatheSkysaviorKnight-RDORP4-JP-C.png",
-    "CielatheSkysaviorKnight-RDORP4-JP-ScR.png",
-    "CielatheSkysaviorKnight-RD5TH1-JP-SR.png",
-    "CielatheSkysaviorKnight-RDKP12-JP-R.png"
-  ],
   "Dark Cavalry": [
     "DarkCavalry-RD5TH1-JP-UR.png",
     "DarkCavalry-RD5TH1-JP-ORR.png"
@@ -3736,10 +3730,6 @@
     "CyberCoatl-RDSD0C-JP-C.png",
     "CyberCoatl-RDKP12-JP-C.png"
   ],
-  "Digrace the Skysavior Radiance": [
-    "DigracetheSkysaviorRadiance-RDORP4-JP-C.png",
-    "DigracetheSkysaviorRadiance-RDKP12-JP-UR.png"
-  ],
   "Double Curse Dragon": [
     "DoubleCurseDragon-RDSD0A-JP-C.png",
     "DoubleCurseDragon-RDKP12-JP-C.png"
@@ -3747,15 +3737,6 @@
   "Dragon of Double Curse": [
     "DragonofDoubleCurse-RDSD0A-JP-C.png",
     "DragonofDoubleCurse-RDKP12-JP-C.png"
-  ],
-  "Drukmoor the Skysavior Phantom": [
-    "DrukmoortheSkysaviorPhantom-RDORP4-JP-C.png",
-    "DrukmoortheSkysaviorPhantom-RDKP12-JP-C.png"
-  ],
-  "Dunkes the Skysavior Knight": [
-    "DunkestheSkysaviorKnight-RDORP4-JP-C.png",
-    "DunkestheSkysaviorKnight-RDORP4-JP-ScR.png",
-    "DunkestheSkysaviorKnight-RDKP12-JP-SR.png"
   ],
   "Excutie Flame": [
     "ExcutieFlame-RDHC01-JP-ScR.png",
@@ -3771,40 +3752,18 @@
     "GilfordtheRising-RDSD0B-JP-C.png",
     "GilfordtheRising-RDKP12-JP-UR.png"
   ],
-  "Lua the Skysavior Angel": [
-    "LuatheSkysaviorAngel-RDORP4-JP-C.png",
-    "LuatheSkysaviorAngel-RDORP4-JP-ORR.png",
-    "LuatheSkysaviorAngel-RDKP12-JP-R.png"
-  ],
   "Melel the Beautiful Flame Spirit of the Lamp": [
     "MeleltheBeautifulFlameSpiritoftheLamp-RDB232-JP-C.png",
     "MeleltheBeautifulFlameSpiritoftheLamp-RDB232-JP-SR.png",
     "MeleltheBeautifulFlameSpiritoftheLamp-RDKP12-JP-C.png"
   ],
-  "Ranga the Skysavior Knight": [
-    "RangatheSkysaviorKnight-RDORP4-JP-C.png",
-    "RangatheSkysaviorKnight-RDKP12-JP-C.png"
-  ],
   "Ring of Storms": [
     "RingofStorms-RD5TH1-JP-SR.png",
     "RingofStorms-RDKP12-JP-UR.png"
   ],
-  "Seir the Skysavior Knight": [
-    "SeirtheSkysaviorKnight-RDORP4-JP-C.png",
-    "SeirtheSkysaviorKnight-RDKP12-JP-C.png"
-  ],
   "Skysavior Symbol": [
     "SkysaviorSymbol-RDB261-JP-NPR.png",
     "SkysaviorSymbol-RDKP12-JP-C.png"
-  ],
-  "Solcier the Skysavior Lightflash": [
-    "SolciertheSkysaviorLightflash-RDORP4-JP-C.png",
-    "SolciertheSkysaviorLightflash-RDKP12-JP-C.png"
-  ],
-  "Soleil the Skysavior Angel": [
-    "SoleiltheSkysaviorAngel-RDORP4-JP-C.png",
-    "SoleiltheSkysaviorAngel-RDORP4-JP-ORR.png",
-    "SoleiltheSkysaviorAngel-RDKP12-JP-R.png"
   ],
   "Star Cat Straynya": [
     "StarCatStraynya-RDB231-JP-C.png",
@@ -4681,10 +4640,6 @@
     "FusionCancel-RDKP15-JP-SR.png",
     "FusionCancel-RDKP15-JP-ScR.png"
   ],
-  "Galflare the Skysavior Shine": [
-    "GalflaretheSkysaviorShine-RDORP4-JP-C.png",
-    "GalflaretheSkysaviorShine-RDKP15-JP-C.png"
-  ],
   "Glacies the Snowmeister of Sacred Splendor": [
     "GlaciestheSnowmeisterofSacredSplendor-RDKP15-JP-UR.png",
     "GlaciestheSnowmeisterofSacredSplendor-RDKP15-JP-ORR.png",
@@ -4765,12 +4720,6 @@
   "Salvage": [
     "Salvage-RD5TH1-JP-SPR.png",
     "Salvage-RDKP15-JP-R.png"
-  ],
-  "Skysavior Wish": [
-    "SkysaviorWish-RDORP4-JP-C.png",
-    "SkysaviorWish-RDORP4-JP-ORR.png",
-    "SkysaviorWish-RDKP15-JP-SR.png",
-    "SkysaviorWish-RDKP15-JP-ScR.png"
   ],
   "Star Protector's Protection": [
     "StarProtectorsProtection-RDSD0F-JP-NPR.png",
@@ -8100,5 +8049,56 @@
   "Phantasmal Triangular Scale": [
     "PhantasmalTriangularScale-RDKP18-JP-SR.png",
     "PhantasmalTriangularScale-RDKP18-JP-ScR.png"
+  ],
+  "Ciela, the Knight of Skysavior": [
+    "CielatheSkysaviorKnight-RDORP4-JP-C.png",
+    "CielatheKnightofSkysavior-RDORP4-JP-ScR.png",
+    "CielatheKnightofSkysavior-RD5TH1-JP-SR.png",
+    "CielatheKnightofSkysavior-RDKP12-JP-R.png"
+  ],
+  "Degrace, the Flash Skysavior": [
+    "DigracetheSkysaviorRadiance-RDORP4-JP-C.png",
+    "DegracetheFlashSkysavior-RDKP12-JP-UR.png"
+  ],
+  "Dulkmua, the Phantom Skysavior": [
+    "DrukmoortheSkysaviorPhantom-RDORP4-JP-C.png",
+    "DulkmuathePhantomSkysavior-RDKP12-JP-C.png"
+  ],
+  "Dankus, the Knight of Skysavior": [
+    "DunkestheSkysaviorKnight-RDORP4-JP-C.png",
+    "DankustheKnightofSkysavior-RDORP4-JP-ScR.png",
+    "DankustheKnightofSkysavior-RDKP12-JP-SR.png"
+  ],
+  "Gulflare, the Skysavior": [
+    "GalflaretheSkysaviorShine-RDORP4-JP-C.png",
+    "GulflaretheSkysavior-RDKP15-JP-C.png"
+  ],
+  "Lua, the Fairy of Skysavior": [
+    "LuatheSkysaviorAngel-RDORP4-JP-C.png",
+    "LuatheSkysaviorAngel-RDORP4-JP-ORR.png",
+    "LuatheFairyofSkysavior-RDKP12-JP-R.png"
+  ],
+  "Langa, the Knight of Skysavior": [
+    "RangatheSkysaviorKnight-RDORP4-JP-C.png",
+    "LangatheKnightofSkysavior-RDKP12-JP-C.png"
+  ],
+  "Sael, the Knight of Skysavior": [
+    "SeirtheSkysaviorKnight-RDORP4-JP-C.png",
+    "SaeltheKnightofSkysavior-RDKP12-JP-C.png"
+  ],
+  "Wish of the Skysavior": [
+    "SkysaviorWish-RDORP4-JP-C.png",
+    "SkysaviorWish-RDORP4-JP-ORR.png",
+    "WishoftheSkysavior-RDKP15-JP-SR.png",
+    "WishoftheSkysavior-RDKP15-JP-ScR.png"
+  ],
+  "Solciere, the Radiant Skysavior": [
+    "SolciertheSkysaviorLightflash-RDORP4-JP-C.png",
+    "SolcieretheRadiantSkysavior-RDKP12-JP-C.png"
+  ],
+  "Soleil, the Fairy of Skysavior": [
+    "SoleiltheSkysaviorAngel-RDORP4-JP-C.png",
+    "SoleiltheSkysaviorAngel-RDORP4-JP-ORR.png",
+    "SoleiltheFairyofSkysavior-RDKP12-JP-R.png"
   ]
 }
