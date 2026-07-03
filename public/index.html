@@ -5390,7 +5390,13 @@ const _DU_DRAG_THRESHOLD = 5; // px before a press becomes a drag
 function _duBeginDrag(e, iid, srcZone, sourceEl, opts){
   if(e.button !== undefined && e.button !== 0) return; // left button / primary only
   const startX = e.clientX, startY = e.clientY;
+  const pointerId = e.pointerId; // scope this drag to a single pointer
   let active = false, ghost = null, lastTarget = null;
+
+  // Capture the pointer so we still receive pointerup even when the mouse is
+  // released outside the window; without it the drag would leak (stuck ghost +
+  // listeners). Harmless for plain clicks — capture auto-releases on pointerup.
+  try { sourceEl.setPointerCapture(pointerId); } catch(_){}
 
   const clearHi = () => { if(lastTarget){ lastTarget.classList.remove('drag-over'); lastTarget = null; } };
 
@@ -5398,6 +5404,7 @@ function _duBeginDrag(e, iid, srcZone, sourceEl, opts){
     document.removeEventListener('pointermove', onMove, true);
     document.removeEventListener('pointerup', onUp, true);
     document.removeEventListener('pointercancel', onCancel, true);
+    window.removeEventListener('blur', onCancel, true);
     clearHi();
     if(active){
       if(ghost) ghost.remove();
@@ -5406,6 +5413,7 @@ function _duBeginDrag(e, iid, srcZone, sourceEl, opts){
     }
   };
   const onMove = ev => {
+    if(ev.pointerId !== pointerId) return; // ignore other pointers (multi-touch)
     if(!active){
       if(Math.hypot(ev.clientX - startX, ev.clientY - startY) < _DU_DRAG_THRESHOLD) return;
       active = true;
@@ -5420,14 +5428,18 @@ function _duBeginDrag(e, iid, srcZone, sourceEl, opts){
     if(tgt !== lastTarget){ clearHi(); if(tgt){ tgt.classList.add('drag-over'); lastTarget = tgt; } }
   };
   const onUp = ev => {
+    if(ev.pointerId !== pointerId) return; // only our pointer ends this drag
     const wasActive = active;
     cleanup();
     if(wasActive) _duResolveDrop(ev.clientX, ev.clientY, iid, srcZone); // else: a click — let it fire
   };
-  const onCancel = () => cleanup(); // interrupted (e.g. touch cancel) → drop nothing, no leak
+  // Interrupted (touch cancel / lost capture / window blur) → drop nothing, no leak.
+  // A pointer event carries a pointerId; the window blur fallback has none.
+  const onCancel = ev => { if(ev && ev.pointerId !== undefined && ev.pointerId !== pointerId) return; cleanup(); };
   document.addEventListener('pointermove', onMove, true);
   document.addEventListener('pointerup', onUp, true);
   document.addEventListener('pointercancel', onCancel, true);
+  window.addEventListener('blur', onCancel, true);
 }
 
 function _duMakeDragGhost(sourceEl, ev){
@@ -5460,7 +5472,10 @@ function _duFindDrop(x, y, srcZone){
     return { el: selfZone, kind:'slot', zone: selfZone.dataset.zone,
              slot: (raw !== undefined && raw !== '') ? +raw : undefined };
   }
-  if(srcZone === 'monster'){
+  // Attacking a specific opponent monster is a Battle-Phase action; only expose
+  // it as a drop target then, so the crosshair highlight matches what a release
+  // will actually do (_duResolveDrop drops the 'attack' kind outside battle).
+  if(srcZone === 'monster' && _duPhase === 'battle'){
     const oppMon = el.closest('[data-owner="opp"][data-zone="monster"]');
     if(oppMon) return { el: oppMon, kind:'attack', slotIdx: +oppMon.dataset.slot };
   }
@@ -6135,15 +6150,21 @@ function _duInitBoard(){
   // Deck picker → Ready button
   _duRenderDeckList();
   const readyBtn = _duEl('ol-ready-btn');
+  // The ready handshake fires loadExtraDeck/ready on short delays; keep their
+  // timer handles so hitting Cancel in that window cancels them instead of
+  // re-readying the player (loadDeck already went out, but ready is what matters).
+  let _duReadyTimers = [];
+  const _duClearReadyTimers = () => { for(const t of _duReadyTimers) clearTimeout(t); _duReadyTimers = []; };
   if(readyBtn) readyBtn.addEventListener('click', ()=>{
-    if(_duReady){ _duEmit('unready', {}); _duSetReadyUI(false); return; } // toggle off
+    if(_duReady){ _duClearReadyTimers(); _duEmit('unready', {}); _duSetReadyUI(false); return; } // toggle off
     if(!_duSelectedDeck) return;
     const instances = _duDeckToInstances(_duSelectedDeck);
     if(!instances.length){ _duToast('Deck is empty.'); return; }
+    _duClearReadyTimers(); // drop any stale pending emits before scheduling fresh ones
     _duEmit('loadDeck', { deck: instances });
     const extra = _duExtraToInstances(_duSelectedDeck);
-    if(extra.length) setTimeout(()=> _duEmit('loadExtraDeck', { deck: extra }), 60);
-    setTimeout(()=> _duEmit('ready', {}), 180);
+    if(extra.length) _duReadyTimers.push(setTimeout(()=> _duEmit('loadExtraDeck', { deck: extra }), 60));
+    _duReadyTimers.push(setTimeout(()=> _duEmit('ready', {}), 180));
     _duSetReadyUI(true);
   });
 
