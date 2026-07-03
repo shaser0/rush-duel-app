@@ -32,8 +32,40 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # raw-cards.json + sync-state.json drive the *incremental* sync but are
+      # gitignored, so a fresh checkout has neither — without this, every run
+      # sees an empty DB and does a full ~3k-card fetch from Yugipedia (slow,
+      # risks the 45-min timeout, hammers the wiki). Restore them from the
+      # previous run's cache so the sync only fetches new/changed cards. The
+      # sync-progress* files let a timed-out run resume mid-fetch next time.
+      # Rolling-key pattern: the exact key is unique per run (so we always save
+      # a fresh copy), and restore-keys falls back to the most recent prior save.
+      - name: Restore incremental sync state
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            data/raw-cards.json
+            data/sync-state.json
+            data/sync-progress*.json
+          key: sync-state-${{ github.run_id }}
+          restore-keys: |
+            sync-state-
+
       - name: Sync cards, sets, gallery, banlist + refresh data-version/data-channel
         run: npm run sync-data
+
+      # Persist the updated raw DB + state for the next run. always() so a
+      # timed-out/failed sync still saves partial progress (raw-cards.json is
+      # written atomically every 50 cards) for the resume path to pick up.
+      - name: Save incremental sync state
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            data/raw-cards.json
+            data/sync-state.json
+            data/sync-progress*.json
+          key: sync-state-${{ github.run_id }}
 
       - name: Commit and push if anything changed
         id: publish
