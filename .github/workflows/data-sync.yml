@@ -36,8 +36,13 @@ jobs:
       # gitignored, so a fresh checkout has neither — without this, every run
       # sees an empty DB and does a full ~3k-card fetch from Yugipedia (slow,
       # risks the 45-min timeout, hammers the wiki). Restore them from the
-      # previous run's cache so the sync only fetches new/changed cards. The
-      # sync-progress* files let a timed-out run resume mid-fetch next time.
+      # previous run's cache so the sync only fetches new/changed cards.
+      #
+      # IMPORTANT: this path list must stay byte-identical to the Save step's
+      # (and to any manual re-seed). actions/cache derives the cache *version*
+      # from the paths, and a restore-keys prefix only matches caches of the
+      # same version — a mismatch here silently falls back to a full fetch.
+      #
       # Rolling-key pattern: the exact key is unique per run (so we always save
       # a fresh copy), and restore-keys falls back to the most recent prior save.
       - name: Restore incremental sync state
@@ -46,7 +51,6 @@ jobs:
           path: |
             data/raw-cards.json
             data/sync-state.json
-            data/sync-progress*.json
           key: sync-state-${{ github.run_id }}
           restore-keys: |
             sync-state-
@@ -55,8 +59,9 @@ jobs:
         run: npm run sync-data
 
       # Persist the updated raw DB + state for the next run. always() so a
-      # timed-out/failed sync still saves partial progress (raw-cards.json is
-      # written atomically every 50 cards) for the resume path to pick up.
+      # failed sync still saves the partial raw-cards.json (written atomically
+      # every 50 cards), leaving less to re-fetch next run. Path list MUST match
+      # the Restore step above (see the cache-version note there).
       - name: Save incremental sync state
         if: always()
         uses: actions/cache/save@v4
@@ -64,7 +69,6 @@ jobs:
           path: |
             data/raw-cards.json
             data/sync-state.json
-            data/sync-progress*.json
           key: sync-state-${{ github.run_id }}
 
       - name: Commit and push if anything changed
