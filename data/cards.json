@@ -19009,7 +19009,7 @@
     "password": null,
     "is_legend": false,
     "title": "Brassdes of the Wicked Wheels",
-    "_wiki_ts": "2026-06-30T22:40:33Z",
+    "_wiki_ts": "2026-07-05T02:43:46Z",
     "card_schema_version": 1,
     "raw_name_en": "Brassdes of the Wicked Wheels"
   },
@@ -41514,7 +41514,7 @@
     "raw_name_en": "Demolisher Wyrm Roar"
   },
   {
-    "name_en": "Demolition Art - Absolute Destruction",
+    "name_en": "Destructor Art - Total Destruction",
     "name_ja": "幻壊奥義－一式攻事",
     "name_ja_romaji": "Genkai Ōgi - Isshikikōji",
     "name_ko": "환괴오의－일식공사",
@@ -41524,6 +41524,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -41532,12 +41534,12 @@
     "condition": null,
     "effect_types": null,
     "requirement": "When an opponent's monster declares an attack.",
-    "effect": "Shuffle up to 6 Wyrm Type monsters from your Graveyard into the Deck. Then, if [the total Levels of the monsters shuffled by this effect] is 16 or higher, you can destroy all Attack Position monsters on your opponent's field.",
+    "effect": "Shuffle up to 6 Wyrm Type monsters from your Graveyard into the Deck. If [the total Levels of the monsters shuffled into the Deck by this effect] is 16 or higher, you can also destroy all Attack Position monsters on your opponent's field.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "DemolitionArtAbsoluteDestruction-RDTB01-JP-NPR.png"
+        "file": "DestructorArtTotalDestruction-RDTB01-JP-NPR.png"
       }
     ],
     "sets_jp": [
@@ -41559,13 +41561,14 @@
       "Demolition"
     ],
     "password": null,
-    "title": "Demolition Art - Absolute Destruction",
-    "_wiki_ts": "2026-07-02T02:43:28Z",
     "is_legend": false,
-    "card_type": "Trap",
-    "property": "Normal",
+    "title": "Destructor Art - Total Destruction",
+    "_wiki_ts": "2026-07-04T12:55:38Z",
     "card_schema_version": 1,
-    "raw_name_en": "Demolition Art - Absolute Destruction"
+    "former_titles": [
+      "Demolition Art - Absolute Destruction"
+    ],
+    "raw_name_en": "Destructor Art - Total Destruction"
   },
   {
     "name_en": "Demolition Barricade",
@@ -41622,7 +41625,7 @@
     "raw_name_en": "Demolition Barricade"
   },
   {
-    "name_en": "Demolition Charge Dragon Dangerous Blasthamut",
+    "name_en": "Explosive Destructor Wyrm Dangerous Bakhamut",
     "name_ja": "幻壊爆竜デンジャラス・バクハムート",
     "name_ja_romaji": "Genkaibakuryū Denjarasu Bakuhamūto",
     "name_ko": "환괴폭룡 데인저러스 바쿠하무트",
@@ -41632,20 +41635,22 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Wyrm / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 3000,
     "def": 2500,
     "maximum_atk": null,
-    "materials": "\"Destructor Wyrm Bakhamut\" + \"Demolition Soldier Hell Met\"",
+    "materials": "\"Destructor Wyrm Bakhamut\" + \"Destructor Soldier Helmet\"",
     "condition": null,
     "effect_types": null,
     "requirement": "None",
-    "effect": "Destroy 1 face-up card on your field and 1 to 2 monsters on your opponent's field. Then, inflict damage to your opponent equal to [the number of monsters on their field destroyed by this effect] x 500.",
+    "effect": "Destroy 1 face-up card on your field and 1 or 2 monsters on your opponent's field. Then, inflict damage to your opponent equal to [the number of monsters on their field that were destroyed by this effect] x 500.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "DemolitionChargeDragonDangerousBlasthamut-RDTB01-JP-SR.png"
+        "file": "ExplosiveDestructorWyrmDangerousBakhamut-RDTB01-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -41667,16 +41672,17 @@
       "Demolition"
     ],
     "password": null,
-    "title": "Demolition Charge Dragon Dangerous Blasthamut",
-    "_wiki_ts": "2026-07-02T00:41:39Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Explosive Destructor Wyrm Dangerous Bakhamut",
+    "_wiki_ts": "2026-07-04T12:57:56Z",
     "card_schema_version": 1,
-    "raw_name_en": "Demolition Charge Dragon Dangerous Blasthamut"
+    "former_titles": [
+      "Demolition Charge Dragon Dangerous Blasthamut"
+    ],
+    "raw_name_en": "Explosive Destructor Wyrm Dangerous Bakhamut"
   },
   {
-    "name_en": "Demolition Charge Expert Warning Heavy Shock",
+    "name_en": "Destructor Detonator Heavy Contractor",
     "name_ja": "幻壊爆僚ワーニング・ヘビー・ショック",
     "name_ja_romaji": "Genkaibakuryō Wāningu Hebī Shokku",
     "name_ko": "환괴폭료 워닝 헤비 쇼크",
@@ -41686,11 +41692,13 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Wyrm / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 2600,
     "def": 1700,
     "maximum_atk": null,
-    "materials": "\"Destructor Soldier Steeplejack\" + \"Demolition Soldier Hell Met\"",
+    "materials": "\"Destructor Soldier Steeplejack\" + \"Destructor Soldier Helmet\"",
     "condition": null,
     "effect_types": null,
     "requirement": "None",
@@ -41699,7 +41707,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DemolitionChargeExpertWarningHeavyShock-RDTB01-JP-NPR.png"
+        "file": "DestructorDetonatorHeavyContractor-RDTB01-JP-NPR.png"
       }
     ],
     "sets_jp": [
@@ -41721,16 +41729,17 @@
       "Demolition"
     ],
     "password": null,
-    "title": "Demolition Charge Expert Warning Heavy Shock",
-    "_wiki_ts": "2026-07-02T00:58:36Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Destructor Detonator Heavy Contractor",
+    "_wiki_ts": "2026-07-04T13:02:40Z",
     "card_schema_version": 1,
-    "raw_name_en": "Demolition Charge Expert Warning Heavy Shock"
+    "former_titles": [
+      "Demolition Charge Expert Warning Heavy Shock"
+    ],
+    "raw_name_en": "Destructor Detonator Heavy Contractor"
   },
   {
-    "name_en": "Demolition Emperor Blastkaiser",
+    "name_en": "Destructor Emperor Bakhakaiser",
     "name_ja": "幻壊帝バクハカイザー",
     "name_ja_romaji": "Genkaitei Bakuhakaizā",
     "name_ko": "환괴 제왕 바쿠하카이저",
@@ -41740,20 +41749,22 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Wyrm / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 2600,
     "def": 0,
     "maximum_atk": null,
-    "materials": "\"Demolition Soldier Hell Met\" + 1 Wyrm Type monster",
+    "materials": "\"Destructor Soldier Helmet\" + 1 Wyrm Type monster",
     "condition": null,
     "effect_types": null,
     "requirement": "Send 1 Wyrm Type monster from your hand to the Graveyard.",
-    "effect": "Shuffle up to 3 cards from your opponent's Graveyard into the Deck. Then, if you sent a Level 8 or higher monster to the Graveyard to meet the requirement, this card gains ATK equal to [the number of cards shuffled by this effect] x 300 until the end of this turn.",
+    "effect": "Shuffle up to 3 cards from your opponent's Graveyard into the Deck. If a Level 8 or higher monster was sent to the Graveyard to meet the requirement, this card also gains ATK equal to [the number of cards shuffled by this effect] x 300 until the end of this turn.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "DemolitionEmperorBlastkaiser-RDKP18-JP-C.png"
+        "file": "DestructorEmperorBakhakaiser-RDKP18-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -41775,16 +41786,17 @@
       "Demolition"
     ],
     "password": null,
-    "title": "Demolition Emperor Blastkaiser",
-    "_wiki_ts": "2026-07-02T00:33:48Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Destructor Emperor Bakhakaiser",
+    "_wiki_ts": "2026-07-04T09:36:49Z",
     "card_schema_version": 1,
-    "raw_name_en": "Demolition Emperor Blastkaiser"
+    "former_titles": [
+      "Demolition Emperor Blastkaiser"
+    ],
+    "raw_name_en": "Destructor Emperor Bakhakaiser"
   },
   {
-    "name_en": "Demolition Fusegate Scrapgate",
+    "name_en": "Destructor Integration Scrap Gate",
     "name_ja": "幻壊融門スクラップゲート",
     "name_ja_romaji": "Genkaiyūmon Sukurappu Gēto",
     "name_ko": "환괴융문 스크랩게이트",
@@ -41794,6 +41806,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Field",
     "level": null,
     "atk": null,
     "def": null,
@@ -41801,13 +41815,13 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "Activate this card by sending 1 face-up Level 7 or higher Wyrm Type monster from your field to the Graveyard.",
-    "effect": "While this card is face-up in the Field Zone, if a player Fusion Summons by the effect of \"Fusion\", they can shuffle Wyrm Type monsters from their Graveyard into the Deck as the only material.",
+    "requirement": "Send 1 face-up Level 7 or higher Wyrm Type monster from your field to the Graveyard.",
+    "effect": "While this card is face-up in the Field Zone, if a player would Fusion Summon by the effect of \"Fusion\", they can also return only Wyrm Type monsters from their Graveyard to the Deck as materials.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "DemolitionFusegateScrapgate-RDKP18-JP-C.png"
+        "file": "DestructorIntegrationScrapGate-RDKP18-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -41829,13 +41843,14 @@
       "Demolition"
     ],
     "password": null,
-    "title": "Demolition Fusegate Scrapgate",
-    "_wiki_ts": "2026-07-02T02:26:30Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Field",
+    "title": "Destructor Integration Scrap Gate",
+    "_wiki_ts": "2026-07-04T12:56:43Z",
     "card_schema_version": 1,
-    "raw_name_en": "Demolition Fusegate Scrapgate"
+    "former_titles": [
+      "Demolition Fusegate Scrapgate"
+    ],
+    "raw_name_en": "Destructor Integration Scrap Gate"
   },
   {
     "name_en": "Demolition Meltdown Dragon Darkness Blasthamut",
@@ -41892,7 +41907,7 @@
     "raw_name_en": "Demolition Meltdown Dragon Darkness Blasthamut"
   },
   {
-    "name_en": "Demolition Shutter",
+    "name_en": "Destructor Claw Shield",
     "name_ja": "幻壊大鎧戸",
     "name_ja_romaji": "Genkai Shattā",
     "name_ko": "환괴셔터",
@@ -41911,13 +41926,13 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "Equip to 1 face-up Wyrm Type monster on your field.",
+    "requirement": "Equip this card to 1 face-up Wyrm Type monster on your field.",
     "effect": "While the equipped monster is in Attack Position, it cannot be destroyed by battle. If either player has a card in their Field Zone, the equipped monster and this card cannot be destroyed by card effects.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "DemolitionShutter-RDTB01-JP-C.png"
+        "file": "DestructorClawShield-RDTB01-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -41940,10 +41955,13 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Demolition Shutter",
-    "_wiki_ts": "2026-07-02T02:23:55Z",
+    "title": "Destructor Claw Shield",
+    "_wiki_ts": "2026-07-04T08:17:47Z",
     "card_schema_version": 1,
-    "raw_name_en": "Demolition Shutter"
+    "former_titles": [
+      "Demolition Shutter"
+    ],
+    "raw_name_en": "Destructor Claw Shield"
   },
   {
     "name_en": "Demolition Soldier Ashiba Bikke",
@@ -42000,7 +42018,7 @@
     "raw_name_en": "Demolition Soldier Ashiba Bikke"
   },
   {
-    "name_en": "Demolition Soldier Haken Haken",
+    "name_en": "Destructor Soldier Haken",
     "name_ja": "幻壊兵ハケン・ハーケン",
     "name_ja_romaji": "Genkaihei Haken Hāken",
     "name_ko": "환괴병 하견 하켄",
@@ -42010,6 +42028,8 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Wyrm / Effect",
+    "card_type": null,
+    "property": null,
     "level": 3,
     "atk": 800,
     "def": 800,
@@ -42017,13 +42037,13 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "Your opponent has 1 or less cards in their hand.",
-    "effect": "Send this card from your field to the Graveyard, and each player draws 2 cards. Until the end of this turn, you can only Normal or Special Summon Wyrm Type monsters face-up, and can only attack with 1 monster.",
+    "requirement": "If your opponent has 1 or less card in their hand.",
+    "effect": "Send this card from your field to the Graveyard, both players draw 2 cards. For the rest of this turn, you cannot Normal or Special Summon non-Wyrm Type monsters in face-up position, and you can only attack with 1 monster.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "DemolitionSoldierHakenHaken-RDKP18-JP-C.png"
+        "file": "DestructorSoldierHaken-RDKP18-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -42045,16 +42065,17 @@
       "Demolition"
     ],
     "password": null,
-    "title": "Demolition Soldier Haken Haken",
-    "_wiki_ts": "2026-07-02T02:00:16Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Destructor Soldier Haken",
+    "_wiki_ts": "2026-07-04T16:59:35Z",
     "card_schema_version": 1,
-    "raw_name_en": "Demolition Soldier Haken Haken"
+    "former_titles": [
+      "Demolition Soldier Haken Haken"
+    ],
+    "raw_name_en": "Destructor Soldier Haken"
   },
   {
-    "name_en": "Demolition Soldier Hell Met",
+    "name_en": "Destructor Soldier Helmet",
     "name_ja": "幻壊兵ヘル・メット",
     "name_ja_romaji": "Genkaihei Heru Metto",
     "name_ko": "환괴병 헬 멧",
@@ -42064,6 +42085,8 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Wyrm / Effect",
+    "card_type": null,
+    "property": null,
     "level": 1,
     "atk": 400,
     "def": 400,
@@ -42077,7 +42100,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DemolitionSoldierHellMet-RDTB01-JP-C.png"
+        "file": "DestructorSoldierHelmet-RDTB01-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -42109,13 +42132,14 @@
       "Demolition"
     ],
     "password": null,
-    "title": "Demolition Soldier Hell Met",
-    "_wiki_ts": "2026-07-02T02:07:08Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Destructor Soldier Helmet",
+    "_wiki_ts": "2026-07-04T17:03:35Z",
     "card_schema_version": 1,
-    "raw_name_en": "Demolition Soldier Hell Met"
+    "former_titles": [
+      "Demolition Soldier Hell Met"
+    ],
+    "raw_name_en": "Destructor Soldier Helmet"
   },
   {
     "name_en": "Demolition Soldier Kasetsu Baiten",
@@ -42128,6 +42152,8 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Wyrm / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 600,
     "def": 1200,
@@ -42136,7 +42162,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "Pay 500 LP.",
-    "effect": "Send the top card of your Deck to the Graveyard. Then, if you sent a Wyrm Type monster to the Graveyard by this effect, you can add 1 \"Demolition Soldier Hell Met\" or 1 Level 8 Wyrm Type monster from your Graveyard to your hand.",
+    "effect": "Send the top card of your Deck to the Graveyard. Then, if you sent a Wyrm Type monster to the Graveyard by this effect, you can add 1 \"Destructor Soldier Helmet\" or 1 Level 8 Wyrm Type monster from your Graveyard to your hand.",
     "flavor_text": null,
     "images": [
       {
@@ -42163,16 +42189,14 @@
       "Demolition"
     ],
     "password": null,
-    "title": "Demolition Soldier Kasetsu Baiten",
-    "_wiki_ts": "2026-07-02T01:54:58Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Demolition Soldier Kasetsu Baiten",
+    "_wiki_ts": "2026-07-04T09:41:52Z",
     "card_schema_version": 1,
     "raw_name_en": "Demolition Soldier Kasetsu Baiten"
   },
   {
-    "name_en": "Demolition Soldier Nikka",
+    "name_en": "Destructor Soldier Knikka",
     "name_ja": "幻壊兵ニッカ",
     "name_ja_romaji": "Genkaihei Nikka",
     "name_ko": "환괴병 닛카",
@@ -42182,6 +42206,8 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Wyrm / Effect",
+    "card_type": null,
+    "property": null,
     "level": 2,
     "atk": 200,
     "def": 800,
@@ -42189,13 +42215,13 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "Reveal 1 Wyrm Type monster in your hand.",
-    "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, if a FIRE Attribute Wyrm Type monster(s) is among the cards sent, you can add 1 \"Demolition Soldier Pokka\" from your Graveyard to your hand.",
+    "requirement": "Reveal 1 Wyrm Type monster from your hand to your opponent.",
+    "effect": "Send the top 3 cards of your Deck to the Graveyard. If a FIRE Attribute Wyrm Type monster is among the cards sent, you can also add 1 \"Destructor Soldier Bokka\" from your Graveyard to your hand.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "DemolitionSoldierNikka-RDKP21-JP-C.png"
+        "file": "DestructorSoldierKnikka-RDKP21-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -42217,16 +42243,17 @@
       "Demolition"
     ],
     "password": null,
-    "title": "Demolition Soldier Nikka",
-    "_wiki_ts": "2026-07-02T02:02:30Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Destructor Soldier Knikka",
+    "_wiki_ts": "2026-07-05T06:53:17Z",
     "card_schema_version": 1,
-    "raw_name_en": "Demolition Soldier Nikka"
+    "former_titles": [
+      "Demolition Soldier Nikka"
+    ],
+    "raw_name_en": "Destructor Soldier Knikka"
   },
   {
-    "name_en": "Demolition Soldier Pokka",
+    "name_en": "Destructor Soldier Bokka",
     "name_ja": "幻壊兵ポッカ",
     "name_ja_romaji": "Genkaihei Pokka",
     "name_ko": "환괴병 폿카",
@@ -42236,6 +42263,8 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Wyrm / Effect",
+    "card_type": null,
+    "property": null,
     "level": 2,
     "atk": 200,
     "def": 800,
@@ -42243,13 +42272,13 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "You have \"Demolition Soldier Nikka\" face-up on your field.",
-    "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, if a FIRE Attribute Wyrm Type monster(s) is among the cards sent, you can add 1 Field Spell Card and/or 1 Equip Spell Card from your Graveyard to your hand.",
+    "requirement": "If you have a \"Destructor Soldier Knikka\" face-up on your field.",
+    "effect": "Send the top 3 cards of your Deck to the Graveyard. If a FIRE Attribute Wyrm Type monster is among the cards sent, you can also add up to 1 Field Spell Card and Equip Spell Card each from your Graveyard to your hand.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "DemolitionSoldierPokka-RDKP21-JP-C.png"
+        "file": "DestructorSoldierBokka-RDKP21-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -42271,16 +42300,17 @@
       "Demolition"
     ],
     "password": null,
-    "title": "Demolition Soldier Pokka",
-    "_wiki_ts": "2026-07-02T02:04:37Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Destructor Soldier Bokka",
+    "_wiki_ts": "2026-07-05T06:55:55Z",
     "card_schema_version": 1,
-    "raw_name_en": "Demolition Soldier Pokka"
+    "former_titles": [
+      "Demolition Soldier Pokka"
+    ],
+    "raw_name_en": "Destructor Soldier Bokka"
   },
   {
-    "name_en": "Demolition Soldier Shokku Du",
+    "name_en": "Destructor Soldier Canteen",
     "name_ja": "幻壊兵ショック・ドゥ",
     "name_ja_romaji": "Genkaihei Shokku Du",
     "name_ko": "환괴병 쇼크 두",
@@ -42290,6 +42320,8 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Wyrm / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1000,
     "def": 1000,
@@ -42297,13 +42329,13 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "Place 1 Wyrm Type monster from your Graveyard on either the top or bottom of the Deck.",
-    "effect": "Make 1 face-up monster on your field gain 100 ATK until the end of this turn. Then, you can add 1 \"Demolition Soldier Hell Met\" or 1 Wyrm Type Normal Monster from your Graveyard to your hand.",
+    "requirement": "Place 1 Wyrm Type monster from your Graveyard on the top or bottom of your Deck.",
+    "effect": "Make 1 face-up monster on your field gain 100 ATK until the end of this turn. Then, you can add 1 \"Destructor Soldier Helmet\" or a Wyrm Type Normal Monster from your Graveyard to your hand.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "DemolitionSoldierShokkuDu-RDKP18-JP-C.png"
+        "file": "DestructorSoldierCanteen-RDKP18-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -42325,13 +42357,14 @@
       "Demolition"
     ],
     "password": null,
-    "title": "Demolition Soldier Shokku Du",
-    "_wiki_ts": "2026-07-02T01:57:15Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Destructor Soldier Canteen",
+    "_wiki_ts": "2026-07-04T09:41:15Z",
     "card_schema_version": 1,
-    "raw_name_en": "Demolition Soldier Shokku Du"
+    "former_titles": [
+      "Demolition Soldier Shokku Du"
+    ],
+    "raw_name_en": "Destructor Soldier Canteen"
   },
   {
     "name_en": "Demolition Survey",
@@ -42344,6 +42377,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -42352,7 +42387,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "None",
-    "effect": "Send cards from the top of your Deck to the Graveyard equal to [the number of face-up Wyrm Type monsters on your field]. Then, you can add 1 \"Demolition Soldier Hell Met\" or 1 Field Spell Card from your Graveyard to your hand.",
+    "effect": "Send cards from the top of your Deck to the Graveyard equal to [the number of face-up Wyrm Type monsters on your field]. Then, you can add 1 \"Destructor Soldier Helmet\" or 1 Field Spell Card from your Graveyard to your hand.",
     "flavor_text": null,
     "images": [
       {
@@ -42379,16 +42414,14 @@
       "Demolition"
     ],
     "password": null,
-    "title": "Demolition Survey",
-    "_wiki_ts": "2026-07-02T02:28:07Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Demolition Survey",
+    "_wiki_ts": "2026-07-04T09:41:56Z",
     "card_schema_version": 1,
     "raw_name_en": "Demolition Survey"
   },
   {
-    "name_en": "Demolition Twin Princesses Haut-de-Chausses",
+    "name_en": "Destructor Twin Princesses Haut-de-Chausses",
     "name_ja": "幻壊双姫オー・ド・ショース",
     "name_ja_romaji": "Genkaisōki Ō Do Shōsu",
     "name_ko": "환괴쌍희 오 드 쇼스",
@@ -42398,20 +42431,22 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Wyrm / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 2800,
     "def": 1600,
     "maximum_atk": null,
-    "materials": "\"Demolition Soldier Nikka\" + \"Demolition Soldier Pokka\"",
+    "materials": "\"Destructor Soldier Knikka\" + \"Destructor Soldier Bokka\"",
     "condition": null,
     "effect_types": "Continuous",
     "requirement": "None",
-    "effect": "During your opponent's turn, Spell/Trap Cards on your field cannot be returned to the hand, Deck, or Extra Deck by card effects.",
+    "effect": "During your opponent's turn, Spell/Trap Cards on your field cannot be shuffled into the hand/Deck/Extra Deck.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "DemolitionTwinPrincessesHautdeChausses-RDKP21-JP-C.png"
+        "file": "DestructorTwinPrincessesHautdeChausses-RDKP21-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -42433,13 +42468,14 @@
       "Demolition"
     ],
     "password": null,
-    "title": "Demolition Twin Princesses Haut-de-Chausses",
-    "_wiki_ts": "2026-07-02T01:00:49Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Destructor Twin Princesses Haut-de-Chausses",
+    "_wiki_ts": "2026-07-05T07:05:06Z",
     "card_schema_version": 1,
-    "raw_name_en": "Demolition Twin Princesses Haut-de-Chausses"
+    "former_titles": [
+      "Demolition Twin Princesses Haut-de-Chausses"
+    ],
+    "raw_name_en": "Destructor Twin Princesses Haut-de-Chausses"
   },
   {
     "name_en": "Dendrovenus the Planetairy",
@@ -43198,7 +43234,7 @@
     "password": null,
     "is_legend": false,
     "title": "Destructor Soldier Steeplejack",
-    "_wiki_ts": "2026-07-01T10:20:49Z",
+    "_wiki_ts": "2026-07-04T18:09:32Z",
     "card_schema_version": 1,
     "raw_name_en": "Destructor Soldier Steeplejack"
   },
@@ -43213,6 +43249,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Equip",
     "level": null,
     "atk": null,
     "def": null,
@@ -43220,8 +43258,8 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "Equip to 1 face-up Wyrm Type monster on your field.",
-    "effect": "The equipped monster gains 500 ATK. Then, if you have 5 or more Wyrm Type monsters in your Graveyard, it gains an additional 500 ATK.",
+    "requirement": "Equip this card to 1 face-up Wyrm Type monster on your field.",
+    "effect": "The equipped monster gains 500 ATK. If you have 5 or more Wyrm Type monsters in your Graveyard, the equipped monster gains an additional 500 ATK.",
     "flavor_text": null,
     "images": [
       {
@@ -43248,11 +43286,9 @@
       "Demolition"
     ],
     "password": null,
-    "title": "Destructor Sword Conquedea",
-    "_wiki_ts": "2025-07-19T21:49:50Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Equip",
+    "title": "Destructor Sword Conquedea",
+    "_wiki_ts": "2026-07-04T08:10:37Z",
     "card_schema_version": 1,
     "raw_name_en": "Destructor Sword Conquedea"
   },
@@ -43306,7 +43342,7 @@
     "password": null,
     "is_legend": false,
     "title": "Destructor Wyrm Bakhamut",
-    "_wiki_ts": "2026-07-01T20:42:21Z",
+    "_wiki_ts": "2026-07-04T18:10:07Z",
     "card_schema_version": 1,
     "raw_name_en": "Destructor Wyrm Bakhamut"
   },
@@ -55420,7 +55456,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "Activate this card if you have 4 or less monsters in your Graveyard.",
-    "effect": "While this card is face-up in the Field Zone, if a player Ritual Summons by the effect of \"Endless Partner\", they can also use Galaxy Type monsters in their Graveyard as material.",
+    "effect": "While this card is face-up in the Field Zone, if a player would Ritual Summon by the effect of \"Endless Partner\", they can also use Galaxy Type monsters in their Graveyard as material.",
     "flavor_text": null,
     "images": [
       {
@@ -55454,7 +55490,7 @@
     "password": null,
     "is_legend": false,
     "title": "The Eternal Land -Spectrika-",
-    "_wiki_ts": "2026-06-11T11:21:16Z",
+    "_wiki_ts": "2026-07-04T18:26:47Z",
     "card_schema_version": 1,
     "raw_name_en": "The Eternal Land -Spectrika-"
   },
@@ -66466,6 +66502,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Field",
     "level": null,
     "atk": null,
     "def": null,
@@ -66474,7 +66512,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "None",
-    "effect": "While this card is face-up in the Field Zone, if a player Fusion Summons a LIGHT or DARK Attribute Galaxy Type monster by the effect of \"Fusion\", they can also use LIGHT or DARK Attribute Galaxy Type monsters in their hand as material.",
+    "effect": "While this card is face-up in the Field Zone, if a player would Fusion Summon a LIGHT or DARK Attribute Galaxy Type monster by the effect of \"Fusion\", they can also use LIGHT or DARK Attribute Galaxy Type monsters in their hand as material.",
     "flavor_text": null,
     "images": [
       {
@@ -66495,11 +66533,9 @@
       "Galactica"
     ],
     "password": null,
-    "title": "Galactica Fusion Space",
-    "_wiki_ts": "2026-05-22T16:56:09Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Field",
+    "title": "Galactica Fusion Space",
+    "_wiki_ts": "2026-07-04T18:28:04Z",
     "card_schema_version": 1,
     "raw_name_en": "Galactica Fusion Space"
   },
@@ -115631,7 +115667,7 @@
     "condition": null,
     "effect_types": "Continuous",
     "requirement": "None",
-    "effect": "If you Fusion Summon a Level 8 or higher monster by the effect of \"Fusion\" or \"Psyquip Fusion\", you can also use Psychic Type monsters in your Graveyard as material. If you do, the materials on the field and in the Graveyard are shuffled into the owner's Deck.",
+    "effect": "If you would Fusion Summon a Level 8 or higher monster by the effect of \"Fusion\" or \"Psyquip Fusion\", you can also use Psychic Type monsters in your Graveyard as material. If you do, the materials on the field and in the Graveyard are shuffled into the owner's Deck.",
     "flavor_text": null,
     "images": [
       {
@@ -115665,7 +115701,7 @@
     "password": null,
     "is_legend": false,
     "title": "Plandolin-a-la-Mode",
-    "_wiki_ts": "2026-06-29T22:33:22Z",
+    "_wiki_ts": "2026-07-04T18:27:09Z",
     "card_schema_version": 1,
     "raw_name_en": "Plandolin-a-la-Mode"
   },
@@ -119814,7 +119850,7 @@
     "raw_name_en": "Prey Dullahan"
   },
   {
-    "name_en": "Priestess of Star Salvation",
+    "name_en": "Priestess of Wise Salvation",
     "name_ja": "救惺の巫女",
     "name_ja_romaji": "Kyūsei no Miko",
     "name_ko": "구성의 무녀",
@@ -119834,12 +119870,12 @@
     "condition": null,
     "effect_types": null,
     "requirement": "Shuffle 1 \"Fusion\" from your Graveyard into the Deck.",
-    "effect": "Draw 1 card. Then, if you have a face-up Level 9 monster on your field, all face-up monsters on your field gain 400 ATK until the end of this turn.",
+    "effect": "Draw 1 card. If you have a face-up Level 9 monster on your field, all face-up monsters on your field gain 400 ATK until the end of this turn.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "PriestessofStarSalvation-RDTB01-JP-C.png"
+        "file": "PriestessofWiseSalvation-RDTB01-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -119877,10 +119913,13 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Priestess of Star Salvation",
-    "_wiki_ts": "2026-06-28T19:17:51Z",
+    "title": "Priestess of Wise Salvation",
+    "_wiki_ts": "2026-07-05T07:19:58Z",
     "card_schema_version": 1,
-    "raw_name_en": "Priestess of Star Salvation"
+    "former_titles": [
+      "Priestess of Star Salvation"
+    ],
+    "raw_name_en": "Priestess of Wise Salvation"
   },
   {
     "name_en": "Prima Guitarna the Shining Superstar",
@@ -148955,6 +148994,8 @@
     "name_es": "Gata Extrañojera",
     "attribute": "EARTH",
     "types": "Spellcaster / Normal",
+    "card_type": null,
+    "property": null,
     "level": 1,
     "atk": 0,
     "def": 1400,
@@ -148976,7 +149017,7 @@
       },
       {
         "artwork": 3,
-        "file": "StrayngeCat-RDFM01-JP-OP.png"
+        "file": "StrayngeCat-RDFM01-JP-NPR.png"
       }
     ],
     "sets_jp": [
@@ -149038,11 +149079,9 @@
       "Straynge Cat"
     ],
     "password": null,
-    "title": "Straynge Cat",
-    "_wiki_ts": "2026-04-10T03:36:24Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Straynge Cat",
+    "_wiki_ts": "2026-07-05T07:45:37Z",
     "card_schema_version": 1,
     "raw_name_en": "Straynge Cat"
   },
@@ -175523,7 +175562,7 @@
       {
         "code": "RD/LP01-JP006",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -175532,7 +175571,7 @@
     "password": null,
     "is_legend": false,
     "title": "Magician of Faith",
-    "_wiki_ts": "2026-06-23T07:14:16Z",
+    "_wiki_ts": "2026-07-04T16:45:49Z",
     "card_schema_version": 1,
     "raw_name_en": "Magician of Faith (Rush Duel)"
   },
@@ -175615,7 +175654,7 @@
       {
         "code": "RD/LP01-JP007",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -175624,7 +175663,7 @@
     "password": null,
     "is_legend": false,
     "title": "Mask of Darkness",
-    "_wiki_ts": "2026-06-23T07:10:20Z",
+    "_wiki_ts": "2026-07-04T16:47:12Z",
     "card_schema_version": 1,
     "raw_name_en": "Mask of Darkness (Rush Duel)"
   },
@@ -175793,13 +175832,17 @@
       {
         "artwork": 1,
         "file": "RescueCat-RDLP01-JP-OP.png"
+      },
+      {
+        "artwork": 2,
+        "file": "RescueCat-RDLP01-JP-OP-AA.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/LP01-JP008",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -175808,7 +175851,7 @@
     "password": null,
     "is_legend": false,
     "title": "Rescue Cat",
-    "_wiki_ts": "2026-06-23T07:29:01Z",
+    "_wiki_ts": "2026-07-04T16:52:11Z",
     "card_schema_version": 1,
     "raw_name_en": "Rescue Cat (Rush Duel)"
   },

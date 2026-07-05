@@ -5568,10 +5568,6 @@
   "Mr. Alchemy": [
     "MrAlchemy-RDEXT1-JP-C.png"
   ],
-  "Priestess of Star Salvation": [
-    "PriestessofStarSalvation-RDEXT1-JP-SR.png",
-    "PriestessofStarSalvation-RDTB01-JP-C.png"
-  ],
   "Red Medicine": [
     "RedMedicine-RDEXT1-JP-C.png",
     "RedMedicine-RDSD04-JP-C.png"
@@ -6785,14 +6781,6 @@
     "ConstructorSentryDragline-RDTB01-JP-SR.png",
     "ConstructorSentryDragline-RDTB01-JP-ScR.png"
   ],
-  "Demolition Art - Absolute Destruction": [
-    "DemolitionArtAbsoluteDestruction-RDTB01-JP-NPR.png",
-    "DemolitionArtAbsoluteDestruction-RDTB01-JP-ScR.png"
-  ],
-  "Demolition Charge Dragon Dangerous Blasthamut": [
-    "DemolitionChargeDragonDangerousBlasthamut-RDTB01-JP-SR.png",
-    "DemolitionChargeDragonDangerousBlasthamut-RDTB01-JP-ORR.png"
-  ],
   "Destructor Wyrm Bakhamut": [
     "DestructorWyrmBakhamut-RDTB01-JP-SR.png",
     "DestructorWyrmBakhamut-RDTB01-JP-ORR.png"
@@ -7693,9 +7681,6 @@
   "Dark-Eyes Breakstar Cat": [
     "DarkEyesBreakstarCat-RDKP12-JP-R.png"
   ],
-  "Demolition Soldier Hell Met": [
-    "DemolitionSoldierHellMet-RDTB01-JP-C.png"
-  ],
   "Fiddlebadour": [
     "Fiddlebadour-RDKP15-JP-C.png"
   ],
@@ -8100,5 +8085,20 @@
     "SoleiltheSkysaviorAngel-RDORP4-JP-C.png",
     "SoleiltheSkysaviorAngel-RDORP4-JP-ORR.png",
     "SoleiltheFairyofSkysavior-RDKP12-JP-R.png"
+  ],
+  "Destructor Art - Total Destruction": [
+    "DemolitionArtAbsoluteDestruction-RDTB01-JP-NPR.png",
+    "DestructorArtTotalDestruction-RDTB01-JP-ScR.png"
+  ],
+  "Explosive Destructor Wyrm Dangerous Bakhamut": [
+    "DemolitionChargeDragonDangerousBlasthamut-RDTB01-JP-SR.png",
+    "ExplosiveDestructorWyrmDangerousBakhamut-RDTB01-JP-ORR.png"
+  ],
+  "Destructor Soldier Helmet": [
+    "DemolitionSoldierHellMet-RDTB01-JP-C.png"
+  ],
+  "Priestess of Wise Salvation": [
+    "PriestessofWiseSalvation-RDEXT1-JP-SR.png",
+    "PriestessofStarSalvation-RDTB01-JP-C.png"
   ]
 }
