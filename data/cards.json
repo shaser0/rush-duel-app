@@ -20978,6 +20978,8 @@
     "name_es": "CAN:D",
     "attribute": "LIGHT",
     "types": "Psychic / Normal",
+    "card_type": null,
+    "property": null,
     "level": 1,
     "atk": 100,
     "def": 100,
@@ -21036,6 +21038,11 @@
         "code": "RD/AP01-JP069",
         "name": "Advance Pack: Devil's Ceremony",
         "rarity": "Common, Super Parallel Rare"
+      },
+      {
+        "code": "RD/AP03-JP046",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "sets_kr": [
@@ -21070,11 +21077,9 @@
       "JAM"
     ],
     "password": null,
-    "title": "CAN:D",
-    "_wiki_ts": "2025-10-22T18:09:48Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "CAN:D",
+    "_wiki_ts": "2026-07-06T02:04:07Z",
     "card_schema_version": 1,
     "raw_name_en": "CAN:D"
   },
@@ -21089,6 +21094,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Psychic / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 2000,
     "def": 1500,
@@ -21110,6 +21117,11 @@
         "code": "RD/MRP1-JP027",
         "name": "Megaroad Pack",
         "rarity": "Super Rare"
+      },
+      {
+        "code": "RD/AP03-JP052",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "sets_kr": [
@@ -21124,11 +21136,9 @@
       "JAM"
     ],
     "password": null,
-    "title": "CAN:D ALL",
-    "_wiki_ts": "2025-05-10T21:20:13Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "CAN:D ALL",
+    "_wiki_ts": "2026-07-06T02:03:06Z",
     "card_schema_version": 1,
     "raw_name_en": "CAN:D ALL"
   },
@@ -21347,6 +21357,8 @@
     "name_es": null,
     "attribute": "EARTH",
     "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 3,
     "atk": 400,
     "def": 400,
@@ -21355,7 +21367,7 @@
     "condition": null,
     "effect_types": "Continuous",
     "requirement": "None",
-    "effect": "During your opponent's turn, Spell/Trap Cards on your field cannot be returned to the hand, Deck, or Extra Deck by card effects. If you have a face-up Warrior Type Normal Monster or Warrior Type Fusion Monster on your field, face-up monsters on your field gain 1000 ATK.",
+    "effect": "During your opponent's turn, Spell/Trap Cards on your field cannot be returned to the hand/Deck/Extra Deck by card effects. If you have a face-up Warrior Type Normal Monster or Warrior Type Fusion Monster on your field, face-up monsters on your field gain 1000 ATK.",
     "flavor_text": null,
     "images": [
       {
@@ -21391,11 +21403,9 @@
       "Elemental HERO"
     ],
     "password": null,
-    "title": "Card Defender",
-    "_wiki_ts": "2025-07-22T15:45:34Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Card Defender",
+    "_wiki_ts": "2026-07-05T18:46:06Z",
     "card_schema_version": 1,
     "raw_name_en": "Card Defender"
   },
@@ -22153,6 +22163,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Equip",
     "level": null,
     "atk": null,
     "def": null,
@@ -22161,7 +22173,7 @@
     "condition": "This card's name becomes \"Charis Magic Scepter - Death Wand\" while in the Graveyard.",
     "effect_types": null,
     "requirement": "Equip to 1 face-up monster on your field.",
-    "effect": "If you use the equipped monster as material for a Fusion Summon, its name can be treated as \"Celeb Rose Sorcerer\". During your opponent's turn, while the equipped monster is face-up on your field, it cannot be returned to the hand, Deck, or Extra Deck by card effects.",
+    "effect": "If you use the equipped monster as material for a Fusion Summon, its name can be treated as \"Celeb Rose Sorcerer\". During your opponent's turn, while the equipped monster is face-up on your field, it cannot be returned to the hand/Deck/Extra Deck by card effects.",
     "flavor_text": null,
     "images": [
       {
@@ -22188,11 +22200,9 @@
       "Celeb Rose"
     ],
     "password": null,
-    "title": "Celeb Blouse - Death One Shoulder",
-    "_wiki_ts": "2025-11-11T09:39:40Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Equip",
+    "title": "Celeb Blouse - Death One Shoulder",
+    "_wiki_ts": "2026-07-05T18:48:14Z",
     "card_schema_version": 1,
     "raw_name_en": "Celeb Blouse - Death One Shoulder"
   },
@@ -24227,6 +24237,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Galaxy / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 2600,
     "def": 0,
@@ -24235,7 +24247,7 @@
     "condition": "Must be Special Summoned by the effect of \"Sentinel Officer\" or \"Galaxy Chaos Fusion\".",
     "effect_types": "Continuous",
     "requirement": "None",
-    "effect": "During your opponent's turn, Spell/Trap Cards on your field cannot be returned to the hand, Deck, or Extra Deck by card effects.",
+    "effect": "During your opponent's turn, Spell/Trap Cards on your field cannot be returned to the hand/Deck/Extra Deck by card effects.",
     "flavor_text": null,
     "images": [
       {
@@ -24262,11 +24274,9 @@
       "Chaos"
     ],
     "password": null,
-    "title": "Chaos Sentinel",
-    "_wiki_ts": "2025-05-16T07:41:10Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Chaos Sentinel",
+    "_wiki_ts": "2026-07-05T18:48:54Z",
     "card_schema_version": 1,
     "raw_name_en": "Chaos Sentinel"
   },
@@ -40947,6 +40957,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Insect / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 1,
     "atk": 800,
     "def": 1200,
@@ -40955,7 +40967,7 @@
     "condition": null,
     "effect_types": "Continuous",
     "requirement": "None",
-    "effect": "Face-up Insect Type monsters on your field gain 800 ATK. During your opponent's turn, Spell/Trap Cards on your field cannot be returned to the hand, Deck, or Extra Deck by card effects.",
+    "effect": "Face-up Insect Type monsters on your field gain 800 ATK. During your opponent's turn, Spell/Trap Cards on your field cannot be returned to the hand/Deck/Extra Deck by card effects.",
     "flavor_text": null,
     "images": [
       {
@@ -40982,11 +40994,9 @@
       "Delirium"
     ],
     "password": null,
-    "title": "Delirium Larva",
-    "_wiki_ts": "2025-03-19T10:02:28Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Delirium Larva",
+    "_wiki_ts": "2026-07-05T18:46:34Z",
     "card_schema_version": 1,
     "raw_name_en": "Delirium Larva"
   },
@@ -41617,7 +41627,7 @@
     ],
     "password": null,
     "title": "Demolition Barricade",
-    "_wiki_ts": "2026-07-02T02:31:27Z",
+    "_wiki_ts": "2026-07-05T17:56:02Z",
     "is_legend": false,
     "card_type": "Trap",
     "property": "Normal",
@@ -41674,7 +41684,7 @@
     "password": null,
     "is_legend": false,
     "title": "Explosive Destructor Wyrm Dangerous Bakhamut",
-    "_wiki_ts": "2026-07-04T12:57:56Z",
+    "_wiki_ts": "2026-07-05T17:46:22Z",
     "card_schema_version": 1,
     "former_titles": [
       "Demolition Charge Dragon Dangerous Blasthamut"
@@ -41731,7 +41741,7 @@
     "password": null,
     "is_legend": false,
     "title": "Destructor Detonator Heavy Contractor",
-    "_wiki_ts": "2026-07-04T13:02:40Z",
+    "_wiki_ts": "2026-07-05T17:48:44Z",
     "card_schema_version": 1,
     "former_titles": [
       "Demolition Charge Expert Warning Heavy Shock"
@@ -41845,7 +41855,7 @@
     "password": null,
     "is_legend": false,
     "title": "Destructor Integration Scrap Gate",
-    "_wiki_ts": "2026-07-04T12:56:43Z",
+    "_wiki_ts": "2026-07-06T07:48:42Z",
     "card_schema_version": 1,
     "former_titles": [
       "Demolition Fusegate Scrapgate"
@@ -42359,7 +42369,7 @@
     "password": null,
     "is_legend": false,
     "title": "Destructor Soldier Canteen",
-    "_wiki_ts": "2026-07-04T09:41:15Z",
+    "_wiki_ts": "2026-07-05T17:42:56Z",
     "card_schema_version": 1,
     "former_titles": [
       "Demolition Soldier Shokku Du"
@@ -42470,7 +42480,7 @@
     "password": null,
     "is_legend": false,
     "title": "Destructor Twin Princesses Haut-de-Chausses",
-    "_wiki_ts": "2026-07-05T07:05:06Z",
+    "_wiki_ts": "2026-07-05T18:46:55Z",
     "card_schema_version": 1,
     "former_titles": [
       "Demolition Twin Princesses Haut-de-Chausses"
@@ -44418,6 +44428,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Fairy / Effect",
+    "card_type": null,
+    "property": null,
     "level": 3,
     "atk": 1200,
     "def": 600,
@@ -44435,7 +44447,7 @@
       },
       {
         "artwork": 2,
-        "file": "DiceKeyLilith-RD26PR-JP-OP.png"
+        "file": "DiceKeyLilith-RD26PR-JP-NPR.png"
       }
     ],
     "sets_jp": [
@@ -44467,11 +44479,9 @@
       "Dice"
     ],
     "password": null,
-    "title": "Dice Key Lilith",
-    "_wiki_ts": "2025-12-19T01:46:55Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Dice Key Lilith",
+    "_wiki_ts": "2026-07-05T09:37:36Z",
     "card_schema_version": 1,
     "raw_name_en": "Dice Key Lilith"
   },
@@ -50903,6 +50913,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Equip",
     "level": null,
     "atk": null,
     "def": null,
@@ -50911,7 +50923,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "Equip to 1 face-up Dinosaur Type monster on your field.",
-    "effect": "The equipped monster cannot be destroyed by your opponent's card effects, and it inflicts piercing battle damage. During your opponent's turn, while the equipped monster is face-up on your field, it cannot be returned to the hand, Deck, or Extra Deck by card effects.",
+    "effect": "The equipped monster cannot be destroyed by your opponent's card effects, and it inflicts piercing battle damage. During your opponent's turn, while the equipped monster is face-up on your field, it cannot be returned to the hand/Deck/Extra Deck by card effects.",
     "flavor_text": null,
     "images": [
       {
@@ -50938,11 +50950,9 @@
       "Nouveau Riche Dinosaur"
     ],
     "password": null,
-    "title": "Dyna Body Heat",
-    "_wiki_ts": "2025-03-19T10:02:15Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Equip",
+    "title": "Dyna Body Heat",
+    "_wiki_ts": "2026-07-05T18:48:26Z",
     "card_schema_version": 1,
     "raw_name_en": "Dyna Body Heat"
   },
@@ -54367,7 +54377,7 @@
     ],
     "password": null,
     "title": "The Emperor Realm",
-    "_wiki_ts": "2026-01-29T12:45:50Z",
+    "_wiki_ts": "2026-07-06T07:49:02Z",
     "is_legend": false,
     "card_type": "Spell",
     "property": "Field",
@@ -55635,7 +55645,7 @@
     "condition": null,
     "effect_types": "Continuous",
     "requirement": "None",
-    "effect": "During your opponent's turn, this card cannot be returned to the hand, Deck, or Extra Deck by monster effects. This card that was Fusion Summoned using 3 or more monsters as material cannot be destroyed by card effects.",
+    "effect": "During your opponent's turn, this card cannot be returned to the hand/Deck/Extra Deck by monster effects. This card that was Fusion Summoned using 3 or more monsters as material cannot be destroyed by card effects.",
     "flavor_text": null,
     "images": [
       {
@@ -55664,7 +55674,7 @@
     "password": null,
     "is_legend": false,
     "title": "Eternum Voidvelg Requiem",
-    "_wiki_ts": "2026-06-11T11:18:00Z",
+    "_wiki_ts": "2026-07-05T18:35:21Z",
     "card_schema_version": 1,
     "raw_name_en": "Eternum Voidvelg Requiem"
   },
@@ -79566,7 +79576,7 @@
     ],
     "password": null,
     "title": "Hybridrive Scale",
-    "_wiki_ts": "2025-01-09T08:48:31Z",
+    "_wiki_ts": "2026-07-06T07:51:27Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -81142,6 +81152,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Psychic / Effect",
+    "card_type": null,
+    "property": null,
     "level": 1,
     "atk": 600,
     "def": 600,
@@ -81168,6 +81180,11 @@
         "code": "RD/B251-JP007",
         "name": "Battle Pack 2025 Vol.1",
         "rarity": "Common, Super Rare"
+      },
+      {
+        "code": "RD/AP03-JP051",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "sets_kr": [
@@ -81182,11 +81199,9 @@
       "JAM"
     ],
     "password": null,
-    "title": "Ice Pop Bear",
-    "_wiki_ts": "2025-05-10T21:18:31Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Ice Pop Bear",
+    "_wiki_ts": "2026-07-06T02:03:51Z",
     "card_schema_version": 1,
     "raw_name_en": "Ice Pop Bear"
   },
@@ -102339,6 +102354,8 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Fiend / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 8,
     "atk": 3600,
     "def": 2000,
@@ -102347,7 +102364,7 @@
     "condition": null,
     "effect_types": "Continuous",
     "requirement": "None",
-    "effect": "During your opponent's turn, monsters on your field cannot be returned to the hand, Deck, or Extra Deck by card effects.",
+    "effect": "During your opponent's turn, monsters on your field cannot be returned to the hand/Deck/Extra Deck by card effects.",
     "flavor_text": null,
     "images": [
       {
@@ -102375,11 +102392,9 @@
       "Summoned Skull"
     ],
     "password": null,
-    "title": "Meteor Skull Archfiend",
-    "_wiki_ts": "2025-03-19T09:57:13Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Meteor Skull Archfiend",
+    "_wiki_ts": "2026-07-05T18:47:13Z",
     "card_schema_version": 1,
     "raw_name_en": "Meteor Skull Archfiend"
   },
@@ -108155,7 +108170,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "NelkritatheSkysaviorHadal-RDKP16-JP-C.png"
+        "file": "NelkritatheSkysaviorHadal-RDB261-JP-NPR.png"
       }
     ],
     "sets_jp": [
@@ -108184,7 +108199,7 @@
     "password": null,
     "is_legend": false,
     "title": "Nelkrita the Skysavior Hadal",
-    "_wiki_ts": "2026-07-03T08:32:47Z",
+    "_wiki_ts": "2026-07-05T09:34:50Z",
     "card_schema_version": 1,
     "raw_name_en": "Nelkrita the Skysavior Hadal"
   },
@@ -115726,7 +115741,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "Send the top 2 cards of your Deck to the Graveyard.",
-    "effect": "Choose 1 face-up Galaxy Type monster on your field. Then, you can choose 1 Spell/Trap Card on your field. During your opponent's next turn, the chosen cards cannot be returned to the hand, Deck, or Extra Deck by card effects.",
+    "effect": "Choose 1 face-up Galaxy Type monster on your field. Then, you can choose 1 Spell/Trap Card on your field. During your opponent's next turn, the chosen cards cannot be returned to the hand/Deck/Extra Deck by card effects.",
     "flavor_text": null,
     "images": [
       {
@@ -115753,7 +115768,7 @@
     "password": null,
     "is_legend": false,
     "title": "Planet Aegis",
-    "_wiki_ts": "2026-06-29T22:33:11Z",
+    "_wiki_ts": "2026-07-05T18:47:26Z",
     "card_schema_version": 1,
     "raw_name_en": "Planet Aegis"
   },
@@ -117956,6 +117971,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -117982,6 +117999,11 @@
         "code": "RD/LGP2-JP077",
         "name": "Neo Legend Awakening Pack",
         "rarity": "Super Rare, Ultra Parallel Rare"
+      },
+      {
+        "code": "RD/AP03-JP059",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "sets_kr": [
@@ -117999,11 +118021,9 @@
     "database_id": "18702",
     "archseries": [],
     "password": null,
-    "title": "Polymerization",
-    "_wiki_ts": "2026-05-25T18:57:25Z",
     "is_legend": true,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Polymerization",
+    "_wiki_ts": "2026-07-05T17:21:05Z",
     "card_schema_version": 1,
     "raw_name_en": "Polymerization (Rush Duel)"
   },
@@ -120809,6 +120829,8 @@
     "name_es": "Prensa de Impresión",
     "attribute": "EARTH",
     "types": "Machine / Effect",
+    "card_type": null,
+    "property": null,
     "level": 8,
     "atk": 2300,
     "def": 1600,
@@ -120822,7 +120844,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "PrintingPresser-RDSD02-JP-C.png"
+        "file": "PrintingPresser-RDB261-JP-NPR.png"
       }
     ],
     "sets_jp": [
@@ -120859,11 +120881,9 @@
       "Reporter"
     ],
     "password": null,
-    "title": "Printing Presser",
-    "_wiki_ts": "2026-04-10T19:31:15Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Printing Presser",
+    "_wiki_ts": "2026-07-05T09:34:19Z",
     "card_schema_version": 1,
     "raw_name_en": "Printing Presser"
   },
@@ -123605,7 +123625,7 @@
     ],
     "password": null,
     "title": "Rainapolis",
-    "_wiki_ts": "2025-12-01T20:49:58Z",
+    "_wiki_ts": "2026-07-06T07:48:05Z",
     "is_legend": false,
     "card_type": "Spell",
     "property": "Field",
@@ -125254,6 +125274,8 @@
     "name_es": null,
     "attribute": "DARK",
     "types": "Dragon / Maximum / Effect",
+    "card_type": null,
+    "property": null,
     "level": 10,
     "atk": 2400,
     "def": 0,
@@ -125262,7 +125284,7 @@
     "condition": null,
     "effect_types": "Continuous",
     "requirement": "None",
-    "effect": "During your opponent's turn, Spell/Trap Cards on your field cannot be returned to the hand, Deck, or Extra Deck by card effects. If this card is used as material for a Fusion Summon, its name becomes \"Red-Eyes Black Dragon\".",
+    "effect": "During your opponent's turn, Spell/Trap Cards on your field cannot be returned to the hand/Deck/Extra Deck by card effects. If this card is used as material for a Fusion Summon, its name becomes \"Red-Eyes Black Dragon\".",
     "flavor_text": null,
     "images": [
       {
@@ -125289,11 +125311,9 @@
       "Red-Eyes"
     ],
     "password": null,
-    "title": "Red-Eyes Maxi-Flare Dragon (R)",
-    "_wiki_ts": "2025-03-19T09:56:55Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Red-Eyes Maxi-Flare Dragon (R)",
+    "_wiki_ts": "2026-07-05T18:47:40Z",
     "card_schema_version": 1,
     "raw_name_en": "Red-Eyes Maxi-Flare Dragon [R]"
   },
@@ -128436,6 +128456,8 @@
     "name_es": null,
     "attribute": "DARK",
     "types": "Spellcaster / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 2600,
     "def": 2100,
@@ -128444,7 +128466,7 @@
     "condition": null,
     "effect_types": "Continuous",
     "requirement": "None",
-    "effect": "Face-up Spellcaster Type monsters on your field gain 200 ATK. During your opponent's turn, monsters on your field cannot be returned to the hand, Deck, or Extra Deck by card effects.",
+    "effect": "Face-up Spellcaster Type monsters on your field gain 200 ATK. During your opponent's turn, monsters on your field cannot be returned to the hand/Deck/Extra Deck by card effects.",
     "flavor_text": null,
     "images": [
       {
@@ -128471,11 +128493,9 @@
       "Sevens Road"
     ],
     "password": null,
-    "title": "Road Apostle Magus",
-    "_wiki_ts": "2025-09-08T22:18:31Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Road Apostle Magus",
+    "_wiki_ts": "2026-07-05T18:47:52Z",
     "card_schema_version": 1,
     "raw_name_en": "Road Apostle Magus"
   },
@@ -147058,7 +147078,7 @@
     "password": null,
     "is_legend": false,
     "title": "Star Protector's Protection",
-    "_wiki_ts": "2026-06-28T19:18:35Z",
+    "_wiki_ts": "2026-07-05T17:37:11Z",
     "card_schema_version": 1,
     "raw_name_en": "Star Protector's Protection"
   },
@@ -163401,6 +163421,8 @@
     "name_es": null,
     "attribute": "WIND",
     "types": "Zombie / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 2500,
     "def": 0,
@@ -163409,7 +163431,7 @@
     "condition": null,
     "effect_types": "Continuous",
     "requirement": "None",
-    "effect": "Spell/Trap Cards on your field cannot be destroyed by your opponent's card effects. During your opponent's turn, this card and Spell/Trap Cards on your field cannot be returned to the hand, Deck, or Extra Deck by card effects.",
+    "effect": "Spell/Trap Cards on your field cannot be destroyed by your opponent's card effects. During your opponent's turn, this card and Spell/Trap Cards on your field cannot be returned to the hand/Deck/Extra Deck by card effects.",
     "flavor_text": null,
     "images": [
       {
@@ -163436,11 +163458,9 @@
       "Defiant Soul"
     ],
     "password": null,
-    "title": "Valstorm the Skullcrag King",
-    "_wiki_ts": "2026-04-22T10:09:47Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Valstorm the Skullcrag King",
+    "_wiki_ts": "2026-07-05T18:48:02Z",
     "card_schema_version": 1,
     "raw_name_en": "Valstorm the Skullcrag King"
   },
@@ -175326,7 +175346,7 @@
       {
         "code": "RD/LP01-JP004",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -175335,7 +175355,7 @@
     "password": null,
     "is_legend": true,
     "title": "Bottomless Trap Hole",
-    "_wiki_ts": "2026-06-23T07:29:21Z",
+    "_wiki_ts": "2026-07-05T18:52:35Z",
     "card_schema_version": 1,
     "raw_name_en": "Bottomless Trap Hole (Rush Duel)"
   },
@@ -175372,7 +175392,7 @@
       {
         "code": "RD/LP01-JP002",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -175381,7 +175401,7 @@
     "password": null,
     "is_legend": true,
     "title": "Breaker the Magical Warrior",
-    "_wiki_ts": "2026-06-23T07:20:18Z",
+    "_wiki_ts": "2026-07-05T18:52:26Z",
     "card_schema_version": 1,
     "raw_name_en": "Breaker the Magical Warrior (Rush Duel)"
   },
@@ -176185,7 +176205,7 @@
     "password": null,
     "is_legend": false,
     "title": "Evergreen of Blisstopia",
-    "_wiki_ts": "2026-07-01T07:51:06Z",
+    "_wiki_ts": "2026-07-06T07:47:40Z",
     "former_titles": [
       "Vegetation of Blisstopia"
     ],
@@ -176332,7 +176352,7 @@
     "password": null,
     "is_legend": false,
     "title": "Fist the Star Protector Roaring Fist",
-    "_wiki_ts": "2026-06-28T18:50:13Z",
+    "_wiki_ts": "2026-07-05T17:35:42Z",
     "card_schema_version": 1,
     "raw_name_en": "Fist the Star Protector Roaring Fist"
   },
@@ -177512,7 +177532,7 @@
     "password": null,
     "is_legend": false,
     "title": "Star Protector Awakening",
-    "_wiki_ts": "2026-06-28T17:34:41Z",
+    "_wiki_ts": "2026-07-05T17:36:23Z",
     "card_schema_version": 1,
     "raw_name_en": "Star Protector Awakening"
   },
