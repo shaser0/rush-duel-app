@@ -38922,7 +38922,7 @@
     ],
     "password": null,
     "title": "Darkness Phantomite",
-    "_wiki_ts": "2026-07-02T16:42:57Z",
+    "_wiki_ts": "2026-07-08T16:43:18Z",
     "is_legend": false,
     "card_type": null,
     "property": null,
@@ -41568,12 +41568,12 @@
     ],
     "database_id": "19135",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
     "is_legend": false,
     "title": "Destructor Art - Total Destruction",
-    "_wiki_ts": "2026-07-04T12:55:38Z",
+    "_wiki_ts": "2026-07-08T16:39:20Z",
     "card_schema_version": 1,
     "former_titles": [
       "Demolition Art - Absolute Destruction"
@@ -41591,6 +41591,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -41623,14 +41625,12 @@
     ],
     "database_id": "19134",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
-    "title": "Demolition Barricade",
-    "_wiki_ts": "2026-07-05T17:56:02Z",
     "is_legend": false,
-    "card_type": "Trap",
-    "property": "Normal",
+    "title": "Demolition Barricade",
+    "_wiki_ts": "2026-07-08T16:38:52Z",
     "card_schema_version": 1,
     "raw_name_en": "Demolition Barricade"
   },
@@ -41679,12 +41679,12 @@
     ],
     "database_id": "19122",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
     "is_legend": false,
     "title": "Explosive Destructor Wyrm Dangerous Bakhamut",
-    "_wiki_ts": "2026-07-05T17:46:22Z",
+    "_wiki_ts": "2026-07-08T16:36:04Z",
     "card_schema_version": 1,
     "former_titles": [
       "Demolition Charge Dragon Dangerous Blasthamut"
@@ -41736,12 +41736,12 @@
     ],
     "database_id": "19123",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
     "is_legend": false,
     "title": "Destructor Detonator Heavy Contractor",
-    "_wiki_ts": "2026-07-05T17:48:44Z",
+    "_wiki_ts": "2026-07-08T16:36:24Z",
     "card_schema_version": 1,
     "former_titles": [
       "Demolition Charge Expert Warning Heavy Shock"
@@ -41793,12 +41793,12 @@
     ],
     "database_id": "20654",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
     "is_legend": false,
     "title": "Destructor Emperor Bakhakaiser",
-    "_wiki_ts": "2026-07-04T09:36:49Z",
+    "_wiki_ts": "2026-07-08T16:45:09Z",
     "card_schema_version": 1,
     "former_titles": [
       "Demolition Emperor Blastkaiser"
@@ -41850,12 +41850,12 @@
     ],
     "database_id": "20662",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
     "is_legend": false,
     "title": "Destructor Integration Scrap Gate",
-    "_wiki_ts": "2026-07-06T09:58:09Z",
+    "_wiki_ts": "2026-07-08T16:45:25Z",
     "card_schema_version": 1,
     "former_titles": [
       "Demolition Fusegate Scrapgate"
@@ -41873,6 +41873,8 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Wyrm / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 9,
     "atk": 3000,
     "def": 2500,
@@ -41905,14 +41907,12 @@
     ],
     "database_id": "19675",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
-    "title": "Demolition Meltdown Dragon Darkness Blasthamut",
-    "_wiki_ts": "2026-07-02T00:35:29Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Demolition Meltdown Dragon Darkness Blasthamut",
+    "_wiki_ts": "2026-07-08T16:43:09Z",
     "card_schema_version": 1,
     "raw_name_en": "Demolition Meltdown Dragon Darkness Blasthamut"
   },
@@ -41961,12 +41961,12 @@
     ],
     "database_id": "19132",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
     "is_legend": false,
     "title": "Destructor Claw Shield",
-    "_wiki_ts": "2026-07-04T08:17:47Z",
+    "_wiki_ts": "2026-07-08T16:37:09Z",
     "card_schema_version": 1,
     "former_titles": [
       "Demolition Shutter"
@@ -41984,6 +41984,8 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Wyrm / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 100,
     "def": 1100,
@@ -42016,14 +42018,12 @@
     ],
     "database_id": "19646",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
-    "title": "Demolition Soldier Ashiba Bikke",
-    "_wiki_ts": "2026-07-02T01:47:20Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Demolition Soldier Ashiba Bikke",
+    "_wiki_ts": "2026-07-08T16:43:37Z",
     "card_schema_version": 1,
     "raw_name_en": "Demolition Soldier Ashiba Bikke"
   },
@@ -42072,12 +42072,12 @@
     ],
     "database_id": "20621",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
     "is_legend": false,
     "title": "Destructor Soldier Haken",
-    "_wiki_ts": "2026-07-04T16:59:35Z",
+    "_wiki_ts": "2026-07-08T16:44:34Z",
     "card_schema_version": 1,
     "former_titles": [
       "Demolition Soldier Haken Haken"
@@ -42139,12 +42139,12 @@
     ],
     "database_id": "19127",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
     "is_legend": false,
     "title": "Destructor Soldier Helmet",
-    "_wiki_ts": "2026-07-04T17:03:35Z",
+    "_wiki_ts": "2026-07-08T16:36:14Z",
     "card_schema_version": 1,
     "former_titles": [
       "Demolition Soldier Hell Met"
@@ -42196,12 +42196,12 @@
     ],
     "database_id": "19125",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
     "is_legend": false,
     "title": "Demolition Soldier Kasetsu Baiten",
-    "_wiki_ts": "2026-07-04T09:41:52Z",
+    "_wiki_ts": "2026-07-08T16:36:34Z",
     "card_schema_version": 1,
     "raw_name_en": "Demolition Soldier Kasetsu Baiten"
   },
@@ -42250,12 +42250,12 @@
     ],
     "database_id": "21658",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
     "is_legend": false,
     "title": "Destructor Soldier Knikka",
-    "_wiki_ts": "2026-07-05T06:53:17Z",
+    "_wiki_ts": "2026-07-08T16:47:58Z",
     "card_schema_version": 1,
     "former_titles": [
       "Demolition Soldier Nikka"
@@ -42307,12 +42307,12 @@
     ],
     "database_id": "21659",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
     "is_legend": false,
     "title": "Destructor Soldier Bokka",
-    "_wiki_ts": "2026-07-05T06:55:55Z",
+    "_wiki_ts": "2026-07-08T16:48:06Z",
     "card_schema_version": 1,
     "former_titles": [
       "Demolition Soldier Pokka"
@@ -42364,12 +42364,12 @@
     ],
     "database_id": "20622",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
     "is_legend": false,
     "title": "Destructor Soldier Canteen",
-    "_wiki_ts": "2026-07-05T17:42:56Z",
+    "_wiki_ts": "2026-07-08T16:45:01Z",
     "card_schema_version": 1,
     "former_titles": [
       "Demolition Soldier Shokku Du"
@@ -42421,12 +42421,12 @@
     ],
     "database_id": "19133",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
     "is_legend": false,
     "title": "Demolition Survey",
-    "_wiki_ts": "2026-07-04T09:41:56Z",
+    "_wiki_ts": "2026-07-08T16:37:21Z",
     "card_schema_version": 1,
     "raw_name_en": "Demolition Survey"
   },
@@ -42475,12 +42475,12 @@
     ],
     "database_id": "21686",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
     "is_legend": false,
     "title": "Destructor Twin Princesses Haut-de-Chausses",
-    "_wiki_ts": "2026-07-05T18:46:55Z",
+    "_wiki_ts": "2026-07-08T16:48:16Z",
     "card_schema_version": 1,
     "former_titles": [
       "Demolition Twin Princesses Haut-de-Chausses"
@@ -43131,12 +43131,12 @@
     ],
     "database_id": "19129",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
     "is_legend": false,
     "title": "Destructor Soldier Plasterer",
-    "_wiki_ts": "2026-07-01T10:21:22Z",
+    "_wiki_ts": "2026-07-08T16:39:01Z",
     "card_schema_version": 1,
     "raw_name_en": "Destructor Soldier Plasterer"
   },
@@ -43185,12 +43185,12 @@
     ],
     "database_id": "19130",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
     "is_legend": false,
     "title": "Destructor Soldier Plumber",
-    "_wiki_ts": "2026-07-01T10:21:47Z",
+    "_wiki_ts": "2026-07-08T16:39:11Z",
     "card_schema_version": 1,
     "raw_name_en": "Destructor Soldier Plumber"
   },
@@ -43239,12 +43239,12 @@
     ],
     "database_id": "19128",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
     "is_legend": false,
     "title": "Destructor Soldier Steeplejack",
-    "_wiki_ts": "2026-07-04T18:09:32Z",
+    "_wiki_ts": "2026-07-08T16:37:32Z",
     "card_schema_version": 1,
     "raw_name_en": "Destructor Soldier Steeplejack"
   },
@@ -43293,12 +43293,12 @@
     ],
     "database_id": "19131",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
     "is_legend": false,
     "title": "Destructor Sword Conquedea",
-    "_wiki_ts": "2026-07-04T08:10:37Z",
+    "_wiki_ts": "2026-07-08T16:38:39Z",
     "card_schema_version": 1,
     "raw_name_en": "Destructor Sword Conquedea"
   },
@@ -43347,12 +43347,12 @@
     ],
     "database_id": "19124",
     "archseries": [
-      "Demolition"
+      "Destructor"
     ],
     "password": null,
     "is_legend": false,
     "title": "Destructor Wyrm Bakhamut",
-    "_wiki_ts": "2026-07-04T18:10:07Z",
+    "_wiki_ts": "2026-07-08T16:35:54Z",
     "card_schema_version": 1,
     "raw_name_en": "Destructor Wyrm Bakhamut"
   },
@@ -64862,7 +64862,7 @@
     "password": null,
     "is_legend": false,
     "title": "Fusion",
-    "_wiki_ts": "2026-06-28T17:48:32Z",
+    "_wiki_ts": "2026-07-08T16:33:12Z",
     "card_schema_version": 1,
     "raw_name_en": "Fusion (Rush Duel)"
   },
@@ -73280,6 +73280,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Dragon / Effect",
+    "card_type": null,
+    "property": null,
     "level": 7,
     "atk": 2300,
     "def": 2000,
@@ -73293,7 +73295,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "HackingDragon-RDSJMP-JP-NPR.png"
+        "file": "HackingDragon-RDB253-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -73320,11 +73322,9 @@
       "High Tech Dragon"
     ],
     "password": null,
-    "title": "Hacking Dragon",
-    "_wiki_ts": "2025-09-12T20:41:13Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Hacking Dragon",
+    "_wiki_ts": "2026-07-08T14:44:18Z",
     "card_schema_version": 1,
     "raw_name_en": "Hacking Dragon"
   },
@@ -83086,6 +83086,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -83099,7 +83101,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "InterceptingGaia-RDKP14-JP-R.png"
+        "file": "InterceptingGaia-RDB252-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -83126,11 +83128,9 @@
       "Gaia"
     ],
     "password": null,
-    "title": "Intercepting Gaia",
-    "_wiki_ts": "2025-06-19T11:07:38Z",
     "is_legend": false,
-    "card_type": "Trap",
-    "property": "Normal",
+    "title": "Intercepting Gaia",
+    "_wiki_ts": "2026-07-08T14:43:19Z",
     "card_schema_version": 1,
     "raw_name_en": "Intercepting Gaia"
   },
@@ -178550,7 +178550,7 @@
     "password": null,
     "is_legend": false,
     "title": "Phantasmal Triangular Scale",
-    "_wiki_ts": "2026-07-01T23:55:34Z",
+    "_wiki_ts": "2026-07-08T16:45:17Z",
     "former_titles": [
       "Legendary Scale Ruler"
     ],
