@@ -137,7 +137,7 @@ function startSync(name, force = false) {
   return true;
 }
 
-// Start whichever syncs are stale; re-check every hour
+// Start whichever syncs are stale; re-checked periodically (see CHECK_INTERVAL_MS)
 function startStaleSyncs() {
   for (const name of Object.keys(SYNCS)) startSync(name);
 }
