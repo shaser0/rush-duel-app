@@ -27,11 +27,16 @@ console.log('duel glue — snapshot routing + reconnection');
 const TOK_A = 'a'.repeat(32);
 const TOK_B = 'b'.repeat(32);
 
-// Two seats join; a game is created and set up.
-const room = rooms.createRoom('sock-A', 'Alice', TOK_A);
+// Two players each claim a seat, then a game is created and set up. Under the
+// current design nobody is auto-seated: the host and joiner both join as
+// spectators (room.players) and claim a seat manually via claimSeat().
+const room = rooms.createRoom('sock-A', 'Alice');
 const code = room.code;
-const j = rooms.joinRoom(code, 'sock-B', 'Bob', TOK_B);
-assert.strictEqual(j.seat, 1);
+const sA = rooms.claimSeat(code, 'sock-A', TOK_A);
+assert.strictEqual(sA.seat, 0);
+rooms.joinRoom(code, 'sock-B', 'Bob');
+const sB = rooms.claimSeat(code, 'sock-B', TOK_B);
+assert.strictEqual(sB.seat, 1);
 
 const game = duel.ensureGame(room);
 assert.ok(game, 'game created once both seats present');
@@ -85,9 +90,11 @@ ok('reconnected player gets a snapshot restoring their own game state', () => {
     'restored snapshot should contain the player\'s own hidden hand');
 });
 
-ok('a foreign token cannot take a reserved seat (room_full)', () => {
+ok('a foreign token joins as a spectator, never grabbing a reserved seat', () => {
   const r = rooms.joinRoom(code, 'sock-C', 'Carol', 'c'.repeat(32));
-  assert.strictEqual(r.error, 'room_full');
+  assert.ok(!r.error, 'joining always succeeds as a spectator');
+  assert.strictEqual(r.seat, undefined, 'an unknown token gets no seat');
+  assert.ok(!r.reconnected, 'an unknown token is not treated as a reconnection');
 });
 
 ok('both seats gone reclaims the room from memory', () => {
