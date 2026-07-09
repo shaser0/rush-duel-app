@@ -12,8 +12,8 @@ const {
 // ── Main ─────────────────────────────────────────────────────────────────────
 
 // Reads data/raw-cards.json (raw Yugipedia fetch) and writes data/cards.json
-// (the cleaned file the app serves). Exported so sync-cards.js / tag-legends.js
-// can run it in-process; also runnable standalone: `node scripts/pipeline/clean-cards.js`.
+// (the cleaned file the app serves). Exported so sync-cards.js can run it
+// in-process; also runnable standalone: `node scripts/pipeline/clean-cards.js`.
 function cleanCards() {
 let raw;
 try {
