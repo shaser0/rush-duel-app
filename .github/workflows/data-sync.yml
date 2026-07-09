@@ -1,10 +1,15 @@
 name: Data Sync
 
-# Runs the full card/set/gallery/banlist sync daily and publishes any
-# changes straight to main via the data channel (data-channel.json tag:
-# "main") — no vX.Y.Z tag, so this never triggers the binary-release
-# workflow. Clients pick up new data through the existing background/manual
-# "check for card-data update" mechanism, no app update required.
+# Runs the full card/set/gallery/banlist sync daily and publishes any changes
+# to main, then tags the data commit with an immutable "data-v<N>" tag and
+# points data-channel.json at it. Clients read the tiny data-channel.json
+# pointer from @main but download the data itself from the pinned @data-v<N>
+# tag, so jsDelivr always serves a *consistent* snapshot — it can't hand out
+# data-channel.json and data-version.json at mismatched versions (mutable-@main
+# per-file cache skew), which previously drove clients into a reload loop.
+# "data-v<N>" does not match the release workflow's "v[0-9]*" trigger, so this
+# never rebuilds binaries. Clients pick new data up through the existing
+# background/manual "check for card-data update" mechanism — no app update.
 
 on:
   schedule:
@@ -91,13 +96,35 @@ jobs:
           git push origin HEAD:main
           echo "pushed=true" >> "$GITHUB_OUTPUT"
 
-      # jsDelivr caches the @main ref for a while (their docs say up to ~12h);
-      # clients poll data-channel.json via that ref to detect new data, so a
-      # stale CDN copy means the "check for card-data update" mechanism can't
-      # see this sync happened until the cache naturally expires. Force it.
-      - name: Purge jsDelivr cache for the data channel + files
+      # Tag the just-pushed data commit with the immutable tag hash-data wrote
+      # into data-channel.json (data-v<N>). Clients download the data from this
+      # pinned tag, so jsDelivr serves one consistent commit — no per-file skew.
+      - name: Tag the data release
+        id: tag
         if: steps.publish.outputs.pushed == 'true'
         run: |
-          for f in data-channel.json cards.json sets-data.json gallery-images.json image-urls.json banlist.json; do
-            curl -fsS "https://purge.jsdelivr.net/gh/shaser0/rush-duel-app@main/data/$f" || true
+          TAG="$(node -e "process.stdout.write(require('./data/data-channel.json').tag)")"
+          if [ -z "$TAG" ] || [ "$TAG" = "main" ]; then
+            echo "Refusing to tag: data-channel.json tag is '$TAG' (expected data-v<N>)." >&2
+            exit 1
+          fi
+          git tag "$TAG"
+          git push origin "refs/tags/$TAG"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "Tagged data commit as $TAG"
+
+      # The pinned @data-v<N> tag is brand new, so jsDelivr will fetch its files
+      # fresh on first request. The one file clients read from the *mutable*
+      # @main ref is data-channel.json — that must be purged so the new pointer
+      # is visible before its ~12h cache expires. (Even if this purge is missed,
+      # a stale pointer only names an older *consistent* tag, delaying the update
+      # — it can no longer loop.) The @data-v<N> purges are belt-and-suspenders
+      # in case a client raced a request before the tag existed.
+      - name: Purge jsDelivr cache for the data channel + tagged data
+        if: steps.publish.outputs.pushed == 'true'
+        run: |
+          TAG="${{ steps.tag.outputs.tag }}"
+          curl -fsS "https://purge.jsdelivr.net/gh/shaser0/rush-duel-app@main/data/data-channel.json" || true
+          for f in data-version.json cards.json sets-data.json gallery-images.json image-urls.json banlist.json; do
+            curl -fsS "https://purge.jsdelivr.net/gh/shaser0/rush-duel-app@${TAG}/data/$f" || true
           done

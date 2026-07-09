@@ -80,7 +80,9 @@ jobs:
             else
               # No body: header = tagged commit's subject; bullets = commits
               # since the previous tag, excluding the bump commit itself (TAG^).
-              prev="$(git describe --tags --abbrev=0 "${TAG}^" 2>/dev/null || true)"
+              # --match 'v[0-9]*' so data-only "data-v<N>" tags (from the daily
+              # data-sync workflow) are never mistaken for the previous release.
+              prev="$(git describe --tags --abbrev=0 --match 'v[0-9]*' "${TAG}^" 2>/dev/null || true)"
               git log -1 --format='%s' "$TAG"
               echo
               if [ -n "$prev" ]; then

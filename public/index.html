@@ -4078,37 +4078,78 @@ function refBaseForTag(dataBase, tag){
   return dataBase.replace(/@[^/]+\/data$/, '@'+tag+'/data');
 }
 
-// Download all REF_FILES from `base`, parse, and (when complete) cache under
-// `tag`. cards.json is mandatory; optional files may be absent. allOk gates
-// caching so a transiently-empty optional file isn't frozen under this tag
-// (e.g. empty IMG_URLS → every image stuck on the slow fallback). Partial loads
-// stay in-memory so the next launch retries. Returns { ref, version }.
-async function refDownload(db, base, tag){
+// Download all REF_FILES from `base`, verify each against the manifest's SHA-256
+// hashes, parse, and (when complete) cache under `tag`. cards.json is mandatory;
+// optional files may be absent. allOk gates caching so a transiently-empty
+// optional file isn't frozen under this tag (e.g. empty IMG_URLS → every image
+// stuck on the slow fallback). Partial loads stay in-memory so the next launch
+// retries. Returns { ref, version, cached }.
+async function refDownload(db, base, tag, pinVersion){
   const url=f=> base ? `${base}/${f}` : `/${f}`;
   let allOk=true;
-  const res=await Promise.all(REF_FILES.map(f=>fetch(url(f)).catch(()=>null)));
+  // Fetch the files and the manifest together; the manifest's `hashes` let us
+  // verify each file before trusting it (integrity against a corrupted/tampered
+  // CDN response). Verify only immutable CDN tags: the mutable @main ref serves
+  // per-file cache snapshots that can legitimately mismatch the manifest, and a
+  // same-origin dev checkout may hold locally-edited (un-rehashed) data — hashing
+  // either would cause false rejects, so both are skipped.
+  const [res, man]=await Promise.all([
+    Promise.all(REF_FILES.map(f=>fetch(url(f)).catch(()=>null))),
+    fetch(url('data-version.json')).then(r=>r&&r.ok?r.json():null).catch(()=>null),
+  ]);
   if(!res[0]||!res[0].ok) throw new Error('cards.json unavailable');
+  let version=0,hashes={};
+  if(man){ version=man.version||0; hashes=man.hashes||{}; }
+  const subtle=(typeof crypto!=='undefined'&&crypto.subtle)?crypto.subtle:null;
+  const verify=!!(subtle && base && tag!=='main');
+  // Read one response as raw bytes, verify its SHA-256 against the manifest, then
+  // JSON-parse. Returns null on fetch/parse error or hash mismatch so the caller
+  // can degrade that file (reject cards.json, blank an optional file).
+  async function readVerify(i){
+    try{
+      const buf=await res[i].arrayBuffer();
+      const want=hashes[REF_FILES[i]];
+      if(verify && want){
+        const dig=await subtle.digest('SHA-256',buf);
+        const got=Array.from(new Uint8Array(dig),b=>b.toString(16).padStart(2,'0')).join('');
+        if(got!==want){ console.warn('[data] SHA-256 mismatch, rejecting',REF_FILES[i]); return null; }
+      }
+      return JSON.parse(new TextDecoder().decode(buf));
+    }catch{ return null; }
+  }
   const parsed=[];
-  parsed[0]=await res[0].json();
-  if(!Array.isArray(parsed[0])||!parsed[0].length) throw new Error('cards.json empty/invalid');
+  parsed[0]=await readVerify(0);
+  if(!Array.isArray(parsed[0])||!parsed[0].length) throw new Error('cards.json missing/invalid/failed integrity');
   for(let i=1;i<REF_FILES.length;i++){
-    if(res[i]&&res[i].ok){ parsed[i]=await res[i].json().catch(()=>{ allOk=false; return {}; }); }
+    if(res[i]&&res[i].ok){
+      const d=await readVerify(i);
+      if(d===null){ parsed[i]={}; allOk=false; } else parsed[i]=d;
+    }
     else { parsed[i]={}; allOk=false; }
   }
-  let version=0,hashes={};
-  try{ const man=await fetch(url('data-version.json')).then(r=>r&&r.ok?r.json():null); if(man){ version=man.version||0; hashes=man.hashes||{}; } }catch{}
+  // When the caller knows the authoritative version (the data channel's pointer),
+  // record at least that. The tag's own data-version.json can be momentarily
+  // unfetchable → version 0; storing that would leave the cache permanently
+  // "behind" the channel and re-trigger the update on every load (reload loop).
+  if(typeof pinVersion==='number' && pinVersion>version) version=pinVersion;
+  let cached=false;
   if(db && allOk){
     try{
       const records=REF_FILES.map((f,i)=>({name:f,data:parsed[i]}));
       await refIdbPutAll(db,records,{dataTag:tag,version,hashes});
+      cached=true;
     }catch{ /* quota/etc → keep in-memory for this session */ }
   }
-  return { ref: packRef(REF_FILES.map((f,i)=>({name:f,data:parsed[i]}))), version };
+  return { ref: packRef(REF_FILES.map((f,i)=>({name:f,data:parsed[i]}))), version, cached };
 }
 
 // First-paint load: serve any complete cache immediately (offline-friendly,
-// independent of which data tag produced it), else download the baseline tag.
-// checkDataChannel() refreshes it afterwards if newer data has been published.
+// independent of which data tag produced it), else download the current data.
+// On a cold start we prefer the data channel's current tag over the binary's
+// pinned baseline tag — the pinned tag can be many versions behind, and a client
+// that can't persist a cache (IndexedDB blocked/absent) would otherwise re-load
+// the stale baseline on every launch and never reach the published version.
+// checkDataChannel() still refreshes afterwards if the channel advances further.
 async function loadReferenceData(dataBase, dataTag){
   let db=null;
   try{ db=await refIdbOpen(); }catch{ /* private mode / no IndexedDB */ }
@@ -4119,11 +4160,30 @@ async function loadReferenceData(dataBase, dataTag){
       if(man&&recs){ DATA_STATE.version=man.version||0; DATA_STATE.tag=man.dataTag||dataTag; return packRef(recs); }
     }catch{}
   }
+  // Resolve the freshest tag from the channel; fall back to the pinned baseline
+  // (works offline / if the channel is unreachable). pinVer lets refDownload
+  // record the channel's authoritative version even if the tag's own
+  // data-version.json lags, so the cache isn't left perpetually "behind".
+  let tag=dataTag, base=dataBase||'', pinVer;
   try{
-    const { ref, version }=await refDownload(db, dataBase||'', dataTag);
-    DATA_STATE.version=version; DATA_STATE.tag=dataTag;
+    if(DATA_CHANNEL_URL){
+      const ch=await fetch(DATA_CHANNEL_URL,{cache:'no-store'}).then(r=>r&&r.ok?r.json():null);
+      if(ch&&ch.tag&&typeof ch.version==='number'){ tag=ch.tag; base=refBaseForTag(dataBase,ch.tag); pinVer=ch.version; }
+    }
+  }catch{ /* offline / channel down → pinned baseline below */ }
+  try{
+    const { ref, version }=await refDownload(db, base, tag, pinVer);
+    DATA_STATE.version=version; DATA_STATE.tag=tag;
     return ref;
   }catch(e){
+    // Channel tag failed to download → retry the pinned baseline before giving up.
+    if(tag!==dataTag){
+      try{
+        const { ref, version }=await refDownload(db, dataBase||'', dataTag);
+        DATA_STATE.version=version; DATA_STATE.tag=dataTag;
+        return ref;
+      }catch{}
+    }
     if(db){ try{ const recs=await refCached(db); if(recs) return packRef(recs); }catch{} }
     throw e;
   }
@@ -4141,9 +4201,30 @@ async function checkDataChannel(channelUrl, dataBase){
   if(ch.version<=(DATA_STATE.version||0)) return { updated:false, version:ch.version };
   let db=null;
   try{ db=await refIdbOpen(); }catch{}
-  const { version }=await refDownload(db, refBaseForTag(dataBase, ch.tag), ch.tag);
+  const { version, cached }=await refDownload(db, refBaseForTag(dataBase, ch.tag), ch.tag, ch.version);
   DATA_STATE.version=version; DATA_STATE.tag=ch.tag;
-  return { updated:true, version };
+  // Only signal a reload when the new data was actually persisted to the cache.
+  // A reload re-runs loadReferenceData(), which picks the update up *from the
+  // cache*; if we couldn't cache (no IndexedDB, or a partial/failed download),
+  // reloading can't apply the new version and this check would fire again on the
+  // next load — an infinite reload loop. Report the fresh version so callers
+  // can still show "checked", but don't ask for a reload that can't stick.
+  return { updated: cached, version, pending: !cached };
+}
+
+// Guard against reloading more than once for the same data version within a
+// launch. The cached-gate above is the primary loop breaker; this is a belt-and
+// -suspenders stop so a reload can never re-enter for a version we already
+// reloaded for. sessionStorage resets on app restart, so a genuinely newer
+// version still applies on the next launch.
+function claimDataReload(version){
+  if(!(version>0)) return true;
+  try{
+    const k='ygo-data-reload-ver';
+    if(+(sessionStorage.getItem(k)||0)>=version) return false;
+    sessionStorage.setItem(k,String(version));
+  }catch{}
+  return true;
 }
 
 /* ═══════════════════════════════════════════════════════
@@ -4248,7 +4329,7 @@ async function init(){
   // Card data can refresh independently of the app version via the data channel.
   initDataUpdateBtn();
   checkDataChannel(DATA_CHANNEL_URL, DATA_BASE).then(r=>{
-    if(r.updated){ toast('Card data updated — reloading…'); setTimeout(()=>location.reload(),1200); }
+    if(r.updated && claimDataReload(r.version)){ toast('Card data updated — reloading…'); setTimeout(()=>location.reload(),1200); }
   }).catch(()=>{});
 }
 
@@ -4263,7 +4344,8 @@ function initDataUpdateBtn(){
     btn.disabled=true; if(msg) msg.textContent='Checking…';
     try{
       const r=await checkDataChannel(DATA_CHANNEL_URL, DATA_BASE);
-      if(r.updated){ if(msg) msg.textContent='Updated! Reloading…'; setTimeout(()=>location.reload(),1000); }
+      if(r.updated && claimDataReload(r.version)){ if(msg) msg.textContent='Updated! Reloading…'; setTimeout(()=>location.reload(),1000); }
+      else if(r.pending){ if(msg) msg.textContent='New card data is available but could not be saved on this device.'; btn.disabled=false; }
       else { if(msg) msg.textContent='Card data is up to date.'; btn.disabled=false; }
     }catch(e){ if(msg) msg.textContent='Error: '+e.message; btn.disabled=false; }
   });

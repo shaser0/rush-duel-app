@@ -11,7 +11,7 @@ Two small files drive the whole thing, both under `data/`:
 | File | Role |
 | --- | --- |
 | `data-channel.json` | The **pointer** clients read (always from `@main`): `{ "tag": <git ref>, "version": <n> }`. Names which git ref jsDelivr serves the JSON from, and the current data version. |
-| `data-version.json`  | The **manifest** clients verify against: `version`, the `files` list, and a SHA-256 `hashes` map. The client rejects any file whose hash doesn't match. |
+| `data-version.json`  | The **manifest**: `version`, the `files` list, and a SHA-256 `hashes` map recorded alongside the cached data (integrity metadata; the client does **not** currently re-verify per-file hashes — updates are gated on `version`). |
 
 `hash-data` keeps the two `version` numbers in lockstep so they can't drift.
 
@@ -27,11 +27,17 @@ touch data by hand:
 - **Runs daily at 05:00 UTC** (`cron: '0 5 * * *'`), and on-demand via
   **Actions → Data Sync → Run workflow** (`workflow_dispatch`).
 - Steps: `npm run sync-data` → commit `data/` **only if something changed** →
-  push to `main` → purge the jsDelivr cache for the channel + data files.
-- Publishes via the data channel with `tag: "main"` (no `vX.Y.Z` tag), so it
-  **never** triggers the binary-release workflow. Clients pick up the new data
-  through the background / manual **"⟳ Check for card-data update"** mechanism —
-  no app update required.
+  push to `main` → **create an immutable `data-v<N>` git tag** on that commit →
+  purge the jsDelivr cache for the channel pointer.
+- Publishes via the data channel with `tag: "data-v<N>"` (an immutable data-only
+  tag — **not** a `vX.Y.Z` release tag, so it **never** triggers the
+  binary-release workflow). Clients read the `data-channel.json` pointer from
+  `@main` but download the data from the pinned `@data-v<N>` tag, so jsDelivr
+  always serves one **consistent** snapshot. (Using the mutable `@main` ref for
+  the data itself let jsDelivr serve `data-channel.json` and `data-version.json`
+  at mismatched versions — a per-file cache skew that drove clients into a reload
+  loop.) Clients pick the new data up through the background / manual **"⟳ Check
+  for card-data update"** mechanism — no app update required.
 
 To trigger it now instead of waiting for the daily run:
 
@@ -56,29 +62,32 @@ Use this if you want to sync outside the daily window or inspect the diff first.
 npm run sync-data
 ```
 
-`sync-data` runs the four syncs then `hash-data --bump --tag=main`, which:
+`sync-data` runs the four syncs then `hash-data --bump --data-tag`, which:
 - refreshes `data/data-version.json` `hashes` and bumps its `version`,
-- rewrites `data/data-channel.json` to `{ "tag": "main", "version": <new> }`.
+- rewrites `data/data-channel.json` to `{ "tag": "data-v<new>", "version": <new> }`.
 
-Then commit and push:
+Then commit, push, and create the matching immutable tag:
 
 ```bash
 git add data/
-git commit -m "chore(data): refresh card data (v<new>)"
+git commit -m "chore(data): refresh card data (data-v<new>)"
 git push origin main
+git tag "data-v<new>" && git push origin "data-v<new>"   # tag name = data-channel.json's "tag"
 ```
 
-Because the channel tag is `main`, jsDelivr serves the JSON straight from
-`@main/data`. Clients switch over within jsDelivr's `@main` cache TTL (~12 h), or
-**immediately** if the user clicks **"⟳ Check for card-data update"** on the home
-screen. (CI purges the cache automatically; a local push does not — so allow up
-to ~12 h, or purge manually, see below.)
+Clients read the `data-channel.json` pointer from `@main` (jsDelivr cache TTL
+~12 h) and download the data from the immutable `@data-v<new>` tag. They switch
+over within that TTL, or **immediately** if the user clicks **"⟳ Check for
+card-data update"** on the home screen. (CI purges the channel pointer
+automatically; a local push does not — so allow up to ~12 h, or purge manually,
+see below.)
 
 Only need one source?
 
 ```bash
 node scripts/sync/sync-banlist.js       # or sync-cards / sync-sets / sync-gallery
-npm run hash-data -- --bump --tag=main
+npm run hash-data -- --bump --data-tag
+# then commit + push + tag as above
 ```
 
 ---
@@ -103,20 +112,23 @@ the binaries and purges the jsDelivr cache for both `@main` and the new tag.
 
 ## Rules that keep clients from breaking
 
-- **Always re-run `hash-data` after any `data/` change.** The client verifies each
-  file's SHA-256 against `data-version.json`; stale hashes → clients refuse the
-  update. `npm run sync-data` and the release flow both do this for you.
-- **Never move a pinned `vX.Y.Z` (or `data-vN`) tag.** jsDelivr caches a pinned
-  ref **permanently**. If you need fresh data on a pinned scheme, cut a *new*
-  incremental tag; for rolling updates use `tag: "main"` (short TTL) as the
-  routine does.
+- **Always re-run `hash-data` after any `data/` change.** It keeps the `hashes`
+  map and both `version` numbers current (and, via `--if-changed`, is a no-op when
+  nothing actually changed). `npm run sync-data` and the release flow both do this
+  for you. *(The client records these hashes but does not currently re-verify them;
+  updates are gated on `version`.)*
+- **Never move a pinned `vX.Y.Z` or `data-vN` tag.** jsDelivr caches a pinned
+  ref **permanently**. To publish fresh data, always cut a *new* incremental tag
+  (`data-v15` → `data-v16`) — never repoint an existing one.
 - **Version only ever goes up.** Clients compare `data-channel.json`'s `version`
   to their cached value and only download when it's higher.
 
 ## Manually purging the jsDelivr cache (only needed for local pushes)
 
+The data files live on the immutable `@data-v<N>` tag, which jsDelivr fetches
+fresh on first request — no purge needed. Only the mutable `@main` channel
+pointer needs purging so clients see the new version before its ~12 h TTL:
+
 ```bash
-for f in data-channel.json cards.json sets-data.json gallery-images.json image-urls.json banlist.json; do
-  curl -fsS "https://purge.jsdelivr.net/gh/shaser0/rush-duel-app@main/data/$f"
-done
+curl -fsS "https://purge.jsdelivr.net/gh/shaser0/rush-duel-app@main/data/data-channel.json"
 ```
