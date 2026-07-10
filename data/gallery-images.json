@@ -1018,7 +1018,9 @@
     "TradeIn-RDSD0A-JP-C.png",
     "TradeIn-RD5TH1-JP-ScR.png",
     "TradeIn-RDMRP1-JP-R.png",
-    "TradeIn-RDB232-JP-C.png"
+    "TradeIn-RDB232-JP-C.png",
+    "TradeIn-RDAP03-JP-C.png",
+    "TradeIn-RDAP03-JP-ORR.png"
   ],
   "Treasure of Eyes of Blue": [
     "TreasureofEyesofBlue-RDSD0A-JP-C.png",
@@ -1950,7 +1952,8 @@
     "Fusion-RDSD0C-JP-C.png",
     "Fusion-RDSD0B-JP-C.png",
     "Fusion-RDP006-JP-NPR.png",
-    "Fusion-RDB243-JP-SR.png"
+    "Fusion-RDB243-JP-SR.png",
+    "Fusion-RDAP03-JP-C.png"
   ],
   "Gear Section": [
     "GearSection-RDLGP2-JP-SR.png",
@@ -2064,7 +2067,9 @@
   "Polymerization": [
     "Polymerization-RDLGP2-JP-SR.png",
     "Polymerization-RDLGP2-JP-UPR.png",
-    "Polymerization-RDLGP1-JP-R.png"
+    "Polymerization-RDLGP1-JP-R.png",
+    "Polymerization-RDAP03-JP-C.png",
+    "Polymerization-RDAP03-JP-ScR.png"
   ],
   "Pot of Duality": [
     "PotofDuality-RDLGP2-JP-UR.png",
@@ -2089,7 +2094,8 @@
     "TorrentialTribute-RDLGP2-JP-C.png",
     "TorrentialTribute-RDLGP2-JP-UPR.png",
     "TorrentialTribute-RDSD01-JP-SPR.png",
-    "TorrentialTribute-RDSD01-JP-ScR.png"
+    "TorrentialTribute-RDSD01-JP-ScR.png",
+    "TorrentialTribute-RDAP03-JP-C.png"
   ],
   "Zombie Fireworks": [
     "ZombieFireworks-RDAP02-JP-C.png",
@@ -2976,7 +2982,8 @@
     "CAND-RDMRP1-JP-R.png",
     "CAND-RDMRP1-JP-ScR.png",
     "CAND-RDDK01-JP-SR.png",
-    "CAND-RDDK01-JP-ScR.png"
+    "CAND-RDDK01-JP-ScR.png",
+    "CAND-RDAP03-JP-C.png"
   ],
   "CAN - Re:D": [
     "CANReD-RDS222-JP-ScR.png",
@@ -3491,7 +3498,8 @@
     "InnocentLancer-RDKP02-JP-R.png"
   ],
   "Lauan Adventurers": [
-    "LauanAdventurers-RDKP08-JP-R.png"
+    "LauanAdventurers-RDKP08-JP-R.png",
+    "LauanAdventurers-RDAP03-JP-C.png"
   ],
   "Lightning Braver": [
     "LightningBraver-RDGRD2-JP-C.png"
@@ -3594,7 +3602,8 @@
     "FenriritterSol-RDKP07-JP-R.png"
   ],
   "Feverous Spirit Stadium": [
-    "FeverousSpiritStadium-RDKP07-JP-R.png"
+    "FeverousSpiritStadium-RDKP07-JP-R.png",
+    "FeverousSpiritStadium-RDAP03-JP-C.png"
   ],
   "Flavor Inspector": [
     "FlavorInspector-RDSD04-JP-C.png",
@@ -3633,10 +3642,13 @@
     "PiercingSamurai-RDKP07-JP-R.png"
   ],
   "Player 39: Home Run Hitter": [
-    "Player39HomeRunHitter-RDKP07-JP-UR.png"
+    "Player39HomeRunHitter-RDKP07-JP-UR.png",
+    "Player39HomeRunHitter-RDAP03-JP-C.png",
+    "Player39HomeRunHitter-RDAP03-JP-ORR.png"
   ],
   "Player 99: Grand Slam Dragon": [
-    "Player99GrandSlamDragon-RDKP07-JP-SR.png"
+    "Player99GrandSlamDragon-RDKP07-JP-SR.png",
+    "Player99GrandSlamDragon-RDAP03-JP-C.png"
   ],
   "Porcupine Dragon": [
     "PorcupineDragon-RDKP07-JP-C.png",
@@ -4341,7 +4353,9 @@
   ],
   "Pliage the Stylish Sacred Shooting Star": [
     "PliagetheStylishSacredShootingStar-RDKP20-JP-SR.png",
-    "PliagetheStylishSacredShootingStar-RDKP20-JP-ScR.png"
+    "PliagetheStylishSacredShootingStar-RDKP20-JP-ScR.png",
+    "PliagetheStylishSacredShootingStar-RDAP03-JP-C.png",
+    "PliagetheStylishSacredShootingStar-RDAP03-JP-ORR.png"
   ],
   "Quixotic Love": [
     "QuixoticLove-RDKP20-JP-UR.png",
@@ -4529,7 +4543,8 @@
   "Heavy Roller": [
     "HeavyRoller-RDSD04-JP-C.png",
     "HeavyRoller-RDB003-JP-C.png",
-    "HeavyRoller-RDGRP1-JP-C.png"
+    "HeavyRoller-RDGRP1-JP-C.png",
+    "HeavyRoller-RDAP03-JP-C.png"
   ],
   "Spike Seadra": [
     "SpikeSeadra-RDSST1-JP-C.png",
@@ -5476,7 +5491,8 @@
     "StarRestart-RDTB02-JP-C.png",
     "StarRestart-RDMRP1-JP-R.png",
     "StarRestart-RDMRP1-JP-ScR.png",
-    "StarRestart-RDEXT1-JP-SR.png"
+    "StarRestart-RDEXT1-JP-SR.png",
+    "StarRestart-RDAP03-JP-C.png"
   ],
   "Ama Lilith": [
     "AmaLilith-RDMRP1-JP-C.png"
@@ -5593,7 +5609,8 @@
     "ThePowerUp-RDEXT1-JP-C.png"
   ],
   "The Warrior Returning Alive": [
-    "TheWarriorReturningAlive-RDEXT1-JP-ScR.png"
+    "TheWarriorReturningAlive-RDEXT1-JP-ScR.png",
+    "TheWarriorReturningAlive-RDAP03-JP-C.png"
   ],
   "The Wyvern": [
     "TheWyvern-RDEXT1-JP-SR.png"
@@ -6277,7 +6294,8 @@
     "AnimagicaDoubleSaber-RDKP20-JP-C.png"
   ],
   "Ice Pop Bear": [
-    "IcePopBear-RDMRP1-JP-R.png"
+    "IcePopBear-RDMRP1-JP-R.png",
+    "IcePopBear-RDAP03-JP-C.png"
   ],
   "Sowing Alpiris": [
     "SowingAlpiris-RDKP11-JP-R.png"
@@ -6333,7 +6351,9 @@
     "CobaltCobolt-RDORP1-JP-C.png"
   ],
   "Cyber Variation": [
-    "CyberVariation-RDSD0C-JP-C.png"
+    "CyberVariation-RDSD0C-JP-C.png",
+    "CyberVariation-RDAP03-JP-C.png",
+    "CyberVariation-RDAP03-JP-ScR.png"
   ],
   "Genie's Fire Breath": [
     "GeniesFireBreath-RDCP01-JP-R.png"
@@ -6433,7 +6453,8 @@
   "Pliage the Sacred Shooting Star": [
     "PliagetheSacredShootingStar-RDTB02-JP-SR.png",
     "PliagetheSacredShootingStar-RDTB02-JP-ORR-AA.png",
-    "PliagetheSacredShootingStar-RDTB02-JP-ORR.png"
+    "PliagetheSacredShootingStar-RDTB02-JP-ORR.png",
+    "PliagetheSacredShootingStar-RDAP03-JP-C.png"
   ],
   "Red-Eyes Jupiter Dragon": [
     "RedEyesJupiterDragon-RDTB02-JP-SR.png",
@@ -8006,7 +8027,8 @@
   "Star of Beginning": [
     "StarofBeginning-RDLGP2-JP-UR.png",
     "StarofBeginning-RDLGP2-JP-ORR.png",
-    "StarofBeginning-RDAP03-JP-OP-AA.png"
+    "StarofBeginning-RDAP03-JP-OP-AA.png",
+    "StarofBeginning-RDAP03-JP-SR.png"
   ],
   "Innocent Fadrawl": [
     "InnocentFadrawl-RDKP17-JP-UR.png",
@@ -8099,6 +8121,180 @@
   ],
   "Priestess of Wise Salvation": [
     "PriestessofWiseSalvation-RDEXT1-JP-SR.png",
-    "PriestessofStarSalvation-RDTB01-JP-C.png"
+    "PriestessofStarSalvation-RDTB01-JP-C.png",
+    "PriestessofWiseSalvation-RDAP03-JP-C.png"
+  ],
+  "Aitsu": [
+    "Aitsu-RDB224-JP-C.png",
+    "Aitsu-RDAP03-JP-C.png"
+  ],
+  "Barrel-Up-Magic Liner's Force": [
+    "BarrelUpMagicLinersForce-RDAP03-JP-SR.png",
+    "BarrelUpMagicLinersForce-RDAP03-JP-ScR.png"
+  ],
+  "CAN:D ALL": [
+    "CANDALL-RDMRP1-JP-SR.png",
+    "CANDALL-RDAP03-JP-C.png"
+  ],
+  "Chaos Emperor Dragon - Envoy of the End": [
+    "ChaosEmperorDragonEnvoyoftheEnd-RDAP03-JP-OP-AA.png",
+    "ChaosEmperorDragonEnvoyoftheEnd-RDAP03-JP-UR.png",
+    "ChaosEmperorDragonEnvoyoftheEnd-RDAP03-JP-OP.png"
+  ],
+  "Dirham the Holy Empress": [
+    "DirhamtheHolyEmpress-RDAP03-JP-ORR.png",
+    "DirhamtheHolyEmpress-RDAP03-JP-UR.png"
+  ],
+  "Doitsu": [
+    "Doitsu-RDAP03-JP-C.png"
+  ],
+  "Encounter of the Stars": [
+    "EncounteroftheStars-RDAP03-JP-C.png",
+    "EncounteroftheStars-RDAP03-JP-ScR.png"
+  ],
+  "Evolution of the Star Dragon": [
+    "EvolutionoftheStarDragon-RDAP03-JP-C.png"
+  ],
+  "Fairy of the Stars": [
+    "FairyoftheStars-RDAP03-JP-ScR.png",
+    "FairyoftheStars-RDAP03-JP-UR.png"
+  ],
+  "Feverous Colorful Ball Park": [
+    "FeverousColorfulBallPark-RDAP03-JP-SR.png",
+    "FeverousColorfulBallPark-RDAP03-JP-ScR.png"
+  ],
+  "Gagaga Cheergirl": [
+    "GagagaCheergirl-RDAP03-JP-ORR.png",
+    "GagagaCheergirl-RDAP03-JP-UR.png"
+  ],
+  "Headhunters' Goraliath": [
+    "HeadhuntersGoraliath-RDAP03-JP-ORR.png",
+    "HeadhuntersGoraliath-RDAP03-JP-UR.png"
+  ],
+  "Instant Fusion": [
+    "InstantFusion-RDAP03-JP-UR.png"
+  ],
+  "Journeying Pliage": [
+    "JourneyingPliage-RDAP03-JP-ORR.png",
+    "JourneyingPliage-RDAP03-JP-UR.png"
+  ],
+  "Koitsu": [
+    "Koitsu-RDAP03-JP-C.png"
+  ],
+  "Onomatopitcher": [
+    "Onomatopitcher-RDAP03-JP-SR.png",
+    "Onomatopitcher-RDAP03-JP-ScR.png"
+  ],
+  "Player C39: Home Run Smasher": [
+    "PlayerC39HomeRunSmasher-RDKP08-JP-SR.png",
+    "PlayerC39HomeRunSmasher-RD26S1-JP-OP.png",
+    "PlayerC39HomeRunSmasher-RDAP03-JP-C.png"
+  ],
+  "Player C39: Home Run Smasher V": [
+    "PlayerC39HomeRunSmasherV-RDAP03-JP-ORR.png",
+    "PlayerC39HomeRunSmasherV-RDAP03-JP-UR.png"
+  ],
+  "Pliage's Clustering Stars": [
+    "PliagesClusteringStars-RDAP03-JP-SR.png",
+    "PliagesClusteringStars-RDAP03-JP-ScR.png"
+  ],
+  "Pliage the Star Sanctuary": [
+    "PliagetheStarSanctuary-RDAP03-JP-ORR.png",
+    "PliagetheStarSanctuary-RDAP03-JP-UR.png"
+  ],
+  "Product Union": [
+    "ProductUnion-RDAP03-JP-ScR.png",
+    "ProductUnion-RDAP03-JP-UR.png"
+  ],
+  "Reliefcar D": [
+    "ReliefcarD-RDAP03-JP-ScR.png",
+    "ReliefcarD-RDAP03-JP-UR.png"
+  ],
+  "SW - Asura Bat": [
+    "SWAsuraBat-RDAP03-JP-C.png",
+    "SWAsuraBat-RDAP03-JP-ScR.png"
+  ],
+  "Searching Union": [
+    "SearchingUnion-RDAP03-JP-SR.png",
+    "SearchingUnion-RDAP03-JP-ScR.png"
+  ],
+  "Seyanen the Blazing Conqueror": [
+    "SeyanentheBlazingConqueror-RDMRP2-JP-R.png",
+    "SeyanentheBlazingConqueror-RDAP03-JP-C.png"
+  ],
+  "Soitsu": [
+    "Soitsu-RDB231-JP-C.png",
+    "Soitsu-RDAP03-JP-C.png"
+  ],
+  "Spirit Sprite of the Stars": [
+    "SpiritSpriteoftheStars-RDAP03-JP-C.png"
+  ],
+  "Spirit of the Stars": [
+    "SpiritoftheStars-RDAP03-JP-ScR.png",
+    "SpiritoftheStars-RDAP03-JP-UR.png"
+  ],
+  "Star Replete": [
+    "StarReplete-RDAP03-JP-C.png",
+    "StarReplete-RDAP03-JP-ScR.png"
+  ],
+  "Star Replete of the Star Sanctuary": [
+    "StarRepleteoftheStarSanctuary-RDAP03-JP-SR.png",
+    "StarRepleteoftheStarSanctuary-RDAP03-JP-ScR.png"
+  ],
+  "Star Sanctuary of the Beginning": [
+    "StarSanctuaryoftheBeginning-RDAP03-JP-ORR.png",
+    "StarSanctuaryoftheBeginning-RDAP03-JP-UR.png"
+  ],
+  "The Player Returning Alive": [
+    "ThePlayerReturningAlive-RDAP03-JP-C.png",
+    "ThePlayerReturningAlive-RDAP03-JP-ScR.png"
+  ],
+  "Union Supporter": [
+    "UnionSupporter-RDAP03-JP-ScR.png",
+    "UnionSupporter-RDAP03-JP-UR.png"
+  ],
+  "X-Head Cannon": [
+    "XHeadCannon-RDAP03-JP-SR.png",
+    "XHeadCannon-RDAP03-JP-ScR.png"
+  ],
+  "X-Trial Cannon": [
+    "XTrialCannon-RDAP03-JP-SR.png",
+    "XTrialCannon-RDAP03-JP-ScR.png"
+  ],
+  "XY-Dragon Cannon": [
+    "XYDragonCannon-RDAP03-JP-SR.png",
+    "XYDragonCannon-RDAP03-JP-ScR.png"
+  ],
+  "XYZ-Dragon Cannon": [
+    "XYZDragonCannon-RDAP03-JP-ORR.png",
+    "XYZDragonCannon-RDAP03-JP-UR.png"
+  ],
+  "XZ-Tank Cannon": [
+    "XZTankCannon-RDAP03-JP-SR.png",
+    "XZTankCannon-RDAP03-JP-ScR.png"
+  ],
+  "Y-Dragon Head": [
+    "YDragonHead-RDAP03-JP-SR.png",
+    "YDragonHead-RDAP03-JP-ScR.png"
+  ],
+  "Y-Trial Dragon": [
+    "YTrialDragon-RDAP03-JP-SR.png",
+    "YTrialDragon-RDAP03-JP-ScR.png"
+  ],
+  "YXZ-Cannon Dragon": [
+    "YXZCannonDragon-RDAP03-JP-ORR.png",
+    "YXZCannonDragon-RDAP03-JP-UR.png"
+  ],
+  "YZ-Tank Dragon": [
+    "YZTankDragon-RDAP03-JP-SR.png",
+    "YZTankDragon-RDAP03-JP-ScR.png"
+  ],
+  "Z-Metal Tank": [
+    "ZMetalTank-RDAP03-JP-SR.png",
+    "ZMetalTank-RDAP03-JP-ScR.png"
+  ],
+  "Z-Trial Tank": [
+    "ZTrialTank-RDAP03-JP-SR.png",
+    "ZTrialTank-RDAP03-JP-ScR.png"
   ]
 }

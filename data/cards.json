@@ -11940,6 +11940,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -11960,20 +11962,18 @@
       {
         "code": "RD/AP03-JP039",
         "name": "Advance Pack: Union Base",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23463",
     "archseries": [
       "Baseball"
     ],
     "password": null,
-    "title": "Barrel-Up-Magic Liner's Force",
-    "_wiki_ts": "2026-05-25T20:00:17Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Barrel-Up-Magic Liner's Force",
+    "_wiki_ts": "2026-07-09T22:58:25Z",
     "card_schema_version": 1,
     "raw_name_en": "Barrel-Up-Magic Liner's Force"
   },
@@ -27503,7 +27503,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "CommandKnight-RDSJMP-JP-OP.png"
+        "file": "CommandKnight-RDSJMP-JP-NPR.png"
       }
     ],
     "sets_jp": [
@@ -27519,7 +27519,7 @@
     "password": null,
     "is_legend": true,
     "title": "Command Knight",
-    "_wiki_ts": "2026-07-01T23:58:28Z",
+    "_wiki_ts": "2026-07-09T20:20:51Z",
     "card_schema_version": 1,
     "raw_name_en": "Command Knight (Rush Duel)"
   },
@@ -33842,7 +33842,7 @@
       {
         "code": "RD/AP03-JP054",
         "name": "Advance Pack: Union Base",
-        "rarity": "Common"
+        "rarity": "Common, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -33864,7 +33864,7 @@
     "password": null,
     "is_legend": false,
     "title": "Cyber Variation",
-    "_wiki_ts": "2026-06-25T14:02:18Z",
+    "_wiki_ts": "2026-07-09T23:08:37Z",
     "card_schema_version": 1,
     "raw_name_en": "Cyber Variation"
   },
@@ -60462,6 +60462,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Field",
     "level": null,
     "atk": null,
     "def": null,
@@ -60482,20 +60484,18 @@
       {
         "code": "RD/AP03-JP037",
         "name": "Advance Pack: Union Base",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23462",
     "archseries": [
       "Baseball"
     ],
     "password": null,
-    "title": "Feverous Colorful Ball Park",
-    "_wiki_ts": "2026-05-25T19:40:43Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Field",
+    "title": "Feverous Colorful Ball Park",
+    "_wiki_ts": "2026-07-09T22:57:19Z",
     "card_schema_version": 1,
     "raw_name_en": "Feverous Colorful Ball Park"
   },
@@ -76012,6 +76012,8 @@
     "name_es": null,
     "attribute": "EARTH",
     "types": "Beast-Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 7,
     "atk": 2500,
     "def": 0,
@@ -76036,16 +76038,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23466",
     "archseries": [
       "Headhunters'"
     ],
     "password": null,
-    "title": "Headhunters' Goraliath",
-    "_wiki_ts": "2026-06-01T14:01:32Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Headhunters' Goraliath",
+    "_wiki_ts": "2026-07-09T23:01:08Z",
     "card_schema_version": 1,
     "raw_name_en": "Headhunters' Goraliath"
   },
@@ -86279,6 +86279,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Psychic / Effect",
+    "card_type": null,
+    "property": null,
     "level": 3,
     "atk": 1000,
     "def": 1000,
@@ -86303,16 +86305,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23449",
     "archseries": [
       "Pliage"
     ],
     "password": null,
-    "title": "Journeying Pliage",
-    "_wiki_ts": "2026-05-25T18:36:21Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Journeying Pliage",
+    "_wiki_ts": "2026-07-09T22:41:40Z",
     "card_schema_version": 1,
     "raw_name_en": "Journeying Pliage"
   },
@@ -89266,7 +89266,7 @@
     "password": null,
     "is_legend": false,
     "title": "The Lady's Protectors",
-    "_wiki_ts": "2026-07-01T22:12:24Z",
+    "_wiki_ts": "2026-07-09T23:42:49Z",
     "card_schema_version": 1,
     "raw_name_en": "The Lady's Protectors (Rush Duel)"
   },
@@ -91447,7 +91447,7 @@
     "password": null,
     "is_legend": false,
     "title": "Light Leading the Valiant",
-    "_wiki_ts": "2026-07-01T22:07:38Z",
+    "_wiki_ts": "2026-07-09T23:42:04Z",
     "card_schema_version": 1,
     "raw_name_en": "Light Leading the Valiant (Rush Duel)"
   },
@@ -117097,6 +117097,10 @@
       {
         "artwork": 1,
         "file": "Player39HomeRunHitter-RDKP07-JP-UR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "Player39HomeRunHitter-RDAP03-JP-OP-AA.png"
       }
     ],
     "sets_jp": [
@@ -117125,7 +117129,7 @@
     "password": null,
     "is_legend": false,
     "title": "Player 39: Home Run Hitter",
-    "_wiki_ts": "2026-06-24T21:51:16Z",
+    "_wiki_ts": "2026-07-09T23:28:56Z",
     "card_schema_version": 1,
     "raw_name_en": "Player #39: Home Run Hitter"
   },
@@ -117220,6 +117224,10 @@
       {
         "artwork": 1,
         "file": "PlayerC39HomeRunSmasher-RDKP08-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "PlayerC39HomeRunSmasher-RD26S1-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -117253,7 +117261,7 @@
     "password": null,
     "is_legend": false,
     "title": "Player C39: Home Run Smasher",
-    "_wiki_ts": "2026-07-01T22:18:18Z",
+    "_wiki_ts": "2026-07-10T00:47:03Z",
     "card_schema_version": 1,
     "raw_name_en": "Player #C39: Home Run Smasher"
   },
@@ -117268,6 +117276,8 @@
     "name_es": null,
     "attribute": "FIRE",
     "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
     "level": 8,
     "atk": 2600,
     "def": 2000,
@@ -117292,16 +117302,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23456",
     "archseries": [
       "Baseball"
     ],
     "password": null,
-    "title": "Player C39: Home Run Smasher V",
-    "_wiki_ts": "2026-05-25T19:08:23Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Player C39: Home Run Smasher V",
+    "_wiki_ts": "2026-07-09T22:49:05Z",
     "card_schema_version": 1,
     "raw_name_en": "Player #C39: Home Run Smasher V"
   },
@@ -117316,6 +117324,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -117336,20 +117346,18 @@
       {
         "code": "RD/AP03-JP036",
         "name": "Advance Pack: Union Base",
-        "rarity": "Common"
+        "rarity": "Common, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23461",
     "archseries": [
       "Baseball"
     ],
     "password": null,
-    "title": "The Player Returning Alive",
-    "_wiki_ts": "2026-06-05T13:43:00Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "The Player Returning Alive",
+    "_wiki_ts": "2026-07-09T22:56:37Z",
     "card_schema_version": 1,
     "raw_name_en": "The Player Returning Alive"
   },
@@ -117571,14 +117579,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23445",
     "archseries": [
       "Pliage"
     ],
     "password": null,
     "is_legend": false,
     "title": "Pliage the Star Sanctuary",
-    "_wiki_ts": "2026-06-25T21:21:33Z",
+    "_wiki_ts": "2026-07-09T22:38:47Z",
     "card_schema_version": 1,
     "raw_name_en": "Pliage the Star Sanctuary"
   },
@@ -117609,6 +117617,10 @@
       {
         "artwork": 1,
         "file": "PliagetheStylishSacredShootingStar-RDKP20-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "PliagetheStylishSacredShootingStar-RDAP03-JP-OP-AA.png"
       }
     ],
     "sets_jp": [
@@ -117637,7 +117649,7 @@
     "password": null,
     "is_legend": false,
     "title": "Pliage the Stylish Sacred Shooting Star",
-    "_wiki_ts": "2026-07-03T12:23:01Z",
+    "_wiki_ts": "2026-07-09T23:24:08Z",
     "card_schema_version": 1,
     "raw_name_en": "Pliage the Stylish Sacred Shooting Star"
   },
@@ -118003,7 +118015,7 @@
       {
         "code": "RD/AP03-JP059",
         "name": "Advance Pack: Union Base",
-        "rarity": "Common"
+        "rarity": "Common, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -118023,7 +118035,7 @@
     "password": null,
     "is_legend": true,
     "title": "Polymerization",
-    "_wiki_ts": "2026-07-05T17:21:05Z",
+    "_wiki_ts": "2026-07-09T23:11:52Z",
     "card_schema_version": 1,
     "raw_name_en": "Polymerization (Rush Duel)"
   },
@@ -134284,6 +134296,8 @@
     "name_es": null,
     "attribute": null,
     "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -134304,20 +134318,18 @@
       {
         "code": "RD/AP03-JP012",
         "name": "Advance Pack: Union Base",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23443",
     "archseries": [
       "XYZ"
     ],
     "password": null,
-    "title": "Searching Union",
-    "_wiki_ts": "2026-05-25T17:11:14Z",
     "is_legend": false,
-    "card_type": "Spell",
-    "property": "Normal",
+    "title": "Searching Union",
+    "_wiki_ts": "2026-07-09T22:36:47Z",
     "card_schema_version": 1,
     "raw_name_en": "Searching Union"
   },
@@ -141344,7 +141356,7 @@
     "password": null,
     "is_legend": false,
     "title": "Skysavior Watch",
-    "_wiki_ts": "2026-07-01T22:49:06Z",
+    "_wiki_ts": "2026-07-09T23:38:06Z",
     "card_schema_version": 1,
     "raw_name_en": "Skysavior Watch"
   },
@@ -145672,6 +145684,8 @@
     "name_es": null,
     "attribute": "DARK",
     "types": "Insect / Effect",
+    "card_type": null,
+    "property": null,
     "level": 2,
     "atk": 800,
     "def": 1200,
@@ -145696,16 +145710,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23451",
     "archseries": [
       "Pliage"
     ],
     "password": null,
-    "title": "Spirit Sprite of the Stars",
-    "_wiki_ts": "2026-06-08T12:16:22Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Spirit Sprite of the Stars",
+    "_wiki_ts": "2026-07-09T22:45:02Z",
     "card_schema_version": 1,
     "raw_name_en": "Spirit Sprite of the Stars"
   },
@@ -147193,18 +147205,18 @@
       {
         "code": "RD/AP03-JP017",
         "name": "Advance Pack: Union Base",
-        "rarity": "Common"
+        "rarity": "Common, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23448",
     "archseries": [
       "Pliage"
     ],
     "password": null,
     "is_legend": false,
     "title": "Star Replete",
-    "_wiki_ts": "2026-06-24T20:56:55Z",
+    "_wiki_ts": "2026-07-09T22:40:58Z",
     "card_schema_version": 1,
     "raw_name_en": "Star Replete"
   },
@@ -156663,6 +156675,10 @@
       {
         "artwork": 1,
         "file": "TradeIn-RDSD0F-JP-C.png"
+      },
+      {
+        "artwork": 2,
+        "file": "TradeIn-RDAP03-JP-OP-AA.png"
       }
     ],
     "sets_jp": [
@@ -156729,7 +156745,7 @@
     "password": null,
     "is_legend": false,
     "title": "Trade-In",
-    "_wiki_ts": "2026-07-03T12:23:02Z",
+    "_wiki_ts": "2026-07-09T23:33:14Z",
     "card_schema_version": 1,
     "raw_name_en": "Trade-In (Rush Duel)"
   },
@@ -162517,6 +162533,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Machine / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1000,
     "def": 1000,
@@ -162537,20 +162555,18 @@
       {
         "code": "RD/AP03-JP011",
         "name": "Advance Pack: Union Base",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23442",
     "archseries": [
       "XYZ"
     ],
     "password": null,
-    "title": "Union Supporter",
-    "_wiki_ts": "2026-05-25T16:58:40Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Union Supporter",
+    "_wiki_ts": "2026-07-09T22:35:44Z",
     "card_schema_version": 1,
     "raw_name_en": "Union Supporter"
   },
@@ -172301,6 +172317,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Machine / Normal",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1800,
     "def": 1500,
@@ -172321,20 +172339,18 @@
       {
         "code": "RD/AP03-JP056",
         "name": "Advance Pack: Union Base",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23469",
     "archseries": [
       "XYZ"
     ],
     "password": null,
-    "title": "X-Head Cannon",
-    "_wiki_ts": "2026-06-15T15:22:47Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "X-Head Cannon",
+    "_wiki_ts": "2026-07-09T23:09:26Z",
     "card_schema_version": 1,
     "raw_name_en": "X-Head Cannon (Rush Duel)"
   },
@@ -172349,6 +172365,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Machine / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 6,
     "atk": 2200,
     "def": 1900,
@@ -172369,20 +172387,18 @@
       {
         "code": "RD/AP03-JP005",
         "name": "Advance Pack: Union Base",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23436",
     "archseries": [
       "XYZ"
     ],
     "password": null,
-    "title": "XY-Dragon Cannon",
-    "_wiki_ts": "2026-06-13T17:02:19Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "XY-Dragon Cannon",
+    "_wiki_ts": "2026-07-09T22:24:49Z",
     "card_schema_version": 1,
     "raw_name_en": "XY-Dragon Cannon (Rush Duel)"
   },
@@ -172397,6 +172413,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Machine / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 8,
     "atk": 2800,
     "def": 2600,
@@ -172421,16 +172439,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23434",
     "archseries": [
       "XYZ"
     ],
     "password": null,
-    "title": "XYZ-Dragon Cannon",
-    "_wiki_ts": "2026-06-13T17:02:05Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "XYZ-Dragon Cannon",
+    "_wiki_ts": "2026-07-09T22:21:22Z",
     "card_schema_version": 1,
     "raw_name_en": "XYZ-Dragon Cannon (Rush Duel)"
   },
@@ -172445,6 +172461,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Machine / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 6,
     "atk": 2400,
     "def": 2100,
@@ -172465,20 +172483,18 @@
       {
         "code": "RD/AP03-JP006",
         "name": "Advance Pack: Union Base",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23437",
     "archseries": [
       "XYZ"
     ],
     "password": null,
-    "title": "XZ-Tank Cannon",
-    "_wiki_ts": "2026-06-13T17:02:43Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "XZ-Tank Cannon",
+    "_wiki_ts": "2026-07-09T22:26:25Z",
     "card_schema_version": 1,
     "raw_name_en": "XZ-Tank Cannon (Rush Duel)"
   },
@@ -172493,6 +172509,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Machine / Union / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1500,
     "def": 1600,
@@ -172513,20 +172531,18 @@
       {
         "code": "RD/AP03-JP057",
         "name": "Advance Pack: Union Base",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23470",
     "archseries": [
       "XYZ"
     ],
     "password": null,
-    "title": "Y-Dragon Head",
-    "_wiki_ts": "2026-06-15T15:22:23Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Y-Dragon Head",
+    "_wiki_ts": "2026-07-09T23:10:15Z",
     "card_schema_version": 1,
     "raw_name_en": "Y-Dragon Head (Rush Duel)"
   },
@@ -173883,6 +173899,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Machine / Fusion / Effect",
+    "card_type": null,
+    "property": null,
     "level": 6,
     "atk": 2100,
     "def": 2200,
@@ -173903,20 +173921,18 @@
       {
         "code": "RD/AP03-JP007",
         "name": "Advance Pack: Union Base",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23438",
     "archseries": [
       "XYZ"
     ],
     "password": null,
-    "title": "YZ-Tank Dragon",
-    "_wiki_ts": "2026-06-13T17:02:54Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "YZ-Tank Dragon",
+    "_wiki_ts": "2026-07-09T22:28:02Z",
     "card_schema_version": 1,
     "raw_name_en": "YZ-Tank Dragon (Rush Duel)"
   },
@@ -173931,6 +173947,8 @@
     "name_es": null,
     "attribute": "LIGHT",
     "types": "Machine / Union / Effect",
+    "card_type": null,
+    "property": null,
     "level": 4,
     "atk": 1500,
     "def": 1300,
@@ -173951,20 +173969,18 @@
       {
         "code": "RD/AP03-JP058",
         "name": "Advance Pack: Union Base",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23471",
     "archseries": [
       "XYZ"
     ],
     "password": null,
-    "title": "Z-Metal Tank",
-    "_wiki_ts": "2026-06-15T15:23:16Z",
     "is_legend": false,
-    "card_type": null,
-    "property": null,
+    "title": "Z-Metal Tank",
+    "_wiki_ts": "2026-07-09T23:11:10Z",
     "card_schema_version": 1,
     "raw_name_en": "Z-Metal Tank (Rush Duel)"
   },
@@ -174774,18 +174790,18 @@
       {
         "code": "RD/AP03-JP025",
         "name": "Advance Pack: Union Base",
-        "rarity": "Common"
+        "rarity": "Common, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23453",
     "archseries": [
       "Pliage"
     ],
     "password": null,
     "is_legend": false,
     "title": "Encounter of the Stars",
-    "_wiki_ts": "2026-06-08T15:26:27Z",
+    "_wiki_ts": "2026-07-09T22:46:56Z",
     "card_schema_version": 1,
     "raw_name_en": "Encounter of the Stars"
   },
@@ -174822,18 +174838,18 @@
       {
         "code": "RD/AP03-JP031",
         "name": "Advance Pack: Union Base",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23457",
     "archseries": [
       "Baseball"
     ],
     "password": null,
     "is_legend": false,
     "title": "Onomatopitcher",
-    "_wiki_ts": "2026-06-08T15:32:17Z",
+    "_wiki_ts": "2026-07-09T22:53:44Z",
     "card_schema_version": 1,
     "raw_name_en": "Onomatopitcher"
   },
@@ -174870,18 +174886,18 @@
       {
         "code": "RD/AP03-JP020",
         "name": "Advance Pack: Union Base",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23450",
     "archseries": [
       "Pliage"
     ],
     "password": null,
     "is_legend": false,
     "title": "Spirit of the Stars",
-    "_wiki_ts": "2026-07-02T01:10:11Z",
+    "_wiki_ts": "2026-07-09T22:42:25Z",
     "card_schema_version": 1,
     "raw_name_en": "Spirit of the Stars"
   },
@@ -174918,18 +174934,18 @@
       {
         "code": "RD/AP03-JP008",
         "name": "Advance Pack: Union Base",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23439",
     "archseries": [
       "XYZ"
     ],
     "password": null,
     "is_legend": false,
     "title": "X-Trial Cannon",
-    "_wiki_ts": "2026-06-08T14:37:51Z",
+    "_wiki_ts": "2026-07-09T22:29:56Z",
     "card_schema_version": 1,
     "raw_name_en": "X-Trial Cannon"
   },
@@ -174966,18 +174982,18 @@
       {
         "code": "RD/AP03-JP009",
         "name": "Advance Pack: Union Base",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23440",
     "archseries": [
       "XYZ"
     ],
     "password": null,
     "is_legend": false,
     "title": "Y-Trial Dragon",
-    "_wiki_ts": "2026-07-02T01:11:50Z",
+    "_wiki_ts": "2026-07-09T22:31:22Z",
     "card_schema_version": 1,
     "raw_name_en": "Y-Trial Dragon"
   },
@@ -175014,18 +175030,18 @@
       {
         "code": "RD/AP03-JP010",
         "name": "Advance Pack: Union Base",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23441",
     "archseries": [
       "XYZ"
     ],
     "password": null,
     "is_legend": false,
     "title": "Z-Trial Tank",
-    "_wiki_ts": "2026-07-02T01:12:00Z",
+    "_wiki_ts": "2026-07-09T22:32:42Z",
     "card_schema_version": 1,
     "raw_name_en": "Z-Trial Tank"
   },
@@ -175070,12 +175086,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23433",
     "archseries": [],
     "password": null,
     "is_legend": true,
     "title": "Chaos Emperor Dragon - Envoy of the End",
-    "_wiki_ts": "2026-06-13T17:58:50Z",
+    "_wiki_ts": "2026-07-09T22:18:40Z",
     "card_schema_version": 1,
     "raw_name_en": "Chaos Emperor Dragon - Envoy of the End (Rush Duel)"
   },
@@ -175116,12 +175132,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23467",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Dirham the Holy Empress",
-    "_wiki_ts": "2026-06-15T15:32:30Z",
+    "_wiki_ts": "2026-07-09T23:01:55Z",
     "card_schema_version": 1,
     "raw_name_en": "Dirham the Holy Empress"
   },
@@ -175162,12 +175178,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23465",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Doitsu",
-    "_wiki_ts": "2026-06-13T17:04:27Z",
+    "_wiki_ts": "2026-07-09T23:00:25Z",
     "card_schema_version": 1,
     "raw_name_en": "Doitsu (Rush Duel)"
   },
@@ -175208,12 +175224,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23464",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Koitsu",
-    "_wiki_ts": "2026-06-13T17:04:05Z",
+    "_wiki_ts": "2026-07-09T22:59:59Z",
     "card_schema_version": 1,
     "raw_name_en": "Koitsu (Rush Duel)"
   },
@@ -175250,18 +175266,18 @@
       {
         "code": "RD/AP03-JP034",
         "name": "Advance Pack: Union Base",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23460",
     "archseries": [
       "Baseball"
     ],
     "password": null,
     "is_legend": false,
     "title": "Reliefcar D",
-    "_wiki_ts": "2026-06-13T16:28:11Z",
+    "_wiki_ts": "2026-07-09T22:55:46Z",
     "card_schema_version": 1,
     "raw_name_en": "Reliefcar D"
   },
@@ -175302,14 +175318,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23435",
     "archseries": [
       "XYZ"
     ],
     "password": null,
     "is_legend": false,
     "title": "YXZ-Cannon Dragon",
-    "_wiki_ts": "2026-06-15T15:11:23Z",
+    "_wiki_ts": "2026-07-09T22:23:20Z",
     "card_schema_version": 1,
     "raw_name_en": "YXZ-Cannon Dragon"
   },
@@ -176249,14 +176265,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23454",
     "archseries": [
       "Pliage"
     ],
     "password": null,
     "is_legend": false,
     "title": "Evolution of the Star Dragon",
-    "_wiki_ts": "2026-06-24T21:08:34Z",
+    "_wiki_ts": "2026-07-09T22:47:42Z",
     "card_schema_version": 1,
     "raw_name_en": "Evolution of the Star Dragon"
   },
@@ -176293,18 +176309,18 @@
       {
         "code": "RD/AP03-JP016",
         "name": "Advance Pack: Union Base",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23447",
     "archseries": [
       "Pliage"
     ],
     "password": null,
     "is_legend": false,
     "title": "Fairy of the Stars",
-    "_wiki_ts": "2026-07-01T21:13:34Z",
+    "_wiki_ts": "2026-07-09T22:40:18Z",
     "card_schema_version": 1,
     "raw_name_en": "Fairy of the Stars"
   },
@@ -176439,14 +176455,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23459",
     "archseries": [
       "Baseball"
     ],
     "password": null,
     "is_legend": false,
     "title": "Gagaga Cheergirl",
-    "_wiki_ts": "2026-06-24T21:42:25Z",
+    "_wiki_ts": "2026-07-09T22:55:07Z",
     "card_schema_version": 1,
     "raw_name_en": "Gagaga Cheergirl"
   },
@@ -177049,18 +177065,18 @@
       {
         "code": "RD/AP03-JP024",
         "name": "Advance Pack: Union Base",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23452",
     "archseries": [
       "Pliage"
     ],
     "password": null,
     "is_legend": false,
     "title": "Pliage's Clustering Stars",
-    "_wiki_ts": "2026-07-02T07:28:47Z",
+    "_wiki_ts": "2026-07-09T22:46:15Z",
     "card_schema_version": 1,
     "raw_name_en": "Pliage's Clustering Stars"
   },
@@ -177097,18 +177113,18 @@
       {
         "code": "RD/AP03-JP013",
         "name": "Advance Pack: Union Base",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23444",
     "archseries": [
       "XYZ"
     ],
     "password": null,
     "is_legend": false,
     "title": "Product Union",
-    "_wiki_ts": "2026-06-25T17:30:27Z",
+    "_wiki_ts": "2026-07-09T22:37:59Z",
     "card_schema_version": 1,
     "raw_name_en": "Product Union"
   },
@@ -177569,18 +177585,18 @@
       {
         "code": "RD/AP03-JP015",
         "name": "Advance Pack: Union Base",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23446",
     "archseries": [
       "Pliage"
     ],
     "password": null,
     "is_legend": false,
     "title": "Star Replete of the Star Sanctuary",
-    "_wiki_ts": "2026-06-25T18:48:05Z",
+    "_wiki_ts": "2026-07-09T22:39:29Z",
     "card_schema_version": 1,
     "raw_name_en": "Star Replete of the Star Sanctuary"
   },
@@ -177621,14 +177637,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23455",
     "archseries": [
       "Pliage"
     ],
     "password": null,
     "is_legend": false,
     "title": "Star Sanctuary of the Beginning",
-    "_wiki_ts": "2026-07-02T07:28:50Z",
+    "_wiki_ts": "2026-07-09T22:48:19Z",
     "card_schema_version": 1,
     "raw_name_en": "Star Sanctuary of the Beginning"
   },
@@ -177757,18 +177773,18 @@
       {
         "code": "RD/AP03-JP032",
         "name": "Advance Pack: Union Base",
-        "rarity": "Common"
+        "rarity": "Common, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23458",
     "archseries": [
       "Baseball"
     ],
     "password": null,
     "is_legend": false,
     "title": "SW - Asura Bat",
-    "_wiki_ts": "2026-06-27T17:03:29Z",
+    "_wiki_ts": "2026-07-09T22:54:26Z",
     "card_schema_version": 1,
     "raw_name_en": "SW - Asura Bat"
   },
@@ -178708,14 +178724,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23430",
     "archseries": [
       "Headhunters'"
     ],
     "password": null,
     "is_legend": false,
     "title": "Headhunters' Lemurcunning",
-    "_wiki_ts": "2026-07-01T23:06:48Z",
+    "_wiki_ts": "2026-07-09T23:38:58Z",
     "card_schema_version": 1,
     "raw_name_en": "Headhunters' Lemurcunning"
   },
@@ -178740,7 +178756,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "None",
-    "effect": "Equip this card to 1 face-up Level 8 or lower monster on your field as an Equip Spell Card with the following effect. ●The equipped monster loses 1000 ATK, and can attack twice per turn.",
+    "effect": "Equip this card to 1 face-up Level 8 or lower monster on your field as an Equip Spell Card with the following effect. ●The equipped monster loses 1000 ATK, but can attack twice per turn.",
     "flavor_text": null,
     "images": [
       {
@@ -178756,12 +178772,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23429",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Leng Ling",
-    "_wiki_ts": "2026-07-01T23:02:02Z",
+    "_wiki_ts": "2026-07-10T00:04:33Z",
     "card_schema_version": 1,
     "raw_name_en": "Leng Ling (Rush Duel)"
   },
@@ -179105,12 +179121,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23468",
     "archseries": [],
     "password": null,
     "is_legend": true,
     "title": "Instant Fusion",
-    "_wiki_ts": "2026-07-03T15:48:41Z",
+    "_wiki_ts": "2026-07-09T23:08:02Z",
     "card_schema_version": 1,
     "raw_name_en": "Instant Fusion (Rush Duel)"
   },
