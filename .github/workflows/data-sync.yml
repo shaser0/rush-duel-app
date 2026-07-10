@@ -1,6 +1,6 @@
 name: Data Sync
 
-# Runs the full card/set/gallery/banlist sync daily and publishes any changes
+# Runs the full card/set/gallery/banlist sync weekly and publishes any changes
 # to main, then tags the data commit with an immutable "data-v<N>" tag and
 # points data-channel.json at it. Clients read the tiny data-channel.json
 # pointer from @main but download the data itself from the pinned @data-v<N>
@@ -13,7 +13,7 @@ name: Data Sync
 
 on:
   schedule:
-    - cron: '0 5 * * *'   # 05:00 UTC daily
+    - cron: '0 5 * * 0'   # 05:00 UTC every Sunday (weekly)
   workflow_dispatch: {}    # allow manual runs from the Actions tab
 
 permissions:

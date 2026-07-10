@@ -163,7 +163,7 @@ never serve `data-channel.json` and `data-version.json` at mismatched versions
 ### Automated data publishing (default path)
 
 The scheduled **[`data-sync.yml`](.github/workflows/data-sync.yml)** workflow
-does this daily — you normally don't touch data by hand. It runs
+does this weekly — you normally don't touch data by hand. It runs
 `npm run sync-data` (which ends with `hash-data --bump --data-tag --if-changed`),
 and **only if the data actually changed** it commits `data/`, creates the
 immutable `data-v<N>` tag, and purges the `@main` channel pointer from jsDelivr.

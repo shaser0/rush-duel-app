@@ -24,7 +24,7 @@ touch data by hand:
 
 **[`.github/workflows/data-sync.yml`](.github/workflows/data-sync.yml)**
 
-- **Runs daily at 05:00 UTC** (`cron: '0 5 * * *'`), and on-demand via
+- **Runs weekly, Sundays at 05:00 UTC** (`cron: '0 5 * * 0'`), and on-demand via
   **Actions → Data Sync → Run workflow** (`workflow_dispatch`).
 - Steps: `npm run sync-data` → commit `data/` **only if something changed** →
   push to `main` → **create an immutable `data-v<N>` git tag** on that commit →
@@ -39,7 +39,7 @@ touch data by hand:
   loop.) Clients pick the new data up through the background / manual **"⟳ Check
   for card-data update"** mechanism — no app update required.
 
-To trigger it now instead of waiting for the daily run:
+To trigger it now instead of waiting for the weekly run:
 
 ```bash
 gh workflow run data-sync.yml
@@ -47,8 +47,8 @@ gh run watch                       # follow the run
 ```
 
 ### Adjusting the routine
-- **Cadence:** edit the `cron:` line (UTC). e.g. twice daily → `0 5,17 * * *`;
-  weekly Mondays → `0 5 * * 1`.
+- **Cadence:** edit the `cron:` line (UTC). e.g. daily → `0 5 * * *`;
+  twice weekly (Sun/Wed) → `0 5 * * 0,3`.
 - **Disable temporarily:** Actions tab → Data Sync → `⋯` → Disable workflow, or
   comment out the `schedule:` block.
 
@@ -56,7 +56,7 @@ gh run watch                       # follow the run
 
 ## Manual data-only update (same effect, run locally)
 
-Use this if you want to sync outside the daily window or inspect the diff first.
+Use this if you want to sync outside the weekly window or inspect the diff first.
 
 ```bash
 npm run sync-data

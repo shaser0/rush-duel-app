@@ -68,7 +68,7 @@ one high-value chunk left in the binary.
 
 ### Card data — *already done, this is the template*
 
-- **Ship new cards without an app release.** The daily `data-sync.yml` workflow
+- **Ship new cards without an app release.** The scheduled `data-sync.yml` workflow
   publishes a new immutable `data-v<N>` tag; clients pick it up via the tiny
   `data-channel.json` pointer. No binary rebuild, no re-download.
 - **Consistent, permanently-cached snapshots.** A pinned tag can't suffer the

@@ -9,7 +9,7 @@
 //
 // Usage: node scripts/hash-data.js [--bump] [--tag=<value>] [--data-tag] [--if-changed]
 //   --if-changed exit without writing/bumping if the content hashes are identical
-//                to those already in data-version.json. Used by the daily sync so
+//                to those already in data-version.json. Used by the scheduled sync so
 //                a no-op run doesn't publish a version bump + tag (and force every
 //                client to reload) when no card data actually changed.
 //   --bump       also increments the "version" integer in data-version.json
@@ -57,7 +57,7 @@ const PKG_PATH     = path.join(__dirname, '../../package.json');
   }
 
   // --if-changed: no-op when the content hashes are identical to what's already
-  // recorded. The scheduled sync runs daily even when nothing new was fetched;
+  // recorded. The scheduled sync runs on a schedule even when nothing new was fetched;
   // without this, every run would still bump the version, publish a commit + tag,
   // and force every client to reload for zero data change. Compared key-by-key
   // so hash-map key order doesn't matter.
