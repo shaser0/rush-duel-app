@@ -22,7 +22,11 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    # 45 min isn't enough for a one-time full re-fetch (e.g. after a
+    # CARD_SCHEMA_VERSION bump forces every card to be re-fetched), especially
+    # when Yugipedia throws 502s and each retry burns backoff time. 120 lets the
+    # migration finish in one run; steady-state incremental syncs take minutes.
+    timeout-minutes: 120
 
     steps:
       - name: Checkout
