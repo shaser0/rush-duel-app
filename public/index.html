@@ -663,6 +663,7 @@ button,input,select{font-family:inherit}
 .du-cd-close:hover{color:var(--text)}
 .du-cd-img{width:100%;border-radius:6px;display:block}
 .du-cd-name{font-size:13px;font-weight:700;color:var(--gold);text-align:center;line-height:1.2}
+.du-cd-jpname{font-size:11px;color:var(--muted);font-style:italic;text-align:center;line-height:1.25;margin-top:1px}
 .du-cd-meta{font-size:11px;color:var(--muted);text-align:center}
 .du-cd-stats{font-size:12px;font-weight:700;display:flex;gap:12px;justify-content:center}
 #du-cd-tags .card-tags{justify-content:center}
@@ -1262,6 +1263,7 @@ button,input,select{font-family:inherit}
       <button id="du-cd-close" class="du-cd-close" title="Close">✕</button>
       <img id="du-cd-img" class="du-cd-img" src="" alt="">
       <div id="du-cd-name" class="du-cd-name"></div>
+      <div id="du-cd-jpname" class="du-cd-jpname" style="display:none"></div>
       <div id="du-cd-meta" class="du-cd-meta"></div>
       <div id="du-cd-tags"></div>
       <div id="du-cd-stats" class="du-cd-stats"></div>
@@ -2538,6 +2540,7 @@ function showDbpDetail(card){
     <div id="dbp-img-wrap"><div class="cph" style="font-size:40px">？</div></div>
     <div id="dbp-gallery" style="display:none"></div>
     <div id="dbp-name"></div>
+    <div id="dbp-jpname" style="display:none;font-size:12px;color:var(--muted);font-style:italic;margin-top:2px;line-height:1.35"></div>
     <div id="dbp-type"></div>
     <div id="dbp-tags"></div>
     <div id="dbp-numstats"></div>
@@ -2577,6 +2580,12 @@ function showDbpDetail(card){
   const nameEl=panel.querySelector('#dbp-name');
   nameEl.textContent=cname(card);
   nameEl.insertAdjacentHTML('beforeend',legendBadge(card));
+  // Literal translated-from-Japanese name as a reference line, when it differs
+  // from the displayed name (same as the card popup's cp-jpname subtitle).
+  if(card.name_translated && card.name_translated!==cname(card)){
+    const trEl=panel.querySelector('#dbp-jpname');
+    trEl.textContent=card.name_translated; trEl.style.display='';
+  }
 
   panel.querySelector('#dbp-type').textContent=card.types||(card.card_type?[card.card_type,card.property].filter(Boolean).join(' / '):'')||'';
 
@@ -5000,6 +5009,12 @@ function _duShowCardDetail(c){
   const nameEl = _duEl('du-cd-name');
   nameEl.textContent = card ? cname(card) : c.cardKey;
   if(card) nameEl.insertAdjacentHTML('beforeend', legendBadge(card));
+  const jpEl = _duEl('du-cd-jpname');
+  if(jpEl){
+    const showJp = card && card.name_translated && card.name_translated !== cname(card);
+    jpEl.textContent = showJp ? card.name_translated : '';
+    jpEl.style.display = showJp ? '' : 'none';
+  }
 
   const set = (id, html) => { const el=_duEl(id); if(el) el.innerHTML = html; };
   const setText = (id, txt) => { const el=_duEl(id); if(el) el.textContent = txt; };
