@@ -53,6 +53,18 @@ const cleaned = raw.map(card => ({
   is_legend:    !!card.is_legend,
 }));
 
+// Drop null name fields rather than carry them on every card. All of these
+// are sparse: name_en (~60, Duel Links crossover), fr/de/it/es (457 each,
+// same), name_ko (~2830), name_translated (~1014). Consumers treat a missing
+// key and null identically (name lookups fall back through cname/searchName).
+const NAME_FIELDS = [
+  'name_en', 'name_ja', 'name_ja_romaji', 'name_ko',
+  'name_fr', 'name_de', 'name_it', 'name_es', 'name_translated',
+];
+for (const card of cleaned)
+  for (const f of NAME_FIELDS)
+    if (card[f] == null || card[f] === '') delete card[f];
+
 // Apply manual set overrides for cards missing sets_jp on the wiki
 const overridesPath = path.join(DATA_DIR, 'sets-overrides.json');
 if (fs.existsSync(overridesPath)) {
