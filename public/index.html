@@ -286,6 +286,8 @@ button,input,select{font-family:inherit}
 #cp-img-wrap .cph{font-size:28px}
 #cp-info{flex:1;display:flex;flex-direction:column;gap:8px;font-size:14px;min-width:0}
 #cp-name{font-size:18px;font-weight:700;color:var(--gold)}
+#cp-jpname{font-size:12px;color:var(--muted);font-style:italic;margin-top:2px}
+#cp-jpname.hidden{display:none}
 #cp-type{font-size:13px;color:var(--muted)}
 #cp-numstats{margin:2px 0}
 #cp-materials{font-size:13px;color:#c8e6c9;font-style:italic;line-height:1.4}
@@ -1388,6 +1390,7 @@ button,input,select{font-family:inherit}
     <div id="cp-img-wrap"><div class="cph">？</div></div>
     <div id="cp-info">
       <div id="cp-name"></div>
+      <div id="cp-jpname"></div>
       <div id="cp-type"></div>
       <div id="cp-tags"></div>
       <div id="cp-numstats"></div>
@@ -1621,7 +1624,15 @@ function mkPh(){
 /* ═══════════════════════════════════════════════════════
    4. UI UTILS
 ═══════════════════════════════════════════════════════ */
+// Display name: the polished English name, then the page title. NOT
+// name_translated — that field is the raw literal render of the Japanese
+// (e.g. "Super Assistant Achi" vs the adapted "Ember the Super Assistant"),
+// which reads worse. It's kept for search only (see searchName / nameIndex).
 function cname(card){ return card.name_en||card.title||''; }
+// Lowercased haystack for name search — matches whichever name a user might
+// type (translated, official English, or page title), independent of which one
+// cname() shows for display.
+function searchName(card){ return ((card.name_translated||'')+' '+(card.name_en||'')+' '+(card.title||'')).toLowerCase(); }
 // Wiki effect text has no line breaks between "●" multi-choice options —
 // they're separated only by the bullet character itself. Break onto its own
 // line for readability (paired with white-space:pre-wrap on the container).
@@ -1658,7 +1669,7 @@ function maxBadgeHtml(card){
   return '';
 }
 function banBadgeHtml(card){
-  const status=BANLIST[card.raw_name_en||cname(card)];
+  const status=BANLIST[card.raw_name_en||card.name_en||card.title];
   if(status==='Forbidden')    return '<span class="badge-forbidden">F</span>';
   if(status==='Limited')      return '<span class="badge-limited">L1</span>';
   if(status==='Semi-Limited') return '<span class="badge-semilimited">L2</span>';
@@ -2466,7 +2477,7 @@ function renderDbpPool(){
   const seriesf=document.getElementById('dbp-series')?.value||'';
   const legendOnly=document.getElementById('dbp-legend')?.checked||false;
   let pool=ALL.filter(c=>c.title&&isPlayable(c));
-  if(q)        pool=pool.filter(c=>cname(c).toLowerCase().includes(q));
+  if(q)        pool=pool.filter(c=>searchName(c).includes(q));
   if(tf)       pool=pool.filter(c=>cardMainType(c)===tf);
   if(af)       pool=pool.filter(c=>c.attribute===af);
   if(rf)       pool=pool.filter(c=>(c.sets_jp||[]).some(s=>s.rarity&&s.rarity.split(',').map(r=>r.trim()).includes(rf)));
@@ -2815,6 +2826,14 @@ function showCardPopup(card, rarity, imgFile){
   }
 
   document.getElementById('cp-name').innerHTML=`${esc(cname(card))}&nbsp;${rbHtml(rarity)}${legendBadge(card)}`;
+  // Literal translated-from-Japanese name as a reference line — only when it
+  // adds something beyond the polished display name (e.g. "Super Assistant
+  // Achi" under "Ember the Super Assistant", preserving the lost 熱っち pun).
+  const jpEl=document.getElementById('cp-jpname');
+  const tr=card.name_translated;
+  const show=tr && tr!==cname(card);
+  jpEl.textContent=show?tr:'';
+  jpEl.classList.toggle('hidden',!show);
   const typeParts=[];
   if(card.types) typeParts.push(card.types);
   else if(card.card_type) typeParts.push([card.card_type,card.property].filter(Boolean).join(' / '));
@@ -3282,7 +3301,7 @@ function renderColCards(){
   if(rrf) ents=ents.filter(e=>cardRace(e.card)===rrf);
   if(stf) ents=ents.filter(e=>cardSubtypes(e.card).includes(stf));
   if(legendOnly) ents=ents.filter(e=>isLegendCard(e.card));
-  if(q) ents=ents.filter(e=>cname(e.card).toLowerCase().includes(q));
+  if(q) ents=ents.filter(e=>searchName(e.card).includes(q));
   ents=ents.filter(e=>matchNum(e.card.level,'f-lv-op','f-lv-v1','f-lv-v2'));
   ents=ents.filter(e=>matchNum(e.card.atk,  'f-atk-op','f-atk-v1','f-atk-v2'));
   ents=ents.filter(e=>matchNum(e.card.def,  'f-def-op','f-def-v1','f-def-v2'));
@@ -3372,7 +3391,7 @@ function initBuilder(){
     const q=si.value.trim().toLowerCase();
     const res=document.getElementById('bld-results');
     if(!q){res.innerHTML='';return;}
-    const hits=ALL.filter(c=>cname(c).toLowerCase().includes(q)).slice(0,60);
+    const hits=ALL.filter(c=>searchName(c).includes(q)).slice(0,60);
     res.innerHTML='';
     for(const card of hits){
       const it=document.createElement('div');it.className='bld-item';
@@ -3462,7 +3481,7 @@ function nameIndex(){
   if(NAME_IDX) return NAME_IDX;
   NAME_IDX=new Map();
   for(const c of ALL){
-    for(const k of [c.name_en,c.title]){
+    for(const k of [c.name_translated,c.name_en,c.title]){
       if(k){ const kk=k.toLowerCase(); if(!NAME_IDX.has(kk)) NAME_IDX.set(kk,c.title); }
     }
   }
@@ -3639,7 +3658,7 @@ function dbAdd(title, rarity=''){
     }
   }
   if(document.getElementById('db-banlist').checked){
-    const status=BANLIST[card.raw_name_en||cname(card)];
+    const status=BANLIST[card.raw_name_en||card.name_en||card.title];
     if(status==='Forbidden'){ toast('Forbidden card'); return; }
     if(status==='Limited'&&totalCount>=1){ toast('Limited: max 1 copy'); return; }
     if(status==='Semi-Limited'&&totalCount>=2){ toast('Semi-Limited: max 2 copies'); return; }
@@ -3751,7 +3770,7 @@ function renderDbPool(){
   const collId=document.getElementById('db-collection-sel').value||'';
   const owned=ownedCounts(collId||undefined);
   let pool=ALL.filter(c=>c.title&&isComplete(c)&&isPlayable(c));
-  if(q)        pool=pool.filter(c=>cname(c).toLowerCase().includes(q));
+  if(q)        pool=pool.filter(c=>searchName(c).includes(q));
   if(tf)       pool=pool.filter(c=>cardMainType(c)===tf);
   if(af)       pool=pool.filter(c=>c.attribute===af);
   if(rf)       pool=pool.filter(c=>(c.sets_jp||[]).some(s=>s.rarity&&s.rarity.split(',').map(r=>r.trim()).includes(rf)));
@@ -3874,7 +3893,9 @@ function renderDeckGrid(id,bucket,sec){
 }
 
 /* ── Clipboard import / export ─────────────────────────────────────────────── */
-function rawCname(c){ return c.raw_name_en||cname(c); }
+// Canonical English name for identity (banlist keys, deck-export text) — never
+// the translated name, so lookups stay stable against banlist.json.
+function rawCname(c){ return c.raw_name_en||c.name_en||c.title||''; }
 function aggregateByTitle(bucket){
   const m={};
   for(const [k,v] of Object.entries(bucket||{})){

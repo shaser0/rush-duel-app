@@ -58,6 +58,10 @@ function parseCardTable(wikitext) {
     name_de:        raw.de_name        || null,
     name_it:        raw.it_name        || null,
     name_es:        raw.es_name        || null,
+    // Unofficial literal English translation of the Japanese name (Yugipedia
+    // `translated_name`), shown for cards whose English page name differs from
+    // a direct rendering of the JP name. Null for most cards.
+    name_translated: raw.translated_name || null,
     attribute:      raw.attribute      || null,
     types:          raw.types          || null,
     card_type:      raw.card_type      || null,
@@ -136,7 +140,7 @@ async function fetchJaName(rushDuelTitle) {
 
 const TRACKED_FIELDS = [
   'name_en', 'name_ja', 'name_ja_romaji', 'name_ko', 'name_fr',
-  'name_de', 'name_it', 'name_es', 'attribute', 'types', 'card_type', 'property', 'level',
+  'name_de', 'name_it', 'name_es', 'name_translated', 'attribute', 'types', 'card_type', 'property', 'level',
   'atk', 'def', 'maximum_atk', 'materials', 'condition', 'effect_types', 'requirement', 'effect', 'flavor_text',
   'images', 'sets_jp', 'sets_kr', 'database_id', 'archseries', 'password', 'is_legend',
 ];
@@ -152,7 +156,8 @@ function diffFields(oldCard, newCard) {
 // revision hasn't changed (timestamp diffing alone can't catch a value that
 // was captured wrong and never touched again — see the stray legacy
 // `jp_sets` field bug this replaced).
-const CARD_SCHEMA_VERSION = 1;
+// v2: added name_translated (Yugipedia `translated_name`).
+const CARD_SCHEMA_VERSION = 2;
 
 // Non-content bookkeeping fields alongside TRACKED_FIELDS. Anything else on a
 // card is unexpected — almost certainly a leftover from an old schema (like

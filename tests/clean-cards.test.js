@@ -34,6 +34,12 @@ test('stripWikiMarkup: multiple links in one string', () => {
   assert.equal(stripWikiMarkup('[[A]] and [[B|b]]'), 'A and b');
 });
 
+test('stripWikiMarkup: strips inline HTML comments and trims', () => {
+  assert.equal(
+    stripWikiMarkup('Dragias the Striking Dragon<!-- https://twitter.com/x/status/1 -->'),
+    'Dragias the Striking Dragon');
+});
+
 // ── stripParens ──────────────────────────────────────────────────────────────
 
 test('stripParens: null/empty passthrough', () => {

@@ -8,11 +8,14 @@
 
 function stripWikiMarkup(text) {
   if (!text) return text;
+  // Drop HTML comments first — editors leave source citations inline in name
+  // fields, e.g. `Dragias the Striking Dragon<!-- https://twitter.com/... -->`.
+  text = text.replace(/<!--[\s\S]*?-->/g, '');
   // [[Target|Display]] → Display,  [[Word]] → Word
   return text.replace(/\[\[([^\]]+)\]\]/g, (_, inner) => {
     const parts = inner.split('|');
     return parts[parts.length - 1].trim();
-  });
+  }).trim();
 }
 
 // ── Strip parenthetical content ──────────────────────────────────────────────

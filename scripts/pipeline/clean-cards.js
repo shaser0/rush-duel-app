@@ -34,6 +34,7 @@ const cleaned = raw.map(card => ({
   name_de:      stripWikiMarkup(card.name_de),
   name_it:      stripWikiMarkup(card.name_it),
   name_es:      stripWikiMarkup(card.name_es),
+  name_translated: stripWikiMarkup(card.name_translated),
   flavor_text:  stripWikiMarkup(card.flavor_text),
   condition:    stripWikiMarkup(card.condition),
   effect_types: stripWikiMarkup(card.effect_types) || null,
