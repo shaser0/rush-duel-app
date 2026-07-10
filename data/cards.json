@@ -9442,58 +9442,6 @@
     "raw_name_en": "Atrium's Wind"
   },
   {
-    "name_ja": "アトラクト・ゴーレム",
-    "name_ja_romaji": "Atorakuto Gōremu",
-    "name_ko": "어트랙트 골렘",
-    "attribute": "LIGHT",
-    "types": "Rock / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 4,
-    "atk": 1400,
-    "def": 500,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "Reveal 1 LIGHT Attribute Normal Monster with 500 DEF in your hand the turn you Normal Summoned this card.",
-    "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can inflict 500 damage to your opponent.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "AttractGolem-RDLGP2-JP-C.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/LGP2-JP026",
-        "name": "Neo Legend Awakening Pack",
-        "rarity": "Common"
-      }
-    ],
-    "sets_kr": [
-      {
-        "code": "RD/LGP2-KR026",
-        "name": "Neo Legend Awakening Pack",
-        "rarity": "Common"
-      }
-    ],
-    "database_id": "20855",
-    "archseries": [
-      "Metarion"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Attract Golem",
-    "_wiki_ts": "2026-07-01T21:19:22Z",
-    "card_schema_version": 2,
-    "former_titles": [
-      "Attraction Golem"
-    ],
-    "raw_name_en": "Attract Golem"
-  },
-  {
     "name_ja": "アトラシュート・ハイドロン",
     "name_ja_romaji": "Atorashūto Haidoron",
     "name_ko": "아트라슈트 하이드론",
@@ -25666,67 +25614,6 @@
     "_wiki_ts": "2024-12-05T19:32:39Z",
     "card_schema_version": 2,
     "raw_name_en": "Coil Dragon of Desolation"
-  },
-  {
-    "name_ja": "豊沃の蟠竜",
-    "name_ja_romaji": "Hōyoku no Banryū",
-    "name_ko": "풍옥의 반룡",
-    "name_translated": "Coil Dragon of Fertility",
-    "attribute": "EARTH",
-    "types": "Wyrm / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 4,
-    "atk": 1000,
-    "def": 400,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "Shuffle 1 Field Spell Card from your Graveyard into the Deck.",
-    "effect": "Inflict 600 damage to your opponent.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "CoilDragonoftheFertileLand-RDSBD7-JP-C.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/KP05-JP037",
-        "name": "Deck Mod Pack: Dynamic Eternal Live!!",
-        "rarity": "Common"
-      },
-      {
-        "code": "RD/SBD7-JP012",
-        "name": "Strongest Battle Deck Asana - Pride of the Heavy Cavalry Style",
-        "rarity": "Common"
-      }
-    ],
-    "sets_kr": [
-      {
-        "code": "RD/KP05-KR037",
-        "name": "Deck Mod Pack: Dynamic Eternal Live!!",
-        "rarity": "Common"
-      },
-      {
-        "code": "RD/SBD7-KR012",
-        "name": "Strongest Battle Deck Asana - Pride of the Heavy Cavalry Style",
-        "rarity": "Common"
-      }
-    ],
-    "database_id": "16343",
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Coil Dragon of the Fertile Land",
-    "_wiki_ts": "2026-07-01T21:16:20Z",
-    "card_schema_version": 2,
-    "former_titles": [
-      "Coiled Dragon of Fertility"
-    ],
-    "raw_name_en": "Coil Dragon of the Fertile Land"
   },
   {
     "name_ja": "ココイルゾウ",
@@ -44370,69 +44257,6 @@
     "raw_name_en": "Dr. Red Robe"
   },
   {
-    "name_ja": "竜帝家臣ドラーヘ",
-    "name_ja_romaji": "Ryūteikashin Dorāhe",
-    "name_ko": "룡 제왕가신 드라헤",
-    "name_translated": "Drache the Dragon Monarch's Vassal",
-    "attribute": "WATER",
-    "types": "Wyrm / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 3,
-    "atk": 800,
-    "def": 1000,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "If you have no cards in your Extra Deck, send the top card of your Deck to the Graveyard.",
-    "effect": "Increase this card's Level by 2 until the end of this turn. If you haven't Special Summoned a monster this turn, you can also add 1 \"Lindwurm the Mega Monarch\" or \"Lindwurm the Wyrm Monarch\" from your Graveyard to your hand.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "DrahetheWyrmVassal-RDSD0F-JP-C.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/SD0F-JP004",
-        "name": "Structure Deck: Triumphant Return of the Monarchs",
-        "rarity": "Common"
-      },
-      {
-        "code": "RD/SD0F-JPS04",
-        "name": "Structure Deck: Triumphant Return of the Monarchs",
-        "rarity": "Super Rare"
-      }
-    ],
-    "sets_kr": [
-      {
-        "code": "RD/SD0F-KR004",
-        "name": "Structure Deck: Triumphant Return of the Monarchs",
-        "rarity": "Common"
-      },
-      {
-        "code": "RD/SD0F-KRS04",
-        "name": "Structure Deck: Triumphant Return of the Monarchs",
-        "rarity": "Super Rare"
-      }
-    ],
-    "database_id": "22095",
-    "archseries": [
-      "Monarch"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Drahe the Wyrm Vassal",
-    "_wiki_ts": "2026-07-02T07:50:04Z",
-    "card_schema_version": 2,
-    "former_titles": [
-      "Drache the Dragon Vassal"
-    ],
-    "raw_name_en": "Drahe the Wyrm Vassal"
-  },
-  {
     "name_ja": "ザ☆ドラコ",
     "name_ja_romaji": "Za☆Dorako",
     "name_ko": "더☆드라코",
@@ -55708,71 +55532,6 @@
     "_wiki_ts": "2026-06-29T22:34:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Faceless Culdesac"
-  },
-  {
-    "name_ja": "純真のファドロニール",
-    "name_ja_romaji": "Junshin no Fadoronīru",
-    "name_ko": "순진의 파드로니르",
-    "name_translated": "Innocent Fadrnir",
-    "attribute": "LIGHT",
-    "types": "Dragon / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 3,
-    "atk": 700,
-    "def": 100,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "The turn you Normal Summoned this card, if you have not drawn a card during the Main Phase.",
-    "effect": "Both players draw 1 card.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "InnocentFadrawl-RDKP17-JP-UR.png"
-      },
-      {
-        "artwork": 2,
-        "file": "InnocentFadrawl-RD5TH1-JP-UPR.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/KP17-JP037",
-        "name": "Burst Rex of Awakening",
-        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
-      },
-      {
-        "code": "RD/5TH1-JP004",
-        "name": "5th Anniversary Pack",
-        "rarity": "Ultra Parallel Rare, Over Rush Rare"
-      }
-    ],
-    "sets_kr": [
-      {
-        "code": "RD/KP17-KR037",
-        "name": "Burst Rex of Awakening",
-        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
-      },
-      {
-        "code": "RD/5TH1-KR004",
-        "name": "5th Anniversary Pack",
-        "rarity": "Ultra Parallel Rare, Over Rush Rare"
-      }
-    ],
-    "database_id": "20334",
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Innocent Fadrawl",
-    "_wiki_ts": "2026-07-01T12:23:13Z",
-    "card_schema_version": 2,
-    "former_titles": [
-      "Fadronir the Pure"
-    ],
-    "raw_name_en": "Innocent Fadrawl"
   },
   {
     "name_ja": "邪心のファドロニール",
@@ -85309,61 +85068,6 @@
     "raw_name_en": "Legendary Magician"
   },
   {
-    "name_ja": "幻の三角スケール",
-    "name_ja_romaji": "Maboroshi no Sankaku Sukēru",
-    "name_ko": "환상의 삼각 스케일",
-    "attribute": null,
-    "types": null,
-    "card_type": "Spell",
-    "property": "Normal",
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "Send 1 Wyrm Type monster from your hand to the Graveyard.",
-    "effect": "Draw 2 cards. You cannot activate non-Wyrm Type monster effects for the rest of this turn.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "PhantasmalTriangularScale-RDKP18-JP-SR.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/KP18-JP054",
-        "name": "Dark Matter of Phantoms",
-        "rarity": "Super Rare, Secret Rare"
-      },
-      {
-        "code": "RD/26S1-JP014",
-        "name": "Special Pack 2026 Vol.1",
-        "rarity": "Super Parallel Rare"
-      }
-    ],
-    "sets_kr": [
-      {
-        "code": "RD/KP18-KR054",
-        "name": "Dark Matter of Phantoms",
-        "rarity": "Super Rare, Secret Rare"
-      }
-    ],
-    "database_id": "20663",
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Phantasmal Triangular Scale",
-    "_wiki_ts": "2026-07-08T16:45:17Z",
-    "card_schema_version": 2,
-    "former_titles": [
-      "Legendary Scale Ruler"
-    ],
-    "raw_name_en": "Phantasmal Triangular Scale"
-  },
-  {
     "name_ja": "伝説の種火",
     "name_ja_romaji": "Densetsu no Tanebi",
     "name_ko": "전설의 불씨",
@@ -87122,132 +86826,6 @@
     "_wiki_ts": "2025-10-13T07:38:11Z",
     "card_schema_version": 2,
     "raw_name_en": "Lindo the Shadow Flower Warrior"
-  },
-  {
-    "name_ja": "竜帝リンドルム",
-    "name_ja_romaji": "Ryūtei Rindorumu",
-    "name_ko": "룡 제왕 린드룸",
-    "name_translated": "Lindrm the Dragon Monarch",
-    "attribute": "WATER",
-    "types": "Wyrm / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 5,
-    "atk": 2000,
-    "def": 1000,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "You have no cards in your Extra Deck during the turn you Tribute Summoned this card in Attack Position.",
-    "effect": "Shuffle up to 2 cards from your opponent's Graveyard into the Deck. Then, you can make 1 face-up Effect Monster on your opponent's field lose 800 ATK/DEF until the end of this turn.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "LindwurmtheWyrmMonarch-RDSD0F-JP-C.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/SD0F-JP003",
-        "name": "Structure Deck: Triumphant Return of the Monarchs",
-        "rarity": "Common"
-      },
-      {
-        "code": "RD/SD0F-JPS03",
-        "name": "Structure Deck: Triumphant Return of the Monarchs",
-        "rarity": "Super Rare"
-      }
-    ],
-    "sets_kr": [
-      {
-        "code": "RD/SD0F-KR003",
-        "name": "Structure Deck: Triumphant Return of the Monarchs",
-        "rarity": "Common"
-      },
-      {
-        "code": "RD/SD0F-KRS03",
-        "name": "Structure Deck: Triumphant Return of the Monarchs",
-        "rarity": "Super Rare"
-      }
-    ],
-    "database_id": "22094",
-    "archseries": [
-      "Monarch"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Lindwurm the Wyrm Monarch",
-    "_wiki_ts": "2026-07-02T12:26:03Z",
-    "card_schema_version": 2,
-    "former_titles": [
-      "Lindorm the Dragon Monarch"
-    ],
-    "raw_name_en": "Lindwurm the Wyrm Monarch"
-  },
-  {
-    "name_ja": "幻竜帝リンドルム",
-    "name_ja_romaji": "Genryūtei Rindorumu",
-    "name_ko": "환룡 제왕 린드룸",
-    "name_translated": "Lindrm the Phantom Dragon Monarch",
-    "attribute": "WATER",
-    "types": "Wyrm / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 8,
-    "atk": 2400,
-    "def": 1000,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": "You can Tribute Summon this card in Attack Position by Tributing 1 face-up Level 5 or higher monster with 1000 DEF.",
-    "effect_types": null,
-    "requirement": "You have no cards in your Extra Deck during the turn you Tribute Summoned this card in Attack Position.",
-    "effect": "Your opponent chooses 2 cards on their field, and you shuffle 1 of them into the owner's Deck.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "LindwurmtheMegaMonarch-RDSD0F-JP-C.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/SD0F-JP002",
-        "name": "Structure Deck: Triumphant Return of the Monarchs",
-        "rarity": "Common"
-      },
-      {
-        "code": "RD/SD0F-JPS02",
-        "name": "Structure Deck: Triumphant Return of the Monarchs",
-        "rarity": "Super Rare"
-      }
-    ],
-    "sets_kr": [
-      {
-        "code": "RD/SD0F-KR002",
-        "name": "Structure Deck: Triumphant Return of the Monarchs",
-        "rarity": "Common"
-      },
-      {
-        "code": "RD/SD0F-KRS02",
-        "name": "Structure Deck: Triumphant Return of the Monarchs",
-        "rarity": "Super Rare"
-      }
-    ],
-    "database_id": "22093",
-    "archseries": [
-      "Monarch"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Lindwurm the Mega Monarch",
-    "_wiki_ts": "2026-07-02T12:26:29Z",
-    "card_schema_version": 2,
-    "former_titles": [
-      "Lindorm the Mega Monarch"
-    ],
-    "raw_name_en": "Lindwurm the Mega Monarch"
   },
   {
     "name_ja": "ベビー・ティーレックス",
@@ -93617,59 +93195,6 @@
     "_wiki_ts": "2025-03-08T14:19:20Z",
     "card_schema_version": 2,
     "raw_name_en": "Mean Mutt Sacred Shiba"
-  },
-  {
-    "name_ja": "火麺特忍ニクマシゴックブート",
-    "name_ja_romaji": "Kamen Tokunin Nikumashi Gokkubūto",
-    "name_ko": "화면특인 고기만을 고크부트",
-    "name_translated": "Nikumashi Gockboot the Masked Fiery Noodle Special Ninja",
-    "attribute": "FIRE",
-    "types": "Pyro / Fusion / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 9,
-    "atk": 2900,
-    "def": 0,
-    "maximum_atk": null,
-    "materials": "\"Extra Spice the Elite Noodle Ninja\" + \"Flavor Inspector\"",
-    "condition": null,
-    "effect_types": null,
-    "requirement": "During your Main Phase that you Special Summoned this card.",
-    "effect": "Inflict 1000 damage to your opponent. Draw 1 card. If you draw by this effect, you can also Set 1 \"The Noodle Art of Savory\" and/or 1 \"The Noodle Art of Saucery\" from your Graveyard to your Spell & Trap Zone.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "ExtraMeattheSpecialNoodleNinja-RDKP07-JP-R.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/KP07-JP038",
-        "name": "Deck Mod Pack: Chaotic Omega Rising!!",
-        "rarity": "Rare"
-      }
-    ],
-    "sets_kr": [
-      {
-        "code": "RD/KP07-KR038",
-        "name": "Deck Mod Pack: Chaotic Omega Rising!!",
-        "rarity": "Rare"
-      }
-    ],
-    "database_id": "17005",
-    "archseries": [
-      "Noodle Ninja"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Extra Meat the Special Noodle Ninja",
-    "_wiki_ts": "2026-07-01T08:21:43Z",
-    "card_schema_version": 2,
-    "former_titles": [
-      "Meat Spice the Special Noodle Ninja"
-    ],
-    "raw_name_en": "Extra Meat the Special Noodle Ninja"
   },
   {
     "name_ja": "サイボーグ・ドルフィン",
@@ -107593,58 +107118,6 @@
     "_wiki_ts": "2026-04-22T10:13:19Z",
     "card_schema_version": 2,
     "raw_name_en": "Petit Moth of Evolution"
-  },
-  {
-    "name_ja": "ファンタズム・マスクマスター",
-    "name_ja_romaji": "Fantazumu Masukumasutā",
-    "name_ko": "판타즘 마스크마스터",
-    "attribute": "LIGHT",
-    "types": "Machine / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 6,
-    "atk": 1800,
-    "def": 500,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "Reveal 1 Level 9 Cyborg Type Fusion Monster in your Extra Deck, and declare 1 monster that is mentioned on that monster as material.",
-    "effect": "This turn, this card's name becomes the monster's card name that was declared to meet the requirement.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "PhantasmMaskmaster-RDLGP2-JP-SR.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/LGP2-JP028",
-        "name": "Neo Legend Awakening Pack",
-        "rarity": "Super Rare, Secret Rare"
-      }
-    ],
-    "sets_kr": [
-      {
-        "code": "RD/LGP2-KR028",
-        "name": "Neo Legend Awakening Pack",
-        "rarity": "Super Rare, Secret Rare"
-      }
-    ],
-    "database_id": "20857",
-    "archseries": [
-      "Metarion"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Phantasm Maskmaster",
-    "_wiki_ts": "2026-07-01T10:24:40Z",
-    "card_schema_version": 2,
-    "former_titles": [
-      "Phantasm Mask Master"
-    ],
-    "raw_name_en": "Phantasm Maskmaster"
   },
   {
     "name_ja": "幻煌龍 スパイラル",
@@ -138278,67 +137751,6 @@
     "raw_name_en": "Star Monarch Estrome"
   },
   {
-    "name_ja": "はじまりの星",
-    "name_ja_romaji": "Hajimari no Hoshi",
-    "name_ko": "시작의 별",
-    "attribute": null,
-    "types": null,
-    "card_type": "Spell",
-    "property": "Normal",
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "Pay 500 LP.",
-    "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can add 1 Level 5 or lower Normal Monster, \"Fusion\", or \"Polymerization\" from your Graveyard to your hand.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "StarofBeginning-RDLGP2-JP-UR.png"
-      },
-      {
-        "artwork": 2,
-        "file": "StarofBeginning-RDAP03-JP-OP-AA.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/LGP2-JP074",
-        "name": "Neo Legend Awakening Pack",
-        "rarity": "Ultra Rare, Over Rush Rare"
-      },
-      {
-        "code": "RD/AP03-JP002",
-        "name": "Advance Pack: Union Base",
-        "rarity": "Super Rare, Full Over Rush Rare"
-      }
-    ],
-    "sets_kr": [
-      {
-        "code": "RD/LGP2-KR074",
-        "name": "Neo Legend Awakening Pack",
-        "rarity": "Ultra Rare, Over Rush Rare"
-      }
-    ],
-    "database_id": "20878",
-    "archseries": [
-      "Pliage"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Star of Beginning",
-    "_wiki_ts": "2026-07-02T07:27:25Z",
-    "card_schema_version": 2,
-    "former_titles": [
-      "Star of the Beginning"
-    ],
-    "raw_name_en": "Star of Beginning"
-  },
-  {
     "name_ja": "救惺望御",
     "name_ja_romaji": "Kyūseibōgyo",
     "name_ko": "구성망어",
@@ -154156,59 +153568,6 @@
     "raw_name_en": "Variable Stellarizer"
   },
   {
-    "name_ja": "透幻郷の万緑",
-    "name_ja_romaji": "Tōgenkyō no Banryoku",
-    "name_ko": "투환향의 만록",
-    "name_translated": "Vegetation of Spectral Shangri-La",
-    "attribute": null,
-    "types": null,
-    "card_type": "Spell",
-    "property": "Field",
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "If the total Level of all face-up monsters on your field is 10 or higher.",
-    "effect": "While this card is face-up in the Field Zone, face-up non-EARTH Attribute monsters on the field lose 300 ATK/DEF.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "EvergreenofBlisstopia-RDSBD7-JP-C.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/SBD7-JP027",
-        "name": "Strongest Battle Deck Asana - Pride of the Heavy Cavalry Style",
-        "rarity": "Common"
-      }
-    ],
-    "sets_kr": [
-      {
-        "code": "RD/SBD7-KR027",
-        "name": "Strongest Battle Deck Asana - Pride of the Heavy Cavalry Style",
-        "rarity": "Common"
-      }
-    ],
-    "database_id": "16799",
-    "archseries": [
-      "Blisstopia"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Evergreen of Blisstopia",
-    "_wiki_ts": "2026-07-06T09:57:32Z",
-    "card_schema_version": 2,
-    "former_titles": [
-      "Vegetation of Blisstopia"
-    ],
-    "raw_name_en": "Evergreen of Blisstopia"
-  },
-  {
     "name_ja": "反攻の竜撃",
     "name_ja_romaji": "Hankō no Ryūgeki",
     "name_ko": "반공의 용격",
@@ -164680,126 +164039,6 @@
     "raw_name_en": "Z-Trial Tank"
   },
   {
-    "name_ja": "奈落の落とし穴",
-    "name_ja_romaji": "Naraku no Otoshiana",
-    "attribute": null,
-    "types": null,
-    "card_type": "Trap",
-    "property": "Normal",
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "When your opponent Normal or Special Summons a monster with 1500 or more ATK face-up.",
-    "effect": "Destroy 1 of those monsters, and place it on the bottom of the owner's Deck.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "BottomlessTrapHole-RDLP01-JP-OP.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/LP01-JP004",
-        "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [],
-    "password": null,
-    "is_legend": true,
-    "title": "Bottomless Trap Hole",
-    "_wiki_ts": "2026-07-05T18:52:35Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Bottomless Trap Hole (Rush Duel)"
-  },
-  {
-    "name_ja": "洗脳－ブレインコントロール",
-    "name_ja_romaji": "Sennō - Burein Kontorōru",
-    "attribute": null,
-    "types": null,
-    "card_type": "Spell",
-    "property": "Normal",
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "Pay 800 LP.",
-    "effect": "Take control of 1 face-up Level 8 or lower monster on your opponent's field that is not in Maximum Mode until the End Phase (when control of that monster is returned, if there is no Monster Zone to return to, send it to the Graveyard). This turn, you cannot activate that monster's effect.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "BrainControl-RDLP01-JP-OP.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/LP01-JP003",
-        "name": "Limited Pack Remastered Edition",
-        "rarity": "Over Rush Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [],
-    "password": null,
-    "is_legend": true,
-    "title": "Brain Control",
-    "_wiki_ts": "2026-06-23T23:34:08Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Brain Control (Rush Duel)"
-  },
-  {
-    "name_ja": "魔導戦士 ブレイカー",
-    "name_ja_romaji": "Madōsenshi Bureikā",
-    "attribute": "DARK",
-    "types": "Spellcaster / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 4,
-    "atk": 1600,
-    "def": 1000,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": "Multi-Choice",
-    "requirement": "During the turn you Normal Summoned this card.",
-    "effect": "●Send the top card of your Deck to the Graveyard. Then, while this card is face-up, it gains 300 ATK. ●Destroy 1 Spell/Trap Card on the field.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "BreakertheMagicalWarrior-RDLP01-JP-OP.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/LP01-JP002",
-        "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [],
-    "password": null,
-    "is_legend": true,
-    "title": "Breaker the Magical Warrior",
-    "_wiki_ts": "2026-07-05T18:52:26Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Breaker the Magical Warrior (Rush Duel)"
-  },
-  {
     "name_ja": "混沌帝龍 －終焉の使者－",
     "name_ja_romaji": "Kaosu Enperā Doragon -Shūen no Shisha-",
     "attribute": "DARK",
@@ -164842,174 +164081,6 @@
     "_wiki_ts": "2026-07-09T22:18:40Z",
     "card_schema_version": 2,
     "raw_name_en": "Chaos Emperor Dragon - Envoy of the End (Rush Duel)"
-  },
-  {
-    "name_ja": "創争獣レヴィアトリトン",
-    "name_ja_romaji": "Sōsōjū Reviatoriton",
-    "attribute": "DARK",
-    "types": "Fiend / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 3,
-    "atk": 1200,
-    "def": 1200,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "TBD",
-    "effect": "TBD",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "ChaoskampfBeastLeviatriton-RDSJMP-JP-OP.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/SJMP-JP066",
-        "name": "Saikyō Jump September 2026 promotional card",
-        "rarity": "Normal Parallel Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Chaoskampf Beast Leviatriton",
-    "_wiki_ts": "2026-07-03T11:56:14Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Chaoskampf Beast Leviatriton"
-  },
-  {
-    "name_ja": "深竜の契約者",
-    "name_ja_romaji": "Shinryū no Keiyakusha",
-    "attribute": "???",
-    "types": "??? / ???",
-    "card_type": null,
-    "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "ContractoroftheDeepDragon-OW.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/KP26-JP0??",
-        "name": "Headliner of Reigning",
-        "rarity": ""
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [
-      "Star Protector"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Contractor of the Deep Dragon",
-    "_wiki_ts": "2026-06-28T19:22:32Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Contractor of the Deep Dragon"
-  },
-  {
-    "name_ja": "分霊樹コアドラシル",
-    "name_ja_romaji": "Bunreiju Koadorashiru",
-    "attribute": "???",
-    "types": "??? / ???",
-    "card_type": null,
-    "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "CoredrasiltheSpiritTreeBunrei-OW.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/KP26-JP0??",
-        "name": "Headliner of Reigning",
-        "rarity": ""
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Coredrasil the Spirit Tree Bunrei",
-    "_wiki_ts": "2026-07-02T11:38:55Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Coredrasil the Spirit Tree Bunrei"
-  },
-  {
-    "name_ja": "混沌の黒魔術師",
-    "name_ja_romaji": "Konton no Kuromajutsushi",
-    "attribute": "DARK",
-    "types": "Spellcaster / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 8,
-    "atk": 2800,
-    "def": 2600,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "During the turn you Normal Summoned this card.",
-    "effect": "Add 1 non-Legend Spell Card from your Graveyard to your hand. Then, monsters destroyed by battle with this card this turn are placed on the bottom of the owner's Deck instead of being sent to the Graveyard. This turn, you cannot activate the effect of \"Dark Magician of Chaos\".",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "DarkMagicianofChaos-RDLP01-JP-OP.png"
-      },
-      {
-        "artwork": 2,
-        "file": "DarkMagicianofChaos-RDLP01-JP-OP-AA.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/LP01-JP001",
-        "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Parallel Rare, Secret Rare, Full Over Rush Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [
-      "Dark Magician"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Dark Magician of Chaos",
-    "_wiki_ts": "2026-07-02T16:32:33Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Dark Magician of Chaos (Rush Duel)"
   },
   {
     "name_ja": "聖皇ディアラム",
@@ -165092,6 +164163,256 @@
     "raw_name_en": "Doitsu (Rush Duel)"
   },
   {
+    "name_ja": "コイツ",
+    "name_ja_romaji": "Koitsu",
+    "attribute": "WATER",
+    "types": "Fairy / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 10,
+    "atk": 200,
+    "def": 100,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Equip this card to 1 face-up \"Aitsu\" on your field that is not equipped with a Union Monster Card as an Equip Spell Card with the following effect. ●The equipped monster gains 3000 ATK, and it inflicts piercing battle damage.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "Koitsu-RDAP03-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/AP03-JP043",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": "23464",
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Koitsu",
+    "_wiki_ts": "2026-07-09T22:59:59Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Koitsu (Rush Duel)"
+  },
+  {
+    "name_ja": "リリーフカー・Ｄ",
+    "name_ja_romaji": "Rirīfukā Dī",
+    "attribute": "FIRE",
+    "types": "Machine / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 2,
+    "atk": 800,
+    "def": 400,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During the turn you Normal Summoned this card, send all monsters from your field to the Graveyard.",
+    "effect": "Draw 1 card. Then, if you have \"Feverous Spirit Stadium\" face-up on your field, you can draw 1 additional card. This turn, you cannot activate the effect of \"Reliefcar D\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ReliefcarD-RDAP03-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/AP03-JP034",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Secret Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": "23460",
+    "archseries": [
+      "Baseball"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Reliefcar D",
+    "_wiki_ts": "2026-07-09T22:55:46Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Reliefcar D"
+  },
+  {
+    "name_ja": "ＹＸＺ－キャノン・ドラゴン",
+    "name_ja_romaji": "Wai Ekkusu Zetto - Kyanon Doragon",
+    "attribute": "LIGHT",
+    "types": "Machine / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 8,
+    "atk": 2800,
+    "def": 2600,
+    "maximum_atk": null,
+    "materials": "\"Y-Dragon Head\" + \"X-Head Cannon\" + \"Z-Metal Tank\"",
+    "condition": "This card can be Union Fusioned. This card's name becomes \"XYZ-Dragon Cannon\" while in the Extra Deck.",
+    "effect_types": null,
+    "requirement": "During your Main Phase that you Fusion Summoned this card.",
+    "effect": "Special Summon 1 Level 8 LIGHT Attribute Machine Type monster from your Graveyard face-up to your field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "YXZCannonDragon-RDAP03-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/AP03-JP004",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": "23435",
+    "archseries": [
+      "XYZ"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "YXZ-Cannon Dragon",
+    "_wiki_ts": "2026-07-09T22:23:20Z",
+    "card_schema_version": 2,
+    "raw_name_en": "YXZ-Cannon Dragon"
+  },
+  {
+    "name_ja": "奈落の落とし穴",
+    "name_ja_romaji": "Naraku no Otoshiana",
+    "attribute": null,
+    "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "When your opponent Normal or Special Summons a monster with 1500 or more ATK face-up.",
+    "effect": "Destroy 1 of those monsters, and place it on the bottom of the owner's Deck.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "BottomlessTrapHole-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP004",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": true,
+    "title": "Bottomless Trap Hole",
+    "_wiki_ts": "2026-07-05T18:52:35Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Bottomless Trap Hole (Rush Duel)"
+  },
+  {
+    "name_ja": "魔導戦士 ブレイカー",
+    "name_ja_romaji": "Madōsenshi Bureikā",
+    "attribute": "DARK",
+    "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1600,
+    "def": 1000,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": "Multi-Choice",
+    "requirement": "During the turn you Normal Summoned this card.",
+    "effect": "●Send the top card of your Deck to the Graveyard. Then, while this card is face-up, it gains 300 ATK. ●Destroy 1 Spell/Trap Card on the field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "BreakertheMagicalWarrior-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP002",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": true,
+    "title": "Breaker the Magical Warrior",
+    "_wiki_ts": "2026-07-05T18:52:26Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Breaker the Magical Warrior (Rush Duel)"
+  },
+  {
+    "name_ja": "混沌の黒魔術師",
+    "name_ja_romaji": "Konton no Kuromajutsushi",
+    "attribute": "DARK",
+    "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 8,
+    "atk": 2800,
+    "def": 2600,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During the turn you Normal Summoned this card.",
+    "effect": "Add 1 non-Legend Spell Card from your Graveyard to your hand. Then, monsters destroyed by battle with this card this turn are placed on the bottom of the owner's Deck instead of being sent to the Graveyard. This turn, you cannot activate the effect of \"Dark Magician of Chaos\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "DarkMagicianofChaos-RDLP01-JP-OP.png"
+      },
+      {
+        "artwork": 2,
+        "file": "DarkMagicianofChaos-RDLP01-JP-OP-AA.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP001",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Parallel Rare, Secret Rare, Full Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Dark Magician"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Dark Magician of Chaos",
+    "_wiki_ts": "2026-07-02T16:32:33Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Dark Magician of Chaos (Rush Duel)"
+  },
+  {
     "name_ja": "デュエルマーカー",
     "name_ja_romaji": "Dyueru Mākā",
     "attribute": null,
@@ -165172,8 +164493,412 @@
     "raw_name_en": "Duel Marker (Yuka Goha - Go Second)"
   },
   {
-    "name_ja": "正義の忍者ヱビス",
-    "name_ja_romaji": "Seigi no Ninja Webisu",
+    "name_ja": "聖なる魔術師",
+    "name_ja_romaji": "Seinto Majishan",
+    "attribute": "LIGHT",
+    "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 1,
+    "atk": 300,
+    "def": 400,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During your Main Phase this card was flipped face-up.",
+    "effect": "Add 1 non-Legend Spell Card from your Graveyard to your hand. This turn, you cannot activate the effect of \"Magician of Faith\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MagicianofFaith-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP006",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Magician of Faith",
+    "_wiki_ts": "2026-07-04T16:45:49Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Magician of Faith (Rush Duel)"
+  },
+  {
+    "name_ja": "マハー・ヴァイロ",
+    "name_ja_romaji": "Mahā Vairo",
+    "attribute": "LIGHT",
+    "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1600,
+    "def": 1400,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "This card gains ATK equal to [the number of Equip Cards equipped to this card] x 500.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MahaVailo-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP010",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Maha Vailo",
+    "_wiki_ts": "2026-06-23T07:17:33Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Maha Vailo (Rush Duel)"
+  },
+  {
+    "name_ja": "闇の仮面",
+    "name_ja_romaji": "Yami no Kamen",
+    "attribute": "DARK",
+    "types": "Fiend / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 2,
+    "atk": 900,
+    "def": 400,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During your Main Phase this card was flipped face-up.",
+    "effect": "Add 1 non-Legend Trap Card from your Graveyard to your hand. This turn, you cannot activate the effect of \"Mask of Darkness\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MaskofDarkness-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP007",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Mask of Darkness",
+    "_wiki_ts": "2026-07-04T16:47:12Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Mask of Darkness (Rush Duel)"
+  },
+  {
+    "name_ja": "サイクロン",
+    "name_ja_romaji": "Saikuron",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During a turn you have not activated \"Mystical Space Typhoon\".",
+    "effect": "Destroy 1 Spell/Trap Card on the field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MysticalSpaceTyphoon-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP012",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Mystical Space Typhoon",
+    "_wiki_ts": "2026-06-23T07:26:29Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Mystical Space Typhoon (Rush Duel)"
+  },
+  {
+    "name_ja": "漆黒の豹戦士パンサーウォリアー",
+    "name_ja_romaji": "Shikkoku no Hyōsenshi Pansā Woriā",
+    "attribute": "EARTH",
+    "types": "Beast-Warrior / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 2000,
+    "def": 1600,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "This card cannot attack during a turn its effect was not activated.",
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Send 1 other monster from your field to the Graveyard.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "PantherWarrior-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP024",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Panther Warrior",
+    "_wiki_ts": "2026-06-23T07:09:55Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Panther Warrior (Rush Duel)"
+  },
+  {
+    "name_ja": "ペンギン・ソルジャー",
+    "name_ja_romaji": "Pengin Sorujā",
+    "attribute": "WATER",
+    "types": "Aqua / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 2,
+    "atk": 800,
+    "def": 500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During your Main Phase this card was flipped face-up.",
+    "effect": "Return up to 2 face-up Level 8 or lower monsters from your opponent's field to the owner's hand. This turn, you cannot activate the effect of \"Penguin Soldier\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "PenguinSoldier-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP022",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Penguin Soldier",
+    "_wiki_ts": "2026-06-24T03:18:39Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Penguin Soldier (Rush Duel)"
+  },
+  {
+    "name_ja": "レスキューキャット",
+    "name_ja_romaji": "Resukyū Kyatto",
+    "attribute": "EARTH",
+    "types": "Beast / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 300,
+    "def": 100,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Send this face-up card from your field to the Graveyard.",
+    "effect": "Special Summon 2 Level 3 or lower Beast Type monsters from your Graveyard face-up to your field. Destroy the monsters Special Summoned by this effect during the End Phase of this turn. This turn, you cannot activate the effect of \"Rescue Cat\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "RescueCat-RDLP01-JP-OP.png"
+      },
+      {
+        "artwork": 2,
+        "file": "RescueCat-RDLP01-JP-OP-AA.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP008",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Rescue Cat",
+    "_wiki_ts": "2026-07-04T16:52:11Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Rescue Cat (Rush Duel)"
+  },
+  {
+    "name_ja": "機械軍曹",
+    "name_ja_romaji": "Kikai Gunsō",
+    "attribute": "FIRE",
+    "types": "Machine / Normal",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1600,
+    "def": 1800,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "''The Commander of Machine Types, he serves the Machine King. He is famous for the way he controls his troops.''",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "RoboticKnight-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP020",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Robotic Knight",
+    "_wiki_ts": "2026-06-23T07:35:04Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Robotic Knight (Rush Duel)"
+  },
+  {
+    "name_ja": "召喚僧サモンプリースト",
+    "name_ja_romaji": "Shōkansō Samon Purīsuto",
+    "attribute": "DARK",
+    "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 800,
+    "def": 1600,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Send 1 Spell Card from your hand to the Graveyard, and change this Attack Position card to face-up Defense Position.",
+    "effect": "Excavate the top 6 cards of your Deck. You can Special Summon 1 excavated Level 4 monster face-up to your field. Shuffle the other cards into the Deck. This turn, the monster Special Summoned by this effect cannot attack.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "SummonerMonk-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP009",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Summoner Monk",
+    "_wiki_ts": "2026-06-23T07:36:14Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Summoner Monk (Rush Duel)"
+  },
+  {
+    "name_ja": "洗脳－ブレインコントロール",
+    "name_ja_romaji": "Sennō - Burein Kontorōru",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Pay 800 LP.",
+    "effect": "Take control of 1 face-up Level 8 or lower monster on your opponent's field that is not in Maximum Mode until the End Phase (when control of that monster is returned, if there is no Monster Zone to return to, send it to the Graveyard). This turn, you cannot activate that monster's effect.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "BrainControl-RDLP01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP01-JP003",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": true,
+    "title": "Brain Control",
+    "_wiki_ts": "2026-06-23T23:34:08Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Brain Control (Rush Duel)"
+  },
+  {
+    "name_ja": "深竜の契約者",
+    "name_ja_romaji": "Shinryū no Keiyakusha",
     "attribute": "???",
     "types": "??? / ???",
     "card_type": null,
@@ -165191,7 +164916,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "EbisutheNinjaofJustice-OW.png"
+        "file": "ContractoroftheDeepDragon-OW.png"
       }
     ],
     "sets_jp": [
@@ -165204,14 +164929,14 @@
     "sets_kr": [],
     "database_id": null,
     "archseries": [
-      "Goe Goe"
+      "Star Protector"
     ],
     "password": null,
     "is_legend": false,
-    "title": "Ebisu the Ninja of Justice",
-    "_wiki_ts": "2026-07-02T03:36:40Z",
+    "title": "Contractor of the Deep Dragon",
+    "_wiki_ts": "2026-06-28T19:22:32Z",
     "card_schema_version": 2,
-    "raw_name_en": "Ebisu the Ninja of Justice"
+    "raw_name_en": "Contractor of the Deep Dragon"
   },
   {
     "name_ja": "アインソフ・リッター",
@@ -165295,6 +165020,59 @@
     "_wiki_ts": "2026-06-29T07:44:55Z",
     "card_schema_version": 2,
     "raw_name_en": "Encounter with the Sacred Tree"
+  },
+  {
+    "name_ja": "透幻郷の万緑",
+    "name_ja_romaji": "Tōgenkyō no Banryoku",
+    "name_ko": "투환향의 만록",
+    "name_translated": "Vegetation of Spectral Shangri-La",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Field",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "If the total Level of all face-up monsters on your field is 10 or higher.",
+    "effect": "While this card is face-up in the Field Zone, face-up non-EARTH Attribute monsters on the field lose 300 ATK/DEF.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "EvergreenofBlisstopia-RDSBD7-JP-C.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/SBD7-JP027",
+        "name": "Strongest Battle Deck Asana - Pride of the Heavy Cavalry Style",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [
+      {
+        "code": "RD/SBD7-KR027",
+        "name": "Strongest Battle Deck Asana - Pride of the Heavy Cavalry Style",
+        "rarity": "Common"
+      }
+    ],
+    "database_id": "16799",
+    "archseries": [
+      "Blisstopia"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Evergreen of Blisstopia",
+    "_wiki_ts": "2026-07-06T09:57:32Z",
+    "card_schema_version": 2,
+    "former_titles": [
+      "Vegetation of Blisstopia"
+    ],
+    "raw_name_en": "Evergreen of Blisstopia"
   },
   {
     "name_ja": "星竜の進化",
@@ -165546,48 +165324,6 @@
     "raw_name_en": "Goblin Attack Force (Rush Duel)"
   },
   {
-    "name_ja": "噂の忍者ゴエゴエ",
-    "name_ja_romaji": "Uwasa no Ninja Goegoe",
-    "attribute": "???",
-    "types": "??? / ???",
-    "card_type": null,
-    "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "GoeGoetheRumoredNinja-OW.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/KP26-JP0??",
-        "name": "Headliner of Reigning",
-        "rarity": ""
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [
-      "Goe Goe"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Goe Goe the Rumored Ninja",
-    "_wiki_ts": "2026-07-02T03:34:23Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Goe Goe the Rumored Ninja"
-  },
-  {
     "name_ja": "ハッピー・ラヴァー",
     "name_ja_romaji": "Happī Ravā",
     "attribute": "LIGHT",
@@ -165626,48 +165362,6 @@
     "_wiki_ts": "2026-06-23T20:52:21Z",
     "card_schema_version": 2,
     "raw_name_en": "Happy Lover (Rush Duel)"
-  },
-  {
-    "name_ja": "尖頭狩猟レムルカニング",
-    "name_ja_romaji": "Heddohantāzu Remurukaningu",
-    "attribute": "EARTH",
-    "types": "Beast-Warrior / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 4,
-    "atk": 1000,
-    "def": 900,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "None",
-    "effect": "Shuffle up to 2 cards from your opponent's Graveyard into the Deck. This turn, your opponent cannot activate Trap Cards during the Battle Phase.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "HeadhuntersLemurcunning-RD26S1-JP-OP.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/26S1-JP006",
-        "name": "Special Pack 2026 Vol.1",
-        "rarity": "Super Parallel Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": "23430",
-    "archseries": [
-      "Headhunters'"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Headhunters' Lemurcunning",
-    "_wiki_ts": "2026-07-09T23:38:58Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Headhunters' Lemurcunning"
   },
   {
     "name_ja": "健康ズハイ！",
@@ -165710,48 +165404,6 @@
     "_wiki_ts": "2026-06-28T20:23:30Z",
     "card_schema_version": 2,
     "raw_name_en": "Healthy's High!"
-  },
-  {
-    "name_ja": "お助け道具",
-    "name_ja_romaji": "Otasuke Aitemu",
-    "attribute": null,
-    "types": null,
-    "card_type": "???",
-    "property": "???",
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "HelpfulItems-OW.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/KP26-JP0??",
-        "name": "Headliner of Reigning",
-        "rarity": ""
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [
-      "Goe Goe"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Helpful Items",
-    "_wiki_ts": "2026-07-02T16:14:44Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Helpful Items"
   },
   {
     "name_ja": "ヘルシィ・オリビア",
@@ -165922,46 +165574,6 @@
     "raw_name_en": "The Imprisoned Dragon Princess"
   },
   {
-    "name_ja": "簡易融合",
-    "name_ja_romaji": "Insutanto Fyūjon",
-    "attribute": null,
-    "types": null,
-    "card_type": "Spell",
-    "property": "Normal",
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "During a turn you have not activated \"Instant Fusion\", pay 1000 LP.",
-    "effect": "Fusion Summon 1 Level 5 or lower Fusion Monster without using materials. The monster Special Summoned by this effect cannot attack, and is sent to the Graveyard during the End Phase of this turn.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "InstantFusion-RDAP03-JP-OP.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/AP03-JP053",
-        "name": "Advance Pack: Union Base",
-        "rarity": "Ultra Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": "23468",
-    "archseries": [],
-    "password": null,
-    "is_legend": true,
-    "title": "Instant Fusion",
-    "_wiki_ts": "2026-07-09T23:08:02Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Instant Fusion (Rush Duel)"
-  },
-  {
     "name_ja": "ジェリービーンズマン",
     "name_ja_romaji": "Jerībīnzuman",
     "attribute": "EARTH",
@@ -166000,86 +165612,6 @@
     "_wiki_ts": "2026-06-23T20:52:27Z",
     "card_schema_version": 2,
     "raw_name_en": "Jerry Beans Man (Rush Duel)"
-  },
-  {
-    "name_ja": "コイツ",
-    "name_ja_romaji": "Koitsu",
-    "attribute": "WATER",
-    "types": "Fairy / Union / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 10,
-    "atk": 200,
-    "def": 100,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "None",
-    "effect": "Equip this card to 1 face-up \"Aitsu\" on your field that is not equipped with a Union Monster Card as an Equip Spell Card with the following effect. ●The equipped monster gains 3000 ATK, and it inflicts piercing battle damage.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "Koitsu-RDAP03-JP-OP.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/AP03-JP043",
-        "name": "Advance Pack: Union Base",
-        "rarity": "Common"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": "23464",
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Koitsu",
-    "_wiki_ts": "2026-07-09T22:59:59Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Koitsu (Rush Duel)"
-  },
-  {
-    "name_ja": "比翼レンリン",
-    "name_ja_romaji": "Hiyoku Renrin",
-    "attribute": "DARK",
-    "types": "Dragon / Union / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 3,
-    "atk": 1500,
-    "def": 0,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "None",
-    "effect": "Equip this card to 1 face-up Level 8 or lower monster on your field as an Equip Spell Card with the following effect. ●The equipped monster loses 1000 ATK, but can attack twice per turn.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "LengLing-RD26S1-JP-OP.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/26S1-JP005",
-        "name": "Special Pack 2026 Vol.1",
-        "rarity": "Super Parallel Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": "23429",
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Leng Ling",
-    "_wiki_ts": "2026-07-10T00:04:33Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Leng Ling (Rush Duel)"
   },
   {
     "name_ja": "マッド・リローダー",
@@ -166164,126 +165696,6 @@
     "raw_name_en": "Magical Weapon Tract"
   },
   {
-    "name_ja": "聖なる魔術師",
-    "name_ja_romaji": "Seinto Majishan",
-    "attribute": "LIGHT",
-    "types": "Spellcaster / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 1,
-    "atk": 300,
-    "def": 400,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "During your Main Phase this card was flipped face-up.",
-    "effect": "Add 1 non-Legend Spell Card from your Graveyard to your hand. This turn, you cannot activate the effect of \"Magician of Faith\".",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "MagicianofFaith-RDLP01-JP-OP.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/LP01-JP006",
-        "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Magician of Faith",
-    "_wiki_ts": "2026-07-04T16:45:49Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Magician of Faith (Rush Duel)"
-  },
-  {
-    "name_ja": "マハー・ヴァイロ",
-    "name_ja_romaji": "Mahā Vairo",
-    "attribute": "LIGHT",
-    "types": "Spellcaster / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 4,
-    "atk": 1600,
-    "def": 1400,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": "Continuous",
-    "requirement": "None",
-    "effect": "This card gains ATK equal to [the number of Equip Cards equipped to this card] x 500.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "MahaVailo-RDLP01-JP-OP.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/LP01-JP010",
-        "name": "Limited Pack Remastered Edition",
-        "rarity": "Over Rush Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Maha Vailo",
-    "_wiki_ts": "2026-06-23T07:17:33Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Maha Vailo (Rush Duel)"
-  },
-  {
-    "name_ja": "闇の仮面",
-    "name_ja_romaji": "Yami no Kamen",
-    "attribute": "DARK",
-    "types": "Fiend / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 2,
-    "atk": 900,
-    "def": 400,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "During your Main Phase this card was flipped face-up.",
-    "effect": "Add 1 non-Legend Trap Card from your Graveyard to your hand. This turn, you cannot activate the effect of \"Mask of Darkness\".",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "MaskofDarkness-RDLP01-JP-OP.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/LP01-JP007",
-        "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Mask of Darkness",
-    "_wiki_ts": "2026-07-04T16:47:12Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Mask of Darkness (Rush Duel)"
-  },
-  {
     "name_ja": "謎の飛行植物は実在した！！",
     "name_ja_romaji": "Nazo no Hikōshokubutsu ha Jitsuzai Shita!!",
     "attribute": null,
@@ -166326,46 +165738,6 @@
     "raw_name_en": "The Mysterious Flying Plants Are Real"
   },
   {
-    "name_ja": "サイクロン",
-    "name_ja_romaji": "Saikuron",
-    "attribute": null,
-    "types": null,
-    "card_type": "Spell",
-    "property": "Normal",
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "During a turn you have not activated \"Mystical Space Typhoon\".",
-    "effect": "Destroy 1 Spell/Trap Card on the field.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "MysticalSpaceTyphoon-RDLP01-JP-OP.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/LP01-JP012",
-        "name": "Limited Pack Remastered Edition",
-        "rarity": "Over Rush Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Mystical Space Typhoon",
-    "_wiki_ts": "2026-06-23T07:26:29Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Mystical Space Typhoon (Rush Duel)"
-  },
-  {
     "name_ja": "ワン・フォー・ワン",
     "name_ja_romaji": "Wan Fō Wan",
     "attribute": null,
@@ -166404,86 +165776,6 @@
     "_wiki_ts": "2026-06-24T00:05:27Z",
     "card_schema_version": 2,
     "raw_name_en": "One for One (Rush Duel)"
-  },
-  {
-    "name_ja": "漆黒の豹戦士パンサーウォリアー",
-    "name_ja_romaji": "Shikkoku no Hyōsenshi Pansā Woriā",
-    "attribute": "EARTH",
-    "types": "Beast-Warrior / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 4,
-    "atk": 2000,
-    "def": 1600,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": "This card cannot attack during a turn its effect was not activated.",
-    "effect_types": null,
-    "requirement": "None",
-    "effect": "Send 1 other monster from your field to the Graveyard.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "PantherWarrior-RDLP01-JP-OP.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/LP01-JP024",
-        "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Panther Warrior",
-    "_wiki_ts": "2026-06-23T07:09:55Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Panther Warrior (Rush Duel)"
-  },
-  {
-    "name_ja": "ペンギン・ソルジャー",
-    "name_ja_romaji": "Pengin Sorujā",
-    "attribute": "WATER",
-    "types": "Aqua / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 2,
-    "atk": 800,
-    "def": 500,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "During your Main Phase this card was flipped face-up.",
-    "effect": "Return up to 2 face-up Level 8 or lower monsters from your opponent's field to the owner's hand. This turn, you cannot activate the effect of \"Penguin Soldier\".",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "PenguinSoldier-RDLP01-JP-OP.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/LP01-JP022",
-        "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Penguin Soldier",
-    "_wiki_ts": "2026-06-24T03:18:39Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Penguin Soldier (Rush Duel)"
   },
   {
     "name_ja": "プリアージュの星集め",
@@ -166568,173 +165860,6 @@
     "_wiki_ts": "2026-07-09T22:37:59Z",
     "card_schema_version": 2,
     "raw_name_en": "Product Union"
-  },
-  {
-    "name_ja": "絶超デモンスダイブ",
-    "name_ja_romaji": "Zecchō Demonsu Daibu",
-    "name_translated": "Ultimate Demon's Dive",
-    "attribute": null,
-    "types": null,
-    "card_type": "???",
-    "property": "???",
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "RebelsDive-OW.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/KP26-JP0??",
-        "name": "Headliner of Reigning",
-        "rarity": ""
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Rebel's Dive",
-    "_wiki_ts": "2026-07-02T16:18:50Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Rebel's Dive"
-  },
-  {
-    "name_ja": "リリーフカー・Ｄ",
-    "name_ja_romaji": "Rirīfukā Dī",
-    "attribute": "FIRE",
-    "types": "Machine / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 2,
-    "atk": 800,
-    "def": 400,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "During the turn you Normal Summoned this card, send all monsters from your field to the Graveyard.",
-    "effect": "Draw 1 card. Then, if you have \"Feverous Spirit Stadium\" face-up on your field, you can draw 1 additional card. This turn, you cannot activate the effect of \"Reliefcar D\".",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "ReliefcarD-RDAP03-JP-OP.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/AP03-JP034",
-        "name": "Advance Pack: Union Base",
-        "rarity": "Ultra Rare, Secret Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": "23460",
-    "archseries": [
-      "Baseball"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Reliefcar D",
-    "_wiki_ts": "2026-07-09T22:55:46Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Reliefcar D"
-  },
-  {
-    "name_ja": "レスキューキャット",
-    "name_ja_romaji": "Resukyū Kyatto",
-    "attribute": "EARTH",
-    "types": "Beast / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 4,
-    "atk": 300,
-    "def": 100,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "Send this face-up card from your field to the Graveyard.",
-    "effect": "Special Summon 2 Level 3 or lower Beast Type monsters from your Graveyard face-up to your field. Destroy the monsters Special Summoned by this effect during the End Phase of this turn. This turn, you cannot activate the effect of \"Rescue Cat\".",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "RescueCat-RDLP01-JP-OP.png"
-      },
-      {
-        "artwork": 2,
-        "file": "RescueCat-RDLP01-JP-OP-AA.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/LP01-JP008",
-        "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Rescue Cat",
-    "_wiki_ts": "2026-07-04T16:52:11Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Rescue Cat (Rush Duel)"
-  },
-  {
-    "name_ja": "機械軍曹",
-    "name_ja_romaji": "Kikai Gunsō",
-    "attribute": "FIRE",
-    "types": "Machine / Normal",
-    "card_type": null,
-    "property": null,
-    "level": 4,
-    "atk": 1600,
-    "def": 1800,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": null,
-    "effect": "''The Commander of Machine Types, he serves the Machine King. He is famous for the way he controls his troops.''",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "RoboticKnight-RDLP01-JP-OP.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/LP01-JP020",
-        "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Robotic Knight",
-    "_wiki_ts": "2026-06-23T07:35:04Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Robotic Knight (Rush Duel)"
   },
   {
     "name_ja": "ロケット戦士",
@@ -166944,48 +166069,6 @@
     "_wiki_ts": "2026-06-23T20:52:23Z",
     "card_schema_version": 2,
     "raw_name_en": "Saggi the Dark Clown (Rush Duel)"
-  },
-  {
-    "name_ja": "からくり忍者ＳＡＳＵＫＥ",
-    "name_ja_romaji": "Karakuri Ninja Sasuke",
-    "attribute": "???",
-    "types": "??? / ???",
-    "card_type": null,
-    "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "SasuketheClockworkNinja-OW.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/KP26-JP0??",
-        "name": "Headliner of Reigning",
-        "rarity": ""
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [
-      "Goe Goe"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Sasuke the Clockwork Ninja",
-    "_wiki_ts": "2026-07-02T12:30:31Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Sasuke the Clockwork Ninja"
   },
   {
     "name_ja": "シールドクラッシュ",
@@ -167237,46 +166320,6 @@
     "raw_name_en": "Star Sanctuary of the Beginning"
   },
   {
-    "name_ja": "召喚僧サモンプリースト",
-    "name_ja_romaji": "Shōkansō Samon Purīsuto",
-    "attribute": "DARK",
-    "types": "Spellcaster / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 4,
-    "atk": 800,
-    "def": 1600,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "Send 1 Spell Card from your hand to the Graveyard, and change this Attack Position card to face-up Defense Position.",
-    "effect": "Excavate the top 6 cards of your Deck. You can Special Summon 1 excavated Level 4 monster face-up to your field. Shuffle the other cards into the Deck. This turn, the monster Special Summoned by this effect cannot attack.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "SummonerMonk-RDLP01-JP-OP.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/LP01-JP009",
-        "name": "Limited Pack Remastered Edition",
-        "rarity": "Over Rush Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Summoner Monk",
-    "_wiki_ts": "2026-06-23T07:36:14Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Summoner Monk (Rush Duel)"
-  },
-  {
     "name_ja": "超融合",
     "name_ja_romaji": "Chōyūgō",
     "attribute": null,
@@ -167440,48 +166483,6 @@
     "raw_name_en": "Swordstalker (Rush Duel)"
   },
   {
-    "name_ja": "ひとやすみ",
-    "name_ja_romaji": "Hito Yasumi",
-    "attribute": null,
-    "types": null,
-    "card_type": "???",
-    "property": "???",
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "TakeAShortBreak-OW.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/KP26-JP0??",
-        "name": "Headliner of Reigning",
-        "rarity": ""
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [
-      "Goe Goe"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Take A Short Break",
-    "_wiki_ts": "2026-07-02T16:15:48Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Take A Short Break"
-  },
-  {
     "name_ja": "健康あってのもの投げ！",
     "name_ja_romaji": "Kenkō Atte no Mono Nage!",
     "attribute": null,
@@ -167566,6 +166567,657 @@
     "raw_name_en": "UMP Sky Folvia"
   },
   {
+    "name_ja": "アトラクト・ゴーレム",
+    "name_ja_romaji": "Atorakuto Gōremu",
+    "name_ko": "어트랙트 골렘",
+    "attribute": "LIGHT",
+    "types": "Rock / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1400,
+    "def": 500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Reveal 1 LIGHT Attribute Normal Monster with 500 DEF in your hand the turn you Normal Summoned this card.",
+    "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can inflict 500 damage to your opponent.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "AttractGolem-RDLGP2-JP-C.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LGP2-JP026",
+        "name": "Neo Legend Awakening Pack",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [
+      {
+        "code": "RD/LGP2-KR026",
+        "name": "Neo Legend Awakening Pack",
+        "rarity": "Common"
+      }
+    ],
+    "database_id": "20855",
+    "archseries": [
+      "Metarion"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Attract Golem",
+    "_wiki_ts": "2026-07-01T21:19:22Z",
+    "card_schema_version": 2,
+    "former_titles": [
+      "Attraction Golem"
+    ],
+    "raw_name_en": "Attract Golem"
+  },
+  {
+    "name_ja": "豊沃の蟠竜",
+    "name_ja_romaji": "Hōyoku no Banryū",
+    "name_ko": "풍옥의 반룡",
+    "name_translated": "Coil Dragon of Fertility",
+    "attribute": "EARTH",
+    "types": "Wyrm / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1000,
+    "def": 400,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Shuffle 1 Field Spell Card from your Graveyard into the Deck.",
+    "effect": "Inflict 600 damage to your opponent.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "CoilDragonoftheFertileLand-RDSBD7-JP-C.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP05-JP037",
+        "name": "Deck Mod Pack: Dynamic Eternal Live!!",
+        "rarity": "Common"
+      },
+      {
+        "code": "RD/SBD7-JP012",
+        "name": "Strongest Battle Deck Asana - Pride of the Heavy Cavalry Style",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [
+      {
+        "code": "RD/KP05-KR037",
+        "name": "Deck Mod Pack: Dynamic Eternal Live!!",
+        "rarity": "Common"
+      },
+      {
+        "code": "RD/SBD7-KR012",
+        "name": "Strongest Battle Deck Asana - Pride of the Heavy Cavalry Style",
+        "rarity": "Common"
+      }
+    ],
+    "database_id": "16343",
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Coil Dragon of the Fertile Land",
+    "_wiki_ts": "2026-07-01T21:16:20Z",
+    "card_schema_version": 2,
+    "former_titles": [
+      "Coiled Dragon of Fertility"
+    ],
+    "raw_name_en": "Coil Dragon of the Fertile Land"
+  },
+  {
+    "name_ja": "竜帝家臣ドラーヘ",
+    "name_ja_romaji": "Ryūteikashin Dorāhe",
+    "name_ko": "룡 제왕가신 드라헤",
+    "name_translated": "Drache the Dragon Monarch's Vassal",
+    "attribute": "WATER",
+    "types": "Wyrm / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 3,
+    "atk": 800,
+    "def": 1000,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "If you have no cards in your Extra Deck, send the top card of your Deck to the Graveyard.",
+    "effect": "Increase this card's Level by 2 until the end of this turn. If you haven't Special Summoned a monster this turn, you can also add 1 \"Lindwurm the Mega Monarch\" or \"Lindwurm the Wyrm Monarch\" from your Graveyard to your hand.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "DrahetheWyrmVassal-RDSD0F-JP-C.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/SD0F-JP004",
+        "name": "Structure Deck: Triumphant Return of the Monarchs",
+        "rarity": "Common"
+      },
+      {
+        "code": "RD/SD0F-JPS04",
+        "name": "Structure Deck: Triumphant Return of the Monarchs",
+        "rarity": "Super Rare"
+      }
+    ],
+    "sets_kr": [
+      {
+        "code": "RD/SD0F-KR004",
+        "name": "Structure Deck: Triumphant Return of the Monarchs",
+        "rarity": "Common"
+      },
+      {
+        "code": "RD/SD0F-KRS04",
+        "name": "Structure Deck: Triumphant Return of the Monarchs",
+        "rarity": "Super Rare"
+      }
+    ],
+    "database_id": "22095",
+    "archseries": [
+      "Monarch"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Drahe the Wyrm Vassal",
+    "_wiki_ts": "2026-07-02T07:50:04Z",
+    "card_schema_version": 2,
+    "former_titles": [
+      "Drache the Dragon Vassal"
+    ],
+    "raw_name_en": "Drahe the Wyrm Vassal"
+  },
+  {
+    "name_ja": "正義の忍者ヱビス",
+    "name_ja_romaji": "Seigi no Ninja Webisu",
+    "attribute": "???",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "EbisutheNinjaofJustice-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Goe Goe"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Ebisu the Ninja of Justice",
+    "_wiki_ts": "2026-07-02T03:36:40Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Ebisu the Ninja of Justice"
+  },
+  {
+    "name_ja": "火麺特忍ニクマシゴックブート",
+    "name_ja_romaji": "Kamen Tokunin Nikumashi Gokkubūto",
+    "name_ko": "화면특인 고기만을 고크부트",
+    "name_translated": "Nikumashi Gockboot the Masked Fiery Noodle Special Ninja",
+    "attribute": "FIRE",
+    "types": "Pyro / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 9,
+    "atk": 2900,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": "\"Extra Spice the Elite Noodle Ninja\" + \"Flavor Inspector\"",
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During your Main Phase that you Special Summoned this card.",
+    "effect": "Inflict 1000 damage to your opponent. Draw 1 card. If you draw by this effect, you can also Set 1 \"The Noodle Art of Savory\" and/or 1 \"The Noodle Art of Saucery\" from your Graveyard to your Spell & Trap Zone.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ExtraMeattheSpecialNoodleNinja-RDKP07-JP-R.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP07-JP038",
+        "name": "Deck Mod Pack: Chaotic Omega Rising!!",
+        "rarity": "Rare"
+      }
+    ],
+    "sets_kr": [
+      {
+        "code": "RD/KP07-KR038",
+        "name": "Deck Mod Pack: Chaotic Omega Rising!!",
+        "rarity": "Rare"
+      }
+    ],
+    "database_id": "17005",
+    "archseries": [
+      "Noodle Ninja"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Extra Meat the Special Noodle Ninja",
+    "_wiki_ts": "2026-07-01T08:21:43Z",
+    "card_schema_version": 2,
+    "former_titles": [
+      "Meat Spice the Special Noodle Ninja"
+    ],
+    "raw_name_en": "Extra Meat the Special Noodle Ninja"
+  },
+  {
+    "name_ja": "噂の忍者ゴエゴエ",
+    "name_ja_romaji": "Uwasa no Ninja Goegoe",
+    "attribute": "???",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "GoeGoetheRumoredNinja-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Goe Goe"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Goe Goe the Rumored Ninja",
+    "_wiki_ts": "2026-07-02T03:34:23Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Goe Goe the Rumored Ninja"
+  },
+  {
+    "name_ja": "お助け道具",
+    "name_ja_romaji": "Otasuke Aitemu",
+    "attribute": null,
+    "types": null,
+    "card_type": "???",
+    "property": "???",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "HelpfulItems-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Goe Goe"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Helpful Items",
+    "_wiki_ts": "2026-07-02T16:14:44Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Helpful Items"
+  },
+  {
+    "name_ja": "純真のファドロニール",
+    "name_ja_romaji": "Junshin no Fadoronīru",
+    "name_ko": "순진의 파드로니르",
+    "name_translated": "Innocent Fadrnir",
+    "attribute": "LIGHT",
+    "types": "Dragon / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 3,
+    "atk": 700,
+    "def": 100,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "The turn you Normal Summoned this card, if you have not drawn a card during the Main Phase.",
+    "effect": "Both players draw 1 card.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "InnocentFadrawl-RDKP17-JP-UR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "InnocentFadrawl-RD5TH1-JP-UPR.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP17-JP037",
+        "name": "Burst Rex of Awakening",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/5TH1-JP004",
+        "name": "5th Anniversary Pack",
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [
+      {
+        "code": "RD/KP17-KR037",
+        "name": "Burst Rex of Awakening",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/5TH1-KR004",
+        "name": "5th Anniversary Pack",
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
+      }
+    ],
+    "database_id": "20334",
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Innocent Fadrawl",
+    "_wiki_ts": "2026-07-01T12:23:13Z",
+    "card_schema_version": 2,
+    "former_titles": [
+      "Fadronir the Pure"
+    ],
+    "raw_name_en": "Innocent Fadrawl"
+  },
+  {
+    "name_ja": "幻竜帝リンドルム",
+    "name_ja_romaji": "Genryūtei Rindorumu",
+    "name_ko": "환룡 제왕 린드룸",
+    "name_translated": "Lindrm the Phantom Dragon Monarch",
+    "attribute": "WATER",
+    "types": "Wyrm / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 8,
+    "atk": 2400,
+    "def": 1000,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "You can Tribute Summon this card in Attack Position by Tributing 1 face-up Level 5 or higher monster with 1000 DEF.",
+    "effect_types": null,
+    "requirement": "You have no cards in your Extra Deck during the turn you Tribute Summoned this card in Attack Position.",
+    "effect": "Your opponent chooses 2 cards on their field, and you shuffle 1 of them into the owner's Deck.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LindwurmtheMegaMonarch-RDSD0F-JP-C.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/SD0F-JP002",
+        "name": "Structure Deck: Triumphant Return of the Monarchs",
+        "rarity": "Common"
+      },
+      {
+        "code": "RD/SD0F-JPS02",
+        "name": "Structure Deck: Triumphant Return of the Monarchs",
+        "rarity": "Super Rare"
+      }
+    ],
+    "sets_kr": [
+      {
+        "code": "RD/SD0F-KR002",
+        "name": "Structure Deck: Triumphant Return of the Monarchs",
+        "rarity": "Common"
+      },
+      {
+        "code": "RD/SD0F-KRS02",
+        "name": "Structure Deck: Triumphant Return of the Monarchs",
+        "rarity": "Super Rare"
+      }
+    ],
+    "database_id": "22093",
+    "archseries": [
+      "Monarch"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Lindwurm the Mega Monarch",
+    "_wiki_ts": "2026-07-02T12:26:29Z",
+    "card_schema_version": 2,
+    "former_titles": [
+      "Lindorm the Mega Monarch"
+    ],
+    "raw_name_en": "Lindwurm the Mega Monarch"
+  },
+  {
+    "name_ja": "ファンタズム・マスクマスター",
+    "name_ja_romaji": "Fantazumu Masukumasutā",
+    "name_ko": "판타즘 마스크마스터",
+    "attribute": "LIGHT",
+    "types": "Machine / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 6,
+    "atk": 1800,
+    "def": 500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Reveal 1 Level 9 Cyborg Type Fusion Monster in your Extra Deck, and declare 1 monster that is mentioned on that monster as material.",
+    "effect": "This turn, this card's name becomes the monster's card name that was declared to meet the requirement.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "PhantasmMaskmaster-RDLGP2-JP-SR.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LGP2-JP028",
+        "name": "Neo Legend Awakening Pack",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
+    "sets_kr": [
+      {
+        "code": "RD/LGP2-KR028",
+        "name": "Neo Legend Awakening Pack",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
+    "database_id": "20857",
+    "archseries": [
+      "Metarion"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Phantasm Maskmaster",
+    "_wiki_ts": "2026-07-01T10:24:40Z",
+    "card_schema_version": 2,
+    "former_titles": [
+      "Phantasm Mask Master"
+    ],
+    "raw_name_en": "Phantasm Maskmaster"
+  },
+  {
+    "name_ja": "幻の三角スケール",
+    "name_ja_romaji": "Maboroshi no Sankaku Sukēru",
+    "name_ko": "환상의 삼각 스케일",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Send 1 Wyrm Type monster from your hand to the Graveyard.",
+    "effect": "Draw 2 cards. You cannot activate non-Wyrm Type monster effects for the rest of this turn.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "PhantasmalTriangularScale-RDKP18-JP-SR.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP18-JP054",
+        "name": "Dark Matter of Phantoms",
+        "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/26S1-JP014",
+        "name": "Special Pack 2026 Vol.1",
+        "rarity": "Super Parallel Rare"
+      }
+    ],
+    "sets_kr": [
+      {
+        "code": "RD/KP18-KR054",
+        "name": "Dark Matter of Phantoms",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
+    "database_id": "20663",
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Phantasmal Triangular Scale",
+    "_wiki_ts": "2026-07-08T16:45:17Z",
+    "card_schema_version": 2,
+    "former_titles": [
+      "Legendary Scale Ruler"
+    ],
+    "raw_name_en": "Phantasmal Triangular Scale"
+  },
+  {
+    "name_ja": "はじまりの星",
+    "name_ja_romaji": "Hajimari no Hoshi",
+    "name_ko": "시작의 별",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Pay 500 LP.",
+    "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can add 1 Level 5 or lower Normal Monster, \"Fusion\", or \"Polymerization\" from your Graveyard to your hand.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "StarofBeginning-RDLGP2-JP-UR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "StarofBeginning-RDAP03-JP-OP-AA.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LGP2-JP074",
+        "name": "Neo Legend Awakening Pack",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/AP03-JP002",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Super Rare, Full Over Rush Rare"
+      }
+    ],
+    "sets_kr": [
+      {
+        "code": "RD/LGP2-KR074",
+        "name": "Neo Legend Awakening Pack",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
+    "database_id": "20878",
+    "archseries": [
+      "Pliage"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Star of Beginning",
+    "_wiki_ts": "2026-07-02T07:27:25Z",
+    "card_schema_version": 2,
+    "former_titles": [
+      "Star of the Beginning"
+    ],
+    "raw_name_en": "Star of Beginning"
+  },
+  {
     "name_ja": "秘密特捜人魚ヤエ",
     "name_ja_romaji": "Himitsu Tokusō Ningyo Yae",
     "attribute": "???",
@@ -167606,6 +167258,235 @@
     "_wiki_ts": "2026-07-02T03:42:27Z",
     "card_schema_version": 2,
     "raw_name_en": "Yae the Secret Special Investigations Mermaid"
+  },
+  {
+    "name_ja": "尖頭狩猟レムルカニング",
+    "name_ja_romaji": "Heddohantāzu Remurukaningu",
+    "attribute": "EARTH",
+    "types": "Beast-Warrior / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1000,
+    "def": 900,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Shuffle up to 2 cards from your opponent's Graveyard into the Deck. This turn, your opponent cannot activate Trap Cards during the Battle Phase.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "HeadhuntersLemurcunning-RD26S1-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/26S1-JP006",
+        "name": "Special Pack 2026 Vol.1",
+        "rarity": "Super Parallel Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": "23430",
+    "archseries": [
+      "Headhunters'"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Headhunters' Lemurcunning",
+    "_wiki_ts": "2026-07-09T23:38:58Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Headhunters' Lemurcunning"
+  },
+  {
+    "name_ja": "比翼レンリン",
+    "name_ja_romaji": "Hiyoku Renrin",
+    "attribute": "DARK",
+    "types": "Dragon / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 3,
+    "atk": 1500,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Equip this card to 1 face-up Level 8 or lower monster on your field as an Equip Spell Card with the following effect. ●The equipped monster loses 1000 ATK, but can attack twice per turn.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LengLing-RD26S1-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/26S1-JP005",
+        "name": "Special Pack 2026 Vol.1",
+        "rarity": "Super Parallel Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": "23429",
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Leng Ling",
+    "_wiki_ts": "2026-07-10T00:04:33Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Leng Ling (Rush Duel)"
+  },
+  {
+    "name_ja": "竜帝リンドルム",
+    "name_ja_romaji": "Ryūtei Rindorumu",
+    "name_ko": "룡 제왕 린드룸",
+    "name_translated": "Lindrm the Dragon Monarch",
+    "attribute": "WATER",
+    "types": "Wyrm / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 5,
+    "atk": 2000,
+    "def": 1000,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "You have no cards in your Extra Deck during the turn you Tribute Summoned this card in Attack Position.",
+    "effect": "Shuffle up to 2 cards from your opponent's Graveyard into the Deck. Then, you can make 1 face-up Effect Monster on your opponent's field lose 800 ATK/DEF until the end of this turn.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LindwurmtheWyrmMonarch-RDSD0F-JP-C.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/SD0F-JP003",
+        "name": "Structure Deck: Triumphant Return of the Monarchs",
+        "rarity": "Common"
+      },
+      {
+        "code": "RD/SD0F-JPS03",
+        "name": "Structure Deck: Triumphant Return of the Monarchs",
+        "rarity": "Super Rare"
+      }
+    ],
+    "sets_kr": [
+      {
+        "code": "RD/SD0F-KR003",
+        "name": "Structure Deck: Triumphant Return of the Monarchs",
+        "rarity": "Common"
+      },
+      {
+        "code": "RD/SD0F-KRS03",
+        "name": "Structure Deck: Triumphant Return of the Monarchs",
+        "rarity": "Super Rare"
+      }
+    ],
+    "database_id": "22094",
+    "archseries": [
+      "Monarch"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Lindwurm the Wyrm Monarch",
+    "_wiki_ts": "2026-07-02T12:26:03Z",
+    "card_schema_version": 2,
+    "former_titles": [
+      "Lindorm the Dragon Monarch"
+    ],
+    "raw_name_en": "Lindwurm the Wyrm Monarch"
+  },
+  {
+    "name_ja": "からくり忍者ＳＡＳＵＫＥ",
+    "name_ja_romaji": "Karakuri Ninja Sasuke",
+    "attribute": "???",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "SasuketheClockworkNinja-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Goe Goe"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Sasuke the Clockwork Ninja",
+    "_wiki_ts": "2026-07-02T12:30:31Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Sasuke the Clockwork Ninja"
+  },
+  {
+    "name_ja": "ひとやすみ",
+    "name_ja_romaji": "Hito Yasumi",
+    "attribute": null,
+    "types": null,
+    "card_type": "???",
+    "property": "???",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "TakeAShortBreak-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Goe Goe"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Take A Short Break",
+    "_wiki_ts": "2026-07-02T16:15:48Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Take A Short Break"
   },
   {
     "name_ja": "特捜忍者ヤエ",
@@ -167650,45 +167531,164 @@
     "raw_name_en": "Yae the Special Investigations Ninja"
   },
   {
-    "name_ja": "ＹＸＺ－キャノン・ドラゴン",
-    "name_ja_romaji": "Wai Ekkusu Zetto - Kyanon Doragon",
-    "attribute": "LIGHT",
-    "types": "Machine / Fusion / Effect",
+    "name_ja": "創争獣レヴィアトリトン",
+    "name_ja_romaji": "Sōsōjū Reviatoriton",
+    "attribute": "DARK",
+    "types": "Fiend / Effect",
     "card_type": null,
     "property": null,
-    "level": 8,
-    "atk": 2800,
-    "def": 2600,
+    "level": 3,
+    "atk": 1200,
+    "def": 1200,
     "maximum_atk": null,
-    "materials": "\"Y-Dragon Head\" + \"X-Head Cannon\" + \"Z-Metal Tank\"",
-    "condition": "This card can be Union Fusioned. This card's name becomes \"XYZ-Dragon Cannon\" while in the Extra Deck.",
+    "materials": null,
+    "condition": null,
     "effect_types": null,
-    "requirement": "During your Main Phase that you Fusion Summoned this card.",
-    "effect": "Special Summon 1 Level 8 LIGHT Attribute Machine Type monster from your Graveyard face-up to your field.",
+    "requirement": "TBD",
+    "effect": "TBD",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "YXZCannonDragon-RDAP03-JP-OP.png"
+        "file": "ChaoskampfBeastLeviatriton-RDSJMP-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/AP03-JP004",
-        "name": "Advance Pack: Union Base",
-        "rarity": "Ultra Rare, Over Rush Rare"
+        "code": "RD/SJMP-JP066",
+        "name": "Saikyō Jump September 2026 promotional card",
+        "rarity": "Normal Parallel Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": "23435",
-    "archseries": [
-      "XYZ"
-    ],
+    "database_id": null,
+    "archseries": [],
     "password": null,
     "is_legend": false,
-    "title": "YXZ-Cannon Dragon",
-    "_wiki_ts": "2026-07-09T22:23:20Z",
+    "title": "Chaoskampf Beast Leviatriton",
+    "_wiki_ts": "2026-07-03T11:56:14Z",
     "card_schema_version": 2,
-    "raw_name_en": "YXZ-Cannon Dragon"
+    "raw_name_en": "Chaoskampf Beast Leviatriton"
+  },
+  {
+    "name_ja": "分霊樹コアドラシル",
+    "name_ja_romaji": "Bunreiju Koadorashiru",
+    "attribute": "???",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "CoredrasiltheSpiritTreeBunrei-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Coredrasil the Spirit Tree Bunrei",
+    "_wiki_ts": "2026-07-02T11:38:55Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Coredrasil the Spirit Tree Bunrei"
+  },
+  {
+    "name_ja": "簡易融合",
+    "name_ja_romaji": "Insutanto Fyūjon",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During a turn you have not activated \"Instant Fusion\", pay 1000 LP.",
+    "effect": "Fusion Summon 1 Level 5 or lower Fusion Monster without using materials. The monster Special Summoned by this effect cannot attack, and is sent to the Graveyard during the End Phase of this turn.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "InstantFusion-RDAP03-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/AP03-JP053",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": "23468",
+    "archseries": [],
+    "password": null,
+    "is_legend": true,
+    "title": "Instant Fusion",
+    "_wiki_ts": "2026-07-09T23:08:02Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Instant Fusion (Rush Duel)"
+  },
+  {
+    "name_ja": "絶超デモンスダイブ",
+    "name_ja_romaji": "Zecchō Demonsu Daibu",
+    "name_translated": "Ultimate Demon's Dive",
+    "attribute": null,
+    "types": null,
+    "card_type": "???",
+    "property": "???",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "RebelsDive-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP0??",
+        "name": "Headliner of Reigning",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Rebel's Dive",
+    "_wiki_ts": "2026-07-02T16:18:50Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Rebel's Dive"
   }
 ]
