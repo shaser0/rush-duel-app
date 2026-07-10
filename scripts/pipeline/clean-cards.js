@@ -27,7 +27,12 @@ const cleaned = raw.map(card => ({
   ...card,
   raw_name_en:  card.name_en || card.title,
   title:        stripParens(card.title),
-  name_en:      stripParens(card.name_en || card.title),
+  // Keep name_en null when the wiki has no distinct English name. It's a
+  // sparse field (~60 cards, Duel Links crossover) carrying the canonical
+  // formatting — [L]/[R] and #2 where the page title only has (L)/(R)/2 —
+  // which is why cname() and the L/R badge prefer it. Folding the title in
+  // here would just mask which cards actually have that native name.
+  name_en:      card.name_en ? stripParens(card.name_en) : null,
   name_ja:      stripRuby(card.name_ja),
   name_ko:      card.name_ko ? stripWikiMarkup(stripRuby(card.name_ko)) : null,
   name_fr:      stripWikiMarkup(card.name_fr),
