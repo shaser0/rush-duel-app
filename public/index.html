@@ -2587,7 +2587,13 @@ function showDbpDetail(card){
     trEl.textContent=card.name_translated; trEl.style.display='';
   }
 
-  panel.querySelector('#dbp-type').textContent=card.types||(card.card_type?[card.card_type,card.property].filter(Boolean).join(' / '):'')||'';
+  // Monsters: type/race line duplicates the tag pills, hide it. Spells/Traps: keep.
+  const dbpTypeEl=panel.querySelector('#dbp-type');
+  if(!isMon && card.card_type){
+    dbpTypeEl.textContent=[card.card_type,card.property].filter(Boolean).join(' / ');
+  } else {
+    dbpTypeEl.style.display='none';
+  }
 
   panel.querySelector('#dbp-tags').innerHTML=cardMetaTagsHtml(card);
   panel.querySelector('#dbp-numstats').innerHTML=cardStatHtml(card);
@@ -2843,10 +2849,15 @@ function showCardPopup(card, rarity, imgFile){
   const show=tr && tr!==cname(card);
   jpEl.textContent=show?tr:'';
   jpEl.classList.toggle('hidden',!show);
-  const typeParts=[];
-  if(card.types) typeParts.push(card.types);
-  else if(card.card_type) typeParts.push([card.card_type,card.property].filter(Boolean).join(' / '));
-  document.getElementById('cp-type').textContent=typeParts.join(' · ');
+  // Monsters: the race/subtype line just repeats the tag pills below, so hide it.
+  // Spells/Traps: keep it — the Spell/Trap card_type isn't shown as a tag.
+  const cpTypeEl=document.getElementById('cp-type');
+  if(!isMon && card.card_type){
+    cpTypeEl.textContent=[card.card_type,card.property].filter(Boolean).join(' / ');
+    cpTypeEl.style.display='';
+  } else {
+    cpTypeEl.textContent=''; cpTypeEl.style.display='none';
+  }
   const matEl=document.getElementById('cp-materials');
   matEl.textContent=card.materials||''; matEl.style.display=card.materials?'':'none';
   document.getElementById('cp-tags').innerHTML=cardMetaTagsHtml(card);
@@ -5021,8 +5032,15 @@ function _duShowCardDetail(c){
   const show = (id, on) => { const el=_duEl(id); if(el) el.style.display = on ? '' : 'none'; };
 
   if(card){
-    // Type / race line (attribute + level now shown as colored tags below)
-    setText('du-cd-meta', card.types || (card.card_type ? [card.card_type, card.property].filter(Boolean).join(' / ') : '') || '');
+    // Monsters: type/race line duplicates the tag pills below, hide it.
+    // Spells/Traps: keep it — the Spell/Trap card_type isn't shown as a tag.
+    const duIsMon = MONSTER_ATTRS.has(card.attribute);
+    if(!duIsMon && card.card_type){
+      setText('du-cd-meta', [card.card_type, card.property].filter(Boolean).join(' / '));
+      show('du-cd-meta', true);
+    } else {
+      show('du-cd-meta', false);
+    }
     set('du-cd-tags', cardMetaTagsHtml(card));
     set('du-cd-stats', cardStatHtml(card));
     // Materials / condition / requirement
