@@ -3400,7 +3400,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "Aitsu-RDB224-JP-C.png"
+        "file": "Aitsu-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -3427,7 +3427,7 @@
     "password": null,
     "is_legend": false,
     "title": "Aitsu",
-    "_wiki_ts": "2026-06-12T14:43:59Z",
+    "_wiki_ts": "2026-07-10T16:51:41Z",
     "card_schema_version": 2,
     "raw_name_en": "Aitsu (Rush Duel)"
   },
@@ -9546,7 +9546,7 @@
     "password": null,
     "is_legend": false,
     "title": "Attribute Shift Bomb",
-    "_wiki_ts": "2026-03-30T22:32:22Z",
+    "_wiki_ts": "2026-07-10T21:31:01Z",
     "card_schema_version": 2,
     "raw_name_en": "Attribute Shift Bomb"
   },
@@ -11160,7 +11160,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "BarrelUpMagicLinersForce-RDAP03-JP-OP.png"
+        "file": "BarrelUpMagicLinersForce-RDAP03-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -11178,7 +11178,7 @@
     "password": null,
     "is_legend": false,
     "title": "Barrel-Up-Magic Liner's Force",
-    "_wiki_ts": "2026-07-09T22:58:25Z",
+    "_wiki_ts": "2026-07-10T16:51:25Z",
     "card_schema_version": 2,
     "raw_name_en": "Barrel-Up-Magic Liner's Force"
   },
@@ -19797,7 +19797,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "CAND-RDAP01-JP-C.png"
+        "file": "CAND-RDAP03-JP-C.png"
       },
       {
         "artwork": 2,
@@ -19883,7 +19883,7 @@
     "password": null,
     "is_legend": false,
     "title": "CAN:D",
-    "_wiki_ts": "2026-07-06T02:04:07Z",
+    "_wiki_ts": "2026-07-10T16:52:43Z",
     "card_schema_version": 2,
     "raw_name_en": "CAN:D"
   },
@@ -19908,7 +19908,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "CANDALL-RDMRP1-JP-SR.png"
+        "file": "CANDALL-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -19937,7 +19937,7 @@
     "password": null,
     "is_legend": false,
     "title": "CAN:D ALL",
-    "_wiki_ts": "2026-07-06T02:03:06Z",
+    "_wiki_ts": "2026-07-10T16:53:53Z",
     "card_schema_version": 2,
     "raw_name_en": "CAN:D ALL"
   },
@@ -30909,7 +30909,7 @@
     "password": null,
     "is_legend": false,
     "title": "Cyber Falcon",
-    "_wiki_ts": "2026-03-09T20:03:07Z",
+    "_wiki_ts": "2026-07-10T21:35:51Z",
     "card_schema_version": 2,
     "raw_name_en": "Cyber Falcon (Rush Duel)"
   },
@@ -31441,7 +31441,7 @@
     "password": null,
     "is_legend": false,
     "title": "Cyber Serpent",
-    "_wiki_ts": "2026-05-02T16:41:56Z",
+    "_wiki_ts": "2026-07-10T21:04:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Cyber Serpent"
   },
@@ -31856,7 +31856,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "CyberVariation-RDSD0C-JP-C.png"
+        "file": "CyberVariation-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -31895,7 +31895,7 @@
     "password": null,
     "is_legend": false,
     "title": "Cyber Variation",
-    "_wiki_ts": "2026-07-09T23:08:37Z",
+    "_wiki_ts": "2026-07-10T16:55:24Z",
     "card_schema_version": 2,
     "raw_name_en": "Cyber Variation"
   },
@@ -42975,7 +42975,7 @@
     "password": null,
     "is_legend": false,
     "title": "Divinebreath the Orchestral Music Fiend",
-    "_wiki_ts": "2025-10-22T18:13:38Z",
+    "_wiki_ts": "2026-07-10T21:53:30Z",
     "card_schema_version": 2,
     "raw_name_en": "Divinebreath the Orchestral Music Fiend"
   },
@@ -50262,7 +50262,7 @@
     "password": null,
     "is_legend": false,
     "title": "Elemental HERO Thunder Giant",
-    "_wiki_ts": "2025-06-25T15:35:28Z",
+    "_wiki_ts": "2026-07-10T21:42:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Elemental HERO Thunder Giant (Rush Duel)"
   },
@@ -52047,7 +52047,7 @@
     "password": null,
     "is_legend": false,
     "title": "Eternal Galactica Oblivion",
-    "_wiki_ts": "2025-08-06T07:22:36Z",
+    "_wiki_ts": "2026-07-10T21:54:05Z",
     "card_schema_version": 2,
     "raw_name_en": "Eternal Galactica Oblivion"
   },
@@ -53940,7 +53940,7 @@
     "password": null,
     "is_legend": false,
     "title": "Excutie Capture!",
-    "_wiki_ts": "2026-03-11T14:14:18Z",
+    "_wiki_ts": "2026-07-10T21:55:13Z",
     "card_schema_version": 2,
     "raw_name_en": "Excutie Capture!"
   },
@@ -56723,7 +56723,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "FeverousColorfulBallPark-RDAP03-JP-OP.png"
+        "file": "FeverousColorfulBallPark-RDAP03-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -56741,7 +56741,7 @@
     "password": null,
     "is_legend": false,
     "title": "Feverous Colorful Ball Park",
-    "_wiki_ts": "2026-07-09T22:57:19Z",
+    "_wiki_ts": "2026-07-10T16:51:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Feverous Colorful Ball Park"
   },
@@ -56767,7 +56767,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "FeverousSpiritStadium-RDKP07-JP-R.png"
+        "file": "FeverousSpiritStadium-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -56801,7 +56801,7 @@
     "password": null,
     "is_legend": false,
     "title": "Feverous Spirit Stadium",
-    "_wiki_ts": "2026-06-29T22:22:21Z",
+    "_wiki_ts": "2026-07-10T16:51:15Z",
     "card_schema_version": 2,
     "raw_name_en": "Feverous Spirit Stadium"
   },
@@ -60703,7 +60703,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "Fusion-RDAP01-JP-C.png"
+        "file": "Fusion-RDAP03-JP-C.png"
       },
       {
         "artwork": 2,
@@ -60853,7 +60853,7 @@
     "password": null,
     "is_legend": false,
     "title": "Fusion",
-    "_wiki_ts": "2026-07-08T16:33:12Z",
+    "_wiki_ts": "2026-07-10T16:41:51Z",
     "card_schema_version": 2,
     "raw_name_en": "Fusion (Rush Duel)"
   },
@@ -71275,7 +71275,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "HeadhuntersGoraliath-RDAP03-JP-OP.png"
+        "file": "HeadhuntersGoraliath-RDAP03-JP-UR.png"
       }
     ],
     "sets_jp": [
@@ -71293,7 +71293,7 @@
     "password": null,
     "is_legend": false,
     "title": "Headhunters' Goraliath",
-    "_wiki_ts": "2026-07-09T23:01:08Z",
+    "_wiki_ts": "2026-07-10T16:52:58Z",
     "card_schema_version": 2,
     "raw_name_en": "Headhunters' Goraliath"
   },
@@ -72133,7 +72133,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "HeavyRoller-RDSD04-JP-C.png"
+        "file": "HeavyRoller-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -72177,7 +72177,7 @@
     "password": null,
     "is_legend": false,
     "title": "Heavy Roller",
-    "_wiki_ts": "2026-06-08T15:39:31Z",
+    "_wiki_ts": "2026-07-10T16:51:33Z",
     "card_schema_version": 2,
     "raw_name_en": "Heavy Roller"
   },
@@ -73478,7 +73478,7 @@
     "password": null,
     "is_legend": false,
     "title": "Hot the Combustible Fairy",
-    "_wiki_ts": "2026-05-21T08:48:25Z",
+    "_wiki_ts": "2026-07-10T20:48:13Z",
     "card_schema_version": 2,
     "raw_name_en": "Hot the Combustible Fairy"
   },
@@ -76065,7 +76065,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "IcePopBear-RDMRP1-JP-R.png"
+        "file": "IcePopBear-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -76099,7 +76099,7 @@
     "password": null,
     "is_legend": false,
     "title": "Ice Pop Bear",
-    "_wiki_ts": "2026-07-06T02:03:51Z",
+    "_wiki_ts": "2026-07-10T16:53:34Z",
     "card_schema_version": 2,
     "raw_name_en": "Ice Pop Bear"
   },
@@ -76652,7 +76652,7 @@
     "password": null,
     "is_legend": false,
     "title": "Imaginary Arc Tower",
-    "_wiki_ts": "2024-12-06T02:37:38Z",
+    "_wiki_ts": "2026-07-10T20:34:39Z",
     "card_schema_version": 2,
     "raw_name_en": "Imaginary Arc Tower"
   },
@@ -79504,7 +79504,7 @@
     "password": null,
     "is_legend": false,
     "title": "Joining Chairs",
-    "_wiki_ts": "2024-12-06T03:18:31Z",
+    "_wiki_ts": "2026-07-10T20:58:41Z",
     "card_schema_version": 2,
     "raw_name_en": "Joining Chairs"
   },
@@ -80833,7 +80833,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "JourneyingPliage-RDAP03-JP-OP.png"
+        "file": "JourneyingPliage-RDAP03-JP-UR.png"
       }
     ],
     "sets_jp": [
@@ -80851,7 +80851,7 @@
     "password": null,
     "is_legend": false,
     "title": "Journeying Pliage",
-    "_wiki_ts": "2026-07-09T22:41:40Z",
+    "_wiki_ts": "2026-07-10T16:40:17Z",
     "card_schema_version": 2,
     "raw_name_en": "Journeying Pliage"
   },
@@ -81183,6 +81183,11 @@
         "code": "RD/S252-JP002",
         "name": "Special Victory Pack 2025 Vol.2",
         "rarity": "Ultra Parallel Rare"
+      },
+      {
+        "code": "RD/P014-JP001",
+        "name": "Over Rush Challenge Cup Team Tournament prize card",
+        "rarity": "Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -81197,7 +81202,7 @@
     "password": null,
     "is_legend": false,
     "title": "Justiciar of the Dragon Stream",
-    "_wiki_ts": "2025-07-22T15:43:42Z",
+    "_wiki_ts": "2026-07-10T17:02:24Z",
     "card_schema_version": 2,
     "raw_name_en": "Justiciar of the Dragon Stream"
   },
@@ -84050,7 +84055,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LauanAdventurers-RDKP08-JP-R.png"
+        "file": "LauanAdventurers-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -84084,7 +84089,7 @@
     "password": null,
     "is_legend": false,
     "title": "Lauan Adventurers",
-    "_wiki_ts": "2026-06-29T02:48:32Z",
+    "_wiki_ts": "2026-07-10T16:52:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Lauan Adventurers"
   },
@@ -102357,7 +102362,7 @@
     "password": null,
     "is_legend": false,
     "title": "The Noodle Art of Roastery",
-    "_wiki_ts": "2025-05-10T21:29:15Z",
+    "_wiki_ts": "2026-07-10T21:38:31Z",
     "card_schema_version": 2,
     "raw_name_en": "The Noodle Art of Roastery"
   },
@@ -109595,11 +109600,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "Player39HomeRunHitter-RDKP07-JP-UR.png"
+        "file": "Player39HomeRunHitter-RDAP03-JP-C.png"
       },
       {
         "artwork": 2,
-        "file": "Player39HomeRunHitter-RDAP03-JP-OP-AA.png"
+        "file": "Player39HomeRunHitter-RDAP03-JP-ORR.png"
       }
     ],
     "sets_jp": [
@@ -109628,7 +109633,7 @@
     "password": null,
     "is_legend": false,
     "title": "Player 39: Home Run Hitter",
-    "_wiki_ts": "2026-07-09T23:28:56Z",
+    "_wiki_ts": "2026-07-10T16:56:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Player #39: Home Run Hitter"
   },
@@ -109655,7 +109660,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "Player99GrandSlamDragon-RDKP07-JP-SR.png"
+        "file": "Player99GrandSlamDragon-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -109689,7 +109694,7 @@
     "password": null,
     "is_legend": false,
     "title": "Player 99: Grand Slam Dragon",
-    "_wiki_ts": "2026-07-01T22:26:26Z",
+    "_wiki_ts": "2026-07-10T16:43:14Z",
     "card_schema_version": 2,
     "raw_name_en": "Player #99: Grand Slam Dragon"
   },
@@ -109716,7 +109721,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "PlayerC39HomeRunSmasher-RDKP08-JP-SR.png"
+        "file": "PlayerC39HomeRunSmasher-RDAP03-JP-C.png"
       },
       {
         "artwork": 2,
@@ -109754,7 +109759,7 @@
     "password": null,
     "is_legend": false,
     "title": "Player C39: Home Run Smasher",
-    "_wiki_ts": "2026-07-10T00:47:03Z",
+    "_wiki_ts": "2026-07-10T16:42:50Z",
     "card_schema_version": 2,
     "raw_name_en": "Player #C39: Home Run Smasher"
   },
@@ -109780,7 +109785,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "PlayerC39HomeRunSmasherV-RDAP03-JP-OP.png"
+        "file": "PlayerC39HomeRunSmasherV-RDAP03-JP-UR.png"
       }
     ],
     "sets_jp": [
@@ -109798,7 +109803,7 @@
     "password": null,
     "is_legend": false,
     "title": "Player C39: Home Run Smasher V",
-    "_wiki_ts": "2026-07-09T22:49:05Z",
+    "_wiki_ts": "2026-07-10T16:42:39Z",
     "card_schema_version": 2,
     "raw_name_en": "Player #C39: Home Run Smasher V"
   },
@@ -109822,7 +109827,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ThePlayerReturningAlive-RDAP03-JP-OP.png"
+        "file": "ThePlayerReturningAlive-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -109840,7 +109845,7 @@
     "password": null,
     "is_legend": false,
     "title": "The Player Returning Alive",
-    "_wiki_ts": "2026-07-09T22:56:37Z",
+    "_wiki_ts": "2026-07-10T16:51:00Z",
     "card_schema_version": 2,
     "raw_name_en": "The Player Returning Alive"
   },
@@ -109973,7 +109978,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "PliagetheSacredShootingStar-RDTB02-JP-SR.png"
+        "file": "PliagetheSacredShootingStar-RDAP03-JP-C.png"
       },
       {
         "artwork": 2,
@@ -110006,7 +110011,7 @@
     "password": null,
     "is_legend": false,
     "title": "Pliage the Sacred Shooting Star",
-    "_wiki_ts": "2026-07-02T07:28:58Z",
+    "_wiki_ts": "2026-07-10T16:40:33Z",
     "card_schema_version": 2,
     "raw_name_en": "Pliage the Sacred Shooting Star"
   },
@@ -110030,7 +110035,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "PliagetheStarSanctuary-RDAP03-JP-OP.png"
+        "file": "PliagetheStarSanctuary-RDAP03-JP-UR.png"
       }
     ],
     "sets_jp": [
@@ -110048,7 +110053,7 @@
     "password": null,
     "is_legend": false,
     "title": "Pliage the Star Sanctuary",
-    "_wiki_ts": "2026-07-09T22:38:47Z",
+    "_wiki_ts": "2026-07-10T16:39:35Z",
     "card_schema_version": 2,
     "raw_name_en": "Pliage the Star Sanctuary"
   },
@@ -110073,11 +110078,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "PliagetheStylishSacredShootingStar-RDKP20-JP-SR.png"
+        "file": "PliagetheStylishSacredShootingStar-RDAP03-JP-C.png"
       },
       {
         "artwork": 2,
-        "file": "PliagetheStylishSacredShootingStar-RDAP03-JP-OP-AA.png"
+        "file": "PliagetheStylishSacredShootingStar-RDAP03-JP-ORR.png"
       }
     ],
     "sets_jp": [
@@ -110106,7 +110111,7 @@
     "password": null,
     "is_legend": false,
     "title": "Pliage the Stylish Sacred Shooting Star",
-    "_wiki_ts": "2026-07-09T23:24:08Z",
+    "_wiki_ts": "2026-07-10T16:56:27Z",
     "card_schema_version": 2,
     "raw_name_en": "Pliage the Stylish Sacred Shooting Star"
   },
@@ -110426,7 +110431,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "Polymerization-RDLGP2-JP-SR.png"
+        "file": "Polymerization-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -110463,7 +110468,7 @@
     "password": null,
     "is_legend": true,
     "title": "Polymerization",
-    "_wiki_ts": "2026-07-09T23:11:52Z",
+    "_wiki_ts": "2026-07-10T16:56:08Z",
     "card_schema_version": 2,
     "raw_name_en": "Polymerization (Rush Duel)"
   },
@@ -112195,7 +112200,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "PriestessofWiseSalvation-RDTB01-JP-C.png"
+        "file": "PriestessofWiseSalvation-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -112234,7 +112239,7 @@
     "password": null,
     "is_legend": false,
     "title": "Priestess of Wise Salvation",
-    "_wiki_ts": "2026-07-05T07:19:58Z",
+    "_wiki_ts": "2026-07-10T16:53:07Z",
     "card_schema_version": 2,
     "former_titles": [
       "Priestess of Star Salvation"
@@ -121923,7 +121928,7 @@
     "password": null,
     "is_legend": false,
     "title": "Royal Rebel's Arena",
-    "_wiki_ts": "2025-05-10T21:41:06Z",
+    "_wiki_ts": "2026-07-10T20:51:04Z",
     "card_schema_version": 2,
     "raw_name_en": "Royal Rebel's Arena"
   },
@@ -122118,7 +122123,7 @@
     "password": null,
     "is_legend": false,
     "title": "Royal Rebel's Break",
-    "_wiki_ts": "2024-12-06T07:50:53Z",
+    "_wiki_ts": "2026-07-10T20:55:19Z",
     "card_schema_version": 2,
     "raw_name_en": "Royal Rebel's Break"
   },
@@ -125761,7 +125766,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SearchingUnion-RDAP03-JP-OP.png"
+        "file": "SearchingUnion-RDAP03-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -125779,7 +125784,7 @@
     "password": null,
     "is_legend": false,
     "title": "Searching Union",
-    "_wiki_ts": "2026-07-09T22:36:47Z",
+    "_wiki_ts": "2026-07-10T16:39:19Z",
     "card_schema_version": 2,
     "raw_name_en": "Searching Union"
   },
@@ -128208,7 +128213,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SeyanentheBlazingConqueror-RDMRP2-JP-R.png"
+        "file": "SeyanentheBlazingConqueror-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -128235,7 +128240,7 @@
     "password": null,
     "is_legend": false,
     "title": "Seyanen the Blazing Conqueror",
-    "_wiki_ts": "2026-06-15T14:54:58Z",
+    "_wiki_ts": "2026-07-10T16:53:15Z",
     "card_schema_version": 2,
     "raw_name_en": "Seyanen the Blazing Conqueror"
   },
@@ -131418,7 +131423,7 @@
     "password": null,
     "is_legend": false,
     "title": "Silvermountain of Blisstopia",
-    "_wiki_ts": "2025-05-11T09:18:38Z",
+    "_wiki_ts": "2026-07-10T20:52:27Z",
     "card_schema_version": 2,
     "raw_name_en": "Silvermountain of Blisstopia"
   },
@@ -133106,7 +133111,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "Soitsu-RDB231-JP-C.png"
+        "file": "Soitsu-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -133133,7 +133138,7 @@
     "password": null,
     "is_legend": false,
     "title": "Soitsu",
-    "_wiki_ts": "2026-06-12T14:48:47Z",
+    "_wiki_ts": "2026-07-10T16:51:59Z",
     "card_schema_version": 2,
     "raw_name_en": "Soitsu (Rush Duel)"
   },
@@ -136455,7 +136460,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SpiritSpriteoftheStars-RDAP03-JP-OP.png"
+        "file": "SpiritSpriteoftheStars-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -136473,7 +136478,7 @@
     "password": null,
     "is_legend": false,
     "title": "Spirit Sprite of the Stars",
-    "_wiki_ts": "2026-07-09T22:45:02Z",
+    "_wiki_ts": "2026-07-10T16:41:19Z",
     "card_schema_version": 2,
     "raw_name_en": "Spirit Sprite of the Stars"
   },
@@ -137903,7 +137908,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "StarReplete-RDAP03-JP-OP.png"
+        "file": "StarReplete-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -137921,7 +137926,7 @@
     "password": null,
     "is_legend": false,
     "title": "Star Replete",
-    "_wiki_ts": "2026-07-09T22:40:58Z",
+    "_wiki_ts": "2026-07-10T16:40:06Z",
     "card_schema_version": 2,
     "raw_name_en": "Star Replete"
   },
@@ -137946,7 +137951,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "StarRestart-RDTB02-JP-C.png"
+        "file": "StarRestart-RDAP03-JP-C.png"
       },
       {
         "artwork": 2,
@@ -138004,7 +138009,7 @@
     "password": null,
     "is_legend": false,
     "title": "Star Restart",
-    "_wiki_ts": "2026-07-01T22:36:51Z",
+    "_wiki_ts": "2026-07-10T16:41:30Z",
     "card_schema_version": 2,
     "raw_name_en": "Star Restart"
   },
@@ -146675,7 +146680,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TorrentialTribute-RDLGP2-JP-C.png"
+        "file": "TorrentialTribute-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -146712,7 +146717,7 @@
     "password": null,
     "is_legend": true,
     "title": "Torrential Tribute",
-    "_wiki_ts": "2026-06-15T14:58:41Z",
+    "_wiki_ts": "2026-07-10T16:55:35Z",
     "card_schema_version": 2,
     "raw_name_en": "Torrential Tribute (Rush Duel)"
   },
@@ -146824,11 +146829,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TradeIn-RDSD0F-JP-C.png"
+        "file": "TradeIn-RDAP03-JP-C.png"
       },
       {
         "artwork": 2,
-        "file": "TradeIn-RDAP03-JP-OP-AA.png"
+        "file": "TradeIn-RDAP03-JP-ORR.png"
       }
     ],
     "sets_jp": [
@@ -146895,7 +146900,7 @@
     "password": null,
     "is_legend": false,
     "title": "Trade-In",
-    "_wiki_ts": "2026-07-09T23:33:14Z",
+    "_wiki_ts": "2026-07-10T16:57:26Z",
     "card_schema_version": 2,
     "raw_name_en": "Trade-In (Rush Duel)"
   },
@@ -148606,7 +148611,7 @@
     "password": null,
     "is_legend": false,
     "title": "Triad Drago",
-    "_wiki_ts": "2025-09-19T18:51:13Z",
+    "_wiki_ts": "2026-07-10T20:42:06Z",
     "card_schema_version": 2,
     "raw_name_en": "Triad Drago"
   },
@@ -152376,7 +152381,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "UnionSupporter-RDAP03-JP-OP.png"
+        "file": "UnionSupporter-RDAP03-JP-UR.png"
       }
     ],
     "sets_jp": [
@@ -152394,7 +152399,7 @@
     "password": null,
     "is_legend": false,
     "title": "Union Supporter",
-    "_wiki_ts": "2026-07-09T22:35:44Z",
+    "_wiki_ts": "2026-07-10T16:39:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Union Supporter"
   },
@@ -157689,7 +157694,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheWarriorReturningAlive-RDEXT1-JP-ScR.png"
+        "file": "TheWarriorReturningAlive-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -157716,7 +157721,7 @@
     "password": null,
     "is_legend": true,
     "title": "The Warrior Returning Alive",
-    "_wiki_ts": "2026-06-05T13:46:51Z",
+    "_wiki_ts": "2026-07-10T16:50:52Z",
     "card_schema_version": 2,
     "raw_name_en": "The Warrior Returning Alive (Rush Duel)"
   },
@@ -159419,7 +159424,7 @@
     "password": null,
     "is_legend": false,
     "title": "Witness of Dragon Destroyer",
-    "_wiki_ts": "2025-08-20T08:57:00Z",
+    "_wiki_ts": "2026-07-10T21:39:29Z",
     "card_schema_version": 2,
     "raw_name_en": "Witness of Dragon Destroyer"
   },
@@ -161489,7 +161494,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "XHeadCannon-RDAP03-JP-OP.png"
+        "file": "XHeadCannon-RDAP03-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -161507,7 +161512,7 @@
     "password": null,
     "is_legend": false,
     "title": "X-Head Cannon",
-    "_wiki_ts": "2026-07-09T23:09:26Z",
+    "_wiki_ts": "2026-07-10T16:55:43Z",
     "card_schema_version": 2,
     "raw_name_en": "X-Head Cannon (Rush Duel)"
   },
@@ -161531,7 +161536,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "XYDragonCannon-RDAP03-JP-OP.png"
+        "file": "XYDragonCannon-RDAP03-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -161549,7 +161554,7 @@
     "password": null,
     "is_legend": false,
     "title": "XY-Dragon Cannon",
-    "_wiki_ts": "2026-07-09T22:24:49Z",
+    "_wiki_ts": "2026-07-10T16:37:34Z",
     "card_schema_version": 2,
     "raw_name_en": "XY-Dragon Cannon (Rush Duel)"
   },
@@ -161573,7 +161578,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "XYZDragonCannon-RDAP03-JP-OP.png"
+        "file": "XYZDragonCannon-RDAP03-JP-UR.png"
       }
     ],
     "sets_jp": [
@@ -161591,7 +161596,7 @@
     "password": null,
     "is_legend": false,
     "title": "XYZ-Dragon Cannon",
-    "_wiki_ts": "2026-07-09T22:21:22Z",
+    "_wiki_ts": "2026-07-10T16:37:11Z",
     "card_schema_version": 2,
     "raw_name_en": "XYZ-Dragon Cannon (Rush Duel)"
   },
@@ -161615,7 +161620,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "XZTankCannon-RDAP03-JP-OP.png"
+        "file": "XZTankCannon-RDAP03-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -161633,7 +161638,7 @@
     "password": null,
     "is_legend": false,
     "title": "XZ-Tank Cannon",
-    "_wiki_ts": "2026-07-09T22:26:25Z",
+    "_wiki_ts": "2026-07-10T16:37:42Z",
     "card_schema_version": 2,
     "raw_name_en": "XZ-Tank Cannon (Rush Duel)"
   },
@@ -161657,7 +161662,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "YDragonHead-RDAP03-JP-OP.png"
+        "file": "YDragonHead-RDAP03-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -161675,7 +161680,7 @@
     "password": null,
     "is_legend": false,
     "title": "Y-Dragon Head",
-    "_wiki_ts": "2026-07-09T23:10:15Z",
+    "_wiki_ts": "2026-07-10T16:55:51Z",
     "card_schema_version": 2,
     "raw_name_en": "Y-Dragon Head (Rush Duel)"
   },
@@ -162996,7 +163001,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "YZTankDragon-RDAP03-JP-OP.png"
+        "file": "YZTankDragon-RDAP03-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -163014,7 +163019,7 @@
     "password": null,
     "is_legend": false,
     "title": "YZ-Tank Dragon",
-    "_wiki_ts": "2026-07-09T22:28:02Z",
+    "_wiki_ts": "2026-07-10T16:37:50Z",
     "card_schema_version": 2,
     "raw_name_en": "YZ-Tank Dragon (Rush Duel)"
   },
@@ -163038,7 +163043,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ZMetalTank-RDAP03-JP-OP.png"
+        "file": "ZMetalTank-RDAP03-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -163056,7 +163061,7 @@
     "password": null,
     "is_legend": false,
     "title": "Z-Metal Tank",
-    "_wiki_ts": "2026-07-09T23:11:10Z",
+    "_wiki_ts": "2026-07-10T16:55:59Z",
     "card_schema_version": 2,
     "raw_name_en": "Z-Metal Tank (Rush Duel)"
   },
@@ -163804,7 +163809,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "EncounteroftheStars-RDAP03-JP-OP.png"
+        "file": "EncounteroftheStars-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -163822,7 +163827,7 @@
     "password": null,
     "is_legend": false,
     "title": "Encounter of the Stars",
-    "_wiki_ts": "2026-07-09T22:46:56Z",
+    "_wiki_ts": "2026-07-10T16:42:10Z",
     "card_schema_version": 2,
     "raw_name_en": "Encounter of the Stars"
   },
@@ -163847,7 +163852,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "Onomatopitcher-RDAP03-JP-OP.png"
+        "file": "Onomatopitcher-RDAP03-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -163865,7 +163870,7 @@
     "password": null,
     "is_legend": false,
     "title": "Onomatopitcher",
-    "_wiki_ts": "2026-07-09T22:53:44Z",
+    "_wiki_ts": "2026-07-10T16:43:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Onomatopitcher"
   },
@@ -163889,7 +163894,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SpiritoftheStars-RDAP03-JP-OP.png"
+        "file": "SpiritoftheStars-RDAP03-JP-UR.png"
       }
     ],
     "sets_jp": [
@@ -163907,7 +163912,7 @@
     "password": null,
     "is_legend": false,
     "title": "Spirit of the Stars",
-    "_wiki_ts": "2026-07-09T22:42:25Z",
+    "_wiki_ts": "2026-07-10T16:40:44Z",
     "card_schema_version": 2,
     "raw_name_en": "Spirit of the Stars"
   },
@@ -163931,7 +163936,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "XTrialCannon-RDAP03-JP-OP.png"
+        "file": "XTrialCannon-RDAP03-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -163949,7 +163954,7 @@
     "password": null,
     "is_legend": false,
     "title": "X-Trial Cannon",
-    "_wiki_ts": "2026-07-09T22:29:56Z",
+    "_wiki_ts": "2026-07-10T16:38:05Z",
     "card_schema_version": 2,
     "raw_name_en": "X-Trial Cannon"
   },
@@ -163973,7 +163978,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "YTrialDragon-RDAP03-JP-OP.png"
+        "file": "YTrialDragon-RDAP03-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -163991,7 +163996,7 @@
     "password": null,
     "is_legend": false,
     "title": "Y-Trial Dragon",
-    "_wiki_ts": "2026-07-09T22:31:22Z",
+    "_wiki_ts": "2026-07-10T16:38:14Z",
     "card_schema_version": 2,
     "raw_name_en": "Y-Trial Dragon"
   },
@@ -164016,7 +164021,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ZTrialTank-RDAP03-JP-OP.png"
+        "file": "ZTrialTank-RDAP03-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -164034,7 +164039,7 @@
     "password": null,
     "is_legend": false,
     "title": "Z-Trial Tank",
-    "_wiki_ts": "2026-07-09T22:32:42Z",
+    "_wiki_ts": "2026-07-10T16:38:27Z",
     "card_schema_version": 2,
     "raw_name_en": "Z-Trial Tank"
   },
@@ -164058,11 +164063,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ChaosEmperorDragonEnvoyoftheEnd-RDAP03-JP-OP.png"
+        "file": "ChaosEmperorDragonEnvoyoftheEnd-RDAP03-JP-UR.png"
       },
       {
         "artwork": 2,
-        "file": "ChaosEmperorDragonEnvoyoftheEnd-RDAP03-JP-OP-AA.png"
+        "file": "ChaosEmperorDragonEnvoyoftheEnd-RDAP03-JP-FORR.png"
       }
     ],
     "sets_jp": [
@@ -164078,7 +164083,7 @@
     "password": null,
     "is_legend": true,
     "title": "Chaos Emperor Dragon - Envoy of the End",
-    "_wiki_ts": "2026-07-09T22:18:40Z",
+    "_wiki_ts": "2026-07-11T08:54:11Z",
     "card_schema_version": 2,
     "raw_name_en": "Chaos Emperor Dragon - Envoy of the End (Rush Duel)"
   },
@@ -164102,7 +164107,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DirhamtheHolyEmpress-RDAP03-JP-OP.png"
+        "file": "DirhamtheHolyEmpress-RDAP03-JP-UR.png"
       }
     ],
     "sets_jp": [
@@ -164118,7 +164123,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dirham the Holy Empress",
-    "_wiki_ts": "2026-07-09T23:01:55Z",
+    "_wiki_ts": "2026-07-10T16:53:26Z",
     "card_schema_version": 2,
     "raw_name_en": "Dirham the Holy Empress"
   },
@@ -164142,7 +164147,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "Doitsu-RDAP03-JP-OP.png"
+        "file": "Doitsu-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -164158,7 +164163,7 @@
     "password": null,
     "is_legend": false,
     "title": "Doitsu",
-    "_wiki_ts": "2026-07-09T23:00:25Z",
+    "_wiki_ts": "2026-07-10T16:52:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Doitsu (Rush Duel)"
   },
@@ -164182,7 +164187,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "Koitsu-RDAP03-JP-OP.png"
+        "file": "Koitsu-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -164198,7 +164203,7 @@
     "password": null,
     "is_legend": false,
     "title": "Koitsu",
-    "_wiki_ts": "2026-07-09T22:59:59Z",
+    "_wiki_ts": "2026-07-10T16:52:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Koitsu (Rush Duel)"
   },
@@ -164222,7 +164227,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ReliefcarD-RDAP03-JP-OP.png"
+        "file": "ReliefcarD-RDAP03-JP-UR.png"
       }
     ],
     "sets_jp": [
@@ -164240,7 +164245,7 @@
     "password": null,
     "is_legend": false,
     "title": "Reliefcar D",
-    "_wiki_ts": "2026-07-09T22:55:46Z",
+    "_wiki_ts": "2026-07-10T16:50:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Reliefcar D"
   },
@@ -164264,7 +164269,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "YXZCannonDragon-RDAP03-JP-OP.png"
+        "file": "YXZCannonDragon-RDAP03-JP-UR.png"
       }
     ],
     "sets_jp": [
@@ -164282,7 +164287,7 @@
     "password": null,
     "is_legend": false,
     "title": "YXZ-Cannon Dragon",
-    "_wiki_ts": "2026-07-09T22:23:20Z",
+    "_wiki_ts": "2026-07-10T16:37:21Z",
     "card_schema_version": 2,
     "raw_name_en": "YXZ-Cannon Dragon"
   },
@@ -165094,7 +165099,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "EvolutionoftheStarDragon-RDAP03-JP-OP.png"
+        "file": "EvolutionoftheStarDragon-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -165112,7 +165117,7 @@
     "password": null,
     "is_legend": false,
     "title": "Evolution of the Star Dragon",
-    "_wiki_ts": "2026-07-09T22:47:42Z",
+    "_wiki_ts": "2026-07-10T16:42:20Z",
     "card_schema_version": 2,
     "raw_name_en": "Evolution of the Star Dragon"
   },
@@ -165136,7 +165141,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "FairyoftheStars-RDAP03-JP-OP.png"
+        "file": "FairyoftheStars-RDAP03-JP-UR.png"
       }
     ],
     "sets_jp": [
@@ -165154,7 +165159,7 @@
     "password": null,
     "is_legend": false,
     "title": "Fairy of the Stars",
-    "_wiki_ts": "2026-07-09T22:40:18Z",
+    "_wiki_ts": "2026-07-10T16:39:58Z",
     "card_schema_version": 2,
     "raw_name_en": "Fairy of the Stars"
   },
@@ -165261,7 +165266,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "GagagaCheergirl-RDAP03-JP-OP.png"
+        "file": "GagagaCheergirl-RDAP03-JP-UR.png"
       }
     ],
     "sets_jp": [
@@ -165279,7 +165284,7 @@
     "password": null,
     "is_legend": false,
     "title": "Gagaga Cheergirl",
-    "_wiki_ts": "2026-07-09T22:55:07Z",
+    "_wiki_ts": "2026-07-10T16:50:34Z",
     "card_schema_version": 2,
     "raw_name_en": "Gagaga Cheergirl"
   },
@@ -165797,7 +165802,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "PliagesClusteringStars-RDAP03-JP-OP.png"
+        "file": "PliagesClusteringStars-RDAP03-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -165815,7 +165820,7 @@
     "password": null,
     "is_legend": false,
     "title": "Pliage's Clustering Stars",
-    "_wiki_ts": "2026-07-09T22:46:15Z",
+    "_wiki_ts": "2026-07-10T16:42:01Z",
     "card_schema_version": 2,
     "raw_name_en": "Pliage's Clustering Stars"
   },
@@ -165839,7 +165844,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ProductUnion-RDAP03-JP-OP.png"
+        "file": "ProductUnion-RDAP03-JP-UR.png"
       }
     ],
     "sets_jp": [
@@ -165857,7 +165862,7 @@
     "password": null,
     "is_legend": false,
     "title": "Product Union",
-    "_wiki_ts": "2026-07-09T22:37:59Z",
+    "_wiki_ts": "2026-07-10T16:39:27Z",
     "card_schema_version": 2,
     "raw_name_en": "Product Union"
   },
@@ -166255,7 +166260,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "StarRepleteoftheStarSanctuary-RDAP03-JP-OP.png"
+        "file": "StarRepleteoftheStarSanctuary-RDAP03-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -166273,7 +166278,7 @@
     "password": null,
     "is_legend": false,
     "title": "Star Replete of the Star Sanctuary",
-    "_wiki_ts": "2026-07-09T22:39:29Z",
+    "_wiki_ts": "2026-07-10T16:39:48Z",
     "card_schema_version": 2,
     "raw_name_en": "Star Replete of the Star Sanctuary"
   },
@@ -166297,7 +166302,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "StarSanctuaryoftheBeginning-RDAP03-JP-OP.png"
+        "file": "StarSanctuaryoftheBeginning-RDAP03-JP-UR.png"
       }
     ],
     "sets_jp": [
@@ -166315,7 +166320,7 @@
     "password": null,
     "is_legend": false,
     "title": "Star Sanctuary of the Beginning",
-    "_wiki_ts": "2026-07-09T22:48:19Z",
+    "_wiki_ts": "2026-07-10T16:42:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Star Sanctuary of the Beginning"
   },
@@ -166420,7 +166425,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SWAsuraBat-RDAP03-JP-OP.png"
+        "file": "SWAsuraBat-RDAP03-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -166438,7 +166443,7 @@
     "password": null,
     "is_legend": false,
     "title": "SW - Asura Bat",
-    "_wiki_ts": "2026-07-09T22:54:26Z",
+    "_wiki_ts": "2026-07-10T16:50:26Z",
     "card_schema_version": 2,
     "raw_name_en": "SW - Asura Bat"
   },
@@ -167177,11 +167182,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "StarofBeginning-RDLGP2-JP-UR.png"
+        "file": "StarofBeginning-RDAP03-JP-SR.png"
       },
       {
         "artwork": 2,
-        "file": "StarofBeginning-RDAP03-JP-OP-AA.png"
+        "file": "StarofBeginning-RDAP03-JP-FORR.png"
       }
     ],
     "sets_jp": [
@@ -167210,7 +167215,7 @@
     "password": null,
     "is_legend": false,
     "title": "Star of Beginning",
-    "_wiki_ts": "2026-07-02T07:27:25Z",
+    "_wiki_ts": "2026-07-11T08:54:43Z",
     "card_schema_version": 2,
     "former_titles": [
       "Star of the Beginning"
@@ -167630,7 +167635,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "InstantFusion-RDAP03-JP-OP.png"
+        "file": "InstantFusion-RDAP03-JP-UR.png"
       }
     ],
     "sets_jp": [
@@ -167646,7 +167651,7 @@
     "password": null,
     "is_legend": true,
     "title": "Instant Fusion",
-    "_wiki_ts": "2026-07-09T23:08:02Z",
+    "_wiki_ts": "2026-07-10T16:54:05Z",
     "card_schema_version": 2,
     "raw_name_en": "Instant Fusion (Rush Duel)"
   },
