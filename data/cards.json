@@ -13421,7 +13421,7 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "Activate this card by sending the top 2 cards of your Deck to the Graveyard.",
+    "requirement": "Send the top 2 cards of your Deck to the Graveyard.",
     "effect": "While this card is face-up in the Field Zone, face-up monsters on the field gain 100 ATK.",
     "flavor_text": null,
     "images": [
@@ -13459,7 +13459,7 @@
     "password": null,
     "is_legend": false,
     "title": "Berserker Colosseum",
-    "_wiki_ts": "2024-12-05T18:06:38Z",
+    "_wiki_ts": "2026-07-16T08:21:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Berserker Colosseum"
   },
@@ -33908,7 +33908,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dark Magician the Dragon Knight",
-    "_wiki_ts": "2025-09-08T22:17:08Z",
+    "_wiki_ts": "2026-07-16T19:31:41Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Magician the Dragon Knight (Rush Duel)"
   },
@@ -42611,11 +42611,13 @@
     ],
     "sets_kr": [],
     "database_id": "22619",
-    "archseries": [],
+    "archseries": [
+      "Linker"
+    ],
     "password": null,
     "is_legend": false,
     "title": "Dimension Linker",
-    "_wiki_ts": "2026-01-30T23:08:27Z",
+    "_wiki_ts": "2026-07-16T19:30:20Z",
     "card_schema_version": 2,
     "raw_name_en": "Dimension Linker"
   },
@@ -51841,7 +51843,7 @@
     "password": null,
     "is_legend": false,
     "title": "Eria the Water Charmer",
-    "_wiki_ts": "2026-06-22T19:42:38Z",
+    "_wiki_ts": "2026-07-14T16:15:37Z",
     "card_schema_version": 2,
     "raw_name_en": "Eria the Water Charmer (Rush Duel)"
   },
@@ -55463,7 +55465,7 @@
     "password": null,
     "is_legend": true,
     "title": "The Eye of Timaeus",
-    "_wiki_ts": "2026-06-14T19:05:07Z",
+    "_wiki_ts": "2026-07-16T19:31:33Z",
     "card_schema_version": 2,
     "raw_name_en": "The Eye of Timaeus (Rush Duel)"
   },
@@ -60846,6 +60848,11 @@
         "code": "RD/AP01-KR090",
         "name": "Advance Pack: Devil's Ceremony",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/SC26-KR002",
+        "name": "Stella Cup 2026 Finals participation card",
+        "rarity": "Secret Rare (Special Red Version)"
       }
     ],
     "database_id": "16934",
@@ -60853,7 +60860,7 @@
     "password": null,
     "is_legend": false,
     "title": "Fusion",
-    "_wiki_ts": "2026-07-10T16:41:51Z",
+    "_wiki_ts": "2026-07-15T14:42:01Z",
     "card_schema_version": 2,
     "raw_name_en": "Fusion (Rush Duel)"
   },
@@ -65399,6 +65406,11 @@
         "code": "RD/SC26-KR001",
         "name": "Stella Cup 2026 Qualifiers participation card",
         "rarity": "Normal Parallel Rare"
+      },
+      {
+        "code": "RD/SC26-KR001",
+        "name": "Stella Cup 2026 Finals prize card",
+        "rarity": "Over Rush Rare"
       }
     ],
     "database_id": "23152",
@@ -65406,7 +65418,7 @@
     "password": null,
     "is_legend": false,
     "title": "Gladiness, the Flagbearer of Victory",
-    "_wiki_ts": "2026-06-12T16:10:50Z",
+    "_wiki_ts": "2026-07-15T14:38:04Z",
     "card_schema_version": 2,
     "raw_name_en": "Gladiness, the Flagbearer of Victory"
   },
@@ -112239,7 +112251,7 @@
     "password": null,
     "is_legend": false,
     "title": "Priestess of Wise Salvation",
-    "_wiki_ts": "2026-07-10T16:53:07Z",
+    "_wiki_ts": "2026-07-14T16:25:50Z",
     "card_schema_version": 2,
     "former_titles": [
       "Priestess of Star Salvation"
@@ -163833,7 +163845,7 @@
   },
   {
     "name_ja": "球児皇オノマトピッチャー",
-    "name_ja_romaji": "Kyūjiō Onomatopicchā",
+    "name_ja_romaji": "Kyūjiō Onomatopitchā",
     "name_translated": "Youth Baseball King, Onomatopitcher",
     "attribute": "FIRE",
     "types": "Warrior / Effect",
@@ -163870,7 +163882,7 @@
     "password": null,
     "is_legend": false,
     "title": "Onomatopitcher",
-    "_wiki_ts": "2026-07-10T16:43:22Z",
+    "_wiki_ts": "2026-07-15T13:37:34Z",
     "card_schema_version": 2,
     "raw_name_en": "Onomatopitcher"
   },
@@ -164904,31 +164916,31 @@
   {
     "name_ja": "深竜の契約者",
     "name_ja_romaji": "Shinryū no Keiyakusha",
-    "attribute": "???",
-    "types": "??? / ???",
+    "attribute": "WATER",
+    "types": "Wyrm / Fusion / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 9,
+    "atk": 2500,
+    "def": 2000,
     "maximum_atk": null,
-    "materials": null,
+    "materials": "\"Priestess of Wise Salvation\" + 1 Level 8 or lower WATER Attribute Effect Monster",
     "condition": null,
-    "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "Attack Position WATER Attribute monsters on your field gain 400 ATK, and cannot be changed to Defense Position by your opponent's card effects.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "ContractoroftheDeepDragon-OW.png"
+        "file": "ContractoroftheAbyssalDragon-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP036",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Rare"
       }
     ],
     "sets_kr": [],
@@ -164938,10 +164950,13 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Contractor of the Deep Dragon",
-    "_wiki_ts": "2026-06-28T19:22:32Z",
+    "title": "Contractor of the Abyssal Dragon",
+    "_wiki_ts": "2026-07-14T16:05:14Z",
     "card_schema_version": 2,
-    "raw_name_en": "Contractor of the Deep Dragon"
+    "former_titles": [
+      "Contractor of the Deep Dragon"
+    ],
+    "raw_name_en": "Contractor of the Abyssal Dragon"
   },
   {
     "name_ja": "アインソフ・リッター",
@@ -165167,31 +165182,31 @@
     "name_ja": "救惺の轟拳 フィスト",
     "name_ja_romaji": "Kyūsei no Gōken Fisuto",
     "name_translated": "Fist the Wise Salvation Roaring Fist",
-    "attribute": "???",
-    "types": "??? / ???",
+    "attribute": "WATER",
+    "types": "Warrior / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 4,
+    "atk": 1300,
+    "def": 1500,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "None",
+    "effect": "Excavate the top 4 cards of your Deck. You can send 1 excavated \"Star Protector Awakening\" to the Graveyard. Place the other cards on the bottom of your Deck in any order. If you sent a card to the Graveyard, you can Fusion Summon \"Fist the Contractor of the Imprisoned Dragon\" by sending monsters from your hand or field to the Graveyard as material, including this card.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "FisttheStarProtectorRoaringFist-OW.png"
+        "file": "FisttheStarProtectorsRoaringGauntlet-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP011",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -165201,10 +165216,13 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Fist the Star Protector Roaring Fist",
-    "_wiki_ts": "2026-07-05T17:35:42Z",
+    "title": "Fist the Star Protector's Roaring Gauntlet",
+    "_wiki_ts": "2026-07-14T16:00:07Z",
     "card_schema_version": 2,
-    "raw_name_en": "Fist the Star Protector Roaring Fist"
+    "former_titles": [
+      "Fist the Star Protector Roaring Fist"
+    ],
+    "raw_name_en": "Fist the Star Protector's Roaring Gauntlet"
   },
   {
     "name_ja": "強引な番兵",
@@ -165911,30 +165929,30 @@
     "name_ja_romaji": "Roiyaru Demonzu Ekusutorīmu",
     "name_translated": "Royal Demon's Extreme",
     "attribute": "LIGHT",
-    "types": "Fiend / ???",
+    "types": "Fiend / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 8,
+    "atk": 2500,
+    "def": 0,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "During the turn you Normal Summoned this card by Tributing a Level 5 or higher monster, send the top card of your Deck to the Graveyard.",
+    "effect": "Choose 1 monster on your opponent's field. This turn, if you would Tribute Summon a LIGHT Attribute Fiend Type monster in Attack Position, you can Tribute that opponent's monster instead of 1 monster on your field. This turn, you can only attack with Fiend Type monsters.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "RoyalRebelsExtreme-OW.png"
+        "file": "RoyalRebelsExtreme-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP006",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Super Rare"
       }
     ],
     "sets_kr": [],
@@ -165945,7 +165963,7 @@
     "password": null,
     "is_legend": false,
     "title": "Royal Rebel's Extreme",
-    "_wiki_ts": "2026-06-28T17:25:44Z",
+    "_wiki_ts": "2026-07-14T15:45:24Z",
     "card_schema_version": 2,
     "raw_name_en": "Royal Rebel's Extreme"
   },
@@ -165954,30 +165972,30 @@
     "name_ja_romaji": "Roiyaru Demonzu Gurēto Mikisā",
     "name_translated": "Royal Demon's Great Mixer",
     "attribute": "LIGHT",
-    "types": "Fiend / ???",
+    "types": "Fiend / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 4,
+    "atk": 1200,
+    "def": 0,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "During the turn you Normal Summoned this card.",
+    "effect": "Add 1 \"Royal Rebel's Elite Amp\" from your Graveyard to your hand. Then, increase this card's Level by 1 until the end of this turn. This turn, you can only attack with Fiend Type monsters.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "RoyalRebelsGreatMixer-OW.png"
+        "file": "RoyalRebelsGreatMixer-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP004",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Common"
       }
     ],
     "sets_kr": [],
@@ -165988,7 +166006,7 @@
     "password": null,
     "is_legend": false,
     "title": "Royal Rebel's Great Mixer",
-    "_wiki_ts": "2026-06-28T17:28:05Z",
+    "_wiki_ts": "2026-07-14T15:33:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Royal Rebel's Great Mixer"
   },
@@ -165998,8 +166016,8 @@
     "name_translated": "Royal Demon's Starting",
     "attribute": null,
     "types": null,
-    "card_type": "???",
-    "property": "???",
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -166007,20 +166025,20 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "If you have a face-up LIGHT Attribute Fiend Type monster on your field, pay 600 LP.",
+    "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, you can destroy 1 Spell/Trap Card on your opponent's field.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "RoyalRebelsStarting-OW.png"
+        "file": "RoyalRebelsStarting-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP045",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Rare"
       }
     ],
     "sets_kr": [],
@@ -166031,7 +166049,7 @@
     "password": null,
     "is_legend": false,
     "title": "Royal Rebel's Starting",
-    "_wiki_ts": "2026-06-28T17:30:23Z",
+    "_wiki_ts": "2026-07-14T16:20:47Z",
     "card_schema_version": 2,
     "raw_name_en": "Royal Rebel's Starting"
   },
@@ -166203,29 +166221,29 @@
     "name_translated": "Wise Salvation Awakening",
     "attribute": null,
     "types": null,
-    "card_type": "???",
-    "property": "???",
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
     "maximum_atk": null,
     "materials": null,
-    "condition": null,
+    "condition": "This card's name becomes \"Fusion\" while in the Graveyard.",
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "None",
+    "effect": "Place this card from your field on top of the owner's Deck.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "StarProtectorAwakening-OW.png"
+        "file": "StarProtectorAwakening-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP047",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Common"
       }
     ],
     "sets_kr": [],
@@ -166236,7 +166254,7 @@
     "password": null,
     "is_legend": false,
     "title": "Star Protector Awakening",
-    "_wiki_ts": "2026-07-05T17:36:23Z",
+    "_wiki_ts": "2026-07-14T16:24:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Star Protector Awakening"
   },
@@ -167549,8 +167567,8 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "TBD",
-    "effect": "TBD",
+    "requirement": "During your Main Phase that you Normal or Special Summoned this card, send the top card of your Deck to the Graveyard.",
+    "effect": "Increase this card's Level by 4 until the end of this turn. This turn, this face-up card can be treated as 2 Tributes for the Tribute Summon of a Level 7 or 8 Fiend Type monster in Attack Position.",
     "flavor_text": null,
     "images": [
       {
@@ -167571,7 +167589,7 @@
     "password": null,
     "is_legend": false,
     "title": "Chaoskampf Beast Leviatriton",
-    "_wiki_ts": "2026-07-03T11:56:14Z",
+    "_wiki_ts": "2026-07-16T15:33:34Z",
     "card_schema_version": 2,
     "raw_name_en": "Chaoskampf Beast Leviatriton"
   },
@@ -167695,5 +167713,429 @@
     "_wiki_ts": "2026-07-02T16:18:50Z",
     "card_schema_version": 2,
     "raw_name_en": "Rebel's Dive"
+  },
+  {
+    "name_ja": "竜騎士ブラック・マジシャン・ガール",
+    "name_ja_romaji": "Ryūkishi Burakku Majishan Gāru",
+    "attribute": "DARK",
+    "types": "Dragon / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 7,
+    "atk": 2600,
+    "def": 1700,
+    "maximum_atk": null,
+    "materials": "(TBA)",
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "DarkMagicianGirltheDragonKnight-OW-2.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/????-JP0??",
+        "name": "Cross Art Collection",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Dark Magician"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Dark Magician Girl the Dragon Knight",
+    "_wiki_ts": "2026-07-16T19:31:18Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Dark Magician Girl the Dragon Knight (Rush Duel)"
+  },
+  {
+    "name_ja": "Ｅ・ＨＥＲＯ アース・ネオス",
+    "name_ja_romaji": "Erementaru Hīrō Āsu Neosu",
+    "attribute": "EARTH",
+    "types": "Warrior / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 7,
+    "atk": 2500,
+    "def": 2000,
+    "maximum_atk": null,
+    "materials": "\"Elemental HERO Neos\" + \"Neo-Spacian Grand Mole\"",
+    "condition": "This card can be Contact Fusioned (Fusion Summon by shuffling the above face-up monsters from your field into the owner's Deck as materials).",
+    "effect_types": null,
+    "requirement": "Send 1 card from your hand to the Graveyard.",
+    "effect": "Return 1 card from your opponent's field to the owner's hand.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ElementalHEROEarthNeos-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP068",
+        "name": "Headliner of Reigning",
+        "rarity": "Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Neos"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Elemental HERO Earth Neos",
+    "_wiki_ts": "2026-07-17T10:28:36Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Elemental HERO Earth Neos"
+  },
+  {
+    "name_ja": "憑依装着－エリア",
+    "name_ja_romaji": "Hyōisōchaku - Eria",
+    "attribute": "WATER",
+    "types": "Spellcaster / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1900,
+    "def": 1500,
+    "maximum_atk": null,
+    "materials": "\"Eria the Water Charmer\" + 1 WATER Attribute monster",
+    "condition": "This card can be Contact Fusioned.",
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "This card cannot be used as material for the Fusion Summon of \"Familiar-Possessed - Eria\". Your WATER Attribute monsters inflict piercing battle damage.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "FamiliarPossessedEria-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP039",
+        "name": "Headliner of Reigning",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Charmer"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Familiar-Possessed - Eria",
+    "_wiki_ts": "2026-07-14T19:58:41Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Familiar-Possessed - Eria (Rush Duel)"
+  },
+  {
+    "name_ja": "獄竜の契約者 フィスト",
+    "name_ja_romaji": "Gokuryū no Keiyakusha Fisuto",
+    "attribute": "WATER",
+    "types": "Wyrm / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 9,
+    "atk": 2800,
+    "def": 2000,
+    "maximum_atk": null,
+    "materials": "\"Fist the Star Protector's Roaring Gauntlet\" + 1 Level 8 or lower WATER Attribute Effect Monster",
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During your Main Phase that you Fusion Summoned this card, shuffle 2 monsters from your Graveyard into the Deck.",
+    "effect": "Destroy 1 monster on your opponent's field. Then, you can destroy 1 WATER Attribute Magical Knight or Machine Type monster on your opponent's field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "FisttheContractoroftheImprisonedDragon-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP037",
+        "name": "Headliner of Reigning",
+        "rarity": "Super Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Star Protector"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Fist the Contractor of the Imprisoned Dragon",
+    "_wiki_ts": "2026-07-14T16:10:16Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Fist the Contractor of the Imprisoned Dragon"
+  },
+  {
+    "name_ja": "雲海竜 ネモラ",
+    "name_ja_romaji": "Rosutorīmu Nemora",
+    "attribute": "WIND",
+    "types": "Sea Serpent / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LostreamNemora-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/????-JP0??",
+        "name": "Cross Art Collection",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lostream"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Lostream Nemora",
+    "_wiki_ts": "2026-07-16T16:25:21Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Lostream Nemora"
+  },
+  {
+    "name_ja": "Ｎ・グラン・モール",
+    "name_ja_romaji": "Neosupēshian Guran Mōru",
+    "attribute": "EARTH",
+    "types": "Rock / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 3,
+    "atk": 900,
+    "def": 300,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "This card is in Attack Position.",
+    "effect": "Choose 1 face-up monster on your opponent's field with higher ATK than this card, and you take damage equal to [the difference in ATK]. Then, return this card and that monster to the owner's hand. End this Main Phase.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "NeoSpacianGrandMole-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP067",
+        "name": "Headliner of Reigning",
+        "rarity": "Super Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Neos"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Neo-Spacian Grand Mole",
+    "_wiki_ts": "2026-07-16T17:39:36Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Neo-Spacian Grand Mole (Rush Duel)"
+  },
+  {
+    "name_ja": "ロイヤルデモンズ・ファルセット",
+    "name_ja_romaji": "Roiyaru Demonzu Farusetto",
+    "name_translated": "Royal Demon's Falsetto",
+    "attribute": "LIGHT",
+    "types": "Fiend / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 7,
+    "atk": 1600,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "You can Tribute Summon this card in Attack Position by Tributing 1 LIGHT Attribute Fiend Type monster.",
+    "effect_types": null,
+    "requirement": "During your Main Phase that you Normal or Special Summoned this card.",
+    "effect": "Special Summon 1 Level 8 or lower LIGHT Attribute Fiend Type monster from your Graveyard to your field in face-down Defense Position.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "RoyalRebelsFalsetto-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP005",
+        "name": "Headliner of Reigning",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Royal Rebel's"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Royal Rebel's Falsetto",
+    "_wiki_ts": "2026-07-14T15:36:48Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Royal Rebel's Falsetto"
+  },
+  {
+    "name_ja": "ロイヤルデモンズ・ピッチシフター",
+    "name_ja_romaji": "Roiyaru Demonzu Pitchi Shifutā",
+    "name_translated": "Royal Demon's Pitch Shifter",
+    "attribute": "LIGHT",
+    "types": "Fiend / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 1,
+    "atk": 200,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Send 1 LIGHT Attribute Fiend Type monster from your hand to the Graveyard.",
+    "effect": "Draw 1 card. Then, you can change the battle position of this card or 1 monster on your opponent's field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "RoyalRebelsPitchShifter-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP003",
+        "name": "Headliner of Reigning",
+        "rarity": "Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Royal Rebel's"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Royal Rebel's Pitch Shifter",
+    "_wiki_ts": "2026-07-14T15:30:34Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Royal Rebel's Pitch Shifter"
+  },
+  {
+    "name_ja": "救惺の狂撃 スレイ",
+    "name_ja_romaji": "Kyūsei no Kyōgeki Surei",
+    "name_translated": "Slay the Wise Salvation Mad Strike",
+    "attribute": "WATER",
+    "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1200,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Send the top card of your Deck to the Graveyard. Then, if you sent \"Fusion\" to the Graveyard by this effect, you can Fusion Summon a WATER Attribute Magical Knight or Wyrm Type monster by placing monsters from your field or Graveyard on the bottom of the owner's Deck in any order as material, including this card.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "SlaytheStarProtectorsGunslinger-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP010",
+        "name": "Headliner of Reigning",
+        "rarity": "Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Star Protector"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Slay the Star Protector's Gunslinger",
+    "_wiki_ts": "2026-07-14T15:49:43Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Slay the Star Protector's Gunslinger"
+  },
+  {
+    "name_ja": "和蒼御前 リンカー",
+    "name_ja_romaji": "Wasōgozen Rinkā",
+    "name_translated": "Japanese-Style Blue Lady Linker",
+    "attribute": "???",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "WasougozenLinker-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/????-JP0??",
+        "name": "Cross Art Collection",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Linker"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Wasougozen Linker",
+    "_wiki_ts": "2026-07-16T19:27:55Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Wasougozen Linker"
   }
 ]
