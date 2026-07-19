@@ -16247,7 +16247,7 @@
       {
         "code": "RD/LP01-JP028",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -16289,7 +16289,7 @@
     "password": null,
     "is_legend": true,
     "title": "Blue-Eyes White Dragon",
-    "_wiki_ts": "2026-06-23T07:38:40Z",
+    "_wiki_ts": "2026-07-19T01:46:53Z",
     "card_schema_version": 2,
     "raw_name_en": "Blue-Eyes White Dragon (Rush Duel)"
   },
@@ -18981,7 +18981,7 @@
       {
         "code": "RD/LP01-JP033",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -19001,7 +19001,7 @@
     "password": null,
     "is_legend": true,
     "title": "Buster Blader",
-    "_wiki_ts": "2026-06-25T17:18:09Z",
+    "_wiki_ts": "2026-07-19T01:50:43Z",
     "card_schema_version": 2,
     "raw_name_en": "Buster Blader (Rush Duel)"
   },
@@ -33680,7 +33680,7 @@
       {
         "code": "RD/LP01-JP027",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -33732,7 +33732,7 @@
     "password": null,
     "is_legend": true,
     "title": "Dark Magician",
-    "_wiki_ts": "2026-06-23T06:56:43Z",
+    "_wiki_ts": "2026-07-19T01:45:26Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Magician (Rush Duel)"
   },
@@ -33817,7 +33817,7 @@
       {
         "code": "RD/LP01-JP031",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -33859,7 +33859,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dark Magician Girl",
-    "_wiki_ts": "2026-06-23T07:37:23Z",
+    "_wiki_ts": "2026-07-19T01:49:08Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Magician Girl (Rush Duel)"
   },
@@ -35203,7 +35203,7 @@
       {
         "code": "RD/LP01-JP034",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -35220,7 +35220,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dark Paladin",
-    "_wiki_ts": "2026-06-23T07:22:37Z",
+    "_wiki_ts": "2026-07-19T01:51:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Paladin (Rush Duel)"
   },
@@ -49861,7 +49861,7 @@
     "password": null,
     "is_legend": false,
     "title": "Elemental HERO Neos",
-    "_wiki_ts": "2026-05-18T16:28:40Z",
+    "_wiki_ts": "2026-07-17T16:50:26Z",
     "card_schema_version": 2,
     "raw_name_en": "Elemental HERO Neos (Rush Duel)"
   },
@@ -97253,7 +97253,7 @@
       {
         "code": "RD/LP01-JP032",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -97270,7 +97270,7 @@
     "password": null,
     "is_legend": true,
     "title": "Mobius the Frost Monarch",
-    "_wiki_ts": "2026-06-25T17:13:55Z",
+    "_wiki_ts": "2026-07-19T01:49:55Z",
     "card_schema_version": 2,
     "raw_name_en": "Mobius the Frost Monarch (Rush Duel)"
   },
@@ -102969,7 +102969,7 @@
       {
         "code": "RD/LP01-JP030",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -102989,7 +102989,7 @@
     "password": null,
     "is_legend": false,
     "title": "Obnoxious Celtic Guard",
-    "_wiki_ts": "2026-06-23T07:25:20Z",
+    "_wiki_ts": "2026-07-19T01:48:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Obnoxious Celtic Guard (Rush Duel)"
   },
@@ -110837,7 +110837,7 @@
       {
         "code": "RD/LP01-JP035",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -110862,7 +110862,7 @@
     "password": null,
     "is_legend": true,
     "title": "Pot of Greed",
-    "_wiki_ts": "2026-06-25T17:21:33Z",
+    "_wiki_ts": "2026-07-19T01:51:57Z",
     "card_schema_version": 2,
     "raw_name_en": "Pot of Greed (Rush Duel)"
   },
@@ -117035,7 +117035,7 @@
       {
         "code": "RD/LP01-JP026",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -117067,7 +117067,7 @@
     "password": null,
     "is_legend": true,
     "title": "Red-Eyes Black Dragon",
-    "_wiki_ts": "2026-06-25T17:08:29Z",
+    "_wiki_ts": "2026-07-19T01:44:33Z",
     "card_schema_version": 2,
     "raw_name_en": "Red-Eyes Black Dragon (Rush Duel)"
   },
@@ -118211,7 +118211,7 @@
       {
         "code": "RD/LP01-JP029",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -118226,7 +118226,7 @@
     "password": null,
     "is_legend": false,
     "title": "Rescue Rabbit",
-    "_wiki_ts": "2026-06-23T07:00:07Z",
+    "_wiki_ts": "2026-07-19T01:48:04Z",
     "card_schema_version": 2,
     "raw_name_en": "Rescue Rabbit (Rush Duel)"
   },
@@ -164576,7 +164576,7 @@
       {
         "code": "RD/LP01-JP010",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -164585,7 +164585,7 @@
     "password": null,
     "is_legend": false,
     "title": "Maha Vailo",
-    "_wiki_ts": "2026-06-23T07:17:33Z",
+    "_wiki_ts": "2026-07-19T01:33:59Z",
     "card_schema_version": 2,
     "raw_name_en": "Maha Vailo (Rush Duel)"
   },
@@ -164656,7 +164656,7 @@
       {
         "code": "RD/LP01-JP012",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -164665,7 +164665,7 @@
     "password": null,
     "is_legend": false,
     "title": "Mystical Space Typhoon",
-    "_wiki_ts": "2026-06-23T07:26:29Z",
+    "_wiki_ts": "2026-07-19T01:35:13Z",
     "card_schema_version": 2,
     "raw_name_en": "Mystical Space Typhoon (Rush Duel)"
   },
@@ -164696,7 +164696,7 @@
       {
         "code": "RD/LP01-JP024",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
@@ -164705,7 +164705,7 @@
     "password": null,
     "is_legend": false,
     "title": "Panther Warrior",
-    "_wiki_ts": "2026-06-23T07:09:55Z",
+    "_wiki_ts": "2026-07-19T01:43:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Panther Warrior (Rush Duel)"
   },
@@ -164736,7 +164736,7 @@
       {
         "code": "RD/LP01-JP022",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
@@ -164745,7 +164745,7 @@
     "password": null,
     "is_legend": false,
     "title": "Penguin Soldier",
-    "_wiki_ts": "2026-06-24T03:18:39Z",
+    "_wiki_ts": "2026-07-19T01:42:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Penguin Soldier (Rush Duel)"
   },
@@ -164820,7 +164820,7 @@
       {
         "code": "RD/LP01-JP020",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
@@ -164829,7 +164829,7 @@
     "password": null,
     "is_legend": false,
     "title": "Robotic Knight",
-    "_wiki_ts": "2026-06-23T07:35:04Z",
+    "_wiki_ts": "2026-07-19T01:41:14Z",
     "card_schema_version": 2,
     "raw_name_en": "Robotic Knight (Rush Duel)"
   },
@@ -164860,7 +164860,7 @@
       {
         "code": "RD/LP01-JP009",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -164869,7 +164869,7 @@
     "password": null,
     "is_legend": false,
     "title": "Summoner Monk",
-    "_wiki_ts": "2026-06-23T07:36:14Z",
+    "_wiki_ts": "2026-07-19T01:33:19Z",
     "card_schema_version": 2,
     "raw_name_en": "Summoner Monk (Rush Duel)"
   },
@@ -164900,7 +164900,7 @@
       {
         "code": "RD/LP01-JP003",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -164909,7 +164909,7 @@
     "password": null,
     "is_legend": true,
     "title": "Brain Control",
-    "_wiki_ts": "2026-06-23T23:34:08Z",
+    "_wiki_ts": "2026-07-19T01:31:50Z",
     "card_schema_version": 2,
     "raw_name_en": "Brain Control (Rush Duel)"
   },
@@ -165251,7 +165251,7 @@
       {
         "code": "RD/LP01-JP011",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -165260,7 +165260,7 @@
     "password": null,
     "is_legend": false,
     "title": "The Forceful Sentry",
-    "_wiki_ts": "2026-06-23T23:47:29Z",
+    "_wiki_ts": "2026-07-19T01:34:38Z",
     "card_schema_version": 2,
     "raw_name_en": "The Forceful Sentry (Rush Duel)"
   },
@@ -165333,7 +165333,7 @@
       {
         "code": "RD/LP01-JP025",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
@@ -165342,7 +165342,7 @@
     "password": null,
     "is_legend": true,
     "title": "Goblin Attack Force",
-    "_wiki_ts": "2026-07-01T04:36:03Z",
+    "_wiki_ts": "2026-07-19T01:43:59Z",
     "card_schema_version": 2,
     "raw_name_en": "Goblin Attack Force (Rush Duel)"
   },
@@ -165373,7 +165373,7 @@
       {
         "code": "RD/LP01-JP016",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
@@ -165382,7 +165382,7 @@
     "password": null,
     "is_legend": false,
     "title": "Happy Lover",
-    "_wiki_ts": "2026-06-23T20:52:21Z",
+    "_wiki_ts": "2026-07-19T01:38:34Z",
     "card_schema_version": 2,
     "raw_name_en": "Happy Lover (Rush Duel)"
   },
@@ -165473,13 +165473,13 @@
   {
     "name_ja": "ヘルシィ・レム",
     "name_ja_romaji": "Herushī Remu",
-    "attribute": "???",
-    "types": "??? / ???",
+    "attribute": "EARTH",
+    "types": "Pyro / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 7,
+    "atk": 1700,
+    "def": 1300,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
@@ -165508,7 +165508,7 @@
     "password": null,
     "is_legend": false,
     "title": "Helthy Rem",
-    "_wiki_ts": "2026-06-28T20:19:43Z",
+    "_wiki_ts": "2026-07-19T07:19:33Z",
     "card_schema_version": 2,
     "raw_name_en": "Helthy Rem"
   },
@@ -165623,7 +165623,7 @@
       {
         "code": "RD/LP01-JP018",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
@@ -165632,7 +165632,7 @@
     "password": null,
     "is_legend": false,
     "title": "Jerry Beans Man",
-    "_wiki_ts": "2026-06-23T20:52:27Z",
+    "_wiki_ts": "2026-07-19T01:40:10Z",
     "card_schema_version": 2,
     "raw_name_en": "Jerry Beans Man (Rush Duel)"
   },
@@ -165663,7 +165663,7 @@
       {
         "code": "RD/LP01-JP005",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -165672,7 +165672,7 @@
     "password": null,
     "is_legend": false,
     "title": "Mad Reloader",
-    "_wiki_ts": "2026-06-23T23:41:36Z",
+    "_wiki_ts": "2026-07-19T01:32:36Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Reloader (Rush Duel)"
   },
@@ -165787,7 +165787,7 @@
       {
         "code": "RD/LP01-JP015",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -165796,7 +165796,7 @@
     "password": null,
     "is_legend": false,
     "title": "One for One",
-    "_wiki_ts": "2026-06-24T00:05:27Z",
+    "_wiki_ts": "2026-07-19T01:37:24Z",
     "card_schema_version": 2,
     "raw_name_en": "One for One (Rush Duel)"
   },
@@ -165911,7 +165911,7 @@
       {
         "code": "RD/LP01-JP023",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
@@ -165920,7 +165920,7 @@
     "password": null,
     "is_legend": false,
     "title": "Rocket Warrior",
-    "_wiki_ts": "2026-06-24T01:03:04Z",
+    "_wiki_ts": "2026-07-19T01:43:00Z",
     "card_schema_version": 2,
     "raw_name_en": "Rocket Warrior (Rush Duel)"
   },
@@ -166080,7 +166080,7 @@
       {
         "code": "RD/LP01-JP017",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
@@ -166089,7 +166089,7 @@
     "password": null,
     "is_legend": false,
     "title": "Saggi the Dark Clown",
-    "_wiki_ts": "2026-06-23T20:52:23Z",
+    "_wiki_ts": "2026-07-19T01:39:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Saggi the Dark Clown (Rush Duel)"
   },
@@ -166120,7 +166120,7 @@
       {
         "code": "RD/LP01-JP013",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -166129,7 +166129,7 @@
     "password": null,
     "is_legend": false,
     "title": "Shield Crush",
-    "_wiki_ts": "2026-06-23T23:52:10Z",
+    "_wiki_ts": "2026-07-19T01:36:04Z",
     "card_schema_version": 2,
     "raw_name_en": "Shield Crush (Rush Duel)"
   },
@@ -166160,7 +166160,7 @@
       {
         "code": "RD/LP01-JP019",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
@@ -166169,7 +166169,7 @@
     "password": null,
     "is_legend": false,
     "title": "Shining Friendship",
-    "_wiki_ts": "2026-06-23T20:52:28Z",
+    "_wiki_ts": "2026-07-19T01:40:46Z",
     "card_schema_version": 2,
     "raw_name_en": "Shining Friendship (Rush Duel)"
   },
@@ -166369,7 +166369,7 @@
       {
         "code": "RD/LP01-JP014",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -166378,7 +166378,7 @@
     "password": null,
     "is_legend": false,
     "title": "Super Polymerization",
-    "_wiki_ts": "2026-06-23T23:59:17Z",
+    "_wiki_ts": "2026-07-19T01:36:38Z",
     "card_schema_version": 2,
     "raw_name_en": "Super Polymerization (Rush Duel)"
   },
@@ -166492,7 +166492,7 @@
       {
         "code": "RD/LP01-JP021",
         "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
@@ -166501,7 +166501,7 @@
     "password": null,
     "is_legend": false,
     "title": "Swordstalker",
-    "_wiki_ts": "2026-06-23T20:53:51Z",
+    "_wiki_ts": "2026-07-19T01:42:00Z",
     "card_schema_version": 2,
     "raw_name_en": "Swordstalker (Rush Duel)"
   },
@@ -167789,12 +167789,13 @@
     "sets_kr": [],
     "database_id": null,
     "archseries": [
+      "Elemental HERO",
       "Neos"
     ],
     "password": null,
     "is_legend": false,
     "title": "Elemental HERO Earth Neos",
-    "_wiki_ts": "2026-07-17T10:28:36Z",
+    "_wiki_ts": "2026-07-17T16:47:50Z",
     "card_schema_version": 2,
     "raw_name_en": "Elemental HERO Earth Neos"
   },
@@ -167962,7 +167963,7 @@
     "password": null,
     "is_legend": false,
     "title": "Neo-Spacian Grand Mole",
-    "_wiki_ts": "2026-07-16T17:39:36Z",
+    "_wiki_ts": "2026-07-17T16:50:40Z",
     "card_schema_version": 2,
     "raw_name_en": "Neo-Spacian Grand Mole (Rush Duel)"
   },
