@@ -1,5 +1,5 @@
 {
-  "version": 21,
+  "version": 22,
   "files": [
     "cards.json",
     "sets-data.json",
@@ -8,10 +8,10 @@
     "banlist.json"
   ],
   "hashes": {
-    "cards.json": "cffef1b76bf65ad32f6696e88a171c19e3343162a2d8541d8a81e65097b66065",
-    "sets-data.json": "5fc856d518a5f07807ace66036b60ea0bf483f0b5b41818600fedabceea790fe",
+    "cards.json": "d4716404b1c96b767113f82c538ea007ba502b5aead33c925898399e89dfdfd0",
+    "sets-data.json": "7465aba482acbd0dfa3f4b6dde627d7a3954ddb752a567a431ee9174f58db80c",
     "gallery-images.json": "001590b9a800ce37edbac1a24e297ec00dee0a22d87709bafccc436b75eb80d5",
-    "image-urls.json": "862db2248dfc5c91e2eaf59686d25081792f22e3f3f16305a76b633838a8dd47",
+    "image-urls.json": "9cb769f84fb65499ff9788c1f41e890483122524e1db3814facbe2713892cef3",
     "banlist.json": "41faaf462f07619b4f2c72836061601cfb1d69982a3bdd0263e8883974f812b7"
   }
 }

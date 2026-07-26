@@ -85471,7 +85471,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LichytheHopeful-RDAP01-JP-ORR.png"
+        "file": "RitcheofHope-RDAP01-JP-ORR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "RitcheofHope-RDDS01-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -85479,6 +85483,11 @@
         "code": "RD/AP01-JP072",
         "name": "Advance Pack: Devil's Ceremony",
         "rarity": "Over Rush Rare"
+      },
+      {
+        "code": "RD/DS01-JP001",
+        "name": "Ritche of Hope Duel Set",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -85492,10 +85501,13 @@
     "archseries": [],
     "password": null,
     "is_legend": false,
-    "title": "Lichy the Hopeful",
-    "_wiki_ts": "2025-10-22T18:08:27Z",
+    "title": "Ritche of Hope",
+    "_wiki_ts": "2026-07-22T15:49:11Z",
     "card_schema_version": 2,
-    "raw_name_en": "Lichy the Hopeful"
+    "former_titles": [
+      "Lichy the Hopeful"
+    ],
+    "raw_name_en": "Ritche of Hope"
   },
   {
     "name_ja": "デッド・オア・ライナック",
@@ -165388,11 +165400,11 @@
   },
   {
     "name_ja": "健康ズハイ！",
-    "name_ja_romaji": "Kenkōzu Hai!",
+    "name_ja_romaji": "Kenkō-zu Hai!",
     "attribute": null,
     "types": null,
-    "card_type": "???",
-    "property": "???",
+    "card_type": "Spell",
+    "property": "Ritual",
     "level": null,
     "atk": null,
     "def": null,
@@ -165400,44 +165412,44 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "None",
+    "effect": "Ritual Summon a Level 7 Pyro Type monster by sending 1 face-up Level 7 or higher Pyro Type monster with 1300 DEF from your field to the Graveyard as material. This turn, you can only attack with Pyro Type monsters.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "HealthysHigh-OW.png"
+        "file": "HealthysHigh-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP051",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Rare"
       }
     ],
     "sets_kr": [],
     "database_id": null,
     "archseries": [
-      "Helthy"
+      "Healthie"
     ],
     "password": null,
     "is_legend": false,
     "title": "Healthy's High!",
-    "_wiki_ts": "2026-06-28T20:23:30Z",
+    "_wiki_ts": "2026-07-23T18:04:51Z",
     "card_schema_version": 2,
     "raw_name_en": "Healthy's High!"
   },
   {
     "name_ja": "ヘルシィ・オリビア",
-    "name_ja_romaji": "Herushī Oribia",
+    "name_ja_romaji": "Herushyi Oribia",
     "attribute": "???",
-    "types": "??? / ???",
+    "types": "Pyro / ???",
     "card_type": null,
     "property": null,
-    "level": null,
+    "level": 7,
     "atk": null,
-    "def": null,
+    "def": 1300,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
@@ -165448,7 +165460,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "HelthyOlivia-OW.png"
+        "file": "HealthieOlivia-OW.png"
       }
     ],
     "sets_jp": [
@@ -165461,18 +165473,21 @@
     "sets_kr": [],
     "database_id": null,
     "archseries": [
-      "Helthy"
+      "Healthie"
     ],
     "password": null,
     "is_legend": false,
-    "title": "Helthy Olivia",
-    "_wiki_ts": "2026-06-28T20:18:04Z",
+    "title": "Healthie Olivia",
+    "_wiki_ts": "2026-07-24T00:24:53Z",
     "card_schema_version": 2,
-    "raw_name_en": "Helthy Olivia"
+    "former_titles": [
+      "Helthy Olivia"
+    ],
+    "raw_name_en": "Healthie Olivia"
   },
   {
     "name_ja": "ヘルシィ・レム",
-    "name_ja_romaji": "Herushī Remu",
+    "name_ja_romaji": "Herushyi Remu",
     "attribute": "EARTH",
     "types": "Pyro / Effect",
     "card_type": null,
@@ -165490,7 +165505,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "HelthyRem-OW.png"
+        "file": "HealthieRem-OW.png"
       }
     ],
     "sets_jp": [
@@ -165503,56 +165518,62 @@
     "sets_kr": [],
     "database_id": null,
     "archseries": [
-      "Helthy"
+      "Healthie"
     ],
     "password": null,
     "is_legend": false,
-    "title": "Helthy Rem",
-    "_wiki_ts": "2026-07-19T07:19:33Z",
+    "title": "Healthie Rem",
+    "_wiki_ts": "2026-07-24T00:24:58Z",
     "card_schema_version": 2,
-    "raw_name_en": "Helthy Rem"
+    "former_titles": [
+      "Helthy Rem"
+    ],
+    "raw_name_en": "Healthie Rem"
   },
   {
     "name_ja": "ヘルシィ・サティー",
-    "name_ja_romaji": "Herushī Satī",
-    "attribute": "???",
-    "types": "??? / ???",
+    "name_ja_romaji": "Herushyi Satī",
+    "attribute": "FIRE",
+    "types": "Pyro / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 7,
+    "atk": 2400,
+    "def": 1300,
     "maximum_atk": null,
     "materials": null,
-    "condition": null,
+    "condition": "You can Normal Summon this card without Tributing. If you do, its original ATK becomes 1000.",
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "Send the top 2 cards of your Deck to the Graveyard.",
+    "effect": "Special Summon 1 monster with 1300 or less DEF from your hand to your field in face-up Defense Position. Then, you can change the battle position of 1 face-up Pyro Type monster on your field.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "HelthySatie-OW.png"
+        "file": "HealthieSati-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP024",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
     "database_id": null,
     "archseries": [
-      "Helthy"
+      "Healthie"
     ],
     "password": null,
     "is_legend": false,
-    "title": "Helthy Satie",
-    "_wiki_ts": "2026-06-28T20:21:34Z",
+    "title": "Healthie Sati",
+    "_wiki_ts": "2026-07-24T00:25:06Z",
     "card_schema_version": 2,
-    "raw_name_en": "Helthy Satie"
+    "former_titles": [
+      "Helthy Satie"
+    ],
+    "raw_name_en": "Healthie Sati"
   },
   {
     "name_ja": "捕らわれの竜姫",
@@ -166206,12 +166227,12 @@
     "sets_kr": [],
     "database_id": null,
     "archseries": [
-      "Helthy"
+      "Healthie"
     ],
     "password": null,
     "is_legend": false,
     "title": "Staaart Boasting About Your Health!",
-    "_wiki_ts": "2026-06-28T20:31:58Z",
+    "_wiki_ts": "2026-07-23T06:37:57Z",
     "card_schema_version": 2,
     "raw_name_en": "Staaart Boasting About Your Health!"
   },
@@ -166538,12 +166559,12 @@
     "sets_kr": [],
     "database_id": null,
     "archseries": [
-      "Helthy"
+      "Healthie"
     ],
     "password": null,
     "is_legend": false,
     "title": "A Throw Thanks to Good Health!",
-    "_wiki_ts": "2026-06-28T20:28:20Z",
+    "_wiki_ts": "2026-07-23T06:38:01Z",
     "card_schema_version": 2,
     "raw_name_en": "A Throw Thanks to Good Health!"
   },
@@ -166768,31 +166789,31 @@
   {
     "name_ja": "正義の忍者ヱビス",
     "name_ja_romaji": "Seigi no Ninja Webisu",
-    "attribute": "???",
-    "types": "??? / ???",
+    "attribute": "WIND",
+    "types": "Warrior / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 4,
+    "atk": 1200,
+    "def": 1800,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "You have \"Helpful Items\" in your Graveyard.",
+    "effect": "Add 1 \"Goe Goe the Rumored Ninja\" or \"Omitsu the City's Idol\" from your Graveyard to your hand. This turn, you can only attack with WIND Attribute Warrior Type monsters.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "EbisutheNinjaofJustice-OW.png"
+        "file": "EbisutheNinjaofJustice-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP028",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Rare"
       }
     ],
     "sets_kr": [],
@@ -166803,7 +166824,7 @@
     "password": null,
     "is_legend": false,
     "title": "Ebisu the Ninja of Justice",
-    "_wiki_ts": "2026-07-02T03:36:40Z",
+    "_wiki_ts": "2026-07-24T17:58:54Z",
     "card_schema_version": 2,
     "raw_name_en": "Ebisu the Ninja of Justice"
   },
@@ -166863,31 +166884,31 @@
   {
     "name_ja": "噂の忍者ゴエゴエ",
     "name_ja_romaji": "Uwasa no Ninja Goegoe",
-    "attribute": "???",
-    "types": "??? / ???",
+    "attribute": "WIND",
+    "types": "Warrior / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 4,
+    "atk": 1500,
+    "def": 1000,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "During the turn you Normal Summoned this card.",
+    "effect": "Draw 1 card. Then, send 1 card from your hand to the Graveyard. Then, you can Set 1 \"Ninjitsu Art of Ultimate Transformation\" from your Graveyard to your Spell & Trap Zone. This turn, you can only attack with WIND Attribute Warrior Type monsters, and you cannot activate the effect of \"Goe Goe the Rumored Ninja\".",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "GoeGoetheRumoredNinja-OW.png"
+        "file": "GoeGoetheRumoredNinja-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP029",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -166898,7 +166919,7 @@
     "password": null,
     "is_legend": false,
     "title": "Goe Goe the Rumored Ninja",
-    "_wiki_ts": "2026-07-02T03:34:23Z",
+    "_wiki_ts": "2026-07-24T18:02:58Z",
     "card_schema_version": 2,
     "raw_name_en": "Goe Goe the Rumored Ninja"
   },
@@ -166907,8 +166928,8 @@
     "name_ja_romaji": "Otasuke Aitemu",
     "attribute": null,
     "types": null,
-    "card_type": "???",
-    "property": "???",
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -166916,20 +166937,20 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "None",
+    "effect": "Excavate the top 5 cards of your Deck. You can add 1 excavated \"Goe Goe the Rumored Ninja\" or \"Ebisu the Ninja of Justice\" to your hand. Place the other cards on the bottom of your Deck in any order. Then, if you placed 5 cards on the bottom of your Deck by this effect, you can gain 600 LP.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "HelpfulItems-OW.png"
+        "file": "HelpfulItems-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP054",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Common"
       }
     ],
     "sets_kr": [],
@@ -166940,7 +166961,7 @@
     "password": null,
     "is_legend": false,
     "title": "Helpful Items",
-    "_wiki_ts": "2026-07-02T16:14:44Z",
+    "_wiki_ts": "2026-07-24T18:10:36Z",
     "card_schema_version": 2,
     "raw_name_en": "Helpful Items"
   },
@@ -167471,32 +167492,32 @@
   },
   {
     "name_ja": "ひとやすみ",
-    "name_ja_romaji": "Hito Yasumi",
+    "name_ja_romaji": "Hitoyasumi",
     "attribute": null,
     "types": null,
-    "card_type": "???",
-    "property": "???",
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
     "maximum_atk": null,
     "materials": null,
-    "condition": null,
+    "condition": "This card's name becomes \"Helpful Items\" while in the Graveyard.",
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "None",
+    "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, you can add 1 \"Ninjitsu Art of Ultimate Transformation\" or \"Ninjitsu Art of Special Transformation\" from your Graveyard to your hand. This turn, you can only attack with WIND Attribute Warrior Type monsters.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "TakeAShortBreak-OW.png"
+        "file": "TakeAShortBreak-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP055",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Common"
       }
     ],
     "sets_kr": [],
@@ -167507,7 +167528,7 @@
     "password": null,
     "is_legend": false,
     "title": "Take A Short Break",
-    "_wiki_ts": "2026-07-02T16:15:48Z",
+    "_wiki_ts": "2026-07-24T18:14:39Z",
     "card_schema_version": 2,
     "raw_name_en": "Take A Short Break"
   },
@@ -168138,5 +168159,750 @@
     "_wiki_ts": "2026-07-16T19:27:55Z",
     "card_schema_version": 2,
     "raw_name_en": "Wasougozen Linker"
+  },
+  {
+    "name_ja": "手札抹殺",
+    "name_ja_romaji": "Tefuda Massatsu",
+    "name_translated": "Hand Obliteration",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "Each player with cards in their hand sends all Monster Cards from their hand to the Graveyard, then draws cards equal to [the number of cards each player sent to the Graveyard by this effect]. (If there are no more cards in the Deck while drawing, shuffle the cards in the Graveyard and place them in the Deck Zone, and draw the remaining number of cards.)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "CardDestruction-WWRP-JP-C.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "",
+        "name": "Wai Wai Rush Party",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": "none",
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Card Destruction",
+    "_wiki_ts": "2026-07-26T01:34:42Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Card Destruction (Wai Wai Rush Party)"
+  },
+  {
+    "name_ja": "デュエルマーカー",
+    "name_ja_romaji": "Dyueru Mākā",
+    "attribute": null,
+    "types": null,
+    "card_type": "Duel Marker",
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "Go First",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "DuelMarker-RDDS01-JP-OP-RitcheofHopeGoFirst.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/DS01-JP002",
+        "name": "Ritche of Hope Duel Set",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Duel Marker",
+    "_wiki_ts": "2026-07-22T15:56:51Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Duel Marker (Ritche of Hope - Go First)"
+  },
+  {
+    "name_ja": "デュエルマーカー",
+    "name_ja_romaji": "Dyueru Mākā",
+    "attribute": null,
+    "types": null,
+    "card_type": "Duel Marker",
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "Go Second",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "DuelMarker-RDDS01-JP-OP-RitcheofHopeGoSecond.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/DS01-JP003",
+        "name": "Ritche of Hope Duel Set",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Duel Marker",
+    "_wiki_ts": "2026-07-22T16:00:12Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Duel Marker (Ritche of Hope - Go Second)"
+  },
+  {
+    "name_ja": "噂の傾奇獅子ゴエゴエ",
+    "name_ja_romaji": "Uwasa no Kabukishishi Goegoe",
+    "attribute": "WIND",
+    "types": "Warrior / Ritual / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 8,
+    "atk": 2500,
+    "def": 1500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "If you have \"Helpful Items\" in your Graveyard, send the top card of your Deck to the Graveyard.",
+    "effect": "This card gains ATK equal to [the number of \"Helpful Items\" in your Graveyard] x 300 until the end of this turn.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "GoeGoetheRumoredKabukiLion-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP044",
+        "name": "Headliner of Reigning",
+        "rarity": "Super Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Goe Goe"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Goe Goe the Rumored Kabuki Lion",
+    "_wiki_ts": "2026-07-25T08:54:43Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Goe Goe the Rumored Kabuki Lion"
+  },
+  {
+    "name_ja": "ヘルシィ・カフェリン",
+    "name_ja_romaji": "Herushyi Kaferin",
+    "attribute": "WATER",
+    "types": "Pyro / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 7,
+    "atk": 1500,
+    "def": 1300,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "You can Normal Summon this card without Tributing. If you do, its original ATK becomes 1000.",
+    "effect_types": null,
+    "requirement": "During your Main Phase that you Normal or Special Summoned this card.",
+    "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can Set 1 \"Healthy Mind Speedy Buzzer Battle!\" from your Graveyard to your Spell & Trap Zone.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "HealthieCafferin-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP019",
+        "name": "Headliner of Reigning",
+        "rarity": "Super Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Healthie"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Healthie Cafferin",
+    "_wiki_ts": "2026-07-24T00:24:19Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Healthie Cafferin"
+  },
+  {
+    "name_ja": "ヘルシィ・エリザラミラ",
+    "name_ja_romaji": "Herushyi Erizaramira",
+    "attribute": "DARK",
+    "types": "Pyro / Ritual / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 7,
+    "atk": 1900,
+    "def": 1300,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During your Main Phase that you Ritual Summoned this card, send 1 monster from your field to the Graveyard.",
+    "effect": "Gain 700 LP. Then, you can destroy 1 monster on your opponent's field. This turn, you cannot activate the effect of \"Healthie Elizalamilla\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "HealthieElizalamilla-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP041",
+        "name": "Headliner of Reigning",
+        "rarity": "Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Healthie"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Healthie Elizalamilla",
+    "_wiki_ts": "2026-07-24T00:24:39Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Healthie Elizalamilla"
+  },
+  {
+    "name_ja": "ヘルシィ・ラミラ",
+    "name_ja_romaji": "Herushyi Ramira",
+    "attribute": "DARK",
+    "types": "Pyro / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 7,
+    "atk": 1700,
+    "def": 1300,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "You can Normal Summon this card without Tributing. If you do, its original ATK becomes 1000.",
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "Face-up Pyro Type monsters with 1300 original DEF on your field cannot be destroyed by your opponent's card effects.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "HealthieLamilla-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP021",
+        "name": "Headliner of Reigning",
+        "rarity": "Super Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Healthie"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Healthie Lamilla",
+    "_wiki_ts": "2026-07-24T00:24:45Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Healthie Lamilla"
+  },
+  {
+    "name_ja": "ヘルシィ・シャンロン",
+    "name_ja_romaji": "Herushyi Shanron",
+    "attribute": "WIND",
+    "types": "Pyro / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 7,
+    "atk": 1500,
+    "def": 1300,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "You can Normal Summon this card without Tributing. If you do, its original ATK becomes 1000.",
+    "effect_types": null,
+    "requirement": "During the turn you Normal Summoned this card.",
+    "effect": "Send 1 monster from your field to the Graveyard. Then, you can add 1 Level 7 or higher Pyro Type monster or 1 \"A Throw Thanks to Good Health!\" from your Graveyard to your hand. This turn, you cannot activate the effect of \"Healthie Shanlong\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "HealthieShanlong-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP020",
+        "name": "Headliner of Reigning",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Healthie"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Healthie Shanlong",
+    "_wiki_ts": "2026-07-24T00:25:13Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Healthie Shanlong"
+  },
+  {
+    "name_ja": "ヘルシィ・ティガサティー",
+    "name_ja_romaji": "Herushyi Tigasatī",
+    "attribute": "FIRE",
+    "types": "Pyro / Ritual / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 7,
+    "atk": 2400,
+    "def": 1300,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Send the top card of your Deck to the Graveyard.",
+    "effect": "Change up to 2 face-up Level 7 or higher Pyro Type Effect Monsters on your field to face-down Defense Position. Then, change those monsters to face-up Attack Position. This turn, those monsters gain 400 ATK, but you cannot activate their effects.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "HealthieTigasati-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP042",
+        "name": "Headliner of Reigning",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Healthie"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Healthie Tigasati",
+    "_wiki_ts": "2026-07-24T00:25:18Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Healthie Tigasati"
+  },
+  {
+    "name_ja": "健康賢明早押しバトル！",
+    "name_ja_romaji": "Kenkōkenmei Hayaoshi Batoru!",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Ritual",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Ritual Summon a Level 7 Pyro Type monster by sending 1 Level 7 or higher Pyro Type monster with 1300 DEF from your hand or field to the Graveyard as material. You cannot use a monster on your field as material by this effect, except \"Healthie Cafferin\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "HealthyMindSpeedyBuzzerBattle-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP052",
+        "name": "Headliner of Reigning",
+        "rarity": "Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Healthie"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Healthy Mind Speedy Buzzer Battle!",
+    "_wiki_ts": "2026-07-23T18:41:00Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Healthy Mind Speedy Buzzer Battle!"
+  },
+  {
+    "name_ja": "インスタント・ギフト",
+    "name_ja_romaji": "Insutanto Gifuto",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Reveal 1 Level 7 Warrior Type Fusion Monster with 2500 ATK in your Extra Deck, and declare 1 monster that is mentioned on that monster as material.",
+    "effect": "Special Summon 1 monster whose card name was declared to meet the requirement from your Graveyard face-up to your field. Then, you can draw 1 card. This turn, you can only attack with Warrior Type monsters.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "InstantGift-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP059",
+        "name": "Headliner of Reigning",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Neos"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Instant Gift",
+    "_wiki_ts": "2026-07-24T18:35:35Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Instant Gift"
+  },
+  {
+    "name_ja": "死者蘇生",
+    "name_ja_romaji": "Shisha Sosei",
+    "name_translated": "Resurrection of the Dead",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "Special Summon 1 monster from your Graveyard face-up to your field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MonsterReborn-WWRP-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "",
+        "name": "Wai Wai Rush Party",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": "none",
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Monster Reborn",
+    "_wiki_ts": "2026-07-26T01:34:48Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Monster Reborn (Wai Wai Rush Party)"
+  },
+  {
+    "name_ja": "忍法 無敵変化の術",
+    "name_ja_romaji": "Ninpō Muteki Henge no Jutsu",
+    "name_translated": "Ninjitsu - Technique of Invincible Transformation",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Ritual",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Ritual Summon a Level 8 monster with 2500 ATK/1500 DEF by sending face-up WIND Attribute Warrior Type monsters from your field to the Graveyard whose total Levels equal 8 or more as material (you cannot use more monsters than necessary as material). This turn, the monster Special Summoned by this effect cannot be destroyed by battle or card effects.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "NinjitsuArtofUltimateTransformation-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP056",
+        "name": "Headliner of Reigning",
+        "rarity": "Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Goe Goe"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Ninjitsu Art of Ultimate Transformation",
+    "_wiki_ts": "2026-07-24T18:29:13Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Ninjitsu Art of Ultimate Transformation"
+  },
+  {
+    "name_ja": "町のアイドルおみつ",
+    "name_ja_romaji": "Machi no Aidoru Omitsu",
+    "attribute": "WIND",
+    "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 0,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "You take no battle damage from battles involving this card. Face-up \"Goe Goe the Rumored Ninja\" and WIND Attribute Warrior Type Ritual Monsters on your field gain 600 ATK, and their Levels are increased by 4.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "OmitsutheCitysIdol-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP025",
+        "name": "Headliner of Reigning",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Goe Goe"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Omitsu the City's Idol",
+    "_wiki_ts": "2026-07-24T17:33:28Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Omitsu the City's Idol"
+  },
+  {
+    "name_ja": "貫通！",
+    "name_ja_romaji": "Kantsū!",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "Choose 1 face-up monster on your field. If it attacks a Defense Position monster this turn, inflict piercing battle damage (if the ATK of the attacking monster exceeds the DEF of the attack target, inflict the difference).",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "Pierce-WWRP-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "",
+        "name": "Wai Wai Rush Party",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": "none",
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Pierce!",
+    "_wiki_ts": "2026-07-26T01:35:19Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Pierce! (Wai Wai Rush Party)"
+  },
+  {
+    "name_ja": "ザ☆パワーアップ",
+    "name_ja_romaji": "Za☆Pawā Appu",
+    "name_translated": "The☆Power Up",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "This turn, 1 face-up Level 4 or lower monster on your field gains 1000 ATK.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ThePowerUp-WWRP-JP-C.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "",
+        "name": "Wai Wai Rush Party",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": "none",
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "The Power Up",
+    "_wiki_ts": "2026-07-26T01:34:25Z",
+    "card_schema_version": 2,
+    "raw_name_en": "The Power Up (Wai Wai Rush Party)"
+  },
+  {
+    "name_ja": "掻き混ぜコスモス姫",
+    "name_ja_romaji": "Kakimaze Kosumosu-hime",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "This turn, 1 face-up monster on your field gains 200 ATK and can attack players other than the player whose turn is next.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "PrincessCosmosStirs-WWRP-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "",
+        "name": "Wai Wai Rush Party",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": "none",
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Princess Cosmos Stirs",
+    "_wiki_ts": "2026-07-26T01:36:16Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Princess Cosmos Stirs (Wai Wai Rush Party)"
+  },
+  {
+    "name_ja": "『守備』封じ",
+    "name_ja_romaji": "\"Shubi\" Fūji",
+    "name_translated": "\"Defense\" Sealing",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "Change 1 Defense Position monster on the field to face-up Attack Position (you can choose a monster in either face-up Defense Position or face-down Defense Position. Also, you can choose a monster on your field).",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "StopDefense-WWRP-JP-C.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "",
+        "name": "Wai Wai Rush Party",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": "none",
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Stop Defense",
+    "_wiki_ts": "2026-07-26T01:35:31Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Stop Defense (Wai Wai Rush Party)"
   }
 ]
