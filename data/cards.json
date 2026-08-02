@@ -14577,6 +14577,11 @@
         "code": "RD/SD0E-KR030",
         "name": "Structure Deck: Black Magic Ritual",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/AD03-KR009",
+        "name": "Advanced Victory Pack Vol.3",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "database_id": "21597",
@@ -14586,7 +14591,7 @@
     "password": null,
     "is_legend": false,
     "title": "Black Magic Ritual",
-    "_wiki_ts": "2026-07-02T01:47:45Z",
+    "_wiki_ts": "2026-07-29T16:54:19Z",
     "card_schema_version": 2,
     "raw_name_en": "Black Magic Ritual (Rush Duel)"
   },
@@ -20179,6 +20184,11 @@
         "code": "RD/KP20-KR024",
         "name": "Galactica of Eternity",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/AD03-KR006",
+        "name": "Advanced Victory Pack Vol.3",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "database_id": "21275",
@@ -20188,7 +20198,7 @@
     "password": null,
     "is_legend": false,
     "title": "Card Defender",
-    "_wiki_ts": "2026-07-05T18:46:06Z",
+    "_wiki_ts": "2026-07-29T16:48:02Z",
     "card_schema_version": 2,
     "raw_name_en": "Card Defender"
   },
@@ -30217,6 +30227,10 @@
       {
         "artwork": 1.1,
         "file": "CurtainofSparks-RDMRP1-KR-C.png"
+      },
+      {
+        "artwork": 2,
+        "file": "CurtainofSparks-RDAD03-KR-OP.png"
       }
     ],
     "sets_jp": [
@@ -30261,6 +30275,11 @@
         "code": "RD/AP02-KR060",
         "name": "Advance Pack: Revenge Hearts",
         "rarity": "Common, Over Rush Rare"
+      },
+      {
+        "code": "RD/AD03-KR011",
+        "name": "Advanced Victory Pack Vol.3",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "database_id": "15163",
@@ -30268,7 +30287,7 @@
     "password": null,
     "is_legend": false,
     "title": "Curtain of Sparks",
-    "_wiki_ts": "2026-04-22T10:15:09Z",
+    "_wiki_ts": "2026-07-29T16:59:57Z",
     "card_schema_version": 2,
     "raw_name_en": "Curtain of Sparks"
   },
@@ -45312,6 +45331,11 @@
         "code": "RD/ST02-KR004",
         "name": "Starter Deck Luke - Explosive Supremacy! Dragias!!",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/AD03-KR001",
+        "name": "Advanced Victory Pack Vol.3",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "database_id": "15167",
@@ -45319,7 +45343,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dragon Knight of Darkness",
-    "_wiki_ts": "2026-05-11T17:48:55Z",
+    "_wiki_ts": "2026-07-29T16:38:13Z",
     "card_schema_version": 2,
     "raw_name_en": "Dragon Knight of Darkness"
   },
@@ -49822,6 +49846,10 @@
       {
         "artwork": 1,
         "file": "ElementalHERONeos-RDSD0B-JP-C.png"
+      },
+      {
+        "artwork": 2,
+        "file": "ElementalHERONeos-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -49839,6 +49867,11 @@
         "code": "RD/VC26-JP001",
         "name": "Jump Victory Carnival 2026 promotional cards",
         "rarity": "Ultra Rare"
+      },
+      {
+        "code": "RD/KP26-JP001",
+        "name": "Headliner of Reigning",
+        "rarity": "Full Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -49861,7 +49894,7 @@
     "password": null,
     "is_legend": false,
     "title": "Elemental HERO Neos",
-    "_wiki_ts": "2026-07-17T16:50:26Z",
+    "_wiki_ts": "2026-07-28T16:56:53Z",
     "card_schema_version": 2,
     "raw_name_en": "Elemental HERO Neos (Rush Duel)"
   },
@@ -52638,6 +52671,11 @@
         "code": "RD/HC01-KR038",
         "name": "High-Grade Collection",
         "rarity": "Super Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/AD03-KR002",
+        "name": "Advanced Victory Pack Vol.3",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "database_id": "19779",
@@ -52647,7 +52685,7 @@
     "password": null,
     "is_legend": false,
     "title": "Etraynze the Shadow Flower Restricter",
-    "_wiki_ts": "2026-07-01T21:13:10Z",
+    "_wiki_ts": "2026-07-29T16:40:04Z",
     "card_schema_version": 2,
     "raw_name_en": "Etraynze the Shadow Flower Restricter"
   },
@@ -78289,6 +78327,11 @@
         "code": "RD/KP17-KR066",
         "name": "Burst Rex of Awakening",
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/AD03-KR005",
+        "name": "Advanced Victory Pack Vol.3",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "database_id": "20363",
@@ -78298,7 +78341,7 @@
     "password": null,
     "is_legend": false,
     "title": "Invitation to a Delirious Dream",
-    "_wiki_ts": "2025-08-13T19:21:46Z",
+    "_wiki_ts": "2026-07-29T16:46:11Z",
     "card_schema_version": 2,
     "raw_name_en": "Invitation to a Delirious Dream"
   },
@@ -81207,6 +81250,11 @@
         "code": "RD/KP19-KR029",
         "name": "Salamandeus of Scorching",
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/AD03-KR007",
+        "name": "Advanced Victory Pack Vol.3",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "database_id": "20980",
@@ -81214,7 +81262,7 @@
     "password": null,
     "is_legend": false,
     "title": "Justiciar of the Dragon Stream",
-    "_wiki_ts": "2026-07-10T17:02:24Z",
+    "_wiki_ts": "2026-07-29T16:50:08Z",
     "card_schema_version": 2,
     "raw_name_en": "Justiciar of the Dragon Stream"
   },
@@ -112225,6 +112273,10 @@
       {
         "artwork": 1,
         "file": "PriestessofWiseSalvation-RDAP03-JP-C.png"
+      },
+      {
+        "artwork": 2,
+        "file": "PriestessofWiseSalvation-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -112242,6 +112294,11 @@
         "code": "RD/AP03-JP048",
         "name": "Advance Pack: Union Base",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/KP26-JP002",
+        "name": "Headliner of Reigning",
+        "rarity": "Full Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -112263,7 +112320,7 @@
     "password": null,
     "is_legend": false,
     "title": "Priestess of Wise Salvation",
-    "_wiki_ts": "2026-07-14T16:25:50Z",
+    "_wiki_ts": "2026-07-28T17:07:41Z",
     "card_schema_version": 2,
     "former_titles": [
       "Priestess of Star Salvation"
@@ -118076,6 +118133,11 @@
         "code": "RD/ORP2-KR038",
         "name": "Over Rush Pack 2",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/AD03-KR010",
+        "name": "Advanced Victory Pack Vol.3",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "database_id": "20119",
@@ -118085,7 +118147,7 @@
     "password": null,
     "is_legend": false,
     "title": "Repulsive Force",
-    "_wiki_ts": "2025-07-22T15:42:26Z",
+    "_wiki_ts": "2026-07-29T16:56:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Repulsive Force"
   },
@@ -127158,6 +127220,11 @@
         "code": "RD/ORP2-KR062",
         "name": "Over Rush Pack 2",
         "rarity": "Ultra Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/AD03-KR008",
+        "name": "Advanced Victory Pack Vol.3",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "database_id": "20136",
@@ -127167,7 +127234,7 @@
     "password": null,
     "is_legend": false,
     "title": "Sevens Road Charmy Witch",
-    "_wiki_ts": "2025-07-22T15:49:08Z",
+    "_wiki_ts": "2026-07-29T16:51:53Z",
     "card_schema_version": 2,
     "raw_name_en": "Sevens Road Charmy Witch"
   },
@@ -133162,7 +133229,7 @@
     "password": null,
     "is_legend": false,
     "title": "Soitsu",
-    "_wiki_ts": "2026-07-10T16:51:59Z",
+    "_wiki_ts": "2026-07-31T19:12:11Z",
     "card_schema_version": 2,
     "raw_name_en": "Soitsu (Rush Duel)"
   },
@@ -141560,6 +141627,11 @@
         "code": "RD/KP19-KR032",
         "name": "Salamandeus of Scorching",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/AD03-KR003",
+        "name": "Advanced Victory Pack Vol.3",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "database_id": "20983",
@@ -141567,7 +141639,7 @@
     "password": null,
     "is_legend": false,
     "title": "Support Unit - Kumamimi",
-    "_wiki_ts": "2025-05-31T12:54:48Z",
+    "_wiki_ts": "2026-07-29T16:42:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Support Unit - Kumamimi"
   },
@@ -151191,6 +151263,11 @@
         "code": "RD/SD0A-KRS06",
         "name": "Structure Deck: The Ultimate Blue-Eyed Legend",
         "rarity": "Super Rare"
+      },
+      {
+        "code": "RD/AD03-KR004",
+        "name": "Advanced Victory Pack Vol.3",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "database_id": "19431",
@@ -151200,7 +151277,7 @@
     "password": null,
     "is_legend": false,
     "title": "The Ultimate Blue-Eyed Legend",
-    "_wiki_ts": "2025-05-31T12:59:02Z",
+    "_wiki_ts": "2026-07-29T16:43:45Z",
     "card_schema_version": 2,
     "raw_name_en": "The Ultimate Blue-Eyed Legend"
   },
@@ -164187,7 +164264,7 @@
     "password": null,
     "is_legend": false,
     "title": "Doitsu",
-    "_wiki_ts": "2026-07-10T16:52:22Z",
+    "_wiki_ts": "2026-07-31T19:12:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Doitsu (Rush Duel)"
   },
@@ -168904,5 +168981,46 @@
     "_wiki_ts": "2026-07-26T01:35:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Stop Defense (Wai Wai Rush Party)"
+  },
+  {
+    "name_ja": "ソイツとドイツ",
+    "name_ja_romaji": "Soitsu to Doitsu",
+    "name_translated": "That Guy and Which Guy?",
+    "attribute": "WIND",
+    "types": "Fairy / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 5,
+    "atk": 2500,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": "\"Soitsu\" + \"Doitsu\"",
+    "condition": "This card can be Union Fusioned.",
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Send 1 card from your hand or field to the Graveyard. Then, you can Special Summon up to 2 \"Aitsu\", \"Koitsu\", \"Soitsu\", and/or \"Doitsu\" from your Graveyard face-up to your field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "SoitsuandDoitsu-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP040",
+        "name": "Headliner of Reigning",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Soitsu and Doitsu",
+    "_wiki_ts": "2026-07-31T19:11:20Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Soitsu and Doitsu"
   }
 ]

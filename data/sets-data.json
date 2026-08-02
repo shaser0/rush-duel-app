@@ -5920,5 +5920,8 @@
     "coverImage": "RDDS01-PromoJP.png",
     "cardsPerPack": null,
     "declaredSize": null
+  },
+  "Advanced Victory Pack Vol.3": {
+    "krOnly": true
   }
 }
