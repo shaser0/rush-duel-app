@@ -4478,7 +4478,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AmaLilith-RDMRP1-JP-C.png"
+        "file": "AmaLilith-RDB241-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -4507,7 +4507,7 @@
     "password": null,
     "is_legend": false,
     "title": "Ama Lilith",
-    "_wiki_ts": "2025-05-20T19:30:39Z",
+    "_wiki_ts": "2026-08-06T09:20:50Z",
     "card_schema_version": 2,
     "raw_name_en": "Ama Lilith"
   },
@@ -9575,7 +9575,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "Attron-RDSBD6-JP-C.png"
+        "file": "Attron-RDB241-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -9614,7 +9614,7 @@
     "password": null,
     "is_legend": false,
     "title": "Attron",
-    "_wiki_ts": "2024-12-05T17:41:06Z",
+    "_wiki_ts": "2026-08-06T09:23:13Z",
     "card_schema_version": 2,
     "raw_name_en": "Attron"
   },
@@ -9876,7 +9876,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AutomaticAccidentPrevention-RDKP14-JP-R.png"
+        "file": "AutomaticAccidentPrevention-RDB241-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -9908,7 +9908,7 @@
     "password": null,
     "is_legend": false,
     "title": "Automatic Accident Prevention",
-    "_wiki_ts": "2024-12-05T17:41:58Z",
+    "_wiki_ts": "2026-08-06T09:16:44Z",
     "card_schema_version": 2,
     "raw_name_en": "Automatic Accident Prevention"
   },
@@ -17201,7 +17201,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "BoosterWyvern-RDKP13-JP-R.png"
+        "file": "BoosterWyvern-RDB241-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -17230,7 +17230,7 @@
     "password": null,
     "is_legend": false,
     "title": "Booster Wyvern",
-    "_wiki_ts": "2025-05-09T16:56:13Z",
+    "_wiki_ts": "2026-08-06T09:23:04Z",
     "card_schema_version": 2,
     "raw_name_en": "Booster Wyvern"
   },
@@ -17671,7 +17671,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "BraidBladeReader-RDAP01-JP-C.png"
+        "file": "BraidReader-RDAP01-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -17702,10 +17702,13 @@
     "archseries": [],
     "password": null,
     "is_legend": false,
-    "title": "Braid Blade Reader",
-    "_wiki_ts": "2025-10-22T18:06:51Z",
+    "title": "Braid Reader",
+    "_wiki_ts": "2026-08-04T07:10:51Z",
     "card_schema_version": 2,
-    "raw_name_en": "Braid Blade Reader"
+    "former_titles": [
+      "Braid Blade Reader"
+    ],
+    "raw_name_en": "Braid Reader"
   },
   {
     "name_ja": "ブレイン・ハーベスター",
@@ -20905,7 +20908,7 @@
     "def": null,
     "maximum_atk": null,
     "materials": null,
-    "condition": "This card's name becomes \"Charis Magic Scepter - Death Wand\" while in the Graveyard.",
+    "condition": "This card's name becomes \"Charismystic Wand\" while in the Graveyard.",
     "effect_types": null,
     "requirement": "Equip to 1 face-up monster on your field.",
     "effect": "If you use the equipped monster as material for a Fusion Summon, its name can be treated as \"Celeb Rose Sorcerer\". During your opponent's turn, while the equipped monster is face-up on your field, it cannot be returned to the hand/Deck/Extra Deck by card effects.",
@@ -20937,7 +20940,7 @@
     "password": null,
     "is_legend": false,
     "title": "Celeb Blouse - Death One Shoulder",
-    "_wiki_ts": "2026-07-05T18:48:14Z",
+    "_wiki_ts": "2026-08-04T07:28:14Z",
     "card_schema_version": 2,
     "raw_name_en": "Celeb Blouse - Death One Shoulder"
   },
@@ -21171,7 +21174,7 @@
     "password": null,
     "is_legend": false,
     "title": "Celeb Rose Fabulous Magician",
-    "_wiki_ts": "2025-10-22T18:11:51Z",
+    "_wiki_ts": "2026-08-04T07:02:47Z",
     "card_schema_version": 2,
     "raw_name_en": "Celeb Rose Fabulous Magician"
   },
@@ -21510,7 +21513,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "You have \"Celeb Rose Magician\" or an Equip Spell Card in your Graveyard during the turn you Normal Summoned this card.",
-    "effect": "Add 1 \"Charis Magic Scepter - Death Wand\" or \"Fusion\" from your Graveyard to your hand.",
+    "effect": "Add 1 \"Charismystic Wand\" or \"Fusion\" from your Graveyard to your hand.",
     "flavor_text": null,
     "images": [
       {
@@ -21553,7 +21556,7 @@
     "password": null,
     "is_legend": false,
     "title": "Celeb Rose Mage",
-    "_wiki_ts": "2025-10-22T18:12:32Z",
+    "_wiki_ts": "2026-08-04T07:26:03Z",
     "card_schema_version": 2,
     "raw_name_en": "Celeb Rose Mage"
   },
@@ -21625,7 +21628,7 @@
     "password": null,
     "is_legend": false,
     "title": "Celeb Rose Magician",
-    "_wiki_ts": "2025-10-22T18:12:13Z",
+    "_wiki_ts": "2026-08-04T07:02:35Z",
     "card_schema_version": 2,
     "raw_name_en": "Celeb Rose Magician"
   },
@@ -21694,7 +21697,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "Send 3 face-up LIGHT Attribute Spellcaster Type monsters from your field to the Graveyard.",
-    "effect": "Special Summon 1 LIGHT Attribute Spellcaster Type monster with 2500 or less ATK from your Graveyard face-up to your field. Then, you can Set 1 \"Charis Magic Scepter - Death Wand\" from your Graveyard to your Spell & Trap Zone.",
+    "effect": "Special Summon 1 LIGHT Attribute Spellcaster Type monster with 2500 or less ATK from your Graveyard face-up to your field. Then, you can Set 1 \"Charismystic Wand\" from your Graveyard to your Spell & Trap Zone.",
     "flavor_text": null,
     "images": [
       {
@@ -21737,7 +21740,7 @@
     "password": null,
     "is_legend": false,
     "title": "Celeb Rose Sorcerer",
-    "_wiki_ts": "2025-10-22T18:12:22Z",
+    "_wiki_ts": "2026-08-04T07:26:01Z",
     "card_schema_version": 2,
     "raw_name_en": "Celeb Rose Sorcerer"
   },
@@ -21872,7 +21875,7 @@
     "password": null,
     "is_legend": false,
     "title": "Celeb Rose Witch",
-    "_wiki_ts": "2025-10-22T18:12:18Z",
+    "_wiki_ts": "2026-08-04T07:02:40Z",
     "card_schema_version": 2,
     "raw_name_en": "Celeb Rose Witch"
   },
@@ -22474,7 +22477,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ChangeofDessert-RDMRP1-JP-C.png"
+        "file": "ChangeofDessert-RDB242-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -22503,7 +22506,7 @@
     "password": null,
     "is_legend": false,
     "title": "Change of Dessert",
-    "_wiki_ts": "2026-06-19T19:45:12Z",
+    "_wiki_ts": "2026-08-06T09:11:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Change of Dessert"
   },
@@ -23019,6 +23022,7 @@
     "name_ja": "カリス魔杖デス・ワンド",
     "name_ja_romaji": "Karisu Majō Desu Wando",
     "name_ko": "카리스 마장 데스 원드",
+    "name_translated": "Charis Magic Scepter - Death Wand",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -23036,11 +23040,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "CharisMagicScepterDeathWand-RDAP01-JP-C.png"
+        "file": "CharismysticWand-RDAP01-JP-C.png"
       },
       {
         "artwork": 2,
-        "file": "CharisMagicScepterDeathWand-RDAP01-JP-SPR.png"
+        "file": "CharismysticWand-RDAP01-JP-SPR.png"
       }
     ],
     "sets_jp": [
@@ -23083,10 +23087,13 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Charis Magic Scepter - Death Wand",
-    "_wiki_ts": "2025-10-22T18:07:37Z",
+    "title": "Charismystic Wand",
+    "_wiki_ts": "2026-08-04T12:45:01Z",
     "card_schema_version": 2,
-    "raw_name_en": "Charis Magic Scepter - Death Wand"
+    "former_titles": [
+      "Charis Magic Scepter - Death Wand"
+    ],
+    "raw_name_en": "Charismystic Wand"
   },
   {
     "name_ja": "蒼救の光明 シャルトル",
@@ -23558,7 +23565,7 @@
     "password": null,
     "is_legend": false,
     "title": "Chemicalize Despise",
-    "_wiki_ts": "2025-01-20T22:07:35Z",
+    "_wiki_ts": "2026-08-06T06:58:09Z",
     "card_schema_version": 2,
     "raw_name_en": "Chemicalize Despise"
   },
@@ -33532,7 +33539,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dark Hydro Cannon Neutron Bluefin",
-    "_wiki_ts": "2024-12-05T20:29:11Z",
+    "_wiki_ts": "2026-08-03T19:20:27Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Hydro Cannon Neutron Bluefin"
   },
@@ -35794,7 +35801,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DarkEyesBreakstarCat-RDKP12-JP-R.png"
+        "file": "DarkEyesBreakstarCat-RDB242-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -35823,7 +35830,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dark-Eyes Breakstar Cat",
-    "_wiki_ts": "2024-12-05T20:39:29Z",
+    "_wiki_ts": "2026-08-06T09:12:59Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark-Eyes Breakstar Cat"
   },
@@ -36253,7 +36260,7 @@
     "password": null,
     "is_legend": false,
     "title": "Darkness Drake",
-    "_wiki_ts": "2025-01-29T15:06:29Z",
+    "_wiki_ts": "2026-08-06T16:02:57Z",
     "card_schema_version": 2,
     "raw_name_en": "Darkness Drake"
   },
@@ -39090,7 +39097,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DemolitionBarricade-RDTB01-JP-C.png"
+        "file": "DestructorWall-RDTB01-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -39113,10 +39120,13 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Demolition Barricade",
-    "_wiki_ts": "2026-07-08T16:38:52Z",
+    "title": "Destructor Wall",
+    "_wiki_ts": "2026-08-05T07:41:50Z",
     "card_schema_version": 2,
-    "raw_name_en": "Demolition Barricade"
+    "former_titles": [
+      "Demolition Barricade"
+    ],
+    "raw_name_en": "Destructor Wall"
   },
   {
     "name_ja": "幻壊爆竜デンジャラス・バクハムート",
@@ -39558,7 +39568,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DestructorSoldierHelmet-RDTB01-JP-C.png"
+        "file": "DestructorSoldierHelmet-RDB242-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -39592,7 +39602,7 @@
     "password": null,
     "is_legend": false,
     "title": "Destructor Soldier Helmet",
-    "_wiki_ts": "2026-07-08T16:36:14Z",
+    "_wiki_ts": "2026-08-06T09:12:32Z",
     "card_schema_version": 2,
     "former_titles": [
       "Demolition Soldier Hell Met"
@@ -39830,7 +39840,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DemolitionSurvey-RDTB01-JP-C.png"
+        "file": "DestructorSurvey-RDTB01-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -39853,10 +39863,13 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Demolition Survey",
-    "_wiki_ts": "2026-07-08T16:37:21Z",
+    "title": "Destructor Survey",
+    "_wiki_ts": "2026-08-05T07:37:26Z",
     "card_schema_version": 2,
-    "raw_name_en": "Demolition Survey"
+    "former_titles": [
+      "Demolition Survey"
+    ],
+    "raw_name_en": "Destructor Survey"
   },
   {
     "name_ja": "幻壊双姫オー・ド・ショース",
@@ -45343,7 +45356,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dragon Knight of Darkness",
-    "_wiki_ts": "2026-07-29T16:38:13Z",
+    "_wiki_ts": "2026-08-08T13:49:55Z",
     "card_schema_version": 2,
     "raw_name_en": "Dragon Knight of Darkness"
   },
@@ -56915,7 +56928,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "Fiddlebadour-RDKP15-JP-C.png"
+        "file": "Fiddlebadour-RDB242-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -56944,7 +56957,7 @@
     "password": null,
     "is_legend": false,
     "title": "Fiddlebadour",
-    "_wiki_ts": "2024-12-05T22:48:01Z",
+    "_wiki_ts": "2026-08-06T09:12:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Fiddlebadour"
   },
@@ -59957,7 +59970,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "FreshberryHappiness-RDKP10-JP-C.png"
+        "file": "FreshberryHappiness-RDB242-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -59996,7 +60009,7 @@
     "password": null,
     "is_legend": false,
     "title": "Freshberry Happiness",
-    "_wiki_ts": "2026-06-19T19:47:49Z",
+    "_wiki_ts": "2026-08-06T09:10:46Z",
     "card_schema_version": 2,
     "raw_name_en": "Freshberry Happiness"
   },
@@ -60898,7 +60911,7 @@
     "password": null,
     "is_legend": false,
     "title": "Fusion",
-    "_wiki_ts": "2026-07-15T14:42:01Z",
+    "_wiki_ts": "2026-08-03T19:20:51Z",
     "card_schema_version": 2,
     "raw_name_en": "Fusion (Rush Duel)"
   },
@@ -62458,7 +62471,7 @@
     "password": null,
     "is_legend": false,
     "title": "Galactica Fusion Space",
-    "_wiki_ts": "2026-07-04T18:28:04Z",
+    "_wiki_ts": "2026-08-06T16:01:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Galactica Fusion Space"
   },
@@ -65456,7 +65469,7 @@
     "password": null,
     "is_legend": false,
     "title": "Gladiness, the Flagbearer of Victory",
-    "_wiki_ts": "2026-07-15T14:38:04Z",
+    "_wiki_ts": "2026-08-08T13:53:01Z",
     "card_schema_version": 2,
     "raw_name_en": "Gladiness, the Flagbearer of Victory"
   },
@@ -72364,7 +72377,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "HeelHealer-RDKP11-JP-C.png"
+        "file": "HeelHealer-RDB242-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -72393,7 +72406,7 @@
     "password": null,
     "is_legend": false,
     "title": "Heel Healer",
-    "_wiki_ts": "2025-07-09T20:36:41Z",
+    "_wiki_ts": "2026-08-06T09:12:46Z",
     "card_schema_version": 2,
     "raw_name_en": "Heel Healer"
   },
@@ -74949,7 +74962,7 @@
     "password": null,
     "is_legend": false,
     "title": "Hydro Blaster Mini Bluefin",
-    "_wiki_ts": "2024-12-06T02:18:33Z",
+    "_wiki_ts": "2026-08-04T10:57:04Z",
     "card_schema_version": 2,
     "raw_name_en": "Hydro Blaster Mini Bluefin"
   },
@@ -75011,7 +75024,7 @@
     "password": null,
     "is_legend": false,
     "title": "Hydro Cannon Big Bluefin",
-    "_wiki_ts": "2026-07-01T23:46:27Z",
+    "_wiki_ts": "2026-08-03T19:21:17Z",
     "card_schema_version": 2,
     "raw_name_en": "Hydro Cannon Big Bluefin"
   },
@@ -75107,12 +75120,12 @@
     ],
     "database_id": "19651",
     "archseries": [
-      "Surging-Wave"
+      "Hydro Sword"
     ],
     "password": null,
     "is_legend": false,
     "title": "Hydro Sword Tanegashima Tuna",
-    "_wiki_ts": "2024-12-06T02:19:12Z",
+    "_wiki_ts": "2026-08-03T19:19:39Z",
     "card_schema_version": 2,
     "raw_name_en": "Hydro Sword Tanegashima Tuna"
   },
@@ -78341,7 +78354,7 @@
     "password": null,
     "is_legend": false,
     "title": "Invitation to a Delirious Dream",
-    "_wiki_ts": "2026-07-29T16:46:11Z",
+    "_wiki_ts": "2026-08-08T13:50:36Z",
     "card_schema_version": 2,
     "raw_name_en": "Invitation to a Delirious Dream"
   },
@@ -79672,7 +79685,7 @@
     "password": null,
     "is_legend": false,
     "title": "Jointech Arcscorpio",
-    "_wiki_ts": "2025-01-11T15:56:46Z",
+    "_wiki_ts": "2026-08-08T08:30:38Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Arcscorpio"
   },
@@ -79795,7 +79808,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "JointechBurstDragon-RDKP14-JP-R.png"
+        "file": "JointechBurstDragon-RDB241-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -79824,7 +79837,7 @@
     "password": null,
     "is_legend": false,
     "title": "Jointech Burst Dragon",
-    "_wiki_ts": "2025-12-08T16:49:47Z",
+    "_wiki_ts": "2026-08-06T09:24:17Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Burst Dragon"
   },
@@ -80194,6 +80207,7 @@
     "name_ja": "ジョインテック・キラースティンガー",
     "name_ja_romaji": "Jointekku Kirā Sutingā",
     "name_ko": "조인테크 킬러스팅거",
+    "name_translated": "Jointech Killer Stinger",
     "attribute": "EARTH",
     "types": "Machine / Fusion / Effect",
     "card_type": null,
@@ -80211,7 +80225,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "JointechKillerStinger-RDKP14-JP-R.png"
+        "file": "JointechStinger-RDKP14-JP-R.png"
       }
     ],
     "sets_jp": [
@@ -80234,10 +80248,13 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Jointech Killer Stinger",
-    "_wiki_ts": "2025-02-28T01:43:20Z",
+    "title": "Jointech Stinger",
+    "_wiki_ts": "2026-08-08T12:26:29Z",
     "card_schema_version": 2,
-    "raw_name_en": "Jointech Killer Stinger"
+    "former_titles": [
+      "Jointech Killer Stinger"
+    ],
+    "raw_name_en": "Jointech Stinger"
   },
   {
     "name_ja": "ジョインテック・レオ",
@@ -80662,7 +80679,7 @@
     "password": null,
     "is_legend": false,
     "title": "Jointech Spike Centipede",
-    "_wiki_ts": "2025-01-09T19:49:40Z",
+    "_wiki_ts": "2026-08-08T08:30:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Spike Centipede"
   },
@@ -82162,7 +82179,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "KeytarKid-RDSBD4-JP-C.png"
+        "file": "KeytarKid-RDB241-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -82201,7 +82218,7 @@
     "password": null,
     "is_legend": false,
     "title": "Keytar Kid",
-    "_wiki_ts": "2025-04-05T12:15:56Z",
+    "_wiki_ts": "2026-08-06T09:21:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Keytar Kid"
   },
@@ -83488,7 +83505,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "KuzuhatheTalismanicMaster-RDKP11-JP-R.png"
+        "file": "KuzuhatheTalismanicMaster-RDB242-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -83522,7 +83539,7 @@
     "password": null,
     "is_legend": false,
     "title": "Kuzuha the Talismanic Master",
-    "_wiki_ts": "2025-01-11T03:47:02Z",
+    "_wiki_ts": "2026-08-06T09:13:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Kuzuha the Talismanic Master"
   },
@@ -97047,7 +97064,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MirroringWyvern-RDKP12-JP-C.png"
+        "file": "MirroringWyvern-RDB241-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -97074,7 +97091,7 @@
     "password": null,
     "is_legend": false,
     "title": "Mirroring Wyvern",
-    "_wiki_ts": "2025-02-25T08:32:31Z",
+    "_wiki_ts": "2026-08-06T09:23:25Z",
     "card_schema_version": 2,
     "raw_name_en": "Mirroring Wyvern"
   },
@@ -108287,7 +108304,7 @@
     "atk": 3000,
     "def": 2000,
     "maximum_atk": null,
-    "materials": "\"Surging-Wave Swordsman Onimaru Kunituna\" + \"Hydro Blaster Mini Bluefin\"",
+    "materials": "\"Hydro Sword Kunituna\" + \"Hydro Blaster Mini Bluefin\"",
     "condition": null,
     "effect_types": "Continuous",
     "requirement": "None",
@@ -108296,7 +108313,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "PitchDarkSurgingWaveSwordsmanOnimaruKunituna-RDKP15-JP-C.png"
+        "file": "PitchDarkHydroSwordKunituna-RDKP15-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -108315,14 +108332,17 @@
     ],
     "database_id": "19680",
     "archseries": [
-      "Surging-Wave"
+      "Hydro Sword"
     ],
     "password": null,
     "is_legend": false,
-    "title": "Pitch-Dark Surging-Wave Swordsman Onimaru Kunituna",
-    "_wiki_ts": "2024-12-06T06:46:05Z",
+    "title": "Pitch-Dark Hydro Sword Kunituna",
+    "_wiki_ts": "2026-08-04T10:54:40Z",
     "card_schema_version": 2,
-    "raw_name_en": "Pitch-Dark Surging-Wave Swordsman Onimaru Kunituna"
+    "former_titles": [
+      "Pitch-Dark Surging-Wave Swordsman Onimaru Kunituna"
+    ],
+    "raw_name_en": "Pitch-Dark Hydro Sword Kunituna"
   },
   {
     "name_ja": "プランドリン",
@@ -113569,11 +113589,13 @@
       }
     ],
     "database_id": "18986",
-    "archseries": [],
+    "archseries": [
+      "Arthenée"
+    ],
     "password": null,
     "is_legend": false,
     "title": "Protection of Arthenée",
-    "_wiki_ts": "2025-02-28T23:48:11Z",
+    "_wiki_ts": "2026-08-05T19:16:44Z",
     "card_schema_version": 2,
     "raw_name_en": "Protection of Arthenée"
   },
@@ -115562,7 +115584,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "RagingWaves-RDKP15-JP-C.png"
+        "file": "RagingWave-RDKP15-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -115583,10 +115605,13 @@
     "archseries": [],
     "password": null,
     "is_legend": false,
-    "title": "Raging Waves",
-    "_wiki_ts": "2025-02-27T22:16:54Z",
+    "title": "Raging Wave",
+    "_wiki_ts": "2026-08-03T07:33:00Z",
     "card_schema_version": 2,
-    "raw_name_en": "Raging Waves"
+    "former_titles": [
+      "Raging Waves"
+    ],
+    "raw_name_en": "Raging Wave"
   },
   {
     "name_ja": "混沌の勇者ライダクロス・アッシュ",
@@ -117589,7 +117614,7 @@
     "password": null,
     "is_legend": false,
     "title": "Red-Reboot Enhanced Boost Dragon",
-    "_wiki_ts": "2025-01-29T14:57:06Z",
+    "_wiki_ts": "2026-08-06T16:02:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Red-Reboot Enhanced Boost Dragon"
   },
@@ -118205,6 +118230,7 @@
     "name_ja": "レクイエム・ストライクバック",
     "name_ja_romaji": "Rekuiemu Sutoraikubakku",
     "name_ko": "레퀴엠 스트라이크백",
+    "name_translated": "Requiem Strike Back",
     "attribute": null,
     "types": null,
     "card_type": "Trap",
@@ -118222,7 +118248,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "RequiemStrikeBack-RDKP20-JP-C.png"
+        "file": "StrikeBackRequiem-RDKP20-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -118243,10 +118269,13 @@
     "archseries": [],
     "password": null,
     "is_legend": false,
-    "title": "Requiem Strike Back",
-    "_wiki_ts": "2025-05-16T07:46:55Z",
+    "title": "Strike Back Requiem",
+    "_wiki_ts": "2026-08-06T12:47:06Z",
     "card_schema_version": 2,
-    "raw_name_en": "Requiem Strike Back"
+    "former_titles": [
+      "Requiem Strike Back"
+    ],
+    "raw_name_en": "Strike Back Requiem"
   },
   {
     "name_ja": "レスキューラビット",
@@ -121904,7 +121933,7 @@
     "password": null,
     "is_legend": false,
     "title": "Rose Chain Salvage",
-    "_wiki_ts": "2025-07-18T17:53:19Z",
+    "_wiki_ts": "2026-08-04T07:01:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Rose Chain Salvage"
   },
@@ -125062,7 +125091,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ScarechairScale-RDMAX2-JP-C.png"
+        "file": "ScarechairScale-RDB241-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -125091,7 +125120,7 @@
     "password": null,
     "is_legend": false,
     "title": "Scarechair Scale",
-    "_wiki_ts": "2024-12-06T08:07:54Z",
+    "_wiki_ts": "2026-08-06T09:21:40Z",
     "card_schema_version": 2,
     "raw_name_en": "Scarechair Scale"
   },
@@ -129965,7 +129994,6 @@
     "name_ja": "ルミナス・レディ",
     "name_ja_romaji": "Ruminasu Redi",
     "name_ko": "루미나스 레이디",
-    "name_translated": "Luminous Lady",
     "attribute": "LIGHT",
     "types": "Spellcaster / Effect",
     "card_type": null,
@@ -129983,7 +130011,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ShiningShamaness-RDAP01-JP-C.png"
+        "file": "LuminousLady-RDAP01-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -130014,10 +130042,13 @@
     "archseries": [],
     "password": null,
     "is_legend": false,
-    "title": "Shining Shamaness",
-    "_wiki_ts": "2025-10-22T18:06:54Z",
+    "title": "Luminous Lady",
+    "_wiki_ts": "2026-08-04T07:13:25Z",
     "card_schema_version": 2,
-    "raw_name_en": "Shining Shamaness"
+    "former_titles": [
+      "Shining Shamaness"
+    ],
+    "raw_name_en": "Luminous Lady"
   },
   {
     "name_ja": "彩光のリフ",
@@ -139826,7 +139857,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "StrayngeCatJealousy-RDMRP2-JP-C.png"
+        "file": "StrayngeCatsJealousy-RDMRP2-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -139849,10 +139880,13 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Straynge Cat Jealousy",
-    "_wiki_ts": "2026-03-15T16:32:13Z",
+    "title": "Straynge Cat's Jealousy",
+    "_wiki_ts": "2026-08-07T12:25:08Z",
     "card_schema_version": 2,
-    "raw_name_en": "Straynge Cat Jealousy"
+    "former_titles": [
+      "Straynge Cat Jealousy"
+    ],
+    "raw_name_en": "Straynge Cat's Jealousy"
   },
   {
     "name_ja": "はぐれ使い魔シグナル",
@@ -139900,7 +139934,7 @@
     "password": null,
     "is_legend": false,
     "title": "Straynge Cat Signal",
-    "_wiki_ts": "2026-01-30T19:57:58Z",
+    "_wiki_ts": "2026-08-07T12:20:04Z",
     "card_schema_version": 2,
     "raw_name_en": "Straynge Cat Signal"
   },
@@ -140000,7 +140034,7 @@
     "password": null,
     "is_legend": false,
     "title": "Straynge Gathering",
-    "_wiki_ts": "2025-01-13T21:06:23Z",
+    "_wiki_ts": "2026-08-07T12:20:25Z",
     "card_schema_version": 2,
     "raw_name_en": "Straynge Gathering"
   },
@@ -140293,7 +140327,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "StripingWyvern-RDKP15-JP-R.png"
+        "file": "StripingWyvern-RDB241-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -140322,7 +140356,7 @@
     "password": null,
     "is_legend": false,
     "title": "Striping Wyvern",
-    "_wiki_ts": "2025-07-07T18:05:51Z",
+    "_wiki_ts": "2026-08-06T09:22:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Striping Wyvern"
   },
@@ -142858,7 +142892,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SurgingWaveSwordsmanOnimaruKunituna-RDKP15-JP-C.png"
+        "file": "HydroSwordKunituna-RDKP15-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -142877,14 +142911,17 @@
     ],
     "database_id": "19657",
     "archseries": [
-      "Surging-Wave"
+      "Hydro Sword"
     ],
     "password": null,
     "is_legend": false,
-    "title": "Surging-Wave Swordsman Onimaru Kunituna",
-    "_wiki_ts": "2024-12-06T09:33:23Z",
+    "title": "Hydro Sword Kunituna",
+    "_wiki_ts": "2026-08-04T10:55:56Z",
     "card_schema_version": 2,
-    "raw_name_en": "Surging-Wave Swordsman Onimaru Kunituna"
+    "former_titles": [
+      "Surging-Wave Swordsman Onimaru Kunituna"
+    ],
+    "raw_name_en": "Hydro Sword Kunituna"
   },
   {
     "name_ja": "波導刀吉光クリザメ",
@@ -142903,12 +142940,12 @@
     "condition": null,
     "effect_types": null,
     "requirement": null,
-    "effect": "''A legendary samurai merman who received the divine blessing of the Surging-Wave Sword. There is none that can see the sword fights that take place in the ocean depths.''",
+    "effect": "''A legendary samurai merman who received the divine blessing of the Hydro Sword. There is none that can see the sword fights that take place in the ocean depths.''",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "SurgingWaveSwordsmanYoshimitsuShark-RDKP15-JP-C.png"
+        "file": "HydroSwordYoshimitsuGoblinShark-RDKP15-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -142927,14 +142964,17 @@
     ],
     "database_id": "19637",
     "archseries": [
-      "Surging-Wave"
+      "Hydro Sword"
     ],
     "password": null,
     "is_legend": false,
-    "title": "Surging-Wave Swordsman Yoshimitsu Shark",
-    "_wiki_ts": "2024-12-06T09:33:26Z",
+    "title": "Hydro Sword Yoshimitsu Goblin Shark",
+    "_wiki_ts": "2026-08-03T19:20:17Z",
     "card_schema_version": 2,
-    "raw_name_en": "Surging-Wave Swordsman Yoshimitsu Shark"
+    "former_titles": [
+      "Surging-Wave Swordsman Yoshimitsu Shark"
+    ],
+    "raw_name_en": "Hydro Sword Yoshimitsu Goblin Shark"
   },
   {
     "name_ja": "ビックリ・ゾンビクトリー",
@@ -154599,7 +154639,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "VoidCorridor-RDSD05-JP-C.png"
+        "file": "VoidCorridor-RDB242-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -154631,7 +154671,7 @@
     "password": null,
     "is_legend": false,
     "title": "Void Corridor",
-    "_wiki_ts": "2025-05-20T20:31:21Z",
+    "_wiki_ts": "2026-08-06T09:13:14Z",
     "card_schema_version": 2,
     "raw_name_en": "Void Corridor"
   },
@@ -155733,7 +155773,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "VoidvelgGlobule-RDSD05-JP-C.png"
+        "file": "VoidvelgGlobule-RDB242-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -155767,7 +155807,7 @@
     "password": null,
     "is_legend": false,
     "title": "Voidvelg Globule",
-    "_wiki_ts": "2025-05-20T20:26:15Z",
+    "_wiki_ts": "2026-08-06T09:12:39Z",
     "card_schema_version": 2,
     "raw_name_en": "Voidvelg Globule"
   },
@@ -156600,7 +156640,7 @@
     "password": null,
     "is_legend": false,
     "title": "Voidvelg Shroud",
-    "_wiki_ts": "2025-02-28T20:57:49Z",
+    "_wiki_ts": "2026-08-06T06:58:35Z",
     "card_schema_version": 2,
     "raw_name_en": "Voidvelg Shroud"
   },
@@ -158291,7 +158331,7 @@
     "password": null,
     "is_legend": false,
     "title": "Wave Fusion",
-    "_wiki_ts": "2026-07-02T01:37:32Z",
+    "_wiki_ts": "2026-08-03T19:21:29Z",
     "card_schema_version": 2,
     "raw_name_en": "Wave Fusion"
   },
@@ -165050,31 +165090,35 @@
   {
     "name_ja": "アインソフ・リッター",
     "name_ja_romaji": "Ainsofu Rittā",
-    "attribute": "???",
-    "types": "??? / ???",
+    "attribute": "WATER",
+    "types": "Machine / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 3,
+    "atk": 1200,
+    "def": 0,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "During the turn you Normal Summoned this card, send this face-up card from your field to the Graveyard.",
+    "effect": "Special Summon 1 Level 4 monster from your Graveyard to your field in face-up Defense Position.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "EinSofRitter-OW.png"
+        "file": "EinSofRitter-RDKP26-JP-OP.png"
+      },
+      {
+        "artwork": 2,
+        "file": "EinSofRitter-RDKP26-JP-OP-AA.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP035",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -165083,7 +165127,7 @@
     "password": null,
     "is_legend": false,
     "title": "Ein Sof Ritter",
-    "_wiki_ts": "2026-06-28T20:38:44Z",
+    "_wiki_ts": "2026-08-07T19:11:21Z",
     "card_schema_version": 2,
     "raw_name_en": "Ein Sof Ritter"
   },
@@ -165093,8 +165137,8 @@
     "name_translated": "Encounter with the Divine Tree",
     "attribute": null,
     "types": null,
-    "card_type": "???",
-    "property": "???",
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -165102,20 +165146,20 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "None",
+    "effect": "Excavate the top 4 cards of your Deck. You can add 1 excavated \"Lauan Adventurers\" and/or 1 WIND Attribute Plant Type Effect Monster to your hand. Place the other cards on the bottom of your Deck in any order.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "EncounterwiththeSacredTree-OW.png"
+        "file": "EncounterwiththeSacredTree-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP049",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Common"
       }
     ],
     "sets_kr": [],
@@ -165126,7 +165170,7 @@
     "password": null,
     "is_legend": false,
     "title": "Encounter with the Sacred Tree",
-    "_wiki_ts": "2026-06-29T07:44:55Z",
+    "_wiki_ts": "2026-08-03T18:11:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Encounter with the Sacred Tree"
   },
@@ -165520,31 +165564,31 @@
   {
     "name_ja": "ヘルシィ・オリビア",
     "name_ja_romaji": "Herushyi Oribia",
-    "attribute": "???",
-    "types": "Pyro / ???",
+    "attribute": "LIGHT",
+    "types": "Pyro / Effect",
     "card_type": null,
     "property": null,
     "level": 7,
-    "atk": null,
+    "atk": 2200,
     "def": 1300,
     "maximum_atk": null,
     "materials": null,
-    "condition": null,
+    "condition": "You can Tribute Summon this card in Attack Position by Tributing 1 Pyro Type monster. If you do, its original ATK becomes 1500.",
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "During your Main Phase that you Normal or Special Summoned this card.",
+    "effect": "Add 1 \"Healthy's High!\" from your Graveyard to your hand. You cannot activate monster effects until the end of this turn, except those of Pyro Type monsters.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "HealthieOlivia-OW.png"
+        "file": "HealthieOlivia-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP023",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Common"
       }
     ],
     "sets_kr": [],
@@ -165555,7 +165599,7 @@
     "password": null,
     "is_legend": false,
     "title": "Healthie Olivia",
-    "_wiki_ts": "2026-07-24T00:24:53Z",
+    "_wiki_ts": "2026-08-07T18:47:36Z",
     "card_schema_version": 2,
     "former_titles": [
       "Helthy Olivia"
@@ -165655,31 +165699,31 @@
   {
     "name_ja": "捕らわれの竜姫",
     "name_ja_romaji": "Toraware no Ryūhime",
-    "attribute": null,
-    "types": null,
-    "card_type": "???",
-    "property": "???",
-    "level": null,
-    "atk": null,
-    "def": null,
+    "attribute": "WATER",
+    "types": "Wyrm / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 800,
+    "def": 1500,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "None",
+    "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, you can place 1 \"Fusion\" from your Graveyard on top of the Deck. This turn, you can only attack with WATER Attribute monsters.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "TheImprisonedDragonPrincess-OW.png"
+        "file": "TheImprisonedDragonPrincess-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP009",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Rare"
       }
     ],
     "sets_kr": [],
@@ -165690,7 +165734,7 @@
     "password": null,
     "is_legend": false,
     "title": "The Imprisoned Dragon Princess",
-    "_wiki_ts": "2026-06-28T19:33:03Z",
+    "_wiki_ts": "2026-08-06T17:59:03Z",
     "card_schema_version": 2,
     "raw_name_en": "The Imprisoned Dragon Princess"
   },
@@ -165777,31 +165821,31 @@
   {
     "name_ja": "魔導兵器トラクト",
     "name_ja_romaji": "Madōheiki Torakuto",
-    "attribute": "???",
-    "types": "??? / ???",
+    "attribute": "WATER",
+    "types": "Machine / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 5,
+    "atk": 2000,
+    "def": 2000,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "None",
+    "effect": "Fusion Summon a Magical Knight Type monster by sending monsters from your hand or field to the Graveyard as material, including this card.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "MagicalWeaponTract-OW.png"
+        "file": "MagicalWeaponTract-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP012",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Common"
       }
     ],
     "sets_kr": [],
@@ -165812,17 +165856,17 @@
     "password": null,
     "is_legend": false,
     "title": "Magical Weapon Tract",
-    "_wiki_ts": "2026-06-28T19:28:23Z",
+    "_wiki_ts": "2026-08-06T18:02:54Z",
     "card_schema_version": 2,
     "raw_name_en": "Magical Weapon Tract"
   },
   {
     "name_ja": "謎の飛行植物は実在した！！",
-    "name_ja_romaji": "Nazo no Hikōshokubutsu ha Jitsuzai Shita!!",
+    "name_ja_romaji": "Nazo no Hikōshokubutsu wa Jitsuzaishita!!",
     "attribute": null,
     "types": null,
-    "card_type": "???",
-    "property": "???",
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -165830,20 +165874,20 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "Place 1 card from your hand on the bottom of the Deck.",
+    "effect": "Add 1 Level 4 or lower WIND Attribute Plant Type monster from your Graveyard to your hand. Then, you can Special Summon 1 Level 6 or higher WIND Attribute Plant Type monster from your Graveyard face-up to your field. This turn, you can only attack with Plant Type monsters.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "TheMysteriousFlyingPlantsAreReal-OW.png"
+        "file": "TheMysteriousFlyingPlantsAreReal-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP048",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Rare"
       }
     ],
     "sets_kr": [],
@@ -165853,10 +165897,13 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "The Mysterious Flying Plants Are Real",
-    "_wiki_ts": "2026-06-28T19:40:42Z",
+    "title": "The Mysterious Flying Plants Are Real!!",
+    "_wiki_ts": "2026-08-04T04:14:11Z",
     "card_schema_version": 2,
-    "raw_name_en": "The Mysterious Flying Plants Are Real"
+    "former_titles": [
+      "The Mysterious Flying Plants Are Real"
+    ],
+    "raw_name_en": "The Mysterious Flying Plants Are Real!!"
   },
   {
     "name_ja": "ワン・フォー・ワン",
@@ -166483,31 +166530,35 @@
   {
     "name_ja": "赫奕たる魔剣スルト",
     "name_ja_romaji": "Kakuyakutaru Maken Suruto",
-    "attribute": "???",
-    "types": "??? / ???",
+    "attribute": "FIRE",
+    "types": "Pyro / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 4,
+    "atk": 800,
+    "def": 1300,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "Pay 500 LP, and send this face-up card from your field to the Graveyard.",
+    "effect": "Return 1 face-up non-Maximum Monster from your field to the owner's hand. Then, if you returned a monster whose original Level is 7 by this effect, you can draw 1 card. This turn, you cannot activate the effect of \"Surtr the Brilliant Magical Sword\".",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "SurtrtheBrilliantMagicalSword-OW.png"
+        "file": "SurtrtheBrilliantMagicalSword-RDKP26-JP-OP.png"
+      },
+      {
+        "artwork": 2,
+        "file": "SurtrtheBrilliantMagicalSword-RDKP26-JP-OP-AA.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JPS00",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Ultra Rare, Over Rush Rare (Premium Black Version)"
       }
     ],
     "sets_kr": [],
@@ -166516,7 +166567,7 @@
     "password": null,
     "is_legend": false,
     "title": "Surtr the Brilliant Magical Sword",
-    "_wiki_ts": "2026-06-28T20:35:34Z",
+    "_wiki_ts": "2026-08-04T20:38:01Z",
     "card_schema_version": 2,
     "raw_name_en": "Surtr the Brilliant Magical Sword"
   },
@@ -166647,32 +166698,32 @@
   },
   {
     "name_ja": "ＵＭＰスカイフォルビア",
-    "name_ja_romaji": "Yūemupī Sukai Forubia",
+    "name_ja_romaji": "Yū Emu Pī Sukai Forubia",
     "attribute": "WIND",
-    "types": "Plant / ???",
+    "types": "Plant / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 6,
+    "atk": 800,
+    "def": 0,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "During your Main Phase that you Normal or Special Summoned this card, send the top card of your Deck to the Graveyard.",
+    "effect": "This turn, this card can attack directly. Then, you can equip 1 WIND Attribute Plant Type Union monster from your Graveyard to this card that can equip to it as an Equip Spell Card as if it were equipped by that monster's effect.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "UMPSkyFolvia-OW.png"
+        "file": "UMPSkyForbia-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP017",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Common"
       }
     ],
     "sets_kr": [],
@@ -166682,10 +166733,13 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "UMP Sky Folvia",
-    "_wiki_ts": "2026-06-29T07:46:08Z",
+    "title": "UMP Sky Forbia",
+    "_wiki_ts": "2026-08-04T10:44:10Z",
     "card_schema_version": 2,
-    "raw_name_en": "UMP Sky Folvia"
+    "former_titles": [
+      "UMP Sky Folvia"
+    ],
+    "raw_name_en": "UMP Sky Forbia"
   },
   {
     "name_ja": "アトラクト・ゴーレム",
@@ -167341,31 +167395,31 @@
   {
     "name_ja": "秘密特捜人魚ヤエ",
     "name_ja_romaji": "Himitsu Tokusō Ningyo Yae",
-    "attribute": "???",
-    "types": "??? / ???",
+    "attribute": "WIND",
+    "types": "Warrior / Ritual / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 4,
+    "atk": 1500,
+    "def": 2000,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "During your Main Phase that you Ritual Summoned this card.",
+    "effect": "Draw 1 card. Then, you can look at 1 face-down card in your opponent's Spell & Trap Zone. If that card is a Trap Card, destroy it. This turn, you cannot activate the effect of \"Yae the Secret Special Investigations Mermaid\".",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "YaetheSecretSpecialInvestigationsMermaid-OW.png"
+        "file": "YaetheSecretSpecialInvestigationsMermaid-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP043",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Super Rare"
       }
     ],
     "sets_kr": [],
@@ -167376,7 +167430,7 @@
     "password": null,
     "is_legend": false,
     "title": "Yae the Secret Special Investigations Mermaid",
-    "_wiki_ts": "2026-07-02T03:42:27Z",
+    "_wiki_ts": "2026-08-02T18:16:20Z",
     "card_schema_version": 2,
     "raw_name_en": "Yae the Secret Special Investigations Mermaid"
   },
@@ -167612,31 +167666,31 @@
   {
     "name_ja": "特捜忍者ヤエ",
     "name_ja_romaji": "Tokusō Ninja Yae",
-    "attribute": "???",
-    "types": "??? / ???",
+    "attribute": "WIND",
+    "types": "Warrior / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 4,
+    "atk": 1100,
+    "def": 200,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "During the turn you Normal Summoned this card.",
+    "effect": "Add 1 \"Ninjitsu Art of Special Transformation\" from your Graveyard to your hand. This turn, you cannot activate the effect of \"Yae the Special Investigations Ninja\".",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "YaetheSpecialInvestigationsNinja-OW.png"
+        "file": "YaetheSpecialInvestigationsNinja-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP027",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Rare"
       }
     ],
     "sets_kr": [],
@@ -167647,7 +167701,7 @@
     "password": null,
     "is_legend": false,
     "title": "Yae the Special Investigations Ninja",
-    "_wiki_ts": "2026-07-02T03:38:39Z",
+    "_wiki_ts": "2026-08-02T18:05:38Z",
     "card_schema_version": 2,
     "raw_name_en": "Yae the Special Investigations Ninja"
   },
@@ -167671,7 +167725,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ChaoskampfBeastLeviatriton-RDSJMP-JP-OP.png"
+        "file": "ChaoskampfBeastLeviatriton-RDSJMP-JP-NPR.png"
       }
     ],
     "sets_jp": [
@@ -167682,52 +167736,54 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23530",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Chaoskampf Beast Leviatriton",
-    "_wiki_ts": "2026-07-16T15:33:34Z",
+    "_wiki_ts": "2026-08-06T15:17:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Chaoskampf Beast Leviatriton"
   },
   {
     "name_ja": "分霊樹コアドラシル",
     "name_ja_romaji": "Bunreiju Koadorashiru",
-    "attribute": "???",
-    "types": "??? / ???",
+    "attribute": "WIND",
+    "types": "Plant / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 7,
+    "atk": 1200,
+    "def": 2500,
     "maximum_atk": null,
     "materials": null,
-    "condition": null,
+    "condition": "If you have a face-up Spell Card on your field, you can Special Summon this card from your hand face-up to your field.",
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "Send 1 face-up Spell Card from your field to the Graveyard.",
+    "effect": "Return 1 card from your opponent's field to the owner's hand. This turn, you can only attack with Plant Type monsters.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "CoredrasiltheSpiritTreeBunrei-OW.png"
+        "file": "CoredrasiltheSpiritTreeBunrei-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP018",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Common"
       }
     ],
     "sets_kr": [],
     "database_id": null,
-    "archseries": [],
+    "archseries": [
+      "Lauan Adventurers"
+    ],
     "password": null,
     "is_legend": false,
     "title": "Coredrasil the Spirit Tree Bunrei",
-    "_wiki_ts": "2026-07-02T11:38:55Z",
+    "_wiki_ts": "2026-08-03T18:05:23Z",
     "card_schema_version": 2,
     "raw_name_en": "Coredrasil the Spirit Tree Bunrei"
   },
@@ -169022,5 +169078,635 @@
     "_wiki_ts": "2026-07-31T19:11:20Z",
     "card_schema_version": 2,
     "raw_name_en": "Soitsu and Doitsu"
+  },
+  {
+    "name_ja": "聖寂の護り手アルテネ",
+    "name_ja_romaji": "Seijaku no Mamorite Arutene",
+    "attribute": "LIGHT",
+    "types": "Fairy / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 5,
+    "atk": 2000,
+    "def": 1200,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "You can Special Summon this card from your hand face-up to your field by revealing 1 other Union monster in your hand.",
+    "effect_types": null,
+    "requirement": "Send the top 2 cards of your Deck to the Graveyard.",
+    "effect": "Equip this card to 1 face-up monster on your field as an Equip Spell Card with the following effect. ●The equipped monster gains 1000 ATK, and during your turn, your opponent cannot activate Trap Cards when it declares an attack.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ArthenéetheDefenderofSacredSilence-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP033",
+        "name": "Headliner of Reigning",
+        "rarity": "Super Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Arthenée"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Arthenée the Defender of Sacred Silence",
+    "_wiki_ts": "2026-08-05T19:29:15Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Arthenée the Defender of Sacred Silence"
+  },
+  {
+    "name_ja": "アルテネの大聖堂",
+    "name_ja_romaji": "Arutene no Daiseidō",
+    "attribute": null,
+    "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "When your opponent Normal Summons a monster, or when an opponent's monster declares an attack.",
+    "effect": "Place 1 Fairy Type Union monster or 1 \"Protection of Arthenée\" from your Graveyard on the bottom of the Deck. Then, you can change 1 face-up monster on your opponent's field to face-down Defense Position.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "CathedralofArthenée-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP065",
+        "name": "Headliner of Reigning",
+        "rarity": "Super Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Arthenée"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Cathedral of Arthenée",
+    "_wiki_ts": "2026-08-05T19:34:46Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Cathedral of Arthenée"
+  },
+  {
+    "name_ja": "水晶の占い師",
+    "name_ja_romaji": "Suishō no Uranaishi",
+    "attribute": "WATER",
+    "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 1,
+    "atk": 100,
+    "def": 100,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": null,
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "CrystalSeer-RDSJMP-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/SJMP-JP067",
+        "name": "Saikyō Jump October 2026 promotional card",
+        "rarity": "Normal Parallel Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Crystal Seer",
+    "_wiki_ts": "2026-08-03T14:57:44Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Crystal Seer (Rush Duel)"
+  },
+  {
+    "name_ja": "聖寂の祈り手",
+    "name_ja_romaji": "Seijaku no Inorite",
+    "attribute": "LIGHT",
+    "types": "Fairy / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 1,
+    "atk": 0,
+    "def": 1200,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During your Main Phase that you Normal or Special Summoned this card, send the top 2 cards of your Deck to the Graveyard.",
+    "effect": "Neither player takes battle damage from battles involving this card until the end of your opponent's next turn. Then, you can add 1 Fairy Type Union monster or 1 \"Protection of Arthenée\" from your Graveyard to your hand.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "TheDiscipleofSacredSilence-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP066",
+        "name": "Headliner of Reigning",
+        "rarity": "Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Arthenée"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "The Disciple of Sacred Silence",
+    "_wiki_ts": "2026-08-05T19:37:34Z",
+    "card_schema_version": 2,
+    "raw_name_en": "The Disciple of Sacred Silence"
+  },
+  {
+    "name_ja": "ラワン冒険隊が行く！！",
+    "name_ja_romaji": "Rawan Bōkentai ga Iku!!",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Place 1 other face-up card from your field on the bottom of the owner's Deck.",
+    "effect": "Equip up to 2 WIND Attribute Plant Type Union monsters from your Graveyard to 1 face-up monster on your field that can equip to it as Equip Spell Cards as if they were equipped by those monsters' effects.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "TheLauanAdventurersAreGo-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP050",
+        "name": "Headliner of Reigning",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lauan Adventurers"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "The Lauan Adventurers Are Go!!",
+    "_wiki_ts": "2026-08-03T18:15:53Z",
+    "card_schema_version": 2,
+    "raw_name_en": "The Lauan Adventurers Are Go!!"
+  },
+  {
+    "name_ja": "ラワンリーダー・バルサー",
+    "name_ja_romaji": "Rawan Rīdā Barusā",
+    "attribute": "WIND",
+    "types": "Plant / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 1,
+    "atk": 1200,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Send the top 2 cards of your Deck to the Graveyard.",
+    "effect": "This card gains ATK equal to [the number of face-up cards on your field] x 300 until the end of this turn. Then, if you have \"Lauan Adventurers\" in your Graveyard, you can draw 1 card. If you do, you cannot activate the effect of \"Lauan Leader Balsa\" this turn.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LauanLeaderBalsa-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP016",
+        "name": "Headliner of Reigning",
+        "rarity": "Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lauan Adventurers"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Lauan Leader Balsa",
+    "_wiki_ts": "2026-08-03T17:51:59Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Lauan Leader Balsa"
+  },
+  {
+    "name_ja": "ラワンマッチョ・デックス",
+    "name_ja_romaji": "Rawan Matcho Dekkusu",
+    "attribute": "WIND",
+    "types": "Plant / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 1,
+    "atk": 800,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Send the top card of your Deck to the Graveyard.",
+    "effect": "Equip this card to 1 face-up WIND Attribute Plant Type monster on your field as an Equip Spell Card with the following effect. ●The equipped monster gains 800 ATK. If you have \"Lauan Adventurers\" in your Graveyard, it gains an additional 800 ATK.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LauanMachoDex-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP014",
+        "name": "Headliner of Reigning",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lauan Adventurers"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Lauan Macho Dex",
+    "_wiki_ts": "2026-08-03T17:15:44Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Lauan Macho Dex"
+  },
+  {
+    "name_ja": "ラワンマッパー・アイヴィ",
+    "name_ja_romaji": "Rawan Mappā Aivi",
+    "attribute": "WIND",
+    "types": "Plant / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 1,
+    "atk": 800,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Send the top card of your Deck to the Graveyard.",
+    "effect": "Equip this card to 1 face-up WIND Attribute Plant Type monster on your field as an Equip Spell Card with the following effect. ●The equipped monster inflicts piercing battle damage. If you have 2 or more \"Lauan Adventurers\" in your Graveyard, your opponent cannot activate Trap Cards.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LauanMapperIvy-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP013",
+        "name": "Headliner of Reigning",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lauan Adventurers"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Lauan Mapper Ivy",
+    "_wiki_ts": "2026-08-03T17:11:33Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Lauan Mapper Ivy"
+  },
+  {
+    "name_ja": "ラワンシスター・ハート",
+    "name_ja_romaji": "Rawan Shisutā Hāto",
+    "attribute": "WIND",
+    "types": "Plant / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 1,
+    "atk": 1200,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "During the Battle Phase, face-up monsters on your opponent's field lose ATK/DEF equal to [the number of face-up Equip Spell Cards on your field] x 500.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LauanSisterHeart-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP015",
+        "name": "Headliner of Reigning",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lauan Adventurers"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Lauan Sister Heart",
+    "_wiki_ts": "2026-08-03T17:24:32Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Lauan Sister Heart"
+  },
+  {
+    "name_ja": "魔導兵騎ゼノ・ワン",
+    "name_ja_romaji": "Madōheiki Zeno Wan",
+    "attribute": "WATER",
+    "types": "Magical Knight / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 9,
+    "atk": 3000,
+    "def": 2600,
+    "maximum_atk": null,
+    "materials": "\"Magical Weapon Tract\" + 1 Level 8 or lower WATER Attribute Effect Monster",
+    "condition": null,
+    "effect_types": null,
+    "requirement": "You have \"Magical Weapon Tract\" in your Graveyard.",
+    "effect": "Destroy 1 card on your opponent's field. Give control of this card to your opponent during the End Phase of this turn (when control of this card is changed, if there is no Monster Zone to place in, send it to the Graveyard).",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MagicalWeapoknightXenoOne-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP038",
+        "name": "Headliner of Reigning",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Star Protector"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Magical Weapoknight Xeno One",
+    "_wiki_ts": "2026-08-06T18:16:31Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Magical Weapoknight Xeno One"
+  },
+  {
+    "name_ja": "アルテネの聖盾",
+    "name_ja_romaji": "Arutene no Seijun",
+    "attribute": "LIGHT",
+    "types": "Fairy / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 1,
+    "atk": 0,
+    "def": 1200,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Equip this card to 1 face-up Fairy Type monster on your field as an Equip Spell Card with the following effect. ●The equipped monster gains 400 ATK/DEF, and cannot be returned to the hand/Deck/Extra Deck by card effects. Face-up Equip Spell Cards on your field cannot be destroyed by your opponent's card effects.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "TheSacredShieldofArthenée-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP032",
+        "name": "Headliner of Reigning",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Arthenée"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "The Sacred Shield of Arthenée",
+    "_wiki_ts": "2026-08-05T19:25:03Z",
+    "card_schema_version": 2,
+    "raw_name_en": "The Sacred Shield of Arthenée"
+  },
+  {
+    "name_ja": "アルテネの聖槍",
+    "name_ja_romaji": "Arutene no Seisō",
+    "attribute": "LIGHT",
+    "types": "Fairy / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 1,
+    "atk": 0,
+    "def": 1200,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Equip this card to 1 face-up Fairy Type monster on your field as an Equip Spell Card with the following effect. ●The equipped monster gains 800 ATK, and it inflicts piercing battle damage.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "TheSacredSpearofArthenée-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP031",
+        "name": "Headliner of Reigning",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Arthenée"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "The Sacred Spear of Arthenée",
+    "_wiki_ts": "2026-08-05T19:19:00Z",
+    "card_schema_version": 2,
+    "raw_name_en": "The Sacred Spear of Arthenée"
+  },
+  {
+    "name_ja": "放課後に聞こえるピアノの音",
+    "name_ja_romaji": "Hōkago ni Kikoeru Piano no Oto",
+    "attribute": "DARK",
+    "types": "Zombie / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 2,
+    "atk": 800,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "Face-up LIGHT and DARK Attribute monsters with 0 original ATK or DEF on your field gain 500 ATK, and cannot be destroyed by your opponent's card effects.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "TheSoundsofaPianoHeardAfterSchool-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP008",
+        "name": "Headliner of Reigning",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Ghost Story"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "The Sounds of a Piano Heard After School",
+    "_wiki_ts": "2026-08-08T21:09:17Z",
+    "card_schema_version": 2,
+    "raw_name_en": "The Sounds of a Piano Heard After School"
+  },
+  {
+    "name_ja": "救惺招集",
+    "name_ja_romaji": "Kyūsei Shōshū",
+    "name_translated": "Wise Salvation Calling",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Excavate the top 4 cards of your Deck. You can add 1 excavated Level 4 or lower WATER Attribute monster with 0 or 1500 DEF and/or 1 \"Star Protector Awakening\" to your hand. Place the other cards on the bottom of your Deck in any order.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "StarProtectorCalling-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP046",
+        "name": "Headliner of Reigning",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Star Protector"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Star Protector Calling",
+    "_wiki_ts": "2026-08-06T18:22:10Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Star Protector Calling"
+  },
+  {
+    "name_ja": "サンダービート・クラッシュ",
+    "name_ja_romaji": "Sandābīto Kurasshu",
+    "name_translated": "Thunderbeat Crash",
+    "attribute": "LIGHT",
+    "types": "Thunder / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1200,
+    "def": 1200,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During the turn you Normal Summoned this card, place 2 LIGHT Attribute monsters from your Graveyard on the bottom of the Deck in any order.",
+    "effect": "Choose 1 face-down card in your opponent's Spell & Trap Zone. This turn, your opponent cannot activate that card.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ThunderbeetleCrash-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP007",
+        "name": "Headliner of Reigning",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Thunderbeetle"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Thunderbeetle Crash",
+    "_wiki_ts": "2026-08-06T16:55:31Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Thunderbeetle Crash"
   }
 ]

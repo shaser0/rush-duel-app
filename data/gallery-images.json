@@ -1055,11 +1055,6 @@
     "BluefinOath-RDAP01-JP-SR.png",
     "BluefinOath-RDAP01-JP-ScR.png"
   ],
-  "Braid Blade Reader": [
-    "BraidBladeReader-RDAP01-JP-C.png",
-    "BraidBladeReader-RDAP01-JP-SPR.png",
-    "BraidBladeReader-RDKP13-JP-C.png"
-  ],
   "Brick Phone Nyan Nyan": [
     "BrickPhoneNyanNyan-RDAP01-JP-C.png",
     "BrickPhoneNyanNyan-RDAP01-JP-ScR.png",
@@ -1141,7 +1136,8 @@
   "Great Maju Garzett": [
     "GreatMajuGarzett-RDAP01-JP-C.png",
     "GreatMajuGarzett-RDAP01-JP-ScR.png",
-    "GreatMajuGarzett-RDLGP1-JP-R.png"
+    "GreatMajuGarzett-RDLGP1-JP-R.png",
+    "GreatMajuGarzett-RDB241-JP-URRed.png"
   ],
   "Jagged Claw Attack": [
     "JaggedClawAttack-RDAP01-JP-SR.png",
@@ -1179,12 +1175,6 @@
     "SecretOrder-RDLGP1-JP-ScR.png",
     "SecretOrder-RDDK01-JP-SR.png",
     "SecretOrder-RDDK01-JP-ScR.png"
-  ],
-  "Shining Shamaness": [
-    "ShiningShamaness-RDAP01-JP-C.png",
-    "ShiningShamaness-RDAP01-JP-ScR.png",
-    "ShiningShamaness-RDHC01-JP-C.png",
-    "ShiningShamaness-RDHC01-JP-SR.png"
   ],
   "Tide-Ride Bluefin": [
     "TideRideBluefin-RDAP01-JP-UR.png",
@@ -2648,12 +2638,6 @@
     "CelticGuardian-RDB001-JP-C.png",
     "CelticGuardian-RDB001-JP-URRed.png"
   ],
-  "Charis Magic Scepter - Death Wand": [
-    "CharisMagicScepterDeathWand-RDAP01-JP-C.png",
-    "CharisMagicScepterDeathWand-RDAP01-JP-SPR.png",
-    "CharisMagicScepterDeathWand-RDHC01-JP-ScR.png",
-    "CharisMagicScepterDeathWand-RDKP13-JP-R.png"
-  ],
   "Compulsory Evacuation Device": [
     "CompulsoryEvacuationDevice-RDSD0C-JP-NPR.png",
     "CompulsoryEvacuationDevice-RDHC01-JP-UR.png"
@@ -4094,7 +4078,8 @@
   ],
   "Wilhel the Wisdom Monarch": [
     "WilheltheWisdomMonarch-RDSD0F-JP-C.png",
-    "WilheltheWisdomMonarch-RDKP13-JP-R.png"
+    "WilheltheWisdomMonarch-RDKP13-JP-R.png",
+    "WilheltheWisdomMonarch-RDB241-JP-SR.png"
   ],
   "Zaborg the Thunder Monarch": [
     "ZaborgtheThunderMonarch-RDKP13-JP-R.png",
@@ -4683,7 +4668,8 @@
   ],
   "Meteor Drake": [
     "MeteorDrake-RDTB02-JP-C.png",
-    "MeteorDrake-RDKP15-JP-R.png"
+    "MeteorDrake-RDKP15-JP-R.png",
+    "MeteorDrake-RDB242-JP-SR.png"
   ],
   "Meteor Flare Fusion": [
     "MeteorFlareFusion-RDTB02-JP-C.png",
@@ -4895,7 +4881,9 @@
   ],
   "Meteor Dragon": [
     "MeteorDragon-RDTB02-JP-C.png",
-    "MeteorDragon-RDLGP1-JP-C.png"
+    "MeteorDragon-RDLGP1-JP-C.png",
+    "MeteorDragon-RDB242-JP-SR.png",
+    "MeteorDragon-RDB242-JP-URRed.png"
   ],
   "Night Before the Big March": [
     "NightBeforetheBigMarch-RDORP3-JP-C.png",
@@ -5502,7 +5490,8 @@
     "Attron-RDSBD6-JP-C.png"
   ],
   "Automatic Accident Prevention": [
-    "AutomaticAccidentPrevention-RDKP14-JP-R.png"
+    "AutomaticAccidentPrevention-RDKP14-JP-R.png",
+    "AutomaticAccidentPrevention-RDB241-JP-SR.png"
   ],
   "Booster Wyvern": [
     "BoosterWyvern-RDKP13-JP-R.png"
@@ -7706,7 +7695,8 @@
     "Fiddlebadour-RDKP15-JP-C.png"
   ],
   "Freshberry Happiness": [
-    "FreshberryHappiness-RDKP10-JP-C.png"
+    "FreshberryHappiness-RDKP10-JP-C.png",
+    "FreshberryHappiness-RDB242-JP-SR.png"
   ],
   "Heel Healer": [
     "HeelHealer-RDKP11-JP-C.png"
@@ -8117,7 +8107,7 @@
     "ExplosiveDestructorWyrmDangerousBakhamut-RDTB01-JP-ORR.png"
   ],
   "Destructor Soldier Helmet": [
-    "DemolitionSoldierHellMet-RDTB01-JP-C.png"
+    "DestructorSoldierHelmet-RDTB01-JP-C.png"
   ],
   "Priestess of Wise Salvation": [
     "PriestessofWiseSalvation-RDEXT1-JP-SR.png",
@@ -8295,5 +8285,22 @@
   "Z-Trial Tank": [
     "ZTrialTank-RDAP03-JP-SR.png",
     "ZTrialTank-RDAP03-JP-ScR.png"
+  ],
+  "Braid Reader": [
+    "BraidBladeReader-RDAP01-JP-C.png",
+    "BraidReader-RDAP01-JP-SPR.png",
+    "BraidReader-RDKP13-JP-C.png"
+  ],
+  "Charismystic Wand": [
+    "CharisMagicScepterDeathWand-RDAP01-JP-C.png",
+    "CharisMagicScepterDeathWand-RDAP01-JP-SPR.png",
+    "CharismysticWand-RDHC01-JP-ScR.png",
+    "CharismysticWand-RDKP13-JP-R.png"
+  ],
+  "Luminous Lady": [
+    "ShiningShamaness-RDAP01-JP-C.png",
+    "LuminousLady-RDAP01-JP-ScR.png",
+    "LuminousLady-RDHC01-JP-C.png",
+    "LuminousLady-RDHC01-JP-SR.png"
   ]
 }

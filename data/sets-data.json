@@ -5923,5 +5923,12 @@
   },
   "Advanced Victory Pack Vol.3": {
     "krOnly": true
+  },
+  "Saikyō Jump October 2026 promotional card": {
+    "releaseDateJP": "September 4, 2026",
+    "packsPerBox": null,
+    "coverImage": "SJMP-2026-10-Cover.png",
+    "cardsPerPack": null,
+    "declaredSize": null
   }
 }
