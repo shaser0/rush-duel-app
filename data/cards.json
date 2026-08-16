@@ -509,7 +509,7 @@
     "password": null,
     "is_legend": false,
     "title": "Abyss Flash",
-    "_wiki_ts": "2025-07-31T02:18:44Z",
+    "_wiki_ts": "2026-08-13T08:46:39Z",
     "card_schema_version": 2,
     "raw_name_en": "Abyss Flash"
   },
@@ -534,7 +534,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AbyssGash-RDVSP1-JP-C.png"
+        "file": "AbyssGush-RDVSP1-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -557,10 +557,13 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Abyss Gash",
-    "_wiki_ts": "2025-07-31T02:19:21Z",
+    "title": "Abyss Gush",
+    "_wiki_ts": "2026-08-15T09:13:44Z",
     "card_schema_version": 2,
-    "raw_name_en": "Abyss Gash"
+    "former_titles": [
+      "Abyss Gash"
+    ],
+    "raw_name_en": "Abyss Gush"
   },
   {
     "name_ja": "アビス・ソルジャー",
@@ -1721,7 +1724,7 @@
     "password": null,
     "is_legend": false,
     "title": "Abysslayer Apsaras",
-    "_wiki_ts": "2025-01-11T04:11:56Z",
+    "_wiki_ts": "2026-08-13T08:49:49Z",
     "card_schema_version": 2,
     "raw_name_en": "Abysslayer Apsaras"
   },
@@ -1770,7 +1773,7 @@
     "password": null,
     "is_legend": false,
     "title": "Abysslayer Cetus",
-    "_wiki_ts": "2025-01-13T00:38:19Z",
+    "_wiki_ts": "2026-08-13T08:50:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Abysslayer Cetus"
   },
@@ -1819,7 +1822,7 @@
     "password": null,
     "is_legend": false,
     "title": "Abysslayer Leviaknight",
-    "_wiki_ts": "2024-12-05T16:39:29Z",
+    "_wiki_ts": "2026-08-13T08:48:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Abysslayer Leviaknight"
   },
@@ -1868,7 +1871,7 @@
     "password": null,
     "is_legend": false,
     "title": "Abysslayer Makara",
-    "_wiki_ts": "2024-12-05T16:39:32Z",
+    "_wiki_ts": "2026-08-13T16:40:35Z",
     "card_schema_version": 2,
     "raw_name_en": "Abysslayer Makara"
   },
@@ -1976,7 +1979,7 @@
     "password": null,
     "is_legend": false,
     "title": "Abysslayer Vodyanoy",
-    "_wiki_ts": "2025-07-24T14:53:00Z",
+    "_wiki_ts": "2026-08-13T16:39:56Z",
     "card_schema_version": 2,
     "raw_name_en": "Abysslayer Vodyanoy"
   },
@@ -2751,7 +2754,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "If your opponent has a monster in their Graveyard, send up to 2 cards from your field to the Graveyard.",
-    "effect": "Shuffle monsters from your opponent's Graveyard into the Deck equal to [the number of cards sent to the Graveyard to meet the requirement]. Then, you can add 1 \"Advance Impact\" or \"Emperor Realm\" from your Graveyard to your hand.",
+    "effect": "Shuffle monsters from your opponent's Graveyard into the Deck equal to [the number of cards sent to the Graveyard to meet the requirement]. Then, you can add 1 \"Tribute Impact\" or \"The Emperor Realm\" from your Graveyard to your hand.",
     "flavor_text": null,
     "images": [
       {
@@ -2790,7 +2793,7 @@
     "password": null,
     "is_legend": false,
     "title": "Advance Form",
-    "_wiki_ts": "2025-12-09T11:30:34Z",
+    "_wiki_ts": "2026-08-10T00:48:25Z",
     "card_schema_version": 2,
     "raw_name_en": "Advance Form"
   },
@@ -2798,6 +2801,7 @@
     "name_ja": "アドバンス・インパクト",
     "name_ja_romaji": "Adobansu Inpakuto",
     "name_ko": "어드밴스 임팩트",
+    "name_translated": "Advance Impact",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -2815,7 +2819,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AdvanceImpact-RDSD0F-JP-C.png"
+        "file": "TributeImpact-RDSD0F-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -2848,10 +2852,13 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Advance Impact",
-    "_wiki_ts": "2025-12-09T11:40:47Z",
+    "title": "Tribute Impact",
+    "_wiki_ts": "2026-08-09T08:16:54Z",
     "card_schema_version": 2,
-    "raw_name_en": "Advance Impact"
+    "former_titles": [
+      "Advance Impact"
+    ],
+    "raw_name_en": "Tribute Impact"
   },
   {
     "name_ja": "エアロ・ソーサラー",
@@ -35964,7 +35971,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DarkglowAngler-RDVSP1-JP-SR.png"
+        "file": "DarkGlowAngler-RDVSP1-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -35985,10 +35992,13 @@
     "archseries": [],
     "password": null,
     "is_legend": false,
-    "title": "Darkglow Angler",
-    "_wiki_ts": "2024-12-05T20:40:11Z",
+    "title": "Dark Glow Angler",
+    "_wiki_ts": "2026-08-11T17:04:15Z",
     "card_schema_version": 2,
-    "raw_name_en": "Darkglow Angler"
+    "former_titles": [
+      "Darkglow Angler"
+    ],
+    "raw_name_en": "Dark Glow Angler"
   },
   {
     "name_ja": "堕天使ゼラート",
@@ -68226,7 +68236,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "GroundmasterBathynomus-RDVSP1-JP-C.png"
+        "file": "GrandmasterBathynomus-RDVSP1-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -68247,10 +68257,13 @@
     "archseries": [],
     "password": null,
     "is_legend": false,
-    "title": "Groundmaster Bathynomus",
-    "_wiki_ts": "2024-12-06T00:56:24Z",
+    "title": "Grandmaster Bathynomus",
+    "_wiki_ts": "2026-08-11T07:39:50Z",
     "card_schema_version": 2,
-    "raw_name_en": "Groundmaster Bathynomus"
+    "former_titles": [
+      "Groundmaster Bathynomus"
+    ],
+    "raw_name_en": "Grandmaster Bathynomus"
   },
   {
     "name_ja": "ザ☆ガード",
@@ -84329,7 +84342,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LegacyrexLegarex-RDVSP1-JP-SR.png"
+        "file": "LegacyRexLegarex-RDVSP1-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -84350,10 +84363,13 @@
     "archseries": [],
     "password": null,
     "is_legend": false,
-    "title": "Legacyrex Legarex",
-    "_wiki_ts": "2024-12-06T03:48:31Z",
+    "title": "Legacy Rex Legarex",
+    "_wiki_ts": "2026-08-11T17:05:11Z",
     "card_schema_version": 2,
-    "raw_name_en": "Legacyrex Legarex"
+    "former_titles": [
+      "Legacyrex Legarex"
+    ],
+    "raw_name_en": "Legacy Rex Legarex"
   },
   {
     "name_ja": "英雄の降臨",
@@ -89634,6 +89650,7 @@
     "name_ja": "魔導槍グレイス・スピア",
     "name_ja_romaji": "Madōsō Gureisu Supia",
     "name_ko": "마도창 그레이스 스피어",
+    "name_translated": "Magical Lance - Grace Spear",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -89651,7 +89668,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MagicalLanceGraceSpear-RD5TH1-JP-SR.png"
+        "file": "TheMagicalGraceSpear-RD5TH1-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -89692,10 +89709,13 @@
     "archseries": [],
     "password": null,
     "is_legend": false,
-    "title": "Magical Lance - Grace Spear",
-    "_wiki_ts": "2025-07-24T14:56:57Z",
+    "title": "The Magical Grace Spear",
+    "_wiki_ts": "2026-08-10T12:48:15Z",
     "card_schema_version": 2,
-    "raw_name_en": "Magical Lance - Grace Spear"
+    "former_titles": [
+      "Magical Lance - Grace Spear"
+    ],
+    "raw_name_en": "The Magical Grace Spear"
   },
   {
     "name_ja": "樹海の魔草",
@@ -129719,6 +129739,7 @@
     "name_ja": "輝鋼超竜デヴァスター・オケアビス",
     "name_ja_romaji": "Kikōchōryū Devasutā Okeabisu",
     "name_ko": "휘강초룡 데바스타 오케어비스",
+    "name_translated": "Devaster Oceabyss, the Radiant Steel Superdragon",
     "attribute": "LIGHT",
     "types": "Sea Serpent / Maximum / Effect",
     "card_type": null,
@@ -129728,7 +129749,7 @@
     "def": 0,
     "maximum_atk": 3500,
     "materials": null,
-    "condition": "You can Maximum Summon this card together with \"Shinesteel Ultra Dragon Devastar Okeabyss [L]\" and \"Shinesteel Ultra Dragon Devastar Okeabyss [R]\".",
+    "condition": "You can Maximum Summon this card together with \"Devaster Oceabyss, the Radiant Steel Overdragon [L]\" and \"Devaster Oceabyss, the Radiant Steel Overdragon [R]\".",
     "effect_types": null,
     "requirement": "Maximum Mode: If you have 10 or more Sea Serpent Type monsters in your Graveyard, send 1 card from your hand to the Graveyard.",
     "effect": "This card gains ATK equal to [the ATK of 1 face-up monster on your opponent's field] until the end of this turn.",
@@ -129736,7 +129757,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ShinesteelUltraDragonDevastarOkeabyss-RDVSP1-JP-NPR.png"
+        "file": "DevasterOceabysstheRadiantSteelOverdragon-RDVSP1-JP-NPR.png"
       }
     ],
     "sets_jp": [
@@ -129759,16 +129780,20 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Shinesteel Ultra Dragon Devastar Okeabyss",
-    "_wiki_ts": "2024-12-06T08:26:20Z",
+    "title": "Devaster Oceabyss, the Radiant Steel Overdragon",
+    "_wiki_ts": "2026-08-12T10:51:26Z",
     "card_schema_version": 2,
-    "raw_name_en": "Shinesteel Ultra Dragon Devastar Okeabyss"
+    "former_titles": [
+      "Shinesteel Ultra Dragon Devastar Okeabyss"
+    ],
+    "raw_name_en": "Devaster Oceabyss, the Radiant Steel Overdragon"
   },
   {
-    "name_en": "Shinesteel Ultra Dragon Devastar Okeabyss [L]",
+    "name_en": "Devaster Oceabyss, the Radiant Steel Overdragon [L]",
     "name_ja": "輝鋼超竜デヴァスター・オケアビス［Ｌ］",
     "name_ja_romaji": "Kikōchōryū Devasutā Okeabisu [Eru]",
     "name_ko": "휘강초룡 데바스타 오케어비스[L]",
+    "name_translated": "Devaster Oceabyss, the Radiant Steel Superdragon [L]",
     "attribute": "LIGHT",
     "types": "Sea Serpent / Maximum / Effect",
     "card_type": null,
@@ -129786,7 +129811,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ShinesteelUltraDragonDevastarOkeabyssL-RDVSP1-JP-NPR.png"
+        "file": "DevasterOceabysstheRadiantSteelOverdragonL-RDVSP1-JP-NPR.png"
       }
     ],
     "sets_jp": [
@@ -129809,16 +129834,20 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Shinesteel Ultra Dragon Devastar Okeabyss (L)",
-    "_wiki_ts": "2025-01-13T02:41:27Z",
+    "title": "Devaster Oceabyss, the Radiant Steel Overdragon (L)",
+    "_wiki_ts": "2026-08-12T10:51:53Z",
     "card_schema_version": 2,
-    "raw_name_en": "Shinesteel Ultra Dragon Devastar Okeabyss [L]"
+    "former_titles": [
+      "Shinesteel Ultra Dragon Devastar Okeabyss (L)"
+    ],
+    "raw_name_en": "Devaster Oceabyss, the Radiant Steel Overdragon [L]"
   },
   {
-    "name_en": "Shinesteel Ultra Dragon Devastar Okeabyss [R]",
+    "name_en": "Devaster Oceabyss, the Radiant Steel Overdragon [R]",
     "name_ja": "輝鋼超竜デヴァスター・オケアビス［Ｒ］",
     "name_ja_romaji": "Kikōchōryū Devasutā Okeabisu [Āru]",
     "name_ko": "휘강초룡 데바스타 오케어비스[R]",
+    "name_translated": "Devaster Oceabyss, the Radiant Steel Superdragon [R]",
     "attribute": "LIGHT",
     "types": "Sea Serpent / Maximum / Effect",
     "card_type": null,
@@ -129836,7 +129865,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ShinesteelUltraDragonDevastarOkeabyssR-RDVSP1-JP-NPR.png"
+        "file": "DevasterOceabysstheRadiantSteelOverdragonR-RDVSP1-JP-NPR.png"
       }
     ],
     "sets_jp": [
@@ -129859,10 +129888,13 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Shinesteel Ultra Dragon Devastar Okeabyss (R)",
-    "_wiki_ts": "2024-12-06T08:26:24Z",
+    "title": "Devaster Oceabyss, the Radiant Steel Overdragon (R)",
+    "_wiki_ts": "2026-08-12T10:52:18Z",
     "card_schema_version": 2,
-    "raw_name_en": "Shinesteel Ultra Dragon Devastar Okeabyss [R]"
+    "former_titles": [
+      "Shinesteel Ultra Dragon Devastar Okeabyss (R)"
+    ],
+    "raw_name_en": "Devaster Oceabyss, the Radiant Steel Overdragon [R]"
   },
   {
     "name_ja": "魅惑の不夜城",
@@ -132511,7 +132543,7 @@
     "password": null,
     "is_legend": false,
     "title": "Skysavior Symbol",
-    "_wiki_ts": "2026-05-30T10:12:17Z",
+    "_wiki_ts": "2026-08-13T17:36:57Z",
     "card_schema_version": 2,
     "raw_name_en": "Skysavior Symbol"
   },
@@ -140963,6 +140995,7 @@
     "name_ja": "超銀河王ロード・オブ・ギャラクティカ",
     "name_ja_romaji": "Chōgingaō Rōdo Obu Gyarakutika",
     "name_ko": "초은하왕 로드 오브 갤럭티카",
+    "name_translated": "Lord of Galactica, the Super Galaxy King",
     "attribute": "LIGHT",
     "types": "Galaxy / Maximum / Effect",
     "card_type": null,
@@ -140972,7 +141005,7 @@
     "def": 0,
     "maximum_atk": 4000,
     "materials": null,
-    "condition": "You can Maximum Summon this card together with \"Super Galaxy King Lord of Galactica [L]\" and \"Super Galaxy King Lord of Galactica [R]\".",
+    "condition": "You can Maximum Summon this card together with \"Lord of Galactica, the Supreme Galaxy King [L]\" and \"Lord of Galactica, the Supreme Galaxy King [R]\".",
     "effect_types": null,
     "requirement": "During the turn you Normal Summoned this card by Tributing a Galaxy Type Normal Monster.",
     "effect": "Add 2 Level 10 monsters from your Graveyard to your hand. Then, return this card to the owner's hand.",
@@ -140980,7 +141013,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SuperGalaxyKingLordofGalactica-RDHC01-JP-SR.png"
+        "file": "LordofGalacticatheSupremeGalaxyKing-RDHC01-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -141003,16 +141036,20 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Super Galaxy King Lord of Galactica",
-    "_wiki_ts": "2024-12-06T09:23:38Z",
+    "title": "Lord of Galactica, the Supreme Galaxy King",
+    "_wiki_ts": "2026-08-09T09:23:54Z",
     "card_schema_version": 2,
-    "raw_name_en": "Super Galaxy King Lord of Galactica"
+    "former_titles": [
+      "Super Galaxy King Lord of Galactica"
+    ],
+    "raw_name_en": "Lord of Galactica, the Supreme Galaxy King"
   },
   {
-    "name_en": "Super Galaxy King Lord of Galactica [L]",
+    "name_en": "Lord of Galactica, the Supreme Galaxy King [L]",
     "name_ja": "超銀河王ロード・オブ・ギャラクティカ［Ｌ］",
     "name_ja_romaji": "Chōgingaō Rōdo Obu Gyarakutika [Eru]",
     "name_ko": "초은하왕 로드 오브 갤럭티카[L]",
+    "name_translated": "Lord of Galactica, the Super Galaxy King [L]",
     "attribute": "LIGHT",
     "types": "Galaxy / Maximum / Effect",
     "card_type": null,
@@ -141030,7 +141067,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SuperGalaxyKingLordofGalacticaL-RDHC01-JP-SR.png"
+        "file": "LordofGalacticatheSupremeGalaxyKingL-RDHC01-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -141053,16 +141090,20 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Super Galaxy King Lord of Galactica (L)",
-    "_wiki_ts": "2026-01-30T20:19:37Z",
+    "title": "Lord of Galactica, the Supreme Galaxy King (L)",
+    "_wiki_ts": "2026-08-09T09:24:26Z",
     "card_schema_version": 2,
-    "raw_name_en": "Super Galaxy King Lord of Galactica [L]"
+    "former_titles": [
+      "Super Galaxy King Lord of Galactica (L)"
+    ],
+    "raw_name_en": "Lord of Galactica, the Supreme Galaxy King [L]"
   },
   {
-    "name_en": "Super Galaxy King Lord of Galactica [R]",
+    "name_en": "Lord of Galactica, the Supreme Galaxy King [R]",
     "name_ja": "超銀河王ロード・オブ・ギャラクティカ［Ｒ］",
     "name_ja_romaji": "Chōgingaō Rōdo Obu Gyarakutika [Āru]",
     "name_ko": "초은하왕 로드 오브 갤럭티카[R]",
+    "name_translated": "Lord of Galactica, the Super Galaxy King [R]",
     "attribute": "LIGHT",
     "types": "Galaxy / Maximum / Effect",
     "card_type": null,
@@ -141080,7 +141121,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SuperGalaxyKingLordofGalacticaR-RDHC01-JP-SR.png"
+        "file": "LordofGalacticatheSupremeGalaxyKingR-RDHC01-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -141103,10 +141144,13 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Super Galaxy King Lord of Galactica (R)",
-    "_wiki_ts": "2024-12-06T09:23:43Z",
+    "title": "Lord of Galactica, the Supreme Galaxy King (R)",
+    "_wiki_ts": "2026-08-09T09:24:42Z",
     "card_schema_version": 2,
-    "raw_name_en": "Super Galaxy King Lord of Galactica [R]"
+    "former_titles": [
+      "Super Galaxy King Lord of Galactica (R)"
+    ],
+    "raw_name_en": "Lord of Galactica, the Supreme Galaxy King [R]"
   },
   {
     "name_ja": "ＳＰグラファガス・プラズマセイバー",
@@ -141281,7 +141325,7 @@
     "def": 0,
     "maximum_atk": 4000,
     "materials": null,
-    "condition": "You can Maximum Summon this card together with \"Super Princess of the Flock - Max Mutton [L]\" and \"Super Princess of the Flock - Max Mutton [R]\". This card's name becomes \"Princess of the Flock - Miss Mutton\" while in the Graveyard.",
+    "condition": "You can Maximum Summon this card together with \"Super Princess of the Flock - Miss Mutton Max [L]\" and \"Super Princess of the Flock - Miss Mutton Max [R]\". This card's name becomes \"Princess of the Flock - Miss Mutton\" while in the Graveyard.",
     "effect_types": null,
     "requirement": "Send 1 \"Meet and Greed\" or \"Beaming Bell Beam\" from your hand to the Graveyard.",
     "effect": "Destroy 1 card on your opponent's field.",
@@ -141289,7 +141333,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SuperPrincessoftheFlockMaxMutton-RDORP3-JP-C.png"
+        "file": "SuperPrincessoftheFlockMissMuttonMax-RDORP3-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -141312,13 +141356,16 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Super Princess of the Flock - Max Mutton",
-    "_wiki_ts": "2026-01-20T11:46:57Z",
+    "title": "Super Princess of the Flock - Miss Mutton Max",
+    "_wiki_ts": "2026-08-11T12:27:24Z",
     "card_schema_version": 2,
-    "raw_name_en": "Super Princess of the Flock - Max Mutton"
+    "former_titles": [
+      "Super Princess of the Flock - Max Mutton"
+    ],
+    "raw_name_en": "Super Princess of the Flock - Miss Mutton Max"
   },
   {
-    "name_en": "Super Princess of the Flock - Max Mutton [L]",
+    "name_en": "Super Princess of the Flock - Miss Mutton Max [L]",
     "name_ja": "大魔法羊女メェ～グちゃんＭＡＸウール［Ｌ］",
     "name_ja_romaji": "Daimahōyōjo Meēgu-chan Makkusu Ūru [Eru]",
     "name_ko": "대마법양녀 메에~구양 MAX 울[L]",
@@ -141340,7 +141387,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SuperPrincessoftheFlockMaxMuttonL-RDORP3-JP-C.png"
+        "file": "SuperPrincessoftheFlockMissMuttonMaxL-RDORP3-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -141363,13 +141410,16 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Super Princess of the Flock - Max Mutton (L)",
-    "_wiki_ts": "2026-01-20T11:46:52Z",
+    "title": "Super Princess of the Flock - Miss Mutton Max (L)",
+    "_wiki_ts": "2026-08-11T12:28:50Z",
     "card_schema_version": 2,
-    "raw_name_en": "Super Princess of the Flock - Max Mutton [L]"
+    "former_titles": [
+      "Super Princess of the Flock - Max Mutton (L)"
+    ],
+    "raw_name_en": "Super Princess of the Flock - Miss Mutton Max [L]"
   },
   {
-    "name_en": "Super Princess of the Flock - Max Mutton [R]",
+    "name_en": "Super Princess of the Flock - Miss Mutton Max [R]",
     "name_ja": "大魔法羊女メェ～グちゃんＭＡＸウール［Ｒ］",
     "name_ja_romaji": "Daimahōyōjo Meēgu-chan Makkusu Ūru [Āru]",
     "name_ko": "대마법양녀 메에~구양 MAX 울[R]",
@@ -141391,7 +141441,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SuperPrincessoftheFlockMaxMuttonR-RDORP3-JP-C.png"
+        "file": "SuperPrincessoftheFlockMissMuttonMaxR-RDORP3-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -141414,10 +141464,13 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Super Princess of the Flock - Max Mutton (R)",
-    "_wiki_ts": "2026-01-20T11:47:03Z",
+    "title": "Super Princess of the Flock - Miss Mutton Max (R)",
+    "_wiki_ts": "2026-08-11T12:30:51Z",
     "card_schema_version": 2,
-    "raw_name_en": "Super Princess of the Flock - Max Mutton [R]"
+    "former_titles": [
+      "Super Princess of the Flock - Max Mutton (R)"
+    ],
+    "raw_name_en": "Super Princess of the Flock - Miss Mutton Max [R]"
   },
   {
     "name_ja": "超戦士の閃光",
@@ -161098,6 +161151,7 @@
     "name_ja": "ラス・オブ・アビス",
     "name_ja_romaji": "Rasu Obu Abisu",
     "name_ko": "래스 오브 어비스",
+    "name_translated": "Wrath of Abyss",
     "attribute": null,
     "types": null,
     "card_type": "Trap",
@@ -161115,7 +161169,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "WrathofAbyss-RDVSP1-JP-C.png"
+        "file": "TheWrathofAbyss-RDVSP1-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -161138,10 +161192,13 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Wrath of Abyss",
-    "_wiki_ts": "2025-07-31T02:20:05Z",
+    "title": "The Wrath of Abyss",
+    "_wiki_ts": "2026-08-15T10:24:27Z",
     "card_schema_version": 2,
-    "raw_name_en": "Wrath of Abyss"
+    "former_titles": [
+      "Wrath of Abyss"
+    ],
+    "raw_name_en": "The Wrath of Abyss"
   },
   {
     "name_ja": "警告鱗光",
@@ -165333,6 +165390,10 @@
       {
         "artwork": 1,
         "file": "FisttheStarProtectorsRoaringGauntlet-RDKP26-JP-OP.png"
+      },
+      {
+        "artwork": 2,
+        "file": "FisttheStarProtectorsRoaringGauntlet-RDKP26-JP-OP-AA.png"
       }
     ],
     "sets_jp": [
@@ -165350,7 +165411,7 @@
     "password": null,
     "is_legend": false,
     "title": "Fist the Star Protector's Roaring Gauntlet",
-    "_wiki_ts": "2026-07-14T16:00:07Z",
+    "_wiki_ts": "2026-08-11T17:13:06Z",
     "card_schema_version": 2,
     "former_titles": [
       "Fist the Star Protector Roaring Fist"
@@ -165618,22 +165679,22 @@
     "def": 1300,
     "maximum_atk": null,
     "materials": null,
-    "condition": null,
+    "condition": "You can Normal Summon this card without Tributing. If you do, its original ATK becomes 1000.",
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "Send the top card of your Deck to the Graveyard.",
+    "effect": "Make 1 face-up monster on your opponent's field lose 500 ATK until the end of this turn. Then, if you have \"Staaart Boasting About Your Health!\" in your Graveyard, you can make 1 face-up monster on your opponent's field lose 500 ATK until the end of this turn.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "HealthieRem-OW.png"
+        "file": "HealthieRem-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP022",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Common"
       }
     ],
     "sets_kr": [],
@@ -165644,7 +165705,7 @@
     "password": null,
     "is_legend": false,
     "title": "Healthie Rem",
-    "_wiki_ts": "2026-07-24T00:24:58Z",
+    "_wiki_ts": "2026-08-10T16:39:21Z",
     "card_schema_version": 2,
     "former_titles": [
       "Helthy Rem"
@@ -166320,11 +166381,11 @@
   },
   {
     "name_ja": "健康自慢、はじめっ！",
-    "name_ja_romaji": "Kenkōjiman, Hajimeh!",
+    "name_ja_romaji": "Kenkōjiman, Hajimee!",
     "attribute": null,
     "types": null,
-    "card_type": "???",
-    "property": "???",
+    "card_type": "Trap",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -166332,20 +166393,20 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "During your opponent's turn, when your opponent Normal or Special Summons a monster.",
+    "effect": "Change up to 3 face-up Level 7 Pyro Type monsters on your field to face-down Defense Position. Then, change them to face-up Attack Position. Then, you can change the battle position of 1 monster on your opponent's field.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "StaaartBoastingAboutYourHealth-OW.png"
+        "file": "StaaartBoastingAboutYourHealth-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP064",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Rare"
       }
     ],
     "sets_kr": [],
@@ -166356,7 +166417,7 @@
     "password": null,
     "is_legend": false,
     "title": "Staaart Boasting About Your Health!",
-    "_wiki_ts": "2026-07-23T06:37:57Z",
+    "_wiki_ts": "2026-08-10T17:53:30Z",
     "card_schema_version": 2,
     "raw_name_en": "Staaart Boasting About Your Health!"
   },
@@ -166656,11 +166717,11 @@
   },
   {
     "name_ja": "健康あってのもの投げ！",
-    "name_ja_romaji": "Kenkō Atte no Mono Nage!",
+    "name_ja_romaji": "Kenkō-atte no Mononage!",
     "attribute": null,
     "types": null,
-    "card_type": "???",
-    "property": "???",
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -166668,20 +166729,20 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "Shuffle 3 Pyro Type monsters from your Graveyard into the Deck.",
+    "effect": "Destroy 1 face-down card in your opponent's Spell & Trap Zone. This turn, you can only attack with Pyro Type monsters.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "AThrowThankstoGoodHealth-OW.png"
+        "file": "AThrowThankstoGoodHealth-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP053",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Common"
       }
     ],
     "sets_kr": [],
@@ -166692,7 +166753,7 @@
     "password": null,
     "is_legend": false,
     "title": "A Throw Thanks to Good Health!",
-    "_wiki_ts": "2026-07-23T06:38:01Z",
+    "_wiki_ts": "2026-08-10T17:00:01Z",
     "card_schema_version": 2,
     "raw_name_en": "A Throw Thanks to Good Health!"
   },
@@ -167413,13 +167474,17 @@
       {
         "artwork": 1,
         "file": "YaetheSecretSpecialInvestigationsMermaid-RDKP26-JP-OP.png"
+      },
+      {
+        "artwork": 2,
+        "file": "YaetheSecretSpecialInvestigationsMermaid-RDKP26-JP-OP-AA.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP043",
         "name": "Headliner of Reigning",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
@@ -167430,7 +167495,7 @@
     "password": null,
     "is_legend": false,
     "title": "Yae the Secret Special Investigations Mermaid",
-    "_wiki_ts": "2026-08-02T18:16:20Z",
+    "_wiki_ts": "2026-08-10T18:03:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Yae the Secret Special Investigations Mermaid"
   },
@@ -167582,31 +167647,31 @@
   {
     "name_ja": "からくり忍者ＳＡＳＵＫＥ",
     "name_ja_romaji": "Karakuri Ninja Sasuke",
-    "attribute": "???",
-    "types": "??? / ???",
+    "attribute": "WIND",
+    "types": "Warrior / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 4,
+    "atk": 1200,
+    "def": 1200,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "You have \"Helpful Items\" in your Graveyard.",
+    "effect": "Special Summon 1 \"Powerful Machine - Clockwork Worker\" from your Graveyard to your field in face-up Defense Position. This turn, you can only attack with WIND Attribute Warrior Type monsters.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "SasuketheClockworkNinja-OW.png"
+        "file": "SasuketheClockworkNinja-RDKP26-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP026",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Rare"
       }
     ],
     "sets_kr": [],
@@ -167617,7 +167682,7 @@
     "password": null,
     "is_legend": false,
     "title": "Sasuke the Clockwork Ninja",
-    "_wiki_ts": "2026-07-02T12:30:31Z",
+    "_wiki_ts": "2026-08-10T16:42:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Sasuke the Clockwork Ninja"
   },
@@ -167833,8 +167898,8 @@
     "name_translated": "Ultimate Demon's Dive",
     "attribute": null,
     "types": null,
-    "card_type": "???",
-    "property": "???",
+    "card_type": "Trap",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -167853,7 +167918,7 @@
     ],
     "sets_jp": [
       {
-        "code": "RD/KP26-JP0??",
+        "code": "RD/KP26-JP062",
         "name": "Headliner of Reigning",
         "rarity": ""
       }
@@ -167864,7 +167929,7 @@
     "password": null,
     "is_legend": false,
     "title": "Rebel's Dive",
-    "_wiki_ts": "2026-07-02T16:18:50Z",
+    "_wiki_ts": "2026-08-14T05:40:59Z",
     "card_schema_version": 2,
     "raw_name_en": "Rebel's Dive"
   },
@@ -168483,7 +168548,7 @@
       {
         "code": "RD/KP26-JP019",
         "name": "Headliner of Reigning",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
@@ -168494,7 +168559,7 @@
     "password": null,
     "is_legend": false,
     "title": "Healthie Cafferin",
-    "_wiki_ts": "2026-07-24T00:24:19Z",
+    "_wiki_ts": "2026-08-10T09:38:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Healthie Cafferin"
   },
@@ -169476,6 +169541,10 @@
       {
         "artwork": 1,
         "file": "MagicalWeapoknightXenoOne-RDKP26-JP-OP.png"
+      },
+      {
+        "artwork": 2,
+        "file": "MagicalWeapoknightXenoOne-RDKP26-JP-OP-AA.png"
       }
     ],
     "sets_jp": [
@@ -169493,7 +169562,7 @@
     "password": null,
     "is_legend": false,
     "title": "Magical Weapoknight Xeno One",
-    "_wiki_ts": "2026-08-06T18:16:31Z",
+    "_wiki_ts": "2026-08-11T17:16:10Z",
     "card_schema_version": 2,
     "raw_name_en": "Magical Weapoknight Xeno One"
   },
@@ -169708,5 +169777,219 @@
     "_wiki_ts": "2026-08-06T16:55:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Thunderbeetle Crash"
+  },
+  {
+    "name_ja": "夜半の繙き",
+    "name_ja_romaji": "Yowa no Himotoki",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During a turn you have not activated \"Midnight Reading\", send 1 Spell Card from your hand to the Graveyard.",
+    "effect": "Draw 2 cards. Then, you can Special Summon 1 face-up Monster Card from your Spell & Trap Zone to your field in face-down Defense Position.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MidnightReading-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP061",
+        "name": "Headliner of Reigning",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Midnight Reading",
+    "_wiki_ts": "2026-08-14T16:48:30Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Midnight Reading"
+  },
+  {
+    "name_ja": "忍法 特殊変化の術",
+    "name_ja_romaji": "Ninpō Tokushu Henge no Jutsu",
+    "name_translated": "Ninjitsu - Technique of Special Transformation",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Ritual",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Ritual Summon a WIND Attribute Warrior Type monster by sending face-up WIND Attribute Warrior Type monsters from your field to the Graveyard as material whose total Levels equal or exceed the Level of the monster you Ritual Summon (you cannot use more monsters than necessary as material).",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "NinjitsuArtofSpecialTransformation-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP057",
+        "name": "Headliner of Reigning",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Goe Goe"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Ninjitsu Art of Special Transformation",
+    "_wiki_ts": "2026-08-10T17:05:37Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Ninjitsu Art of Special Transformation"
+  },
+  {
+    "name_ja": "真紅眼の火竜",
+    "name_ja_romaji": "Reddoaizu Māzu Doragon",
+    "attribute": "DARK",
+    "types": "Dragon / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 6,
+    "atk": 1800,
+    "def": 1200,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "This card's name becomes \"Red-Eyes Black Dragon\" while in the hand or Graveyard.",
+    "effect_types": null,
+    "requirement": "Send the top card of your Deck to the Graveyard.",
+    "effect": "This turn, this card's name becomes \"Red-Eyes Black Dragon\". Then, if you have a Legend Normal Monster in your Graveyard, you can draw 1 card. You can only activate up to 2 \"Inferno Fire Blast\" until the end of this turn.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "RedEyesMarsDragon-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP034",
+        "name": "Headliner of Reigning",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Red-Eyes"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Red-Eyes Mars Dragon",
+    "_wiki_ts": "2026-08-15T19:20:22Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Red-Eyes Mars Dragon"
+  },
+  {
+    "name_ja": "アルテネの聖戦",
+    "name_ja_romaji": "Arutene no Seisen",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "This card's name becomes \"Protection of Arthenée\" while in the Graveyard.",
+    "effect_types": null,
+    "requirement": "Send 1 other face-up Spell Card from your field to the Graveyard.",
+    "effect": "Destroy 1 monster on your opponent's field. Then, you can add up to 2 Fairy Type Union monsters from your Graveyard to your hand.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "SacredWarofArthenée-RDKP26-JP-OP.png"
+      },
+      {
+        "artwork": 2,
+        "file": "SacredWarofArthenée-RDKP26-JP-OP-AA.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP058",
+        "name": "Headliner of Reigning",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Arthenée"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Sacred War of Arthenée",
+    "_wiki_ts": "2026-08-15T00:15:16Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Sacred War of Arthenée"
+  },
+  {
+    "name_ja": "救惺奪還",
+    "name_ja_romaji": "Kyūsei Dakkan",
+    "name_translated": "Wise Salvation Recapture",
+    "attribute": null,
+    "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "When your opponent Normal Summons a monster, send 1 face-up WATER Attribute monster with 0 or 1500 DEF from your field to the Graveyard.",
+    "effect": "Destroy 1 card on your opponent's field. Then, if you destroyed a Fusion Monster by this effect, you can Special Summon 1 \"The Imprisoned Dragon Princess\" from your Graveyard face-up to your field. This turn, the monster Special Summoned by this effect cannot be destroyed by battle.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "StarProtectorRecapture-RDKP26-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP063",
+        "name": "Headliner of Reigning",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Star Protector"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Star Protector Recapture",
+    "_wiki_ts": "2026-08-11T17:41:25Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Star Protector Recapture"
   }
 ]

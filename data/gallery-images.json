@@ -1704,10 +1704,6 @@
     "CrankedtoTen-RDGRP1-JP-SR.png",
     "CrankedtoTen-RDMAX1-JP-SR.png"
   ],
-  "Darkglow Angler": [
-    "DarkglowAngler-RDVSP1-JP-SR.png",
-    "DarkglowAngler-RDVSP1-JP-ScR.png"
-  ],
   "Deep Sea Dragon Bat Eel": [
     "DeepSeaDragonBatEel-RDTB02-JP-NPR.png",
     "DeepSeaDragonBatEel-RDVSP1-JP-SR.png",
@@ -1740,10 +1736,6 @@
     "Jinzo-RDHC01-JP-UR.png",
     "Jinzo-RDKP04-JP-RR.png"
   ],
-  "Legacyrex Legarex": [
-    "LegacyrexLegarex-RDVSP1-JP-SR.png",
-    "LegacyrexLegarex-RDVSP1-JP-ScR.png"
-  ],
   "Manifestriction Dragon Maxseal": [
     "ManifestrictionDragonMaxseal-RDVSP1-JP-SR.png",
     "ManifestrictionDragonMaxseal-RDVSP1-JP-ScR.png"
@@ -1765,18 +1757,6 @@
   "Sea Star Trooper": [
     "SeaStarTrooper-RDVSP1-JP-C.png",
     "SeaStarTrooper-RDKP07-JP-R.png"
-  ],
-  "Shinesteel Ultra Dragon Devastar Okeabyss": [
-    "ShinesteelUltraDragonDevastarOkeabyss-RDVSP1-JP-NPR.png",
-    "ShinesteelUltraDragonDevastarOkeabyss-RDVSP1-JP-ORR.png"
-  ],
-  "Shinesteel Ultra Dragon Devastar Okeabyss (L)": [
-    "ShinesteelUltraDragonDevastarOkeabyssL-RDVSP1-JP-NPR.png",
-    "ShinesteelUltraDragonDevastarOkeabyssL-RDVSP1-JP-ORR.png"
-  ],
-  "Shinesteel Ultra Dragon Devastar Okeabyss (R)": [
-    "ShinesteelUltraDragonDevastarOkeabyssR-RDVSP1-JP-NPR.png",
-    "ShinesteelUltraDragonDevastarOkeabyssR-RDVSP1-JP-ORR.png"
   ],
   "Steel Mech Lord Mirror Innovator": [
     "SteelMechLordMirrorInnovator-RDSD0C-JP-C.png",
@@ -2773,11 +2753,6 @@
     "MagicalFirestorm-RDHC01-JP-C.png",
     "MagicalFirestorm-RDHC01-JP-SR.png"
   ],
-  "Magical Lance - Grace Spear": [
-    "MagicalLanceGraceSpear-RD5TH1-JP-SR.png",
-    "MagicalLanceGraceSpear-RDHC01-JP-ScR.png",
-    "MagicalLanceGraceSpear-RDKP13-JP-R.png"
-  ],
   "Magical Retribution": [
     "MagicalRetribution-RDSD0E-JP-C.png",
     "MagicalRetribution-RDHC01-JP-ScR.png",
@@ -2891,18 +2866,6 @@
     "SplendidSlash-RDSD0D-JP-C.png",
     "SplendidSlash-RDHC01-JP-C.png",
     "SplendidSlash-RDHC01-JP-ScR.png"
-  ],
-  "Super Galaxy King Lord of Galactica": [
-    "SuperGalaxyKingLordofGalactica-RDHC01-JP-SR.png",
-    "SuperGalaxyKingLordofGalactica-RDHC01-JP-ORR.png"
-  ],
-  "Super Galaxy King Lord of Galactica (L)": [
-    "SuperGalaxyKingLordofGalacticaL-RDHC01-JP-SR.png",
-    "SuperGalaxyKingLordofGalacticaL-RDHC01-JP-ORR.png"
-  ],
-  "Super Galaxy King Lord of Galactica (R)": [
-    "SuperGalaxyKingLordofGalacticaR-RDHC01-JP-SR.png",
-    "SuperGalaxyKingLordofGalacticaR-RDHC01-JP-ORR.png"
   ],
   "The Creator": [
     "TheCreator-RDHC01-JP-SR.png",
@@ -3918,11 +3881,6 @@
     "ZusetheWisdomVassal-RDSD0F-JP-C.png",
     "ZusetheWisdomVassal-RDSD0F-JP-NPR.png",
     "ZusetheWisdomVassal-RDKP13-JP-C.png"
-  ],
-  "Advance Impact": [
-    "AdvanceImpact-RDSD0F-JP-C.png",
-    "AdvanceImpact-RDKP13-JP-SR.png",
-    "AdvanceImpact-RDKP13-JP-ScR.png"
   ],
   "Celeb Rose Fabulous Magician": [
     "CelebRoseFabulousMagician-RDAP01-JP-C.png",
@@ -7103,18 +7061,6 @@
     "ShamanofChaos-RDORP3-JP-SR.png",
     "ShamanofChaos-RDORP3-JP-ScR.png"
   ],
-  "Super Princess of the Flock - Max Mutton": [
-    "SuperPrincessoftheFlockMaxMutton-RDORP3-JP-C.png",
-    "SuperPrincessoftheFlockMaxMutton-RDORP3-JP-ORR.png"
-  ],
-  "Super Princess of the Flock - Max Mutton (L)": [
-    "SuperPrincessoftheFlockMaxMuttonL-RDORP3-JP-C.png",
-    "SuperPrincessoftheFlockMaxMuttonL-RDORP3-JP-ORR.png"
-  ],
-  "Super Princess of the Flock - Max Mutton (R)": [
-    "SuperPrincessoftheFlockMaxMuttonR-RDORP3-JP-C.png",
-    "SuperPrincessoftheFlockMaxMuttonR-RDORP3-JP-ORR.png"
-  ],
   "Super Soldier Radiance": [
     "SuperSoldierRadiance-RDORP3-JP-UR.png",
     "SuperSoldierRadiance-RDORP3-JP-ORR.png"
@@ -8302,5 +8248,59 @@
     "LuminousLady-RDAP01-JP-ScR.png",
     "LuminousLady-RDHC01-JP-C.png",
     "LuminousLady-RDHC01-JP-SR.png"
+  ],
+  "Tribute Impact": [
+    "AdvanceImpact-RDSD0F-JP-C.png",
+    "TributeImpact-RDKP13-JP-SR.png",
+    "TributeImpact-RDKP13-JP-ScR.png"
+  ],
+  "Dark Glow Angler": [
+    "DarkglowAngler-RDVSP1-JP-SR.png",
+    "DarkGlowAngler-RDVSP1-JP-ScR.png"
+  ],
+  "Legacy Rex Legarex": [
+    "LegacyrexLegarex-RDVSP1-JP-SR.png",
+    "LegacyRexLegarex-RDVSP1-JP-ScR.png"
+  ],
+  "The Magical Grace Spear": [
+    "MagicalLanceGraceSpear-RD5TH1-JP-SR.png",
+    "TheMagicalGraceSpear-RDHC01-JP-ScR.png",
+    "TheMagicalGraceSpear-RDKP13-JP-R.png"
+  ],
+  "Devaster Oceabyss, the Radiant Steel Overdragon": [
+    "ShinesteelUltraDragonDevastarOkeabyss-RDVSP1-JP-NPR.png",
+    "DevasterOceabysstheRadiantSteelOverdragon-RDVSP1-JP-ORR.png"
+  ],
+  "Devaster Oceabyss, the Radiant Steel Overdragon (L)": [
+    "ShinesteelUltraDragonDevastarOkeabyssL-RDVSP1-JP-NPR.png",
+    "DevasterOceabysstheRadiantSteelOverdragonL-RDVSP1-JP-ORR.png"
+  ],
+  "Devaster Oceabyss, the Radiant Steel Overdragon (R)": [
+    "ShinesteelUltraDragonDevastarOkeabyssR-RDVSP1-JP-NPR.png",
+    "DevasterOceabysstheRadiantSteelOverdragonR-RDVSP1-JP-ORR.png"
+  ],
+  "Lord of Galactica, the Supreme Galaxy King": [
+    "SuperGalaxyKingLordofGalactica-RDHC01-JP-SR.png",
+    "LordofGalacticatheSupremeGalaxyKing-RDHC01-JP-ORR.png"
+  ],
+  "Lord of Galactica, the Supreme Galaxy King (L)": [
+    "SuperGalaxyKingLordofGalacticaL-RDHC01-JP-SR.png",
+    "LordofGalacticatheSupremeGalaxyKingL-RDHC01-JP-ORR.png"
+  ],
+  "Lord of Galactica, the Supreme Galaxy King (R)": [
+    "SuperGalaxyKingLordofGalacticaR-RDHC01-JP-SR.png",
+    "LordofGalacticatheSupremeGalaxyKingR-RDHC01-JP-ORR.png"
+  ],
+  "Super Princess of the Flock - Miss Mutton Max": [
+    "SuperPrincessoftheFlockMaxMutton-RDORP3-JP-C.png",
+    "SuperPrincessoftheFlockMissMuttonMax-RDORP3-JP-ORR.png"
+  ],
+  "Super Princess of the Flock - Miss Mutton Max (L)": [
+    "SuperPrincessoftheFlockMaxMuttonL-RDORP3-JP-C.png",
+    "SuperPrincessoftheFlockMaxMuttonL-RDORP3-JP-ORR.png"
+  ],
+  "Super Princess of the Flock - Miss Mutton Max (R)": [
+    "SuperPrincessoftheFlockMaxMuttonR-RDORP3-JP-C.png",
+    "SuperPrincessoftheFlockMaxMuttonR-RDORP3-JP-ORR.png"
   ]
 }
