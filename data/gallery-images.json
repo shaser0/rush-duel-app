@@ -1650,30 +1650,6 @@
     "YggdragotheSkyEmperorR-RDMAX1-JP-UR.png",
     "YggdragotheSkyEmperorR-RDSBD6-JP-C.png"
   ],
-  "Abyssal Dragon Lord Abyss Poseidra": [
-    "AbyssalDragonLordAbyssPoseidra-RDVSP1-JP-NPR.png",
-    "AbyssalDragonLordAbyssPoseidra-RDVSP1-JP-ORR.png"
-  ],
-  "Abyssal Dragon Lord Abyss Poseidra (L)": [
-    "AbyssalDragonLordAbyssPoseidraL-RDVSP1-JP-NPR.png",
-    "AbyssalDragonLordAbyssPoseidraL-RDVSP1-JP-ORR.png"
-  ],
-  "Abyssal Dragon Lord Abyss Poseidra (R)": [
-    "AbyssalDragonLordAbyssPoseidraR-RDVSP1-JP-NPR.png",
-    "AbyssalDragonLordAbyssPoseidraR-RDVSP1-JP-ORR.png"
-  ],
-  "Abyssal Sea Dragon Abyss Kraken": [
-    "AbyssalSeaDragonAbyssKraken-RDVSP1-JP-NPR.png",
-    "AbyssalSeaDragonAbyssKraken-RDVSP1-JP-ORR.png"
-  ],
-  "Abyssal Sea Dragon Abyss Kraken (L)": [
-    "AbyssalSeaDragonAbyssKrakenL-RDVSP1-JP-NPR.png",
-    "AbyssalSeaDragonAbyssKrakenL-RDVSP1-JP-ORR.png"
-  ],
-  "Abyssal Sea Dragon Abyss Kraken (R)": [
-    "AbyssalSeaDragonAbyssKrakenR-RDVSP1-JP-NPR.png",
-    "AbyssalSeaDragonAbyssKrakenR-RDVSP1-JP-ORR.png"
-  ],
   "Abysskite Prevent Wall": [
     "AbysskitePreventWall-RDVSP1-JP-SR.png",
     "AbysskitePreventWall-RDVSP1-JP-ScR.png"
@@ -8302,5 +8278,157 @@
   "Super Princess of the Flock - Miss Mutton Max (R)": [
     "SuperPrincessoftheFlockMaxMuttonR-RDORP3-JP-C.png",
     "SuperPrincessoftheFlockMaxMuttonR-RDORP3-JP-ORR.png"
+  ],
+  "Abyss Poseidra, the Abyssal Dragon Deity": [
+    "AbyssalDragonLordAbyssPoseidra-RDVSP1-JP-NPR.png",
+    "AbyssPoseidratheAbyssalDragonDeity-RDVSP1-JP-ORR.png"
+  ],
+  "Abyss Poseidra, the Abyssal Dragon Deity (L)": [
+    "AbyssalDragonLordAbyssPoseidraL-RDVSP1-JP-NPR.png",
+    "AbyssPoseidratheAbyssalDragonDeityL-RDVSP1-JP-ORR.png"
+  ],
+  "Abyss Poseidra, the Abyssal Dragon Deity (R)": [
+    "AbyssalDragonLordAbyssPoseidraR-RDVSP1-JP-NPR.png",
+    "AbyssPoseidratheAbyssalDragonDeityR-RDVSP1-JP-ORR.png"
+  ],
+  "Abyss Kraken, the Abyssal Sea Serpent": [
+    "AbyssalSeaDragonAbyssKraken-RDVSP1-JP-NPR.png",
+    "AbyssKrakentheAbyssalSeaSerpent-RDVSP1-JP-ORR.png"
+  ],
+  "Abyss Kraken, the Abyssal Sea Serpent (L)": [
+    "AbyssalSeaDragonAbyssKrakenL-RDVSP1-JP-NPR.png",
+    "AbyssalSeaDragonAbyssKrakenL-RDVSP1-JP-ORR.png"
+  ],
+  "Abyss Kraken, the Abyssal Sea Serpent (R)": [
+    "AbyssalSeaDragonAbyssKrakenR-RDVSP1-JP-NPR.png",
+    "AbyssalSeaDragonAbyssKrakenR-RDVSP1-JP-ORR.png"
+  ],
+  "Cathedral of Arthenée": [
+    "CathedralofArthenée-RDKP26-JP-SR.png",
+    "CathedralofArthenée-RDKP26-JP-ScR.png"
+  ],
+  "Contractor of the Abyssal Dragon": [
+    "ContractoroftheAbyssalDragon-RDKP26-JP-R.png",
+    "ContractoroftheAbyssalDragon-RDKP26-JP-ScR.png"
+  ],
+  "Ebisu the Ninja of Justice": [
+    "EbisutheNinjaofJustice-RDKP26-JP-R.png",
+    "EbisutheNinjaofJustice-RDKP26-JP-ScR.png"
+  ],
+  "Ein Sof Ritter": [
+    "EinSofRitter-RDKP26-JP-UR.png",
+    "EinSofRitter-RDKP26-JP-ORR-AA.png",
+    "EinSofRitter-RDKP26-JP-ORR.png",
+    "EinSofRitter-RDKP26-JP-ScR.png"
+  ],
+  "Elemental HERO Earth Neos": [
+    "ElementalHEROEarthNeos-RDKP26-JP-R.png",
+    "ElementalHEROEarthNeos-RDKP26-JP-ScR.png"
+  ],
+  "Familiar-Possessed - Eria": [
+    "FamiliarPossessedEria-RDKP26-JP-UR.png",
+    "FamiliarPossessedEria-RDKP26-JP-ORR.png",
+    "FamiliarPossessedEria-RDKP26-JP-ScR.png"
+  ],
+  "Final Ritual of the Ancients": [
+    "FinalRitualoftheAncients-RDKP26-JP-R.png",
+    "FinalRitualoftheAncients-RDKP26-JP-ScR.png"
+  ],
+  "Fist the Contractor of the Imprisoned Dragon": [
+    "FisttheContractoroftheImprisonedDragon-RDKP26-JP-SR.png",
+    "FisttheContractoroftheImprisonedDragon-RDKP26-JP-ScR.png"
+  ],
+  "Fist the Star Protector's Roaring Gauntlet": [
+    "FisttheStarProtectorsRoaringGauntlet-RDKP26-JP-UR.png",
+    "FisttheStarProtectorsRoaringGauntlet-RDKP26-JP-ORR-AA.png",
+    "FisttheStarProtectorsRoaringGauntlet-RDKP26-JP-ORR.png",
+    "FisttheStarProtectorsRoaringGauntlet-RDKP26-JP-ScR.png"
+  ],
+  "Goe Goe the Rumored Kabuki Lion": [
+    "GoeGoetheRumoredKabukiLion-RDKP26-JP-SR.png",
+    "GoeGoetheRumoredKabukiLion-RDKP26-JP-ScR.png"
+  ],
+  "Goe Goe the Rumored Ninja": [
+    "GoeGoetheRumoredNinja-RDKP26-JP-UR.png",
+    "GoeGoetheRumoredNinja-RDKP26-JP-ORR.png",
+    "GoeGoetheRumoredNinja-RDKP26-JP-ScR.png"
+  ],
+  "Healthie Elizalamilla": [
+    "HealthieElizalamilla-RDKP26-JP-R.png",
+    "HealthieElizalamilla-RDKP26-JP-ScR.png"
+  ],
+  "Healthie Lamilla": [
+    "HealthieLamilla-RDKP26-JP-SR.png",
+    "HealthieLamilla-RDKP26-JP-ScR.png"
+  ],
+  "Healthie Sati": [
+    "HealthieSati-RDKP26-JP-UR.png",
+    "HealthieSati-RDKP26-JP-ORR-AA.png",
+    "HealthieSati-RDKP26-JP-ORR.png",
+    "HealthieSati-RDKP26-JP-ScR.png"
+  ],
+  "Healthie Tigasati": [
+    "HealthieTigasati-RDKP26-JP-UR.png",
+    "HealthieTigasati-RDKP26-JP-ORR.png",
+    "HealthieTigasati-RDKP26-JP-ScR.png"
+  ],
+  "Healthy's High!": [
+    "HealthysHigh-RDKP26-JP-R.png",
+    "HealthysHigh-RDKP26-JP-ScR.png"
+  ],
+  "Lauan Leader Balsa": [
+    "LauanLeaderBalsa-RDKP26-JP-R.png",
+    "LauanLeaderBalsa-RDKP26-JP-ScR.png"
+  ],
+  "Midnight Reading": [
+    "MidnightReading-RDKP26-JP-UR.png",
+    "MidnightReading-RDKP26-JP-ORR.png",
+    "MidnightReading-RDKP26-JP-ScR.png"
+  ],
+  "Neo-Spacian Grand Mole": [
+    "NeoSpacianGrandMole-RDKP26-JP-SR.png",
+    "NeoSpacianGrandMole-RDKP26-JP-ScR.png"
+  ],
+  "Ninjitsu Art of Ultimate Transformation": [
+    "NinjitsuArtofUltimateTransformation-RDKP26-JP-R.png",
+    "NinjitsuArtofUltimateTransformation-RDKP26-JP-ScR.png"
+  ],
+  "Red-Eyes Mars Dragon": [
+    "RedEyesMarsDragon-RDKP26-JP-SR.png",
+    "RedEyesMarsDragon-RDKP26-JP-ScR.png"
+  ],
+  "Reshef the Dark Being": [
+    "ResheftheDarkBeing-RDKP26-JP-SR.png",
+    "ResheftheDarkBeing-RDKP26-JP-ScR.png"
+  ],
+  "Royal Rebel's Extreme": [
+    "RoyalRebelsExtreme-RDKP26-JP-SR.png",
+    "RoyalRebelsExtreme-RDKP26-JP-ScR.png"
+  ],
+  "Royal Rebel's Pitch Shifter": [
+    "RoyalRebelsPitchShifter-RDKP26-JP-R.png",
+    "RoyalRebelsPitchShifter-RDKP26-JP-ScR.png"
+  ],
+  "Sacred War of Arthenée": [
+    "SacredWarofArthenée-RDKP26-JP-UR.png",
+    "SacredWarofArthenée-RDKP26-JP-ORR-AA.png",
+    "SacredWarofArthenée-RDKP26-JP-ORR.png",
+    "SacredWarofArthenée-RDKP26-JP-ScR.png"
+  ],
+  "Staaart Boasting About Your Health!": [
+    "StaaartBoastingAboutYourHealth-RDKP26-JP-R.png",
+    "StaaartBoastingAboutYourHealth-RDKP26-JP-ScR.png"
+  ],
+  "Surtr the Brilliant Magical Sword": [
+    "SurtrtheBrilliantMagicalSword-RDKP26-JP-UR.png",
+    "SurtrtheBrilliantMagicalSword-RDKP26-JP-OP-AA.png"
+  ],
+  "The Disciple of Sacred Silence": [
+    "TheDiscipleofSacredSilence-RDKP26-JP-R.png",
+    "TheDiscipleofSacredSilence-RDKP26-JP-ScR.png"
+  ],
+  "The Imprisoned Dragon Princess": [
+    "TheImprisonedDragonPrincess-RDKP26-JP-R.png",
+    "TheImprisonedDragonPrincess-RDKP26-JP-ScR.png"
   ]
 }

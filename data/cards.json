@@ -631,7 +631,6 @@
     "name_ja": "深淵竜神アビス・ポセイドラ",
     "name_ja_romaji": "Shin'enryūjin Abisu Poseidora",
     "name_ko": "심연룡신 어비스 포세이도라",
-    "name_translated": "Abyssal Dragon God Abyss Poseidra",
     "attribute": "DARK",
     "types": "Sea Serpent / Maximum / Effect",
     "card_type": null,
@@ -641,7 +640,7 @@
     "def": 0,
     "maximum_atk": 4000,
     "materials": null,
-    "condition": "You can Maximum Summon this card together with \"Abyssal Dragon Lord Abyss Poseidra [L]\" and \"Abyssal Dragon Lord Abyss Poseidra [R]\".",
+    "condition": "You can Maximum Summon this card together with \"Abyss Poseidra, the Abyssal Dragon Deity [L]\" and \"Abyss Poseidra, the Abyssal Dragon Deity [R]\".",
     "effect_types": "Continuous",
     "requirement": "None",
     "effect": "If you have no monsters in your Graveyard, your opponent cannot activate Trap Cards when this card declares an attack, then if this card is in Maximum Mode, it cannot be destroyed by your opponent's card effects.",
@@ -649,7 +648,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AbyssalDragonLordAbyssPoseidra-RDVSP1-JP-NPR.png"
+        "file": "AbyssPoseidratheAbyssalDragonDeity-RDVSP1-JP-NPR.png"
       }
     ],
     "sets_jp": [
@@ -672,17 +671,19 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Abyssal Dragon Lord Abyss Poseidra",
-    "_wiki_ts": "2024-12-05T16:38:31Z",
+    "title": "Abyss Poseidra, the Abyssal Dragon Deity",
+    "_wiki_ts": "2026-08-16T09:44:20Z",
     "card_schema_version": 2,
-    "raw_name_en": "Abyssal Dragon Lord Abyss Poseidra"
+    "former_titles": [
+      "Abyssal Dragon Lord Abyss Poseidra"
+    ],
+    "raw_name_en": "Abyss Poseidra, the Abyssal Dragon Deity"
   },
   {
-    "name_en": "Abyssal Dragon Lord Abyss Poseidra [L]",
+    "name_en": "Abyss Poseidra, the Abyssal Dragon Deity [L]",
     "name_ja": "深淵竜神アビス・ポセイドラ［Ｌ］",
     "name_ja_romaji": "Shin'enryūjin Abisu Poseidora [Eru]",
     "name_ko": "심연룡신 어비스 포세이도라[L]",
-    "name_translated": "Abyssal Dragon God Abyss Poseidra [L]",
     "attribute": "DARK",
     "types": "Sea Serpent / Maximum / Effect",
     "card_type": null,
@@ -700,7 +701,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AbyssalDragonLordAbyssPoseidraL-RDVSP1-JP-NPR.png"
+        "file": "AbyssPoseidratheAbyssalDragonDeityL-RDVSP1-JP-NPR.png"
       }
     ],
     "sets_jp": [
@@ -723,17 +724,19 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Abyssal Dragon Lord Abyss Poseidra (L)",
-    "_wiki_ts": "2026-01-30T21:05:15Z",
+    "title": "Abyss Poseidra, the Abyssal Dragon Deity (L)",
+    "_wiki_ts": "2026-08-16T09:44:45Z",
     "card_schema_version": 2,
-    "raw_name_en": "Abyssal Dragon Lord Abyss Poseidra [L]"
+    "former_titles": [
+      "Abyssal Dragon Lord Abyss Poseidra (L)"
+    ],
+    "raw_name_en": "Abyss Poseidra, the Abyssal Dragon Deity [L]"
   },
   {
-    "name_en": "Abyssal Dragon Lord Abyss Poseidra [R]",
+    "name_en": "Abyss Poseidra, the Abyssal Dragon Deity [R]",
     "name_ja": "深淵竜神アビス・ポセイドラ［Ｒ］",
     "name_ja_romaji": "Shin'enryūjin Abisu Poseidora [Āru]",
     "name_ko": "심연룡신 어비스 포세이도라[R]",
-    "name_translated": "Abyssal Dragon God Abyss Poseidra [R]",
     "attribute": "DARK",
     "types": "Sea Serpent / Maximum / Effect",
     "card_type": null,
@@ -751,7 +754,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AbyssalDragonLordAbyssPoseidraR-RDVSP1-JP-NPR.png"
+        "file": "AbyssPoseidratheAbyssalDragonDeityR-RDVSP1-JP-NPR.png"
       }
     ],
     "sets_jp": [
@@ -774,15 +777,19 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Abyssal Dragon Lord Abyss Poseidra (R)",
-    "_wiki_ts": "2024-12-05T16:38:37Z",
+    "title": "Abyss Poseidra, the Abyssal Dragon Deity (R)",
+    "_wiki_ts": "2026-08-16T09:44:58Z",
     "card_schema_version": 2,
-    "raw_name_en": "Abyssal Dragon Lord Abyss Poseidra [R]"
+    "former_titles": [
+      "Abyssal Dragon Lord Abyss Poseidra (R)"
+    ],
+    "raw_name_en": "Abyss Poseidra, the Abyssal Dragon Deity [R]"
   },
   {
     "name_ja": "深淵海竜アビス・クラーケン",
     "name_ja_romaji": "Shin'enkairyū Abisu Kurāken",
     "name_ko": "심연해룡 어비스 크라켄",
+    "name_translated": "Abyss Kraken, the Abyssal Sea Dragon",
     "attribute": "DARK",
     "types": "Sea Serpent / Maximum / Effect",
     "card_type": null,
@@ -792,7 +799,7 @@
     "def": 0,
     "maximum_atk": 4000,
     "materials": null,
-    "condition": "You can Maximum Summon this card together with \"Abyssal Sea Dragon Abyss Kraken [L]\" and \"Abyssal Sea Dragon Abyss Kraken [R]\".",
+    "condition": "You can Maximum Summon this card together with \"Abyss Kraken, the Abyssal Sea Serpent [L]\" and \"Abyss Kraken, the Abyssal Sea Serpent [R]\".",
     "effect_types": "Continuous",
     "requirement": "None",
     "effect": "If you have no monsters in your Graveyard, this card cannot be destroyed by your opponent's card effects, then if this card is in Maximum Mode, your opponent cannot activate Trap Cards when it declares an attack.",
@@ -800,7 +807,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AbyssalSeaDragonAbyssKraken-RDVSP1-JP-NPR.png"
+        "file": "AbyssKrakentheAbyssalSeaSerpent-RDVSP1-JP-NPR.png"
       }
     ],
     "sets_jp": [
@@ -823,16 +830,20 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Abyssal Sea Dragon Abyss Kraken",
-    "_wiki_ts": "2024-12-05T16:38:43Z",
+    "title": "Abyss Kraken, the Abyssal Sea Serpent",
+    "_wiki_ts": "2026-08-16T09:43:02Z",
     "card_schema_version": 2,
-    "raw_name_en": "Abyssal Sea Dragon Abyss Kraken"
+    "former_titles": [
+      "Abyssal Sea Dragon Abyss Kraken"
+    ],
+    "raw_name_en": "Abyss Kraken, the Abyssal Sea Serpent"
   },
   {
-    "name_en": "Abyssal Sea Dragon Abyss Kraken [L]",
+    "name_en": "Abyss Kraken, the Abyssal Sea Serpent [L]",
     "name_ja": "深淵海竜アビス・クラーケン［Ｌ］",
     "name_ja_romaji": "Shin'enkairyū Abisu Kurāken [Eru]",
     "name_ko": "심연해룡 어비스 크라켄[L]",
+    "name_translated": "Abyss Kraken, the Abyssal Sea Dragon [L]",
     "attribute": "DARK",
     "types": "Sea Serpent / Maximum / Effect",
     "card_type": null,
@@ -850,7 +861,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AbyssalSeaDragonAbyssKrakenL-RDVSP1-JP-NPR.png"
+        "file": "AbyssKrakentheAbyssalSeaSerpentL-RDVSP1-JP-NPR.png"
       }
     ],
     "sets_jp": [
@@ -873,16 +884,20 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Abyssal Sea Dragon Abyss Kraken (L)",
-    "_wiki_ts": "2025-01-13T02:45:09Z",
+    "title": "Abyss Kraken, the Abyssal Sea Serpent (L)",
+    "_wiki_ts": "2026-08-16T09:43:30Z",
     "card_schema_version": 2,
-    "raw_name_en": "Abyssal Sea Dragon Abyss Kraken [L]"
+    "former_titles": [
+      "Abyssal Sea Dragon Abyss Kraken (L)"
+    ],
+    "raw_name_en": "Abyss Kraken, the Abyssal Sea Serpent [L]"
   },
   {
-    "name_en": "Abyssal Sea Dragon Abyss Kraken [R]",
+    "name_en": "Abyss Kraken, the Abyssal Sea Serpent [R]",
     "name_ja": "深淵海竜アビス・クラーケン［Ｒ］",
     "name_ja_romaji": "Shin'enkairyū Abisu Kurāken [Āru]",
     "name_ko": "심연해룡 어비스 크라켄[R]",
+    "name_translated": "Abyss Kraken, the Abyssal Sea Dragon [R]",
     "attribute": "DARK",
     "types": "Sea Serpent / Maximum / Effect",
     "card_type": null,
@@ -900,7 +915,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AbyssalSeaDragonAbyssKrakenR-RDVSP1-JP-NPR.png"
+        "file": "AbyssKrakentheAbyssalSeaSerpentR-RDVSP1-JP-NPR.png"
       }
     ],
     "sets_jp": [
@@ -923,10 +938,13 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Abyssal Sea Dragon Abyss Kraken (R)",
-    "_wiki_ts": "2024-12-05T16:38:48Z",
+    "title": "Abyss Kraken, the Abyssal Sea Serpent (R)",
+    "_wiki_ts": "2026-08-16T09:43:55Z",
     "card_schema_version": 2,
-    "raw_name_en": "Abyssal Sea Dragon Abyss Kraken [R]"
+    "former_titles": [
+      "Abyssal Sea Dragon Abyss Kraken (R)"
+    ],
+    "raw_name_en": "Abyss Kraken, the Abyssal Sea Serpent [R]"
   },
   {
     "name_ja": "アビスカイト・アンジュ",
@@ -2541,7 +2559,7 @@
     "password": null,
     "is_legend": false,
     "title": "Acetic Acid Trap Hole",
-    "_wiki_ts": "2025-07-24T14:45:25Z",
+    "_wiki_ts": "2026-08-20T20:15:15Z",
     "card_schema_version": 2,
     "raw_name_en": "Acetic Acid Trap Hole"
   },
@@ -6467,7 +6485,7 @@
     "password": null,
     "is_legend": false,
     "title": "Animagica Double Saber",
-    "_wiki_ts": "2025-05-16T07:39:54Z",
+    "_wiki_ts": "2026-08-20T22:14:05Z",
     "card_schema_version": 2,
     "raw_name_en": "Animagica Double Saber"
   },
@@ -11823,7 +11841,7 @@
     "password": null,
     "is_legend": false,
     "title": "Beacon of the Dark Titan",
-    "_wiki_ts": "2026-05-30T09:26:29Z",
+    "_wiki_ts": "2026-08-21T19:59:33Z",
     "card_schema_version": 2,
     "raw_name_en": "Beacon of the Dark Titan"
   },
@@ -17957,7 +17975,7 @@
     "password": null,
     "is_legend": false,
     "title": "Brassdes Trap Hole",
-    "_wiki_ts": "2026-05-22T17:01:15Z",
+    "_wiki_ts": "2026-08-20T20:15:56Z",
     "card_schema_version": 2,
     "raw_name_en": "Brassdes Trap Hole"
   },
@@ -35349,7 +35367,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dark Renewal",
-    "_wiki_ts": "2026-06-22T19:05:14Z",
+    "_wiki_ts": "2026-08-20T20:13:43Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Renewal (Rush Duel)"
   },
@@ -39028,7 +39046,7 @@
     "password": null,
     "is_legend": false,
     "title": "Demolisher Wyrm Roar",
-    "_wiki_ts": "2026-07-02T02:46:16Z",
+    "_wiki_ts": "2026-08-20T20:14:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Demolisher Wyrm Roar"
   },
@@ -49872,7 +49890,7 @@
       },
       {
         "artwork": 2,
-        "file": "ElementalHERONeos-RDKP26-JP-OP.png"
+        "file": "ElementalHERONeos-RDKP26-JP-FORR.png"
       }
     ],
     "sets_jp": [
@@ -49917,7 +49935,7 @@
     "password": null,
     "is_legend": false,
     "title": "Elemental HERO Neos",
-    "_wiki_ts": "2026-07-28T16:56:53Z",
+    "_wiki_ts": "2026-08-21T16:18:29Z",
     "card_schema_version": 2,
     "raw_name_en": "Elemental HERO Neos (Rush Duel)"
   },
@@ -67025,7 +67043,7 @@
     "materials": null,
     "condition": "This card is treated as a Legend Card while in the hand or Graveyard.",
     "effect_types": null,
-    "requirement": "Reveal 1 \"Legend Magician\" or 1 Legend Card in your hand.",
+    "requirement": "Reveal 1 \"Legendary Magician\" or 1 Legend Card in your hand.",
     "effect": "Destroy 1 Spell/Trap Card on your opponent's field.",
     "flavor_text": null,
     "images": [
@@ -67055,7 +67073,7 @@
     "password": null,
     "is_legend": false,
     "title": "Grand Legend Magician",
-    "_wiki_ts": "2025-01-17T11:26:52Z",
+    "_wiki_ts": "2026-08-17T17:50:35Z",
     "card_schema_version": 2,
     "raw_name_en": "Grand Legend Magician"
   },
@@ -70242,7 +70260,7 @@
     "password": null,
     "is_legend": false,
     "title": "Harpie Lady 2 & 3",
-    "_wiki_ts": "2026-06-13T16:53:45Z",
+    "_wiki_ts": "2026-08-20T22:14:25Z",
     "card_schema_version": 2,
     "raw_name_en": "Harpie Lady 2 & 3"
   },
@@ -71112,7 +71130,7 @@
     "password": null,
     "is_legend": false,
     "title": "Harpie's Feather Tempest",
-    "_wiki_ts": "2025-06-18T19:33:52Z",
+    "_wiki_ts": "2026-08-20T20:14:57Z",
     "card_schema_version": 2,
     "raw_name_en": "Harpie's Feather Tempest"
   },
@@ -78470,7 +78488,7 @@
     "password": null,
     "is_legend": false,
     "title": "Isyria, Deity of the Monumenthes",
-    "_wiki_ts": "2026-06-11T11:37:37Z",
+    "_wiki_ts": "2026-08-20T22:14:45Z",
     "card_schema_version": 2,
     "raw_name_en": "Isyria, Deity of the Monumenthes"
   },
@@ -79185,7 +79203,7 @@
     "password": null,
     "is_legend": false,
     "title": "Jeweled Tusk Ritual",
-    "_wiki_ts": "2025-11-11T09:40:29Z",
+    "_wiki_ts": "2026-08-20T22:11:48Z",
     "card_schema_version": 2,
     "raw_name_en": "Jeweled Tusk Ritual"
   },
@@ -83796,7 +83814,7 @@
     "password": null,
     "is_legend": false,
     "title": "Lair Wire",
-    "_wiki_ts": "2026-04-22T10:14:31Z",
+    "_wiki_ts": "2026-08-20T20:12:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Lair Wire (Rush Duel)"
   },
@@ -84999,7 +85017,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "Pay 300 LP.",
-    "effect": "Special Summon 1 Level 4 monster with 1600 or less ATK or 1 Legend Normal Monster from your Graveyard face-up to your field. If you Special Summoned \"Legend Magician\" or a Legend Normal Monster by this effect, you can destroy 1 Spell/Trap Card on your opponent's field.",
+    "effect": "Special Summon 1 Level 4 monster with 1600 or less ATK or 1 Legend Normal Monster from your Graveyard face-up to your field. If you Special Summoned \"Legendary Magician\" or a Legend Normal Monster by this effect, you can destroy 1 Spell/Trap Card on your opponent's field.",
     "flavor_text": null,
     "images": [
       {
@@ -85067,7 +85085,7 @@
     "password": null,
     "is_legend": false,
     "title": "Legend Strike",
-    "_wiki_ts": "2025-08-21T16:50:47Z",
+    "_wiki_ts": "2026-08-17T17:50:56Z",
     "card_schema_version": 2,
     "raw_name_en": "Legend Strike"
   },
@@ -100163,7 +100181,7 @@
     "password": null,
     "is_legend": false,
     "title": "Nativity of the Monarchs",
-    "_wiki_ts": "2026-06-22T19:05:40Z",
+    "_wiki_ts": "2026-08-20T20:12:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Nativity of the Monarchs"
   },
@@ -101807,7 +101825,7 @@
     "password": null,
     "is_legend": false,
     "title": "New Start",
-    "_wiki_ts": "2026-06-29T22:35:39Z",
+    "_wiki_ts": "2026-08-20T20:13:18Z",
     "card_schema_version": 2,
     "raw_name_en": "New Start"
   },
@@ -112360,7 +112378,7 @@
     "password": null,
     "is_legend": false,
     "title": "Priestess of Wise Salvation",
-    "_wiki_ts": "2026-07-28T17:07:41Z",
+    "_wiki_ts": "2026-08-20T22:29:37Z",
     "card_schema_version": 2,
     "former_titles": [
       "Priestess of Star Salvation"
@@ -112897,7 +112915,7 @@
     "password": null,
     "is_legend": false,
     "title": "Princess Cosmos' Beauty Sleep",
-    "_wiki_ts": "2026-04-21T22:10:24Z",
+    "_wiki_ts": "2026-08-20T20:06:54Z",
     "card_schema_version": 2,
     "raw_name_en": "Princess Cosmos' Beauty Sleep"
   },
@@ -114168,7 +114186,7 @@
     "password": null,
     "is_legend": false,
     "title": "Psychic Trap Hole",
-    "_wiki_ts": "2025-10-04T17:41:04Z",
+    "_wiki_ts": "2026-08-20T20:08:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Psychic Trap Hole"
   },
@@ -118727,7 +118745,7 @@
     "password": null,
     "is_legend": false,
     "title": "Revenge MAX",
-    "_wiki_ts": "2024-12-06T07:36:24Z",
+    "_wiki_ts": "2026-08-20T20:09:39Z",
     "card_schema_version": 2,
     "raw_name_en": "Revenge MAX"
   },
@@ -123745,7 +123763,7 @@
     "password": null,
     "is_legend": false,
     "title": "Sacred Tower in Collapse",
-    "_wiki_ts": "2026-06-22T19:07:11Z",
+    "_wiki_ts": "2026-08-20T20:10:20Z",
     "card_schema_version": 2,
     "raw_name_en": "Sacred Tower in Collapse"
   },
@@ -148451,7 +148469,7 @@
     "password": null,
     "is_legend": true,
     "title": "Trap Hole",
-    "_wiki_ts": "2026-04-10T17:33:41Z",
+    "_wiki_ts": "2026-08-20T20:10:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Trap Hole (Rush Duel)"
   },
@@ -153603,7 +153621,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "Send the top card of your Deck to the Graveyard.",
-    "effect": "This turn, this card's name becomes \"Vanishing Heliacal Riser\". Then, you can add 1 \"Fusion\" or Field Spell Card from your Graveyard to your hand. If you do, you cannot activate the effect of \"Vanishing Solitius\" this turn.",
+    "effect": "This turn, this card's name becomes \"Vanishing Heliacal Riser\". Then, you can add 1 \"Fusion\" or 1 Field Spell Card from your Graveyard to your hand. If you do, you cannot activate the effect of \"Vanishing Solitius\" this turn.",
     "flavor_text": null,
     "images": [
       {
@@ -153624,7 +153642,7 @@
     "password": null,
     "is_legend": false,
     "title": "Vanishing Solitius",
-    "_wiki_ts": "2026-05-22T16:47:12Z",
+    "_wiki_ts": "2026-08-23T03:39:59Z",
     "card_schema_version": 2,
     "raw_name_en": "Vanishing Solitius"
   },
@@ -157501,7 +157519,7 @@
     "password": null,
     "is_legend": false,
     "title": "Vortex of Shattered Light",
-    "_wiki_ts": "2024-12-06T11:21:56Z",
+    "_wiki_ts": "2026-08-20T20:11:14Z",
     "card_schema_version": 2,
     "raw_name_en": "Vortex of Shattered Light"
   },
@@ -161193,7 +161211,7 @@
     "password": null,
     "is_legend": false,
     "title": "The Wrath of Abyss",
-    "_wiki_ts": "2026-08-15T10:24:27Z",
+    "_wiki_ts": "2026-08-20T20:11:49Z",
     "card_schema_version": 2,
     "former_titles": [
       "Wrath of Abyss"
@@ -164525,7 +164543,7 @@
     "password": null,
     "is_legend": true,
     "title": "Bottomless Trap Hole",
-    "_wiki_ts": "2026-07-05T18:52:35Z",
+    "_wiki_ts": "2026-08-20T20:15:39Z",
     "card_schema_version": 2,
     "raw_name_en": "Bottomless Trap Hole (Rush Duel)"
   },
@@ -165074,7 +165092,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "Pay 800 LP.",
-    "effect": "Take control of 1 face-up Level 8 or lower monster on your opponent's field that is not in Maximum Mode until the End Phase (when control of that monster is returned, if there is no Monster Zone to return to, send it to the Graveyard). This turn, you cannot activate that monster's effect.",
+    "effect": "Take control of 1 face-up Level 8 or lower monster on your opponent's field that is not in Maximum Mode until the End Phase (when control of that monster is returned, if there is no Monster Zone to return to, send it to the Graveyard). This turn, you cannot activate that monster's effects.",
     "flavor_text": null,
     "images": [
       {
@@ -165095,7 +165113,7 @@
     "password": null,
     "is_legend": true,
     "title": "Brain Control",
-    "_wiki_ts": "2026-07-19T01:31:50Z",
+    "_wiki_ts": "2026-08-17T16:53:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Brain Control (Rush Duel)"
   },
@@ -165119,25 +165137,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ContractoroftheAbyssalDragon-RDKP26-JP-OP.png"
+        "file": "ContractoroftheAbyssalDragon-RDKP26-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP036",
         "name": "Headliner of Reigning",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23748",
     "archseries": [
       "Star Protector"
     ],
     "password": null,
     "is_legend": false,
     "title": "Contractor of the Abyssal Dragon",
-    "_wiki_ts": "2026-07-14T16:05:14Z",
+    "_wiki_ts": "2026-08-21T16:25:09Z",
     "card_schema_version": 2,
     "former_titles": [
       "Contractor of the Deep Dragon"
@@ -165164,11 +165182,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "EinSofRitter-RDKP26-JP-OP.png"
+        "file": "EinSofRitter-RDKP26-JP-UR.png"
       },
       {
         "artwork": 2,
-        "file": "EinSofRitter-RDKP26-JP-OP-AA.png"
+        "file": "EinSofRitter-RDKP26-JP-ORR-AA.png"
       }
     ],
     "sets_jp": [
@@ -165179,12 +165197,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23747",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Ein Sof Ritter",
-    "_wiki_ts": "2026-08-07T19:11:21Z",
+    "_wiki_ts": "2026-08-21T16:24:59Z",
     "card_schema_version": 2,
     "raw_name_en": "Ein Sof Ritter"
   },
@@ -165209,7 +165227,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "EncounterwiththeSacredTree-RDKP26-JP-OP.png"
+        "file": "EncounterwiththeSacredTree-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -165220,14 +165238,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23761",
     "archseries": [
       "Lauan Adventurers"
     ],
     "password": null,
     "is_legend": false,
     "title": "Encounter with the Sacred Tree",
-    "_wiki_ts": "2026-08-03T18:11:42Z",
+    "_wiki_ts": "2026-08-21T16:27:38Z",
     "card_schema_version": 2,
     "raw_name_en": "Encounter with the Sacred Tree"
   },
@@ -165389,29 +165407,29 @@
     "images": [
       {
         "artwork": 1,
-        "file": "FisttheStarProtectorsRoaringGauntlet-RDKP26-JP-OP.png"
+        "file": "FisttheStarProtectorsRoaringGauntlet-RDKP26-JP-UR.png"
       },
       {
         "artwork": 2,
-        "file": "FisttheStarProtectorsRoaringGauntlet-RDKP26-JP-OP-AA.png"
+        "file": "FisttheStarProtectorsRoaringGauntlet-RDKP26-JP-ORR-AA.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP011",
         "name": "Headliner of Reigning",
-        "rarity": "Ultra Rare, Over Rush Rare"
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23723",
     "archseries": [
       "Star Protector"
     ],
     "password": null,
     "is_legend": false,
     "title": "Fist the Star Protector's Roaring Gauntlet",
-    "_wiki_ts": "2026-08-11T17:13:06Z",
+    "_wiki_ts": "2026-08-21T16:20:07Z",
     "card_schema_version": 2,
     "former_titles": [
       "Fist the Star Protector Roaring Fist"
@@ -165600,25 +165618,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "HealthysHigh-RDKP26-JP-OP.png"
+        "file": "HealthysHigh-RDKP26-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP051",
         "name": "Headliner of Reigning",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23763",
     "archseries": [
       "Healthie"
     ],
     "password": null,
     "is_legend": false,
     "title": "Healthy's High!",
-    "_wiki_ts": "2026-07-23T18:04:51Z",
+    "_wiki_ts": "2026-08-21T16:27:54Z",
     "card_schema_version": 2,
     "raw_name_en": "Healthy's High!"
   },
@@ -165637,12 +165655,12 @@
     "condition": "You can Tribute Summon this card in Attack Position by Tributing 1 Pyro Type monster. If you do, its original ATK becomes 1500.",
     "effect_types": null,
     "requirement": "During your Main Phase that you Normal or Special Summoned this card.",
-    "effect": "Add 1 \"Healthy's High!\" from your Graveyard to your hand. You cannot activate monster effects until the end of this turn, except those of Pyro Type monsters.",
+    "effect": "Add 1 \"Healthy's High!\" from your Graveyard to your hand. You cannot activate the effects of non-Pyro Type monsters until the end of this turn.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "HealthieOlivia-RDKP26-JP-OP.png"
+        "file": "HealthieOlivia-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -165653,14 +165671,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23735",
     "archseries": [
       "Healthie"
     ],
     "password": null,
     "is_legend": false,
     "title": "Healthie Olivia",
-    "_wiki_ts": "2026-08-07T18:47:36Z",
+    "_wiki_ts": "2026-08-21T16:22:43Z",
     "card_schema_version": 2,
     "former_titles": [
       "Helthy Olivia"
@@ -165687,7 +165705,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "HealthieRem-RDKP26-JP-OP.png"
+        "file": "HealthieRem-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -165698,14 +165716,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23734",
     "archseries": [
       "Healthie"
     ],
     "password": null,
     "is_legend": false,
     "title": "Healthie Rem",
-    "_wiki_ts": "2026-08-10T16:39:21Z",
+    "_wiki_ts": "2026-08-21T16:22:35Z",
     "card_schema_version": 2,
     "former_titles": [
       "Helthy Rem"
@@ -165732,25 +165750,29 @@
     "images": [
       {
         "artwork": 1,
-        "file": "HealthieSati-RDKP26-JP-OP.png"
+        "file": "HealthieSati-RDKP26-JP-UR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "HealthieSati-RDKP26-JP-ORR-AA.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP024",
         "name": "Headliner of Reigning",
-        "rarity": "Ultra Rare, Over Rush Rare"
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23736",
     "archseries": [
       "Healthie"
     ],
     "password": null,
     "is_legend": false,
     "title": "Healthie Sati",
-    "_wiki_ts": "2026-07-24T00:25:06Z",
+    "_wiki_ts": "2026-08-22T09:29:13Z",
     "card_schema_version": 2,
     "former_titles": [
       "Helthy Satie"
@@ -165777,25 +165799,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheImprisonedDragonPrincess-RDKP26-JP-OP.png"
+        "file": "TheImprisonedDragonPrincess-RDKP26-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP009",
         "name": "Headliner of Reigning",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23721",
     "archseries": [
       "Star Protector"
     ],
     "password": null,
     "is_legend": false,
     "title": "The Imprisoned Dragon Princess",
-    "_wiki_ts": "2026-08-06T17:59:03Z",
+    "_wiki_ts": "2026-08-21T16:19:39Z",
     "card_schema_version": 2,
     "raw_name_en": "The Imprisoned Dragon Princess"
   },
@@ -165899,7 +165921,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MagicalWeaponTract-RDKP26-JP-OP.png"
+        "file": "MagicalWeaponTract-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -165910,14 +165932,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23724",
     "archseries": [
       "Star Protector"
     ],
     "password": null,
     "is_legend": false,
     "title": "Magical Weapon Tract",
-    "_wiki_ts": "2026-08-06T18:02:54Z",
+    "_wiki_ts": "2026-08-21T16:20:16Z",
     "card_schema_version": 2,
     "raw_name_en": "Magical Weapon Tract"
   },
@@ -165941,7 +165963,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheMysteriousFlyingPlantsAreReal-RDKP26-JP-OP.png"
+        "file": "TheMysteriousFlyingPlantsAreReal-RDKP26-JP-R.png"
       }
     ],
     "sets_jp": [
@@ -165952,14 +165974,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23760",
     "archseries": [
       "Lauan Adventurers"
     ],
     "password": null,
     "is_legend": false,
     "title": "The Mysterious Flying Plants Are Real!!",
-    "_wiki_ts": "2026-08-04T04:14:11Z",
+    "_wiki_ts": "2026-08-21T16:27:29Z",
     "card_schema_version": 2,
     "former_titles": [
       "The Mysterious Flying Plants Are Real"
@@ -166151,25 +166173,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "RoyalRebelsExtreme-RDKP26-JP-OP.png"
+        "file": "RoyalRebelsExtreme-RDKP26-JP-SR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP006",
         "name": "Headliner of Reigning",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23718",
     "archseries": [
       "Royal Rebel's"
     ],
     "password": null,
     "is_legend": false,
     "title": "Royal Rebel's Extreme",
-    "_wiki_ts": "2026-07-14T15:45:24Z",
+    "_wiki_ts": "2026-08-21T16:19:14Z",
     "card_schema_version": 2,
     "raw_name_en": "Royal Rebel's Extreme"
   },
@@ -166194,7 +166216,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "RoyalRebelsGreatMixer-RDKP26-JP-OP.png"
+        "file": "RoyalRebelsGreatMixer-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -166205,14 +166227,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23716",
     "archseries": [
       "Royal Rebel's"
     ],
     "password": null,
     "is_legend": false,
     "title": "Royal Rebel's Great Mixer",
-    "_wiki_ts": "2026-07-14T15:33:31Z",
+    "_wiki_ts": "2026-08-21T16:18:57Z",
     "card_schema_version": 2,
     "raw_name_en": "Royal Rebel's Great Mixer"
   },
@@ -166237,7 +166259,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "RoyalRebelsStarting-RDKP26-JP-OP.png"
+        "file": "RoyalRebelsStarting-RDKP26-JP-R.png"
       }
     ],
     "sets_jp": [
@@ -166248,14 +166270,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23757",
     "archseries": [
       "Royal Rebel's"
     ],
     "password": null,
     "is_legend": false,
     "title": "Royal Rebel's Starting",
-    "_wiki_ts": "2026-07-14T16:20:47Z",
+    "_wiki_ts": "2026-08-21T16:27:00Z",
     "card_schema_version": 2,
     "raw_name_en": "Royal Rebel's Starting"
   },
@@ -166399,25 +166421,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "StaaartBoastingAboutYourHealth-RDKP26-JP-OP.png"
+        "file": "StaaartBoastingAboutYourHealth-RDKP26-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP064",
         "name": "Headliner of Reigning",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23776",
     "archseries": [
       "Healthie"
     ],
     "password": null,
     "is_legend": false,
     "title": "Staaart Boasting About Your Health!",
-    "_wiki_ts": "2026-08-10T17:53:30Z",
+    "_wiki_ts": "2026-08-21T16:30:51Z",
     "card_schema_version": 2,
     "raw_name_en": "Staaart Boasting About Your Health!"
   },
@@ -166442,7 +166464,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "StarProtectorAwakening-RDKP26-JP-OP.png"
+        "file": "StarProtectorAwakening-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -166453,14 +166475,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23759",
     "archseries": [
       "Star Protector"
     ],
     "password": null,
     "is_legend": false,
     "title": "Star Protector Awakening",
-    "_wiki_ts": "2026-07-14T16:24:42Z",
+    "_wiki_ts": "2026-08-21T16:27:20Z",
     "card_schema_version": 2,
     "raw_name_en": "Star Protector Awakening"
   },
@@ -166584,7 +166606,7 @@
     "password": null,
     "is_legend": false,
     "title": "Super Polymerization",
-    "_wiki_ts": "2026-07-19T01:36:38Z",
+    "_wiki_ts": "2026-08-20T22:12:10Z",
     "card_schema_version": 2,
     "raw_name_en": "Super Polymerization (Rush Duel)"
   },
@@ -166608,7 +166630,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SurtrtheBrilliantMagicalSword-RDKP26-JP-OP.png"
+        "file": "SurtrtheBrilliantMagicalSword-RDKP26-JP-UR.png"
       },
       {
         "artwork": 2,
@@ -166623,12 +166645,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23782",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Surtr the Brilliant Magical Sword",
-    "_wiki_ts": "2026-08-04T20:38:01Z",
+    "_wiki_ts": "2026-08-21T16:44:56Z",
     "card_schema_version": 2,
     "raw_name_en": "Surtr the Brilliant Magical Sword"
   },
@@ -166735,7 +166757,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AThrowThankstoGoodHealth-RDKP26-JP-OP.png"
+        "file": "AThrowThankstoGoodHealth-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -166746,14 +166768,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23765",
     "archseries": [
       "Healthie"
     ],
     "password": null,
     "is_legend": false,
     "title": "A Throw Thanks to Good Health!",
-    "_wiki_ts": "2026-08-10T17:00:01Z",
+    "_wiki_ts": "2026-08-21T16:28:16Z",
     "card_schema_version": 2,
     "raw_name_en": "A Throw Thanks to Good Health!"
   },
@@ -166777,7 +166799,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "UMPSkyForbia-RDKP26-JP-OP.png"
+        "file": "UMPSkyForbia-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -166788,14 +166810,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23729",
     "archseries": [
       "Lauan Adventurers"
     ],
     "password": null,
     "is_legend": false,
     "title": "UMP Sky Forbia",
-    "_wiki_ts": "2026-08-04T10:44:10Z",
+    "_wiki_ts": "2026-08-21T16:21:00Z",
     "card_schema_version": 2,
     "former_titles": [
       "UMP Sky Folvia"
@@ -166998,25 +167020,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "EbisutheNinjaofJustice-RDKP26-JP-OP.png"
+        "file": "EbisutheNinjaofJustice-RDKP26-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP028",
         "name": "Headliner of Reigning",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23740",
     "archseries": [
       "Goe Goe"
     ],
     "password": null,
     "is_legend": false,
     "title": "Ebisu the Ninja of Justice",
-    "_wiki_ts": "2026-07-24T17:58:54Z",
+    "_wiki_ts": "2026-08-21T16:23:40Z",
     "card_schema_version": 2,
     "raw_name_en": "Ebisu the Ninja of Justice"
   },
@@ -167093,25 +167115,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "GoeGoetheRumoredNinja-RDKP26-JP-OP.png"
+        "file": "GoeGoetheRumoredNinja-RDKP26-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP029",
         "name": "Headliner of Reigning",
-        "rarity": "Ultra Rare, Over Rush Rare"
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23741",
     "archseries": [
       "Goe Goe"
     ],
     "password": null,
     "is_legend": false,
     "title": "Goe Goe the Rumored Ninja",
-    "_wiki_ts": "2026-07-24T18:02:58Z",
+    "_wiki_ts": "2026-08-21T16:23:49Z",
     "card_schema_version": 2,
     "raw_name_en": "Goe Goe the Rumored Ninja"
   },
@@ -167135,7 +167157,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "HelpfulItems-RDKP26-JP-OP.png"
+        "file": "HelpfulItems-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -167146,14 +167168,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23766",
     "archseries": [
       "Goe Goe"
     ],
     "password": null,
     "is_legend": false,
     "title": "Helpful Items",
-    "_wiki_ts": "2026-07-24T18:10:36Z",
+    "_wiki_ts": "2026-08-21T16:28:26Z",
     "card_schema_version": 2,
     "raw_name_en": "Helpful Items"
   },
@@ -167473,11 +167495,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "YaetheSecretSpecialInvestigationsMermaid-RDKP26-JP-OP.png"
+        "file": "YaetheSecretSpecialInvestigationsMermaid-RDKP26-JP-SR.png"
       },
       {
         "artwork": 2,
-        "file": "YaetheSecretSpecialInvestigationsMermaid-RDKP26-JP-OP-AA.png"
+        "file": "YaetheSecretSpecialInvestigationsMermaid-RDKP26-JP-ScR.png"
       }
     ],
     "sets_jp": [
@@ -167488,14 +167510,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23755",
     "archseries": [
       "Goe Goe"
     ],
     "password": null,
     "is_legend": false,
     "title": "Yae the Secret Special Investigations Mermaid",
-    "_wiki_ts": "2026-08-10T18:03:22Z",
+    "_wiki_ts": "2026-08-21T16:26:44Z",
     "card_schema_version": 2,
     "raw_name_en": "Yae the Secret Special Investigations Mermaid"
   },
@@ -167659,12 +167681,12 @@
     "condition": null,
     "effect_types": null,
     "requirement": "You have \"Helpful Items\" in your Graveyard.",
-    "effect": "Special Summon 1 \"Powerful Machine - Clockwork Worker\" from your Graveyard to your field in face-up Defense Position. This turn, you can only attack with WIND Attribute Warrior Type monsters.",
+    "effect": "Special Summon 1 \"Powerful Machine Clockwork Walker\" from your Graveyard to your field in face-up Defense Position. This turn, you can only attack with WIND Attribute Warrior Type monsters.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "SasuketheClockworkNinja-RDKP26-JP-OP.png"
+        "file": "SasuketheClockworkNinja-RDKP26-JP-R.png"
       }
     ],
     "sets_jp": [
@@ -167675,14 +167697,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23738",
     "archseries": [
       "Goe Goe"
     ],
     "password": null,
     "is_legend": false,
     "title": "Sasuke the Clockwork Ninja",
-    "_wiki_ts": "2026-08-10T16:42:42Z",
+    "_wiki_ts": "2026-08-21T16:23:24Z",
     "card_schema_version": 2,
     "raw_name_en": "Sasuke the Clockwork Ninja"
   },
@@ -167706,7 +167728,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TakeAShortBreak-RDKP26-JP-OP.png"
+        "file": "TakeAShortBreak-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -167717,14 +167739,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23767",
     "archseries": [
       "Goe Goe"
     ],
     "password": null,
     "is_legend": false,
     "title": "Take A Short Break",
-    "_wiki_ts": "2026-07-24T18:14:39Z",
+    "_wiki_ts": "2026-08-21T16:28:34Z",
     "card_schema_version": 2,
     "raw_name_en": "Take A Short Break"
   },
@@ -167748,7 +167770,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "YaetheSpecialInvestigationsNinja-RDKP26-JP-OP.png"
+        "file": "YaetheSpecialInvestigationsNinja-RDKP26-JP-R.png"
       }
     ],
     "sets_jp": [
@@ -167759,14 +167781,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23739",
     "archseries": [
       "Goe Goe"
     ],
     "password": null,
     "is_legend": false,
     "title": "Yae the Special Investigations Ninja",
-    "_wiki_ts": "2026-08-02T18:05:38Z",
+    "_wiki_ts": "2026-08-21T16:23:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Yae the Special Investigations Ninja"
   },
@@ -167830,7 +167852,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "CoredrasiltheSpiritTreeBunrei-RDKP26-JP-OP.png"
+        "file": "CoredrasiltheSpiritTreeBunrei-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -167841,14 +167863,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23730",
     "archseries": [
       "Lauan Adventurers"
     ],
     "password": null,
     "is_legend": false,
     "title": "Coredrasil the Spirit Tree Bunrei",
-    "_wiki_ts": "2026-08-03T18:05:23Z",
+    "_wiki_ts": "2026-08-21T16:21:10Z",
     "card_schema_version": 2,
     "raw_name_en": "Coredrasil the Spirit Tree Bunrei"
   },
@@ -167893,8 +167915,8 @@
     "raw_name_en": "Instant Fusion (Rush Duel)"
   },
   {
-    "name_ja": "絶超デモンスダイブ",
-    "name_ja_romaji": "Zecchō Demonsu Daibu",
+    "name_ja": "絶超デモンズダイブ",
+    "name_ja_romaji": "Zecchō Demonzu Daibu",
     "name_translated": "Ultimate Demon's Dive",
     "attribute": null,
     "types": null,
@@ -167907,29 +167929,29 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "When your opponent Normal Summons a Level 4 or lower monster, shuffle 2 LIGHT Attribute Fiend Type monsters from your Graveyard into the Deck.",
+    "effect": "Destroy that Normal Summoned monster. Then, you can Special Summon 1 Level 7 or higher LIGHT Attribute Fiend Type monster from your Graveyard to your field in face-up Defense Position.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "RebelsDive-OW.png"
+        "file": "RebelsDive-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP062",
         "name": "Headliner of Reigning",
-        "rarity": ""
+        "rarity": "Common"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23774",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Rebel's Dive",
-    "_wiki_ts": "2026-08-14T05:40:59Z",
+    "_wiki_ts": "2026-08-21T16:30:36Z",
     "card_schema_version": 2,
     "raw_name_en": "Rebel's Dive"
   },
@@ -167995,18 +168017,18 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ElementalHEROEarthNeos-RDKP26-JP-OP.png"
+        "file": "ElementalHEROEarthNeos-RDKP26-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP068",
         "name": "Headliner of Reigning",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23780",
     "archseries": [
       "Elemental HERO",
       "Neos"
@@ -168014,7 +168036,7 @@
     "password": null,
     "is_legend": false,
     "title": "Elemental HERO Earth Neos",
-    "_wiki_ts": "2026-07-17T16:47:50Z",
+    "_wiki_ts": "2026-08-21T16:44:15Z",
     "card_schema_version": 2,
     "raw_name_en": "Elemental HERO Earth Neos"
   },
@@ -168038,25 +168060,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "FamiliarPossessedEria-RDKP26-JP-OP.png"
+        "file": "FamiliarPossessedEria-RDKP26-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP039",
         "name": "Headliner of Reigning",
-        "rarity": "Ultra Rare, Over Rush Rare"
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23751",
     "archseries": [
       "Charmer"
     ],
     "password": null,
     "is_legend": false,
     "title": "Familiar-Possessed - Eria",
-    "_wiki_ts": "2026-07-14T19:58:41Z",
+    "_wiki_ts": "2026-08-21T16:25:45Z",
     "card_schema_version": 2,
     "raw_name_en": "Familiar-Possessed - Eria (Rush Duel)"
   },
@@ -168080,25 +168102,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "FisttheContractoroftheImprisonedDragon-RDKP26-JP-OP.png"
+        "file": "FisttheContractoroftheImprisonedDragon-RDKP26-JP-SR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP037",
         "name": "Headliner of Reigning",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23749",
     "archseries": [
       "Star Protector"
     ],
     "password": null,
     "is_legend": false,
     "title": "Fist the Contractor of the Imprisoned Dragon",
-    "_wiki_ts": "2026-07-14T16:10:16Z",
+    "_wiki_ts": "2026-08-21T16:25:17Z",
     "card_schema_version": 2,
     "raw_name_en": "Fist the Contractor of the Imprisoned Dragon"
   },
@@ -168164,25 +168186,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "NeoSpacianGrandMole-RDKP26-JP-OP.png"
+        "file": "NeoSpacianGrandMole-RDKP26-JP-SR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP067",
         "name": "Headliner of Reigning",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23779",
     "archseries": [
       "Neos"
     ],
     "password": null,
     "is_legend": false,
     "title": "Neo-Spacian Grand Mole",
-    "_wiki_ts": "2026-07-17T16:50:40Z",
+    "_wiki_ts": "2026-08-21T16:44:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Neo-Spacian Grand Mole (Rush Duel)"
   },
@@ -168207,7 +168229,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "RoyalRebelsFalsetto-RDKP26-JP-OP.png"
+        "file": "RoyalRebelsFalsetto-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -168218,14 +168240,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23717",
     "archseries": [
       "Royal Rebel's"
     ],
     "password": null,
     "is_legend": false,
     "title": "Royal Rebel's Falsetto",
-    "_wiki_ts": "2026-07-14T15:36:48Z",
+    "_wiki_ts": "2026-08-21T16:19:06Z",
     "card_schema_version": 2,
     "raw_name_en": "Royal Rebel's Falsetto"
   },
@@ -168250,25 +168272,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "RoyalRebelsPitchShifter-RDKP26-JP-OP.png"
+        "file": "RoyalRebelsPitchShifter-RDKP26-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP003",
         "name": "Headliner of Reigning",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23715",
     "archseries": [
       "Royal Rebel's"
     ],
     "password": null,
     "is_legend": false,
     "title": "Royal Rebel's Pitch Shifter",
-    "_wiki_ts": "2026-07-14T15:30:34Z",
+    "_wiki_ts": "2026-08-21T16:18:49Z",
     "card_schema_version": 2,
     "raw_name_en": "Royal Rebel's Pitch Shifter"
   },
@@ -168293,7 +168315,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SlaytheStarProtectorsGunslinger-RDKP26-JP-OP.png"
+        "file": "SlaytheStarProtectorsGunslinger-RDKP26-JP-R.png"
       }
     ],
     "sets_jp": [
@@ -168304,14 +168326,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23722",
     "archseries": [
       "Star Protector"
     ],
     "password": null,
     "is_legend": false,
     "title": "Slay the Star Protector's Gunslinger",
-    "_wiki_ts": "2026-07-14T15:49:43Z",
+    "_wiki_ts": "2026-08-21T16:19:47Z",
     "card_schema_version": 2,
     "raw_name_en": "Slay the Star Protector's Gunslinger"
   },
@@ -168499,25 +168521,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "GoeGoetheRumoredKabukiLion-RDKP26-JP-OP.png"
+        "file": "GoeGoetheRumoredKabukiLion-RDKP26-JP-SR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP044",
         "name": "Headliner of Reigning",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23756",
     "archseries": [
       "Goe Goe"
     ],
     "password": null,
     "is_legend": false,
     "title": "Goe Goe the Rumored Kabuki Lion",
-    "_wiki_ts": "2026-07-25T08:54:43Z",
+    "_wiki_ts": "2026-08-21T16:26:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Goe Goe the Rumored Kabuki Lion"
   },
@@ -168541,7 +168563,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "HealthieCafferin-RDKP26-JP-OP.png"
+        "file": "HealthieCafferin-RDKP26-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "HealthieCafferin-RDKP26-JP-ScR.png"
       }
     ],
     "sets_jp": [
@@ -168552,14 +168578,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23731",
     "archseries": [
       "Healthie"
     ],
     "password": null,
     "is_legend": false,
     "title": "Healthie Cafferin",
-    "_wiki_ts": "2026-08-10T09:38:31Z",
+    "_wiki_ts": "2026-08-22T09:25:57Z",
     "card_schema_version": 2,
     "raw_name_en": "Healthie Cafferin"
   },
@@ -168583,25 +168609,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "HealthieElizalamilla-RDKP26-JP-OP.png"
+        "file": "HealthieElizalamilla-RDKP26-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP041",
         "name": "Headliner of Reigning",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23753",
     "archseries": [
       "Healthie"
     ],
     "password": null,
     "is_legend": false,
     "title": "Healthie Elizalamilla",
-    "_wiki_ts": "2026-07-24T00:24:39Z",
+    "_wiki_ts": "2026-08-21T16:26:20Z",
     "card_schema_version": 2,
     "raw_name_en": "Healthie Elizalamilla"
   },
@@ -168625,25 +168651,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "HealthieLamilla-RDKP26-JP-OP.png"
+        "file": "HealthieLamilla-RDKP26-JP-SR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP021",
         "name": "Headliner of Reigning",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23733",
     "archseries": [
       "Healthie"
     ],
     "password": null,
     "is_legend": false,
     "title": "Healthie Lamilla",
-    "_wiki_ts": "2026-07-24T00:24:45Z",
+    "_wiki_ts": "2026-08-21T16:22:27Z",
     "card_schema_version": 2,
     "raw_name_en": "Healthie Lamilla"
   },
@@ -168667,7 +168693,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "HealthieShanlong-RDKP26-JP-OP.png"
+        "file": "HealthieShanlong-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -168678,14 +168704,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23732",
     "archseries": [
       "Healthie"
     ],
     "password": null,
     "is_legend": false,
     "title": "Healthie Shanlong",
-    "_wiki_ts": "2026-07-24T00:25:13Z",
+    "_wiki_ts": "2026-08-21T16:21:43Z",
     "card_schema_version": 2,
     "raw_name_en": "Healthie Shanlong"
   },
@@ -168709,25 +168735,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "HealthieTigasati-RDKP26-JP-OP.png"
+        "file": "HealthieTigasati-RDKP26-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP042",
         "name": "Headliner of Reigning",
-        "rarity": "Ultra Rare, Over Rush Rare"
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23754",
     "archseries": [
       "Healthie"
     ],
     "password": null,
     "is_legend": false,
     "title": "Healthie Tigasati",
-    "_wiki_ts": "2026-07-24T00:25:18Z",
+    "_wiki_ts": "2026-08-21T16:26:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Healthie Tigasati"
   },
@@ -168751,7 +168777,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "HealthyMindSpeedyBuzzerBattle-RDKP26-JP-OP.png"
+        "file": "HealthyMindSpeedyBuzzerBattle-RDKP26-JP-R.png"
       }
     ],
     "sets_jp": [
@@ -168762,14 +168788,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23764",
     "archseries": [
       "Healthie"
     ],
     "password": null,
     "is_legend": false,
     "title": "Healthy Mind Speedy Buzzer Battle!",
-    "_wiki_ts": "2026-07-23T18:41:00Z",
+    "_wiki_ts": "2026-08-21T16:28:03Z",
     "card_schema_version": 2,
     "raw_name_en": "Healthy Mind Speedy Buzzer Battle!"
   },
@@ -168793,7 +168819,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "InstantGift-RDKP26-JP-OP.png"
+        "file": "InstantGift-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -168804,14 +168830,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23771",
     "archseries": [
       "Neos"
     ],
     "password": null,
     "is_legend": false,
     "title": "Instant Gift",
-    "_wiki_ts": "2026-07-24T18:35:35Z",
+    "_wiki_ts": "2026-08-21T16:29:59Z",
     "card_schema_version": 2,
     "raw_name_en": "Instant Gift"
   },
@@ -168877,25 +168903,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "NinjitsuArtofUltimateTransformation-RDKP26-JP-OP.png"
+        "file": "NinjitsuArtofUltimateTransformation-RDKP26-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP056",
         "name": "Headliner of Reigning",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23768",
     "archseries": [
       "Goe Goe"
     ],
     "password": null,
     "is_legend": false,
     "title": "Ninjitsu Art of Ultimate Transformation",
-    "_wiki_ts": "2026-07-24T18:29:13Z",
+    "_wiki_ts": "2026-08-21T16:28:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Ninjitsu Art of Ultimate Transformation"
   },
@@ -168919,7 +168945,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "OmitsutheCitysIdol-RDKP26-JP-OP.png"
+        "file": "OmitsutheCitysIdol-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -168930,14 +168956,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23737",
     "archseries": [
       "Goe Goe"
     ],
     "password": null,
     "is_legend": false,
     "title": "Omitsu the City's Idol",
-    "_wiki_ts": "2026-07-24T17:33:28Z",
+    "_wiki_ts": "2026-08-21T16:23:13Z",
     "card_schema_version": 2,
     "raw_name_en": "Omitsu the City's Idol"
   },
@@ -169124,7 +169150,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SoitsuandDoitsu-RDKP26-JP-OP.png"
+        "file": "SoitsuandDoitsu-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -169135,12 +169161,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23752",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Soitsu and Doitsu",
-    "_wiki_ts": "2026-07-31T19:11:20Z",
+    "_wiki_ts": "2026-08-21T16:25:54Z",
     "card_schema_version": 2,
     "raw_name_en": "Soitsu and Doitsu"
   },
@@ -169164,25 +169190,29 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ArthenéetheDefenderofSacredSilence-RDKP26-JP-OP.png"
+        "file": "ArthenéetheDefenderofSacredSilence-RDKP26-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "ArthenéetheDefenderofSacredSilence-RDKP26-JP-ScR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP033",
         "name": "Headliner of Reigning",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23745",
     "archseries": [
       "Arthenée"
     ],
     "password": null,
     "is_legend": false,
     "title": "Arthenée the Defender of Sacred Silence",
-    "_wiki_ts": "2026-08-05T19:29:15Z",
+    "_wiki_ts": "2026-08-22T09:26:41Z",
     "card_schema_version": 2,
     "raw_name_en": "Arthenée the Defender of Sacred Silence"
   },
@@ -169206,25 +169236,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "CathedralofArthenée-RDKP26-JP-OP.png"
+        "file": "CathedralofArthenée-RDKP26-JP-SR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP065",
         "name": "Headliner of Reigning",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23777",
     "archseries": [
       "Arthenée"
     ],
     "password": null,
     "is_legend": false,
     "title": "Cathedral of Arthenée",
-    "_wiki_ts": "2026-08-05T19:34:46Z",
+    "_wiki_ts": "2026-08-21T16:30:58Z",
     "card_schema_version": 2,
     "raw_name_en": "Cathedral of Arthenée"
   },
@@ -169242,8 +169272,8 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": null,
-    "effect": null,
+    "requirement": "During your Main Phase this card was flipped face-up, or you have another face-up WATER Attribute Spellcaster Type monster on your field.",
+    "effect": "Excavate the top 2 cards of your Deck. Add 1 excavated card to your hand. Place the other card on the bottom of your Deck. This turn, you cannot activate the effect of \"Crystal Seer\".",
     "flavor_text": null,
     "images": [
       {
@@ -169264,7 +169294,7 @@
     "password": null,
     "is_legend": false,
     "title": "Crystal Seer",
-    "_wiki_ts": "2026-08-03T14:57:44Z",
+    "_wiki_ts": "2026-08-16T17:27:44Z",
     "card_schema_version": 2,
     "raw_name_en": "Crystal Seer (Rush Duel)"
   },
@@ -169288,25 +169318,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheDiscipleofSacredSilence-RDKP26-JP-OP.png"
+        "file": "TheDiscipleofSacredSilence-RDKP26-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP066",
         "name": "Headliner of Reigning",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23778",
     "archseries": [
       "Arthenée"
     ],
     "password": null,
     "is_legend": false,
     "title": "The Disciple of Sacred Silence",
-    "_wiki_ts": "2026-08-05T19:37:34Z",
+    "_wiki_ts": "2026-08-21T16:31:05Z",
     "card_schema_version": 2,
     "raw_name_en": "The Disciple of Sacred Silence"
   },
@@ -169330,7 +169360,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheLauanAdventurersAreGo-RDKP26-JP-OP.png"
+        "file": "TheLauanAdventurersAreGo-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -169341,14 +169371,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23762",
     "archseries": [
       "Lauan Adventurers"
     ],
     "password": null,
     "is_legend": false,
     "title": "The Lauan Adventurers Are Go!!",
-    "_wiki_ts": "2026-08-03T18:15:53Z",
+    "_wiki_ts": "2026-08-21T16:27:46Z",
     "card_schema_version": 2,
     "raw_name_en": "The Lauan Adventurers Are Go!!"
   },
@@ -169372,25 +169402,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LauanLeaderBalsa-RDKP26-JP-OP.png"
+        "file": "LauanLeaderBalsa-RDKP26-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP016",
         "name": "Headliner of Reigning",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23728",
     "archseries": [
       "Lauan Adventurers"
     ],
     "password": null,
     "is_legend": false,
     "title": "Lauan Leader Balsa",
-    "_wiki_ts": "2026-08-03T17:51:59Z",
+    "_wiki_ts": "2026-08-21T16:20:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Lauan Leader Balsa"
   },
@@ -169414,7 +169444,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LauanMachoDex-RDKP26-JP-OP.png"
+        "file": "LauanMachoDex-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -169425,14 +169455,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23726",
     "archseries": [
       "Lauan Adventurers"
     ],
     "password": null,
     "is_legend": false,
     "title": "Lauan Macho Dex",
-    "_wiki_ts": "2026-08-03T17:15:44Z",
+    "_wiki_ts": "2026-08-21T16:20:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Lauan Macho Dex"
   },
@@ -169456,7 +169486,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LauanMapperIvy-RDKP26-JP-OP.png"
+        "file": "LauanMapperIvy-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -169467,14 +169497,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23725",
     "archseries": [
       "Lauan Adventurers"
     ],
     "password": null,
     "is_legend": false,
     "title": "Lauan Mapper Ivy",
-    "_wiki_ts": "2026-08-03T17:11:33Z",
+    "_wiki_ts": "2026-08-21T16:20:23Z",
     "card_schema_version": 2,
     "raw_name_en": "Lauan Mapper Ivy"
   },
@@ -169498,7 +169528,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LauanSisterHeart-RDKP26-JP-OP.png"
+        "file": "LauanSisterHeart-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -169509,14 +169539,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23727",
     "archseries": [
       "Lauan Adventurers"
     ],
     "password": null,
     "is_legend": false,
     "title": "Lauan Sister Heart",
-    "_wiki_ts": "2026-08-03T17:24:32Z",
+    "_wiki_ts": "2026-08-21T16:20:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Lauan Sister Heart"
   },
@@ -169540,11 +169570,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MagicalWeapoknightXenoOne-RDKP26-JP-OP.png"
+        "file": "MagicalWeapoknightXenoOne-RDKP26-JP-SR.png"
       },
       {
         "artwork": 2,
-        "file": "MagicalWeapoknightXenoOne-RDKP26-JP-OP-AA.png"
+        "file": "MagicalWeapoknightXenoOne-RDKP26-JP-ScR.png"
       }
     ],
     "sets_jp": [
@@ -169555,14 +169585,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23750",
     "archseries": [
       "Star Protector"
     ],
     "password": null,
     "is_legend": false,
     "title": "Magical Weapoknight Xeno One",
-    "_wiki_ts": "2026-08-11T17:16:10Z",
+    "_wiki_ts": "2026-08-21T16:25:33Z",
     "card_schema_version": 2,
     "raw_name_en": "Magical Weapoknight Xeno One"
   },
@@ -169586,7 +169616,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheSacredShieldofArthenée-RDKP26-JP-OP.png"
+        "file": "TheSacredShieldofArthenée-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -169597,14 +169627,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23744",
     "archseries": [
       "Arthenée"
     ],
     "password": null,
     "is_legend": false,
     "title": "The Sacred Shield of Arthenée",
-    "_wiki_ts": "2026-08-05T19:25:03Z",
+    "_wiki_ts": "2026-08-21T16:24:12Z",
     "card_schema_version": 2,
     "raw_name_en": "The Sacred Shield of Arthenée"
   },
@@ -169628,7 +169658,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheSacredSpearofArthenée-RDKP26-JP-OP.png"
+        "file": "TheSacredSpearofArthenée-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -169639,14 +169669,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23743",
     "archseries": [
       "Arthenée"
     ],
     "password": null,
     "is_legend": false,
     "title": "The Sacred Spear of Arthenée",
-    "_wiki_ts": "2026-08-05T19:19:00Z",
+    "_wiki_ts": "2026-08-21T16:24:04Z",
     "card_schema_version": 2,
     "raw_name_en": "The Sacred Spear of Arthenée"
   },
@@ -169670,7 +169700,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheSoundsofaPianoHeardAfterSchool-RDKP26-JP-OP.png"
+        "file": "TheSoundsofaPianoHeardAfterSchool-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -169681,14 +169711,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23720",
     "archseries": [
       "Ghost Story"
     ],
     "password": null,
     "is_legend": false,
     "title": "The Sounds of a Piano Heard After School",
-    "_wiki_ts": "2026-08-08T21:09:17Z",
+    "_wiki_ts": "2026-08-21T16:19:31Z",
     "card_schema_version": 2,
     "raw_name_en": "The Sounds of a Piano Heard After School"
   },
@@ -169713,7 +169743,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "StarProtectorCalling-RDKP26-JP-OP.png"
+        "file": "StarProtectorCalling-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -169724,14 +169754,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23758",
     "archseries": [
       "Star Protector"
     ],
     "password": null,
     "is_legend": false,
     "title": "Star Protector Calling",
-    "_wiki_ts": "2026-08-06T18:22:10Z",
+    "_wiki_ts": "2026-08-21T16:27:11Z",
     "card_schema_version": 2,
     "raw_name_en": "Star Protector Calling"
   },
@@ -169756,7 +169786,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ThunderbeetleCrash-RDKP26-JP-OP.png"
+        "file": "ThunderbeetleCrash-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -169767,14 +169797,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23719",
     "archseries": [
       "Thunderbeetle"
     ],
     "password": null,
     "is_legend": false,
     "title": "Thunderbeetle Crash",
-    "_wiki_ts": "2026-08-06T16:55:31Z",
+    "_wiki_ts": "2026-08-21T16:19:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Thunderbeetle Crash"
   },
@@ -169798,7 +169828,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MidnightReading-RDKP26-JP-OP.png"
+        "file": "MidnightReading-RDKP26-JP-UR.png"
       }
     ],
     "sets_jp": [
@@ -169809,12 +169839,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23773",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Midnight Reading",
-    "_wiki_ts": "2026-08-14T16:48:30Z",
+    "_wiki_ts": "2026-08-21T16:30:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Midnight Reading"
   },
@@ -169839,7 +169869,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "NinjitsuArtofSpecialTransformation-RDKP26-JP-OP.png"
+        "file": "NinjitsuArtofSpecialTransformation-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -169850,14 +169880,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23769",
     "archseries": [
       "Goe Goe"
     ],
     "password": null,
     "is_legend": false,
     "title": "Ninjitsu Art of Special Transformation",
-    "_wiki_ts": "2026-08-10T17:05:37Z",
+    "_wiki_ts": "2026-08-21T16:29:14Z",
     "card_schema_version": 2,
     "raw_name_en": "Ninjitsu Art of Special Transformation"
   },
@@ -169881,7 +169911,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "RedEyesMarsDragon-RDKP26-JP-OP.png"
+        "file": "RedEyesMarsDragon-RDKP26-JP-SR.png"
       }
     ],
     "sets_jp": [
@@ -169892,14 +169922,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23746",
     "archseries": [
       "Red-Eyes"
     ],
     "password": null,
     "is_legend": false,
     "title": "Red-Eyes Mars Dragon",
-    "_wiki_ts": "2026-08-15T19:20:22Z",
+    "_wiki_ts": "2026-08-21T16:24:43Z",
     "card_schema_version": 2,
     "raw_name_en": "Red-Eyes Mars Dragon"
   },
@@ -169923,29 +169953,29 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SacredWarofArthenée-RDKP26-JP-OP.png"
+        "file": "SacredWarofArthenée-RDKP26-JP-UR.png"
       },
       {
         "artwork": 2,
-        "file": "SacredWarofArthenée-RDKP26-JP-OP-AA.png"
+        "file": "SacredWarofArthenée-RDKP26-JP-ORR-AA.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP26-JP058",
         "name": "Headliner of Reigning",
-        "rarity": "Ultra Rare, Over Rush Rare"
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23770",
     "archseries": [
       "Arthenée"
     ],
     "password": null,
     "is_legend": false,
     "title": "Sacred War of Arthenée",
-    "_wiki_ts": "2026-08-15T00:15:16Z",
+    "_wiki_ts": "2026-08-22T09:36:33Z",
     "card_schema_version": 2,
     "raw_name_en": "Sacred War of Arthenée"
   },
@@ -169970,7 +170000,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "StarProtectorRecapture-RDKP26-JP-OP.png"
+        "file": "StarProtectorRecapture-RDKP26-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -169981,15 +170011,174 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23775",
     "archseries": [
       "Star Protector"
     ],
     "password": null,
     "is_legend": false,
     "title": "Star Protector Recapture",
-    "_wiki_ts": "2026-08-11T17:41:25Z",
+    "_wiki_ts": "2026-08-21T16:30:44Z",
     "card_schema_version": 2,
     "raw_name_en": "Star Protector Recapture"
+  },
+  {
+    "name_ja": "呪符竜",
+    "name_ja_romaji": "Amyuretto Doragon",
+    "attribute": "DARK",
+    "types": "Dragon / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 8,
+    "atk": 2900,
+    "def": 2500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": null,
+    "flavor_text": null,
+    "images": [],
+    "sets_jp": [
+      {
+        "code": "RD/????-JP0??",
+        "name": "Cross Art Collection",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Dark Magician"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Amulet Dragon",
+    "_wiki_ts": "2026-08-20T23:52:17Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Amulet Dragon (Rush Duel)"
+  },
+  {
+    "name_ja": "大邪神の儀式",
+    "name_ja_romaji": "Daijashin no Gishiki",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Ritual",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During a turn you have not activated \"Final Ritual of the Ancients\".",
+    "effect": "Ritual Summon \"Reshef the Dark Being\" by sending monsters from your hand or field to the Graveyard whose total Levels equal 8 or more as material (you cannot use more monsters than necessary as material).",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "FinalRitualoftheAncients-RDKP26-JP-R.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP060",
+        "name": "Headliner of Reigning",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": "23772",
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Final Ritual of the Ancients",
+    "_wiki_ts": "2026-08-21T16:30:07Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Final Ritual of the Ancients (Rush Duel)"
+  },
+  {
+    "name_ja": "強力マシン・からくりウォーカー",
+    "name_ja_romaji": "Kyōryoku Mashin Karakuri Wōkā",
+    "attribute": "WIND",
+    "types": "Warrior / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 8,
+    "atk": 2000,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "You can Tribute Summon this card in Attack Position by Tributing 1 WIND Attribute Warrior Type monster.",
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Equip this card to 1 face-up WIND Attribute Warrior Type monster on your field as an Equip Spell Card with the following effect. Then, you can destroy 1 Spell/Trap Card on your opponent's field. ●The equipped monster gains 300 ATK.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "PowerfulMachineClockworkWalker-RDKP26-JP-C.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP030",
+        "name": "Headliner of Reigning",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": "23742",
+    "archseries": [
+      "Goe Goe"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Powerful Machine Clockwork Walker",
+    "_wiki_ts": "2026-08-21T16:23:57Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Powerful Machine Clockwork Walker"
+  },
+  {
+    "name_ja": "大邪神 レシェフ",
+    "name_ja_romaji": "Daijashin Reshefu",
+    "attribute": "LIGHT",
+    "types": "Fiend / Ritual / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 8,
+    "atk": 2500,
+    "def": 1500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During your Main Phase that you Ritual Summoned this card, send 1 Spell Card from your hand to the Graveyard.",
+    "effect": "Take control of 1 face-up Level 8 or lower monster on your opponent's field that is not in Maximum Mode until the End Phase. This turn, you cannot activate that monster's effects.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ResheftheDarkBeing-RDKP26-JP-SR.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP26-JP069",
+        "name": "Headliner of Reigning",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": "23781",
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Reshef the Dark Being",
+    "_wiki_ts": "2026-08-21T16:44:22Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Reshef the Dark Being (Rush Duel)"
   }
 ]
