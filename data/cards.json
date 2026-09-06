@@ -4428,6 +4428,11 @@
         "code": "RD/5TH1-KR053",
         "name": "5th Anniversary Pack",
         "rarity": "Super Parallel Rare, Secret Rare"
+      },
+      {
+        "code": "RD/ORP4-KR042",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
       }
     ],
     "database_id": "18621",
@@ -4437,7 +4442,7 @@
     "password": null,
     "is_legend": false,
     "title": "Altierra the Skysavior Transience",
-    "_wiki_ts": "2026-07-03T08:32:44Z",
+    "_wiki_ts": "2026-09-02T07:30:50Z",
     "card_schema_version": 2,
     "raw_name_en": "Altierra the Skysavior Transience"
   },
@@ -7984,6 +7989,11 @@
         "code": "RD/KP20-KR020",
         "name": "Galactica of Eternity",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/ORP4-KR072",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
       }
     ],
     "database_id": "21271",
@@ -7993,7 +8003,7 @@
     "password": null,
     "is_legend": false,
     "title": "Archfiend Shaman",
-    "_wiki_ts": "2026-04-10T16:34:37Z",
+    "_wiki_ts": "2026-09-02T07:32:56Z",
     "card_schema_version": 2,
     "raw_name_en": "Archfiend Shaman"
   },
@@ -9841,6 +9851,7 @@
   {
     "name_ja": "地霊使いアウス",
     "name_ja_romaji": "Chireitsukai Ausu",
+    "name_ko": "지령사 아우스",
     "attribute": "EARTH",
     "types": "Spellcaster / Effect",
     "card_type": null,
@@ -9872,7 +9883,13 @@
         "rarity": "Ultra Rare, Secret Rare, Full Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR001",
+        "name": "Over Rush Pack 4",
+        "rarity": "Ultra Rare, Secret Rare, Full Over Rush Rare"
+      }
+    ],
     "database_id": "23038",
     "archseries": [
       "Charmer"
@@ -9880,13 +9897,14 @@
     "password": null,
     "is_legend": false,
     "title": "Aussa the Earth Charmer",
-    "_wiki_ts": "2026-06-22T19:42:15Z",
+    "_wiki_ts": "2026-09-02T07:27:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Aussa the Earth Charmer (Rush Duel)"
   },
   {
     "name_ja": "地霊術師アウス",
     "name_ja_romaji": "Chireijutsushi Ausu",
+    "name_ko": "지령술사 아우스",
     "name_translated": "Aus the Earth Spiritualist",
     "attribute": "EARTH",
     "types": "Spellcaster / Effect",
@@ -9915,7 +9933,13 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR009",
+        "name": "Over Rush Pack 4",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23042",
     "archseries": [
       "Charmer"
@@ -9923,7 +9947,7 @@
     "password": null,
     "is_legend": false,
     "title": "Aussa the Earth Spiritualist",
-    "_wiki_ts": "2026-04-10T16:20:57Z",
+    "_wiki_ts": "2026-09-02T07:28:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Aussa the Earth Spiritualist"
   },
@@ -10668,6 +10692,7 @@
   {
     "name_ja": "絶望狂魔バッド・エンド",
     "name_ja_romaji": "Zetsubōkyōma Baddo Endo",
+    "name_ko": "절망광마 배드 엔드",
     "name_translated": "Bad End the Mad Demon of Despair",
     "attribute": "DARK",
     "types": "Fiend / Effect",
@@ -10696,7 +10721,13 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR027",
+        "name": "Over Rush Pack 4",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23059",
     "archseries": [
       "Mad Fiend of Despair"
@@ -10704,7 +10735,7 @@
     "password": null,
     "is_legend": false,
     "title": "Bad End the Mad Fiend of Despair",
-    "_wiki_ts": "2026-04-10T16:24:45Z",
+    "_wiki_ts": "2026-09-02T07:29:45Z",
     "card_schema_version": 2,
     "raw_name_en": "Bad End the Mad Fiend of Despair"
   },
@@ -11863,6 +11894,7 @@
   {
     "name_ja": "竜破壊の導き",
     "name_ja_romaji": "Ryūhakai no Michibiki",
+    "name_ko": "용파괴의 인도",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -11890,13 +11922,19 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR066",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23088",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Beacon of Dragon Destroyer",
-    "_wiki_ts": "2026-04-10T16:33:21Z",
+    "_wiki_ts": "2026-09-02T07:32:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Beacon of Dragon Destroyer"
   },
@@ -18022,6 +18060,7 @@
   {
     "name_ja": "アクツキのブラスデス",
     "name_ja_romaji": "Akutsuki no Burasudesu",
+    "name_ko": "아쿠츠키의 브러스데스",
     "name_translated": "Evil-Wearing Brassdes",
     "attribute": "DARK",
     "types": "Fiend / Effect",
@@ -18050,7 +18089,13 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR073",
+        "name": "Over Rush Pack 4",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23094",
     "archseries": [
       "Brassdes"
@@ -18058,7 +18103,7 @@
     "password": null,
     "is_legend": false,
     "title": "Brassdes of the Diabolic Duds",
-    "_wiki_ts": "2026-04-24T19:04:22Z",
+    "_wiki_ts": "2026-09-02T07:33:00Z",
     "card_schema_version": 2,
     "raw_name_en": "Brassdes of the Diabolic Duds"
   },
@@ -19240,6 +19285,11 @@
         "code": "RD/LGP1-KR015",
         "name": "Legend Awakening Pack",
         "rarity": "Rare"
+      },
+      {
+        "code": "RD/ORP4-KR079",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common, Secret Rare"
       }
     ],
     "database_id": "16307",
@@ -19247,7 +19297,7 @@
     "password": null,
     "is_legend": true,
     "title": "Buster Blader",
-    "_wiki_ts": "2026-07-19T01:50:43Z",
+    "_wiki_ts": "2026-09-02T07:33:25Z",
     "card_schema_version": 2,
     "raw_name_en": "Buster Blader (Rush Duel)"
   },
@@ -23500,6 +23550,7 @@
   {
     "name_ja": "蒼救の光明 シャルトル",
     "name_ja_romaji": "Sōkyū no Kōmyō Sharutoru",
+    "name_ko": "창구의 광명 샤르토르",
     "attribute": "LIGHT",
     "types": "Celestial Warrior / Fusion / Effect",
     "card_type": null,
@@ -23527,7 +23578,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR037",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23068",
     "archseries": [
       "Skysavior"
@@ -23535,7 +23592,7 @@
     "password": null,
     "is_legend": false,
     "title": "Chartres the Skysavior Shining Light",
-    "_wiki_ts": "2026-07-03T08:32:34Z",
+    "_wiki_ts": "2026-09-02T07:30:27Z",
     "card_schema_version": 2,
     "raw_name_en": "Chartres the Skysavior Shining Light"
   },
@@ -24777,6 +24834,11 @@
         "code": "RD/5TH1-KR115",
         "name": "5th Anniversary Pack",
         "rarity": "Super Rare"
+      },
+      {
+        "code": "RD/ORP4-KR078",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common, Secret Rare"
       }
     ],
     "database_id": "18606",
@@ -24786,7 +24848,7 @@
     "password": null,
     "is_legend": false,
     "title": "Ciela, the Knight of Skysavior",
-    "_wiki_ts": "2026-07-03T08:18:53Z",
+    "_wiki_ts": "2026-09-02T07:33:20Z",
     "card_schema_version": 2,
     "raw_name_en": "Ciela, the Knight of Skysavior"
   },
@@ -25130,6 +25192,7 @@
   {
     "name_ja": "蒼救参謀 クレモント",
     "name_ja_romaji": "Sōkyūsanbō Kuremonto",
+    "name_ko": "창구참모 크레몬트",
     "attribute": "WATER",
     "types": "Warrior / Effect",
     "card_type": null,
@@ -25157,7 +25220,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR046",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23072",
     "archseries": [
       "Skysavior"
@@ -25165,7 +25234,7 @@
     "password": null,
     "is_legend": false,
     "title": "Claymont the Skysavior Advisor",
-    "_wiki_ts": "2026-04-10T16:28:52Z",
+    "_wiki_ts": "2026-09-02T07:31:06Z",
     "card_schema_version": 2,
     "raw_name_en": "Claymont the Skysavior Advisor"
   },
@@ -30373,18 +30442,19 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23807",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Crystal Seer",
-    "_wiki_ts": "2026-08-16T17:27:44Z",
+    "_wiki_ts": "2026-09-03T01:51:15Z",
     "card_schema_version": 2,
     "raw_name_en": "Crystal Seer (Rush Duel)"
   },
   {
     "name_ja": "蒼救の幽暗 クイラデス",
     "name_ja_romaji": "Sōkyū no Yūan Kuiradesu",
+    "name_ko": "창구의 유암 쿠이라데스",
     "attribute": "DARK",
     "types": "Celestial Warrior / Fusion / Effect",
     "card_type": null,
@@ -30412,7 +30482,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR038",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23069",
     "archseries": [
       "Skysavior"
@@ -30420,7 +30496,7 @@
     "password": null,
     "is_legend": false,
     "title": "Cuilades the Skysavior Dismal Dark",
-    "_wiki_ts": "2026-07-03T08:32:45Z",
+    "_wiki_ts": "2026-09-02T07:30:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Cuilades the Skysavior Dismal Dark"
   },
@@ -33568,6 +33644,11 @@
         "code": "RD/KP12-KR025",
         "name": "Deck Mod Pack: Double Star of the Assault!!",
         "rarity": "Super Rare"
+      },
+      {
+        "code": "RD/ORP4-KR077",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common, Secret Rare"
       }
     ],
     "database_id": "18607",
@@ -33577,7 +33658,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dankus, the Knight of Skysavior",
-    "_wiki_ts": "2026-07-03T08:21:46Z",
+    "_wiki_ts": "2026-09-02T07:33:16Z",
     "card_schema_version": 2,
     "raw_name_en": "Dankus, the Knight of Skysavior"
   },
@@ -36320,6 +36401,11 @@
         "code": "RD/MRP2-KR023",
         "name": "Megaroad Pack 2",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/ORP4-KR080",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common, Secret Rare"
       }
     ],
     "database_id": "15162",
@@ -36327,7 +36413,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dark Revelation",
-    "_wiki_ts": "2026-04-10T16:36:10Z",
+    "_wiki_ts": "2026-09-02T07:33:29Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Revelation"
   },
@@ -37814,6 +37900,7 @@
   {
     "name_ja": "絶望狂魔デッド・コア",
     "name_ja_romaji": "Zetsubōkyōma Deddo Koa",
+    "name_ko": "절망광마 데드 코어",
     "name_translated": "Dead Core the Mad Demon of Despair",
     "attribute": "DARK",
     "types": "Fiend / Ritual / Effect",
@@ -37842,7 +37929,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR025",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23058",
     "archseries": [
       "Mad Fiend of Despair"
@@ -37850,7 +37943,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dead Core the Mad Fiend of Despair",
-    "_wiki_ts": "2026-07-02T00:29:58Z",
+    "_wiki_ts": "2026-09-02T07:29:36Z",
     "card_schema_version": 2,
     "raw_name_en": "Dead Core the Mad Fiend of Despair"
   },
@@ -37896,6 +37989,11 @@
         "code": "RD/KP15-KR033",
         "name": "Red Reboot of Darkness",
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/ORP4-KR026",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare"
       }
     ],
     "database_id": "19668",
@@ -37905,13 +38003,14 @@
     "password": null,
     "is_legend": false,
     "title": "Dead End the Mad Fiend of Despair",
-    "_wiki_ts": "2026-04-10T16:24:33Z",
+    "_wiki_ts": "2026-09-02T07:29:40Z",
     "card_schema_version": 2,
     "raw_name_en": "Dead End the Mad Fiend of Despair"
   },
   {
     "name_ja": "絶望狂魔デッド・ヒート",
     "name_ja_romaji": "Zetsubōkyōma Deddo Hīto",
+    "name_ko": "절망광마 데드 히트",
     "name_translated": "Dead Heat the Mad Demon of Despair",
     "attribute": "DARK",
     "types": "Fiend / Effect",
@@ -37940,7 +38039,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR029",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23061",
     "archseries": [
       "Mad Fiend of Despair"
@@ -37948,7 +38053,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dead Heat the Mad Fiend of Despair",
-    "_wiki_ts": "2026-04-10T16:25:08Z",
+    "_wiki_ts": "2026-09-02T07:29:53Z",
     "card_schema_version": 2,
     "raw_name_en": "Dead Heat the Mad Fiend of Despair"
   },
@@ -37994,6 +38099,11 @@
         "code": "RD/KP20-KR035",
         "name": "Galactica of Eternity",
         "rarity": "Rare"
+      },
+      {
+        "code": "RD/ORP4-KR030",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
       }
     ],
     "database_id": "21286",
@@ -38003,13 +38113,14 @@
     "password": null,
     "is_legend": false,
     "title": "Dead Line the Mad Fiend of Despair",
-    "_wiki_ts": "2026-04-10T16:25:18Z",
+    "_wiki_ts": "2026-09-02T07:29:58Z",
     "card_schema_version": 2,
     "raw_name_en": "Dead Line the Mad Fiend of Despair"
   },
   {
     "name_ja": "絶望狂魔デッド・ロック",
     "name_ja_romaji": "Zetsubōkyōma Deddo Rokku",
+    "name_ko": "절망광마 데드 록",
     "name_translated": "Dead Lock the Mad Demon of Despair",
     "attribute": "DARK",
     "types": "Fiend / Effect",
@@ -38038,7 +38149,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR028",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23060",
     "archseries": [
       "Mad Fiend of Despair"
@@ -38046,7 +38163,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dead Lock the Mad Fiend of Despair",
-    "_wiki_ts": "2026-04-10T16:24:56Z",
+    "_wiki_ts": "2026-09-02T07:29:49Z",
     "card_schema_version": 2,
     "raw_name_en": "Dead Lock the Mad Fiend of Despair"
   },
@@ -38783,6 +38900,11 @@
         "code": "RD/KP12-KR040",
         "name": "Deck Mod Pack: Double Star of the Assault!!",
         "rarity": "Ultra Rare"
+      },
+      {
+        "code": "RD/ORP4-KR039",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
       }
     ],
     "database_id": "18622",
@@ -38792,7 +38914,7 @@
     "password": null,
     "is_legend": false,
     "title": "Degrace, the Flash Skysavior",
-    "_wiki_ts": "2026-07-03T12:19:44Z",
+    "_wiki_ts": "2026-09-02T07:30:36Z",
     "card_schema_version": 2,
     "raw_name_en": "Degrace, the Flash Skysavior"
   },
@@ -40133,6 +40255,7 @@
   {
     "name_ja": "ディパーチャー・ゾーン",
     "name_ja_romaji": "Dipāchā Zōn",
+    "name_ko": "디파처 존",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -40160,13 +40283,19 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR075",
+        "name": "Over Rush Pack 4",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23096",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Departure Zone",
-    "_wiki_ts": "2026-06-02T05:12:32Z",
+    "_wiki_ts": "2026-09-02T07:33:08Z",
     "card_schema_version": 2,
     "raw_name_en": "Departure Zone"
   },
@@ -40330,6 +40459,7 @@
   {
     "name_ja": "絶望と切望",
     "name_ja_romaji": "Zetsubō to Setsubō",
+    "name_ko": "절망과 갈망",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -40357,7 +40487,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR034",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23065",
     "archseries": [
       "Mad Fiend of Despair"
@@ -40365,7 +40501,7 @@
     "password": null,
     "is_legend": false,
     "title": "Despair and Desire",
-    "_wiki_ts": "2026-04-10T16:26:24Z",
+    "_wiki_ts": "2026-09-02T07:30:14Z",
     "card_schema_version": 2,
     "raw_name_en": "Despair and Desire"
   },
@@ -43370,6 +43506,7 @@
   {
     "name_ja": "蒼救の閃戟士 ディグレイシオン",
     "name_ja_romaji": "Sōkyū no Sengekishi Digureishion",
+    "name_ko": "창구의 섬극사 디그레이시온",
     "attribute": "LIGHT",
     "types": "Celestial Warrior / Fusion / Effect",
     "card_type": null,
@@ -43397,7 +43534,13 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR036",
+        "name": "Over Rush Pack 4",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23067",
     "archseries": [
       "Skysavior"
@@ -43405,7 +43548,7 @@
     "password": null,
     "is_legend": false,
     "title": "Digracheon the Skysavior Radiaknight",
-    "_wiki_ts": "2026-07-03T08:41:34Z",
+    "_wiki_ts": "2026-09-02T07:30:23Z",
     "card_schema_version": 2,
     "raw_name_en": "Digracheon the Skysavior Radiaknight"
   },
@@ -45780,6 +45923,7 @@
   {
     "name_ja": "手揉みドラコ",
     "name_ja_romaji": "Temomi Dorako",
+    "name_ko": "테모미 드라코",
     "name_translated": "Hand-Rubbing Draco",
     "attribute": "DARK",
     "types": "Dragon / Effect",
@@ -45808,7 +45952,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR067",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23089",
     "archseries": [
       "Draco"
@@ -45816,7 +45966,7 @@
     "password": null,
     "is_legend": false,
     "title": "Draco the Palm Greaser",
-    "_wiki_ts": "2026-08-29T19:19:02Z",
+    "_wiki_ts": "2026-09-02T07:32:35Z",
     "card_schema_version": 2,
     "raw_name_en": "Draco the Palm Greaser"
   },
@@ -49076,6 +49226,11 @@
         "code": "RD/KP12-KR041",
         "name": "Deck Mod Pack: Double Star of the Assault!!",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/ORP4-KR040",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
       }
     ],
     "database_id": "18623",
@@ -49085,7 +49240,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dulkmua, the Phantom Skysavior",
-    "_wiki_ts": "2026-07-03T12:20:11Z",
+    "_wiki_ts": "2026-09-02T07:30:41Z",
     "card_schema_version": 2,
     "raw_name_en": "Dulkmua, the Phantom Skysavior"
   },
@@ -52769,6 +52924,7 @@
   {
     "name_ja": "絶望との遭遇",
     "name_ja_romaji": "Zetsubō to no Sōgū",
+    "name_ko": "절망과의 조우",
     "attribute": null,
     "types": null,
     "card_type": "Trap",
@@ -52796,7 +52952,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR035",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23066",
     "archseries": [
       "Mad Fiend of Despair"
@@ -52804,7 +52966,7 @@
     "password": null,
     "is_legend": false,
     "title": "Encounter with Despair",
-    "_wiki_ts": "2026-04-10T16:26:36Z",
+    "_wiki_ts": "2026-09-02T07:30:19Z",
     "card_schema_version": 2,
     "raw_name_en": "Encounter with Despair"
   },
@@ -52854,6 +53016,7 @@
   {
     "name_ja": "絶望狂魔神ジ・エンド",
     "name_ja_romaji": "Zetsubōkyōmashin Ji Endo",
+    "name_ko": "절망광마신 디 엔드",
     "name_translated": "The End the Mad Devil of Despair",
     "attribute": "DARK",
     "types": "Fiend / Fusion / Effect",
@@ -52882,7 +53045,13 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR022",
+        "name": "Over Rush Pack 4",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23055",
     "archseries": [
       "Mad Fiend of Despair"
@@ -52890,7 +53059,7 @@
     "password": null,
     "is_legend": false,
     "title": "The End the Mad Fiend Deity of Despair",
-    "_wiki_ts": "2026-04-10T16:23:43Z",
+    "_wiki_ts": "2026-09-02T07:29:24Z",
     "card_schema_version": 2,
     "raw_name_en": "The End the Mad Fiend Deity of Despair"
   },
@@ -53452,6 +53621,7 @@
   {
     "name_ja": "水霊使いエリア",
     "name_ja_romaji": "Suireitsukai Eria",
+    "name_ko": "수령사 에리아",
     "attribute": "WATER",
     "types": "Spellcaster / Effect",
     "card_type": null,
@@ -53483,7 +53653,13 @@
         "rarity": "Ultra Rare, Secret Rare, Full Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR002",
+        "name": "Over Rush Pack 4",
+        "rarity": "Ultra Rare, Secret Rare, Full Over Rush Rare"
+      }
+    ],
     "database_id": "23039",
     "archseries": [
       "Charmer"
@@ -53491,13 +53667,14 @@
     "password": null,
     "is_legend": false,
     "title": "Eria the Water Charmer",
-    "_wiki_ts": "2026-07-14T16:15:37Z",
+    "_wiki_ts": "2026-09-02T07:27:56Z",
     "card_schema_version": 2,
     "raw_name_en": "Eria the Water Charmer (Rush Duel)"
   },
   {
     "name_ja": "水霊術師エリア",
     "name_ja_romaji": "Suireijutsushi Eria",
+    "name_ko": "수령술사 에리아",
     "attribute": "WATER",
     "types": "Spellcaster / Effect",
     "card_type": null,
@@ -53525,7 +53702,13 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR010",
+        "name": "Over Rush Pack 4",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23043",
     "archseries": [
       "Charmer"
@@ -53533,7 +53716,7 @@
     "password": null,
     "is_legend": false,
     "title": "Eria the Water Spiritualist",
-    "_wiki_ts": "2026-04-10T16:21:07Z",
+    "_wiki_ts": "2026-09-02T07:28:33Z",
     "card_schema_version": 2,
     "raw_name_en": "Eria the Water Spiritualist"
   },
@@ -57851,6 +58034,7 @@
   {
     "name_ja": "地霊術師の使い魔",
     "name_ja_romaji": "Chireijutsushi no Tsukaima",
+    "name_ko": "지령술사의 사역마",
     "attribute": "EARTH",
     "types": "Beast / Effect",
     "card_type": null,
@@ -57878,7 +58062,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR013",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23046",
     "archseries": [
       "Charmer"
@@ -57886,13 +58076,14 @@
     "password": null,
     "is_legend": false,
     "title": "Familiar of the Earth Spiritualist",
-    "_wiki_ts": "2026-04-10T16:21:50Z",
+    "_wiki_ts": "2026-09-02T07:28:45Z",
     "card_schema_version": 2,
     "raw_name_en": "Familiar of the Earth Spiritualist"
   },
   {
     "name_ja": "火霊術師の使い魔",
     "name_ja_romaji": "Kareijutsushi no Tsukaima",
+    "name_ko": "화령술사의 사역마",
     "attribute": "FIRE",
     "types": "Pyro / Effect",
     "card_type": null,
@@ -57920,7 +58111,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR015",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23048",
     "archseries": [
       "Charmer"
@@ -57928,13 +58125,14 @@
     "password": null,
     "is_legend": false,
     "title": "Familiar of the Fire Spiritualist",
-    "_wiki_ts": "2026-04-10T16:22:12Z",
+    "_wiki_ts": "2026-09-02T07:28:54Z",
     "card_schema_version": 2,
     "raw_name_en": "Familiar of the Fire Spiritualist"
   },
   {
     "name_ja": "水霊術師の使い魔",
     "name_ja_romaji": "Suireijutsushi no Tsukaima",
+    "name_ko": "수령술사의 사역마",
     "attribute": "WATER",
     "types": "Reptile / Effect",
     "card_type": null,
@@ -57962,7 +58160,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR014",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23047",
     "archseries": [
       "Charmer"
@@ -57970,13 +58174,14 @@
     "password": null,
     "is_legend": false,
     "title": "Familiar of the Water Spiritualist",
-    "_wiki_ts": "2026-04-10T16:22:01Z",
+    "_wiki_ts": "2026-09-02T07:28:50Z",
     "card_schema_version": 2,
     "raw_name_en": "Familiar of the Water Spiritualist"
   },
   {
     "name_ja": "風霊術師の使い魔",
     "name_ja_romaji": "Fūreijutsushi no Tsukaima",
+    "name_ko": "풍령술사의 사역마",
     "attribute": "WIND",
     "types": "Dragon / Effect",
     "card_type": null,
@@ -58004,7 +58209,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR016",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23049",
     "archseries": [
       "Charmer"
@@ -58012,7 +58223,7 @@
     "password": null,
     "is_legend": false,
     "title": "Familiar of the Wind Spiritualist",
-    "_wiki_ts": "2026-04-10T16:22:22Z",
+    "_wiki_ts": "2026-09-02T07:28:58Z",
     "card_schema_version": 2,
     "raw_name_en": "Familiar of the Wind Spiritualist"
   },
@@ -61850,6 +62061,7 @@
   {
     "name_ja": "ベリーフレッシュ・コラボレーション",
     "name_ja_romaji": "Berīfuresshu Koraborēshon",
+    "name_ko": "베리프레쉬 콜라보레이션",
     "name_translated": "Berryfresh Collaboration",
     "attribute": "WATER",
     "types": "Aqua / Effect",
@@ -61878,7 +62090,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR071",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23093",
     "archseries": [
       "Freshberry"
@@ -61886,7 +62104,7 @@
     "password": null,
     "is_legend": false,
     "title": "Freshberry Collaboration",
-    "_wiki_ts": "2026-04-10T16:34:25Z",
+    "_wiki_ts": "2026-09-02T07:32:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Freshberry Collaboration"
   },
@@ -70783,6 +71001,11 @@
         "code": "RD/KP15-KR049",
         "name": "Red Reboot of Darkness",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/ORP4-KR044",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
       }
     ],
     "database_id": "19684",
@@ -70792,7 +71015,7 @@
     "password": null,
     "is_legend": false,
     "title": "Gulflare, the Skysavior",
-    "_wiki_ts": "2026-07-03T12:20:38Z",
+    "_wiki_ts": "2026-09-02T07:30:58Z",
     "card_schema_version": 2,
     "raw_name_en": "Gulflare, the Skysavior"
   },
@@ -71421,6 +71644,7 @@
   {
     "name_ja": "霊術の指南書",
     "name_ja_romaji": "Reijutsu no Shinansho",
+    "name_ko": "령술의 지남서",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -71448,7 +71672,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR019",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23052",
     "archseries": [
       "Charmer"
@@ -71456,7 +71686,7 @@
     "password": null,
     "is_legend": false,
     "title": "Handbook to the Spiritual Arts",
-    "_wiki_ts": "2026-04-10T16:22:58Z",
+    "_wiki_ts": "2026-09-02T07:29:11Z",
     "card_schema_version": 2,
     "raw_name_en": "Handbook to the Spiritual Arts"
   },
@@ -74278,6 +74508,7 @@
   {
     "name_ja": "絶望狂魔ヒート・コア",
     "name_ja_romaji": "Zetsubōkyōma Hīto Koa",
+    "name_ko": "절망광마 히트 코어",
     "name_translated": "Heat Core the Mad Demon of Despair",
     "attribute": "DARK",
     "types": "Fiend / Fusion / Effect",
@@ -74306,7 +74537,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR024",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23057",
     "archseries": [
       "Mad Fiend of Despair"
@@ -74314,7 +74551,7 @@
     "password": null,
     "is_legend": false,
     "title": "Heat Core the Mad Fiend of Despair",
-    "_wiki_ts": "2026-04-10T16:24:06Z",
+    "_wiki_ts": "2026-09-02T07:29:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Heat Core the Mad Fiend of Despair"
   },
@@ -75730,6 +75967,7 @@
   {
     "name_ja": "火霊使いヒータ",
     "name_ja_romaji": "Kareitsukai Hīta",
+    "name_ko": "화령사 히타",
     "attribute": "FIRE",
     "types": "Spellcaster / Effect",
     "card_type": null,
@@ -75761,7 +75999,13 @@
         "rarity": "Ultra Rare, Secret Rare, Full Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR003",
+        "name": "Over Rush Pack 4",
+        "rarity": "Ultra Rare, Secret Rare, Full Over Rush Rare"
+      }
+    ],
     "database_id": "23040",
     "archseries": [
       "Charmer"
@@ -75769,13 +76013,14 @@
     "password": null,
     "is_legend": false,
     "title": "Hiita the Fire Charmer",
-    "_wiki_ts": "2026-06-22T19:42:59Z",
+    "_wiki_ts": "2026-09-02T07:28:00Z",
     "card_schema_version": 2,
     "raw_name_en": "Hiita the Fire Charmer (Rush Duel)"
   },
   {
     "name_ja": "火霊術師ヒータ",
     "name_ja_romaji": "Kareijutsushi Hīta",
+    "name_ko": "화령술사 히타",
     "attribute": "FIRE",
     "types": "Spellcaster / Effect",
     "card_type": null,
@@ -75803,7 +76048,13 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR011",
+        "name": "Over Rush Pack 4",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23044",
     "archseries": [
       "Charmer"
@@ -75811,7 +76062,7 @@
     "password": null,
     "is_legend": false,
     "title": "Hiita the Fire Spiritualist",
-    "_wiki_ts": "2026-04-10T16:21:28Z",
+    "_wiki_ts": "2026-09-02T07:28:37Z",
     "card_schema_version": 2,
     "raw_name_en": "Hiita the Fire Spiritualist"
   },
@@ -76082,6 +76333,7 @@
   {
     "name_ja": "霊使いの帰る場所",
     "name_ja_romaji": "Reitsukai no Kaeru Basho",
+    "name_ko": "령사의 돌아갈 장소",
     "name_translated": "Where the Spirit Charmers Return To",
     "attribute": null,
     "types": null,
@@ -76110,7 +76362,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR021",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23054",
     "archseries": [
       "Charmer"
@@ -76118,7 +76376,7 @@
     "password": null,
     "is_legend": false,
     "title": "Home of the Charmers",
-    "_wiki_ts": "2026-04-10T16:23:32Z",
+    "_wiki_ts": "2026-09-02T07:29:19Z",
     "card_schema_version": 2,
     "raw_name_en": "Home of the Charmers"
   },
@@ -87251,6 +87509,11 @@
         "code": "RD/KP12-KR022",
         "name": "Deck Mod Pack: Double Star of the Assault!!",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/ORP4-KR048",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
       }
     ],
     "database_id": "18604",
@@ -87260,7 +87523,7 @@
     "password": null,
     "is_legend": false,
     "title": "Langa, the Knight of Skysavior",
-    "_wiki_ts": "2026-07-03T08:09:08Z",
+    "_wiki_ts": "2026-09-02T07:31:15Z",
     "card_schema_version": 2,
     "raw_name_en": "Langa, the Knight of Skysavior"
   },
@@ -89223,6 +89486,7 @@
   {
     "name_ja": "幻惑の光",
     "name_ja_romaji": "Genwaku no Hikari",
+    "name_ko": "환혹의 빛",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -89250,13 +89514,19 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR074",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23095",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Light of Bewitchment",
-    "_wiki_ts": "2026-04-10T16:34:58Z",
+    "_wiki_ts": "2026-09-02T07:33:04Z",
     "card_schema_version": 2,
     "raw_name_en": "Light of Bewitchment"
   },
@@ -90278,6 +90548,7 @@
   {
     "name_ja": "蒼救王姫 リムリス",
     "name_ja_romaji": "Sōkyūōki Rimurisu",
+    "name_ko": "창구왕희 리무리스",
     "attribute": "DARK",
     "types": "Fairy / Effect",
     "card_type": null,
@@ -90305,7 +90576,13 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR045",
+        "name": "Over Rush Pack 4",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23071",
     "archseries": [
       "Skysavior"
@@ -90313,7 +90590,7 @@
     "password": null,
     "is_legend": false,
     "title": "Limlith the Skysavior Princess",
-    "_wiki_ts": "2026-07-03T08:41:47Z",
+    "_wiki_ts": "2026-09-02T07:31:02Z",
     "card_schema_version": 2,
     "raw_name_en": "Limlith the Skysavior Princess"
   },
@@ -90611,6 +90888,7 @@
   {
     "name_ja": "絶望狂魔ロック・コア",
     "name_ja_romaji": "Zetsubōkyōma Rokku Koa",
+    "name_ko": "절망광마 록 코어",
     "name_translated": "Lock Core the Mad Demon of Despair",
     "attribute": "DARK",
     "types": "Fiend / Fusion / Effect",
@@ -90639,7 +90917,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR023",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23056",
     "archseries": [
       "Mad Fiend of Despair"
@@ -90647,7 +90931,7 @@
     "password": null,
     "is_legend": false,
     "title": "Lock Core the Mad Fiend of Despair",
-    "_wiki_ts": "2026-04-10T16:23:54Z",
+    "_wiki_ts": "2026-09-02T07:29:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Lock Core the Mad Fiend of Despair"
   },
@@ -92073,6 +92357,11 @@
         "code": "RD/EV05-KR002",
         "name": "Rush Duel Event Pack 2024 Vol.1",
         "rarity": "Common, Secret Rare"
+      },
+      {
+        "code": "RD/ORP4-KR006",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common, Over Rush Rare"
       }
     ],
     "database_id": "18603",
@@ -92082,7 +92371,7 @@
     "password": null,
     "is_legend": false,
     "title": "Lua, the Fairy of Skysavior",
-    "_wiki_ts": "2026-07-03T08:05:39Z",
+    "_wiki_ts": "2026-09-02T07:28:14Z",
     "card_schema_version": 2,
     "raw_name_en": "Lua, the Fairy of Skysavior"
   },
@@ -100989,6 +101278,7 @@
   {
     "name_ja": "奇跡の戦士－バスター・ブレイダー",
     "name_ja_romaji": "Kiseki no Senshi - Basutā Bureidā",
+    "name_ko": "기적의 전사－버스터 블레이더",
     "attribute": "EARTH",
     "types": "Warrior / Fusion / Effect",
     "card_type": null,
@@ -101016,13 +101306,19 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR065",
+        "name": "Over Rush Pack 4",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23087",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Miraculous Swordsman - Buster Blader",
-    "_wiki_ts": "2026-04-10T16:33:10Z",
+    "_wiki_ts": "2026-09-02T07:32:27Z",
     "card_schema_version": 2,
     "raw_name_en": "Miraculous Swordsman - Buster Blader"
   },
@@ -102455,14 +102751,14 @@
     ],
     "sets_jp": [],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23417",
     "archseries": [
       "Match winner"
     ],
     "password": null,
     "is_legend": false,
     "title": "Moonlight at Dawn",
-    "_wiki_ts": "2026-08-26T09:25:46Z",
+    "_wiki_ts": "2026-08-31T01:16:18Z",
     "card_schema_version": 2,
     "raw_name_en": "Moonlight at Dawn (Rush Duel)"
   },
@@ -109779,6 +110075,7 @@
   {
     "name_ja": "オーバーラッシュ・ボルケーノ",
     "name_ja_romaji": "Ōbārasshu Borukēno",
+    "name_ko": "오버러시 볼케이노",
     "attribute": null,
     "types": null,
     "card_type": "Trap",
@@ -109806,13 +110103,19 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR076",
+        "name": "Over Rush Pack 4",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23097",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Over Rush Volcano",
-    "_wiki_ts": "2026-04-19T13:19:31Z",
+    "_wiki_ts": "2026-09-02T07:33:12Z",
     "card_schema_version": 2,
     "raw_name_en": "Over Rush Volcano"
   },
@@ -110851,6 +111154,7 @@
   {
     "name_ja": "絶望狂魔ピース・コア",
     "name_ja_romaji": "Zetsubōkyōma Pīsu Koa",
+    "name_ko": "절망광마 피스 코어",
     "name_translated": "Peace Core the Mad Demon of Despair",
     "attribute": "DARK",
     "types": "Fiend / Effect",
@@ -110879,7 +111183,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR031",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23062",
     "archseries": [
       "Mad Fiend of Despair"
@@ -110887,7 +111197,7 @@
     "password": null,
     "is_legend": false,
     "title": "Peace Core the Mad Fiend of Despair",
-    "_wiki_ts": "2026-04-10T16:25:49Z",
+    "_wiki_ts": "2026-09-02T07:30:02Z",
     "card_schema_version": 2,
     "raw_name_en": "Peace Core the Mad Fiend of Despair"
   },
@@ -113465,6 +113775,7 @@
   {
     "name_ja": "Ｐ・Ｍ アナザープレイ",
     "name_ja_romaji": "Purazumatikku Moderu Anazā Purei",
+    "name_ko": "P·M 어나더플레이",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -113497,7 +113808,13 @@
         "rarity": "Super Parallel Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR070",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23092",
     "archseries": [
       "Plasmatic Model"
@@ -113505,13 +113822,14 @@
     "password": null,
     "is_legend": false,
     "title": "Plasmatic Model Another Play",
-    "_wiki_ts": "2026-06-19T18:14:48Z",
+    "_wiki_ts": "2026-09-02T07:32:48Z",
     "card_schema_version": 2,
     "raw_name_en": "Plasmatic Model Another Play"
   },
   {
     "name_ja": "Ｐ・Ｍ ＡＲ－ブラウ",
     "name_ja_romaji": "Purazumatikku Moderu Anazā Raijingu - Burau",
+    "name_ko": "P·M AR－브라우",
     "attribute": "LIGHT",
     "types": "Thunder / Ritual / Effect",
     "card_type": null,
@@ -113539,7 +113857,13 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR068",
+        "name": "Over Rush Pack 4",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23090",
     "archseries": [
       "Plasmatic Model"
@@ -113547,7 +113871,7 @@
     "password": null,
     "is_legend": false,
     "title": "Plasmatic Model Another Rising Blau",
-    "_wiki_ts": "2026-04-10T16:33:44Z",
+    "_wiki_ts": "2026-09-02T07:32:39Z",
     "card_schema_version": 2,
     "raw_name_en": "Plasmatic Model Another Rising Blau"
   },
@@ -114257,6 +114581,7 @@
   {
     "name_ja": "Ｐ・Ｍ ツールキート",
     "name_ja_romaji": "Purazumatikku Moderu Tsūrukīto",
+    "name_ko": "P·M 툴키트",
     "attribute": "LIGHT",
     "types": "Thunder / Effect",
     "card_type": null,
@@ -114284,7 +114609,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR069",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23091",
     "archseries": [
       "Plasmatic Model"
@@ -114292,7 +114623,7 @@
     "password": null,
     "is_legend": false,
     "title": "Plasmatic Model Tool Ceto",
-    "_wiki_ts": "2026-04-19T12:41:20Z",
+    "_wiki_ts": "2026-09-02T07:32:43Z",
     "card_schema_version": 2,
     "raw_name_en": "Plasmatic Model Tool Ceto"
   },
@@ -115809,6 +116140,11 @@
         "code": "RD/P003-KR003",
         "name": "Maximum Duel Tournament Part 2 prize cards",
         "rarity": "Secret Rare (Special Red Version)"
+      },
+      {
+        "code": "RD/ORP4-KR007",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common, Over Rush Rare"
       }
     ],
     "database_id": "16372",
@@ -115816,7 +116152,7 @@
     "password": null,
     "is_legend": true,
     "title": "Pot of Greed",
-    "_wiki_ts": "2026-07-19T01:51:57Z",
+    "_wiki_ts": "2026-09-02T07:28:19Z",
     "card_schema_version": 2,
     "raw_name_en": "Pot of Greed (Rush Duel)"
   },
@@ -117253,7 +117589,7 @@
       },
       {
         "artwork": 2,
-        "file": "PriestessofWiseSalvation-RDKP26-JP-OP.png"
+        "file": "PriestessofWiseSalvation-RDKP26-JP-FORR.png"
       }
     ],
     "sets_jp": [
@@ -117297,7 +117633,7 @@
     "password": null,
     "is_legend": false,
     "title": "Priestess of Wise Salvation",
-    "_wiki_ts": "2026-08-20T22:29:37Z",
+    "_wiki_ts": "2026-09-03T12:31:14Z",
     "card_schema_version": 2,
     "raw_name_en": "Priestess of Wise Salvation"
   },
@@ -125364,6 +125700,7 @@
   {
     "name_ja": "絶望の儀",
     "name_ja_romaji": "Zetsubō no Gi",
+    "name_ko": "절망의 의",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -125391,7 +125728,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR032",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23063",
     "archseries": [
       "Mad Fiend of Despair"
@@ -125399,7 +125742,7 @@
     "password": null,
     "is_legend": false,
     "title": "Rite of Despair",
-    "_wiki_ts": "2026-04-10T16:26:01Z",
+    "_wiki_ts": "2026-09-02T07:30:06Z",
     "card_schema_version": 2,
     "raw_name_en": "Rite of Despair"
   },
@@ -127119,6 +127462,7 @@
   {
     "name_ja": "絶望の根源",
     "name_ja_romaji": "Zetsubō no Kongen",
+    "name_ko": "절망의 근원",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -127146,7 +127490,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR033",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23064",
     "archseries": [
       "Mad Fiend of Despair"
@@ -127154,7 +127504,7 @@
     "password": null,
     "is_legend": false,
     "title": "Root of Despair",
-    "_wiki_ts": "2026-04-10T16:26:12Z",
+    "_wiki_ts": "2026-09-02T07:30:10Z",
     "card_schema_version": 2,
     "raw_name_en": "Root of Despair"
   },
@@ -129489,6 +129839,11 @@
         "code": "RD/KP12-KR023",
         "name": "Deck Mod Pack: Double Star of the Assault!!",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/ORP4-KR047",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
       }
     ],
     "database_id": "18605",
@@ -129498,7 +129853,7 @@
     "password": null,
     "is_legend": false,
     "title": "Sael, the Knight of Skysavior",
-    "_wiki_ts": "2026-07-03T08:13:33Z",
+    "_wiki_ts": "2026-09-02T07:31:11Z",
     "card_schema_version": 2,
     "raw_name_en": "Sael, the Knight of Skysavior"
   },
@@ -130035,6 +130390,7 @@
   {
     "name_ja": "蒼救の煌輝 サンマルス",
     "name_ja_romaji": "Sōkyū no Kōki Sanmarusu",
+    "name_ko": "창구의 황휘 썬마르스",
     "attribute": "LIGHT",
     "types": "Celestial Warrior / Fusion / Effect",
     "card_type": null,
@@ -130062,7 +130418,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR043",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23070",
     "archseries": [
       "Skysavior"
@@ -130070,7 +130432,7 @@
     "password": null,
     "is_legend": false,
     "title": "Sanmarth the Skysavior Bright Brilliance",
-    "_wiki_ts": "2026-07-03T08:32:39Z",
+    "_wiki_ts": "2026-09-02T07:30:54Z",
     "card_schema_version": 2,
     "raw_name_en": "Sanmarth the Skysavior Bright Brilliance"
   },
@@ -136730,14 +137092,14 @@
     ],
     "sets_jp": [],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23418",
     "archseries": [
       "Match winner"
     ],
     "password": null,
     "is_legend": false,
     "title": "Silver Belfry Battery Bastion",
-    "_wiki_ts": "2026-08-26T09:28:12Z",
+    "_wiki_ts": "2026-08-31T01:16:27Z",
     "card_schema_version": 2,
     "raw_name_en": "Silver Belfry Battery Bastion (Rush Duel)"
   },
@@ -137880,6 +138242,7 @@
   {
     "name_ja": "蒼救の宿願",
     "name_ja_romaji": "Sōkyū no Shukugan",
+    "name_ko": "창구의 숙원",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -137907,7 +138270,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR051",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23075",
     "archseries": [
       "Skysavior"
@@ -137915,13 +138284,14 @@
     "password": null,
     "is_legend": false,
     "title": "Skysavior Aspiration",
-    "_wiki_ts": "2026-04-10T16:30:09Z",
+    "_wiki_ts": "2026-09-02T07:31:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Skysavior Aspiration"
   },
   {
     "name_ja": "蒼救の防衛",
     "name_ja_romaji": "Sōkyū no Bōei",
+    "name_ko": "창구의 방위",
     "attribute": null,
     "types": null,
     "card_type": "Trap",
@@ -137949,7 +138319,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR054",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23076",
     "archseries": [
       "Skysavior"
@@ -137957,13 +138333,14 @@
     "password": null,
     "is_legend": false,
     "title": "Skysavior Defense",
-    "_wiki_ts": "2026-04-10T16:30:53Z",
+    "_wiki_ts": "2026-09-02T07:31:41Z",
     "card_schema_version": 2,
     "raw_name_en": "Skysavior Defense"
   },
   {
     "name_ja": "蒼救の祈誓",
     "name_ja_romaji": "Sōkyū no Kisei",
+    "name_ko": "창구의 기서",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -137991,7 +138368,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR050",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23074",
     "archseries": [
       "Skysavior"
@@ -137999,7 +138382,7 @@
     "password": null,
     "is_legend": false,
     "title": "Skysavior Oath",
-    "_wiki_ts": "2026-04-10T16:29:49Z",
+    "_wiki_ts": "2026-09-02T07:31:24Z",
     "card_schema_version": 2,
     "raw_name_en": "Skysavior Oath"
   },
@@ -138176,6 +138559,11 @@
         "code": "RD/MRP2-KR090",
         "name": "Megaroad Pack 2",
         "rarity": "Secret Rare"
+      },
+      {
+        "code": "RD/ORP4-KR052",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
       }
     ],
     "database_id": "18635",
@@ -138185,7 +138573,7 @@
     "password": null,
     "is_legend": false,
     "title": "Skysavior Watch",
-    "_wiki_ts": "2026-07-09T23:38:06Z",
+    "_wiki_ts": "2026-09-02T07:31:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Skysavior Watch"
   },
@@ -138972,6 +139360,11 @@
         "code": "RD/KP12-KR038",
         "name": "Deck Mod Pack: Double Star of the Assault!!",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/ORP4-KR041",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
       }
     ],
     "database_id": "18620",
@@ -138981,7 +139374,7 @@
     "password": null,
     "is_legend": false,
     "title": "Solciere, the Radiant Skysavior",
-    "_wiki_ts": "2026-07-03T17:12:30Z",
+    "_wiki_ts": "2026-09-02T07:30:46Z",
     "card_schema_version": 2,
     "raw_name_en": "Solciere, the Radiant Skysavior"
   },
@@ -139040,6 +139433,11 @@
         "code": "RD/EV05-KR001",
         "name": "Rush Duel Event Pack 2024 Vol.1",
         "rarity": "Common, Secret Rare"
+      },
+      {
+        "code": "RD/ORP4-KR005",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common, Over Rush Rare"
       }
     ],
     "database_id": "18602",
@@ -139049,7 +139447,7 @@
     "password": null,
     "is_legend": false,
     "title": "Soleil, the Fairy of Skysavior",
-    "_wiki_ts": "2026-07-03T07:54:28Z",
+    "_wiki_ts": "2026-09-02T07:28:09Z",
     "card_schema_version": 2,
     "raw_name_en": "Soleil, the Fairy of Skysavior"
   },
@@ -139439,6 +139837,7 @@
   {
     "name_ja": "ソウルフリップ",
     "name_ja_romaji": "Souru Furippu",
+    "name_ko": "소울플립",
     "attribute": null,
     "types": null,
     "card_type": "Trap",
@@ -139466,13 +139865,19 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR055",
+        "name": "Over Rush Pack 4",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23077",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Soul Flip",
-    "_wiki_ts": "2026-04-10T16:31:05Z",
+    "_wiki_ts": "2026-09-02T07:31:45Z",
     "card_schema_version": 2,
     "raw_name_en": "Soul Flip"
   },
@@ -139586,6 +139991,7 @@
   {
     "name_ja": "蒼救天使の魂",
     "name_ja_romaji": "Sōkyūtenshi no Tamashī",
+    "name_ko": "창구천사의 혼",
     "attribute": "WATER",
     "types": "Fairy / Effect",
     "card_type": null,
@@ -139613,7 +140019,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR049",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23073",
     "archseries": [
       "Skysavior"
@@ -139621,7 +140033,7 @@
     "password": null,
     "is_legend": false,
     "title": "Soul of the Skysavior Angel",
-    "_wiki_ts": "2026-07-03T08:43:25Z",
+    "_wiki_ts": "2026-09-02T07:31:19Z",
     "card_schema_version": 2,
     "raw_name_en": "Soul of the Skysavior Angel"
   },
@@ -141081,6 +141493,7 @@
   {
     "name_ja": "スピード・キャリアー",
     "name_ja_romaji": "Supīdo Kyariā",
+    "name_ko": "스피드 캐리어",
     "attribute": "WIND",
     "types": "Warrior / Effect",
     "card_type": null,
@@ -141108,7 +141521,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR059",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23081",
     "archseries": [
       "Speed"
@@ -141116,13 +141535,14 @@
     "password": null,
     "is_legend": false,
     "title": "Speed Carrier",
-    "_wiki_ts": "2026-04-10T16:31:53Z",
+    "_wiki_ts": "2026-09-02T07:32:02Z",
     "card_schema_version": 2,
     "raw_name_en": "Speed Carrier"
   },
   {
     "name_ja": "スピード・コマンダー",
     "name_ja_romaji": "Supīdo Komandā",
+    "name_ko": "스피드 커맨더",
     "attribute": "WIND",
     "types": "Warrior / Effect",
     "card_type": null,
@@ -141150,7 +141570,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR058",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23080",
     "archseries": [
       "Speed"
@@ -141158,13 +141584,14 @@
     "password": null,
     "is_legend": false,
     "title": "Speed Commander",
-    "_wiki_ts": "2026-04-10T16:31:42Z",
+    "_wiki_ts": "2026-09-02T07:31:58Z",
     "card_schema_version": 2,
     "raw_name_en": "Speed Commander"
   },
   {
     "name_ja": "スピード・メジャー",
     "name_ja_romaji": "Supīdo Mejā",
+    "name_ko": "스피드 메이저",
     "attribute": "WIND",
     "types": "Warrior / Fusion / Effect",
     "card_type": null,
@@ -141192,7 +141619,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR057",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23079",
     "archseries": [
       "Speed"
@@ -141200,13 +141633,14 @@
     "password": null,
     "is_legend": false,
     "title": "Speed Major",
-    "_wiki_ts": "2026-04-10T16:31:30Z",
+    "_wiki_ts": "2026-09-02T07:31:53Z",
     "card_schema_version": 2,
     "raw_name_en": "Speed Major"
   },
   {
     "name_ja": "スピード・オフィサー",
     "name_ja_romaji": "Supīdo Ofisā",
+    "name_ko": "스피드 오피서",
     "attribute": "WIND",
     "types": "Warrior / Fusion / Effect",
     "card_type": null,
@@ -141234,7 +141668,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR056",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23078",
     "archseries": [
       "Speed"
@@ -141242,13 +141682,14 @@
     "password": null,
     "is_legend": false,
     "title": "Speed Officer",
-    "_wiki_ts": "2026-04-10T16:31:18Z",
+    "_wiki_ts": "2026-09-02T07:31:49Z",
     "card_schema_version": 2,
     "raw_name_en": "Speed Officer"
   },
   {
     "name_ja": "スピード・ロール",
     "name_ja_romaji": "Supīdo Rōru",
+    "name_ko": "스피드 롤",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -141276,7 +141717,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR063",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23085",
     "archseries": [
       "Speed"
@@ -141284,13 +141731,14 @@
     "password": null,
     "is_legend": false,
     "title": "Speed Roll",
-    "_wiki_ts": "2026-04-10T16:32:44Z",
+    "_wiki_ts": "2026-09-02T07:32:18Z",
     "card_schema_version": 2,
     "raw_name_en": "Speed Roll"
   },
   {
     "name_ja": "スピード・スナイパー",
     "name_ja_romaji": "Supīdo Sunaipā",
+    "name_ko": "스피드 스나이퍼",
     "attribute": "WIND",
     "types": "Warrior / Effect",
     "card_type": null,
@@ -141318,7 +141766,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR060",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23082",
     "archseries": [
       "Speed"
@@ -141326,13 +141780,14 @@
     "password": null,
     "is_legend": false,
     "title": "Speed Sniper",
-    "_wiki_ts": "2026-04-10T16:32:05Z",
+    "_wiki_ts": "2026-09-02T07:32:06Z",
     "card_schema_version": 2,
     "raw_name_en": "Speed Sniper"
   },
   {
     "name_ja": "スピード・トルーパー",
     "name_ja_romaji": "Supīdo Torūpā",
+    "name_ko": "스피드 트루퍼",
     "attribute": "WIND",
     "types": "Warrior / Effect",
     "card_type": null,
@@ -141360,7 +141815,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR061",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23083",
     "archseries": [
       "Speed"
@@ -141368,13 +141829,14 @@
     "password": null,
     "is_legend": false,
     "title": "Speed Trooper",
-    "_wiki_ts": "2026-04-10T16:32:24Z",
+    "_wiki_ts": "2026-09-02T07:32:10Z",
     "card_schema_version": 2,
     "raw_name_en": "Speed Trooper"
   },
   {
     "name_ja": "スピード・ターン",
     "name_ja_romaji": "Supīdo Tān",
+    "name_ko": "스피드 턴",
     "attribute": null,
     "types": null,
     "card_type": "Trap",
@@ -141402,7 +141864,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR064",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23086",
     "archseries": [
       "Speed"
@@ -141410,13 +141878,14 @@
     "password": null,
     "is_legend": false,
     "title": "Speed Turn",
-    "_wiki_ts": "2026-04-10T16:32:58Z",
+    "_wiki_ts": "2026-09-02T07:32:23Z",
     "card_schema_version": 2,
     "raw_name_en": "Speed Turn"
   },
   {
     "name_ja": "スピード・アップ",
     "name_ja_romaji": "Supīdo Appu",
+    "name_ko": "스피드 업",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -141444,7 +141913,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR062",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23084",
     "archseries": [
       "Speed"
@@ -141452,7 +141927,7 @@
     "password": null,
     "is_legend": false,
     "title": "Speed Up",
-    "_wiki_ts": "2026-04-10T16:32:35Z",
+    "_wiki_ts": "2026-09-02T07:32:14Z",
     "card_schema_version": 2,
     "raw_name_en": "Speed Up"
   },
@@ -142356,6 +142831,7 @@
   {
     "name_ja": "霊術集結",
     "name_ja_romaji": "Reijutsu Shūketsu",
+    "name_ko": "령술집결",
     "name_translated": "Spiritual Arts Coven",
     "attribute": null,
     "types": null,
@@ -142384,7 +142860,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR017",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23050",
     "archseries": [
       "Charmer"
@@ -142392,13 +142874,14 @@
     "password": null,
     "is_legend": false,
     "title": "Spiritual Coven",
-    "_wiki_ts": "2026-04-10T16:22:36Z",
+    "_wiki_ts": "2026-09-02T07:29:02Z",
     "card_schema_version": 2,
     "raw_name_en": "Spiritual Coven"
   },
   {
     "name_ja": "霊術精錬",
     "name_ja_romaji": "Reijutsu Seiren",
+    "name_ko": "령술정련",
     "name_translated": "Spiritual Art Refinement",
     "attribute": null,
     "types": null,
@@ -142427,7 +142910,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR018",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23051",
     "archseries": [
       "Charmer"
@@ -142435,13 +142924,14 @@
     "password": null,
     "is_legend": false,
     "title": "Spiritual Refinement",
-    "_wiki_ts": "2026-04-10T16:22:46Z",
+    "_wiki_ts": "2026-09-02T07:29:06Z",
     "card_schema_version": 2,
     "raw_name_en": "Spiritual Refinement"
   },
   {
     "name_ja": "霊体化の鍛錬",
     "name_ja_romaji": "Reitaika no Tanren",
+    "name_ko": "령체화의 단련",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -142469,7 +142959,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR020",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23053",
     "archseries": [
       "Charmer"
@@ -142477,7 +142973,7 @@
     "password": null,
     "is_legend": false,
     "title": "Spiritualization Training",
-    "_wiki_ts": "2026-04-10T16:23:11Z",
+    "_wiki_ts": "2026-09-02T07:29:15Z",
     "card_schema_version": 2,
     "raw_name_en": "Spiritualization Training"
   },
@@ -146998,6 +147494,11 @@
         "code": "RD/5TH1-KR011",
         "name": "5th Anniversary Pack",
         "rarity": "Ultra Parallel Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/ORP4-KR053",
+        "name": "Over Rush Pack 4",
+        "rarity": "Super Rare"
       }
     ],
     "database_id": "20014",
@@ -147005,7 +147506,7 @@
     "password": null,
     "is_legend": false,
     "title": "Sunset Rebirth",
-    "_wiki_ts": "2026-04-20T22:27:36Z",
+    "_wiki_ts": "2026-09-02T07:31:37Z",
     "card_schema_version": 2,
     "raw_name_en": "Sunset Rebirth"
   },
@@ -166019,6 +166520,11 @@
         "code": "RD/KP15-KR064",
         "name": "Red Reboot of Darkness",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/ORP4-KR008",
+        "name": "Over Rush Pack 4",
+        "rarity": "Common, Over Rush Rare"
       }
     ],
     "database_id": "19699",
@@ -166028,7 +166534,7 @@
     "password": null,
     "is_legend": false,
     "title": "Wish of the Skysavior",
-    "_wiki_ts": "2026-07-03T08:00:46Z",
+    "_wiki_ts": "2026-09-02T07:28:24Z",
     "card_schema_version": 2,
     "raw_name_en": "Wish of the Skysavior"
   },
@@ -167782,6 +168288,7 @@
   {
     "name_ja": "風霊使いウィン",
     "name_ja_romaji": "Fūreitsukai Win",
+    "name_ko": "풍령사 윈",
     "attribute": "WIND",
     "types": "Spellcaster / Effect",
     "card_type": null,
@@ -167813,7 +168320,13 @@
         "rarity": "Ultra Rare, Secret Rare, Full Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR004",
+        "name": "Over Rush Pack 4",
+        "rarity": "Ultra Rare, Secret Rare, Full Over Rush Rare"
+      }
+    ],
     "database_id": "23041",
     "archseries": [
       "Charmer"
@@ -167821,13 +168334,14 @@
     "password": null,
     "is_legend": false,
     "title": "Wynn the Wind Charmer",
-    "_wiki_ts": "2026-06-22T19:43:12Z",
+    "_wiki_ts": "2026-09-02T07:28:05Z",
     "card_schema_version": 2,
     "raw_name_en": "Wynn the Wind Charmer (Rush Duel)"
   },
   {
     "name_ja": "風霊術師ウィン",
     "name_ja_romaji": "Fūreijutsushi Win",
+    "name_ko": "풍령술사 윈",
     "attribute": "WIND",
     "types": "Spellcaster / Effect",
     "card_type": null,
@@ -167855,7 +168369,13 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/ORP4-KR012",
+        "name": "Over Rush Pack 4",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23045",
     "archseries": [
       "Charmer"
@@ -167863,7 +168383,7 @@
     "password": null,
     "is_legend": false,
     "title": "Wynn the Wind Spiritualist",
-    "_wiki_ts": "2026-04-10T16:21:38Z",
+    "_wiki_ts": "2026-09-02T07:28:41Z",
     "card_schema_version": 2,
     "raw_name_en": "Wynn the Wind Spiritualist"
   },
@@ -170712,5 +171232,89 @@
     "_wiki_ts": "2026-05-02T16:42:43Z",
     "card_schema_version": 2,
     "raw_name_en": "Zuse the Wisdom Vassal"
+  },
+  {
+    "name_ja": "雲海竜 ネーレイディス",
+    "name_ja_romaji": "Rosutorīmu Nēreidisu",
+    "attribute": "WIND",
+    "types": "Sea Serpent / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 7,
+    "atk": 2300,
+    "def": 1000,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LostreamNereides-RDSJMP-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/SJMP-JP068",
+        "name": "Saikyō Jump November 2026 promotional card",
+        "rarity": "Normal Parallel Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lostream"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Lostream Nereides",
+    "_wiki_ts": "2026-09-03T21:22:56Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Lostream Nereides"
+  },
+  {
+    "name_ja": "祭殿の帰還者",
+    "name_ja_romaji": "Saiden no Kikansha",
+    "attribute": "DARK",
+    "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1100,
+    "def": 500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During the turn you Normal Summoned this card.",
+    "effect": "Special Summon 1 Level 7 DARK Attribute Warrior Type Effect Monster with 2100 DEF or 1 Level 7 Normal Monster with 2100 DEF from your Graveyard face-up to your field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ReturneeoftheTemple-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP013",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Dark Magician"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Returnee of the Temple",
+    "_wiki_ts": "2026-09-04T17:54:46Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Returnee of the Temple"
   }
 ]
