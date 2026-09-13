@@ -2434,8 +2434,8 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "Send 2 cards from your hand to the Graveyard, or if it is the first turn of the player going second.",
-    "effect": "Destroy 1 card on your opponent's field. Then, you can Special Summon 1 LIGHT Attribute Machine Type monster with 2500 ATK/1600 DEF from your Graveyard face-up to your field.",
+    "requirement": "Send 2 cards from your hand to the Graveyard, or if this is the first turn of the player going second this Duel.",
+    "effect": "Destroy 1 card on your opponent's field. Then, you can Special Summon 1 LIGHT Attribute Machine Type monster with 2500 ATK and 1600 DEF from your Graveyard face-up to your field.",
     "flavor_text": null,
     "images": [
       {
@@ -2465,7 +2465,7 @@
     "password": null,
     "is_legend": false,
     "title": "Ace Sword Slash",
-    "_wiki_ts": "2026-06-02T05:12:41Z",
+    "_wiki_ts": "2026-09-07T08:27:25Z",
     "card_schema_version": 2,
     "raw_name_en": "Ace Sword Slash"
   },
@@ -14825,6 +14825,88 @@
     "raw_name_en": "Black Skull Dragon (Rush Duel)"
   },
   {
+    "name_ja": "神殿に臨む黒魔女",
+    "attribute": "DARK",
+    "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 7,
+    "atk": 2500,
+    "def": 2000,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "You can only Special Summon \"The Black Witch Facing the Temple\" face-up once per turn. You can Special Summon this card from your hand face-up to your field by sending 1 card from your field to the Graveyard.",
+    "effect_types": null,
+    "requirement": "During your Main Phase that you Normal or Special Summoned this card, send 1 monster from your hand to the Graveyard.",
+    "effect": "Set 1 \"Sinful Spoils of Doom - Rciela\" from your Graveyard to your Spell & Trap Zone.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "TheBlackWitchFacingtheTemple-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP048",
+        "name": "Cross Art Collection",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "The Black Witch Facing the Temple",
+    "_wiki_ts": "2026-09-13T09:10:53Z",
+    "card_schema_version": 2,
+    "raw_name_en": "The Black Witch Facing the Temple"
+  },
+  {
+    "name_ja": "暗黒の魔竜王",
+    "name_ja_romaji": "Ankoku no Majikku Doragon",
+    "name_translated": "Dark Magic Dragon",
+    "attribute": "DARK",
+    "types": "Dragon / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1500,
+    "def": 800,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During your Main Phase that you Normal or Special Summoned this card, send 1 DARK Attribute Dragon or Spellcaster Type monster from your hand to the Graveyard.",
+    "effect": "Destroy 1 Spell/Trap Card on your opponent's field. This turn, you can only attack with DARK Attribute monsters.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "BlacklandMagicDragon-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP012",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Dark Magician"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Blackland Magic Dragon",
+    "_wiki_ts": "2026-09-11T16:51:51Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Blackland Magic Dragon"
+  },
+  {
     "name_ja": "神風剣",
     "name_ja_romaji": "Kamikaze Burēdo",
     "name_ko": "신풍 블레이드",
@@ -23126,7 +23208,7 @@
     "password": null,
     "is_legend": true,
     "title": "Chaos Emperor Dragon - Envoy of the End",
-    "_wiki_ts": "2026-07-11T08:54:11Z",
+    "_wiki_ts": "2026-09-11T16:19:03Z",
     "card_schema_version": 2,
     "raw_name_en": "Chaos Emperor Dragon - Envoy of the End (Rush Duel)"
   },
@@ -25062,6 +25144,11 @@
         "code": "RD/KP18-JP051",
         "name": "Dark Matter of Phantoms",
         "rarity": "Rare"
+      },
+      {
+        "code": "RD/CA01-JP080",
+        "name": "Cross Art Collection",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -25076,7 +25163,7 @@
     "password": null,
     "is_legend": false,
     "title": "Clashing Twin Tides",
-    "_wiki_ts": "2025-05-21T13:42:08Z",
+    "_wiki_ts": "2026-09-07T17:26:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Clashing Twin Tides"
   },
@@ -26479,65 +26566,6 @@
     "_wiki_ts": "2025-11-11T09:35:56Z",
     "card_schema_version": 2,
     "raw_name_en": "Commanding Ritzy King Rex"
-  },
-  {
-    "name_ja": "オトモダチ！",
-    "name_ja_romaji": "Otomodachi!",
-    "name_ko": "친구!",
-    "attribute": null,
-    "types": null,
-    "card_type": "Spell",
-    "property": "Normal",
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "You have 2 or more face-up monsters with the same Type on your field.",
-    "effect": "Draw 1 card. Then, you can make 2 face-up monsters with the same Attribute on your field gain 400 ATK until the end of this turn.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "Companions-RD5THS-JP-SPR.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/KP15-JP059",
-        "name": "Red Reboot of Darkness",
-        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
-      },
-      {
-        "code": "RD/5THS-JPB10",
-        "name": "5th Special Pack Vol.2",
-        "rarity": "Super Parallel Rare"
-      }
-    ],
-    "sets_kr": [
-      {
-        "code": "RD/KP15-KR059",
-        "name": "Red Reboot of Darkness",
-        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
-      },
-      {
-        "code": "RD/EV09-KR014",
-        "name": "Rush Duel Event Pack 2026 Vol.1",
-        "rarity": "Common"
-      }
-    ],
-    "database_id": "19694",
-    "archseries": [
-      "Psychic Musician"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Companions!",
-    "_wiki_ts": "2026-06-29T22:34:59Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Companions!"
   },
   {
     "name_ja": "強制脱出装置",
@@ -30085,6 +30113,45 @@
     "raw_name_en": "Critical Service"
   },
   {
+    "name_ja": "CROSS ART COLLECTION",
+    "attribute": null,
+    "types": null,
+    "card_type": "Duel Marker",
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "This card can be used as a proof of victory.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "CROSSARTCOLLECTION-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP000",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "CROSS ART COLLECTION",
+    "_wiki_ts": "2026-09-11T09:41:40Z",
+    "card_schema_version": 2,
+    "raw_name_en": "CROSS ART COLLECTION (card)"
+  },
+  {
     "name_ja": "クロス・ローダー",
     "name_ja_romaji": "Kurosu Rōdā",
     "name_ko": "크로스 로더",
@@ -30132,6 +30199,90 @@
     "_wiki_ts": "2025-01-26T12:01:39Z",
     "card_schema_version": 2,
     "raw_name_en": "Cross Loader"
+  },
+  {
+    "name_ja": "雲海翔竜 メルティーヌ",
+    "name_ja_romaji": "Kurosutorīmu Merutīnu",
+    "attribute": "WIND",
+    "types": "Sea Serpent / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 9,
+    "atk": 1500,
+    "def": 2500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "If you have a face-up Sea Serpent Type monster on your field, you can Special Summon this card from your hand to your field in face-up Defense Position.",
+    "effect_types": null,
+    "requirement": "You have 2 or more face-up Union Monster Cards on your field.",
+    "effect": "Choose 1 face-up WIND Attribute Sea Serpent Type monster on your field. This turn, that monster can attack monsters a number of times, up to [the number of face-up Union Monster Cards on your field].",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "CrossLostreamMelutine-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP036",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lostream"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Cross Lostream Melutine",
+    "_wiki_ts": "2026-09-07T15:58:52Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Cross Lostream Melutine"
+  },
+  {
+    "name_ja": "雲海翔竜 ヴェルディアス",
+    "name_ja_romaji": "Kurosutorīmu Verudiasu",
+    "attribute": "WIND",
+    "types": "Sea Serpent / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 9,
+    "atk": 2500,
+    "def": 1500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "During the Battle Phase, this card gains ATK equal to [the number of face-up Union Monster Cards on your field] x 400. If you have 3 or more face-up Union Monster Cards on your field, this card cannot be destroyed by card effects. During the End Phase of the turn this card attacked, if you do not have \"Cross Lostream Melutine\" face-up on your field, change this card to face-up Defense Position.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "CrossLostreamVerdias-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP035",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lostream"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Cross Lostream Verdias",
+    "_wiki_ts": "2026-09-07T15:53:20Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Cross Lostream Verdias"
   },
   {
     "name_ja": "未知との邂逅",
@@ -41412,7 +41563,7 @@
     "password": null,
     "is_legend": false,
     "title": "Destructor Survey",
-    "_wiki_ts": "2026-08-05T07:37:26Z",
+    "_wiki_ts": "2026-09-07T08:24:38Z",
     "card_schema_version": 2,
     "raw_name_en": "Destructor Survey"
   },
@@ -41562,7 +41713,7 @@
     "password": null,
     "is_legend": false,
     "title": "Destructor Wall",
-    "_wiki_ts": "2026-08-05T07:41:50Z",
+    "_wiki_ts": "2026-09-07T08:25:05Z",
     "card_schema_version": 2,
     "raw_name_en": "Destructor Wall"
   },
@@ -44229,56 +44380,6 @@
     "_wiki_ts": "2025-09-08T22:17:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Dispell Archer"
-  },
-  {
-    "name_ja": "天翔変化",
-    "name_ja_romaji": "Tenshōhenge",
-    "name_ko": "천상변화",
-    "name_translated": "Ascension Transformation",
-    "attribute": null,
-    "types": null,
-    "card_type": "Spell",
-    "property": "Normal",
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "None",
-    "effect": "Fusion Summon a LIGHT Attribute monster by sending monsters from your field to the Graveyard as material, including a Fairy Type monster. If you Fusion Summon a Celestial Warrior Type monster by this effect, you can also use monsters in your hand as material.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "DivineTransformation-RDMRP2-JP-UR.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/MRP2-JP055",
-        "name": "Megaroad Pack 2",
-        "rarity": "Ultra Rare, Over Rush Rare"
-      }
-    ],
-    "sets_kr": [
-      {
-        "code": "RD/MRP2-KR055",
-        "name": "Megaroad Pack 2",
-        "rarity": "Ultra Rare, Over Rush Rare"
-      }
-    ],
-    "database_id": "19577",
-    "archseries": [
-      "Three Rulers"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Divine Transformation",
-    "_wiki_ts": "2026-05-28T18:19:35Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Divine Transformation"
   },
   {
     "name_ja": "環幻楽鬼神トランスゴッドブレス",
@@ -60355,6 +60456,45 @@
     "raw_name_en": "Flame Champion (Rush Duel)"
   },
   {
+    "name_ja": "神殿に巣食う炎龍",
+    "attribute": "FIRE",
+    "types": "Dragon / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 8,
+    "atk": 2500,
+    "def": 2500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "You can Special Summon this card from your hand face-up to your field by sending 1 face-up Spell Card from your field to the Graveyard.",
+    "effect_types": null,
+    "requirement": "Send 1 card from your hand to the Graveyard.",
+    "effect": "This card gains 500 ATK until the end of this turn. Then, you can Special Summon 1 face-up Monster Card from either player's Spell & Trap Zone to your field in face-up Defense Position.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "TheFlameDragonHauntingtheTemple-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP047",
+        "name": "Cross Art Collection",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "The Flame Dragon Haunting the Temple",
+    "_wiki_ts": "2026-09-13T09:08:48Z",
+    "card_schema_version": 2,
+    "raw_name_en": "The Flame Dragon Haunting the Temple"
+  },
+  {
     "name_ja": "炎を操る者",
     "name_ja_romaji": "Honō wo Ayatsurumono",
     "name_ko": "화염의 조종자",
@@ -65626,53 +65766,6 @@
     "raw_name_en": "Gamabot"
   },
   {
-    "name_ja": "光焔盤上",
-    "name_ja_romaji": "Kōenbanjō",
-    "name_ko": "광염반상",
-    "attribute": null,
-    "types": null,
-    "card_type": "Spell",
-    "property": "Normal",
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "None",
-    "effect": "Make up to 3 face-up Effect Monsters on your opponent's field lose 400 ATK/DEF until the end of this turn. Then, if your LP are lower than your opponent's, you can Special Summon 1 Level 7 monster from your hand face-up to your field.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "GameboardAblazeandAlight-RDKP14-JP-SR.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/KP14-JP054",
-        "name": "Phoenix of the Roaring Flame",
-        "rarity": "Super Rare, Secret Rare"
-      }
-    ],
-    "sets_kr": [
-      {
-        "code": "RD/KP14-KR054",
-        "name": "Phoenix of the Roaring Flame",
-        "rarity": "Super Rare, Secret Rare"
-      }
-    ],
-    "database_id": "19331",
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Gameboard Ablaze and Alight",
-    "_wiki_ts": "2025-01-14T17:55:10Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Gameboard Ablaze and Alight"
-  },
-  {
     "name_ja": "永久磁石の戦士γ",
     "name_ja_romaji": "Etānaru Magunetto Woriā Ganma",
     "name_ko": "이터널 마그넷 워리어 γ",
@@ -67278,7 +67371,7 @@
     "condition": "This card's name becomes \"Giftarist\" while in the Graveyard.",
     "effect_types": null,
     "requirement": "None",
-    "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can make all face-up monsters on your field gain ATK equal to [the number of \"Companions!\" in your Graveyard] x 500 until the end of this turn.",
+    "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can make all face-up monsters on your field gain ATK equal to [the number of \"Session Together!\" in your Graveyard] x 500 until the end of this turn.",
     "flavor_text": null,
     "images": [
       {
@@ -67307,7 +67400,7 @@
     "password": null,
     "is_legend": false,
     "title": "Giftarist - Speedy MIX",
-    "_wiki_ts": "2025-05-16T07:35:13Z",
+    "_wiki_ts": "2026-09-07T15:27:13Z",
     "card_schema_version": 2,
     "raw_name_en": "Giftarist - Speedy MIX"
   },
@@ -69378,6 +69471,11 @@
         "code": "RD/5TH1-JP140",
         "name": "5th Anniversary Pack",
         "rarity": "Secret Rare"
+      },
+      {
+        "code": "RD/CA01-JP078",
+        "name": "Cross Art Collection",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -69412,7 +69510,7 @@
     "password": null,
     "is_legend": false,
     "title": "Grand Extreme",
-    "_wiki_ts": "2025-07-24T14:57:59Z",
+    "_wiki_ts": "2026-09-07T17:24:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Grand Extreme"
   },
@@ -69611,6 +69709,47 @@
     "_wiki_ts": "2026-01-20T11:52:14Z",
     "card_schema_version": 2,
     "raw_name_en": "Grand Legend Saber Spirit"
+  },
+  {
+    "name_ja": "グランド・レジェンド・パーティ",
+    "attribute": "LIGHT",
+    "types": "Fairy / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 10,
+    "atk": 2500,
+    "def": 300,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "This card is treated as a Legend Card while in the hand or Graveyard.",
+    "effect_types": null,
+    "requirement": "Shuffle 1 Legend Card from your Graveyard into the Deck.",
+    "effect": "Special Summon 1 Legend monster from either Graveyard face-up to your field. This turn, you cannot activate the effect of \"Grand Legendary Party\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "GrandLegendaryParty-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP060",
+        "name": "Cross Art Collection",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Legend"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Grand Legendary Party",
+    "_wiki_ts": "2026-09-13T08:26:32Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Grand Legendary Party"
   },
   {
     "name_ja": "仮面呪術師カースド・ギュラ",
@@ -71314,7 +71453,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "Pay 300 LP.",
-    "effect": "Add 1 Level 4 or lower Warrior or Fairy Type monster from your Graveyard to your hand. Then, you can Set 1 \"Fusion\" or \"Divine Transformation\" from your Graveyard to your Spell & Trap Zone.",
+    "effect": "Add 1 Level 4 or lower Warrior or Fairy Type monster from your Graveyard to your hand. Then, you can Set 1 \"Fusion\" or \"Transcendent Transformation\" from your Graveyard to your Spell & Trap Zone.",
     "flavor_text": null,
     "images": [
       {
@@ -71341,7 +71480,7 @@
     "password": null,
     "is_legend": false,
     "title": "Hagoromo the Cloudle-Handling Celestial Seamstress",
-    "_wiki_ts": "2025-01-14T19:28:20Z",
+    "_wiki_ts": "2026-09-07T15:24:29Z",
     "card_schema_version": 2,
     "raw_name_en": "Hagoromo the Cloudle-Handling Celestial Seamstress"
   },
@@ -88887,6 +89026,47 @@
     "raw_name_en": "Legendary Magician"
   },
   {
+    "name_ja": "レジェンド・パーティ",
+    "attribute": "LIGHT",
+    "types": "Fairy / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1000,
+    "def": 300,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "This card is treated as a Legend Card while in the hand or Graveyard.",
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "Face-up LIGHT Attribute monsters with 300 original DEF on your field gain 400 ATK. If you have a face-up Level 10 LIGHT Attribute monster on your field, this card gains 1000 ATK and Spell/Trap Cards on your field cannot be destroyed by card effects.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LegendaryParty-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP061",
+        "name": "Cross Art Collection",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Legend"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Legendary Party",
+    "_wiki_ts": "2026-09-13T08:28:40Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Legendary Party"
+  },
+  {
     "name_ja": "伝説の種火",
     "name_ja_romaji": "Densetsu no Tanebi",
     "name_ko": "전설의 불씨",
@@ -89344,6 +89524,54 @@
     "_wiki_ts": "2026-05-11T07:34:14Z",
     "card_schema_version": 2,
     "raw_name_en": "Lifeline Linac"
+  },
+  {
+    "name_ja": "光焔盤上",
+    "name_ja_romaji": "Kōenbanjō",
+    "name_ko": "광염반상",
+    "name_translated": "Gameboard of Light and Flame",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Make up to 3 face-up Effect Monsters on your opponent's field lose 400 ATK/DEF until the end of this turn. If your LP are lower than your opponent's, you can also Special Summon 1 Level 7 monster from your hand face-up to your field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LightandFlame-RDKP14-JP-SR.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP14-JP054",
+        "name": "Phoenix of the Roaring Flame",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
+    "sets_kr": [
+      {
+        "code": "RD/KP14-KR054",
+        "name": "Phoenix of the Roaring Flame",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
+    "database_id": "19331",
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Light and Flame",
+    "_wiki_ts": "2026-09-07T12:35:26Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Light and Flame"
   },
   {
     "name_ja": "カルイルカ",
@@ -91346,12 +91574,12 @@
     "raw_name_en": "Lost Cat"
   },
   {
-    "name_ja": "雲海竜 ネモラ",
-    "name_ja_romaji": "Rosutorīmu Nemora",
-    "attribute": "WIND",
-    "types": "Sea Serpent / ???",
-    "card_type": null,
-    "property": null,
+    "name_ja": "ロストリーム－巡りの雲海",
+    "name_ja_romaji": "Rosutorīmu - Meguri no Sora",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Field",
     "level": null,
     "atk": null,
     "def": null,
@@ -91359,20 +91587,145 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "None",
+    "effect": "While this card is face-up in the Field Zone, when your attacking WIND Attribute Sea Serpent Type monster destroys a monster and sends it to the Graveyard, inflict 1000 damage to your opponent.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "LostreamNemora-OW.png"
+        "file": "LostreamTheCirculatingSeaofClouds-RDCA01-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/CA01-JP0??",
+        "code": "RD/CA01-JP045",
         "name": "Cross Art Collection",
-        "rarity": ""
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lostream"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Lostream - The Circulating Sea of Clouds",
+    "_wiki_ts": "2026-09-07T17:09:35Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Lostream - The Circulating Sea of Clouds"
+  },
+  {
+    "name_ja": "風の足跡",
+    "name_ja_romaji": "Rosutorīmu Gifuto",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Send 1 other face-up Spell Card from your field to the Graveyard.",
+    "effect": "Draw 2 cards. Then, you can Special Summon 1 WIND Attribute Sea Serpent Type monster from your hand face-up to your field. This turn, you can only attack with WIND Attribute Sea Serpent Type monsters.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LostreamGift-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP042",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Parallel Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lostream"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Lostream Gift",
+    "_wiki_ts": "2026-09-07T16:36:00Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Lostream Gift"
+  },
+  {
+    "name_ja": "雲海竜 ミューラ",
+    "attribute": "WIND",
+    "types": "Sea Serpent / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 800,
+    "def": 1000,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Send the top card of your Deck to the Graveyard.",
+    "effect": "Equip this card to 1 face-up WIND Attribute Sea Serpent Type monster on your field as an Equip Spell Card with the following effect.  Then, you can Special Summon 1 WIND Attribute Sea Serpent Type monster from your hand face-up to your field. ●The equipped monster cannot be returned to the hand, Deck, or Extra Deck by card effects.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LostreamMyura-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP041",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lostream"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Lostream Myura",
+    "_wiki_ts": "2026-09-13T08:51:44Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Lostream Myura"
+  },
+  {
+    "name_ja": "雲海竜 ネモラ",
+    "name_ja_romaji": "Rosutorīmu Nemora",
+    "attribute": "WIND",
+    "types": "Sea Serpent / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 5,
+    "atk": 2000,
+    "def": 1500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Change the battle position of 1 face-up monster on your field.",
+    "effect": "Equip this card to 1 face-up WIND Attribute Sea Serpent Type monster on your field as an Equip Spell Card with the following effect. Then, you can place 1 Spell/Trap Card from your opponent's field on the bottom of the owner's Deck. ●The equipped monster gains 1000 DEF.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LostreamNemora-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP037",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -91383,9 +91736,219 @@
     "password": null,
     "is_legend": false,
     "title": "Lostream Nemora",
-    "_wiki_ts": "2026-08-24T18:08:38Z",
+    "_wiki_ts": "2026-09-07T16:04:39Z",
     "card_schema_version": 2,
     "raw_name_en": "Lostream Nemora"
+  },
+  {
+    "name_ja": "雲海竜 ネピア",
+    "name_ja_romaji": "Rosutorīmu Nepia",
+    "attribute": "WIND",
+    "types": "Sea Serpent / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1200,
+    "def": 1000,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During a turn you have not Special Summoned a monster from the Graveyard.",
+    "effect": "Equip this card to 1 face-up WIND Attribute Sea Serpent Type monster on your field as an Equip Spell Card with the following effect. Then, you can Special Summon 1 \"Lostream Nemora\" from your Graveyard face-up to your field. ●Face-up monsters on your opponent's field lose 400 ATK.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LostreamNepia-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP038",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lostream"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Lostream Nepia",
+    "_wiki_ts": "2026-09-07T16:09:25Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Lostream Nepia"
+  },
+  {
+    "name_ja": "雲海竜 ネーレイディス",
+    "name_ja_romaji": "Rosutorīmu Nēreidisu",
+    "attribute": "WIND",
+    "types": "Sea Serpent / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 7,
+    "atk": 2300,
+    "def": 1000,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LostreamNereides-RDSJMP-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/SJMP-JP068",
+        "name": "Saikyō Jump November 2026 promotional card",
+        "rarity": "Normal Parallel Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lostream"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Lostream Nereides",
+    "_wiki_ts": "2026-09-03T21:22:56Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Lostream Nereides"
+  },
+  {
+    "name_ja": "雲海竜 ポルカ",
+    "name_ja_romaji": "Rosutorīmu Poruka",
+    "attribute": "WIND",
+    "types": "Sea Serpent / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1000,
+    "def": 600,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Equip this card to 1 face-up WIND Attribute Sea Serpent Type monster on your field as an Equip Spell Card with the following effect. Then, you can add 1 Level 5 or higher WIND Attribute Sea Serpent Type monster from your Graveyard to your hand. ●While the equipped monster is face-up on your field, your opponent cannot declare an attack on monsters that are not equipped with an Equip Spell Card.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LostreamPolka-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP040",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lostream"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Lostream Polka",
+    "_wiki_ts": "2026-09-07T16:29:15Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Lostream Polka"
+  },
+  {
+    "name_ja": "風に揺蕩う飛来物",
+    "name_ja_romaji": "Rosutorīmu Rekōdo",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Excavate the top 5 cards of your Deck. You can add up to 2 excavated WIND Attribute Sea Serpent Type monsters to your hand. Place the other cards on the bottom of your Deck in any order. If you added 2 monsters to your hand by this effect, send 1 card from your hand to the Graveyard. This turn, you can only attack with WIND Attribute Sea Serpent Type monsters.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LostreamRecord-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP044",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lostream"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Lostream Record",
+    "_wiki_ts": "2026-09-07T17:04:11Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Lostream Record"
+  },
+  {
+    "name_ja": "お別れの風",
+    "name_ja_romaji": "Rosutorīmu Sutorīmu",
+    "attribute": null,
+    "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "When your opponent Normal Summons a monster.",
+    "effect": "Send 1 face-up Union Monster Card from your field to the Graveyard. Then, if you sent a Sea Serpent Type Monster Card to the Graveyard by this effect, you can change up to 2 face-up Effect Monsters on your opponent's field to face-down Defense Position.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LostreamStream-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP046",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lostream"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Lostream Stream",
+    "_wiki_ts": "2026-09-07T17:15:41Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Lostream Stream"
   },
   {
     "name_ja": "ラヴ・アーネラ",
@@ -108179,7 +108742,7 @@
     "password": null,
     "is_legend": false,
     "title": "Omega Guitarna the Shining Megastar",
-    "_wiki_ts": "2025-01-11T01:43:23Z",
+    "_wiki_ts": "2026-09-07T08:22:45Z",
     "card_schema_version": 2,
     "raw_name_en": "Omega Guitarna the Shining Megastar"
   },
@@ -118426,7 +118989,7 @@
     "condition": null,
     "effect_types": "Multi-Choice",
     "requirement": "None",
-    "effect": "●Change the battle positions of all monsters on your field. Then, you can make 1 face-up monster on your opponent's field lose ATK equal to [the number of monsters on your field] x 800 until the end of this turn. ●Shuffle up to 7 cards from your opponent's Graveyard into the Deck.",
+    "effect": "●Change the battle positions of all monsters on your field. You can make 1 face-up monster on your opponent's field lose ATK equal to [the number of monsters on your field] x 800 until the end of this turn. ●Shuffle up to 7 cards from your opponent's Graveyard into the Deck.",
     "flavor_text": null,
     "images": [
       {
@@ -118455,7 +119018,7 @@
     "password": null,
     "is_legend": false,
     "title": "Princess Omega the Shining Megastar",
-    "_wiki_ts": "2026-03-15T16:36:53Z",
+    "_wiki_ts": "2026-09-07T08:24:03Z",
     "card_schema_version": 2,
     "raw_name_en": "Princess Omega the Shining Megastar"
   },
@@ -122563,7 +123126,7 @@
     "password": null,
     "is_legend": true,
     "title": "Red-Eyes Darkness Metal Dragon",
-    "_wiki_ts": "2026-02-26T21:12:34Z",
+    "_wiki_ts": "2026-09-11T16:19:45Z",
     "card_schema_version": 2,
     "raw_name_en": "Red-Eyes Darkness Metal Dragon (Rush Duel)"
   },
@@ -124133,6 +124696,48 @@
     "_wiki_ts": "2025-01-14T02:18:49Z",
     "card_schema_version": 2,
     "raw_name_en": "Return of the Blaze Fiends"
+  },
+  {
+    "name_ja": "祭殿の帰還者",
+    "name_ja_romaji": "Saiden no Kikansha",
+    "attribute": "DARK",
+    "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1100,
+    "def": 500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During the turn you Normal Summoned this card.",
+    "effect": "Special Summon 1 Level 7 DARK Attribute Warrior Type Effect Monster with 2100 DEF or 1 Level 7 Normal Monster with 2100 DEF from your Graveyard face-up to your field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ReturneeoftheTemple-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP013",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Dark Magician"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Returnee of the Temple",
+    "_wiki_ts": "2026-09-04T17:54:46Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Returnee of the Temple"
   },
   {
     "name_ja": "リベンジ・マックス",
@@ -131975,6 +132580,47 @@
     "raw_name_en": "Seal of the Ancients (Rush Duel)"
   },
   {
+    "name_ja": "符電探訪",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Add 1 \"Dimension Pair Link L\", \"Dimension Pair Link R\", or \"Fuden Issen\" from your Graveyard to your hand. Then, you can shuffle 3 monsters from your Graveyard into the Deck. Then, if you shuffled an EARTH Attribute monster by this effect, you can make 1 face-up monster on your opponent's field lose 600 ATK until the end of this turn.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "SearchingFuden-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP033",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Dimension Linker"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Searching Fuden",
+    "_wiki_ts": "2026-09-13T08:56:47Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Searching Fuden"
+  },
+  {
     "name_ja": "サーチング・ユニオン",
     "name_ja_romaji": "Sāchingu Yunion",
     "attribute": null,
@@ -132781,7 +133427,7 @@
     "condition": null,
     "effect_types": "Multi-Choice",
     "requirement": "None",
-    "effect": "●Special Summon 1 Level 8 or lower Warrior or Fairy Type monster from your Graveyard face-up to your field. ●Shuffle monsters from your opponent's Graveyard into the Deck, up to [the number of monsters with 0 ATK in your Graveyard].",
+    "effect": "●Special Summon 1 Level 8 or lower Warrior or Fairy Type monster from your Graveyard, face-up to your field. ●Shuffle monsters from your opponent's Graveyard into the Deck up to [the number of monsters with 0 ATK in your Graveyard].",
     "flavor_text": null,
     "images": [
       {
@@ -132810,7 +133456,7 @@
     "password": null,
     "is_legend": false,
     "title": "Semeterasu the Divine Ruler",
-    "_wiki_ts": "2025-01-11T17:14:24Z",
+    "_wiki_ts": "2026-09-07T15:18:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Semeterasu the Divine Ruler"
   },
@@ -133025,6 +133671,66 @@
     "_wiki_ts": "2025-07-24T13:34:06Z",
     "card_schema_version": 2,
     "raw_name_en": "Serpainter"
+  },
+  {
+    "name_ja": "オトモダチ！",
+    "name_ja_romaji": "Otomodachi!",
+    "name_ko": "친구!",
+    "name_translated": "Friends!",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "You have 2 or more face-up monsters with the same Type on your field.",
+    "effect": "Draw 1 card. Then, you can make 2 face-up monsters on your field with the same Attribute gain 400 ATK until the end of this turn.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "SessionTogether-RD5THS-JP-SPR.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP15-JP059",
+        "name": "Red Reboot of Darkness",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/5THS-JPB10",
+        "name": "5th Special Pack Vol.2",
+        "rarity": "Super Parallel Rare"
+      }
+    ],
+    "sets_kr": [
+      {
+        "code": "RD/KP15-KR059",
+        "name": "Red Reboot of Darkness",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/EV09-KR014",
+        "name": "Rush Duel Event Pack 2026 Vol.1",
+        "rarity": "Common"
+      }
+    ],
+    "database_id": "19694",
+    "archseries": [
+      "Psychic Musician"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Session Together!",
+    "_wiki_ts": "2026-09-07T12:36:27Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Session Together!"
   },
   {
     "name_ja": "魔導騎士－セブンス・チャリオット",
@@ -137513,6 +138219,46 @@
     "raw_name_en": "Silvermountain of Blisstopia"
   },
   {
+    "name_ja": "死の罪宝－ルシエラ",
+    "name_ja_romaji": "Shi no Zaihō - Rushiera",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Choose 1 face-up Level 7 or higher Spellcaster Type monster on your field. That monster cannot be destroyed by your opponent's card effects until the end of your opponent's next turn. Then, you can choose up to 3 face-up monsters with 100 or more ATK on your opponent's field. While those opponent's monsters are face-up, they lose ATK equal to [the ATK of your chosen monster]. Monsters whose ATK becomes 0 by this effect are destroyed.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "SinfulSpoilsofDoomRciela-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP049",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": true,
+    "title": "Sinful Spoils of Doom - Rciela",
+    "_wiki_ts": "2026-09-13T09:04:21Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Sinful Spoils of Doom - Rciela (Rush Duel)"
+  },
+  {
     "name_ja": "シタールート",
     "name_ja_romaji": "Shitārūto",
     "name_ko": "시타루토",
@@ -139314,7 +140060,7 @@
     "password": null,
     "is_legend": false,
     "title": "Soitsu and Doitsu",
-    "_wiki_ts": "2026-08-21T16:25:54Z",
+    "_wiki_ts": "2026-09-11T16:20:21Z",
     "card_schema_version": 2,
     "raw_name_en": "Soitsu and Doitsu"
   },
@@ -155000,6 +155746,56 @@
     "raw_name_en": "Transamvelg Linac"
   },
   {
+    "name_ja": "天翔変化",
+    "name_ja_romaji": "Tenshōhenge",
+    "name_ko": "천상변화",
+    "name_translated": "Ascension Transformation",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Fusion Summon a LIGHT Attribute monster by sending monsters from your field to the Graveyard as materials, including a Fairy Type monster. If you Fusion Summon a Celestial Warrior Type monster by this effect, you can also use monsters in your hand as materials.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "TranscendentTransformation-RDMRP2-JP-UR.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/MRP2-JP055",
+        "name": "Megaroad Pack 2",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [
+      {
+        "code": "RD/MRP2-KR055",
+        "name": "Megaroad Pack 2",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
+    "database_id": "19577",
+    "archseries": [
+      "Three Rulers"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Transcendent Transformation",
+    "_wiki_ts": "2026-09-07T08:37:56Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Transcendent Transformation"
+  },
+  {
     "name_ja": "セツリの流転",
     "name_ja_romaji": "Setsuri no Ruten",
     "name_ko": "섭리의 유전",
@@ -158181,12 +158977,12 @@
     "condition": null,
     "effect_types": null,
     "requirement": "Send this face-up card from your field to the Graveyard.",
-    "effect": "Add 1 LIGHT Attribute Machine Type monster with 2500 ATK/1600 DEF and/or 1 \"Ace Sword Slash\" from your Graveyard to your hand. Then, you can Special Summon 1 \"Ultimate Flag Mech Ace Breaker\" from your hand face-up to your field.",
+    "effect": "Add up to 1 LIGHT Attribute Machine Type monster with 2500 ATK and 1600 DEF and up to 1 \"Ace Sword Slash\" from your Graveyard to your hand. Then, you can Special Summon 1 \"Ultimate Flag Mech Ace Breaker\" from your hand face-up to your field.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "UltimateFlag-RDKP23-JP-R.png"
+        "file": "TheUltimateFlag-RDKP23-JP-R.png"
       }
     ],
     "sets_jp": [
@@ -158209,10 +159005,10 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Ultimate Flag",
-    "_wiki_ts": "2026-02-26T21:14:21Z",
+    "title": "The Ultimate Flag",
+    "_wiki_ts": "2026-09-07T08:55:44Z",
     "card_schema_version": 2,
-    "raw_name_en": "Ultimate Flag (card)"
+    "raw_name_en": "The Ultimate Flag"
   },
   {
     "name_ja": "最強旗獣エイムイーグル",
@@ -168783,7 +169579,7 @@
     "password": null,
     "is_legend": false,
     "title": "XY-Dragon Cannon",
-    "_wiki_ts": "2026-07-10T16:37:34Z",
+    "_wiki_ts": "2026-09-11T16:20:36Z",
     "card_schema_version": 2,
     "raw_name_en": "XY-Dragon Cannon (Rush Duel)"
   },
@@ -168825,7 +169621,7 @@
     "password": null,
     "is_legend": false,
     "title": "XYZ-Dragon Cannon",
-    "_wiki_ts": "2026-07-10T16:37:11Z",
+    "_wiki_ts": "2026-09-11T16:20:48Z",
     "card_schema_version": 2,
     "raw_name_en": "XYZ-Dragon Cannon (Rush Duel)"
   },
@@ -168867,7 +169663,7 @@
     "password": null,
     "is_legend": false,
     "title": "XZ-Tank Cannon",
-    "_wiki_ts": "2026-07-10T16:37:42Z",
+    "_wiki_ts": "2026-09-11T16:20:58Z",
     "card_schema_version": 2,
     "raw_name_en": "XZ-Tank Cannon (Rush Duel)"
   },
@@ -170378,7 +171174,7 @@
     "password": null,
     "is_legend": false,
     "title": "YXZ-Cannon Dragon",
-    "_wiki_ts": "2026-07-10T16:37:21Z",
+    "_wiki_ts": "2026-09-11T16:21:10Z",
     "card_schema_version": 2,
     "raw_name_en": "YXZ-Cannon Dragon"
   },
@@ -170420,7 +171216,7 @@
     "password": null,
     "is_legend": false,
     "title": "YZ-Tank Dragon",
-    "_wiki_ts": "2026-07-10T16:37:50Z",
+    "_wiki_ts": "2026-09-11T16:21:24Z",
     "card_schema_version": 2,
     "raw_name_en": "YZ-Tank Dragon (Rush Duel)"
   },
@@ -171232,89 +172028,5 @@
     "_wiki_ts": "2026-05-02T16:42:43Z",
     "card_schema_version": 2,
     "raw_name_en": "Zuse the Wisdom Vassal"
-  },
-  {
-    "name_ja": "雲海竜 ネーレイディス",
-    "name_ja_romaji": "Rosutorīmu Nēreidisu",
-    "attribute": "WIND",
-    "types": "Sea Serpent / Union / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 7,
-    "atk": 2300,
-    "def": 1000,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "LostreamNereides-RDSJMP-JP-OP.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/SJMP-JP068",
-        "name": "Saikyō Jump November 2026 promotional card",
-        "rarity": "Normal Parallel Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [
-      "Lostream"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Lostream Nereides",
-    "_wiki_ts": "2026-09-03T21:22:56Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Lostream Nereides"
-  },
-  {
-    "name_ja": "祭殿の帰還者",
-    "name_ja_romaji": "Saiden no Kikansha",
-    "attribute": "DARK",
-    "types": "Spellcaster / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 4,
-    "atk": 1100,
-    "def": 500,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "During the turn you Normal Summoned this card.",
-    "effect": "Special Summon 1 Level 7 DARK Attribute Warrior Type Effect Monster with 2100 DEF or 1 Level 7 Normal Monster with 2100 DEF from your Graveyard face-up to your field.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "ReturneeoftheTemple-RDCA01-JP-OP.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/CA01-JP013",
-        "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [
-      "Dark Magician"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Returnee of the Temple",
-    "_wiki_ts": "2026-09-04T17:54:46Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Returnee of the Temple"
   }
 ]
