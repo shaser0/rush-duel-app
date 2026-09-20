@@ -5937,5 +5937,26 @@
     "coverImage": "SJMP-2026-11-Cover.png",
     "cardsPerPack": null,
     "declaredSize": null
+  },
+  "Battle Bonus Pack 2026 Vol.3": {
+    "releaseDateJP": "October 1, 2026",
+    "packsPerBox": null,
+    "coverImage": "RDB263-BoosterJP.png",
+    "cardsPerPack": 2,
+    "declaredSize": null
+  },
+  "Special Victory Pack 2026 Vol.3": {
+    "releaseDateJP": "October 1, 2026",
+    "packsPerBox": null,
+    "coverImage": "RDS263-BoosterJP.png",
+    "cardsPerPack": 1,
+    "declaredSize": null
+  },
+  "Limited Event Limit 1 prize cards": {
+    "releaseDateJP": "September 21, 2026",
+    "packsPerBox": null,
+    "coverImage": "RDP010-PromoJP.png",
+    "cardsPerPack": null,
+    "declaredSize": null
   }
 }

@@ -9601,6 +9601,11 @@
         "code": "RD/GRP1-JP013",
         "name": "Gold Rush Pack",
         "rarity": "Ultra Rare, Gold Rush Rare"
+      },
+      {
+        "code": "RD/CA01-JP067",
+        "name": "Cross Art Collection",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -9617,7 +9622,7 @@
     "password": null,
     "is_legend": false,
     "title": "Attrashoot Hydron",
-    "_wiki_ts": "2025-05-11T08:39:34Z",
+    "_wiki_ts": "2026-09-15T14:46:53Z",
     "card_schema_version": 2,
     "raw_name_en": "Attrashoot Hydron"
   },
@@ -13045,6 +13050,11 @@
         "code": "RD/KP25-JP057",
         "name": "Rising of the Aurora",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/B263-JP006",
+        "name": "Battle Bonus Pack 2026 Vol.3",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [],
@@ -13055,7 +13065,7 @@
     "password": null,
     "is_legend": false,
     "title": "Beastly Mirror Calling",
-    "_wiki_ts": "2026-05-29T13:53:04Z",
+    "_wiki_ts": "2026-09-13T15:20:46Z",
     "card_schema_version": 2,
     "raw_name_en": "Beastly Mirror Calling"
   },
@@ -14826,6 +14836,7 @@
   },
   {
     "name_ja": "神殿に臨む黒魔女",
+    "name_ja_romaji": "Shinden ni Nozomu Kuromajo",
     "attribute": "DARK",
     "types": "Spellcaster / Effect",
     "card_type": null,
@@ -14850,7 +14861,7 @@
       {
         "code": "RD/CA01-JP048",
         "name": "Cross Art Collection",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -14859,7 +14870,7 @@
     "password": null,
     "is_legend": false,
     "title": "The Black Witch Facing the Temple",
-    "_wiki_ts": "2026-09-13T09:10:53Z",
+    "_wiki_ts": "2026-09-14T14:56:13Z",
     "card_schema_version": 2,
     "raw_name_en": "The Black Witch Facing the Temple"
   },
@@ -15646,6 +15657,11 @@
         "code": "RD/SBD3-JP023",
         "name": "Strongest Battle Deck Gavin - Demon Commander Three Legions",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/B263-JP012",
+        "name": "Battle Bonus Pack 2026 Vol.3",
+        "rarity": "Normal Parallel Rare, Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -15665,7 +15681,7 @@
     "password": null,
     "is_legend": false,
     "title": "Blazing Chestnut",
-    "_wiki_ts": "2024-12-05T18:26:27Z",
+    "_wiki_ts": "2026-09-13T15:36:40Z",
     "card_schema_version": 2,
     "raw_name_en": "Blazing Chestnut"
   },
@@ -40739,6 +40755,11 @@
         "code": "RD/SD0F-JP016",
         "name": "Structure Deck: Triumphant Return of the Monarchs",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/B263-JP009",
+        "name": "Battle Bonus Pack 2026 Vol.3",
+        "rarity": "Normal Parallel Rare, Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -40753,7 +40774,7 @@
     "password": null,
     "is_legend": false,
     "title": "Destroyer Golem",
-    "_wiki_ts": "2025-12-09T11:33:50Z",
+    "_wiki_ts": "2026-09-13T15:28:35Z",
     "card_schema_version": 2,
     "raw_name_en": "Destroyer Golem (Rush Duel)"
   },
@@ -60457,6 +60478,7 @@
   },
   {
     "name_ja": "神殿に巣食う炎龍",
+    "name_ja_romaji": "Shinden ni Sukū Enryū",
     "attribute": "FIRE",
     "types": "Dragon / Effect",
     "card_type": null,
@@ -60481,7 +60503,7 @@
       {
         "code": "RD/CA01-JP047",
         "name": "Cross Art Collection",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -60490,7 +60512,7 @@
     "password": null,
     "is_legend": false,
     "title": "The Flame Dragon Haunting the Temple",
-    "_wiki_ts": "2026-09-13T09:08:48Z",
+    "_wiki_ts": "2026-09-14T14:55:33Z",
     "card_schema_version": 2,
     "raw_name_en": "The Flame Dragon Haunting the Temple"
   },
@@ -69173,6 +69195,11 @@
         "code": "RD/LGP2-JP001",
         "name": "Neo Legend Awakening Pack",
         "rarity": "Super Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/P010-JP002",
+        "name": "Limited Event Limit 1 prize cards",
+        "rarity": "Secret Rare (Special Red Version)"
       }
     ],
     "sets_kr": [
@@ -69202,7 +69229,7 @@
     "password": null,
     "is_legend": true,
     "title": "Graceful Charity",
-    "_wiki_ts": "2025-01-17T11:19:55Z",
+    "_wiki_ts": "2026-09-18T15:10:58Z",
     "card_schema_version": 2,
     "raw_name_en": "Graceful Charity (Rush Duel)"
   },
@@ -69592,6 +69619,11 @@
         "code": "RD/LGP2-JP043",
         "name": "Neo Legend Awakening Pack",
         "rarity": "Ultra Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/CA01-JP062",
+        "name": "Cross Art Collection",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -69608,7 +69640,7 @@
     "password": null,
     "is_legend": false,
     "title": "Grand Legend Priest",
-    "_wiki_ts": "2025-01-17T11:26:56Z",
+    "_wiki_ts": "2026-09-15T14:42:24Z",
     "card_schema_version": 2,
     "raw_name_en": "Grand Legend Priest"
   },
@@ -69712,6 +69744,8 @@
   },
   {
     "name_ja": "グランド・レジェンド・パーティ",
+    "name_ja_romaji": "Gurando Rejendo Pāti",
+    "name_translated": "Grand Legend Party",
     "attribute": "LIGHT",
     "types": "Fairy / Effect",
     "card_type": null,
@@ -69736,7 +69770,7 @@
       {
         "code": "RD/CA01-JP060",
         "name": "Cross Art Collection",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -69747,7 +69781,7 @@
     "password": null,
     "is_legend": false,
     "title": "Grand Legendary Party",
-    "_wiki_ts": "2026-09-13T08:26:32Z",
+    "_wiki_ts": "2026-09-14T14:56:39Z",
     "card_schema_version": 2,
     "raw_name_en": "Grand Legendary Party"
   },
@@ -72750,6 +72784,10 @@
       {
         "artwork": 1,
         "file": "HarpieLady123-RD5TH1-JP-UR.png"
+      },
+      {
+        "artwork": 1.1,
+        "file": "HarpieLady123-RD5TH1-KR-UR.png"
       }
     ],
     "sets_jp": [
@@ -72773,7 +72811,7 @@
     "password": null,
     "is_legend": false,
     "title": "Harpie Lady 1 & 2 & 3",
-    "_wiki_ts": "2026-06-13T16:53:23Z",
+    "_wiki_ts": "2026-09-18T22:32:58Z",
     "card_schema_version": 2,
     "raw_name_en": "Harpie Lady 1 & 2 & 3"
   },
@@ -72858,6 +72896,10 @@
       {
         "artwork": 1,
         "file": "HarpieLady23-RDSD0D-JP-C.png"
+      },
+      {
+        "artwork": 1.1,
+        "file": "HarpieLady23-RDSD0D-KR-C.png"
       }
     ],
     "sets_jp": [
@@ -72891,7 +72933,7 @@
     "password": null,
     "is_legend": false,
     "title": "Harpie Lady 2 & 3",
-    "_wiki_ts": "2026-08-20T22:14:25Z",
+    "_wiki_ts": "2026-09-18T22:33:30Z",
     "card_schema_version": 2,
     "raw_name_en": "Harpie Lady 2 & 3"
   },
@@ -73089,6 +73131,14 @@
       {
         "artwork": 1,
         "file": "HarpieLadyFeatherDuster-RDSD0D-JP-C.png"
+      },
+      {
+        "artwork": 1.1,
+        "file": "HarpieLadyFeatherDuster-RDSD0D-KR-C.png"
+      },
+      {
+        "artwork": 2,
+        "file": "HarpieLadyFeatherDuster-RDS263-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -73101,6 +73151,11 @@
         "code": "RD/SD0D-JPS02",
         "name": "Structure Deck: Harpie Lady Sisters",
         "rarity": "Super Rare"
+      },
+      {
+        "code": "RD/S263-JP003",
+        "name": "Special Victory Pack 2026 Vol.3",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -73122,7 +73177,7 @@
     "password": null,
     "is_legend": false,
     "title": "Harpie Lady Feather Duster",
-    "_wiki_ts": "2026-06-13T16:54:27Z",
+    "_wiki_ts": "2026-09-18T22:33:55Z",
     "card_schema_version": 2,
     "raw_name_en": "Harpie Lady Feather Duster"
   },
@@ -73331,6 +73386,10 @@
       {
         "artwork": 1,
         "file": "HarpieLadySistersTriangleBeauty-RDSD0D-JP-UR.png"
+      },
+      {
+        "artwork": 1.1,
+        "file": "HarpieLadySistersTriangleBeauty-RDSD0D-KR-UR.png"
       }
     ],
     "sets_jp": [
@@ -73364,7 +73423,7 @@
     "password": null,
     "is_legend": false,
     "title": "Harpie Lady Sisters Triangle Beauty",
-    "_wiki_ts": "2026-06-13T16:54:49Z",
+    "_wiki_ts": "2026-09-18T22:34:36Z",
     "card_schema_version": 2,
     "raw_name_en": "Harpie Lady Sisters Triangle Beauty"
   },
@@ -73491,6 +73550,10 @@
       {
         "artwork": 1,
         "file": "HarpieReginaSplendidArmor-RDSD0D-JP-C.png"
+      },
+      {
+        "artwork": 1.1,
+        "file": "HarpieReginaSplendidArmor-RDSD0D-KR-C.png"
       }
     ],
     "sets_jp": [
@@ -73503,6 +73566,11 @@
         "code": "RD/SD0D-JPS04",
         "name": "Structure Deck: Harpie Lady Sisters",
         "rarity": "Super Rare"
+      },
+      {
+        "code": "RD/CA01-JP064",
+        "name": "Cross Art Collection",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -73524,7 +73592,7 @@
     "password": null,
     "is_legend": false,
     "title": "Harpie Regina Splendid Armor",
-    "_wiki_ts": "2026-06-13T16:55:09Z",
+    "_wiki_ts": "2026-09-18T22:32:05Z",
     "card_schema_version": 2,
     "raw_name_en": "Harpie Regina Splendid Armor"
   },
@@ -73550,6 +73618,10 @@
       {
         "artwork": 1,
         "file": "HarpieSignora-RDB252-JP-SR.png"
+      },
+      {
+        "artwork": 1.1,
+        "file": "HarpieSignora-RDSD0D-KR-C.png"
       }
     ],
     "sets_jp": [
@@ -73583,7 +73655,7 @@
     "password": null,
     "is_legend": false,
     "title": "Harpie Signora",
-    "_wiki_ts": "2026-03-09T08:48:45Z",
+    "_wiki_ts": "2026-09-18T22:35:08Z",
     "card_schema_version": 2,
     "raw_name_en": "Harpie Signora"
   },
@@ -73610,6 +73682,10 @@
       {
         "artwork": 1,
         "file": "HarpiesElectroShield-RDSD0D-JP-C.png"
+      },
+      {
+        "artwork": 1.1,
+        "file": "HarpiesElectroShield-RDSD0D-KR-C.png"
       }
     ],
     "sets_jp": [
@@ -73653,7 +73729,7 @@
     "password": null,
     "is_legend": false,
     "title": "Harpie's Electro Shield",
-    "_wiki_ts": "2026-03-09T13:13:50Z",
+    "_wiki_ts": "2026-09-18T22:36:25Z",
     "card_schema_version": 2,
     "raw_name_en": "Harpie's Electro Shield"
   },
@@ -73686,6 +73762,11 @@
         "code": "RD/5TH1-JP052",
         "name": "5th Anniversary Pack",
         "rarity": "Ultra Rare"
+      },
+      {
+        "code": "RD/CA01-JP082",
+        "name": "Cross Art Collection",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -73702,7 +73783,7 @@
     "password": null,
     "is_legend": true,
     "title": "Harpie's Feather Duster",
-    "_wiki_ts": "2025-07-24T14:44:58Z",
+    "_wiki_ts": "2026-09-19T13:37:38Z",
     "card_schema_version": 2,
     "raw_name_en": "Harpie's Feather Duster (Rush Duel)"
   },
@@ -74272,6 +74353,11 @@
         "code": "RD/KP26-JP023",
         "name": "Headliner of Reigning",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/B263-JP005",
+        "name": "Battle Bonus Pack 2026 Vol.3",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [],
@@ -74282,7 +74368,7 @@
     "password": null,
     "is_legend": false,
     "title": "Healthie Olivia",
-    "_wiki_ts": "2026-08-21T16:22:43Z",
+    "_wiki_ts": "2026-09-13T15:18:03Z",
     "card_schema_version": 2,
     "raw_name_en": "Healthie Olivia"
   },
@@ -74479,6 +74565,10 @@
       {
         "artwork": 1,
         "file": "HealthyMindSpeedyBuzzerBattle-RDKP26-JP-R.png"
+      },
+      {
+        "artwork": 2,
+        "file": "HealthyMindSpeedyBuzzerBattle-RDS263-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -74486,6 +74576,11 @@
         "code": "RD/KP26-JP052",
         "name": "Headliner of Reigning",
         "rarity": "Rare"
+      },
+      {
+        "code": "RD/S263-JP004",
+        "name": "Special Victory Pack 2026 Vol.3",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "sets_kr": [],
@@ -74496,7 +74591,7 @@
     "password": null,
     "is_legend": false,
     "title": "Healthy Mind Speedy Buzzer Battle!",
-    "_wiki_ts": "2026-08-21T16:28:03Z",
+    "_wiki_ts": "2026-09-13T16:02:43Z",
     "card_schema_version": 2,
     "raw_name_en": "Healthy Mind Speedy Buzzer Battle!"
   },
@@ -76499,6 +76594,11 @@
         "code": "RD/ORP4-JP021",
         "name": "Over Rush Pack 4",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/B263-JP008",
+        "name": "Battle Bonus Pack 2026 Vol.3",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -76515,7 +76615,7 @@
     "password": null,
     "is_legend": false,
     "title": "Home of the Charmers",
-    "_wiki_ts": "2026-09-02T07:29:19Z",
+    "_wiki_ts": "2026-09-13T15:25:36Z",
     "card_schema_version": 2,
     "raw_name_en": "Home of the Charmers"
   },
@@ -83599,6 +83699,11 @@
         "code": "RD/KP14-JP008",
         "name": "Phoenix of the Roaring Flame",
         "rarity": "Rare, Secret Rare"
+      },
+      {
+        "code": "RD/B263-JP010",
+        "name": "Battle Bonus Pack 2026 Vol.3",
+        "rarity": "Normal Parallel Rare, Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -83615,7 +83720,7 @@
     "password": null,
     "is_legend": false,
     "title": "Jointech Hero",
-    "_wiki_ts": "2025-11-08T20:28:20Z",
+    "_wiki_ts": "2026-09-13T15:30:48Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Hero"
   },
@@ -83706,6 +83811,11 @@
         "code": "RD/SD0C-JP033",
         "name": "Structure Deck: Chimeratech Cyber",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/B263-JP014",
+        "name": "Battle Bonus Pack 2026 Vol.3",
+        "rarity": "Normal Parallel Rare, Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -83727,7 +83837,7 @@
     "password": null,
     "is_legend": false,
     "title": "Jointech Joint",
-    "_wiki_ts": "2026-07-02T01:24:38Z",
+    "_wiki_ts": "2026-09-13T15:41:54Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Joint"
   },
@@ -84025,6 +84135,11 @@
         "code": "RD/ATR1-JP005",
         "name": "Attraction Pack",
         "rarity": "Normal Parallel Rare"
+      },
+      {
+        "code": "RD/B263-JP011",
+        "name": "Battle Bonus Pack 2026 Vol.3",
+        "rarity": "Normal Parallel Rare, Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -84056,7 +84171,7 @@
     "password": null,
     "is_legend": false,
     "title": "Jointech Rex",
-    "_wiki_ts": "2025-05-20T19:35:10Z",
+    "_wiki_ts": "2026-09-13T15:33:33Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Rex"
   },
@@ -86277,6 +86392,11 @@
         "code": "RD/HC01-JP083",
         "name": "High-Grade Collection",
         "rarity": "Common, Super Rare"
+      },
+      {
+        "code": "RD/B263-JP013",
+        "name": "Battle Bonus Pack 2026 Vol.3",
+        "rarity": "Normal Parallel Rare, Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -86293,7 +86413,7 @@
     "password": null,
     "is_legend": false,
     "title": "King's Greed",
-    "_wiki_ts": "2026-04-20T08:03:03Z",
+    "_wiki_ts": "2026-09-13T15:39:42Z",
     "card_schema_version": 2,
     "raw_name_en": "King's Greed"
   },
@@ -87948,6 +88068,11 @@
         "code": "RD/KP26-JP014",
         "name": "Headliner of Reigning",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/B263-JP001",
+        "name": "Battle Bonus Pack 2026 Vol.3",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [],
@@ -87958,7 +88083,7 @@
     "password": null,
     "is_legend": false,
     "title": "Lauan Macho Dex",
-    "_wiki_ts": "2026-08-21T16:20:32Z",
+    "_wiki_ts": "2026-09-13T15:07:55Z",
     "card_schema_version": 2,
     "raw_name_en": "Lauan Macho Dex"
   },
@@ -88612,6 +88737,11 @@
         "code": "RD/ORP3-JP003",
         "name": "Over Rush Pack 3",
         "rarity": "Over Rush Rare"
+      },
+      {
+        "code": "RD/CA01-JP063",
+        "name": "Cross Art Collection",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -88633,7 +88763,7 @@
     "password": null,
     "is_legend": false,
     "title": "Legend Priest",
-    "_wiki_ts": "2026-01-20T11:46:28Z",
+    "_wiki_ts": "2026-09-15T14:44:26Z",
     "card_schema_version": 2,
     "raw_name_en": "Legend Priest"
   },
@@ -89027,6 +89157,8 @@
   },
   {
     "name_ja": "レジェンド・パーティ",
+    "name_ja_romaji": "Rejendo Pāti",
+    "name_translated": "Legend Party",
     "attribute": "LIGHT",
     "types": "Fairy / Effect",
     "card_type": null,
@@ -89039,7 +89171,7 @@
     "condition": "This card is treated as a Legend Card while in the hand or Graveyard.",
     "effect_types": "Continuous",
     "requirement": "None",
-    "effect": "Face-up LIGHT Attribute monsters with 300 original DEF on your field gain 400 ATK. If you have a face-up Level 10 LIGHT Attribute monster on your field, this card gains 1000 ATK and Spell/Trap Cards on your field cannot be destroyed by card effects.",
+    "effect": "Face-up LIGHT Attribute monsters with 300 original DEF on your field gain 400 ATK. If you have a face-up Level 10 LIGHT Attribute monster on your field, this card gains 1000 ATK, and Spell/Trap Cards on your field cannot be destroyed by card effects.",
     "flavor_text": null,
     "images": [
       {
@@ -89051,7 +89183,7 @@
       {
         "code": "RD/CA01-JP061",
         "name": "Cross Art Collection",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -89062,7 +89194,7 @@
     "password": null,
     "is_legend": false,
     "title": "Legendary Party",
-    "_wiki_ts": "2026-09-13T08:28:40Z",
+    "_wiki_ts": "2026-09-14T14:57:01Z",
     "card_schema_version": 2,
     "raw_name_en": "Legendary Party"
   },
@@ -91659,6 +91791,7 @@
   },
   {
     "name_ja": "雲海竜 ミューラ",
+    "name_ja_romaji": "Rosutorīmu Myūra",
     "attribute": "WIND",
     "types": "Sea Serpent / Union / Effect",
     "card_type": null,
@@ -91671,7 +91804,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "Send the top card of your Deck to the Graveyard.",
-    "effect": "Equip this card to 1 face-up WIND Attribute Sea Serpent Type monster on your field as an Equip Spell Card with the following effect.  Then, you can Special Summon 1 WIND Attribute Sea Serpent Type monster from your hand face-up to your field. ●The equipped monster cannot be returned to the hand, Deck, or Extra Deck by card effects.",
+    "effect": "Equip this card to 1 face-up WIND Attribute Sea Serpent Type monster on your field as an Equip Spell Card with the following effect. Then, you can Special Summon 1 WIND Attribute Sea Serpent Type monster from your hand face-up to your field. ●The equipped monster cannot be returned to the hand/Deck/Extra Deck by card effects.",
     "flavor_text": null,
     "images": [
       {
@@ -91694,7 +91827,7 @@
     "password": null,
     "is_legend": false,
     "title": "Lostream Myura",
-    "_wiki_ts": "2026-09-13T08:51:44Z",
+    "_wiki_ts": "2026-09-13T16:36:21Z",
     "card_schema_version": 2,
     "raw_name_en": "Lostream Myura"
   },
@@ -91794,10 +91927,10 @@
     "def": 1000,
     "maximum_atk": null,
     "materials": null,
-    "condition": null,
+    "condition": "You can Tribute Summon this card in Attack Position by Tributing 1 WIND Attribute monster.",
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "Send the top 2 cards of your Deck to the Graveyard.",
+    "effect": "Equip this card to 1 face-up monster on your field as an Equip Spell Card with the following effect. ●Other Spell/Trap Cards on your field cannot be destroyed by your opponent's card effects.",
     "flavor_text": null,
     "images": [
       {
@@ -91820,7 +91953,7 @@
     "password": null,
     "is_legend": false,
     "title": "Lostream Nereides",
-    "_wiki_ts": "2026-09-03T21:22:56Z",
+    "_wiki_ts": "2026-09-16T16:10:35Z",
     "card_schema_version": 2,
     "raw_name_en": "Lostream Nereides"
   },
@@ -112583,6 +112716,10 @@
       {
         "artwork": 1,
         "file": "PetMasterHarpieLady-RDSD0D-JP-C.png"
+      },
+      {
+        "artwork": 1.1,
+        "file": "PetMasterHarpieLady-RDSD0D-KR-C.png"
       }
     ],
     "sets_jp": [
@@ -112616,7 +112753,7 @@
     "password": null,
     "is_legend": false,
     "title": "Pet Master Harpie Lady",
-    "_wiki_ts": "2026-03-09T13:13:21Z",
+    "_wiki_ts": "2026-09-18T22:35:50Z",
     "card_schema_version": 2,
     "raw_name_en": "Pet Master Harpie Lady"
   },
@@ -121921,6 +122058,11 @@
         "code": "RD/LGP2-JP069",
         "name": "Neo Legend Awakening Pack",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/CA01-JP070",
+        "name": "Cross Art Collection",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -121935,7 +122077,7 @@
     "password": null,
     "is_legend": true,
     "title": "RAM Clouder",
-    "_wiki_ts": "2025-01-17T11:28:49Z",
+    "_wiki_ts": "2026-09-15T14:49:31Z",
     "card_schema_version": 2,
     "raw_name_en": "RAM Clouder (Rush Duel)"
   },
@@ -123043,6 +123185,11 @@
         "rarity": "Common, Over Rush Rare"
       },
       {
+        "code": "RD/P010-JP001",
+        "name": "Limited Event Limit 1 prize cards",
+        "rarity": "Secret Rare (Special Red Version)"
+      },
+      {
         "code": "RD/LP01-JP026",
         "name": "Limited Pack Remastered Edition",
         "rarity": "Ultra Rare, Secret Rare"
@@ -123077,7 +123224,7 @@
     "password": null,
     "is_legend": true,
     "title": "Red-Eyes Black Dragon",
-    "_wiki_ts": "2026-07-19T01:44:33Z",
+    "_wiki_ts": "2026-09-18T15:07:51Z",
     "card_schema_version": 2,
     "raw_name_en": "Red-Eyes Black Dragon (Rush Duel)"
   },
@@ -128895,6 +129042,11 @@
         "code": "RD/KP26-JP004",
         "name": "Headliner of Reigning",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/B263-JP004",
+        "name": "Battle Bonus Pack 2026 Vol.3",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [],
@@ -128905,7 +129057,7 @@
     "password": null,
     "is_legend": false,
     "title": "Royal Rebel's Great Mixer",
-    "_wiki_ts": "2026-08-21T16:18:57Z",
+    "_wiki_ts": "2026-09-13T15:15:41Z",
     "card_schema_version": 2,
     "raw_name_en": "Royal Rebel's Great Mixer"
   },
@@ -132581,6 +132733,8 @@
   },
   {
     "name_ja": "符電探訪",
+    "name_ja_romaji": "Fuden Tanbō",
+    "name_translated": "Electrosign Search",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -132616,7 +132770,7 @@
     "password": null,
     "is_legend": false,
     "title": "Searching Fuden",
-    "_wiki_ts": "2026-09-13T08:56:47Z",
+    "_wiki_ts": "2026-09-13T16:24:00Z",
     "card_schema_version": 2,
     "raw_name_en": "Searching Fuden"
   },
@@ -138254,7 +138408,7 @@
     "password": null,
     "is_legend": true,
     "title": "Sinful Spoils of Doom - Rciela",
-    "_wiki_ts": "2026-09-13T09:04:21Z",
+    "_wiki_ts": "2026-09-13T17:20:30Z",
     "card_schema_version": 2,
     "raw_name_en": "Sinful Spoils of Doom - Rciela (Rush Duel)"
   },
@@ -143560,6 +143714,11 @@
         "code": "RD/AP03-JP021",
         "name": "Advance Pack: Union Base",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/B263-JP002",
+        "name": "Battle Bonus Pack 2026 Vol.3",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [],
@@ -143570,7 +143729,7 @@
     "password": null,
     "is_legend": false,
     "title": "Spirit Sprite of the Stars",
-    "_wiki_ts": "2026-07-10T16:41:19Z",
+    "_wiki_ts": "2026-09-13T15:10:04Z",
     "card_schema_version": 2,
     "raw_name_en": "Spirit Sprite of the Stars"
   },
@@ -143849,6 +144008,10 @@
       {
         "artwork": 1,
         "file": "SplendidSlash-RDSD0D-JP-C.png"
+      },
+      {
+        "artwork": 1.1,
+        "file": "SplendidSlash-RDSD0D-KR-C.png"
       }
     ],
     "sets_jp": [
@@ -143882,7 +144045,7 @@
     "password": null,
     "is_legend": false,
     "title": "Splendid Slash",
-    "_wiki_ts": "2025-06-18T19:33:50Z",
+    "_wiki_ts": "2026-09-18T22:37:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Splendid Slash"
   },
@@ -144997,6 +145160,11 @@
         "code": "RD/KP26-JP047",
         "name": "Headliner of Reigning",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/B263-JP007",
+        "name": "Battle Bonus Pack 2026 Vol.3",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [],
@@ -145007,7 +145175,7 @@
     "password": null,
     "is_legend": false,
     "title": "Star Protector Awakening",
-    "_wiki_ts": "2026-08-21T16:27:20Z",
+    "_wiki_ts": "2026-09-13T15:23:01Z",
     "card_schema_version": 2,
     "raw_name_en": "Star Protector Awakening"
   },
@@ -145120,6 +145288,10 @@
       {
         "artwork": 1,
         "file": "StarProtectorsProtection-RDSD0F-JP-NPR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "StarProtectorsProtection-RDS263-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -145132,6 +145304,11 @@
         "code": "RD/SD0F-JP033",
         "name": "Structure Deck: Triumphant Return of the Monarchs",
         "rarity": "Normal Parallel Rare"
+      },
+      {
+        "code": "RD/S263-JP005",
+        "name": "Special Victory Pack 2026 Vol.3",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -145153,7 +145330,7 @@
     "password": null,
     "is_legend": false,
     "title": "Star Protector's Protection",
-    "_wiki_ts": "2026-07-05T17:37:11Z",
+    "_wiki_ts": "2026-09-13T16:06:38Z",
     "card_schema_version": 2,
     "raw_name_en": "Star Protector's Protection"
   },
@@ -147009,6 +147186,10 @@
       {
         "artwork": 1,
         "file": "StratohammerMjolnir-RDAP01-JP-ORR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "StratohammerMjolnir-RDS263-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -147016,6 +147197,11 @@
         "code": "RD/AP01-JP071",
         "name": "Advance Pack: Devil's Ceremony",
         "rarity": "Over Rush Rare"
+      },
+      {
+        "code": "RD/S263-JP002",
+        "name": "Special Victory Pack 2026 Vol.3",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -147030,7 +147216,7 @@
     "password": null,
     "is_legend": false,
     "title": "Stratohammer Mjolnir",
-    "_wiki_ts": "2025-10-22T18:08:23Z",
+    "_wiki_ts": "2026-09-13T15:55:15Z",
     "card_schema_version": 2,
     "raw_name_en": "Stratohammer Mjolnir"
   },
@@ -154398,6 +154584,10 @@
       {
         "artwork": 1,
         "file": "TowlineCattleHealer-RDKP22-JP-UR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "TowlineCattleHealer-RDS263-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -154405,6 +154595,11 @@
         "code": "RD/KP22-JP026",
         "name": "OuTerverSe of Terror",
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/S263-JP001",
+        "name": "Special Victory Pack 2026 Vol.3",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -154419,7 +154614,7 @@
     "password": null,
     "is_legend": false,
     "title": "Towline Cattle Healer",
-    "_wiki_ts": "2026-03-09T08:56:46Z",
+    "_wiki_ts": "2026-09-13T15:51:18Z",
     "card_schema_version": 2,
     "raw_name_en": "Towline Cattle Healer"
   },
@@ -169872,6 +170067,11 @@
         "code": "RD/KP26-JP027",
         "name": "Headliner of Reigning",
         "rarity": "Rare"
+      },
+      {
+        "code": "RD/B263-JP003",
+        "name": "Battle Bonus Pack 2026 Vol.3",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [],
@@ -169882,7 +170082,7 @@
     "password": null,
     "is_legend": false,
     "title": "Yae the Special Investigations Ninja",
-    "_wiki_ts": "2026-08-21T16:23:32Z",
+    "_wiki_ts": "2026-09-13T15:13:35Z",
     "card_schema_version": 2,
     "raw_name_en": "Yae the Special Investigations Ninja"
   },
@@ -172028,5 +172228,125 @@
     "_wiki_ts": "2026-05-02T16:42:43Z",
     "card_schema_version": 2,
     "raw_name_en": "Zuse the Wisdom Vassal"
+  },
+  {
+    "name_ja": "デュエルマーカー",
+    "name_ja_romaji": "Dyueru Mākā",
+    "attribute": null,
+    "types": null,
+    "card_type": "Duel Marker",
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "Go First",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "DuelMarker-RDB263-JP-OP-Aitsu.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/B263-JP015",
+        "name": "Battle Bonus Pack 2026 Vol.3",
+        "rarity": "Normal Parallel Rare, Super Parallel Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Duel Marker",
+    "_wiki_ts": "2026-09-13T15:44:58Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Duel Marker (Aitsu)"
+  },
+  {
+    "name_ja": "デュエルマーカー",
+    "name_ja_romaji": "Dyueru Mākā",
+    "attribute": null,
+    "types": null,
+    "card_type": "Duel Marker",
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "Go Second",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "DuelMarker-RDB263-JP-OP-Koitsu.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/B263-JP016",
+        "name": "Battle Bonus Pack 2026 Vol.3",
+        "rarity": "Normal Parallel Rare, Super Parallel Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Duel Marker",
+    "_wiki_ts": "2026-09-13T15:48:03Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Duel Marker (Koitsu)"
+  },
+  {
+    "name_ja": "地下街の一角",
+    "name_ja_romaji": "Chikagai no Ikkaku",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Add 1 \"The Flame Dragon Haunting the Temple\" or \"The Black Witch Facing the Temple\" from your Graveyard to your hand. Then, if your opponent has a face-up Level 8 or higher monster on their field, you can Special Summon 1 monster from your hand face-up to your field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "InaCorneroftheUndergroundCity-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP050",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "In a Corner of the Underground City",
+    "_wiki_ts": "2026-09-14T15:00:32Z",
+    "card_schema_version": 2,
+    "raw_name_en": "In a Corner of the Underground City"
   }
 ]
