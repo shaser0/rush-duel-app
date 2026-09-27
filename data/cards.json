@@ -14913,7 +14913,7 @@
     "password": null,
     "is_legend": false,
     "title": "Blackland Magic Dragon",
-    "_wiki_ts": "2026-09-11T16:51:51Z",
+    "_wiki_ts": "2026-09-26T00:53:58Z",
     "card_schema_version": 2,
     "raw_name_en": "Blackland Magic Dragon"
   },
@@ -26617,6 +26617,11 @@
         "code": "RD/SD0C-JP036",
         "name": "Structure Deck: Chimeratech Cyber",
         "rarity": "Normal Parallel Rare"
+      },
+      {
+        "code": "RD/CA01-JP083",
+        "name": "Cross Art Collection",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -26636,7 +26641,7 @@
     "password": null,
     "is_legend": true,
     "title": "Compulsory Evacuation Device",
-    "_wiki_ts": "2025-06-18T19:18:17Z",
+    "_wiki_ts": "2026-09-20T15:11:20Z",
     "card_schema_version": 2,
     "raw_name_en": "Compulsory Evacuation Device (Rush Duel)"
   },
@@ -26949,6 +26954,48 @@
     "_wiki_ts": "2025-03-19T10:00:53Z",
     "card_schema_version": 2,
     "raw_name_en": "Confronting the Black Dragon"
+  },
+  {
+    "name_ja": "つながる小人",
+    "name_ja_romaji": "Tsunagaru Kobito",
+    "attribute": "WATER",
+    "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 1,
+    "atk": 0,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "This card's name becomes \"The Mysterious Liliputians\" while in the Graveyard.",
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Place 1 \"The Mysterious Liluputians\" from your Graveyard and this card from your field on top of the owner's Deck in any order.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "TheConnectedLiliputians-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP053",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Liliputian"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "The Connected Liliputians",
+    "_wiki_ts": "2026-09-21T17:01:45Z",
+    "card_schema_version": 2,
+    "raw_name_en": "The Connected Liliputians"
   },
   {
     "name_ja": "コネクタドッグ",
@@ -33907,6 +33954,11 @@
         "code": "RD/5TH1-JP028",
         "name": "5th Anniversary Pack",
         "rarity": "Ultra Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/CA01-JP003",
+        "name": "Cross Art Collection",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -33923,7 +33975,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dark Cavalry",
-    "_wiki_ts": "2025-07-24T14:42:55Z",
+    "_wiki_ts": "2026-09-24T10:49:43Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Cavalry (Rush Duel)"
   },
@@ -40205,106 +40257,6 @@
     "raw_name_en": "Demolition Meltdown Dragon Darkness Blasthamut"
   },
   {
-    "name_ja": "幻壊兵アシバ・ビッケ",
-    "name_ja_romaji": "Genkaihei Ashiba Bikke",
-    "name_ko": "환괴병 아시바 빗케",
-    "name_translated": "Mythic Destructor Soldier Ashiba Bikke",
-    "attribute": "FIRE",
-    "types": "Wyrm / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 4,
-    "atk": 100,
-    "def": 1100,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "You have 2 or less monsters on your field.",
-    "effect": "Send cards from the top of your Deck to the Graveyard equal to [the number of face-up Wyrm Type monsters on your field] x 2. Then, if 2 or more monsters are among the cards sent, this turn, this face-up card can be treated as 2 Tributes for the Tribute Summon of a Wyrm Type monster in Attack Position.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "DemolitionSoldierAshibaBikke-RDKP15-JP-C.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/KP15-JP011",
-        "name": "Red Reboot of Darkness",
-        "rarity": "Common"
-      }
-    ],
-    "sets_kr": [
-      {
-        "code": "RD/KP15-KR011",
-        "name": "Red Reboot of Darkness",
-        "rarity": "Common"
-      }
-    ],
-    "database_id": "19646",
-    "archseries": [
-      "Destructor"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Demolition Soldier Ashiba Bikke",
-    "_wiki_ts": "2026-07-08T16:43:37Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Demolition Soldier Ashiba Bikke"
-  },
-  {
-    "name_ja": "幻壊兵カセツ・バイテン",
-    "name_ja_romaji": "Genkaihei Kasetsu Baiten",
-    "name_ko": "환괴병 카세츠 바이텐",
-    "name_translated": "Mythic Destructor Soldier Kasetsu Baiten",
-    "attribute": "FIRE",
-    "types": "Wyrm / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 4,
-    "atk": 600,
-    "def": 1200,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "Pay 500 LP.",
-    "effect": "Send the top card of your Deck to the Graveyard. Then, if you sent a Wyrm Type monster to the Graveyard by this effect, you can add 1 \"Destructor Soldier Helmet\" or 1 Level 8 Wyrm Type monster from your Graveyard to your hand.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "DemolitionSoldierKasetsuBaiten-RDTB01-JP-NPR.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/TB01-JP041",
-        "name": "Triple Build Pack: Godbreath Wing",
-        "rarity": "Normal Parallel Rare"
-      }
-    ],
-    "sets_kr": [
-      {
-        "code": "RD/TB01-KR041",
-        "name": "Triple Build Pack: Godbreath Wing",
-        "rarity": "Normal Parallel Rare"
-      }
-    ],
-    "database_id": "19125",
-    "archseries": [
-      "Destructor"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Demolition Soldier Kasetsu Baiten",
-    "_wiki_ts": "2026-07-08T16:36:34Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Demolition Soldier Kasetsu Baiten"
-  },
-  {
     "name_ja": "惑精のデンドロビーナス",
     "name_ja_romaji": "Wakusei no Dendorobīnasu",
     "name_ko": "혹정의 덴드로비너스",
@@ -41227,6 +41179,56 @@
     "_wiki_ts": "2026-07-08T16:45:01Z",
     "card_schema_version": 2,
     "raw_name_en": "Destructor Soldier Canteen"
+  },
+  {
+    "name_ja": "幻壊兵カセツ・バイテン",
+    "name_ja_romaji": "Genkaihei Kasetsu Baiten",
+    "name_ko": "환괴병 카세츠 바이텐",
+    "name_translated": "Mythic Destructor Soldier Kasetsu Baiten",
+    "attribute": "FIRE",
+    "types": "Wyrm / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 600,
+    "def": 1200,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Pay 500 LP.",
+    "effect": "Send the top card of your Deck to the Graveyard. If you sent a Wyrm Type monster to the Graveyard by this effect, you can add 1 \"Destructor Soldier Helmet\" or 1 Level 8 Wyrm Type monster from your Graveyard to your hand.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "DestructorSoldierDepot-RDTB01-JP-NPR.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/TB01-JP041",
+        "name": "Triple Build Pack: Godbreath Wing",
+        "rarity": "Normal Parallel Rare"
+      }
+    ],
+    "sets_kr": [
+      {
+        "code": "RD/TB01-KR041",
+        "name": "Triple Build Pack: Godbreath Wing",
+        "rarity": "Normal Parallel Rare"
+      }
+    ],
+    "database_id": "19125",
+    "archseries": [
+      "Destructor"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Destructor Soldier Depot",
+    "_wiki_ts": "2026-09-21T06:41:17Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Destructor Soldier Depot"
   },
   {
     "name_ja": "幻壊兵ハケン・ハーケン",
@@ -44033,6 +44035,48 @@
     "raw_name_en": "Dimension Pair Link R"
   },
   {
+    "name_ja": "ディメンション・プラマ",
+    "name_ja_romaji": "Dimenshon Purama",
+    "attribute": "LIGHT",
+    "types": "Cyberse / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1000,
+    "def": 500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Send the top 3 cards of your Deck to the Graveyard. Then, if you have 3 or more different Types in your Graveyard, you can add 1 Level 8 LIGHT Attribute Cyberse Type monster from your Graveyard to your hand. This turn, you can only attack with Level 8 or higher Cyberse Type monsters.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "DimensionPramma-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP026",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Dimension Linker"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Dimension Pramma",
+    "_wiki_ts": "2026-09-23T19:24:08Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Dimension Pramma"
+  },
+  {
     "name_ja": "ディメンション・リレッタ",
     "name_ja_romaji": "Dimenshon Riretta",
     "attribute": "LIGHT",
@@ -44596,6 +44640,11 @@
         "code": "RD/SD04-JP009",
         "name": "Strongest Battle Deck Maddox - Chemist-Meow Draw of Flames!",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/CA01-JP069",
+        "name": "Cross Art Collection",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -44615,7 +44664,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dogulce Langue De Shakoki",
-    "_wiki_ts": "2025-05-21T17:16:29Z",
+    "_wiki_ts": "2026-09-23T18:53:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Dogulce Langue De Shakoki"
   },
@@ -49065,6 +49114,86 @@
     "_wiki_ts": "2024-12-05T21:48:48Z",
     "card_schema_version": 2,
     "raw_name_en": "Dual Space Yggdrago"
+  },
+  {
+    "name_ja": "デュエルマーカー",
+    "name_ja_romaji": "Dyueru Mākā",
+    "attribute": null,
+    "types": null,
+    "card_type": "Duel Marker",
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "Go First",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "DuelMarker-RDB263-JP-OP-Aitsu.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/B263-JP015",
+        "name": "Battle Bonus Pack 2026 Vol.3",
+        "rarity": "Normal Parallel Rare, Super Parallel Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Duel Marker",
+    "_wiki_ts": "2026-09-13T15:44:58Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Duel Marker (Aitsu)"
+  },
+  {
+    "name_ja": "デュエルマーカー",
+    "name_ja_romaji": "Dyueru Mākā",
+    "attribute": null,
+    "types": null,
+    "card_type": "Duel Marker",
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "Go Second",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "DuelMarker-RDB263-JP-OP-Koitsu.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/B263-JP016",
+        "name": "Battle Bonus Pack 2026 Vol.3",
+        "rarity": "Normal Parallel Rare, Super Parallel Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Duel Marker",
+    "_wiki_ts": "2026-09-13T15:48:03Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Duel Marker (Koitsu)"
   },
   {
     "name_ja": "デュエルマーカー",
@@ -60204,7 +60333,7 @@
     "password": null,
     "is_legend": false,
     "title": "Fist the Star Protector's Roaring Gauntlet",
-    "_wiki_ts": "2026-08-21T16:20:07Z",
+    "_wiki_ts": "2026-09-20T22:43:46Z",
     "card_schema_version": 2,
     "raw_name_en": "Fist the Star Protector's Roaring Gauntlet"
   },
@@ -61535,6 +61664,56 @@
     "_wiki_ts": "2024-12-05T23:11:43Z",
     "card_schema_version": 2,
     "raw_name_en": "Followl of the Fornether"
+  },
+  {
+    "name_ja": "幻壊兵アシバ・ビッケ",
+    "name_ja_romaji": "Genkaihei Ashiba Bikke",
+    "name_ko": "환괴병 아시바 빗케",
+    "name_translated": "Mythic Destructor Soldier Ashiba Bikke",
+    "attribute": "FIRE",
+    "types": "Wyrm / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 100,
+    "def": 1100,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "You have 2 or less monsters on your field.",
+    "effect": "Send cards from the top of your Deck to the Graveyard equal to [the number of face-up Wyrm Type monsters on your field] x 2. Then, if 2 or more monsters are among the cards sent, this turn, this face-up card can be treated as 2 Tributes for the Tribute Summon of a Wyrm Type monster in Attack Position.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "FootsoldierofDemolition-RDKP15-JP-C.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP15-JP011",
+        "name": "Red Reboot of Darkness",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [
+      {
+        "code": "RD/KP15-KR011",
+        "name": "Red Reboot of Darkness",
+        "rarity": "Common"
+      }
+    ],
+    "database_id": "19646",
+    "archseries": [
+      "Destructor"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Footsoldier of Demolition",
+    "_wiki_ts": "2026-09-21T06:43:40Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Footsoldier of Demolition"
   },
   {
     "name_ja": "強引な番兵",
@@ -73491,6 +73670,10 @@
       {
         "artwork": 1,
         "file": "HarpieRegina-RDSD0D-JP-C.png"
+      },
+      {
+        "artwork": 1.1,
+        "file": "HarpieRegina-RDSD0D-KR-C.png"
       }
     ],
     "sets_jp": [
@@ -73524,7 +73707,7 @@
     "password": null,
     "is_legend": false,
     "title": "Harpie Regina",
-    "_wiki_ts": "2025-06-18T19:32:58Z",
+    "_wiki_ts": "2026-09-22T03:44:04Z",
     "card_schema_version": 2,
     "raw_name_en": "Harpie Regina"
   },
@@ -74237,7 +74420,7 @@
     "password": null,
     "is_legend": false,
     "title": "Healthie Cafferin",
-    "_wiki_ts": "2026-08-22T09:25:57Z",
+    "_wiki_ts": "2026-09-20T22:42:53Z",
     "card_schema_version": 2,
     "raw_name_en": "Healthie Cafferin"
   },
@@ -80506,6 +80689,46 @@
     "raw_name_en": "The Imprisoned Dragon Princess"
   },
   {
+    "name_ja": "地下街の一角",
+    "name_ja_romaji": "Chikagai no Ikkaku",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Add 1 \"The Flame Dragon Haunting the Temple\" or \"The Black Witch Facing the Temple\" from your Graveyard to your hand. Then, if your opponent has a face-up Level 8 or higher monster on their field, you can Special Summon 1 monster from your hand face-up to your field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "InaCorneroftheUndergroundCity-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP050",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "In a Corner of the Underground City",
+    "_wiki_ts": "2026-09-14T15:00:32Z",
+    "card_schema_version": 2,
+    "raw_name_en": "In a Corner of the Underground City"
+  },
+  {
     "name_ja": "藍の牢獄",
     "name_ja_romaji": "Ai no Rōgoku",
     "name_ko": "쪽빛의 감옥",
@@ -83243,6 +83466,11 @@
         "code": "RD/B232-JP002",
         "name": "Battle Pack 2023 Vol.2",
         "rarity": "Common, Super Rare"
+      },
+      {
+        "code": "RD/CA01-JP066",
+        "name": "Cross Art Collection",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -83264,7 +83492,7 @@
     "password": null,
     "is_legend": false,
     "title": "Jointech Ace",
-    "_wiki_ts": "2025-05-20T19:34:47Z",
+    "_wiki_ts": "2026-09-23T18:51:34Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Ace"
   },
@@ -86822,6 +87050,49 @@
     "_wiki_ts": "2026-02-26T21:19:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Konpon Chacha"
+  },
+  {
+    "name_ja": "魔竜デビル・ドラゴン",
+    "name_ja_romaji": "Maryū Debiru Doragon",
+    "name_translated": "Devil Dragon the Magical Dragon",
+    "attribute": "DARK",
+    "types": "Dragon / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1500,
+    "def": 1200,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During the turn you Normal Summoned this card.",
+    "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can Special Summon 1 Level 4 Dragon Type Effect Monster with 1500 ATK from your Graveyard to your field in face-up Defense Position. This turn, you can only attack with DARK Attribute monsters.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "KoumoriDragontheMagicalDragon-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP011",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Dark Magician"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Koumori Dragon the Magical Dragon",
+    "_wiki_ts": "2026-09-25T17:20:54Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Koumori Dragon the Magical Dragon"
   },
   {
     "name_ja": "痛花牙のクズ",
@@ -90807,6 +91078,48 @@
     "raw_name_en": "Lightwave Grand Dragon"
   },
   {
+    "name_ja": "小人のなかまたち",
+    "name_ja_romaji": "Kobito no Nakamatachi",
+    "attribute": "LIGHT",
+    "types": "Fairy / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 1,
+    "atk": 0,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "This card's name becomes \"The Mysterious Liliputians\" while in the Graveyard.",
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Excavate the top 4 cards of your Deck. This card gains ATK equal to [the total number of excavated Level 1 monsters and \"The Connected Liliputians\"] x 700 until the end of your opponent's next turn. Place the excavated cards on the bottom of your Deck in any order.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LiliputianFriends-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP051",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Liliputian"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Liliputian Friends",
+    "_wiki_ts": "2026-09-24T15:10:12Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Liliputian Friends"
+  },
+  {
     "name_ja": "リリースレイヤー",
     "name_ja_romaji": "Rirīsureiyā",
     "name_ko": "릴리스슬레이어",
@@ -91852,6 +92165,10 @@
       {
         "artwork": 1,
         "file": "LostreamNemora-RDCA01-JP-OP.png"
+      },
+      {
+        "artwork": 2,
+        "file": "LostreamNemora-RDCA01-JP-OP-AA.png"
       }
     ],
     "sets_jp": [
@@ -91869,7 +92186,7 @@
     "password": null,
     "is_legend": false,
     "title": "Lostream Nemora",
-    "_wiki_ts": "2026-09-07T16:04:39Z",
+    "_wiki_ts": "2026-09-26T15:55:12Z",
     "card_schema_version": 2,
     "raw_name_en": "Lostream Nemora"
   },
@@ -91894,6 +92211,10 @@
       {
         "artwork": 1,
         "file": "LostreamNepia-RDCA01-JP-OP.png"
+      },
+      {
+        "artwork": 2,
+        "file": "LostreamNepia-RDCA01-JP-OP-AA.png"
       }
     ],
     "sets_jp": [
@@ -91911,7 +92232,7 @@
     "password": null,
     "is_legend": false,
     "title": "Lostream Nepia",
-    "_wiki_ts": "2026-09-07T16:09:25Z",
+    "_wiki_ts": "2026-09-26T16:00:19Z",
     "card_schema_version": 2,
     "raw_name_en": "Lostream Nepia"
   },
@@ -92000,6 +92321,48 @@
     "raw_name_en": "Lostream Polka"
   },
   {
+    "name_ja": "風のアルバム",
+    "name_ja_romaji": "Rosutorīmu Rīdingu",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During a turn you have not activated \"Lostream Reading\", place 2 Sea Serpent Type monsters from your Graveyard on the bottom of the Deck in any order.",
+    "effect": "Add up to 2 face-up Union Monster Cards from your Spell & Trap Zone to the hand. This turn, you can only attack with WIND Attribute Sea Serpent Type monsters.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LostreamReading-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP043",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lostream"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Lostream Reading",
+    "_wiki_ts": "2026-09-26T16:10:59Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Lostream Reading"
+  },
+  {
     "name_ja": "風に揺蕩う飛来物",
     "name_ja_romaji": "Rosutorīmu Rekōdo",
     "attribute": null,
@@ -92040,6 +92403,48 @@
     "_wiki_ts": "2026-09-07T17:04:11Z",
     "card_schema_version": 2,
     "raw_name_en": "Lostream Record"
+  },
+  {
+    "name_ja": "雲海竜 シェル",
+    "name_ja_romaji": "Rosutorīmu Sheru",
+    "attribute": "WIND",
+    "types": "Sea Serpent / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1300,
+    "def": 1500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Send 1 WIND Attribute Sea Serpent Type monster from your hand to the Graveyard.",
+    "effect": "Draw 1 card. Then, you can equip 1 WIND Attribute Sea Serpent Type Union monster from your Graveyard to 1 face-up monster on your field that can equip to it as an Equip Spell Card as if it were equipped by that monster's effect.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LostreamShell-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP039",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Lostream"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Lostream Shell",
+    "_wiki_ts": "2026-09-26T16:18:20Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Lostream Shell"
   },
   {
     "name_ja": "お別れの風",
@@ -106580,7 +106985,7 @@
     "password": null,
     "is_legend": false,
     "title": "Nehime the Dimensional Sworn Ally",
-    "_wiki_ts": "2026-08-25T00:03:51Z",
+    "_wiki_ts": "2026-09-23T19:53:46Z",
     "card_schema_version": 2,
     "raw_name_en": "Nehime the Dimensional Sworn Ally"
   },
@@ -107787,6 +108192,48 @@
     "_wiki_ts": "2024-12-06T05:44:50Z",
     "card_schema_version": 2,
     "raw_name_en": "Node of Legend"
+  },
+  {
+    "name_ja": "もぐもぐ小人",
+    "name_ja_romaji": "Mogumogu Kobito",
+    "attribute": "DARK",
+    "types": "Beast / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 1,
+    "atk": 0,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "This card's name becomes \"The Mysterious Liliputians\" while in the Graveyard.",
+    "effect_types": null,
+    "requirement": "During your Main Phase that you Normal or Special Summoned this card, change this Attack Position card to face-up Defense Position.",
+    "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can place 1 \"The Very Kind Human\" from your Graveyard on top of the Deck. If you do, gain 600 LP.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "TheNomnomLiliputian-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP054",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Liliputian"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "The Nomnom Liliputian",
+    "_wiki_ts": "2026-09-21T17:08:09Z",
+    "card_schema_version": 2,
+    "raw_name_en": "The Nomnom Liliputian"
   },
   {
     "name_ja": "火麺味変化の術",
@@ -123724,6 +124171,48 @@
     "raw_name_en": "Red-Reboot Enhanced Boost Dragon"
   },
   {
+    "name_ja": "次元の盟友 レイフ",
+    "name_ja_romaji": "Jigen no Meiyū Reifu",
+    "attribute": "EARTH",
+    "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1000,
+    "def": 500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During your Main Phase that you Normal or Special Summoned this card, reveal 1 Cyberse Type monster in your hand.",
+    "effect": "Make 1 face-up monster on your opponent's field lose 400 ATK until the end of this turn. Then, you can add 1 \"Fuden Issen\" from your Graveyard to your hand.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ReifutheDimensionalSwornAlly-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP028",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Dimension Linker"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Reifu the Dimensional Sworn Ally",
+    "_wiki_ts": "2026-09-23T19:54:53Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Reifu the Dimensional Sworn Ally"
+  },
+  {
     "name_ja": "激鱗解放",
     "name_ja_romaji": "Gekirin Kaihō",
     "name_ko": "격린해방",
@@ -125778,7 +126267,7 @@
     "password": null,
     "is_legend": false,
     "title": "Rising HERO Argent",
-    "_wiki_ts": "2026-06-14T18:51:15Z",
+    "_wiki_ts": "2026-09-22T09:29:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Rising HERO Argent"
   },
@@ -137057,7 +137546,7 @@
     "password": null,
     "is_legend": false,
     "title": "Ship of Seven Treasures",
-    "_wiki_ts": "2026-03-03T16:05:53Z",
+    "_wiki_ts": "2026-09-22T09:27:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Ship of Seven Treasures"
   },
@@ -151822,6 +152311,11 @@
         "code": "RD/SJMP-JP053",
         "name": "Saikyō Jump August 2025 promotional card",
         "rarity": "Normal Parallel Rare"
+      },
+      {
+        "code": "RD/CA01-JP081",
+        "name": "Cross Art Collection",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -151838,7 +152332,7 @@
     "password": null,
     "is_legend": false,
     "title": "Tama Tama Gachance",
-    "_wiki_ts": "2025-11-29T16:24:28Z",
+    "_wiki_ts": "2026-09-23T17:46:49Z",
     "card_schema_version": 2,
     "raw_name_en": "Tama Tama Gachance"
   },
@@ -154752,6 +155246,11 @@
         "code": "RD/5TH1-JP024",
         "name": "5th Anniversary Pack",
         "rarity": "Ultra Parallel Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/CA01-JP084",
+        "name": "Cross Art Collection",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -154776,7 +155275,7 @@
     "password": null,
     "is_legend": false,
     "title": "Traditional Tax",
-    "_wiki_ts": "2026-04-20T22:27:48Z",
+    "_wiki_ts": "2026-09-24T15:07:02Z",
     "card_schema_version": 2,
     "raw_name_en": "Traditional Tax"
   },
@@ -157502,6 +158001,11 @@
         "code": "RD/AP01-JP067",
         "name": "Advance Pack: Devil's Ceremony",
         "rarity": "Common, Super Parallel Rare"
+      },
+      {
+        "code": "RD/CA01-JP074",
+        "name": "Cross Art Collection",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -157523,7 +158027,7 @@
     "password": null,
     "is_legend": false,
     "title": "Trombow the Music Princess of Melodic Crown",
-    "_wiki_ts": "2025-10-22T18:14:19Z",
+    "_wiki_ts": "2026-09-22T15:19:23Z",
     "card_schema_version": 2,
     "raw_name_en": "Trombow the Music Princess of Melodic Crown"
   },
@@ -161746,6 +162250,48 @@
     "raw_name_en": "The Versus Fusion"
   },
   {
+    "name_ja": "やさしい人間さん",
+    "name_ja_romaji": "Yasashī Ningen-san",
+    "attribute": "EARTH",
+    "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1200,
+    "def": 500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Show 1 other card on your field, and place it on top of the owner's Deck.",
+    "effect": "Add up to 2 \"The Mysterious Liliputians\" from your Graveyard to your hand. This turn, you cannot activate the effect of \"The Very Kind Human\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "TheVeryKindHuman-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP052",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Liliputian"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "The Very Kind Human",
+    "_wiki_ts": "2026-09-24T15:10:34Z",
+    "card_schema_version": 2,
+    "raw_name_en": "The Very Kind Human"
+  },
+  {
     "name_ja": "歴戦のカース・オブ・ドラゴン",
     "name_ja_romaji": "Rekisen no Kāsu Obu Doragon",
     "name_ko": "력전의 커스 오브 드래곤",
@@ -161783,6 +162329,11 @@
         "code": "RD/AP01-JP094",
         "name": "Advance Pack: Devil's Ceremony",
         "rarity": "Ultra Rare, Secret Rare"
+      },
+      {
+        "code": "RD/CA01-JP010",
+        "name": "Cross Art Collection",
+        "rarity": "Secret Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -161804,7 +162355,7 @@
     "password": null,
     "is_legend": false,
     "title": "Veteran Curse of Dragon",
-    "_wiki_ts": "2025-10-22T18:10:19Z",
+    "_wiki_ts": "2026-09-25T17:11:18Z",
     "card_schema_version": 2,
     "raw_name_en": "Veteran Curse of Dragon"
   },
@@ -172228,125 +172779,5 @@
     "_wiki_ts": "2026-05-02T16:42:43Z",
     "card_schema_version": 2,
     "raw_name_en": "Zuse the Wisdom Vassal"
-  },
-  {
-    "name_ja": "デュエルマーカー",
-    "name_ja_romaji": "Dyueru Mākā",
-    "attribute": null,
-    "types": null,
-    "card_type": "Duel Marker",
-    "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": null,
-    "effect": "Go First",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "DuelMarker-RDB263-JP-OP-Aitsu.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/B263-JP015",
-        "name": "Battle Bonus Pack 2026 Vol.3",
-        "rarity": "Normal Parallel Rare, Super Parallel Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Duel Marker",
-    "_wiki_ts": "2026-09-13T15:44:58Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Duel Marker (Aitsu)"
-  },
-  {
-    "name_ja": "デュエルマーカー",
-    "name_ja_romaji": "Dyueru Mākā",
-    "attribute": null,
-    "types": null,
-    "card_type": "Duel Marker",
-    "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": null,
-    "effect": "Go Second",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "DuelMarker-RDB263-JP-OP-Koitsu.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/B263-JP016",
-        "name": "Battle Bonus Pack 2026 Vol.3",
-        "rarity": "Normal Parallel Rare, Super Parallel Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Duel Marker",
-    "_wiki_ts": "2026-09-13T15:48:03Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Duel Marker (Koitsu)"
-  },
-  {
-    "name_ja": "地下街の一角",
-    "name_ja_romaji": "Chikagai no Ikkaku",
-    "attribute": null,
-    "types": null,
-    "card_type": "Spell",
-    "property": "Normal",
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "None",
-    "effect": "Add 1 \"The Flame Dragon Haunting the Temple\" or \"The Black Witch Facing the Temple\" from your Graveyard to your hand. Then, if your opponent has a face-up Level 8 or higher monster on their field, you can Special Summon 1 monster from your hand face-up to your field.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "InaCorneroftheUndergroundCity-RDCA01-JP-OP.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/CA01-JP050",
-        "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
-      }
-    ],
-    "sets_kr": [],
-    "database_id": null,
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "In a Corner of the Underground City",
-    "_wiki_ts": "2026-09-14T15:00:32Z",
-    "card_schema_version": 2,
-    "raw_name_en": "In a Corner of the Underground City"
   }
 ]
