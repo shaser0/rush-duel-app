@@ -374,6 +374,7 @@
   {
     "name_ja": "吸収するデビルズ・ミラー",
     "name_ja_romaji": "Kyūshūsuru Debiruzu Mirā",
+    "name_ko": "흡수하는 데블즈 미러",
     "name_translated": "Absorbing Devil's Mirror",
     "attribute": "DARK",
     "types": "Fiend / Ritual / Effect",
@@ -402,7 +403,13 @@
         "rarity": "Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR045",
+        "name": "Rising of the Aurora",
+        "rarity": "Rare"
+      }
+    ],
     "database_id": "23242",
     "archseries": [
       "Fiend's"
@@ -410,7 +417,7 @@
     "password": null,
     "is_legend": false,
     "title": "Absorbing Fiend's Mirror",
-    "_wiki_ts": "2026-05-22T16:55:48Z",
+    "_wiki_ts": "2026-09-29T06:56:45Z",
     "card_schema_version": 2,
     "raw_name_en": "Absorbing Fiend's Mirror"
   },
@@ -4117,12 +4124,13 @@
     ],
     "database_id": "17952",
     "archseries": [
+      "Alpha Burn",
       "High Tech Dragon"
     ],
     "password": null,
     "is_legend": false,
     "title": "Alpha Burn Drake",
-    "_wiki_ts": "2025-05-20T19:38:18Z",
+    "_wiki_ts": "2026-10-01T17:14:19Z",
     "card_schema_version": 2,
     "raw_name_en": "Alpha Burn Drake"
   },
@@ -9136,6 +9144,7 @@
   {
     "name_ja": "纏竜の探索者 アステール",
     "name_ja_romaji": "Tenryū no Tansakusha Asutēru",
+    "name_ko": "전룡의 탐색자 아스텔",
     "attribute": "LIGHT",
     "types": "Wyrm / Effect",
     "card_type": null,
@@ -9163,7 +9172,13 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR018",
+        "name": "Rising of the Aurora",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "23215",
     "archseries": [
       "Clad Dragon"
@@ -9171,7 +9186,7 @@
     "password": null,
     "is_legend": false,
     "title": "Astel the Clad Dragon Researcher",
-    "_wiki_ts": "2026-05-22T16:49:43Z",
+    "_wiki_ts": "2026-09-29T06:54:43Z",
     "card_schema_version": 2,
     "raw_name_en": "Astel the Clad Dragon Researcher"
   },
@@ -9802,7 +9817,7 @@
     "password": null,
     "is_legend": false,
     "title": "Aura Buster",
-    "_wiki_ts": "2026-04-06T20:01:06Z",
+    "_wiki_ts": "2026-09-28T15:37:39Z",
     "card_schema_version": 2,
     "raw_name_en": "Aura Buster"
   },
@@ -9902,7 +9917,7 @@
     "password": null,
     "is_legend": false,
     "title": "Aussa the Earth Charmer",
-    "_wiki_ts": "2026-09-02T07:27:52Z",
+    "_wiki_ts": "2026-10-01T17:31:51Z",
     "card_schema_version": 2,
     "raw_name_en": "Aussa the Earth Charmer (Rush Duel)"
   },
@@ -11824,6 +11839,11 @@
         "code": "RD/AP01-JP093",
         "name": "Advance Pack: Devil's Ceremony",
         "rarity": "Ultra Rare, Secret Rare"
+      },
+      {
+        "code": "RD/CA01-JP009",
+        "name": "Cross Art Collection",
+        "rarity": "Secret Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -11845,7 +11865,7 @@
     "password": null,
     "is_legend": false,
     "title": "Battletested Gaia The Fierce Knight",
-    "_wiki_ts": "2025-10-22T18:10:16Z",
+    "_wiki_ts": "2026-10-03T19:49:50Z",
     "card_schema_version": 2,
     "raw_name_en": "Battletested Gaia The Fierce Knight"
   },
@@ -11935,17 +11955,20 @@
       }
     ],
     "database_id": "23088",
-    "archseries": [],
+    "archseries": [
+      "Buster Blader"
+    ],
     "password": null,
     "is_legend": false,
     "title": "Beacon of Dragon Destroyer",
-    "_wiki_ts": "2026-09-02T07:32:31Z",
+    "_wiki_ts": "2026-09-28T02:34:14Z",
     "card_schema_version": 2,
     "raw_name_en": "Beacon of Dragon Destroyer"
   },
   {
     "name_ja": "暗黒魔神の導き",
     "name_ja_romaji": "Ankokumajin no Michibiki",
+    "name_ko": "암흑 마신의 인도",
     "name_translated": "Beacon of the Dark Devil",
     "attribute": null,
     "types": null,
@@ -11974,13 +11997,19 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR065",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23262",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Beacon of the Dark Titan",
-    "_wiki_ts": "2026-08-21T19:59:33Z",
+    "_wiki_ts": "2026-09-29T06:58:10Z",
     "card_schema_version": 2,
     "raw_name_en": "Beacon of the Dark Titan"
   },
@@ -12881,7 +12910,7 @@
     "materials": null,
     "condition": "You can Normal Summon this card in Attack Position without Tributing or by Tributing 3 face-up EARTH Attribute monsters. If Summoned without Tributing, its original ATK becomes 1900.",
     "effect_types": null,
-    "requirement": "During the turn you Normal Summoned this card by Tributing 3 monsters the above way.",
+    "requirement": "During the turn you Normal Summoned this card by Tributing 3 monsters in the above way.",
     "effect": "Destroy all face-up cards on your opponent's field.",
     "flavor_text": null,
     "images": [
@@ -12909,7 +12938,7 @@
     "password": null,
     "is_legend": true,
     "title": "Beast King Barbaros",
-    "_wiki_ts": "2026-06-11T14:36:51Z",
+    "_wiki_ts": "2026-09-30T16:24:30Z",
     "card_schema_version": 2,
     "raw_name_en": "Beast King Barbaros (Rush Duel)"
   },
@@ -13024,6 +13053,7 @@
   {
     "name_ja": "悪魔鏡の招来",
     "name_ja_romaji": "Akumakagami no Shōrai",
+    "name_ko": "악마경의 소래",
     "name_translated": "Demon Mirror Calling",
     "attribute": null,
     "types": null,
@@ -13057,7 +13087,13 @@
         "rarity": "Super Parallel Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR057",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23254",
     "archseries": [
       "Fiend's"
@@ -13065,13 +13101,14 @@
     "password": null,
     "is_legend": false,
     "title": "Beastly Mirror Calling",
-    "_wiki_ts": "2026-09-13T15:20:46Z",
+    "_wiki_ts": "2026-09-29T06:57:37Z",
     "card_schema_version": 2,
     "raw_name_en": "Beastly Mirror Calling"
   },
   {
     "name_ja": "悪魔鏡の儀式",
     "name_ja_romaji": "Akumakagami no Gishiki",
+    "name_ko": "악마경의 의식",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -13099,7 +13136,13 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR056",
+        "name": "Rising of the Aurora",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "23253",
     "archseries": [
       "Fiend's"
@@ -13107,7 +13150,7 @@
     "password": null,
     "is_legend": false,
     "title": "Beastly Mirror Ritual",
-    "_wiki_ts": "2026-07-02T01:46:54Z",
+    "_wiki_ts": "2026-09-29T06:57:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Beastly Mirror Ritual (Rush Duel)"
   },
@@ -13154,7 +13197,7 @@
     "password": null,
     "is_legend": false,
     "title": "Beaver Warrior",
-    "_wiki_ts": "2025-04-12T19:07:15Z",
+    "_wiki_ts": "2026-09-28T02:26:59Z",
     "card_schema_version": 2,
     "raw_name_en": "Beaver Warrior (Rush Duel)"
   },
@@ -14548,7 +14591,7 @@
     "password": null,
     "is_legend": false,
     "title": "Black Luster Ritual",
-    "_wiki_ts": "2026-07-02T01:47:14Z",
+    "_wiki_ts": "2026-09-28T02:21:49Z",
     "card_schema_version": 2,
     "raw_name_en": "Black Luster Ritual (Rush Duel)"
   },
@@ -14597,7 +14640,7 @@
     "password": null,
     "is_legend": false,
     "title": "Black Luster Soldier",
-    "_wiki_ts": "2026-01-20T11:47:04Z",
+    "_wiki_ts": "2026-09-28T02:47:25Z",
     "card_schema_version": 2,
     "raw_name_en": "Black Luster Soldier (Rush Duel)"
   },
@@ -14755,12 +14798,12 @@
     ],
     "database_id": "21597",
     "archseries": [
-      "Dark Magician"
+      "Magician of Black Chaos"
     ],
     "password": null,
     "is_legend": false,
     "title": "Black Magic Ritual",
-    "_wiki_ts": "2026-07-29T16:54:19Z",
+    "_wiki_ts": "2026-09-28T02:47:03Z",
     "card_schema_version": 2,
     "raw_name_en": "Black Magic Ritual (Rush Duel)"
   },
@@ -15681,7 +15724,7 @@
     "password": null,
     "is_legend": false,
     "title": "Blazing Chestnut",
-    "_wiki_ts": "2026-09-13T15:36:40Z",
+    "_wiki_ts": "2026-09-29T22:36:30Z",
     "card_schema_version": 2,
     "raw_name_en": "Blazing Chestnut"
   },
@@ -18208,6 +18251,7 @@
   {
     "name_ja": "アクノリのブラスデス",
     "name_ja_romaji": "Akunori no Burasudesu",
+    "name_ko": "아쿠노리의 브러스데스",
     "name_translated": "Evil-Riding Brassdes",
     "attribute": "DARK",
     "types": "Fiend / Effect",
@@ -18240,7 +18284,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR033",
+        "name": "Rising of the Aurora",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23230",
     "archseries": [
       "Brassdes"
@@ -18248,13 +18298,14 @@
     "password": null,
     "is_legend": false,
     "title": "Brassdes of the Wicked Wheels",
-    "_wiki_ts": "2026-07-05T02:43:46Z",
+    "_wiki_ts": "2026-09-29T07:06:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Brassdes of the Wicked Wheels"
   },
   {
     "name_ja": "ブラスデスの落とし穴",
     "name_ja_romaji": "Burasudesu no Otoshiana",
+    "name_ko": "브러스데스의 함정 속으로",
     "name_translated": "Brassdes Pitfall",
     "attribute": null,
     "types": null,
@@ -18283,7 +18334,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR064",
+        "name": "Rising of the Aurora",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23261",
     "archseries": [
       "Brassdes"
@@ -18291,7 +18348,7 @@
     "password": null,
     "is_legend": false,
     "title": "Brassdes Trap Hole",
-    "_wiki_ts": "2026-08-20T20:15:56Z",
+    "_wiki_ts": "2026-09-29T06:58:06Z",
     "card_schema_version": 2,
     "raw_name_en": "Brassdes Trap Hole"
   },
@@ -19391,11 +19448,13 @@
       }
     ],
     "database_id": "16307",
-    "archseries": [],
+    "archseries": [
+      "Buster Blader"
+    ],
     "password": null,
     "is_legend": true,
     "title": "Buster Blader",
-    "_wiki_ts": "2026-09-02T07:33:25Z",
+    "_wiki_ts": "2026-09-28T02:31:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Buster Blader (Rush Duel)"
   },
@@ -22685,12 +22744,12 @@
     ],
     "database_id": "21598",
     "archseries": [
-      "Dark Magician"
+      "Magician of Black Chaos"
     ],
     "password": null,
     "is_legend": false,
     "title": "Ceremonial Gate",
-    "_wiki_ts": "2025-09-30T00:56:42Z",
+    "_wiki_ts": "2026-09-28T02:21:23Z",
     "card_schema_version": 2,
     "raw_name_en": "Ceremonial Gate"
   },
@@ -22753,12 +22812,12 @@
     ],
     "database_id": "21590",
     "archseries": [
-      "Dark Magician"
+      "Magician of Black Chaos"
     ],
     "password": null,
     "is_legend": false,
     "title": "Ceremonial Knight",
-    "_wiki_ts": "2026-03-30T22:26:36Z",
+    "_wiki_ts": "2026-09-28T02:22:02Z",
     "card_schema_version": 2,
     "raw_name_en": "Ceremonial Knight"
   },
@@ -22821,12 +22880,12 @@
     ],
     "database_id": "21589",
     "archseries": [
-      "Dark Magician"
+      "Magician of Black Chaos"
     ],
     "password": null,
     "is_legend": false,
     "title": "Ceremonial Sorcerer",
-    "_wiki_ts": "2025-12-30T23:30:10Z",
+    "_wiki_ts": "2026-09-28T02:22:16Z",
     "card_schema_version": 2,
     "raw_name_en": "Ceremonial Sorcerer"
   },
@@ -23198,7 +23257,7 @@
     "materials": null,
     "condition": "You can Special Summon this card from your hand face-up to your field by placing 1 LIGHT Attribute and 1 DARK Attribute monster from your Graveyard on the bottom of the Deck in any order.",
     "effect_types": null,
-    "requirement": "If you have not activated any effect during the turn you Special Summoned this card the above way, pay 1000 LP.",
+    "requirement": "If you have not activated any effect during the turn you Special Summoned this card in the above way, pay 1000 LP.",
     "effect": "Send all cards in both players' hands and fields to the Graveyard. Then, inflict damage to your opponent equal to [the number of cards sent to their Graveyard by this effect] x 300.",
     "flavor_text": null,
     "images": [
@@ -23224,7 +23283,7 @@
     "password": null,
     "is_legend": true,
     "title": "Chaos Emperor Dragon - Envoy of the End",
-    "_wiki_ts": "2026-09-11T16:19:03Z",
+    "_wiki_ts": "2026-09-30T16:24:04Z",
     "card_schema_version": 2,
     "raw_name_en": "Chaos Emperor Dragon - Envoy of the End (Rush Duel)"
   },
@@ -24431,6 +24490,11 @@
         "code": "RD/B244-JP006",
         "name": "Battle Pack 2024 Vol.4",
         "rarity": "Common, Super Rare"
+      },
+      {
+        "code": "RD/CA01-JP076",
+        "name": "Cross Art Collection",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -24447,7 +24511,7 @@
     "password": null,
     "is_legend": false,
     "title": "Chemipet Chirp",
-    "_wiki_ts": "2026-06-28T09:30:11Z",
+    "_wiki_ts": "2026-09-29T16:00:21Z",
     "card_schema_version": 2,
     "raw_name_en": "Chemipet Chirp"
   },
@@ -24953,6 +25017,7 @@
   {
     "name_ja": "シビル・トワイライダー",
     "name_ja_romaji": "Shibiru Towairaidā",
+    "name_ko": "시빌 트와일라이더",
     "attribute": "LIGHT",
     "types": "Galaxy / Effect",
     "card_type": null,
@@ -24980,19 +25045,26 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR004",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23201",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Civil Twirider",
-    "_wiki_ts": "2026-05-22T16:47:02Z",
+    "_wiki_ts": "2026-09-29T06:53:39Z",
     "card_schema_version": 2,
     "raw_name_en": "Civil Twirider"
   },
   {
     "name_ja": "纏竜書－解呪の章－",
     "name_ja_romaji": "Tenryūsho -Kaiju no Shō-",
+    "name_ko": "전룡서－해주의 장－",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -25024,7 +25096,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR050",
+        "name": "Rising of the Aurora",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23247",
     "archseries": [
       "Clad Dragon"
@@ -25032,7 +25110,7 @@
     "password": null,
     "is_legend": false,
     "title": "Clad Dragon Tome - Chapter on Curse Breaking",
-    "_wiki_ts": "2026-05-22T16:56:44Z",
+    "_wiki_ts": "2026-09-29T07:07:04Z",
     "card_schema_version": 2,
     "raw_name_en": "Clad Dragon Tome - Chapter on Curse Breaking"
   },
@@ -25871,6 +25949,7 @@
     "name_ja": "コバルト・コボルト",
     "name_ja_romaji": "Kobaruto Koboruto",
     "name_ko": "코발트 코볼트",
+    "name_translated": "Cobalt Kobold",
     "attribute": "FIRE",
     "types": "Fiend / Effect",
     "card_type": null,
@@ -25915,7 +25994,7 @@
     "password": null,
     "is_legend": false,
     "title": "Cobalt Cobolt",
-    "_wiki_ts": "2025-06-20T03:55:04Z",
+    "_wiki_ts": "2026-10-01T11:49:29Z",
     "card_schema_version": 2,
     "raw_name_en": "Cobalt Cobolt"
   },
@@ -30830,13 +30909,14 @@
     "password": null,
     "is_legend": false,
     "title": "Curse of Dragon",
-    "_wiki_ts": "2025-09-15T17:26:18Z",
+    "_wiki_ts": "2026-09-28T17:29:47Z",
     "card_schema_version": 2,
     "raw_name_en": "Curse of Dragon (Rush Duel)"
   },
   {
     "name_ja": "魔纏竜の呪い",
     "name_ja_romaji": "Matenryū no Noroi",
+    "name_ko": "마전룡의 저주",
     "attribute": null,
     "types": null,
     "card_type": "Trap",
@@ -30864,7 +30944,13 @@
         "rarity": "Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR061",
+        "name": "Rising of the Aurora",
+        "rarity": "Rare"
+      }
+    ],
     "database_id": "23258",
     "archseries": [
       "Clad Dragon"
@@ -30872,7 +30958,7 @@
     "password": null,
     "is_legend": false,
     "title": "Curse of the Magiclad Dragon",
-    "_wiki_ts": "2026-05-22T16:59:19Z",
+    "_wiki_ts": "2026-09-29T06:57:54Z",
     "card_schema_version": 2,
     "raw_name_en": "Curse of the Magiclad Dragon"
   },
@@ -34745,7 +34831,7 @@
     "password": null,
     "is_legend": true,
     "title": "Dark Magician",
-    "_wiki_ts": "2026-08-24T20:40:32Z",
+    "_wiki_ts": "2026-09-28T16:56:38Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Magician (Rush Duel)"
   },
@@ -35011,7 +35097,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dark Magician of Chaos",
-    "_wiki_ts": "2026-07-02T16:32:33Z",
+    "_wiki_ts": "2026-09-28T16:59:41Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Magician of Chaos (Rush Duel)"
   },
@@ -36376,12 +36462,13 @@
     ],
     "database_id": "21496",
     "archseries": [
+      "Buster Blader",
       "Dark Magician"
     ],
     "password": null,
     "is_legend": false,
     "title": "Dark Paladin",
-    "_wiki_ts": "2026-07-19T01:51:22Z",
+    "_wiki_ts": "2026-09-28T02:33:35Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Paladin (Rush Duel)"
   },
@@ -37024,12 +37111,12 @@
     ],
     "database_id": "21594",
     "archseries": [
-      "Black Luster Soldier"
+      "Magician of Black Chaos"
     ],
     "password": null,
     "is_legend": false,
     "title": "Dark-Guiding Kuriboh",
-    "_wiki_ts": "2025-09-15T17:21:44Z",
+    "_wiki_ts": "2026-09-28T02:19:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark-Guiding Kuriboh"
   },
@@ -37840,7 +37927,7 @@
     "materials": null,
     "condition": "You can Tribute Summon this card in Attack Position by Tributing 3 monsters with the same Attribute.",
     "effect_types": null,
-    "requirement": "During the turn you Normal Summoned this card the above way.",
+    "requirement": "During the turn you Normal Summoned this card in the above way.",
     "effect": "Destroy 1 card on your opponent's field. Then, you can make this card gain ATK equal to [the original Level of the monster destroyed by this effect] x 200 until the end of this turn.",
     "flavor_text": null,
     "images": [
@@ -37871,7 +37958,7 @@
     "password": null,
     "is_legend": false,
     "title": "Darkness Transam Craisis",
-    "_wiki_ts": "2024-12-05T20:43:08Z",
+    "_wiki_ts": "2026-09-30T16:25:03Z",
     "card_schema_version": 2,
     "raw_name_en": "Darkness Transam Craisis"
   },
@@ -38474,13 +38561,11 @@
       }
     ],
     "database_id": "21669",
-    "archseries": [
-      "Black Luster Soldier"
-    ],
+    "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Dedicated Curse of Dragon",
-    "_wiki_ts": "2025-09-15T17:25:23Z",
+    "_wiki_ts": "2026-09-28T02:24:53Z",
     "card_schema_version": 2,
     "raw_name_en": "Dedicated Curse of Dragon"
   },
@@ -38530,7 +38615,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dedicated Gaia The Fierce Knight",
-    "_wiki_ts": "2026-01-20T11:49:07Z",
+    "_wiki_ts": "2026-09-28T02:25:15Z",
     "card_schema_version": 2,
     "raw_name_en": "Dedicated Gaia The Fierce Knight"
   },
@@ -38578,13 +38663,11 @@
       }
     ],
     "database_id": "21670",
-    "archseries": [
-      "Dark Magician"
-    ],
+    "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Dedicated Protorion",
-    "_wiki_ts": "2025-09-08T22:18:17Z",
+    "_wiki_ts": "2026-09-28T02:24:26Z",
     "card_schema_version": 2,
     "raw_name_en": "Dedicated Protorion"
   },
@@ -53037,6 +53120,7 @@
   {
     "name_ja": "エンセラダステライム",
     "name_ja_romaji": "Enseradasuteraimu",
+    "name_ko": "엔셀라다스텔라임",
     "attribute": "LIGHT",
     "types": "Galaxy / Effect",
     "card_type": null,
@@ -53069,13 +53153,19 @@
         "rarity": "Super Parallel Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR003",
+        "name": "Rising of the Aurora",
+        "rarity": "Rare"
+      }
+    ],
     "database_id": "23200",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Enceladustellime",
-    "_wiki_ts": "2026-06-19T18:02:36Z",
+    "_wiki_ts": "2026-09-29T06:53:35Z",
     "card_schema_version": 2,
     "raw_name_en": "Enceladustellime"
   },
@@ -55884,6 +55974,7 @@
   {
     "name_ja": "聖丘の護尭神",
     "name_ja_romaji": "Seikyū no Gogyōshin",
+    "name_ko": "성구의 호요신",
     "name_translated": "High Guardian God of the Sacred Summit",
     "attribute": "WATER",
     "types": "Wyrm / Effect",
@@ -55916,13 +56007,19 @@
         "rarity": "Ultra Rare, Over Rush Rare (Premium Black Version)"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KRS00",
+        "name": "Rising of the Aurora",
+        "rarity": "Ultra Rare, Over Rush Rare (Premium Black Version)"
+      }
+    ],
     "database_id": "23267",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Exalted Celestial Custodian of the Sacred Summit",
-    "_wiki_ts": "2026-06-14T21:59:35Z",
+    "_wiki_ts": "2026-09-29T07:04:25Z",
     "card_schema_version": 2,
     "raw_name_en": "Exalted Celestial Custodian of the Sacred Summit"
   },
@@ -57319,12 +57416,12 @@
     ],
     "database_id": "21595",
     "archseries": [
-      "Dark Magician"
+      "Magician of Black Chaos"
     ],
     "password": null,
     "is_legend": false,
     "title": "Explorer of the Temple",
-    "_wiki_ts": "2025-08-20T08:56:36Z",
+    "_wiki_ts": "2026-09-28T17:04:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Explorer of the Temple"
   },
@@ -57612,6 +57709,7 @@
   {
     "name_ja": "号外バーン",
     "name_ja_romaji": "Gōgai Bān",
+    "name_ko": "호외 번",
     "name_translated": "Newspaper Extra Burn",
     "attribute": null,
     "types": null,
@@ -57640,7 +57738,13 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR049",
+        "name": "Rising of the Aurora",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "23246",
     "archseries": [
       "Reporter"
@@ -57648,7 +57752,7 @@
     "password": null,
     "is_legend": false,
     "title": "Extra! Extra! Hot Off the Press",
-    "_wiki_ts": "2026-05-25T02:30:39Z",
+    "_wiki_ts": "2026-09-29T06:57:02Z",
     "card_schema_version": 2,
     "raw_name_en": "Extra! Extra! Hot Off the Press"
   },
@@ -57877,7 +57981,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": null,
-    "effect": "''An acrobat who soars freely through the air. She adds a gorgeous sense of flair to the show together with her younger sister, Evil Baller.''",
+    "effect": "''An acrobat who soars freely through the air. She adds a gorgeous sense of flair to the show together with her younger sister, Evil Bowler.''",
     "flavor_text": null,
     "images": [
       {
@@ -57906,7 +58010,7 @@
     "password": null,
     "is_legend": false,
     "title": "Fair Flyer",
-    "_wiki_ts": "2025-02-14T12:36:35Z",
+    "_wiki_ts": "2026-09-30T19:21:25Z",
     "card_schema_version": 2,
     "raw_name_en": "Fair Flyer"
   },
@@ -58523,6 +58627,7 @@
   {
     "name_ja": "憑依装着－ウィン",
     "name_ja_romaji": "Hyōisōchaku - Win",
+    "name_ko": "빙의장착－윈",
     "attribute": "WIND",
     "types": "Spellcaster / Fusion / Effect",
     "card_type": null,
@@ -58550,7 +58655,13 @@
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR044",
+        "name": "Rising of the Aurora",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23241",
     "archseries": [
       "Charmer"
@@ -58558,7 +58669,7 @@
     "password": null,
     "is_legend": false,
     "title": "Familiar-Possessed - Wynn",
-    "_wiki_ts": "2026-06-13T16:51:57Z",
+    "_wiki_ts": "2026-09-29T06:56:40Z",
     "card_schema_version": 2,
     "raw_name_en": "Familiar-Possessed - Wynn (Rush Duel)"
   },
@@ -59304,6 +59415,7 @@
   {
     "name_ja": "デビルズ・アブソリューター",
     "name_ja_romaji": "Debiruzu Abusoryūtā",
+    "name_ko": "데블즈 앱솔루터",
     "name_translated": "Devil's Absoluter",
     "attribute": "DARK",
     "types": "Fiend / Effect",
@@ -59332,7 +59444,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR032",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23229",
     "archseries": [
       "Fiend's"
@@ -59340,13 +59458,14 @@
     "password": null,
     "is_legend": false,
     "title": "Fiend's Absoluter",
-    "_wiki_ts": "2026-05-22T16:52:56Z",
+    "_wiki_ts": "2026-09-29T06:55:47Z",
     "card_schema_version": 2,
     "raw_name_en": "Fiend's Absoluter"
   },
   {
     "name_ja": "デビルズ・ミラージュ",
     "name_ja_romaji": "Debiruzu Mirāju",
+    "name_ko": "데블즈 미러쥬",
     "name_translated": "Devil's Mirage",
     "attribute": "DARK",
     "types": "Fiend / Effect",
@@ -59375,7 +59494,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR031",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23228",
     "archseries": [
       "Fiend's"
@@ -59383,13 +59508,14 @@
     "password": null,
     "is_legend": false,
     "title": "Fiend's Mirage",
-    "_wiki_ts": "2026-05-22T16:52:46Z",
+    "_wiki_ts": "2026-09-29T06:55:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Fiend's Mirage"
   },
   {
     "name_ja": "デビルズ・ミラー",
     "name_ja_romaji": "Debiruzu Mirā",
+    "name_ko": "데블즈 미러",
     "attribute": "DARK",
     "types": "Fiend / Ritual",
     "card_type": null,
@@ -59417,7 +59543,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR069",
+        "name": "Rising of the Aurora",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23266",
     "archseries": [
       "Fiend's"
@@ -59425,7 +59557,7 @@
     "password": null,
     "is_legend": false,
     "title": "Fiend's Mirror",
-    "_wiki_ts": "2026-05-22T17:02:10Z",
+    "_wiki_ts": "2026-09-29T07:04:53Z",
     "card_schema_version": 2,
     "raw_name_en": "Fiend's Mirror (Rush Duel)"
   },
@@ -63691,7 +63823,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "When your opponent Normal or Special Summons a monster.",
-    "effect": "Set 1 \"Fusion\" or \"Fusion Cancel\" from your Graveyard to your Spell & Trap Zone. Then, you can choose 1 face-up monster on your field. This turn, that monster cannot be destroyed by battle or card effects.",
+    "effect": "Set 1 \"Fusion\" or \"Fusion Cancel\" from your Graveyard to your Spell & Trap Zone. Then, you can choose 1 face-up monster on your field. If chosen, this turn, it cannot be destroyed by battle or card effects.",
     "flavor_text": null,
     "images": [
       {
@@ -63718,7 +63850,7 @@
     "password": null,
     "is_legend": false,
     "title": "Fusionic Defense",
-    "_wiki_ts": "2025-01-11T02:18:17Z",
+    "_wiki_ts": "2026-09-30T16:33:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Fusionic Defense"
   },
@@ -65127,6 +65259,7 @@
   {
     "name_ja": "ギャラクティカ・フュージョン・スペース",
     "name_ja_romaji": "Gyarakutika Fyūjon Supēsu",
+    "name_ko": "갤럭티카 퓨전 스페이스",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -65154,7 +65287,13 @@
         "rarity": "Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR047",
+        "name": "Rising of the Aurora",
+        "rarity": "Rare"
+      }
+    ],
     "database_id": "23244",
     "archseries": [
       "Galactica"
@@ -65162,7 +65301,7 @@
     "password": null,
     "is_legend": false,
     "title": "Galactica Fusion Space",
-    "_wiki_ts": "2026-08-06T16:01:52Z",
+    "_wiki_ts": "2026-09-29T06:56:53Z",
     "card_schema_version": 2,
     "raw_name_en": "Galactica Fusion Space"
   },
@@ -65181,7 +65320,7 @@
     "materials": null,
     "condition": "You can Tribute Summon this card in Attack Position by Tributing 3 monsters.",
     "effect_types": null,
-    "requirement": "During the turn you Normal Summoned this card the above way, shuffle 5 monsters from your Graveyard into the Deck.",
+    "requirement": "During the turn you Normal Summoned this card in the above way, shuffle 5 monsters from your Graveyard into the Deck.",
     "effect": "Destroy all Spell/Trap Cards on the field. Then, you can make this card gain ATK equal to [the ATK of the Normal Monster with the highest ATK in your Graveyard] until the end of this turn.",
     "flavor_text": null,
     "images": [
@@ -65211,7 +65350,7 @@
     "password": null,
     "is_legend": false,
     "title": "Galactica God Oblivion",
-    "_wiki_ts": "2025-05-16T12:27:09Z",
+    "_wiki_ts": "2026-09-30T16:22:00Z",
     "card_schema_version": 2,
     "raw_name_en": "Galactica God Oblivion"
   },
@@ -65505,6 +65644,11 @@
         "code": "RD/5TH1-KR067",
         "name": "5th Anniversary Pack",
         "rarity": "Super Parallel Rare"
+      },
+      {
+        "code": "RD/KP25-KR001",
+        "name": "Rising of the Aurora",
+        "rarity": "Full Over Rush Rare"
       }
     ],
     "database_id": "17488",
@@ -65514,7 +65658,7 @@
     "password": null,
     "is_legend": false,
     "title": "Galactica Oblivion",
-    "_wiki_ts": "2026-06-28T17:40:57Z",
+    "_wiki_ts": "2026-09-29T06:53:56Z",
     "card_schema_version": 2,
     "raw_name_en": "Galactica Oblivion"
   },
@@ -65678,6 +65822,7 @@
   {
     "name_ja": "ギャラクティカ・ライジング・オブリビオン",
     "name_ja_romaji": "Gyarakutika Raijingu Oburibion",
+    "name_ko": "갤럭티카 라이징 오블리비언",
     "attribute": "LIGHT",
     "types": "Galaxy / Fusion / Effect",
     "card_type": null,
@@ -65705,7 +65850,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR038",
+        "name": "Rising of the Aurora",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23235",
     "archseries": [
       "Galactica"
@@ -65713,7 +65864,7 @@
     "password": null,
     "is_legend": false,
     "title": "Galactica Rising Oblivion",
-    "_wiki_ts": "2026-05-22T16:54:10Z",
+    "_wiki_ts": "2026-09-29T06:56:13Z",
     "card_schema_version": 2,
     "raw_name_en": "Galactica Rising Oblivion"
   },
@@ -67728,7 +67879,7 @@
     "materials": null,
     "condition": "You can Tribute Summon this card in Attack Position by Tributing 3 monsters.",
     "effect_types": null,
-    "requirement": "During the turn you Normal Summoned this card the above way.",
+    "requirement": "During the turn you Normal Summoned this card in the above way.",
     "effect": "Destroy all monsters on your opponent's field.",
     "flavor_text": null,
     "images": [
@@ -67766,7 +67917,7 @@
     "password": null,
     "is_legend": true,
     "title": "Gilford the Lightning",
-    "_wiki_ts": "2026-06-28T09:29:27Z",
+    "_wiki_ts": "2026-09-30T10:25:15Z",
     "card_schema_version": 2,
     "raw_name_en": "Gilford the Lightning (Rush Duel)"
   },
@@ -70969,7 +71120,7 @@
     "password": null,
     "is_legend": false,
     "title": "Griffore",
-    "_wiki_ts": "2025-09-15T17:29:31Z",
+    "_wiki_ts": "2026-09-28T02:27:08Z",
     "card_schema_version": 2,
     "raw_name_en": "Griffore (Rush Duel)"
   },
@@ -72329,6 +72480,7 @@
   {
     "name_ja": "ハッピージャーナル",
     "name_ja_romaji": "Happī Jānaru",
+    "name_ko": "행복저널",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -72356,7 +72508,13 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR048",
+        "name": "Rising of the Aurora",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "23245",
     "archseries": [
       "Reporter"
@@ -72364,7 +72522,7 @@
     "password": null,
     "is_legend": false,
     "title": "Happy Journal",
-    "_wiki_ts": "2026-05-22T16:56:19Z",
+    "_wiki_ts": "2026-09-29T06:56:57Z",
     "card_schema_version": 2,
     "raw_name_en": "Happy Journal"
   },
@@ -72928,6 +73086,11 @@
         "code": "RD/SD0D-KR008",
         "name": "Structure Deck: Harpie Lady Sisters",
         "rarity": "Common, Ultra Rare"
+      },
+      {
+        "code": "RD/KP25-KR002",
+        "name": "Rising of the Aurora",
+        "rarity": "Full Over Rush Rare"
       }
     ],
     "database_id": "17342",
@@ -72937,7 +73100,7 @@
     "password": null,
     "is_legend": false,
     "title": "Harpie Lady",
-    "_wiki_ts": "2026-05-22T16:46:39Z",
+    "_wiki_ts": "2026-09-29T06:54:01Z",
     "card_schema_version": 2,
     "raw_name_en": "Harpie Lady (Rush Duel)"
   },
@@ -73356,7 +73519,7 @@
     "password": null,
     "is_legend": false,
     "title": "Harpie Lady Feather Duster",
-    "_wiki_ts": "2026-09-18T22:33:55Z",
+    "_wiki_ts": "2026-09-29T22:40:48Z",
     "card_schema_version": 2,
     "raw_name_en": "Harpie Lady Feather Duster"
   },
@@ -73609,6 +73772,7 @@
   {
     "name_ja": "ハーピィ・ラフィナート",
     "name_ja_romaji": "Hāpyi Rafināto",
+    "name_ko": "해피 라피나토",
     "attribute": "WIND",
     "types": "Winged Beast / Effect",
     "card_type": null,
@@ -73636,7 +73800,13 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR067",
+        "name": "Rising of the Aurora",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "23264",
     "archseries": [
       "Harpie"
@@ -73644,7 +73814,7 @@
     "password": null,
     "is_legend": false,
     "title": "Harpie Raffinato",
-    "_wiki_ts": "2026-05-22T17:01:44Z",
+    "_wiki_ts": "2026-09-29T06:58:20Z",
     "card_schema_version": 2,
     "raw_name_en": "Harpie Raffinato"
   },
@@ -74774,7 +74944,7 @@
     "password": null,
     "is_legend": false,
     "title": "Healthy Mind Speedy Buzzer Battle!",
-    "_wiki_ts": "2026-09-13T16:02:43Z",
+    "_wiki_ts": "2026-09-29T22:41:08Z",
     "card_schema_version": 2,
     "raw_name_en": "Healthy Mind Speedy Buzzer Battle!"
   },
@@ -76342,6 +76512,7 @@
   {
     "name_ja": "速撮マシンＥＮＧ",
     "name_ja_romaji": "Sokusatsu Mashin Ī Enu Jī",
+    "name_ko": "속촬 머신 ENG",
     "attribute": "EARTH",
     "types": "Machine / Effect",
     "card_type": null,
@@ -76369,7 +76540,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR012",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23209",
     "archseries": [
       "Reporter"
@@ -76377,7 +76554,7 @@
     "password": null,
     "is_legend": false,
     "title": "High-Speed Machine ENG",
-    "_wiki_ts": "2026-05-22T16:48:36Z",
+    "_wiki_ts": "2026-09-29T06:54:16Z",
     "card_schema_version": 2,
     "raw_name_en": "High-Speed Machine ENG"
   },
@@ -78300,6 +78477,7 @@
   {
     "name_ja": "花牙点のアジサイ",
     "name_ja_romaji": "Kagetate no Ajisai",
+    "name_ko": "화아점의 아지사이",
     "name_translated": "Hydrangea the Shadow Flowerfang Tea Master",
     "attribute": "EARTH",
     "types": "Plant / Effect",
@@ -78332,7 +78510,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR029",
+        "name": "Rising of the Aurora",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23226",
     "archseries": [
       "Shadow Flower"
@@ -78340,7 +78524,7 @@
     "password": null,
     "is_legend": false,
     "title": "Hydrangea the Shadow Flower Tea Master",
-    "_wiki_ts": "2026-05-22T16:52:12Z",
+    "_wiki_ts": "2026-09-29T07:06:29Z",
     "card_schema_version": 2,
     "raw_name_en": "Hydrangea the Shadow Flower Tea Master"
   },
@@ -79240,6 +79424,7 @@
   {
     "name_ja": "ヒステリック・アイズ",
     "name_ja_romaji": "Hisuterikku Aizu",
+    "name_ko": "히스테릭 아이즈",
     "attribute": null,
     "types": null,
     "card_type": "Trap",
@@ -79271,13 +79456,19 @@
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR063",
+        "name": "Rising of the Aurora",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23260",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Hysteric Eyes",
-    "_wiki_ts": "2026-05-22T17:00:10Z",
+    "_wiki_ts": "2026-09-29T06:58:02Z",
     "card_schema_version": 2,
     "raw_name_en": "Hysteric Eyes"
   },
@@ -79654,6 +79845,7 @@
   {
     "name_ja": "アイスエイジ・パウンダー",
     "name_ja_romaji": "Aisu Eiji Paundā",
+    "name_ko": "아이스에이지 파운더",
     "attribute": "WATER",
     "types": "Rock / Effect",
     "card_type": null,
@@ -79681,13 +79873,19 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR027",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23224",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Ice Age Pounder",
-    "_wiki_ts": "2026-05-22T16:51:44Z",
+    "_wiki_ts": "2026-09-29T06:55:24Z",
     "card_schema_version": 2,
     "raw_name_en": "Ice Age Pounder"
   },
@@ -80909,6 +81107,7 @@
   {
     "name_ja": "灼纏竜－フレイガル",
     "name_ja_romaji": "Shakutenryū - Fureigaru",
+    "name_ko": "작전룡－프레이갈",
     "attribute": "FIRE",
     "types": "Wyrm / Effect",
     "card_type": null,
@@ -80936,7 +81135,13 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR019",
+        "name": "Rising of the Aurora",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "23216",
     "archseries": [
       "Clad Dragon"
@@ -80944,7 +81149,7 @@
     "password": null,
     "is_legend": false,
     "title": "Infernoclad Dragon - Flagal",
-    "_wiki_ts": "2026-05-22T16:49:53Z",
+    "_wiki_ts": "2026-09-29T06:54:47Z",
     "card_schema_version": 2,
     "raw_name_en": "Infernoclad Dragon - Flagal"
   },
@@ -81780,6 +81985,7 @@
   {
     "name_ja": "インタースクライム",
     "name_ja_romaji": "Intāsukuraimu",
+    "name_ko": "인터스크라임",
     "attribute": "LIGHT",
     "types": "Galaxy / Fusion / Effect",
     "card_type": null,
@@ -81807,13 +82013,19 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR040",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23237",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Interscrime",
-    "_wiki_ts": "2026-07-02T00:33:59Z",
+    "_wiki_ts": "2026-09-29T06:56:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Interscrime"
   },
@@ -84798,6 +85010,7 @@
   {
     "name_ja": "旅立ちの三賢者",
     "name_ja_romaji": "Tabidachi no Sankenja",
+    "name_ko": "여정의 삼현자",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -84825,13 +85038,19 @@
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR058",
+        "name": "Rising of the Aurora",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23255",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "The Journeying Three Magi",
-    "_wiki_ts": "2026-05-22T16:58:34Z",
+    "_wiki_ts": "2026-09-29T06:57:41Z",
     "card_schema_version": 2,
     "raw_name_en": "The Journeying Three Magi"
   },
@@ -84891,7 +85110,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "None",
-    "effect": "Shuffle 1 monster from either Graveyard into the owner's Deck. Then, if your opponent has no cards in their hand, you can return 1 face-up monster from their field to the owner's hand.",
+    "effect": "Shuffle 1 monster from either player's Graveyard into the owner's Deck. If the opponent has 0 cards in their hand, you can also return 1 face-up monster from your opponent's field to the owner's hand.",
     "flavor_text": null,
     "images": [
       {
@@ -84933,7 +85152,7 @@
     "password": null,
     "is_legend": false,
     "title": "Judgment of the Rising Light",
-    "_wiki_ts": "2026-06-29T22:35:10Z",
+    "_wiki_ts": "2026-09-30T16:32:50Z",
     "card_schema_version": 2,
     "raw_name_en": "Judgment of the Rising Light"
   },
@@ -89616,11 +89835,13 @@
       }
     ],
     "database_id": "18687",
-    "archseries": [],
+    "archseries": [
+      "Buster Blader"
+    ],
     "password": null,
     "is_legend": false,
     "title": "Legendary Swordsman - Buster Blader",
-    "_wiki_ts": "2025-08-20T08:56:38Z",
+    "_wiki_ts": "2026-09-28T02:31:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Legendary Swordsman - Buster Blader"
   },
@@ -90338,18 +90559,19 @@
     ],
     "database_id": "21593",
     "archseries": [
-      "Black Luster Soldier"
+      "Magician of Black Chaos"
     ],
     "password": null,
     "is_legend": false,
     "title": "Light-Calling Griffore",
-    "_wiki_ts": "2026-06-14T18:49:29Z",
+    "_wiki_ts": "2026-09-28T02:20:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Light-Calling Griffore"
   },
   {
     "name_ja": "光纏竜－ラテス",
     "name_ja_romaji": "Kōtenryū - Ratesu",
+    "name_ko": "광전룡－라테스",
     "attribute": "LIGHT",
     "types": "Wyrm / Effect",
     "card_type": null,
@@ -90382,7 +90604,13 @@
         "rarity": "Super Parallel Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR015",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23212",
     "archseries": [
       "Clad Dragon"
@@ -90390,13 +90618,14 @@
     "password": null,
     "is_legend": false,
     "title": "Lightclad Dragon - Llates",
-    "_wiki_ts": "2026-06-19T17:59:27Z",
+    "_wiki_ts": "2026-09-29T06:54:29Z",
     "card_schema_version": 2,
     "raw_name_en": "Lightclad Dragon - Llates"
   },
   {
     "name_ja": "光纏竜の卵",
     "name_ja_romaji": "Kōtenryū no Tamago",
+    "name_ko": "광전룡의 알",
     "attribute": "LIGHT",
     "types": "Wyrm / Fusion / Effect",
     "card_type": null,
@@ -90428,7 +90657,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR041",
+        "name": "Rising of the Aurora",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23238",
     "archseries": [
       "Clad Dragon"
@@ -90436,7 +90671,7 @@
     "password": null,
     "is_legend": false,
     "title": "Lightclad Dragon Egg",
-    "_wiki_ts": "2026-06-13T16:55:51Z",
+    "_wiki_ts": "2026-09-29T07:06:55Z",
     "card_schema_version": 2,
     "raw_name_en": "Lightclad Dragon Egg"
   },
@@ -91663,6 +91898,7 @@
   {
     "name_ja": "纏竜域の戦利品",
     "name_ja_romaji": "Tenryūiki no Senrihin",
+    "name_ko": "전룡역의 전리품",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -91690,7 +91926,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR051",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23248",
     "archseries": [
       "Clad Dragon"
@@ -91698,7 +91940,7 @@
     "password": null,
     "is_legend": false,
     "title": "Loot from the Clad Dragondom",
-    "_wiki_ts": "2026-05-22T16:57:09Z",
+    "_wiki_ts": "2026-09-29T06:57:10Z",
     "card_schema_version": 2,
     "raw_name_en": "Loot from the Clad Dragondom"
   },
@@ -92267,14 +92509,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24004",
     "archseries": [
       "Lostream"
     ],
     "password": null,
     "is_legend": false,
     "title": "Lostream Nereides",
-    "_wiki_ts": "2026-09-16T16:10:35Z",
+    "_wiki_ts": "2026-10-01T16:08:27Z",
     "card_schema_version": 2,
     "raw_name_en": "Lostream Nereides"
   },
@@ -94271,11 +94513,13 @@
       }
     ],
     "database_id": "22858",
-    "archseries": [],
+    "archseries": [
+      "Mad Rare"
+    ],
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Amelo",
-    "_wiki_ts": "2026-06-11T11:17:19Z",
+    "_wiki_ts": "2026-10-01T16:06:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Amelo"
   },
@@ -94325,6 +94569,11 @@
         "code": "RD/SD0D-JP025",
         "name": "Structure Deck: Harpie Lady Sisters",
         "rarity": "Normal Parallel Rare"
+      },
+      {
+        "code": "RD/CA01-JP071",
+        "name": "Cross Art Collection",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -94340,11 +94589,13 @@
       }
     ],
     "database_id": "18959",
-    "archseries": [],
+    "archseries": [
+      "Mad Rare"
+    ],
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Aquila",
-    "_wiki_ts": "2025-09-22T00:33:43Z",
+    "_wiki_ts": "2026-10-01T16:05:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Aquila"
   },
@@ -95402,7 +95653,7 @@
     "password": null,
     "is_legend": false,
     "title": "Magical Warrior of Heritage",
-    "_wiki_ts": "2026-07-01T21:13:54Z",
+    "_wiki_ts": "2026-09-28T02:33:15Z",
     "card_schema_version": 2,
     "raw_name_en": "Magical Warrior of Heritage"
   },
@@ -95544,12 +95795,12 @@
     ],
     "database_id": "21588",
     "archseries": [
-      "Dark Magician"
+      "Magician of Black Chaos"
     ],
     "password": null,
     "is_legend": false,
     "title": "Magician of Black Chaos",
-    "_wiki_ts": "2025-10-06T01:25:44Z",
+    "_wiki_ts": "2026-09-28T02:22:50Z",
     "card_schema_version": 2,
     "raw_name_en": "Magician of Black Chaos (Rush Duel)"
   },
@@ -95757,6 +96008,7 @@
   {
     "name_ja": "魔纏竜－星喰らいのヴェザル",
     "name_ja_romaji": "Matenryū - Hoshigurai no Vezaru",
+    "name_ko": "마전룡－별을 먹는 베잘",
     "attribute": "DARK",
     "types": "Wyrm / Effect",
     "card_type": null,
@@ -95784,7 +96036,13 @@
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR021",
+        "name": "Rising of the Aurora",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23218",
     "archseries": [
       "Clad Dragon"
@@ -95792,7 +96050,7 @@
     "password": null,
     "is_legend": false,
     "title": "Magiclad Dragon - Vezzal the Star Eater",
-    "_wiki_ts": "2026-05-22T16:50:40Z",
+    "_wiki_ts": "2026-09-29T06:54:57Z",
     "card_schema_version": 2,
     "raw_name_en": "Magiclad Dragon - Vezzal the Star Eater"
   },
@@ -95964,6 +96222,7 @@
   {
     "name_ja": "マグマ・ドラゴン",
     "name_ja_romaji": "Maguma Doragon",
+    "name_ko": "마그마 드래곤",
     "attribute": "FIRE",
     "types": "Wyrm / Effect",
     "card_type": null,
@@ -95991,13 +96250,19 @@
         "rarity": "Normal Parallel Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KRS02",
+        "name": "Rising of the Aurora",
+        "rarity": "Super Rare"
+      }
+    ],
     "database_id": "23322",
     "archseries": [],
     "password": null,
     "is_legend": true,
     "title": "Magma Dragon",
-    "_wiki_ts": "2026-07-03T10:30:01Z",
+    "_wiki_ts": "2026-09-29T06:58:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Magma Dragon (Rush Duel)"
   },
@@ -96128,7 +96393,7 @@
     "materials": null,
     "condition": "You can Tribute Summon this card in Attack Position by Tributing 3 Rock Type monsters.",
     "effect_types": null,
-    "requirement": "During the turn you Normal Summoned this card the above way.",
+    "requirement": "During the turn you Normal Summoned this card in the above way.",
     "effect": "Destroy 1 card on your opponent's field. Then, you can draw 1 card.",
     "flavor_text": null,
     "images": [
@@ -96156,7 +96421,7 @@
     "password": null,
     "is_legend": false,
     "title": "Magnet Citadel Jar",
-    "_wiki_ts": "2024-12-06T04:26:39Z",
+    "_wiki_ts": "2026-09-30T16:25:24Z",
     "card_schema_version": 2,
     "raw_name_en": "Magnet Citadel Jar"
   },
@@ -96837,6 +97102,7 @@
   {
     "name_ja": "大事件です！",
     "name_ja_romaji": "Daijiken desu!",
+    "name_ko": "대사건입니다!",
     "name_translated": "It's a Disaster!",
     "attribute": null,
     "types": null,
@@ -96865,7 +97131,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR060",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23257",
     "archseries": [
       "Reporter"
@@ -96873,7 +97145,7 @@
     "password": null,
     "is_legend": false,
     "title": "Major Breaking News!",
-    "_wiki_ts": "2026-05-22T16:58:55Z",
+    "_wiki_ts": "2026-09-29T06:57:50Z",
     "card_schema_version": 2,
     "raw_name_en": "Major Breaking News!"
   },
@@ -97465,12 +97737,12 @@
     ],
     "database_id": "21592",
     "archseries": [
-      "Dark Magician"
+      "Magician of Black Chaos"
     ],
     "password": null,
     "is_legend": false,
     "title": "Marching Beaver Warrior",
-    "_wiki_ts": "2026-06-29T22:33:56Z",
+    "_wiki_ts": "2026-09-28T02:20:44Z",
     "card_schema_version": 2,
     "raw_name_en": "Marching Beaver Warrior"
   },
@@ -102367,12 +102639,13 @@
     ],
     "database_id": "22030",
     "archseries": [
+      "Buster Blader",
       "Dark Magician"
     ],
     "password": null,
     "is_legend": false,
     "title": "Miracle Secret Arts",
-    "_wiki_ts": "2026-05-28T18:03:50Z",
+    "_wiki_ts": "2026-09-28T02:34:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Miracle Secret Arts"
   },
@@ -102415,11 +102688,13 @@
       }
     ],
     "database_id": "23087",
-    "archseries": [],
+    "archseries": [
+      "Buster Blader"
+    ],
     "password": null,
     "is_legend": false,
     "title": "Miraculous Swordsman - Buster Blader",
-    "_wiki_ts": "2026-09-02T07:32:27Z",
+    "_wiki_ts": "2026-09-28T02:34:04Z",
     "card_schema_version": 2,
     "raw_name_en": "Miraculous Swordsman - Buster Blader"
   },
@@ -102710,6 +102985,7 @@
     "name_ja": "ミスト・アサシン",
     "name_ja_romaji": "Misuto Asashin",
     "name_ko": "미스트 어쌔신",
+    "name_translated": "Mist Assassin",
     "attribute": "WATER",
     "types": "Warrior / Effect",
     "card_type": null,
@@ -102722,12 +102998,12 @@
     "condition": null,
     "effect_types": null,
     "requirement": "Send 1 monster from your field to the Graveyard.",
-    "effect": "Add up to 2 \"Fusion\" and/or \"Fusion Cancel\" from your Graveyard to your hand.",
+    "effect": "Add up to 2 cards (\"Fusion\" and/or \"Fusion Cancel\") from your Graveyard to your hand.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "MistAssassin-RDKP16-JP-C.png"
+        "file": "MistAssailant-RDKP16-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -102748,10 +103024,13 @@
     "archseries": [],
     "password": null,
     "is_legend": false,
-    "title": "Mist Assassin",
-    "_wiki_ts": "2024-12-06T05:10:23Z",
+    "title": "Mist Assailant",
+    "_wiki_ts": "2026-09-30T17:01:54Z",
     "card_schema_version": 2,
-    "raw_name_en": "Mist Assassin"
+    "former_titles": [
+      "Mist Assassin"
+    ],
+    "raw_name_en": "Mist Assailant"
   },
   {
     "name_ja": "機動配備 ギア・スタート",
@@ -105554,6 +105833,7 @@
   {
     "name_ja": "マッシグ・ニャングラー",
     "name_ja_romaji": "Masshigu Nyangurā",
+    "name_ko": "맥시그 냥글러",
     "name_translated": "Mässig Meowngler",
     "attribute": "WATER",
     "types": "Fish / Effect",
@@ -105586,13 +105866,19 @@
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR037",
+        "name": "Rising of the Aurora",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23234",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Mässig Anglurr",
-    "_wiki_ts": "2026-06-02T05:12:41Z",
+    "_wiki_ts": "2026-09-29T06:56:08Z",
     "card_schema_version": 2,
     "raw_name_en": "Mässig Anglurr"
   },
@@ -111192,6 +111478,11 @@
         "code": "RD/5TH1-JP007",
         "name": "5th Anniversary Pack",
         "rarity": "Ultra Parallel Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/CA01-JP077",
+        "name": "Cross Art Collection",
+        "rarity": "Super Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -111211,7 +111502,7 @@
     "password": null,
     "is_legend": false,
     "title": "Over Rush Storm",
-    "_wiki_ts": "2025-12-01T08:37:31Z",
+    "_wiki_ts": "2026-09-30T16:18:51Z",
     "card_schema_version": 2,
     "raw_name_en": "Over Rush Storm"
   },
@@ -111418,6 +111709,7 @@
   {
     "name_ja": "苦渋の選択",
     "name_ja_romaji": "Kujū no Sentaku",
+    "name_ko": "고통의 선택",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -111445,13 +111737,19 @@
         "rarity": "Normal Parallel Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KRS01",
+        "name": "Rising of the Aurora",
+        "rarity": "Super Rare"
+      }
+    ],
     "database_id": "23037",
     "archseries": [],
     "password": null,
     "is_legend": true,
     "title": "Painful Choice",
-    "_wiki_ts": "2026-04-10T08:00:10Z",
+    "_wiki_ts": "2026-09-29T06:59:48Z",
     "card_schema_version": 2,
     "raw_name_en": "Painful Choice (Rush Duel)"
   },
@@ -114786,6 +115084,7 @@
   {
     "name_ja": "惑星調査",
     "name_ja_romaji": "Puranetto Sābei",
+    "name_ko": "플래닛 서베이",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -114813,13 +115112,19 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR059",
+        "name": "Rising of the Aurora",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23256",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Planet Survey",
-    "_wiki_ts": "2026-05-22T16:58:45Z",
+    "_wiki_ts": "2026-09-29T06:57:45Z",
     "card_schema_version": 2,
     "raw_name_en": "Planet Survey"
   },
@@ -116912,7 +117217,7 @@
     "password": null,
     "is_legend": true,
     "title": "Polymerization",
-    "_wiki_ts": "2026-07-10T16:56:08Z",
+    "_wiki_ts": "2026-09-28T15:24:40Z",
     "card_schema_version": 2,
     "raw_name_en": "Polymerization (Rush Duel)"
   },
@@ -118488,6 +118793,7 @@
   {
     "name_ja": "超特報マシン・タフロイドフラッシュ",
     "name_ja_romaji": "Chōtokuhō Mashin Tafuroido Furasshu",
+    "name_ko": "초특종 머신 터프로이드플래시",
     "name_translated": "Super News Flash Machine Toughroid Flash",
     "attribute": "EARTH",
     "types": "Machine / Effect",
@@ -118516,7 +118822,13 @@
         "rarity": "Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR014",
+        "name": "Rising of the Aurora",
+        "rarity": "Rare"
+      }
+    ],
     "database_id": "23211",
     "archseries": [
       "Reporter"
@@ -118524,7 +118836,7 @@
     "password": null,
     "is_legend": false,
     "title": "Premium Printing Presser",
-    "_wiki_ts": "2026-05-22T16:48:58Z",
+    "_wiki_ts": "2026-09-29T06:54:25Z",
     "card_schema_version": 2,
     "raw_name_en": "Premium Printing Presser"
   },
@@ -118629,6 +118941,7 @@
   {
     "name_ja": "プレイ・デーモン",
     "name_ja_romaji": "Prei Dēmon",
+    "name_ko": "프레이 데몬",
     "name_translated": "Prey Daemon",
     "attribute": "DARK",
     "types": "Fiend / Effect",
@@ -118657,7 +118970,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR034",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23231",
     "archseries": [
       "Brassdes"
@@ -118665,13 +118984,14 @@
     "password": null,
     "is_legend": false,
     "title": "Prey Archfiend",
-    "_wiki_ts": "2026-05-22T16:53:21Z",
+    "_wiki_ts": "2026-09-29T06:55:55Z",
     "card_schema_version": 2,
     "raw_name_en": "Prey Archfiend"
   },
   {
     "name_ja": "プレイ・デュラハン",
     "name_ja_romaji": "Purei Dyurahan",
+    "name_ko": "프레이 듈라한",
     "attribute": "DARK",
     "types": "Fiend / Effect",
     "card_type": null,
@@ -118699,7 +119019,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR035",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23232",
     "archseries": [
       "Brassdes"
@@ -118707,7 +119033,7 @@
     "password": null,
     "is_legend": false,
     "title": "Prey Dullahan",
-    "_wiki_ts": "2026-05-22T16:53:31Z",
+    "_wiki_ts": "2026-09-29T06:55:59Z",
     "card_schema_version": 2,
     "raw_name_en": "Prey Dullahan"
   },
@@ -120274,7 +120600,7 @@
     "password": null,
     "is_legend": false,
     "title": "Protorion the Magna Warrior",
-    "_wiki_ts": "2026-07-02T01:07:24Z",
+    "_wiki_ts": "2026-09-28T16:21:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Protorion the Magna Warrior"
   },
@@ -122531,6 +122857,7 @@
   {
     "name_ja": "突撃マシン・ヘッドホーン",
     "name_ja_romaji": "Totsugeki Mashin Heddohōn",
+    "name_ko": "돌격 머신 헤드혼",
     "attribute": "EARTH",
     "types": "Machine / Effect",
     "card_type": null,
@@ -122558,7 +122885,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR013",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23210",
     "archseries": [
       "Reporter"
@@ -122566,7 +122899,7 @@
     "password": null,
     "is_legend": false,
     "title": "Rampaging Machine Headhorn",
-    "_wiki_ts": "2026-05-22T16:48:49Z",
+    "_wiki_ts": "2026-09-29T06:54:21Z",
     "card_schema_version": 2,
     "raw_name_en": "Rampaging Machine Headhorn"
   },
@@ -124368,6 +124701,7 @@
   {
     "name_ja": "報道魔嬢キャスタリン",
     "name_ja_romaji": "Hōdōmajō Kyasutarin",
+    "name_ko": "보도마양 캐스타린",
     "name_translated": "Reporter Demon Lady Castelim",
     "attribute": "EARTH",
     "types": "Machine / Effect",
@@ -124396,7 +124730,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR011",
+        "name": "Rising of the Aurora",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23208",
     "archseries": [
       "Reporter"
@@ -124404,7 +124744,7 @@
     "password": null,
     "is_legend": false,
     "title": "Reporter Lilim",
-    "_wiki_ts": "2026-05-22T16:48:26Z",
+    "_wiki_ts": "2026-09-29T06:54:12Z",
     "card_schema_version": 2,
     "raw_name_en": "Reporter Lilim"
   },
@@ -124470,6 +124810,7 @@
   {
     "name_ja": "報道記人テレコロイド",
     "name_ja_romaji": "Hōdōkijin Terekoroido",
+    "name_ko": "보도기자 텔레코로이드",
     "name_translated": "Reporter Recorder Telecoroid",
     "attribute": "EARTH",
     "types": "Machine / Effect",
@@ -124498,7 +124839,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR010",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23207",
     "archseries": [
       "Reporter"
@@ -124506,7 +124853,7 @@
     "password": null,
     "is_legend": false,
     "title": "Reporter Recorder",
-    "_wiki_ts": "2026-05-22T16:48:06Z",
+    "_wiki_ts": "2026-09-29T06:54:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Reporter Recorder"
   },
@@ -124514,6 +124861,7 @@
     "name_en": "Reporter Wars Scoopies",
     "name_ja": "報道合戦スクーピーズ",
     "name_ja_romaji": "Hōdōgassen Sukūpīzu",
+    "name_ko": "보도합전 스쿠피즈",
     "attribute": "EARTH",
     "types": "Machine / Maximum / Effect",
     "card_type": null,
@@ -124541,7 +124889,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR008",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23205",
     "archseries": [
       "Reporter"
@@ -124549,7 +124903,7 @@
     "password": null,
     "is_legend": false,
     "title": "Reporter Wars Scoopies",
-    "_wiki_ts": "2026-05-22T16:47:44Z",
+    "_wiki_ts": "2026-09-29T06:53:58Z",
     "card_schema_version": 2,
     "raw_name_en": "Reporter Wars Scoopies"
   },
@@ -124557,6 +124911,7 @@
     "name_en": "Reporter Wars Scoopies [L]",
     "name_ja": "報道合戦スクーピーズ［Ｌ］",
     "name_ja_romaji": "Hōdōgassen Sukūpīzu [Eru]",
+    "name_ko": "보도합전 스쿠피즈[L]",
     "attribute": "EARTH",
     "types": "Machine / Maximum / Effect",
     "card_type": null,
@@ -124584,7 +124939,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR007",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23204",
     "archseries": [
       "Reporter"
@@ -124592,7 +124953,7 @@
     "password": null,
     "is_legend": false,
     "title": "Reporter Wars Scoopies (L)",
-    "_wiki_ts": "2026-05-22T16:47:33Z",
+    "_wiki_ts": "2026-09-29T06:53:54Z",
     "card_schema_version": 2,
     "raw_name_en": "Reporter Wars Scoopies [L]"
   },
@@ -124600,6 +124961,7 @@
     "name_en": "Reporter Wars Scoopies [R]",
     "name_ja": "報道合戦スクーピーズ［Ｒ］",
     "name_ja_romaji": "Hōdōgassen Sukūpīzu [Āru]",
+    "name_ko": "보도합전 스쿠피즈[R]",
     "attribute": "EARTH",
     "types": "Machine / Maximum / Effect",
     "card_type": null,
@@ -124627,7 +124989,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR009",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23206",
     "archseries": [
       "Reporter"
@@ -124635,7 +125003,7 @@
     "password": null,
     "is_legend": false,
     "title": "Reporter Wars Scoopies (R)",
-    "_wiki_ts": "2026-05-22T16:47:56Z",
+    "_wiki_ts": "2026-09-29T06:54:03Z",
     "card_schema_version": 2,
     "raw_name_en": "Reporter Wars Scoopies [R]"
   },
@@ -124965,6 +125333,7 @@
   {
     "name_ja": "纏竜域の探索",
     "name_ja_romaji": "Tenryūiki no Tansaku",
+    "name_ko": "전룡역의 탐색",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -124992,7 +125361,13 @@
         "rarity": "Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR052",
+        "name": "Rising of the Aurora",
+        "rarity": "Rare"
+      }
+    ],
     "database_id": "23249",
     "archseries": [
       "Clad Dragon"
@@ -125000,7 +125375,7 @@
     "password": null,
     "is_legend": false,
     "title": "Researching the Clad Dragondom",
-    "_wiki_ts": "2026-05-22T16:57:19Z",
+    "_wiki_ts": "2026-09-29T06:57:15Z",
     "card_schema_version": 2,
     "raw_name_en": "Researching the Clad Dragondom"
   },
@@ -125151,6 +125526,7 @@
   {
     "name_ja": "リザレクション・ヘリアカルライザー",
     "name_ja_romaji": "Rizarekushon Heriakaru Raizā",
+    "name_ko": "리저렉션 헬리어컬라이저",
     "attribute": "LIGHT",
     "types": "Galaxy / Fusion / Effect",
     "card_type": null,
@@ -125178,13 +125554,19 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR039",
+        "name": "Rising of the Aurora",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "23236",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Resurrection Heliacal Riser",
-    "_wiki_ts": "2026-05-22T16:54:21Z",
+    "_wiki_ts": "2026-09-29T06:56:18Z",
     "card_schema_version": 2,
     "raw_name_en": "Resurrection Heliacal Riser"
   },
@@ -125371,7 +125753,7 @@
     "password": null,
     "is_legend": false,
     "title": "Returnee of the Temple",
-    "_wiki_ts": "2026-09-04T17:54:46Z",
+    "_wiki_ts": "2026-09-28T17:05:36Z",
     "card_schema_version": 2,
     "raw_name_en": "Returnee of the Temple"
   },
@@ -126089,6 +126471,7 @@
   {
     "name_ja": "Ｒ・モーター エマージェント",
     "name_ja_romaji": "Raizu Mōtā Emājento",
+    "name_ko": "R 모터 이멀전트",
     "attribute": "LIGHT",
     "types": "Warrior / Effect",
     "card_type": null,
@@ -126116,7 +126499,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR022",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23219",
     "archseries": [
       "Rising HERO"
@@ -126124,13 +126513,14 @@
     "password": null,
     "is_legend": false,
     "title": "Rise Motor Emergent",
-    "_wiki_ts": "2026-05-25T12:56:33Z",
+    "_wiki_ts": "2026-09-29T06:55:02Z",
     "card_schema_version": 2,
     "raw_name_en": "Rise Motor Emergent"
   },
   {
     "name_ja": "Ｒ・モーター キールカッパー",
     "name_ja_romaji": "Raizu Mōtā Kīrukappā",
+    "name_ko": "R 모터 킬갑파",
     "attribute": "LIGHT",
     "types": "Warrior / Effect",
     "card_type": null,
@@ -126158,7 +126548,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR023",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23220",
     "archseries": [
       "Rising HERO"
@@ -126166,13 +126562,14 @@
     "password": null,
     "is_legend": false,
     "title": "Rise Motor Keelcopper",
-    "_wiki_ts": "2026-05-25T12:58:50Z",
+    "_wiki_ts": "2026-09-29T06:55:06Z",
     "card_schema_version": 2,
     "raw_name_en": "Rise Motor Keelcopper"
   },
   {
     "name_ja": "Ｒ・イクイップ",
     "name_ja_romaji": "Raijingu Ikuippu",
+    "name_ko": "R 이큅",
     "attribute": null,
     "types": null,
     "card_type": "Trap",
@@ -126200,7 +126597,13 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR062",
+        "name": "Rising of the Aurora",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "23259",
     "archseries": [
       "Rising HERO"
@@ -126208,7 +126611,7 @@
     "password": null,
     "is_legend": false,
     "title": "Rising Equip",
-    "_wiki_ts": "2026-07-02T01:33:29Z",
+    "_wiki_ts": "2026-09-29T06:57:58Z",
     "card_schema_version": 2,
     "raw_name_en": "Rising Equip"
   },
@@ -126274,6 +126677,7 @@
   {
     "name_ja": "Ｒ・ＨＥＲＯ アルジェントＦ",
     "name_ja_romaji": "Raijingu Hīrō Arujento Efu",
+    "name_ko": "라이징 히어로 아르젠토F",
     "attribute": "LIGHT",
     "types": "Warrior / Fusion / Effect",
     "card_type": null,
@@ -126301,7 +126705,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR043",
+        "name": "Rising of the Aurora",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23240",
     "archseries": [
       "Rising HERO"
@@ -126309,13 +126719,14 @@
     "password": null,
     "is_legend": false,
     "title": "Rising HERO Argent F",
-    "_wiki_ts": "2026-05-22T16:55:24Z",
+    "_wiki_ts": "2026-09-29T06:56:36Z",
     "card_schema_version": 2,
     "raw_name_en": "Rising HERO Argent F"
   },
   {
     "name_ja": "Ｒ・ＨＥＲＯ アルジェントＯ",
     "name_ja_romaji": "Raijingu Hīrō Arujento Ō",
+    "name_ko": "라이징 히어로 아르젠토O",
     "attribute": "LIGHT",
     "types": "Warrior / Fusion / Effect",
     "card_type": null,
@@ -126347,7 +126758,13 @@
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR042",
+        "name": "Rising of the Aurora",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23239",
     "archseries": [
       "Rising HERO"
@@ -126355,13 +126772,14 @@
     "password": null,
     "is_legend": false,
     "title": "Rising HERO Argent O",
-    "_wiki_ts": "2026-05-22T16:55:11Z",
+    "_wiki_ts": "2026-09-29T06:56:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Rising HERO Argent O"
   },
   {
     "name_ja": "Ｒ・ＨＥＲＯ アルジェントＲ",
     "name_ja_romaji": "Raijingu Hīrō Arujento Āru",
+    "name_ko": "라이징 히어로 아르젠토R",
     "attribute": "LIGHT",
     "types": "Warrior / Effect",
     "card_type": null,
@@ -126389,7 +126807,13 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR025",
+        "name": "Rising of the Aurora",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "23222",
     "archseries": [
       "Rising HERO"
@@ -126397,7 +126821,7 @@
     "password": null,
     "is_legend": false,
     "title": "Rising HERO Argent R",
-    "_wiki_ts": "2026-05-22T16:51:23Z",
+    "_wiki_ts": "2026-09-29T06:55:15Z",
     "card_schema_version": 2,
     "raw_name_en": "Rising HERO Argent R"
   },
@@ -126459,6 +126883,7 @@
   {
     "name_ja": "Ｒ・ＨＥＲＯ リガルム",
     "name_ja_romaji": "Raijingu Hīrō Rigarumu",
+    "name_ko": "라이징 히어로 리갈룸",
     "attribute": "LIGHT",
     "types": "Warrior / Effect",
     "card_type": null,
@@ -126486,7 +126911,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR024",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23221",
     "archseries": [
       "Rising HERO"
@@ -126494,7 +126925,7 @@
     "password": null,
     "is_legend": false,
     "title": "Rising HERO Reglam",
-    "_wiki_ts": "2026-05-22T16:51:11Z",
+    "_wiki_ts": "2026-09-29T06:55:11Z",
     "card_schema_version": 2,
     "raw_name_en": "Rising HERO Reglam"
   },
@@ -126555,6 +126986,7 @@
   {
     "name_ja": "Ｒ・ライセンス",
     "name_ja_romaji": "Raijingu Raisensu",
+    "name_ko": "R 라이선스",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -126582,7 +127014,13 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR053",
+        "name": "Rising of the Aurora",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "23250",
     "archseries": [
       "Rising HERO"
@@ -126590,7 +127028,7 @@
     "password": null,
     "is_legend": false,
     "title": "Rising License",
-    "_wiki_ts": "2026-07-02T01:33:54Z",
+    "_wiki_ts": "2026-09-29T06:57:19Z",
     "card_schema_version": 2,
     "raw_name_en": "Rising License"
   },
@@ -126707,6 +127145,7 @@
   {
     "name_ja": "Ｒ・プロテクト",
     "name_ja_romaji": "Raijingu Purotekuto",
+    "name_ko": "R 프로텍트",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -126734,7 +127173,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR055",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23252",
     "archseries": [
       "Rising HERO"
@@ -126742,13 +127187,14 @@
     "password": null,
     "is_legend": false,
     "title": "Rising Protect",
-    "_wiki_ts": "2026-05-22T16:57:59Z",
+    "_wiki_ts": "2026-09-29T06:57:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Rising Protect"
   },
   {
     "name_ja": "Ｒ・サーチ",
     "name_ja_romaji": "Raijingu Sāchi",
+    "name_ko": "R 서치",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -126776,7 +127222,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR054",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23251",
     "archseries": [
       "Rising HERO"
@@ -126784,7 +127236,7 @@
     "password": null,
     "is_legend": false,
     "title": "Rising Search",
-    "_wiki_ts": "2026-05-22T16:57:50Z",
+    "_wiki_ts": "2026-09-29T06:57:24Z",
     "card_schema_version": 2,
     "raw_name_en": "Rising Search"
   },
@@ -126838,6 +127290,7 @@
   {
     "name_ja": "Ｒ・ユニット",
     "name_ja_romaji": "Raijingu Yunitto",
+    "name_ko": "R 유닛",
     "attribute": "LIGHT",
     "types": "Warrior / Effect",
     "card_type": null,
@@ -126870,7 +127323,13 @@
         "rarity": "Super Parallel Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR026",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23223",
     "archseries": [
       "Rising HERO"
@@ -126878,7 +127337,7 @@
     "password": null,
     "is_legend": false,
     "title": "Rising Unit",
-    "_wiki_ts": "2026-06-19T18:08:18Z",
+    "_wiki_ts": "2026-09-29T06:55:20Z",
     "card_schema_version": 2,
     "raw_name_en": "Rising Unit"
   },
@@ -136650,6 +137109,7 @@
   {
     "name_ja": "纏竜の探索者 シャーナ",
     "name_ja_romaji": "Tenryū no Tansakusha Shāna",
+    "name_ko": "전룡의 탐색자 샤나",
     "attribute": "LIGHT",
     "types": "Wyrm / Effect",
     "card_type": null,
@@ -136677,7 +137137,13 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR017",
+        "name": "Rising of the Aurora",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "23214",
     "archseries": [
       "Clad Dragon"
@@ -136685,7 +137151,7 @@
     "password": null,
     "is_legend": false,
     "title": "Shannah the Clad Dragon Researcher",
-    "_wiki_ts": "2026-05-22T16:49:33Z",
+    "_wiki_ts": "2026-09-29T06:54:38Z",
     "card_schema_version": 2,
     "raw_name_en": "Shannah the Clad Dragon Researcher"
   },
@@ -140524,6 +140990,7 @@
   {
     "name_ja": "湧軍機蒼炎",
     "name_ja_romaji": "Yūgunki Sōen",
+    "name_ko": "용군기 소엔",
     "attribute": "FIRE",
     "types": "Machine / Effect",
     "card_type": null,
@@ -140551,7 +141018,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR036",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23233",
     "archseries": [
       "Molten Martial Machine"
@@ -140559,7 +141032,7 @@
     "password": null,
     "is_legend": false,
     "title": "Soen the Molten Martial Machine",
-    "_wiki_ts": "2026-05-22T16:53:41Z",
+    "_wiki_ts": "2026-09-29T06:56:04Z",
     "card_schema_version": 2,
     "raw_name_en": "Soen the Molten Martial Machine"
   },
@@ -145819,7 +146292,7 @@
     "password": null,
     "is_legend": false,
     "title": "Star Protector's Protection",
-    "_wiki_ts": "2026-09-13T16:06:38Z",
+    "_wiki_ts": "2026-09-29T22:41:48Z",
     "card_schema_version": 2,
     "raw_name_en": "Star Protector's Protection"
   },
@@ -146792,6 +147265,7 @@
   {
     "name_ja": "纏竜の探索者 ステラ",
     "name_ja_romaji": "Tenryū no Tansakusha Sutera",
+    "name_ko": "전룡의 탐색자 스텔라",
     "attribute": "LIGHT",
     "types": "Wyrm / Effect",
     "card_type": null,
@@ -146823,7 +147297,13 @@
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR016",
+        "name": "Rising of the Aurora",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23213",
     "archseries": [
       "Clad Dragon"
@@ -146831,7 +147311,7 @@
     "password": null,
     "is_legend": false,
     "title": "Stella the Clad Dragon Researcher",
-    "_wiki_ts": "2026-05-22T16:49:20Z",
+    "_wiki_ts": "2026-09-29T06:54:34Z",
     "card_schema_version": 2,
     "raw_name_en": "Stella the Clad Dragon Researcher"
   },
@@ -147705,7 +148185,7 @@
     "password": null,
     "is_legend": false,
     "title": "Stratohammer Mjolnir",
-    "_wiki_ts": "2026-09-13T15:55:15Z",
+    "_wiki_ts": "2026-09-29T22:40:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Stratohammer Mjolnir"
   },
@@ -151702,12 +152182,12 @@
     ],
     "database_id": "21999",
     "archseries": [
-      "Dark Magician"
+      "Buster Blader"
     ],
     "password": null,
     "is_legend": false,
     "title": "The Swordsman Who Doles Out Victory",
-    "_wiki_ts": "2025-11-11T09:37:16Z",
+    "_wiki_ts": "2026-09-28T02:35:38Z",
     "card_schema_version": 2,
     "raw_name_en": "The Swordsman Who Doles Out Victory"
   },
@@ -155019,6 +155499,7 @@
   {
     "name_ja": "魔界発現世行きデスガイド",
     "name_ja_romaji": "Makai-hatsu Gense-yuki Desu Gaido",
+    "name_ko": "마계발 현세행 데스가이드",
     "attribute": "DARK",
     "types": "Fiend / Effect",
     "card_type": null,
@@ -155046,13 +155527,19 @@
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR030",
+        "name": "Rising of the Aurora",
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23227",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Tour Guide From the Underworld",
-    "_wiki_ts": "2026-05-22T16:52:25Z",
+    "_wiki_ts": "2026-09-29T06:55:38Z",
     "card_schema_version": 2,
     "raw_name_en": "Tour Guide From the Underworld (Rush Duel)"
   },
@@ -155108,7 +155595,7 @@
     "password": null,
     "is_legend": false,
     "title": "Towline Cattle Healer",
-    "_wiki_ts": "2026-09-13T15:51:18Z",
+    "_wiki_ts": "2026-09-29T22:40:00Z",
     "card_schema_version": 2,
     "raw_name_en": "Towline Cattle Healer"
   },
@@ -158752,6 +159239,7 @@
   {
     "name_ja": "黄昏の友だち ドラリア",
     "name_ja_romaji": "Tasogare no Tomodachi Doraria",
+    "name_ko": "황혼의 친구 드라리아",
     "attribute": "EARTH",
     "types": "Galaxy / Effect",
     "card_type": null,
@@ -158779,7 +159267,13 @@
         "rarity": "Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR068",
+        "name": "Rising of the Aurora",
+        "rarity": "Rare, Secret Rare"
+      }
+    ],
     "database_id": "23265",
     "archseries": [
       "Moonforce"
@@ -158787,7 +159281,7 @@
     "password": null,
     "is_legend": false,
     "title": "Twilight Companion - Dralia",
-    "_wiki_ts": "2026-05-22T17:01:57Z",
+    "_wiki_ts": "2026-09-29T06:58:24Z",
     "card_schema_version": 2,
     "raw_name_en": "Twilight Companion - Dralia"
   },
@@ -161813,6 +162307,7 @@
   {
     "name_ja": "バニシング・アタック",
     "name_ja_romaji": "Banishingu Atakku",
+    "name_ko": "버니싱 어택",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -161840,13 +162335,19 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR046",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23243",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Vanishing Attack",
-    "_wiki_ts": "2026-05-22T16:55:59Z",
+    "_wiki_ts": "2026-09-29T06:56:49Z",
     "card_schema_version": 2,
     "raw_name_en": "Vanishing Attack"
   },
@@ -161910,6 +162411,7 @@
   {
     "name_ja": "バニシング・ソリティウス",
     "name_ja_romaji": "Banishingu Soritiusu",
+    "name_ko": "버니싱 솔리티우스",
     "attribute": "LIGHT",
     "types": "Galaxy / Effect",
     "card_type": null,
@@ -161937,19 +162439,26 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR005",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23202",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Vanishing Solitius",
-    "_wiki_ts": "2026-08-23T03:39:59Z",
+    "_wiki_ts": "2026-09-29T06:53:44Z",
     "card_schema_version": 2,
     "raw_name_en": "Vanishing Solitius"
   },
   {
     "name_ja": "バニシング・ソプデト",
     "name_ja_romaji": "Banishingu Sopudeto",
+    "name_ko": "버니싱 소프데토",
     "attribute": "LIGHT",
     "types": "Galaxy / Effect",
     "card_type": null,
@@ -161977,13 +162486,19 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR006",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23203",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Vanishing Sopdet",
-    "_wiki_ts": "2026-05-22T16:47:21Z",
+    "_wiki_ts": "2026-09-29T06:53:48Z",
     "card_schema_version": 2,
     "raw_name_en": "Vanishing Sopdet"
   },
@@ -162160,6 +162675,7 @@
   {
     "name_ja": "緑纏竜－グリーレイ",
     "name_ja_romaji": "Ryokutenryū - Gurīrei",
+    "name_ko": "녹전룡－그리레이",
     "attribute": "EARTH",
     "types": "Wyrm / Effect",
     "card_type": null,
@@ -162187,7 +162703,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR020",
+        "name": "Rising of the Aurora",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23217",
     "archseries": [
       "Clad Dragon"
@@ -162195,7 +162717,7 @@
     "password": null,
     "is_legend": false,
     "title": "Verdantclad Dragon - Greeray",
-    "_wiki_ts": "2026-05-22T16:50:06Z",
+    "_wiki_ts": "2026-09-29T06:54:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Verdantclad Dragon - Greeray"
   },
@@ -164245,7 +164767,7 @@
     "materials": null,
     "condition": "You can Tribute Summon this card in Attack Position by Tributing 3 monsters.",
     "effect_types": null,
-    "requirement": "During the turn you Normal Summoned this card the above way, shuffle 5 monsters from your Graveyard into the Deck.",
+    "requirement": "During the turn you Normal Summoned this card in the above way, shuffle 5 monsters from your Graveyard into the Deck.",
     "effect": "Destroy all face-up monsters with the highest Level on your opponent's field. Then, you can inflict damage to your opponent equal to [the total ATK of the face-up monsters on their field].",
     "flavor_text": null,
     "images": [
@@ -164285,7 +164807,7 @@
     "password": null,
     "is_legend": false,
     "title": "Voidvelg God Requiem",
-    "_wiki_ts": "2025-07-24T14:47:37Z",
+    "_wiki_ts": "2026-09-30T16:23:27Z",
     "card_schema_version": 2,
     "raw_name_en": "Voidvelg God Requiem"
   },
@@ -166843,6 +167365,7 @@
   {
     "name_ja": "ヨワヨワブラスデス",
     "name_ja_romaji": "Yowayowa Burasudesu",
+    "name_ko": "허접허접브러스데스",
     "attribute": "DARK",
     "types": "Fiend / Effect",
     "card_type": null,
@@ -166870,7 +167393,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR066",
+        "name": "Rising of the Aurora",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23263",
     "archseries": [
       "Brassdes"
@@ -166878,7 +167407,7 @@
     "password": null,
     "is_legend": false,
     "title": "Weaksauce Brassdes",
-    "_wiki_ts": "2026-05-22T17:01:36Z",
+    "_wiki_ts": "2026-09-29T06:58:15Z",
     "card_schema_version": 2,
     "raw_name_en": "Weaksauce Brassdes"
   },
@@ -167801,12 +168330,12 @@
     ],
     "database_id": "21591",
     "archseries": [
-      "Dark Magician"
+      "Magician of Black Chaos"
     ],
     "password": null,
     "is_legend": false,
     "title": "Winged Dragon of Chaos",
-    "_wiki_ts": "2025-08-20T08:55:55Z",
+    "_wiki_ts": "2026-09-28T02:20:58Z",
     "card_schema_version": 2,
     "raw_name_en": "Winged Dragon of Chaos"
   },
@@ -167864,7 +168393,7 @@
     "password": null,
     "is_legend": false,
     "title": "Winged Dragon, Guardian of the Fortress 1",
-    "_wiki_ts": "2025-05-10T20:53:22Z",
+    "_wiki_ts": "2026-09-28T02:26:48Z",
     "card_schema_version": 2,
     "raw_name_en": "Winged Dragon, Guardian of the Fortress #1"
   },
@@ -168129,11 +168658,13 @@
       }
     ],
     "database_id": "18712",
-    "archseries": [],
+    "archseries": [
+      "Buster Blader"
+    ],
     "password": null,
     "is_legend": false,
     "title": "Witness of Dragon Destroyer",
-    "_wiki_ts": "2026-07-10T21:39:29Z",
+    "_wiki_ts": "2026-09-28T02:32:16Z",
     "card_schema_version": 2,
     "raw_name_en": "Witness of Dragon Destroyer"
   },
@@ -169313,6 +169844,7 @@
   {
     "name_ja": "中間管理シャイン・マネージャー",
     "name_ja_romaji": "Chūkan Kanri Shain Manējā",
+    "name_ko": "중간관리 샤인 매니저",
     "name_translated": "Middle Manager - Employee Manager",
     "attribute": "LIGHT",
     "types": "Machine / Effect",
@@ -169341,7 +169873,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/KP25-KR028",
+        "name": "Rising of the Aurora",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23225",
     "archseries": [
       "Worker Warrior"
@@ -169349,7 +169887,7 @@
     "password": null,
     "is_legend": false,
     "title": "Worker Warrior - Multitasking Manager",
-    "_wiki_ts": "2026-05-22T16:51:55Z",
+    "_wiki_ts": "2026-09-29T06:55:29Z",
     "card_schema_version": 2,
     "raw_name_en": "Worker Warrior - Multitasking Manager"
   },
@@ -172779,5 +173317,965 @@
     "_wiki_ts": "2026-05-02T16:42:43Z",
     "card_schema_version": 2,
     "raw_name_en": "Zuse the Wisdom Vassal"
+  },
+  {
+    "name_ja": "αカウント",
+    "name_ja_romaji": "Arufakaunto",
+    "attribute": "LIGHT",
+    "types": "Dragon / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "AlphaCount-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP0??",
+        "name": "Jointech of Passion",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Alpha Burn",
+      "High Tech Dragon"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Alpha Count",
+    "_wiki_ts": "2026-10-01T10:28:33Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Alpha Count"
+  },
+  {
+    "name_ja": "黒刹の暗殺者",
+    "name_ja_romaji": "Kokusetsu no Ansatsusha",
+    "attribute": "???",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "AssassinoftheHollowedGrounds-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP0??",
+        "name": "Jointech of Passion",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Hollowed Grounds"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Assassin of the Hollowed Grounds",
+    "_wiki_ts": "2026-10-01T10:23:19Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Assassin of the Hollowed Grounds"
+  },
+  {
+    "name_ja": "Ａチャーム・ミディ",
+    "name_ja_romaji": "Atoraku Chāmu Midi",
+    "attribute": "FIRE",
+    "types": "Beast-Warrior / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1200,
+    "def": 500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Send the bottom 2 cards of your Deck to the Graveyard.",
+    "effect": "Equip this card to 1 face-up monster on your field as an Equip Spell Card with the following effect. ●The equipped monster inflicts piercing battle damage.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "AttracCharmMidi-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP056",
+        "name": "Cross Art Collection",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Attrac Charm Midi",
+    "_wiki_ts": "2026-10-03T19:55:19Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Attrac Charm Midi"
+  },
+  {
+    "name_ja": "Ａチャーム・ソワル",
+    "name_ja_romaji": "Atoraku Chāmu Sowaru",
+    "attribute": "WATER",
+    "types": "Beast-Warrior / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1200,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Equip this card to 1 face-up monster on your field as an Equip Spell Card with the following effect. Then, if you equipped this card to \"Attrac Charm Midi\", you can destroy 1 face-down card in your opponent's Spell & Trap Zone. ●The equipped monster gains 500 ATK.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "AttracCharmSowaru-RDCA01-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP055",
+        "name": "Cross Art Collection",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Attrac Charm Sowaru",
+    "_wiki_ts": "2026-10-03T19:58:33Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Attrac Charm Sowaru"
+  },
+  {
+    "name_ja": "境界渡りのブラストゲート",
+    "name_ja_romaji": "Kyōkaiatari no Burasutogēto",
+    "attribute": null,
+    "types": null,
+    "card_type": "???",
+    "property": "???",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "BoundaryCrossingBlastGate-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP0??",
+        "name": "Jointech of Passion",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Boundary-Crossing Blast Gate",
+    "_wiki_ts": "2026-10-01T10:34:57Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Boundary-Crossing Blast Gate"
+  },
+  {
+    "name_ja": "Ｅαバーン・ドレイク",
+    "name_ja_romaji": "Ārī Akusesu Bān Doreiku",
+    "attribute": "LIGHT",
+    "types": "Dragon / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "EarlyAccessBurnDrake-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP0??",
+        "name": "Jointech of Passion",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Alpha Burn",
+      "High Tech Dragon"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Early Access Burn Drake",
+    "_wiki_ts": "2026-10-01T12:01:59Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Early Access Burn Drake"
+  },
+  {
+    "name_ja": "憑依装着－アウス",
+    "name_ja_romaji": "Hyōisōchaku - Ausu",
+    "attribute": "EARTH",
+    "types": "Spellcaster / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1900,
+    "def": 1500,
+    "maximum_atk": null,
+    "materials": "\"Aussa the Earth Charmer\" + 1 EARTH Attribute monster",
+    "condition": "This card can be Contact Fusioned.",
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "FamiliarPossessedAussa-OW-RD.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP0??",
+        "name": "Jointech of Passion",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Charmer"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Familiar-Possessed - Aussa",
+    "_wiki_ts": "2026-10-01T17:31:18Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Familiar-Possessed - Aussa (Rush Duel)"
+  },
+  {
+    "name_ja": "グレイブ・シャドウ",
+    "name_ja_romaji": "Gureibu Shadō",
+    "attribute": "???",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "GraveShadow-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP0??",
+        "name": "Jointech of Passion",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Grave Shadow",
+    "_wiki_ts": "2026-10-01T10:40:22Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Grave Shadow"
+  },
+  {
+    "name_ja": "ジョインテック・エースレックス",
+    "name_ja_romaji": "Jointekku Ēsu Rekkusu",
+    "attribute": "EARTH",
+    "types": "Machine / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 9,
+    "atk": 2900,
+    "def": 2500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "TBD",
+    "effect": "TBD",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "JointechAceRex-RDSJMP-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/SJMP-JP069",
+        "name": "Saikyō Jump December 2026 promotional card",
+        "rarity": "Normal Parallel Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Jointech"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Jointech Ace Rex",
+    "_wiki_ts": "2026-10-01T16:21:51Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Jointech Ace Rex"
+  },
+  {
+    "name_ja": "ジョインテック・ガーディアン",
+    "name_ja_romaji": "Jointekku Gādian",
+    "attribute": "EARTH",
+    "types": "Machine / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "JointechGuardian-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP0??",
+        "name": "Jointech of Passion",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Jointech"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Jointech Guardian",
+    "_wiki_ts": "2026-10-01T10:10:48Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Jointech Guardian"
+  },
+  {
+    "name_ja": "ジョインテック・マッチレスヒーロー",
+    "name_ja_romaji": "Jointekku Matchiresu Hīrō",
+    "attribute": "EARTH",
+    "types": "Machine / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "JointechMatchlessHero-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP0??",
+        "name": "Jointech of Passion",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Jointech"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Jointech Matchless Hero",
+    "_wiki_ts": "2026-10-01T16:16:51Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Jointech Matchless Hero"
+  },
+  {
+    "name_ja": "ジョインテック・リジョイン",
+    "name_ja_romaji": "Jointekku Rijoin",
+    "attribute": null,
+    "types": null,
+    "card_type": "???",
+    "property": "???",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "JointechRejoin-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP0??",
+        "name": "Jointech of Passion",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Jointech"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Jointech Rejoin",
+    "_wiki_ts": "2026-10-01T10:11:47Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Jointech Rejoin"
+  },
+  {
+    "name_ja": "黒刹の騎士",
+    "name_ja_romaji": "Kokusetsu no Kishi",
+    "attribute": "???",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "KnightoftheHollowedGrounds-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP0??",
+        "name": "Jointech of Passion",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Hollowed Grounds"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Knight of the Hollowed Grounds",
+    "_wiki_ts": "2026-10-01T10:19:59Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Knight of the Hollowed Grounds"
+  },
+  {
+    "name_ja": "マッドレア・エイミ",
+    "name_ja_romaji": "Maddorea Eimi",
+    "attribute": "DARK",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MadRareAmy-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP0??",
+        "name": "Jointech of Passion",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Mad Rare"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Mad Rare Amy",
+    "_wiki_ts": "2026-10-01T10:14:39Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Mad Rare Amy"
+  },
+  {
+    "name_ja": "マッドレア・クレイア",
+    "name_ja_romaji": "Maddorea Kureia",
+    "attribute": "DARK",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MadRareChreia-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP0??",
+        "name": "Jointech of Passion",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Mad Rare"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Mad Rare Chreia",
+    "_wiki_ts": "2026-10-01T10:15:48Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Mad Rare Chreia"
+  },
+  {
+    "name_ja": "マッドレア・マキ",
+    "name_ja_romaji": "Maddorea Maki",
+    "attribute": "DARK",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MadRareMaqui-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP0??",
+        "name": "Jointech of Passion",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Mad Rare"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Mad Rare Maqui",
+    "_wiki_ts": "2026-10-01T10:15:28Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Mad Rare Maqui"
+  },
+  {
+    "name_ja": "マッドレア・ラピッド",
+    "name_ja_romaji": "Maddorea Rapiddo",
+    "attribute": "DARK",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MadRareRappid-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP0??",
+        "name": "Jointech of Passion",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Mad Rare"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Mad Rare Rappid",
+    "_wiki_ts": "2026-10-01T10:14:20Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Mad Rare Rappid"
+  },
+  {
+    "name_ja": "マッドレア・ビーコ",
+    "name_ja_romaji": "Maddorea Bīko",
+    "attribute": "DARK",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MadRareVico-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP0??",
+        "name": "Jointech of Passion",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Mad Rare"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Mad Rare Vico",
+    "_wiki_ts": "2026-10-01T10:15:06Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Mad Rare Vico"
+  },
+  {
+    "name_ja": "セインティック・ルミナ",
+    "name_ja_romaji": "Seintikku Rumina",
+    "attribute": "???",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "SaintickLumina-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP0??",
+        "name": "Jointech of Passion",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Saintick Lumina",
+    "_wiki_ts": "2026-10-01T10:35:56Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Saintick Lumina"
+  },
+  {
+    "name_ja": "Ｓ・メンテナンス",
+    "name_ja_romaji": "Shisutemu Mentenansu",
+    "attribute": null,
+    "types": null,
+    "card_type": "???",
+    "property": "???",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "SystemMaintenance-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP0??",
+        "name": "Jointech of Passion",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Alpha Burn",
+      "High Tech Dragon"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "System Maintenance",
+    "_wiki_ts": "2026-10-01T12:01:44Z",
+    "card_schema_version": 2,
+    "raw_name_en": "System Maintenance"
+  },
+  {
+    "name_ja": "Ｕ・メンテナンス",
+    "name_ja_romaji": "Appudēto Mentenansu",
+    "attribute": null,
+    "types": null,
+    "card_type": "???",
+    "property": "???",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "UpdateMaintenance-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP0??",
+        "name": "Jointech of Passion",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Alpha Burn",
+      "High Tech Dragon"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Update Maintenance",
+    "_wiki_ts": "2026-10-01T12:01:34Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Update Maintenance"
+  },
+  {
+    "name_ja": "腐灼のなれ果て",
+    "name_ja_romaji": "Fushaku no Narehate",
+    "attribute": null,
+    "types": null,
+    "card_type": "???",
+    "property": "???",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "WhatLittletheBlightblazeLeavesBehind-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP0??",
+        "name": "Jointech of Passion",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Hollowed Grounds"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "What Little the Blightblaze Leaves Behind",
+    "_wiki_ts": "2026-10-01T12:01:19Z",
+    "card_schema_version": 2,
+    "raw_name_en": "What Little the Blightblaze Leaves Behind"
+  },
+  {
+    "name_ja": "腐灼の崇拝者",
+    "name_ja_romaji": "Fushaku no Sūhaisha",
+    "attribute": "???",
+    "types": "??? / ???",
+    "card_type": null,
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "(TBA)",
+    "effect": "(TBA)",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "WorshiperoftheBlightblaze-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP0??",
+        "name": "Jointech of Passion",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Hollowed Grounds"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Worshiper of the Blightblaze",
+    "_wiki_ts": "2026-10-01T12:00:31Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Worshiper of the Blightblaze"
   }
 ]
