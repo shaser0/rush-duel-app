@@ -526,7 +526,8 @@
   ],
   "Dogulce Langue De Shakoki": [
     "DogulceLangueDeShakoki-RDSD04-JP-C.png",
-    "DogulceLangueDeShakoki-RDKP06-JP-R.png"
+    "DogulceLangueDeShakoki-RDKP06-JP-R.png",
+    "DogulceLangueDeShakoki-RDCA01-JP-ScR.png"
   ],
   "Doki Doki Hexenhaus": [
     "DokiDokiHexenhaus-RDKP06-JP-R.png",
@@ -701,7 +702,8 @@
     "DarkMagician-RDHC01-JP-ORR.png",
     "DarkMagician-RDKP02-JP-RR.png",
     "DarkMagician-RDP000-JP-RRRed.png",
-    "DarkMagician-RDP004-JP-ScRBlue.png"
+    "DarkMagician-RDP004-JP-ScRBlue.png",
+    "DarkMagician-RDCA01-JP-ScR.png"
   ],
   "Dark Revelation": [
     "DarkRevelation-RDORP4-JP-C.png",
@@ -759,7 +761,8 @@
   ],
   "Obsidian Magical Soldier": [
     "ObsidianMagicalSoldier-RDSD0E-JP-C.png",
-    "ObsidianMagicalSoldier-RDMRP2-JP-SR.png"
+    "ObsidianMagicalSoldier-RDMRP2-JP-SR.png",
+    "ObsidianMagicalSoldier-RDCA01-JP-ScR.png"
   ],
   "Phoenix Dragon": [
     "PhoenixDragon-RDTB02-JP-C.png",
@@ -804,11 +807,13 @@
   ],
   "Spell Extraction": [
     "SpellExtraction-RDSD0E-JP-C.png",
-    "SpellExtraction-RDMRP2-JP-C.png"
+    "SpellExtraction-RDMRP2-JP-C.png",
+    "SpellExtraction-RDCA01-JP-ScR.png"
   ],
   "Stone of the Dark Magicians": [
     "StoneoftheDarkMagicians-RDSD0E-JP-NPR.png",
-    "StoneoftheDarkMagicians-RDMRP2-JP-SR.png"
+    "StoneoftheDarkMagicians-RDMRP2-JP-SR.png",
+    "StoneoftheDarkMagicians-RDCA01-JP-ScR.png"
   ],
   "Thousand Knives": [
     "ThousandKnives-RDSD0E-JP-C.png",
@@ -835,7 +840,8 @@
   ],
   "Wizened Dark Magician": [
     "WizenedDarkMagician-RDSD0E-JP-C.png",
-    "WizenedDarkMagician-RDMRP2-JP-C.png"
+    "WizenedDarkMagician-RDMRP2-JP-C.png",
+    "WizenedDarkMagician-RDCA01-JP-ScR.png"
   ],
   "Abysskite Kaleido-Dress": [
     "AbysskiteKaleidoDress-RDKP22-JP-R.png",
@@ -1532,7 +1538,8 @@
     "OverRushStorm-RDORP2-JP-UR.png",
     "OverRushStorm-RDORP2-JP-ORR.png",
     "OverRushStorm-RD5TH1-JP-UPR.png",
-    "OverRushStorm-RD5TH1-JP-ORR.png"
+    "OverRushStorm-RD5TH1-JP-ORR.png",
+    "OverRushStorm-RDCA01-JP-ScR.png"
   ],
   "Peace Lovely Ángel": [
     "PeaceLovelyÁngel-RDORP2-JP-UR.png",
@@ -1618,7 +1625,8 @@
     "TrombowtheMusicPrincessofMelodicCrown-RDAP01-JP-C.png",
     "TrombowtheMusicPrincessofMelodicCrown-RDAP01-JP-SPR.png",
     "TrombowtheMusicPrincessofMelodicCrown-RDORP2-JP-ORR.png",
-    "TrombowtheMusicPrincessofMelodicCrown-RDORP2-JP-SR.png"
+    "TrombowtheMusicPrincessofMelodicCrown-RDORP2-JP-SR.png",
+    "TrombowtheMusicPrincessofMelodicCrown-RDCA01-JP-ScR.png"
   ],
   "Valkyrion the Magna Wings": [
     "ValkyriontheMagnaWings-RDORP2-JP-SR.png",
@@ -1915,7 +1923,8 @@
   ],
   "Grand Legend Priest": [
     "GrandLegendPriest-RDLGP2-JP-UR.png",
-    "GrandLegendPriest-RDLGP2-JP-ORR.png"
+    "GrandLegendPriest-RDLGP2-JP-ORR.png",
+    "GrandLegendPriest-RDCA01-JP-ScR.png"
   ],
   "Grand Legend Saber": [
     "GrandLegendSaber-RDLGP2-JP-UR.png",
@@ -1957,7 +1966,8 @@
   "Legend Priest": [
     "LegendPriest-RDLGP2-JP-UR.png",
     "LegendPriest-RDLGP2-JP-ORR.png",
-    "LegendPriest-RDORP3-JP-ORR.png"
+    "LegendPriest-RDORP3-JP-ORR.png",
+    "LegendPriest-RDCA01-JP-ScR.png"
   ],
   "Legend Scout": [
     "LegendScout-RDLGP2-JP-C.png",
@@ -2258,7 +2268,8 @@
   ],
   "Dark Cavalry": [
     "DarkCavalry-RD5TH1-JP-UR.png",
-    "DarkCavalry-RD5TH1-JP-ORR.png"
+    "DarkCavalry-RD5TH1-JP-ORR.png",
+    "DarkCavalry-RDCA01-JP-ScR.png"
   ],
   "Dark Paladin": [
     "DarkPaladin-RD5TH1-JP-UPR.png",
@@ -2396,7 +2407,8 @@
   "Traditional Tax": [
     "TraditionalTax-RDKP12-JP-SR.png",
     "TraditionalTax-RD5TH1-JP-UPR.png",
-    "TraditionalTax-RD5TH1-JP-ORR.png"
+    "TraditionalTax-RD5TH1-JP-ORR.png",
+    "TraditionalTax-RDCA01-JP-ScR.png"
   ],
   "Wicked Shadow Dark Lurker": [
     "WickedShadowDarkLurker-RDMRP1-JP-R.png",
@@ -2596,7 +2608,8 @@
   ],
   "Compulsory Evacuation Device": [
     "CompulsoryEvacuationDevice-RDSD0C-JP-NPR.png",
-    "CompulsoryEvacuationDevice-RDHC01-JP-UR.png"
+    "CompulsoryEvacuationDevice-RDHC01-JP-UR.png",
+    "CompulsoryEvacuationDevice-RDCA01-JP-ScR.png"
   ],
   "Conduction Warrior Alchemicalizer Suirai": [
     "ConductionWarriorAlchemicalizerSuirai-RDHC01-JP-SR.png",
@@ -4684,7 +4697,8 @@
   ],
   "Attrashoot Hydron": [
     "AttrashootHydron-RDGRP1-JP-UR.png",
-    "AttrashootHydron-RDGRP1-JP-GRR.png"
+    "AttrashootHydron-RDGRP1-JP-GRR.png",
+    "AttrashootHydron-RDCA01-JP-ScR.png"
   ],
   "Black Dragon's Chick": [
     "BlackDragonsChick-RDGRP1-JP-C.png",
@@ -6027,7 +6041,8 @@
   ],
   "Chemipet Chirp": [
     "ChemipetChirp-RDKP17-JP-R.png",
-    "ChemipetChirp-RDB244-JP-SR.png"
+    "ChemipetChirp-RDB244-JP-SR.png",
+    "ChemipetChirp-RDCA01-JP-ScR.png"
   ],
   "Dice Key Mix": [
     "DiceKeyMix-RDKP19-JP-R.png"
@@ -6517,7 +6532,8 @@
   "Jointech Ace": [
     "JointechAce-RDB232-JP-C.png",
     "JointechAce-RDGRD2-JP-C.png",
-    "JointechAce-RDSD02-JP-C.png"
+    "JointechAce-RDSD02-JP-C.png",
+    "JointechAce-RDCA01-JP-ScR.png"
   ],
   "Tamabot": [
     "Tamabot-RD5TH1-JP-SR.png",
@@ -6858,7 +6874,8 @@
   ],
   "Harpie Regina Splendid Armor": [
     "HarpieReginaSplendidArmor-RDSD0D-JP-C.png",
-    "HarpieReginaSplendidArmor-RDSD0D-JP-SR.png"
+    "HarpieReginaSplendidArmor-RDSD0D-JP-SR.png",
+    "HarpieReginaSplendidArmor-RDCA01-JP-ScR.png"
   ],
   "Harpie Signora": [
     "HarpieSignora-RDB252-JP-SR.png",
@@ -8479,5 +8496,246 @@
     "SessionTogether-RDKP15-JP-ORR.png",
     "SessionTogether-RDKP15-JP-ScR.png",
     "SessionTogether-RDKP15-JP-UR.png"
+  ],
+  "RAM Clouder": [
+    "RAMClouder-RDCA01-JP-SPR.png",
+    "RAMClouder-RDCA01-JP-ScR.png",
+    "RAMClouder-RDLGP2-JP-C.png"
+  ],
+  "Harpie's Feather Duster": [
+    "HarpiesFeatherDuster-RDCA01-JP-SPR.png",
+    "HarpiesFeatherDuster-RDCA01-JP-ScR.png",
+    "HarpiesFeatherDuster-RD5TH1-JP-UR.png"
+  ],
+  "Alpha Burn Drake": [
+    "AlphaBurnDrake-RDCA01-JP-SPR.png",
+    "AlphaBurnDrake-RDCA01-JP-ScR.png",
+    "AlphaBurnDrake-RDSD03-JP-C.png"
+  ],
+  "Amulet Dragon": [
+    "AmuletDragon-RDCA01-JP-UPR.png",
+    "AmuletDragon-RDCA01-JP-ORR.png"
+  ],
+  "Attrac Charm Midi": [
+    "AttracCharmMidi-RDCA01-JP-UPR.png",
+    "AttracCharmMidi-RDCA01-JP-ORR.png"
+  ],
+  "Attrac Charm Souvenir": [
+    "AttracCharmSouvenir-RDCA01-JP-UR.png",
+    "AttracCharmSouvenir-RDCA01-JP-ScR.png"
+  ],
+  "Attrac Charm Sowaru": [
+    "AttracCharmSowaru-RDCA01-JP-UPR.png",
+    "AttracCharmSowaru-RDCA01-JP-ORR.png"
+  ],
+  "Blackland Magic Dragon": [
+    "BlacklandMagicDragon-RDCA01-JP-UR.png",
+    "BlacklandMagicDragon-RDCA01-JP-ScR.png"
+  ],
+  "CROSS ART COLLECTION": [
+    "CROSSARTCOLLECTION-RDCA01-JP-OP.png"
+  ],
+  "Clashing Twin Tides": [
+    "ClashingTwinTides-RDCA01-JP-SPR.png",
+    "ClashingTwinTides-RDCA01-JP-ScR.png",
+    "ClashingTwinTides-RDKP18-JP-R.png"
+  ],
+  "Cross Lostream Melutine": [
+    "CrossLostreamMelutine-RDCA01-JP-UPR.png",
+    "CrossLostreamMelutine-RDCA01-JP-ORR.png"
+  ],
+  "Cross Lostream Verdias": [
+    "CrossLostreamVerdias-RDCA01-JP-UPR.png",
+    "CrossLostreamVerdias-RDCA01-JP-ORR.png"
+  ],
+  "Dark Magician Knight": [
+    "DarkMagicianKnight-RDCA01-JP-UR.png",
+    "DarkMagicianKnight-RDCA01-JP-ScR.png"
+  ],
+  "Dimension Channel": [
+    "DimensionChannel-RDCA01-JP-UR.png",
+    "DimensionChannel-RDCA01-JP-ScR.png"
+  ],
+  "Dimension Jump": [
+    "DimensionJump-RDCA01-JP-UR.png",
+    "DimensionJump-RDCA01-JP-ScR.png"
+  ],
+  "Dimension Linker": [
+    "DimensionLinker-RDDL01-JP-ORR.png",
+    "DimensionLinker-RDCA01-JP-UPR.png",
+    "DimensionLinker-RDCA01-JP-ScPR.png"
+  ],
+  "Dimension Oper": [
+    "DimensionOper-RDCA01-JP-UR.png",
+    "DimensionOper-RDCA01-JP-ScR.png"
+  ],
+  "Dimension Pair Link L": [
+    "DimensionPairLinkL-RDCA01-JP-UPR.png",
+    "DimensionPairLinkL-RDCA01-JP-ORR-AA.png",
+    "DimensionPairLinkL-RDCA01-JP-ORR.png"
+  ],
+  "Dimension Pair Link R": [
+    "DimensionPairLinkR-RDCA01-JP-UPR.png",
+    "DimensionPairLinkR-RDCA01-JP-ORR-AA.png",
+    "DimensionPairLinkR-RDCA01-JP-ORR.png"
+  ],
+  "Dimension Pramma": [
+    "DimensionPramma-RDCA01-JP-UR.png",
+    "DimensionPramma-RDCA01-JP-ScR.png"
+  ],
+  "Dimension Riletta": [
+    "DimensionRiletta-RDCA01-JP-UPR.png",
+    "DimensionRiletta-RDCA01-JP-ScPR.png"
+  ],
+  "Fuden Issen": [
+    "FudenIssen-RDCA01-JP-UR.png",
+    "FudenIssen-RDCA01-JP-ScR.png"
+  ],
+  "Grand Legendary Party": [
+    "GrandLegendaryParty-RDCA01-JP-UPR.png",
+    "GrandLegendaryParty-RDCA01-JP-ORR.png"
+  ],
+  "In a Corner of the Underground City": [
+    "InaCorneroftheUndergroundCity-RDCA01-JP-UR.png",
+    "InaCorneroftheUndergroundCity-RDCA01-JP-ScR.png"
+  ],
+  "Knight's Title": [
+    "KnightsTitle-RDCA01-JP-UR.png",
+    "KnightsTitle-RDCA01-JP-ScR.png"
+  ],
+  "Koumori Dragon the Magical Dragon": [
+    "KoumoriDragontheMagicalDragon-RDCA01-JP-UR.png",
+    "KoumoriDragontheMagicalDragon-RDCA01-JP-ScR.png"
+  ],
+  "Legendary Party": [
+    "LegendaryParty-RDCA01-JP-UPR.png",
+    "LegendaryParty-RDCA01-JP-ORR.png"
+  ],
+  "Liliputian Friends": [
+    "LiliputianFriends-RDCA01-JP-UPR.png",
+    "LiliputianFriends-RDCA01-JP-ORR.png"
+  ],
+  "Lostream Gift": [
+    "LostreamGift-RDCA01-JP-UPR.png",
+    "LostreamGift-RDCA01-JP-ScPR.png"
+  ],
+  "Lostream Myura": [
+    "LostreamMyura-RDCA01-JP-UR.png",
+    "LostreamMyura-RDCA01-JP-ScR.png"
+  ],
+  "Lostream Nemora": [
+    "LostreamNemora-RDCA01-JP-UPR.png",
+    "LostreamNemora-RDCA01-JP-ORR-AA.png",
+    "LostreamNemora-RDCA01-JP-ORR.png"
+  ],
+  "Lostream Nepia": [
+    "LostreamNepia-RDCA01-JP-UPR.png",
+    "LostreamNepia-RDCA01-JP-ORR-AA.png",
+    "LostreamNepia-RDCA01-JP-ORR.png"
+  ],
+  "Lostream Polka": [
+    "LostreamPolka-RDCA01-JP-UR.png",
+    "LostreamPolka-RDCA01-JP-ScR.png"
+  ],
+  "Lostream Reading": [
+    "LostreamReading-RDCA01-JP-UR.png",
+    "LostreamReading-RDCA01-JP-ScR.png"
+  ],
+  "Lostream Record": [
+    "LostreamRecord-RDCA01-JP-UR.png",
+    "LostreamRecord-RDCA01-JP-ScR.png"
+  ],
+  "Lostream Shell": [
+    "LostreamShell-RDCA01-JP-UR.png",
+    "LostreamShell-RDCA01-JP-ScR.png"
+  ],
+  "Lostream Stream": [
+    "LostreamStream-RDCA01-JP-UR.png",
+    "LostreamStream-RDCA01-JP-ScR.png"
+  ],
+  "Lostream - The Circulating Sea of Clouds": [
+    "LostreamTheCirculatingSeaofClouds-RDCA01-JP-UR.png",
+    "LostreamTheCirculatingSeaofClouds-RDCA01-JP-ScR.png"
+  ],
+  "Lufer the Symbol of the Devils": [
+    "LufertheSymboloftheDevils-RDCA01-JP-UPR.png",
+    "LufertheSymboloftheDevils-RDCA01-JP-ORR-AA.png",
+    "LufertheSymboloftheDevils-RDCA01-JP-ORR.png"
+  ],
+  "Micha the Symbol of the Angels": [
+    "MichatheSymboloftheAngels-RDCA01-JP-UPR.png",
+    "MichatheSymboloftheAngels-RDCA01-JP-ORR-AA.png",
+    "MichatheSymboloftheAngels-RDCA01-JP-ORR.png"
+  ],
+  "Nehime the Dimensional Sworn Ally": [
+    "NehimetheDimensionalSwornAlly-RDCA01-JP-UR.png",
+    "NehimetheDimensionalSwornAlly-RDCA01-JP-ScR.png"
+  ],
+  "Pitch-Dark Eradicator Sorcerer": [
+    "PitchDarkEradicatorSorcerer-RDCA01-JP-UPR.png",
+    "PitchDarkEradicatorSorcerer-RDCA01-JP-ScPR.png"
+  ],
+  "Reifu the Dimensional Sworn Ally": [
+    "ReifutheDimensionalSwornAlly-RDCA01-JP-UR.png",
+    "ReifutheDimensionalSwornAlly-RDCA01-JP-ScR.png"
+  ],
+  "Returnee of the Temple": [
+    "ReturneeoftheTemple-RDCA01-JP-UR.png",
+    "ReturneeoftheTemple-RDCA01-JP-ScR.png"
+  ],
+  "Searching Fuden": [
+    "SearchingFuden-RDCA01-JP-UR.png",
+    "SearchingFuden-RDCA01-JP-ScR.png"
+  ],
+  "Sinful Spoils of Doom - Rciela": [
+    "SinfulSpoilsofDoomRciela-RDCA01-JP-UR.png",
+    "SinfulSpoilsofDoomRciela-RDCA01-JP-ScR.png"
+  ],
+  "Tama Tama Gachance": [
+    "TamaTamaGachance-RDCA01-JP-SPR.png",
+    "TamaTamaGachance-RDCA01-JP-ScR.png",
+    "TamaTamaGachance-RDSJMP-JP-NPR.png"
+  ],
+  "The Allied Dark Magicians": [
+    "TheAlliedDarkMagicians-RDCA01-JP-UPR.png",
+    "TheAlliedDarkMagicians-RDCA01-JP-ORR-AA.png",
+    "TheAlliedDarkMagicians-RDCA01-JP-ORR.png"
+  ],
+  "The Black Witch Facing the Temple": [
+    "TheBlackWitchFacingtheTemple-RDCA01-JP-UPR.png",
+    "TheBlackWitchFacingtheTemple-RDCA01-JP-ORR.png"
+  ],
+  "The Connected Liliputians": [
+    "TheConnectedLiliputians-RDCA01-JP-UR.png",
+    "TheConnectedLiliputians-RDCA01-JP-ScR.png"
+  ],
+  "The Flame Dragon Haunting the Temple": [
+    "TheFlameDragonHauntingtheTemple-RDCA01-JP-UPR.png",
+    "TheFlameDragonHauntingtheTemple-RDCA01-JP-ORR.png"
+  ],
+  "The Nomnom Liliputian": [
+    "TheNomnomLiliputian-RDCA01-JP-UR.png",
+    "TheNomnomLiliputian-RDCA01-JP-ScR.png"
+  ],
+  "The Sleeping Nameless Dragon": [
+    "TheSleepingNamelessDragon-RDCA01-JP-UR.png",
+    "TheSleepingNamelessDragon-RDCA01-JP-ScR.png"
+  ],
+  "The United Front with Timaeus": [
+    "TheUnitedFrontwithTimaeus-RDCA01-JP-UPR.png",
+    "TheUnitedFrontwithTimaeus-RDCA01-JP-ORR-AA.png",
+    "TheUnitedFrontwithTimaeus-RDCA01-JP-ORR.png"
+  ],
+  "The Very Kind Human": [
+    "TheVeryKindHuman-RDCA01-JP-UPR.png",
+    "TheVeryKindHuman-RDCA01-JP-ORR.png"
+  ],
+  "Wako Gozen Riletta": [
+    "WakoGozenRiletta-RDCA01-JP-UPR.png",
+    "WakoGozenRiletta-RDCA01-JP-ORR.png"
+  ],
+  "Waso Gozen Linker": [
+    "WasoGozenLinker-RDCA01-JP-UPR.png",
+    "WasoGozenLinker-RDCA01-JP-ORR.png"
   ]
 }

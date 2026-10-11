@@ -5965,5 +5965,12 @@
     "coverImage": "SJMP-2026-12-Cover.png",
     "cardsPerPack": null,
     "declaredSize": null
+  },
+  "Shaman Bandit of the Ensemble": {
+    "releaseDateJP": "February 13, 2027",
+    "packsPerBox": 30,
+    "coverImage": "RDKP28-BoosterJP.png",
+    "cardsPerPack": 5,
+    "declaredSize": null
   }
 }

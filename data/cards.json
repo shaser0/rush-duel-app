@@ -3861,7 +3861,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheAlliedDarkMagicians-RDCA01-JP-OP.png"
+        "file": "TheAlliedDarkMagicians-RDCA01-JP-UPR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "TheAlliedDarkMagicians-RDCA01-JP-ORR-AA.png"
       }
     ],
     "sets_jp": [
@@ -3872,14 +3876,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23910",
     "archseries": [
       "Dark Magician"
     ],
     "password": null,
     "is_legend": false,
     "title": "The Allied Dark Magicians",
-    "_wiki_ts": "2026-08-28T18:29:20Z",
+    "_wiki_ts": "2026-10-10T14:56:49Z",
     "card_schema_version": 2,
     "raw_name_en": "The Allied Dark Magicians"
   },
@@ -4105,7 +4109,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AlphaBurnDrake-RDSD03-JP-C.png"
+        "file": "AlphaBurnDrake-RDCA01-JP-SPR.png"
       }
     ],
     "sets_jp": [
@@ -4113,6 +4117,11 @@
         "code": "RD/SD03-JP024",
         "name": "Strongest Battle Deck Yuamu - Come Forth! High Tech Dragon!",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/CA01-JP065",
+        "name": "Cross Art Collection",
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -4130,7 +4139,7 @@
     "password": null,
     "is_legend": false,
     "title": "Alpha Burn Drake",
-    "_wiki_ts": "2026-10-01T17:14:19Z",
+    "_wiki_ts": "2026-10-10T15:07:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Alpha Burn Drake"
   },
@@ -4734,7 +4743,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AmuletDragon-RDCA01-JP-OP.png"
+        "file": "AmuletDragon-RDCA01-JP-UPR.png"
       }
     ],
     "sets_jp": [
@@ -4745,14 +4754,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23954",
     "archseries": [
       "Dark Magician"
     ],
     "password": null,
     "is_legend": false,
     "title": "Amulet Dragon",
-    "_wiki_ts": "2026-08-28T18:32:22Z",
+    "_wiki_ts": "2026-10-10T15:12:20Z",
     "card_schema_version": 2,
     "raw_name_en": "Amulet Dragon (Rush Duel)"
   },
@@ -9608,7 +9617,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AttrashootHydron-RDGRP1-JP-UR.png"
+        "file": "AttrashootHydron-RDCA01-JP-SPR.png"
       }
     ],
     "sets_jp": [
@@ -9620,7 +9629,7 @@
       {
         "code": "RD/CA01-JP067",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -9637,7 +9646,7 @@
     "password": null,
     "is_legend": false,
     "title": "Attrashoot Hydron",
-    "_wiki_ts": "2026-09-15T14:46:53Z",
+    "_wiki_ts": "2026-10-10T15:07:54Z",
     "card_schema_version": 2,
     "raw_name_en": "Attrashoot Hydron"
   },
@@ -10879,7 +10888,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "BalloonButier-RDKP20-JP-UR.png"
+        "file": "BalloonButier-RDCA01-JP-ScPR.png"
       },
       {
         "artwork": 2,
@@ -10896,6 +10905,11 @@
         "code": "RD/S253-JP002",
         "name": "Special Victory Pack 2025 Vol.3",
         "rarity": "Ultra Parallel Rare"
+      },
+      {
+        "code": "RD/CA01-JP073",
+        "name": "Cross Art Collection",
+        "rarity": "Secret Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -10910,7 +10924,7 @@
     "password": null,
     "is_legend": false,
     "title": "Balloon Butier",
-    "_wiki_ts": "2026-05-11T08:06:11Z",
+    "_wiki_ts": "2026-10-10T15:09:34Z",
     "card_schema_version": 2,
     "raw_name_en": "Balloon Butier"
   },
@@ -11822,7 +11836,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "BattletestedGaiaTheFierceKnight-RDKP14-JP-SR.png"
+        "file": "BattletestedGaiaTheFierceKnight-RDCA01-JP-ScPR.png"
       },
       {
         "artwork": 2,
@@ -11865,7 +11879,7 @@
     "password": null,
     "is_legend": false,
     "title": "Battletested Gaia The Fierce Knight",
-    "_wiki_ts": "2026-10-03T19:49:50Z",
+    "_wiki_ts": "2026-10-10T14:55:18Z",
     "card_schema_version": 2,
     "raw_name_en": "Battletested Gaia The Fierce Knight"
   },
@@ -14897,7 +14911,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheBlackWitchFacingtheTemple-RDCA01-JP-OP.png"
+        "file": "TheBlackWitchFacingtheTemple-RDCA01-JP-UPR.png"
       }
     ],
     "sets_jp": [
@@ -14908,12 +14922,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23940",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "The Black Witch Facing the Temple",
-    "_wiki_ts": "2026-09-14T14:56:13Z",
+    "_wiki_ts": "2026-10-10T15:03:45Z",
     "card_schema_version": 2,
     "raw_name_en": "The Black Witch Facing the Temple"
   },
@@ -14938,25 +14952,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "BlacklandMagicDragon-RDCA01-JP-OP.png"
+        "file": "BlacklandMagicDragon-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP012",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23908",
     "archseries": [
       "Dark Magician"
     ],
     "password": null,
     "is_legend": false,
     "title": "Blackland Magic Dragon",
-    "_wiki_ts": "2026-09-26T00:53:58Z",
+    "_wiki_ts": "2026-10-10T14:56:12Z",
     "card_schema_version": 2,
     "raw_name_en": "Blackland Magic Dragon"
   },
@@ -24477,7 +24491,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ChemipetChirp-RDB244-JP-SR.png"
+        "file": "ChemipetChirp-RDCA01-JP-SPR.png"
       }
     ],
     "sets_jp": [
@@ -24494,7 +24508,7 @@
       {
         "code": "RD/CA01-JP076",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -24511,7 +24525,7 @@
     "password": null,
     "is_legend": false,
     "title": "Chemipet Chirp",
-    "_wiki_ts": "2026-09-29T16:00:21Z",
+    "_wiki_ts": "2026-10-10T15:10:19Z",
     "card_schema_version": 2,
     "raw_name_en": "Chemipet Chirp"
   },
@@ -25230,7 +25244,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ClashingTwinTides-RDKP18-JP-R.png"
+        "file": "ClashingTwinTides-RDCA01-JP-SPR.png"
       }
     ],
     "sets_jp": [
@@ -25242,7 +25256,7 @@
       {
         "code": "RD/CA01-JP080",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -25257,7 +25271,7 @@
     "password": null,
     "is_legend": false,
     "title": "Clashing Twin Tides",
-    "_wiki_ts": "2026-09-07T17:26:28Z",
+    "_wiki_ts": "2026-10-10T15:11:12Z",
     "card_schema_version": 2,
     "raw_name_en": "Clashing Twin Tides"
   },
@@ -26683,7 +26697,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "CompulsoryEvacuationDevice-RDSD0C-JP-NPR.png"
+        "file": "CompulsoryEvacuationDevice-RDCA01-JP-SPR.png"
       }
     ],
     "sets_jp": [
@@ -26700,7 +26714,7 @@
       {
         "code": "RD/CA01-JP083",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -26720,7 +26734,7 @@
     "password": null,
     "is_legend": true,
     "title": "Compulsory Evacuation Device",
-    "_wiki_ts": "2026-09-20T15:11:20Z",
+    "_wiki_ts": "2026-10-10T15:11:51Z",
     "card_schema_version": 2,
     "raw_name_en": "Compulsory Evacuation Device (Rush Duel)"
   },
@@ -27054,25 +27068,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheConnectedLiliputians-RDCA01-JP-OP.png"
+        "file": "TheConnectedLiliputians-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP053",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23945",
     "archseries": [
       "Liliputian"
     ],
     "password": null,
     "is_legend": false,
     "title": "The Connected Liliputians",
-    "_wiki_ts": "2026-09-21T17:01:45Z",
+    "_wiki_ts": "2026-10-10T15:04:47Z",
     "card_schema_version": 2,
     "raw_name_en": "The Connected Liliputians"
   },
@@ -30362,7 +30376,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "CrossLostreamMelutine-RDCA01-JP-OP.png"
+        "file": "CrossLostreamMelutine-RDCA01-JP-UPR.png"
       }
     ],
     "sets_jp": [
@@ -30373,14 +30387,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23928",
     "archseries": [
       "Lostream"
     ],
     "password": null,
     "is_legend": false,
     "title": "Cross Lostream Melutine",
-    "_wiki_ts": "2026-09-07T15:58:52Z",
+    "_wiki_ts": "2026-10-10T15:01:20Z",
     "card_schema_version": 2,
     "raw_name_en": "Cross Lostream Melutine"
   },
@@ -30404,7 +30418,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "CrossLostreamVerdias-RDCA01-JP-OP.png"
+        "file": "CrossLostreamVerdias-RDCA01-JP-UPR.png"
       }
     ],
     "sets_jp": [
@@ -30415,14 +30429,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23927",
     "archseries": [
       "Lostream"
     ],
     "password": null,
     "is_legend": false,
     "title": "Cross Lostream Verdias",
-    "_wiki_ts": "2026-09-07T15:53:20Z",
+    "_wiki_ts": "2026-10-10T15:01:10Z",
     "card_schema_version": 2,
     "raw_name_en": "Cross Lostream Verdias"
   },
@@ -34032,7 +34046,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DarkCavalry-RD5TH1-JP-UR.png"
+        "file": "DarkCavalry-RDCA01-JP-SPR.png"
       }
     ],
     "sets_jp": [
@@ -34044,7 +34058,7 @@
       {
         "code": "RD/CA01-JP003",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -34061,7 +34075,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dark Cavalry",
-    "_wiki_ts": "2026-09-24T10:49:43Z",
+    "_wiki_ts": "2026-10-10T14:53:25Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Cavalry (Rush Duel)"
   },
@@ -34715,7 +34729,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DarkMagician-RDSD0E-JP-UR.png"
+        "file": "DarkMagician-RDCA01-JP-SPR.png"
       },
       {
         "artwork": 2,
@@ -34779,7 +34793,7 @@
       {
         "code": "RD/CA01-JP004",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -34831,7 +34845,7 @@
     "password": null,
     "is_legend": true,
     "title": "Dark Magician",
-    "_wiki_ts": "2026-09-28T16:56:38Z",
+    "_wiki_ts": "2026-10-10T14:53:54Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Magician (Rush Duel)"
   },
@@ -34860,7 +34874,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DarkMagicianGirl-RDSD0E-JP-NPR.png"
+        "file": "DarkMagicianGirl-RDCA01-JP-ScPR.png"
       },
       {
         "artwork": 1.1,
@@ -34921,7 +34935,7 @@
       {
         "code": "RD/CA01-JP005",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Parallel Rare, Secret Parallel Rare"
+        "rarity": "Secret Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -34963,7 +34977,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dark Magician Girl",
-    "_wiki_ts": "2026-08-24T18:30:08Z",
+    "_wiki_ts": "2026-10-10T14:54:23Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Magician Girl (Rush Duel)"
   },
@@ -34987,11 +35001,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DarkMagicianGirltheDragonKnight-RDCA01-JP-OP.png"
+        "file": "DarkMagicianGirltheDragonKnight-RDCA01-JP-UPR.png"
       },
       {
         "artwork": 2,
-        "file": "DarkMagicianGirltheDragonKnight-RDCA01-JP-OP-AA.png"
+        "file": "DarkMagicianGirltheDragonKnight-RDCA01-JP-FORR.png"
       }
     ],
     "sets_jp": [
@@ -35002,14 +35016,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23904",
     "archseries": [
       "Dark Magician"
     ],
     "password": null,
     "is_legend": false,
     "title": "Dark Magician Girl the Dragon Knight",
-    "_wiki_ts": "2026-08-28T18:25:09Z",
+    "_wiki_ts": "2026-10-10T14:52:38Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Magician Girl the Dragon Knight (Rush Duel)"
   },
@@ -35033,25 +35047,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DarkMagicianKnight-RDCA01-JP-OP.png"
+        "file": "DarkMagicianKnight-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP006",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23905",
     "archseries": [
       "Dark Magician"
     ],
     "password": null,
     "is_legend": false,
     "title": "Dark Magician Knight",
-    "_wiki_ts": "2026-08-28T17:24:44Z",
+    "_wiki_ts": "2026-10-10T14:54:37Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Magician Knight (Rush Duel)"
   },
@@ -35122,11 +35136,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DarkMagiciantheDragonKnight-RDKP21-JP-SR.png"
+        "file": "DarkMagiciantheDragonKnight-RDCA01-JP-SPR.png"
       },
       {
         "artwork": 2,
-        "file": "DarkMagiciantheDragonKnight-RDCA01-JP-OP-AA.png"
+        "file": "DarkMagiciantheDragonKnight-RDCA01-JP-FORR.png"
       }
     ],
     "sets_jp": [
@@ -35155,7 +35169,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dark Magician the Dragon Knight",
-    "_wiki_ts": "2026-08-28T18:28:00Z",
+    "_wiki_ts": "2026-10-10T14:53:08Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Magician the Dragon Knight (Rush Duel)"
   },
@@ -39349,7 +39363,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DeityofSevenTreasuresRyozai-RDKP16-JP-UR.png"
+        "file": "DeityofSevenTreasuresRyozai-RDCA01-JP-ScPR.png"
       },
       {
         "artwork": 2,
@@ -39366,6 +39380,11 @@
         "code": "RD/S244-JP002",
         "name": "Special Victory Pack 2024 Vol.4",
         "rarity": "Ultra Parallel Rare"
+      },
+      {
+        "code": "RD/CA01-JP068",
+        "name": "Cross Art Collection",
+        "rarity": "Secret Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -39387,7 +39406,7 @@
     "password": null,
     "is_legend": false,
     "title": "Deity of Seven Treasures - Ryozai",
-    "_wiki_ts": "2026-02-24T16:14:42Z",
+    "_wiki_ts": "2026-10-10T15:08:09Z",
     "card_schema_version": 2,
     "raw_name_en": "Deity of Seven Treasures - Ryozai"
   },
@@ -43876,25 +43895,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DimensionChannel-RDCA01-JP-OP.png"
+        "file": "DimensionChannel-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP027",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23919",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Dimension Channel",
-    "_wiki_ts": "2026-08-25T00:00:56Z",
+    "_wiki_ts": "2026-10-10T14:59:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Dimension Channel"
   },
@@ -43918,25 +43937,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DimensionJump-RDCA01-JP-OP.png"
+        "file": "DimensionJump-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP032",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23924",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Dimension Jump",
-    "_wiki_ts": "2026-08-25T00:06:22Z",
+    "_wiki_ts": "2026-10-10T15:00:40Z",
     "card_schema_version": 2,
     "raw_name_en": "Dimension Jump"
   },
@@ -43964,7 +43983,7 @@
       },
       {
         "artwork": 2,
-        "file": "DimensionLinker-RDCA01-JP-OP.png"
+        "file": "DimensionLinker-RDCA01-JP-UPR.png"
       }
     ],
     "sets_jp": [
@@ -43976,7 +43995,7 @@
       {
         "code": "RD/CA01-JP023",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Parallel Rare"
+        "rarity": "Ultra Parallel Rare, Secret Parallel Rare"
       }
     ],
     "sets_kr": [],
@@ -43987,7 +44006,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dimension Linker",
-    "_wiki_ts": "2026-08-25T00:26:26Z",
+    "_wiki_ts": "2026-10-10T14:58:39Z",
     "card_schema_version": 2,
     "raw_name_en": "Dimension Linker"
   },
@@ -44011,25 +44030,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DimensionOper-RDCA01-JP-OP.png"
+        "file": "DimensionOper-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP025",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23917",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Dimension Oper",
-    "_wiki_ts": "2026-08-25T00:52:36Z",
+    "_wiki_ts": "2026-10-10T14:59:03Z",
     "card_schema_version": 2,
     "raw_name_en": "Dimension Oper"
   },
@@ -44053,7 +44072,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DimensionPairLinkL-RDCA01-JP-OP.png"
+        "file": "DimensionPairLinkL-RDCA01-JP-UPR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "DimensionPairLinkL-RDCA01-JP-ORR-AA.png"
       }
     ],
     "sets_jp": [
@@ -44064,14 +44087,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23922",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Dimension Pair Link L",
-    "_wiki_ts": "2026-08-28T18:31:14Z",
+    "_wiki_ts": "2026-10-10T14:59:55Z",
     "card_schema_version": 2,
     "raw_name_en": "Dimension Pair Link L"
   },
@@ -44095,7 +44118,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DimensionPairLinkR-RDCA01-JP-OP.png"
+        "file": "DimensionPairLinkR-RDCA01-JP-UPR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "DimensionPairLinkR-RDCA01-JP-ORR-AA.png"
       }
     ],
     "sets_jp": [
@@ -44106,14 +44133,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23923",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Dimension Pair Link R",
-    "_wiki_ts": "2026-08-28T18:31:56Z",
+    "_wiki_ts": "2026-10-10T15:00:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Dimension Pair Link R"
   },
@@ -44137,25 +44164,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DimensionPramma-RDCA01-JP-OP.png"
+        "file": "DimensionPramma-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP026",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23918",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Dimension Pramma",
-    "_wiki_ts": "2026-09-23T19:24:08Z",
+    "_wiki_ts": "2026-10-10T14:59:12Z",
     "card_schema_version": 2,
     "raw_name_en": "Dimension Pramma"
   },
@@ -44179,25 +44206,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DimensionRiletta-RDCA01-JP-OP.png"
+        "file": "DimensionRiletta-RDCA01-JP-UPR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP024",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Parallel Rare"
+        "rarity": "Ultra Parallel Rare, Secret Parallel Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23916",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Dimension Riletta",
-    "_wiki_ts": "2026-08-25T00:17:57Z",
+    "_wiki_ts": "2026-10-10T14:58:53Z",
     "card_schema_version": 2,
     "raw_name_en": "Dimension Riletta"
   },
@@ -44710,7 +44737,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DogulceLangueDeShakoki-RDSD04-JP-C.png"
+        "file": "DogulceLangueDeShakoki-RDCA01-JP-SPR.png"
       }
     ],
     "sets_jp": [
@@ -44727,7 +44754,7 @@
       {
         "code": "RD/CA01-JP069",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -44747,7 +44774,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dogulce Langue De Shakoki",
-    "_wiki_ts": "2026-09-23T18:53:52Z",
+    "_wiki_ts": "2026-10-10T15:08:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Dogulce Langue De Shakoki"
   },
@@ -57819,12 +57846,16 @@
     "condition": null,
     "effect_types": null,
     "requirement": "During a turn you have not activated \"The Eye of Timaeus\".",
-    "effect": "Declare either \"Dark Magician\" or \"Dark Magician Girl\", and Fusion Summon a monster that lists that name as material by sending only 1 face-up monster with the declared name from your field to the Graveyard as material.",
+    "effect": "Declare either \"Dark Magician\" or \"Dark Magician Girl\", and Fusion Summon a monster that lists that name as material by sending only 1 face-up monster with that name from your field to the Graveyard as material.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "TheEyeofTimaeus-RDKP21-JP-SR.png"
+        "file": "TheEyeofTimaeus-RDCA01-JP-SPR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "TheEyeofTimaeus-RDCA01-JP-ORR.png"
       }
     ],
     "sets_jp": [
@@ -57832,6 +57863,11 @@
         "code": "RD/KP21-JP065",
         "name": "Accel Road of the Attack",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/CA01-JP086",
+        "name": "Cross Art Collection",
+        "rarity": "Super Parallel Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -57848,7 +57884,7 @@
     "password": null,
     "is_legend": true,
     "title": "The Eye of Timaeus",
-    "_wiki_ts": "2026-07-16T19:31:33Z",
+    "_wiki_ts": "2026-10-10T15:12:37Z",
     "card_schema_version": 2,
     "raw_name_en": "The Eye of Timaeus (Rush Duel)"
   },
@@ -60757,7 +60793,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheFlameDragonHauntingtheTemple-RDCA01-JP-OP.png"
+        "file": "TheFlameDragonHauntingtheTemple-RDCA01-JP-UPR.png"
       }
     ],
     "sets_jp": [
@@ -60768,12 +60804,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23939",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "The Flame Dragon Haunting the Temple",
-    "_wiki_ts": "2026-09-14T14:55:33Z",
+    "_wiki_ts": "2026-10-10T15:03:35Z",
     "card_schema_version": 2,
     "raw_name_en": "The Flame Dragon Haunting the Temple"
   },
@@ -63131,25 +63167,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "FudenIssen-RDCA01-JP-OP.png"
+        "file": "FudenIssen-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP034",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23926",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Fuden Issen",
-    "_wiki_ts": "2026-08-25T00:12:27Z",
+    "_wiki_ts": "2026-10-10T15:01:01Z",
     "card_schema_version": 2,
     "raw_name_en": "Fuden Issen"
   },
@@ -69796,7 +69832,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "GrandExtreme-RD5TH1-JP-ScR.png"
+        "file": "GrandExtreme-RDCA01-JP-SPR.png"
       },
       {
         "artwork": 2,
@@ -69867,7 +69903,7 @@
     "password": null,
     "is_legend": false,
     "title": "Grand Extreme",
-    "_wiki_ts": "2026-09-07T17:24:07Z",
+    "_wiki_ts": "2026-10-10T15:10:48Z",
     "card_schema_version": 2,
     "raw_name_en": "Grand Extreme"
   },
@@ -69941,7 +69977,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "GrandLegendPriest-RDLGP2-JP-UR.png"
+        "file": "GrandLegendPriest-RDCA01-JP-SPR.png"
       }
     ],
     "sets_jp": [
@@ -69953,7 +69989,7 @@
       {
         "code": "RD/CA01-JP062",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -69970,7 +70006,7 @@
     "password": null,
     "is_legend": false,
     "title": "Grand Legend Priest",
-    "_wiki_ts": "2026-09-15T14:42:24Z",
+    "_wiki_ts": "2026-10-10T15:06:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Grand Legend Priest"
   },
@@ -70093,7 +70129,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "GrandLegendaryParty-RDCA01-JP-OP.png"
+        "file": "GrandLegendaryParty-RDCA01-JP-UPR.png"
       }
     ],
     "sets_jp": [
@@ -70104,14 +70140,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23952",
     "archseries": [
       "Legend"
     ],
     "password": null,
     "is_legend": false,
     "title": "Grand Legendary Party",
-    "_wiki_ts": "2026-09-14T14:56:39Z",
+    "_wiki_ts": "2026-10-10T15:06:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Grand Legendary Party"
   },
@@ -71543,7 +71579,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "GundeoftheMonumenthes-RDDK01-JP-SR.png"
+        "file": "GundeoftheMonumenthes-RDCA01-JP-ScPR.png"
       },
       {
         "artwork": 2,
@@ -71574,6 +71610,11 @@
         "code": "RD/S261-JP001",
         "name": "Special Victory Pack 2026 Vol.1",
         "rarity": "Ultra Parallel Rare"
+      },
+      {
+        "code": "RD/CA01-JP072",
+        "name": "Cross Art Collection",
+        "rarity": "Secret Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -71595,7 +71636,7 @@
     "password": null,
     "is_legend": false,
     "title": "Gunde of the Monumenthes",
-    "_wiki_ts": "2026-03-30T22:24:39Z",
+    "_wiki_ts": "2026-10-10T15:09:13Z",
     "card_schema_version": 2,
     "raw_name_en": "Gunde of the Monumenthes"
   },
@@ -73902,7 +73943,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "HarpieReginaSplendidArmor-RDSD0D-JP-C.png"
+        "file": "HarpieReginaSplendidArmor-RDCA01-JP-SPR.png"
       },
       {
         "artwork": 1.1,
@@ -73923,7 +73964,7 @@
       {
         "code": "RD/CA01-JP064",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -73945,7 +73986,7 @@
     "password": null,
     "is_legend": false,
     "title": "Harpie Regina Splendid Armor",
-    "_wiki_ts": "2026-09-18T22:32:05Z",
+    "_wiki_ts": "2026-10-10T15:07:16Z",
     "card_schema_version": 2,
     "raw_name_en": "Harpie Regina Splendid Armor"
   },
@@ -74107,7 +74148,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "HarpiesFeatherDuster-RD5TH1-JP-UR.png"
+        "file": "HarpiesFeatherDuster-RDCA01-JP-SPR.png"
       }
     ],
     "sets_jp": [
@@ -74119,7 +74160,7 @@
       {
         "code": "RD/CA01-JP082",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -74136,7 +74177,7 @@
     "password": null,
     "is_legend": true,
     "title": "Harpie's Feather Duster",
-    "_wiki_ts": "2026-09-19T13:37:38Z",
+    "_wiki_ts": "2026-10-10T15:11:39Z",
     "card_schema_version": 2,
     "raw_name_en": "Harpie's Feather Duster (Rush Duel)"
   },
@@ -80906,23 +80947,23 @@
     "images": [
       {
         "artwork": 1,
-        "file": "InaCorneroftheUndergroundCity-RDCA01-JP-OP.png"
+        "file": "InaCorneroftheUndergroundCity-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP050",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23942",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "In a Corner of the Underground City",
-    "_wiki_ts": "2026-09-14T15:00:32Z",
+    "_wiki_ts": "2026-10-10T15:04:03Z",
     "card_schema_version": 2,
     "raw_name_en": "In a Corner of the Underground City"
   },
@@ -83660,7 +83701,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "JointechAce-RDB232-JP-C.png"
+        "file": "JointechAce-RDCA01-JP-SPR.png"
       }
     ],
     "sets_jp": [
@@ -83682,7 +83723,7 @@
       {
         "code": "RD/CA01-JP066",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -83704,7 +83745,7 @@
     "password": null,
     "is_legend": false,
     "title": "Jointech Ace",
-    "_wiki_ts": "2026-09-23T18:51:34Z",
+    "_wiki_ts": "2026-10-10T15:07:44Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Ace"
   },
@@ -85325,7 +85366,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "JusticiaroftheDragonStream-RDKP19-JP-UR.png"
+        "file": "JusticiaroftheDragonStream-RDCA01-JP-ScPR.png"
       },
       {
         "artwork": 2,
@@ -85347,6 +85388,11 @@
         "code": "RD/P014-JP001",
         "name": "Over Rush Challenge Cup Team Tournament prize card",
         "rarity": "Over Rush Rare"
+      },
+      {
+        "code": "RD/CA01-JP075",
+        "name": "Cross Art Collection",
+        "rarity": "Secret Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -85366,7 +85412,7 @@
     "password": null,
     "is_legend": false,
     "title": "Justiciar of the Dragon Stream",
-    "_wiki_ts": "2026-07-29T16:50:08Z",
+    "_wiki_ts": "2026-10-10T15:10:06Z",
     "card_schema_version": 2,
     "raw_name_en": "Justiciar of the Dragon Stream"
   },
@@ -87114,25 +87160,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "KnightsTitle-RDCA01-JP-OP.png"
+        "file": "KnightsTitle-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP017",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23912",
     "archseries": [
       "Dark Magician"
     ],
     "password": null,
     "is_legend": false,
     "title": "Knight's Title",
-    "_wiki_ts": "2026-08-28T17:48:31Z",
+    "_wiki_ts": "2026-10-10T14:57:19Z",
     "card_schema_version": 2,
     "raw_name_en": "Knight's Title (Rush Duel)"
   },
@@ -87291,25 +87337,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "KoumoriDragontheMagicalDragon-RDCA01-JP-OP.png"
+        "file": "KoumoriDragontheMagicalDragon-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP011",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23907",
     "archseries": [
       "Dark Magician"
     ],
     "password": null,
     "is_legend": false,
     "title": "Koumori Dragon the Magical Dragon",
-    "_wiki_ts": "2026-09-25T17:20:54Z",
+    "_wiki_ts": "2026-10-10T14:56:02Z",
     "card_schema_version": 2,
     "raw_name_en": "Koumori Dragon the Magical Dragon"
   },
@@ -89210,7 +89256,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LegendPriest-RDLGP2-JP-UR.png"
+        "file": "LegendPriest-RDCA01-JP-SPR.png"
       },
       {
         "artwork": 2,
@@ -89231,7 +89277,7 @@
       {
         "code": "RD/CA01-JP063",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -89253,7 +89299,7 @@
     "password": null,
     "is_legend": false,
     "title": "Legend Priest",
-    "_wiki_ts": "2026-09-15T14:44:26Z",
+    "_wiki_ts": "2026-10-10T15:06:59Z",
     "card_schema_version": 2,
     "raw_name_en": "Legend Priest"
   },
@@ -89666,7 +89712,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LegendaryParty-RDCA01-JP-OP.png"
+        "file": "LegendaryParty-RDCA01-JP-UPR.png"
       }
     ],
     "sets_jp": [
@@ -89677,14 +89723,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23953",
     "archseries": [
       "Legend"
     ],
     "password": null,
     "is_legend": false,
     "title": "Legendary Party",
-    "_wiki_ts": "2026-09-14T14:57:01Z",
+    "_wiki_ts": "2026-10-10T15:06:30Z",
     "card_schema_version": 2,
     "raw_name_en": "Legendary Party"
   },
@@ -91332,7 +91378,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LiliputianFriends-RDCA01-JP-OP.png"
+        "file": "LiliputianFriends-RDCA01-JP-UPR.png"
       }
     ],
     "sets_jp": [
@@ -91343,14 +91389,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23943",
     "archseries": [
       "Liliputian"
     ],
     "password": null,
     "is_legend": false,
     "title": "Liliputian Friends",
-    "_wiki_ts": "2026-09-24T15:10:12Z",
+    "_wiki_ts": "2026-10-10T15:04:27Z",
     "card_schema_version": 2,
     "raw_name_en": "Liliputian Friends"
   },
@@ -92280,25 +92326,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LostreamTheCirculatingSeaofClouds-RDCA01-JP-OP.png"
+        "file": "LostreamTheCirculatingSeaofClouds-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP045",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23937",
     "archseries": [
       "Lostream"
     ],
     "password": null,
     "is_legend": false,
     "title": "Lostream - The Circulating Sea of Clouds",
-    "_wiki_ts": "2026-09-07T17:09:35Z",
+    "_wiki_ts": "2026-10-10T15:03:13Z",
     "card_schema_version": 2,
     "raw_name_en": "Lostream - The Circulating Sea of Clouds"
   },
@@ -92322,25 +92368,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LostreamGift-RDCA01-JP-OP.png"
+        "file": "LostreamGift-RDCA01-JP-UPR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP042",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Parallel Rare"
+        "rarity": "Ultra Parallel Rare, Secret Parallel Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23934",
     "archseries": [
       "Lostream"
     ],
     "password": null,
     "is_legend": false,
     "title": "Lostream Gift",
-    "_wiki_ts": "2026-09-07T16:36:00Z",
+    "_wiki_ts": "2026-10-10T15:02:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Lostream Gift"
   },
@@ -92364,25 +92410,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LostreamMyura-RDCA01-JP-OP.png"
+        "file": "LostreamMyura-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP041",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23933",
     "archseries": [
       "Lostream"
     ],
     "password": null,
     "is_legend": false,
     "title": "Lostream Myura",
-    "_wiki_ts": "2026-09-13T16:36:21Z",
+    "_wiki_ts": "2026-10-10T15:02:33Z",
     "card_schema_version": 2,
     "raw_name_en": "Lostream Myura"
   },
@@ -92406,11 +92452,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LostreamNemora-RDCA01-JP-OP.png"
+        "file": "LostreamNemora-RDCA01-JP-UPR.png"
       },
       {
         "artwork": 2,
-        "file": "LostreamNemora-RDCA01-JP-OP-AA.png"
+        "file": "LostreamNemora-RDCA01-JP-ORR-AA.png"
       }
     ],
     "sets_jp": [
@@ -92421,14 +92467,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23929",
     "archseries": [
       "Lostream"
     ],
     "password": null,
     "is_legend": false,
     "title": "Lostream Nemora",
-    "_wiki_ts": "2026-09-26T15:55:12Z",
+    "_wiki_ts": "2026-10-10T15:01:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Lostream Nemora"
   },
@@ -92452,11 +92498,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LostreamNepia-RDCA01-JP-OP.png"
+        "file": "LostreamNepia-RDCA01-JP-UPR.png"
       },
       {
         "artwork": 2,
-        "file": "LostreamNepia-RDCA01-JP-OP-AA.png"
+        "file": "LostreamNepia-RDCA01-JP-ORR-AA.png"
       }
     ],
     "sets_jp": [
@@ -92467,14 +92513,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23930",
     "archseries": [
       "Lostream"
     ],
     "password": null,
     "is_legend": false,
     "title": "Lostream Nepia",
-    "_wiki_ts": "2026-09-26T16:00:19Z",
+    "_wiki_ts": "2026-10-10T15:01:47Z",
     "card_schema_version": 2,
     "raw_name_en": "Lostream Nepia"
   },
@@ -92498,7 +92544,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LostreamNereides-RDSJMP-JP-OP.png"
+        "file": "LostreamNereides-RDSJMP-JP-NPR.png"
       }
     ],
     "sets_jp": [
@@ -92516,7 +92562,7 @@
     "password": null,
     "is_legend": false,
     "title": "Lostream Nereides",
-    "_wiki_ts": "2026-10-01T16:08:27Z",
+    "_wiki_ts": "2026-10-09T19:51:10Z",
     "card_schema_version": 2,
     "raw_name_en": "Lostream Nereides"
   },
@@ -92540,25 +92586,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LostreamPolka-RDCA01-JP-OP.png"
+        "file": "LostreamPolka-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP040",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23932",
     "archseries": [
       "Lostream"
     ],
     "password": null,
     "is_legend": false,
     "title": "Lostream Polka",
-    "_wiki_ts": "2026-09-07T16:29:15Z",
+    "_wiki_ts": "2026-10-10T15:02:10Z",
     "card_schema_version": 2,
     "raw_name_en": "Lostream Polka"
   },
@@ -92582,25 +92628,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LostreamReading-RDCA01-JP-OP.png"
+        "file": "LostreamReading-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP043",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23935",
     "archseries": [
       "Lostream"
     ],
     "password": null,
     "is_legend": false,
     "title": "Lostream Reading",
-    "_wiki_ts": "2026-09-26T16:10:59Z",
+    "_wiki_ts": "2026-10-10T15:02:51Z",
     "card_schema_version": 2,
     "raw_name_en": "Lostream Reading"
   },
@@ -92624,25 +92670,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LostreamRecord-RDCA01-JP-OP.png"
+        "file": "LostreamRecord-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP044",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23936",
     "archseries": [
       "Lostream"
     ],
     "password": null,
     "is_legend": false,
     "title": "Lostream Record",
-    "_wiki_ts": "2026-09-07T17:04:11Z",
+    "_wiki_ts": "2026-10-10T15:03:03Z",
     "card_schema_version": 2,
     "raw_name_en": "Lostream Record"
   },
@@ -92666,25 +92712,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LostreamShell-RDCA01-JP-OP.png"
+        "file": "LostreamShell-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP039",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23931",
     "archseries": [
       "Lostream"
     ],
     "password": null,
     "is_legend": false,
     "title": "Lostream Shell",
-    "_wiki_ts": "2026-09-26T16:18:20Z",
+    "_wiki_ts": "2026-10-10T15:02:00Z",
     "card_schema_version": 2,
     "raw_name_en": "Lostream Shell"
   },
@@ -92708,25 +92754,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LostreamStream-RDCA01-JP-OP.png"
+        "file": "LostreamStream-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP046",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23938",
     "archseries": [
       "Lostream"
     ],
     "password": null,
     "is_legend": false,
     "title": "Lostream Stream",
-    "_wiki_ts": "2026-09-07T17:15:41Z",
+    "_wiki_ts": "2026-10-10T15:03:24Z",
     "card_schema_version": 2,
     "raw_name_en": "Lostream Stream"
   },
@@ -94544,7 +94590,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MadRareAquila-RDSD0D-JP-NPR.png"
+        "file": "MadRareAquila-RDCA01-JP-SPR.png"
       },
       {
         "artwork": 1.1,
@@ -94595,7 +94641,7 @@
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Aquila",
-    "_wiki_ts": "2026-10-01T16:05:07Z",
+    "_wiki_ts": "2026-10-10T15:08:56Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Aquila"
   },
@@ -107253,25 +107299,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "NehimetheDimensionalSwornAlly-RDCA01-JP-OP.png"
+        "file": "NehimetheDimensionalSwornAlly-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP029",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23921",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Nehime the Dimensional Sworn Ally",
-    "_wiki_ts": "2026-09-23T19:53:46Z",
+    "_wiki_ts": "2026-10-10T14:59:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Nehime the Dimensional Sworn Ally"
   },
@@ -108499,25 +108545,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheNomnomLiliputian-RDCA01-JP-OP.png"
+        "file": "TheNomnomLiliputian-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP054",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23946",
     "archseries": [
       "Liliputian"
     ],
     "password": null,
     "is_legend": false,
     "title": "The Nomnom Liliputian",
-    "_wiki_ts": "2026-09-21T17:08:09Z",
+    "_wiki_ts": "2026-10-10T15:04:56Z",
     "card_schema_version": 2,
     "raw_name_en": "The Nomnom Liliputian"
   },
@@ -109252,12 +109298,12 @@
     "condition": null,
     "effect_types": "Continuous",
     "requirement": "None",
-    "effect": "This card gains ATK equal to [the number of Spell Cards in your Graveyard] x 100. Then, if you have 5 or more Spell Cards in your Graveyard, this card gains an additional 500 ATK.",
+    "effect": "This card gains ATK equal to [the number of Spell Cards in your Graveyard] x 100. Then, if you have 5 or more Spell Cards in your Graveyard, it gains an additional 500 ATK.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "ObsidianMagicalSoldier-RDSD0E-JP-C.png"
+        "file": "ObsidianMagicalSoldier-RDCA01-JP-SPR.png"
       }
     ],
     "sets_jp": [
@@ -109279,7 +109325,7 @@
       {
         "code": "RD/CA01-JP007",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -109301,7 +109347,7 @@
     "password": null,
     "is_legend": false,
     "title": "Obsidian Magical Soldier",
-    "_wiki_ts": "2026-08-24T20:51:27Z",
+    "_wiki_ts": "2026-10-10T14:54:48Z",
     "card_schema_version": 2,
     "raw_name_en": "Obsidian Magical Soldier"
   },
@@ -111461,7 +111507,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "OverRushStorm-RDORP2-JP-UR.png"
+        "file": "OverRushStorm-RDCA01-JP-SPR.png"
       },
       {
         "artwork": 2,
@@ -111482,7 +111528,7 @@
       {
         "code": "RD/CA01-JP077",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -111502,7 +111548,7 @@
     "password": null,
     "is_legend": false,
     "title": "Over Rush Storm",
-    "_wiki_ts": "2026-09-30T16:18:51Z",
+    "_wiki_ts": "2026-10-10T15:10:34Z",
     "card_schema_version": 2,
     "raw_name_en": "Over Rush Storm"
   },
@@ -114859,25 +114905,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "PitchDarkEradicatorSorcerer-RDCA01-JP-OP.png"
+        "file": "PitchDarkEradicatorSorcerer-RDCA01-JP-UPR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP008",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Parallel Rare"
+        "rarity": "Ultra Parallel Rare, Secret Parallel Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23906",
     "archseries": [
       "Dark Magician"
     ],
     "password": null,
     "is_legend": false,
     "title": "Pitch-Dark Eradicator Sorcerer",
-    "_wiki_ts": "2026-08-25T02:16:12Z",
+    "_wiki_ts": "2026-10-10T14:55:01Z",
     "card_schema_version": 2,
     "raw_name_en": "Pitch-Dark Eradicator Sorcerer"
   },
@@ -122823,7 +122869,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "RAMClouder-RDLGP2-JP-C.png"
+        "file": "RAMClouder-RDCA01-JP-SPR.png"
       }
     ],
     "sets_jp": [
@@ -122835,7 +122881,7 @@
       {
         "code": "RD/CA01-JP070",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -122850,7 +122896,7 @@
     "password": null,
     "is_legend": true,
     "title": "RAM Clouder",
-    "_wiki_ts": "2026-09-15T14:49:31Z",
+    "_wiki_ts": "2026-10-10T15:08:33Z",
     "card_schema_version": 2,
     "raw_name_en": "RAM Clouder (Rush Duel)"
   },
@@ -124523,25 +124569,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ReifutheDimensionalSwornAlly-RDCA01-JP-OP.png"
+        "file": "ReifutheDimensionalSwornAlly-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP028",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23920",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Reifu the Dimensional Sworn Ally",
-    "_wiki_ts": "2026-09-23T19:54:53Z",
+    "_wiki_ts": "2026-10-10T14:59:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Reifu the Dimensional Sworn Ally"
   },
@@ -125735,25 +125781,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ReturneeoftheTemple-RDCA01-JP-OP.png"
+        "file": "ReturneeoftheTemple-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP013",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23909",
     "archseries": [
       "Dark Magician"
     ],
     "password": null,
     "is_legend": false,
     "title": "Returnee of the Temple",
-    "_wiki_ts": "2026-09-28T17:05:36Z",
+    "_wiki_ts": "2026-10-10T14:56:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Returnee of the Temple"
   },
@@ -133700,25 +133746,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SearchingFuden-RDCA01-JP-OP.png"
+        "file": "SearchingFuden-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP033",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23925",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Searching Fuden",
-    "_wiki_ts": "2026-09-13T16:24:00Z",
+    "_wiki_ts": "2026-10-10T15:00:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Searching Fuden"
   },
@@ -137929,7 +137975,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ShipofSevenTreasures-RDSD0E-JP-C.png"
+        "file": "ShipofSevenTreasures-RDCA01-JP-ScPR.png"
       },
       {
         "artwork": 2,
@@ -137966,6 +138012,11 @@
         "code": "RD/SD0E-JP037",
         "name": "Structure Deck: Black Magic Ritual",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/CA01-JP079",
+        "name": "Cross Art Collection",
+        "rarity": "Secret Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -138012,7 +138063,7 @@
     "password": null,
     "is_legend": false,
     "title": "Ship of Seven Treasures",
-    "_wiki_ts": "2026-09-22T09:27:52Z",
+    "_wiki_ts": "2026-10-10T15:11:01Z",
     "card_schema_version": 2,
     "raw_name_en": "Ship of Seven Treasures"
   },
@@ -139347,23 +139398,23 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SinfulSpoilsofDoomRciela-RDCA01-JP-OP.png"
+        "file": "SinfulSpoilsofDoomRciela-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP049",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23941",
     "archseries": [],
     "password": null,
     "is_legend": true,
     "title": "Sinful Spoils of Doom - Rciela",
-    "_wiki_ts": "2026-09-13T17:20:30Z",
+    "_wiki_ts": "2026-10-10T15:03:55Z",
     "card_schema_version": 2,
     "raw_name_en": "Sinful Spoils of Doom - Rciela (Rush Duel)"
   },
@@ -140614,25 +140665,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheSleepingNamelessDragon-RDCA01-JP-OP.png"
+        "file": "TheSleepingNamelessDragon-RDCA01-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP019",
         "name": "Cross Art Collection",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23913",
     "archseries": [
       "Dark Magician"
     ],
     "password": null,
     "is_legend": false,
     "title": "The Sleeping Nameless Dragon",
-    "_wiki_ts": "2026-08-28T17:52:57Z",
+    "_wiki_ts": "2026-10-10T14:57:41Z",
     "card_schema_version": 2,
     "raw_name_en": "The Sleeping Nameless Dragon"
   },
@@ -143930,7 +143981,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SpellExtraction-RDSD0E-JP-C.png"
+        "file": "SpellExtraction-RDCA01-JP-SPR.png"
       }
     ],
     "sets_jp": [
@@ -143947,7 +143998,7 @@
       {
         "code": "RD/CA01-JP020",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -143969,7 +144020,7 @@
     "password": null,
     "is_legend": false,
     "title": "Spell Extraction",
-    "_wiki_ts": "2026-08-24T23:30:14Z",
+    "_wiki_ts": "2026-10-10T14:57:51Z",
     "card_schema_version": 2,
     "raw_name_en": "Spell Extraction"
   },
@@ -147496,7 +147547,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "StoneoftheDarkMagicians-RDSD0E-JP-NPR.png"
+        "file": "StoneoftheDarkMagicians-RDCA01-JP-SPR.png"
       }
     ],
     "sets_jp": [
@@ -147513,7 +147564,7 @@
       {
         "code": "RD/CA01-JP018",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -147535,7 +147586,7 @@
     "password": null,
     "is_legend": false,
     "title": "Stone of the Dark Magicians",
-    "_wiki_ts": "2026-08-24T23:27:49Z",
+    "_wiki_ts": "2026-10-10T14:57:30Z",
     "card_schema_version": 2,
     "raw_name_en": "Stone of the Dark Magicians"
   },
@@ -151427,7 +151478,7 @@
       },
       {
         "artwork": 2,
-        "file": "SurtrtheBrilliantMagicalSword-RDKP26-JP-OP-AA.png"
+        "file": "SurtrtheBrilliantMagicalSword-RDKP26-JP-ORRBlack.png"
       }
     ],
     "sets_jp": [
@@ -151443,7 +151494,7 @@
     "password": null,
     "is_legend": false,
     "title": "Surtr the Brilliant Magical Sword",
-    "_wiki_ts": "2026-08-21T16:44:56Z",
+    "_wiki_ts": "2026-10-08T16:00:20Z",
     "card_schema_version": 2,
     "raw_name_en": "Surtr the Brilliant Magical Sword"
   },
@@ -152783,7 +152834,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TamaTamaGachance-RDSJMP-JP-NPR.png"
+        "file": "TamaTamaGachance-RDCA01-JP-SPR.png"
       }
     ],
     "sets_jp": [
@@ -152795,7 +152846,7 @@
       {
         "code": "RD/CA01-JP081",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -152812,7 +152863,7 @@
     "password": null,
     "is_legend": false,
     "title": "Tama Tama Gachance",
-    "_wiki_ts": "2026-09-23T17:46:49Z",
+    "_wiki_ts": "2026-10-10T15:11:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Tama Tama Gachance"
   },
@@ -155716,7 +155767,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TraditionalTax-RDKP12-JP-SR.png"
+        "file": "TraditionalTax-RDCA01-JP-SPR.png"
       },
       {
         "artwork": 2,
@@ -155737,7 +155788,7 @@
       {
         "code": "RD/CA01-JP084",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -155762,7 +155813,7 @@
     "password": null,
     "is_legend": false,
     "title": "Traditional Tax",
-    "_wiki_ts": "2026-09-24T15:07:02Z",
+    "_wiki_ts": "2026-10-10T15:12:03Z",
     "card_schema_version": 2,
     "raw_name_en": "Traditional Tax"
   },
@@ -158471,7 +158522,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TrombowtheMusicPrincessofMelodicCrown-RDAP01-JP-C.png"
+        "file": "TrombowtheMusicPrincessofMelodicCrown-RDCA01-JP-SPR.png"
       },
       {
         "artwork": 2,
@@ -158492,7 +158543,7 @@
       {
         "code": "RD/CA01-JP074",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -158514,7 +158565,7 @@
     "password": null,
     "is_legend": false,
     "title": "Trombow the Music Princess of Melodic Crown",
-    "_wiki_ts": "2026-09-22T15:19:23Z",
+    "_wiki_ts": "2026-10-10T15:09:50Z",
     "card_schema_version": 2,
     "raw_name_en": "Trombow the Music Princess of Melodic Crown"
   },
@@ -161442,7 +161493,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheUnitedFrontwithTimaeus-RDCA01-JP-OP.png"
+        "file": "TheUnitedFrontwithTimaeus-RDCA01-JP-UPR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "TheUnitedFrontwithTimaeus-RDCA01-JP-ORR-AA.png"
       }
     ],
     "sets_jp": [
@@ -161453,14 +161508,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23911",
     "archseries": [
       "Dark Magician"
     ],
     "password": null,
     "is_legend": false,
     "title": "The United Front with Timaeus",
-    "_wiki_ts": "2026-08-28T18:29:54Z",
+    "_wiki_ts": "2026-10-10T14:57:05Z",
     "card_schema_version": 2,
     "raw_name_en": "The United Front with Timaeus"
   },
@@ -162791,7 +162846,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheVeryKindHuman-RDCA01-JP-OP.png"
+        "file": "TheVeryKindHuman-RDCA01-JP-UPR.png"
       }
     ],
     "sets_jp": [
@@ -162802,14 +162857,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23944",
     "archseries": [
       "Liliputian"
     ],
     "password": null,
     "is_legend": false,
     "title": "The Very Kind Human",
-    "_wiki_ts": "2026-09-24T15:10:34Z",
+    "_wiki_ts": "2026-10-10T15:04:37Z",
     "card_schema_version": 2,
     "raw_name_en": "The Very Kind Human"
   },
@@ -162834,7 +162889,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "VeteranCurseofDragon-RDKP14-JP-SR.png"
+        "file": "VeteranCurseofDragon-RDCA01-JP-ScPR.png"
       },
       {
         "artwork": 2,
@@ -162877,7 +162932,7 @@
     "password": null,
     "is_legend": false,
     "title": "Veteran Curse of Dragon",
-    "_wiki_ts": "2026-09-25T17:11:18Z",
+    "_wiki_ts": "2026-10-10T14:55:37Z",
     "card_schema_version": 2,
     "raw_name_en": "Veteran Curse of Dragon"
   },
@@ -166520,7 +166575,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "WakoGozenRiletta-RDCA01-JP-OP.png"
+        "file": "WakoGozenRiletta-RDCA01-JP-UPR.png"
       }
     ],
     "sets_jp": [
@@ -166531,14 +166586,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23914",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Wako Gozen Riletta",
-    "_wiki_ts": "2026-08-28T18:30:28Z",
+    "_wiki_ts": "2026-10-10T14:58:15Z",
     "card_schema_version": 2,
     "raw_name_en": "Wako Gozen Riletta"
   },
@@ -166923,7 +166978,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "WasoGozenLinker-RDCA01-JP-OP.png"
+        "file": "WasoGozenLinker-RDCA01-JP-UPR.png"
       }
     ],
     "sets_jp": [
@@ -166934,14 +166989,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23915",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Waso Gozen Linker",
-    "_wiki_ts": "2026-08-28T18:30:51Z",
+    "_wiki_ts": "2026-10-10T14:58:25Z",
     "card_schema_version": 2,
     "raw_name_en": "Waso Gozen Linker"
   },
@@ -168690,7 +168745,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "WizenedDarkMagician-RDSD0E-JP-C.png"
+        "file": "WizenedDarkMagician-RDCA01-JP-SPR.png"
       }
     ],
     "sets_jp": [
@@ -168707,7 +168762,7 @@
       {
         "code": "RD/CA01-JP014",
         "name": "Cross Art Collection",
-        "rarity": "Super Parallel Rare"
+        "rarity": "Super Parallel Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -168729,7 +168784,7 @@
     "password": null,
     "is_legend": false,
     "title": "Wizened Dark Magician",
-    "_wiki_ts": "2026-08-24T21:03:34Z",
+    "_wiki_ts": "2026-10-10T14:56:33Z",
     "card_schema_version": 2,
     "raw_name_en": "Wizened Dark Magician"
   },
@@ -173423,23 +173478,23 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AttracCharmMidi-RDCA01-JP-OP.png"
+        "file": "AttracCharmMidi-RDCA01-JP-UPR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP056",
         "name": "Cross Art Collection",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23948",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Attrac Charm Midi",
-    "_wiki_ts": "2026-10-03T19:55:19Z",
+    "_wiki_ts": "2026-10-10T15:05:18Z",
     "card_schema_version": 2,
     "raw_name_en": "Attrac Charm Midi"
   },
@@ -173463,23 +173518,23 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AttracCharmSowaru-RDCA01-JP-OP.png"
+        "file": "AttracCharmSowaru-RDCA01-JP-UPR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/CA01-JP055",
         "name": "Cross Art Collection",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23947",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Attrac Charm Sowaru",
-    "_wiki_ts": "2026-10-03T19:58:33Z",
+    "_wiki_ts": "2026-10-10T15:05:06Z",
     "card_schema_version": 2,
     "raw_name_en": "Attrac Charm Sowaru"
   },
@@ -174277,5 +174332,133 @@
     "_wiki_ts": "2026-10-01T12:00:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Worshiper of the Blightblaze"
+  },
+  {
+    "name_ja": "Ａチャーム・スーベニア",
+    "name_ja_romaji": "Atoraku Chāmu Sūbenia",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Special Summon 1 Level 4 Beast-Warrior Type Union monster from your Graveyard face-up to your field. Then, if you have a face-up \"Attrac Charm Sowaru\" and \"Attrac Charm Midi\" on your field, you can destroy 1 face-up Level 8 or lower monster on your opponent's field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "AttracCharmSouvenir-RDCA01-JP-UR.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP057",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Rare, Secret Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": "23949",
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Attrac Charm Souvenir",
+    "_wiki_ts": "2026-10-10T15:05:27Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Attrac Charm Souvenir"
+  },
+  {
+    "name_ja": "悪魔の印ルーファ",
+    "name_ja_romaji": "Akuma no Shirushi Rūfa",
+    "attribute": null,
+    "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "When your opponent Normal or Special Summons a monster.",
+    "effect": "Choose 2 Attack Position monsters with 2500 or less ATK and different Types on your field. This turn, those monsters cannot be destroyed by card effects or returned to the hand/Deck/Extra Deck by card effects. Then, if you have \"Micha the Symbol of the Angels\" in your Graveyard, you can return 1 face-up Level 8 or lower monster from your opponent's field to the owner's hand.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LufertheSymboloftheDevils-RDCA01-JP-UPR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "LufertheSymboloftheDevils-RDCA01-JP-ORR-AA.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP059",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": "23951",
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Lufer the Symbol of the Devils",
+    "_wiki_ts": "2026-10-10T15:05:55Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Lufer the Symbol of the Devils"
+  },
+  {
+    "name_ja": "天使の印ミカ",
+    "name_ja_romaji": "Tenshi no Shirushi Mika",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "There are 2 or more different Types among the face-up monsters on the field during a turn you have not activated \"Micha the Symbol of the Angels\".",
+    "effect": "Draw 1 card. Then, if you have \"Lufer the Symbol of the Devils\" in your Graveyard, you can Special Summon 1 Level 4 monster from your opponent's Graveyard face-up to your field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MichatheSymboloftheAngels-RDCA01-JP-UPR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "MichatheSymboloftheAngels-RDCA01-JP-ORR-AA.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/CA01-JP058",
+        "name": "Cross Art Collection",
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": "23950",
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Micha the Symbol of the Angels",
+    "_wiki_ts": "2026-10-10T15:05:41Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Micha the Symbol of the Angels"
   }
 ]
