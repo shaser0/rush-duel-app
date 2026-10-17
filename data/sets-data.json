@@ -5972,5 +5972,12 @@
     "coverImage": "RDKP28-BoosterJP.png",
     "cardsPerPack": 5,
     "declaredSize": null
+  },
+  "Limited Pack Another Style Edition": {
+    "releaseDateJP": "January 2027",
+    "packsPerBox": 10,
+    "coverImage": "RDLP02-BoosterJP.png",
+    "cardsPerPack": 4,
+    "declaredSize": null
   }
 }

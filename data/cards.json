@@ -10954,6 +10954,10 @@
       {
         "artwork": 1.1,
         "file": "BandijotheBattleBallad-RD5TH1-KR-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "BandijotheBattleBallad-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -10966,6 +10970,11 @@
         "code": "RD/5TH1-JP088",
         "name": "5th Anniversary Pack",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP052",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -10987,7 +10996,7 @@
     "password": null,
     "is_legend": false,
     "title": "Bandijo the Battle Ballad",
-    "_wiki_ts": "2025-09-22T00:24:14Z",
+    "_wiki_ts": "2026-10-13T20:43:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Bandijo the Battle Ballad"
   },
@@ -16608,7 +16617,7 @@
     "password": null,
     "is_legend": true,
     "title": "Blue-Eyes White Dragon",
-    "_wiki_ts": "2026-07-19T01:46:53Z",
+    "_wiki_ts": "2026-10-15T22:32:29Z",
     "card_schema_version": 2,
     "raw_name_en": "Blue-Eyes White Dragon (Rush Duel)"
   },
@@ -17900,12 +17909,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23664",
     "archseries": [],
     "password": null,
     "is_legend": true,
     "title": "Bottomless Trap Hole",
-    "_wiki_ts": "2026-08-20T20:15:39Z",
+    "_wiki_ts": "2026-10-15T22:09:17Z",
     "card_schema_version": 2,
     "raw_name_en": "Bottomless Trap Hole (Rush Duel)"
   },
@@ -18092,12 +18101,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23663",
     "archseries": [],
     "password": null,
     "is_legend": true,
     "title": "Brain Control",
-    "_wiki_ts": "2026-08-17T16:53:31Z",
+    "_wiki_ts": "2026-10-15T22:08:45Z",
     "card_schema_version": 2,
     "raw_name_en": "Brain Control (Rush Duel)"
   },
@@ -18397,12 +18406,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23662",
     "archseries": [],
     "password": null,
     "is_legend": true,
     "title": "Breaker the Magical Warrior",
-    "_wiki_ts": "2026-07-05T18:52:26Z",
+    "_wiki_ts": "2026-10-15T22:07:55Z",
     "card_schema_version": 2,
     "raw_name_en": "Breaker the Magical Warrior (Rush Duel)"
   },
@@ -19468,7 +19477,7 @@
     "password": null,
     "is_legend": true,
     "title": "Buster Blader",
-    "_wiki_ts": "2026-09-28T02:31:07Z",
+    "_wiki_ts": "2026-10-15T22:35:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Buster Blader (Rush Duel)"
   },
@@ -23444,7 +23453,7 @@
     "password": null,
     "is_legend": false,
     "title": "Chaos Sentinel",
-    "_wiki_ts": "2026-07-05T18:48:54Z",
+    "_wiki_ts": "2026-10-13T16:02:53Z",
     "card_schema_version": 2,
     "raw_name_en": "Chaos Sentinel"
   },
@@ -29156,6 +29165,10 @@
       {
         "artwork": 1,
         "file": "CosmostartheBlackHolePolairy-RDORP3-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "CosmostartheBlackHolePolairy-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -29163,6 +29176,11 @@
         "code": "RD/ORP3-JP044",
         "name": "Over Rush Pack 3",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP012",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -29179,7 +29197,7 @@
     "password": null,
     "is_legend": false,
     "title": "Cosmostar the Black Hole Polairy",
-    "_wiki_ts": "2026-01-20T11:50:10Z",
+    "_wiki_ts": "2026-10-13T17:20:20Z",
     "card_schema_version": 2,
     "raw_name_en": "Cosmostar the Black Hole Polairy"
   },
@@ -31555,7 +31573,7 @@
     "password": null,
     "is_legend": false,
     "title": "Cyber Dragon",
-    "_wiki_ts": "2026-06-23T07:25:53Z",
+    "_wiki_ts": "2026-10-15T23:26:56Z",
     "card_schema_version": 2,
     "raw_name_en": "Cyber Dragon (Rush Duel)"
   },
@@ -34786,14 +34804,14 @@
         "rarity": "Super Parallel Rare"
       },
       {
-        "code": "RD/LP01-JP027",
-        "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare, Secret Rare"
-      },
-      {
         "code": "RD/CA01-JP004",
         "name": "Cross Art Collection",
         "rarity": "Super Parallel Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP01-JP027",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -34845,7 +34863,7 @@
     "password": null,
     "is_legend": true,
     "title": "Dark Magician",
-    "_wiki_ts": "2026-10-10T14:53:54Z",
+    "_wiki_ts": "2026-10-15T22:31:55Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Magician (Rush Duel)"
   },
@@ -34928,14 +34946,14 @@
         "rarity": "Super Parallel Rare"
       },
       {
-        "code": "RD/LP01-JP031",
-        "name": "Limited Pack Remastered Edition",
-        "rarity": "Ultra Rare, Secret Rare"
-      },
-      {
         "code": "RD/CA01-JP005",
         "name": "Cross Art Collection",
         "rarity": "Secret Parallel Rare"
+      },
+      {
+        "code": "RD/LP01-JP031",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare, Secret Rare"
       }
     ],
     "sets_kr": [
@@ -34977,7 +34995,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dark Magician Girl",
-    "_wiki_ts": "2026-10-10T14:54:23Z",
+    "_wiki_ts": "2026-10-15T22:34:40Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Magician Girl (Rush Duel)"
   },
@@ -35023,7 +35041,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dark Magician Girl the Dragon Knight",
-    "_wiki_ts": "2026-10-10T14:52:38Z",
+    "_wiki_ts": "2026-10-17T15:39:46Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Magician Girl the Dragon Knight (Rush Duel)"
   },
@@ -35104,14 +35122,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23661",
     "archseries": [
       "Dark Magician"
     ],
     "password": null,
     "is_legend": false,
     "title": "Dark Magician of Chaos",
-    "_wiki_ts": "2026-09-28T16:59:41Z",
+    "_wiki_ts": "2026-10-15T22:06:56Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Magician of Chaos (Rush Duel)"
   },
@@ -35169,7 +35187,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dark Magician the Dragon Knight",
-    "_wiki_ts": "2026-10-10T14:53:08Z",
+    "_wiki_ts": "2026-10-16T18:41:20Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Magician the Dragon Knight (Rush Duel)"
   },
@@ -36482,7 +36500,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dark Paladin",
-    "_wiki_ts": "2026-09-28T02:33:35Z",
+    "_wiki_ts": "2026-10-15T22:35:53Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Paladin (Rush Duel)"
   },
@@ -40380,6 +40398,10 @@
       {
         "artwork": 1,
         "file": "DendrovenusthePlanetairy-RDORP3-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "DendrovenusthePlanetairy-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -40387,6 +40409,11 @@
         "code": "RD/ORP3-JP052",
         "name": "Over Rush Pack 3",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP004",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -40403,7 +40430,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dendrovenus the Planetairy",
-    "_wiki_ts": "2026-01-20T11:50:52Z",
+    "_wiki_ts": "2026-10-13T16:14:46Z",
     "card_schema_version": 2,
     "raw_name_en": "Dendrovenus the Planetairy"
   },
@@ -45850,7 +45877,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DoushinKaikatheShadowFlowerFullMoon-RDB251-JP-SR.png"
+        "file": "DoushinKaikatheShadowFlowerFullMoon-RDB251-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -45889,7 +45916,7 @@
     "password": null,
     "is_legend": false,
     "title": "Doushin Kaika the Shadow Flower Full Moon",
-    "_wiki_ts": "2025-10-13T07:38:13Z",
+    "_wiki_ts": "2026-10-15T12:00:49Z",
     "card_schema_version": 2,
     "raw_name_en": "Doushin Kaika the Shadow Flower Full Moon"
   },
@@ -51176,6 +51203,14 @@
       {
         "artwork": 2,
         "file": "ElementalHEROAvian-RD711D-JP-NPR.png"
+      },
+      {
+        "artwork": 3,
+        "file": "ElementalHEROAvian-RDLP02-JP-OP-AA.png"
+      },
+      {
+        "artwork": 4,
+        "file": "ElementalHEROAvian-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -51198,6 +51233,16 @@
         "code": "RD/P005-JP001",
         "name": "Fusion Duel Tournament Part 1 prize cards",
         "rarity": "Secret Rare (Special Red Version)"
+      },
+      {
+        "code": "RD/LP01-JP037",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
+      },
+      {
+        "code": "RD/LP02-JP057",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -51224,7 +51269,7 @@
     "password": null,
     "is_legend": false,
     "title": "Elemental HERO Avian",
-    "_wiki_ts": "2025-09-19T18:41:19Z",
+    "_wiki_ts": "2026-10-15T22:39:17Z",
     "card_schema_version": 2,
     "raw_name_en": "Elemental HERO Avian (Rush Duel)"
   },
@@ -51299,6 +51344,10 @@
       {
         "artwork": 1,
         "file": "ElementalHEROBubbleman-RDSD0B-JP-C.png"
+      },
+      {
+        "artwork": 2,
+        "file": "ElementalHEROBubbleman-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -51311,6 +51360,16 @@
         "code": "RD/SD0B-JPS10",
         "name": "Structure Deck: Birth of Hero",
         "rarity": "Super Rare"
+      },
+      {
+        "code": "RD/LP01-JP042",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
+      },
+      {
+        "code": "RD/LP02-JP029",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -51332,7 +51391,7 @@
     "password": null,
     "is_legend": false,
     "title": "Elemental HERO Bubbleman",
-    "_wiki_ts": "2025-05-20T20:22:38Z",
+    "_wiki_ts": "2026-10-15T22:56:17Z",
     "card_schema_version": 2,
     "raw_name_en": "Elemental HERO Bubbleman (Rush Duel)"
   },
@@ -51358,6 +51417,10 @@
       {
         "artwork": 1,
         "file": "ElementalHEROBurstWingman-RDAP01-JP-ScR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "ElementalHEROBurstWingman-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -51375,6 +51438,11 @@
         "code": "RD/AP01-JP083",
         "name": "Advance Pack: Devil's Ceremony",
         "rarity": "Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP032",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -51401,7 +51469,7 @@
     "password": null,
     "is_legend": false,
     "title": "Elemental HERO Burst Wingman",
-    "_wiki_ts": "2026-05-17T17:13:02Z",
+    "_wiki_ts": "2026-10-13T18:37:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Elemental HERO Burst Wingman"
   },
@@ -51435,6 +51503,14 @@
       {
         "artwork": 2,
         "file": "ElementalHEROBurstinatrix-RD711D-JP-NPR.png"
+      },
+      {
+        "artwork": 3,
+        "file": "ElementalHEROBurstinatrix-RDLP02-JP-OP-AA.png"
+      },
+      {
+        "artwork": 4,
+        "file": "ElementalHEROBurstinatrix-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -51457,6 +51533,16 @@
         "code": "RD/P005-JP003",
         "name": "Fusion Duel Tournament Part 2 prize cards",
         "rarity": "Secret Rare (Special Red Version)"
+      },
+      {
+        "code": "RD/LP01-JP038",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
+      },
+      {
+        "code": "RD/LP02-JP058",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -51483,7 +51569,7 @@
     "password": null,
     "is_legend": false,
     "title": "Elemental HERO Burstinatrix",
-    "_wiki_ts": "2025-09-19T18:42:40Z",
+    "_wiki_ts": "2026-10-15T22:42:06Z",
     "card_schema_version": 2,
     "raw_name_en": "Elemental HERO Burstinatrix (Rush Duel)"
   },
@@ -51509,6 +51595,10 @@
       {
         "artwork": 1,
         "file": "ElementalHEROClayman-RDP005-JP-ScRRed.png"
+      },
+      {
+        "artwork": 2,
+        "file": "ElementalHEROClayman-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -51531,6 +51621,16 @@
         "code": "RD/TH01-JP012",
         "name": "Half Deck: Warrior Type",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/LP01-JP039",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
+      },
+      {
+        "code": "RD/LP02-JP027",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -51557,7 +51657,7 @@
     "password": null,
     "is_legend": false,
     "title": "Elemental HERO Clayman",
-    "_wiki_ts": "2026-04-06T19:51:57Z",
+    "_wiki_ts": "2026-10-15T22:44:23Z",
     "card_schema_version": 2,
     "raw_name_en": "Elemental HERO Clayman (Rush Duel)"
   },
@@ -51626,6 +51726,10 @@
       {
         "artwork": 1,
         "file": "ElementalHEROFlameWingman-RDAP01-JP-ScR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "ElementalHEROFlameWingman-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -51643,6 +51747,11 @@
         "code": "RD/AP01-JP082",
         "name": "Advance Pack: Devil's Ceremony",
         "rarity": "Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP033",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -51669,7 +51778,7 @@
     "password": null,
     "is_legend": false,
     "title": "Elemental HERO Flame Wingman",
-    "_wiki_ts": "2026-07-01T04:36:11Z",
+    "_wiki_ts": "2026-10-13T18:44:53Z",
     "card_schema_version": 2,
     "raw_name_en": "Elemental HERO Flame Wingman (Rush Duel)"
   },
@@ -51850,6 +51959,11 @@
         "code": "RD/SJMP-JP042",
         "name": "Saikyō Jump September 2024 promotional card",
         "rarity": "Normal Parallel Rare"
+      },
+      {
+        "code": "RD/LP01-JP049",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -51866,7 +51980,7 @@
     "password": null,
     "is_legend": false,
     "title": "Elemental HERO Mudballman",
-    "_wiki_ts": "2025-06-25T09:06:31Z",
+    "_wiki_ts": "2026-10-15T23:09:49Z",
     "card_schema_version": 2,
     "raw_name_en": "Elemental HERO Mudballman (Rush Duel)"
   },
@@ -52231,6 +52345,14 @@
       {
         "artwork": 2,
         "file": "ElementalHEROSparkman-RD711D-JP-NPR.png"
+      },
+      {
+        "artwork": 3,
+        "file": "ElementalHEROSparkman-RDLP02-JP-OP-AA.png"
+      },
+      {
+        "artwork": 4,
+        "file": "ElementalHEROSparkman-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -52253,6 +52375,16 @@
         "code": "RD/P005-JP002",
         "name": "Fusion Duel Tournament Part 1 prize cards",
         "rarity": "Secret Rare (Special Red Version)"
+      },
+      {
+        "code": "RD/LP01-JP040",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
+      },
+      {
+        "code": "RD/LP02-JP059",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -52279,7 +52411,7 @@
     "password": null,
     "is_legend": false,
     "title": "Elemental HERO Sparkman",
-    "_wiki_ts": "2026-01-23T15:06:48Z",
+    "_wiki_ts": "2026-10-15T22:46:18Z",
     "card_schema_version": 2,
     "raw_name_en": "Elemental HERO Sparkman (Rush Duel)"
   },
@@ -52305,6 +52437,10 @@
       {
         "artwork": 1,
         "file": "ElementalHEROThunderGiant-RDSD0B-JP-C.png"
+      },
+      {
+        "artwork": 2,
+        "file": "ElementalHEROThunderGiant-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -52321,6 +52457,11 @@
       {
         "code": "RD/VC25-JP001",
         "name": "Jump Victory Carnival 2025 promotional card",
+        "rarity": "Ultra Rare"
+      },
+      {
+        "code": "RD/LP02-JP034",
+        "name": "Limited Pack Another Style Edition",
         "rarity": "Ultra Rare"
       }
     ],
@@ -52343,7 +52484,7 @@
     "password": null,
     "is_legend": false,
     "title": "Elemental HERO Thunder Giant",
-    "_wiki_ts": "2026-07-10T21:42:52Z",
+    "_wiki_ts": "2026-10-13T18:49:48Z",
     "card_schema_version": 2,
     "raw_name_en": "Elemental HERO Thunder Giant (Rush Duel)"
   },
@@ -52369,6 +52510,10 @@
       {
         "artwork": 1,
         "file": "ElementalHEROVolticWingman-RDKP20-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "ElementalHEROVolticWingman-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -52376,6 +52521,11 @@
         "code": "RD/KP20-JP065",
         "name": "Galactica of Eternity",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP031",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -52392,7 +52542,7 @@
     "password": null,
     "is_legend": false,
     "title": "Elemental HERO Voltic Wingman",
-    "_wiki_ts": "2025-06-25T09:13:44Z",
+    "_wiki_ts": "2026-10-13T18:34:03Z",
     "card_schema_version": 2,
     "raw_name_en": "Elemental HERO Voltic Wingman"
   },
@@ -55383,6 +55533,14 @@
       {
         "artwork": 4,
         "file": "EverGracePrincessKana-RDB254-JP-SR.png"
+      },
+      {
+        "artwork": 5,
+        "file": "EverGracePrincessKana-RD26IM-KR-OP.png"
+      },
+      {
+        "artwork": 5.1,
+        "file": "EverGracePrincessKana-RD26IM-KR-OP-AA.png"
       }
     ],
     "sets_jp": [
@@ -55462,6 +55620,16 @@
         "code": "RD/KP22-KR037",
         "name": "OuTerverSe of Terror",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/26IM-KR002",
+        "name": "I Park Mall Pop-Up promotional cards",
+        "rarity": "Ultra Rare (Special Red Version)"
+      },
+      {
+        "code": "RD/26IM-KR003",
+        "name": "I Park Mall Pop-Up promotional cards",
+        "rarity": "Ultra Rare (Special Red Version)"
       }
     ],
     "database_id": "22013",
@@ -55471,7 +55639,7 @@
     "password": null,
     "is_legend": false,
     "title": "Ever-Grace Princess Kana",
-    "_wiki_ts": "2026-05-07T17:26:27Z",
+    "_wiki_ts": "2026-10-14T23:54:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Ever-Grace Princess Kana"
   },
@@ -56770,7 +56938,7 @@
     "password": null,
     "is_legend": false,
     "title": "Excutie Lumière",
-    "_wiki_ts": "2026-03-11T16:03:39Z",
+    "_wiki_ts": "2026-10-17T15:48:21Z",
     "card_schema_version": 2,
     "raw_name_en": "Excutie Lumière"
   },
@@ -58820,7 +58988,7 @@
     "name_ja": "現世の戦い",
     "name_ja_romaji": "Gense no Tatakai",
     "name_ko": "현세의 싸움",
-    "name_translated": "Battle for this World",
+    "name_translated": "Present Battle",
     "attribute": null,
     "types": null,
     "card_type": "Trap",
@@ -58862,7 +59030,7 @@
     "password": null,
     "is_legend": false,
     "title": "Fate of the World",
-    "_wiki_ts": "2026-04-20T22:27:11Z",
+    "_wiki_ts": "2026-10-16T21:10:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Fate of the World"
   },
@@ -60775,7 +60943,7 @@
   },
   {
     "name_ja": "神殿に巣食う炎龍",
-    "name_ja_romaji": "Shinden ni Sukū Enryū",
+    "name_ja_romaji": "Shinden ni Sukuu Enryū",
     "attribute": "FIRE",
     "types": "Dragon / Effect",
     "card_type": null,
@@ -60809,7 +60977,7 @@
     "password": null,
     "is_legend": false,
     "title": "The Flame Dragon Haunting the Temple",
-    "_wiki_ts": "2026-10-10T15:03:35Z",
+    "_wiki_ts": "2026-10-16T14:48:51Z",
     "card_schema_version": 2,
     "raw_name_en": "The Flame Dragon Haunting the Temple"
   },
@@ -61914,12 +62082,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23671",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "The Forceful Sentry",
-    "_wiki_ts": "2026-07-19T01:34:38Z",
+    "_wiki_ts": "2026-10-15T22:14:35Z",
     "card_schema_version": 2,
     "raw_name_en": "The Forceful Sentry (Rush Duel)"
   },
@@ -62159,6 +62327,11 @@
         "code": "RD/KP24-JP041",
         "name": "Overforce of the Abyss",
         "rarity": "Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP01-JP052",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -62173,7 +62346,7 @@
     "password": null,
     "is_legend": false,
     "title": "Fortress Whale",
-    "_wiki_ts": "2026-06-11T11:19:28Z",
+    "_wiki_ts": "2026-10-15T23:15:34Z",
     "card_schema_version": 2,
     "raw_name_en": "Fortress Whale (Rush Duel)"
   },
@@ -62206,6 +62379,11 @@
         "code": "RD/KP24-JP057",
         "name": "Overforce of the Abyss",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/LP01-JP055",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -62220,7 +62398,7 @@
     "password": null,
     "is_legend": false,
     "title": "Fortress Whale's Oath",
-    "_wiki_ts": "2026-07-02T01:48:04Z",
+    "_wiki_ts": "2026-10-15T23:22:58Z",
     "card_schema_version": 2,
     "raw_name_en": "Fortress Whale's Oath (Rush Duel)"
   },
@@ -63659,6 +63837,11 @@
         "code": "RD/AP03-JP023",
         "name": "Advance Pack: Union Base",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/LP02-JP037",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -63728,7 +63911,7 @@
     "password": null,
     "is_legend": false,
     "title": "Fusion",
-    "_wiki_ts": "2026-08-03T19:20:51Z",
+    "_wiki_ts": "2026-10-13T10:02:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Fusion (Rush Duel)"
   },
@@ -66955,7 +67138,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "GeminiElf-RDB251-JP-SR.png"
+        "file": "GeminiElf-RDB251-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -66982,7 +67165,7 @@
     "password": null,
     "is_legend": true,
     "title": "Gemini Elf",
-    "_wiki_ts": "2025-10-13T09:44:44Z",
+    "_wiki_ts": "2026-10-15T12:00:19Z",
     "card_schema_version": 2,
     "raw_name_en": "Gemini Elf (Rush Duel)"
   },
@@ -67012,7 +67195,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "GeniesFireBreath-RDCP01-JP-R.png"
+        "file": "GeniesFireBreath-RDB252-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -67044,7 +67227,7 @@
     "password": null,
     "is_legend": false,
     "title": "Genie's Fire Breath",
-    "_wiki_ts": "2025-11-26T17:35:03Z",
+    "_wiki_ts": "2026-10-15T12:03:56Z",
     "card_schema_version": 2,
     "raw_name_en": "Genie's Fire Breath"
   },
@@ -68277,12 +68460,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23685",
     "archseries": [],
     "password": null,
     "is_legend": true,
     "title": "Goblin Attack Force",
-    "_wiki_ts": "2026-07-19T01:43:59Z",
+    "_wiki_ts": "2026-10-15T22:28:34Z",
     "card_schema_version": 2,
     "raw_name_en": "Goblin Attack Force (Rush Duel)"
   },
@@ -69306,6 +69489,70 @@
       {
         "artwork": 1,
         "file": "GracePrincessKana-RDAP01-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "GracePrincessKana-RDLP02-JP-OP.png"
+      },
+      {
+        "artwork": 2.1,
+        "file": "GracePrincessKana-RDLP02-JP-OP-AA.png"
+      },
+      {
+        "artwork": 2.2,
+        "file": "GracePrincessKana-RDLP02-JP-OP-AA2.png"
+      },
+      {
+        "artwork": 2.3,
+        "file": "GracePrincessKana-RDLP02-JP-OP-AA3.png"
+      },
+      {
+        "artwork": 2.4,
+        "file": "GracePrincessKana-RDLP02-JP-OP-AA4.png"
+      },
+      {
+        "artwork": 2.5,
+        "file": "GracePrincessKana-RDLP02-JP-OP-AA5.png"
+      },
+      {
+        "artwork": 2.6,
+        "file": "GracePrincessKana-RDLP02-JP-OP-AA6.png"
+      },
+      {
+        "artwork": 2.7,
+        "file": "GracePrincessKana-RDLP02-JP-OP-AA7.png"
+      },
+      {
+        "artwork": 2.8,
+        "file": "GracePrincessKana-RDLP02-JP-OP-AA8.png"
+      },
+      {
+        "artwork": 2.9,
+        "file": "GracePrincessKana-RDLP02-JP-OP-AA9.png"
+      },
+      {
+        "artwork": 2.1,
+        "file": "GracePrincessKana-RDLP02-JP-OP-AA10.png"
+      },
+      {
+        "artwork": 2.11,
+        "file": "GracePrincessKana-RDLP02-JP-OP-AA11.png"
+      },
+      {
+        "artwork": 2.12,
+        "file": "GracePrincessKana-RDLP02-JP-OP-AA12.png"
+      },
+      {
+        "artwork": 2.13,
+        "file": "GracePrincessKana-RDLP02-JP-OP-AA13.png"
+      },
+      {
+        "artwork": 2.14,
+        "file": "GracePrincessKana-RDLP02-JP-OP-AA14.png"
+      },
+      {
+        "artwork": 2.15,
+        "file": "GracePrincessKana-RDLP02-JP-OP-AA15.png"
       }
     ],
     "sets_jp": [
@@ -69318,6 +69565,11 @@
         "code": "RD/AP01-JP017",
         "name": "Advance Pack: Devil's Ceremony",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP065",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -69339,7 +69591,7 @@
     "password": null,
     "is_legend": false,
     "title": "Grace Princess Kana",
-    "_wiki_ts": "2025-10-22T19:38:25Z",
+    "_wiki_ts": "2026-10-13T21:47:44Z",
     "card_schema_version": 2,
     "raw_name_en": "Grace Princess Kana"
   },
@@ -69707,7 +69959,7 @@
     "password": null,
     "is_legend": false,
     "title": "Gradius",
-    "_wiki_ts": "2026-06-23T06:57:28Z",
+    "_wiki_ts": "2026-10-15T23:26:27Z",
     "card_schema_version": 2,
     "raw_name_en": "Gradius (Rush Duel)"
   },
@@ -71044,6 +71296,11 @@
         "code": "RD/KP19-JP013",
         "name": "Salamandeus of Scorching",
         "rarity": "Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP01-JP044",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -71060,7 +71317,7 @@
     "password": null,
     "is_legend": false,
     "title": "Green Gadget",
-    "_wiki_ts": "2025-02-14T12:37:20Z",
+    "_wiki_ts": "2026-10-15T23:00:06Z",
     "card_schema_version": 2,
     "raw_name_en": "Green Gadget (Rush Duel)"
   },
@@ -71967,6 +72224,11 @@
         "code": "RD/KP22-JP047",
         "name": "OuTerverSe of Terror",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/LP01-JP053",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -71983,7 +72245,7 @@
     "password": null,
     "is_legend": false,
     "title": "Hamburger Recipe",
-    "_wiki_ts": "2026-07-02T01:50:41Z",
+    "_wiki_ts": "2026-10-15T23:17:19Z",
     "card_schema_version": 2,
     "raw_name_en": "Hamburger Recipe (Rush Duel)"
   },
@@ -72598,12 +72860,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23676",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Happy Lover",
-    "_wiki_ts": "2026-07-19T01:38:34Z",
+    "_wiki_ts": "2026-10-15T22:17:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Happy Lover (Rush Duel)"
   },
@@ -73232,6 +73494,11 @@
         "code": "RD/SD0D-JP013",
         "name": "Structure Deck: Harpie Lady Sisters",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/LP01-JP046",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -73253,7 +73520,7 @@
     "password": null,
     "is_legend": false,
     "title": "Harpie Lady 1",
-    "_wiki_ts": "2026-03-09T08:34:16Z",
+    "_wiki_ts": "2026-10-15T23:04:16Z",
     "card_schema_version": 2,
     "raw_name_en": "Harpie Lady 1 (Rush Duel)"
   },
@@ -73354,6 +73621,11 @@
         "code": "RD/SD0D-JP014",
         "name": "Structure Deck: Harpie Lady Sisters",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/LP01-JP047",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -73375,7 +73647,7 @@
     "password": null,
     "is_legend": false,
     "title": "Harpie Lady 2",
-    "_wiki_ts": "2026-03-09T08:35:09Z",
+    "_wiki_ts": "2026-10-15T23:06:04Z",
     "card_schema_version": 2,
     "raw_name_en": "Harpie Lady 2 (Rush Duel)"
   },
@@ -73400,7 +73672,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "HarpieLady31-RDKP21-JP-R.png"
+        "file": "HarpieLady31-RDB252-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -73429,7 +73701,7 @@
     "password": null,
     "is_legend": false,
     "title": "Harpie Lady 3 & 1",
-    "_wiki_ts": "2026-06-13T16:54:06Z",
+    "_wiki_ts": "2026-10-15T12:03:13Z",
     "card_schema_version": 2,
     "raw_name_en": "Harpie Lady 3 & 1"
   },
@@ -73467,6 +73739,11 @@
         "code": "RD/SD0D-JP015",
         "name": "Structure Deck: Harpie Lady Sisters",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/LP01-JP048",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -73488,7 +73765,7 @@
     "password": null,
     "is_legend": false,
     "title": "Harpie Lady 3",
-    "_wiki_ts": "2026-03-09T08:36:38Z",
+    "_wiki_ts": "2026-10-15T23:08:04Z",
     "card_schema_version": 2,
     "raw_name_en": "Harpie Lady 3 (Rush Duel)"
   },
@@ -75466,7 +75743,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "HeavenlyInvitation-RDLGP2-JP-SR.png"
+        "file": "HeavenlyInvitation-RDP007-JP-ScRRed.png"
       }
     ],
     "sets_jp": [
@@ -75510,7 +75787,7 @@
     "password": null,
     "is_legend": false,
     "title": "Heavenly Invitation",
-    "_wiki_ts": "2025-06-04T08:48:21Z",
+    "_wiki_ts": "2026-10-12T10:40:59Z",
     "card_schema_version": 2,
     "raw_name_en": "Heavenly Invitation"
   },
@@ -76228,6 +76505,11 @@
         "code": "RD/AP01-JP081",
         "name": "Advance Pack: Devil's Ceremony",
         "rarity": "Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP028",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -76254,7 +76536,7 @@
     "password": null,
     "is_legend": false,
     "title": "Hero Boy",
-    "_wiki_ts": "2026-02-11T00:41:04Z",
+    "_wiki_ts": "2026-10-13T10:00:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Hero Boy"
   },
@@ -77445,6 +77727,11 @@
         "code": "RD/KP22-JP066",
         "name": "OuTerverSe of Terror",
         "rarity": "Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP01-JP050",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -77461,7 +77748,7 @@
     "password": null,
     "is_legend": false,
     "title": "Hungry Burger",
-    "_wiki_ts": "2025-12-15T15:33:17Z",
+    "_wiki_ts": "2026-10-15T23:11:35Z",
     "card_schema_version": 2,
     "raw_name_en": "Hungry Burger (Rush Duel)"
   },
@@ -81323,6 +81610,11 @@
         "code": "RD/KP19-JP000",
         "name": "Salamandeus of Scorching",
         "rarity": "Super Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/LP01-JP041",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -81342,7 +81634,7 @@
     "password": null,
     "is_legend": false,
     "title": "Injection Fairy Lily",
-    "_wiki_ts": "2026-06-29T22:34:06Z",
+    "_wiki_ts": "2026-10-15T22:54:16Z",
     "card_schema_version": 2,
     "raw_name_en": "Injection Fairy Lily (Rush Duel)"
   },
@@ -83126,12 +83418,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23678",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Jerry Beans Man",
-    "_wiki_ts": "2026-07-19T01:40:10Z",
+    "_wiki_ts": "2026-10-15T22:18:34Z",
     "card_schema_version": 2,
     "raw_name_en": "Jerry Beans Man (Rush Duel)"
   },
@@ -83745,7 +84037,7 @@
     "password": null,
     "is_legend": false,
     "title": "Jointech Ace",
-    "_wiki_ts": "2026-10-10T15:07:44Z",
+    "_wiki_ts": "2026-10-16T18:44:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Ace"
   },
@@ -84652,7 +84944,7 @@
     "password": null,
     "is_legend": false,
     "title": "Jointech Rex",
-    "_wiki_ts": "2026-09-13T15:33:33Z",
+    "_wiki_ts": "2026-10-16T18:44:24Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Rex"
   },
@@ -88015,6 +88307,10 @@
       {
         "artwork": 1,
         "file": "LairWire-RDAP02-JP-C.png"
+      },
+      {
+        "artwork": 2,
+        "file": "LairWire-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -88027,6 +88323,11 @@
         "code": "RD/AP02-JP054",
         "name": "Advance Pack: Revenge Hearts",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/LP02-JP055",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -88046,7 +88347,7 @@
     "password": null,
     "is_legend": false,
     "title": "Lair Wire",
-    "_wiki_ts": "2026-08-20T20:12:07Z",
+    "_wiki_ts": "2026-10-13T20:56:41Z",
     "card_schema_version": 2,
     "raw_name_en": "Lair Wire (Rush Duel)"
   },
@@ -88937,7 +89238,7 @@
     "password": null,
     "is_legend": false,
     "title": "Legend Advent",
-    "_wiki_ts": "2025-09-08T22:19:40Z",
+    "_wiki_ts": "2026-10-16T21:12:30Z",
     "card_schema_version": 2,
     "raw_name_en": "Legend Advent"
   },
@@ -94603,6 +94904,10 @@
       {
         "artwork": 2.1,
         "file": "MadRareAquila-RDKP13-KR-ScR-AA.png"
+      },
+      {
+        "artwork": 3,
+        "file": "MadRareAquila-RDKP27-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -94620,6 +94925,11 @@
         "code": "RD/CA01-JP071",
         "name": "Cross Art Collection",
         "rarity": "Super Parallel Rare"
+      },
+      {
+        "code": "RD/KP27-JP001",
+        "name": "Jointech of Passion",
+        "rarity": "Full Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -94641,7 +94951,7 @@
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Aquila",
-    "_wiki_ts": "2026-10-10T15:08:56Z",
+    "_wiki_ts": "2026-10-17T15:44:49Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Aquila"
   },
@@ -94676,12 +94986,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23665",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Mad Reloader",
-    "_wiki_ts": "2026-07-19T01:32:36Z",
+    "_wiki_ts": "2026-10-15T22:09:48Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Reloader (Rush Duel)"
   },
@@ -95478,6 +95788,10 @@
       {
         "artwork": 2,
         "file": "MagicalStoneExcavation-RDS23P-JP-UPR.png"
+      },
+      {
+        "artwork": 3,
+        "file": "MagicalStoneExcavation-RDKP27-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -95500,6 +95814,11 @@
         "code": "RD/5TH1-JP145",
         "name": "5th Anniversary Pack",
         "rarity": "Secret Rare"
+      },
+      {
+        "code": "RD/KP27-JP002",
+        "name": "Jointech of Passion",
+        "rarity": "Full Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -95534,7 +95853,7 @@
     "password": null,
     "is_legend": false,
     "title": "Magical Stone Excavation",
-    "_wiki_ts": "2025-07-24T15:01:03Z",
+    "_wiki_ts": "2026-10-16T18:50:13Z",
     "card_schema_version": 2,
     "raw_name_en": "Magical Stone Excavation (Rush Duel)"
   },
@@ -95931,12 +96250,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23666",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Magician of Faith",
-    "_wiki_ts": "2026-07-04T16:45:49Z",
+    "_wiki_ts": "2026-10-15T22:10:26Z",
     "card_schema_version": 2,
     "raw_name_en": "Magician of Faith (Rush Duel)"
   },
@@ -96749,12 +97068,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23670",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Maha Vailo",
-    "_wiki_ts": "2026-07-19T01:33:59Z",
+    "_wiki_ts": "2026-10-15T22:12:51Z",
     "card_schema_version": 2,
     "raw_name_en": "Maha Vailo (Rush Duel)"
   },
@@ -96785,6 +97104,10 @@
       {
         "artwork": 2,
         "file": "MahavaiotheMelodyMaker-RDBDG4-JP-UPR.png"
+      },
+      {
+        "artwork": 3,
+        "file": "MahavaiotheMelodyMaker-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -96797,6 +97120,11 @@
         "code": "RD/BDG4-JP001",
         "name": "Yu-Gi-Oh! GO RUSH!! Duel-4 Blu-ray & DVD promotional card",
         "rarity": "Ultra Parallel Rare"
+      },
+      {
+        "code": "RD/LP02-JP049",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -96813,7 +97141,7 @@
     "password": null,
     "is_legend": false,
     "title": "Mahavaio the Melody Maker",
-    "_wiki_ts": "2025-12-08T16:28:20Z",
+    "_wiki_ts": "2026-10-13T20:29:48Z",
     "card_schema_version": 2,
     "raw_name_en": "Mahavaio the Melody Maker"
   },
@@ -97814,6 +98142,10 @@
       {
         "artwork": 1,
         "file": "MarsphloxthePlanetairy-RDORP3-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "MarsphloxthePlanetairy-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -97821,6 +98153,11 @@
         "code": "RD/ORP3-JP050",
         "name": "Over Rush Pack 3",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP006",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -97837,7 +98174,7 @@
     "password": null,
     "is_legend": false,
     "title": "Marsphlox the Planetairy",
-    "_wiki_ts": "2026-01-20T11:50:42Z",
+    "_wiki_ts": "2026-10-13T16:17:26Z",
     "card_schema_version": 2,
     "raw_name_en": "Marsphlox the Planetairy"
   },
@@ -98091,12 +98428,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23667",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Mask of Darkness",
-    "_wiki_ts": "2026-07-04T16:47:12Z",
+    "_wiki_ts": "2026-10-15T22:11:00Z",
     "card_schema_version": 2,
     "raw_name_en": "Mask of Darkness (Rush Duel)"
   },
@@ -102571,6 +102908,11 @@
         "code": "RD/B252-JP001",
         "name": "Battle Pack 2025 Vol.2",
         "rarity": "Common, Super Rare, Ultra Rare (Special Red Version)"
+      },
+      {
+        "code": "RD/LP02-JP039",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -102592,7 +102934,7 @@
     "password": null,
     "is_legend": false,
     "title": "Miracle Fusion",
-    "_wiki_ts": "2025-08-27T14:02:51Z",
+    "_wiki_ts": "2026-10-13T10:02:37Z",
     "card_schema_version": 2,
     "raw_name_en": "Miracle Fusion (Rush Duel)"
   },
@@ -103181,7 +103523,7 @@
     "password": null,
     "is_legend": true,
     "title": "Mobius the Frost Monarch",
-    "_wiki_ts": "2026-07-19T01:49:55Z",
+    "_wiki_ts": "2026-10-15T22:35:00Z",
     "card_schema_version": 2,
     "raw_name_en": "Mobius the Frost Monarch (Rush Duel)"
   },
@@ -103273,6 +103615,10 @@
       {
         "artwork": 1,
         "file": "MokeyMokey-RDSBD3-JP-C.png"
+      },
+      {
+        "artwork": 2,
+        "file": "MokeyMokey-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -103285,6 +103631,11 @@
         "code": "RD/SBD3-JP019",
         "name": "Strongest Battle Deck Gavin - Demon Commander Three Legions",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/LP02-JP053",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -103299,7 +103650,7 @@
     "password": null,
     "is_legend": false,
     "title": "Mokey Mokey",
-    "_wiki_ts": "2025-05-21T17:31:14Z",
+    "_wiki_ts": "2026-10-13T20:49:45Z",
     "card_schema_version": 2,
     "raw_name_en": "Mokey Mokey (Rush Duel)"
   },
@@ -105820,12 +106171,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23672",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Mystical Space Typhoon",
-    "_wiki_ts": "2026-07-19T01:35:13Z",
+    "_wiki_ts": "2026-10-15T22:15:23Z",
     "card_schema_version": 2,
     "raw_name_en": "Mystical Space Typhoon (Rush Duel)"
   },
@@ -106690,6 +107041,11 @@
         "code": "RD/AD02-KR002",
         "name": "Advanced Victory Pack Vol.2",
         "rarity": "Ultra Parallel Rare"
+      },
+      {
+        "code": "RD/26IM-KR001",
+        "name": "Necromaid Duel Set",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "database_id": "16113",
@@ -106699,7 +107055,7 @@
     "password": null,
     "is_legend": false,
     "title": "Necromaid Nana",
-    "_wiki_ts": "2026-02-24T12:29:19Z",
+    "_wiki_ts": "2026-10-14T23:47:57Z",
     "card_schema_version": 2,
     "raw_name_en": "Necromaid Nana"
   },
@@ -108008,7 +108364,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "NightVisionthePhantomPigeon-RDB251-JP-SR.png"
+        "file": "NightVisionthePhantomPigeon-RDB251-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -108045,7 +108401,7 @@
     "password": null,
     "is_legend": false,
     "title": "Night Vision the Phantom Pigeon",
-    "_wiki_ts": "2025-10-13T07:38:12Z",
+    "_wiki_ts": "2026-10-15T12:00:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Night Vision the Phantom Pigeon"
   },
@@ -109278,7 +109634,7 @@
     "password": null,
     "is_legend": false,
     "title": "Obnoxious Celtic Guard",
-    "_wiki_ts": "2026-07-19T01:48:32Z",
+    "_wiki_ts": "2026-10-15T22:33:25Z",
     "card_schema_version": 2,
     "raw_name_en": "Obnoxious Celtic Guard (Rush Duel)"
   },
@@ -109781,12 +110137,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23675",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "One for One",
-    "_wiki_ts": "2026-07-19T01:37:24Z",
+    "_wiki_ts": "2026-10-15T22:16:59Z",
     "card_schema_version": 2,
     "raw_name_en": "One for One (Rush Duel)"
   },
@@ -110383,6 +110739,10 @@
       {
         "artwork": 1,
         "file": "OsmanjupiterthePlanetairy-RDORP3-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "OsmanjupiterthePlanetairy-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -110390,6 +110750,11 @@
         "code": "RD/ORP3-JP049",
         "name": "Over Rush Pack 3",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP007",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -110406,7 +110771,7 @@
     "password": null,
     "is_legend": false,
     "title": "Osmanjupiter the Planetairy",
-    "_wiki_ts": "2026-01-20T11:50:37Z",
+    "_wiki_ts": "2026-10-13T17:04:49Z",
     "card_schema_version": 2,
     "raw_name_en": "Osmanjupiter the Planetairy"
   },
@@ -112248,12 +112613,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23684",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Panther Warrior",
-    "_wiki_ts": "2026-07-19T01:43:31Z",
+    "_wiki_ts": "2026-10-15T22:27:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Panther Warrior (Rush Duel)"
   },
@@ -113117,12 +113482,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23682",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Penguin Soldier",
-    "_wiki_ts": "2026-07-19T01:42:28Z",
+    "_wiki_ts": "2026-10-15T22:26:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Penguin Soldier (Rush Duel)"
   },
@@ -114805,6 +115170,10 @@
       {
         "artwork": 1,
         "file": "PirateoftheApportWinds-RDKP11-JP-UR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "PirateoftheApportWinds-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -114812,6 +115181,11 @@
         "code": "RD/KP11-JP025",
         "name": "Deck Mod Pack: Fortissimo of the Whirlwinds!!",
         "rarity": "Ultra Rare, Rush Rare"
+      },
+      {
+        "code": "RD/LP02-JP050",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -114828,7 +115202,7 @@
     "password": null,
     "is_legend": false,
     "title": "Pirate of the Apport Winds",
-    "_wiki_ts": "2025-10-07T12:19:16Z",
+    "_wiki_ts": "2026-10-13T20:35:27Z",
     "card_schema_version": 2,
     "raw_name_en": "Pirate of the Apport Winds"
   },
@@ -116673,6 +117047,10 @@
       {
         "artwork": 1,
         "file": "PlectcrimeoftheDeadlyDirge-RDHC01-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "PlectcrimeoftheDeadlyDirge-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -116685,6 +117063,11 @@
         "code": "RD/HC01-JP045",
         "name": "High-Grade Collection",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP051",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -116706,7 +117089,7 @@
     "password": null,
     "is_legend": false,
     "title": "Plectcrime of the Deadly Dirge",
-    "_wiki_ts": "2024-12-06T06:47:20Z",
+    "_wiki_ts": "2026-10-13T20:39:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Plectcrime of the Deadly Dirge"
   },
@@ -117650,7 +118033,7 @@
     "password": null,
     "is_legend": true,
     "title": "Pot of Greed",
-    "_wiki_ts": "2026-09-02T07:28:19Z",
+    "_wiki_ts": "2026-10-15T22:36:16Z",
     "card_schema_version": 2,
     "raw_name_en": "Pot of Greed (Rush Duel)"
   },
@@ -118336,6 +118719,11 @@
         "code": "RD/B243-JP004",
         "name": "Battle Pack 2024 Vol.3",
         "rarity": "Super Rare"
+      },
+      {
+        "code": "RD/LP02-JP046",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -118352,7 +118740,7 @@
     "password": null,
     "is_legend": false,
     "title": "Praime Call",
-    "_wiki_ts": "2026-06-28T09:39:16Z",
+    "_wiki_ts": "2026-10-13T09:46:45Z",
     "card_schema_version": 2,
     "raw_name_en": "Praime Call"
   },
@@ -118560,6 +118948,11 @@
         "code": "RD/KP16-JP001",
         "name": "Transam of Transcendence",
         "rarity": "Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP040",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -118576,7 +118969,7 @@
     "password": null,
     "is_legend": false,
     "title": "Praime Dwarf",
-    "_wiki_ts": "2025-01-15T15:06:22Z",
+    "_wiki_ts": "2026-10-13T09:44:24Z",
     "card_schema_version": 2,
     "raw_name_en": "Praime Dwarf"
   },
@@ -118663,6 +119056,11 @@
         "code": "RD/5TH1-JP134",
         "name": "5th Anniversary Pack",
         "rarity": "Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP043",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -118684,7 +119082,7 @@
     "password": null,
     "is_legend": false,
     "title": "Praime Pierce Giant",
-    "_wiki_ts": "2026-05-27T19:56:08Z",
+    "_wiki_ts": "2026-10-13T09:45:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Praime Pierce Giant"
   },
@@ -118902,7 +119300,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "Pay 500 LP.",
-    "effect": "Add 1 Level 8 monster with 500 DEF from your Graveyard to your hand. Then, you can add 1 \"Black Luster Jersey Ritual\" from your Graveyard to your hand.",
+    "effect": "Add 1 Level 8 monster with 500 DEF from your Graveyard to your hand. Then, you can add 1 \"Black Luster Jersitual\" from your Graveyard to your hand.",
     "flavor_text": null,
     "images": [
       {
@@ -118931,7 +119329,7 @@
     "password": null,
     "is_legend": false,
     "title": "Preparation of Jersey Rites",
-    "_wiki_ts": "2024-12-06T06:56:46Z",
+    "_wiki_ts": "2026-10-11T19:22:39Z",
     "card_schema_version": 2,
     "raw_name_en": "Preparation of Jersey Rites"
   },
@@ -119474,6 +119872,11 @@
         "code": "RD/ORP3-JP054",
         "name": "Over Rush Pack 3",
         "rarity": "Ultra Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/LP02-JP016",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -119490,7 +119893,7 @@
     "password": null,
     "is_legend": false,
     "title": "Princess Cosmos Stirs",
-    "_wiki_ts": "2026-04-21T22:15:40Z",
+    "_wiki_ts": "2026-10-13T09:40:53Z",
     "card_schema_version": 2,
     "raw_name_en": "Princess Cosmos Stirs"
   },
@@ -119563,6 +119966,11 @@
         "code": "RD/ORP3-JP043",
         "name": "Over Rush Pack 3",
         "rarity": "Ultra Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/LP02-JP015",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -119579,7 +119987,7 @@
     "password": null,
     "is_legend": false,
     "title": "Princess Cosmos the Cosmic Trickster",
-    "_wiki_ts": "2026-01-20T11:50:05Z",
+    "_wiki_ts": "2026-10-13T09:40:29Z",
     "card_schema_version": 2,
     "raw_name_en": "Princess Cosmos the Cosmic Trickster"
   },
@@ -119605,6 +120013,10 @@
       {
         "artwork": 1,
         "file": "PrincessCosmostheTrickster-RDORP3-JP-UR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "PrincessCosmostheTrickster-RDLP02-JP-OP-AA.png"
       }
     ],
     "sets_jp": [
@@ -119612,6 +120024,11 @@
         "code": "RD/ORP3-JP046",
         "name": "Over Rush Pack 3",
         "rarity": "Ultra Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/LP02-JP001",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Parallel Rare, Full Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -119628,7 +120045,7 @@
     "password": null,
     "is_legend": false,
     "title": "Princess Cosmos the Trickster",
-    "_wiki_ts": "2026-01-20T11:50:21Z",
+    "_wiki_ts": "2026-10-13T15:49:34Z",
     "card_schema_version": 2,
     "raw_name_en": "Princess Cosmos the Trickster"
   },
@@ -119661,6 +120078,11 @@
         "code": "RD/ORP3-JP055",
         "name": "Over Rush Pack 3",
         "rarity": "Ultra Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/LP02-JP019",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -119677,7 +120099,7 @@
     "password": null,
     "is_legend": false,
     "title": "Princess Cosmos' Astronomical Observation",
-    "_wiki_ts": "2026-01-20T11:51:08Z",
+    "_wiki_ts": "2026-10-13T09:41:59Z",
     "card_schema_version": 2,
     "raw_name_en": "Princess Cosmos' Astronomical Observation"
   },
@@ -119703,12 +120125,21 @@
       {
         "artwork": 1,
         "file": "PrincessCosmosBeautySleep-RDORP3-JP-UR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "PrincessCosmosBeautySleep-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/ORP3-JP057",
         "name": "Over Rush Pack 3",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/LP02-JP020",
+        "name": "Limited Pack Another Style Edition",
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
@@ -119726,7 +120157,7 @@
     "password": null,
     "is_legend": false,
     "title": "Princess Cosmos' Beauty Sleep",
-    "_wiki_ts": "2026-08-20T20:06:54Z",
+    "_wiki_ts": "2026-10-13T17:46:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Princess Cosmos' Beauty Sleep"
   },
@@ -119773,6 +120204,11 @@
         "code": "RD/ORP3-JP056",
         "name": "Over Rush Pack 3",
         "rarity": "Super Rare"
+      },
+      {
+        "code": "RD/LP02-JP017",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -119799,7 +120235,7 @@
     "password": null,
     "is_legend": false,
     "title": "Princess Cosmos' Jest",
-    "_wiki_ts": "2026-04-22T01:28:49Z",
+    "_wiki_ts": "2026-10-13T09:41:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Princess Cosmos' Jest"
   },
@@ -120395,6 +120831,10 @@
       {
         "artwork": 2,
         "file": "ProphecyPhrasetheColorsoftheWind-RDBDG2-JP-UPR.png"
+      },
+      {
+        "artwork": 3,
+        "file": "ProphecyPhrasetheColorsoftheWind-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -120412,6 +120852,11 @@
         "code": "RD/5TH1-JP087",
         "name": "5th Anniversary Pack",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP048",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -120433,7 +120878,7 @@
     "password": null,
     "is_legend": false,
     "title": "Prophecy Phrase the Colors of the Wind",
-    "_wiki_ts": "2025-07-24T14:50:12Z",
+    "_wiki_ts": "2026-10-13T20:25:43Z",
     "card_schema_version": 2,
     "raw_name_en": "Prophecy Phrase the Colors of the Wind"
   },
@@ -123614,6 +124059,11 @@
         "code": "RD/KP19-JP014",
         "name": "Salamandeus of Scorching",
         "rarity": "Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP01-JP045",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -123630,7 +124080,7 @@
     "password": null,
     "is_legend": false,
     "title": "Red Gadget",
-    "_wiki_ts": "2025-02-14T12:37:23Z",
+    "_wiki_ts": "2026-10-15T23:02:02Z",
     "card_schema_version": 2,
     "raw_name_en": "Red Gadget (Rush Duel)"
   },
@@ -124050,7 +124500,7 @@
     "password": null,
     "is_legend": true,
     "title": "Red-Eyes Black Dragon",
-    "_wiki_ts": "2026-09-18T15:07:51Z",
+    "_wiki_ts": "2026-10-15T22:29:54Z",
     "card_schema_version": 2,
     "raw_name_en": "Red-Eyes Black Dragon (Rush Duel)"
   },
@@ -125311,12 +125761,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23668",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Rescue Cat",
-    "_wiki_ts": "2026-07-04T16:52:11Z",
+    "_wiki_ts": "2026-10-15T22:11:36Z",
     "card_schema_version": 2,
     "raw_name_en": "Rescue Cat (Rush Duel)"
   },
@@ -125372,7 +125822,7 @@
     "password": null,
     "is_legend": false,
     "title": "Rescue Rabbit",
-    "_wiki_ts": "2026-07-19T01:48:04Z",
+    "_wiki_ts": "2026-10-15T22:33:01Z",
     "card_schema_version": 2,
     "raw_name_en": "Rescue Rabbit (Rush Duel)"
   },
@@ -125503,6 +125953,10 @@
       {
         "artwork": 1,
         "file": "ResheftheDarkBeing-RDKP26-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "ResheftheDarkBeing-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -125510,6 +125964,11 @@
         "code": "RD/KP26-JP069",
         "name": "Headliner of Reigning",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP056",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -125518,7 +125977,7 @@
     "password": null,
     "is_legend": false,
     "title": "Reshef the Dark Being",
-    "_wiki_ts": "2026-08-21T16:44:22Z",
+    "_wiki_ts": "2026-10-13T21:01:00Z",
     "card_schema_version": 2,
     "raw_name_en": "Reshef the Dark Being (Rush Duel)"
   },
@@ -126765,7 +127224,7 @@
     "password": null,
     "is_legend": false,
     "title": "Rising HERO Argent F",
-    "_wiki_ts": "2026-09-29T06:56:36Z",
+    "_wiki_ts": "2026-10-13T16:03:02Z",
     "card_schema_version": 2,
     "raw_name_en": "Rising HERO Argent F"
   },
@@ -128487,12 +128946,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23680",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Robotic Knight",
-    "_wiki_ts": "2026-07-19T01:41:14Z",
+    "_wiki_ts": "2026-10-15T22:19:33Z",
     "card_schema_version": 2,
     "raw_name_en": "Robotic Knight (Rush Duel)"
   },
@@ -128741,12 +129200,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23683",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Rocket Warrior",
-    "_wiki_ts": "2026-07-19T01:43:00Z",
+    "_wiki_ts": "2026-10-15T22:27:16Z",
     "card_schema_version": 2,
     "raw_name_en": "Rocket Warrior (Rush Duel)"
   },
@@ -131639,12 +132098,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23677",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Saggi the Dark Clown",
-    "_wiki_ts": "2026-07-19T01:39:31Z",
+    "_wiki_ts": "2026-10-15T22:18:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Saggi the Dark Clown (Rush Duel)"
   },
@@ -132468,6 +132927,10 @@
       {
         "artwork": 1,
         "file": "SaturnchamomilethePlanetairy-RDORP3-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "SaturnchamomilethePlanetairy-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -132475,6 +132938,11 @@
         "code": "RD/ORP3-JP048",
         "name": "Over Rush Pack 3",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP008",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -132491,7 +132959,7 @@
     "password": null,
     "is_legend": false,
     "title": "Saturnchamomile the Planetairy",
-    "_wiki_ts": "2026-04-21T22:16:14Z",
+    "_wiki_ts": "2026-10-13T17:06:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Saturnchamomile the Planetairy"
   },
@@ -137616,12 +138084,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23673",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Shield Crush",
-    "_wiki_ts": "2026-07-19T01:36:04Z",
+    "_wiki_ts": "2026-10-15T22:15:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Shield Crush (Rush Duel)"
   },
@@ -137767,12 +138235,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23679",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Shining Friendship",
-    "_wiki_ts": "2026-07-19T01:40:46Z",
+    "_wiki_ts": "2026-10-15T22:19:08Z",
     "card_schema_version": 2,
     "raw_name_en": "Shining Friendship (Rush Duel)"
   },
@@ -140522,6 +140990,11 @@
         "code": "RD/AP01-JP096",
         "name": "Advance Pack: Devil's Ceremony",
         "rarity": "Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP038",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -140549,7 +141022,7 @@
     "password": null,
     "is_legend": false,
     "title": "Skyscraper",
-    "_wiki_ts": "2025-10-22T18:10:26Z",
+    "_wiki_ts": "2026-10-13T10:02:17Z",
     "card_schema_version": 2,
     "raw_name_en": "Skyscraper (Rush Duel)"
   },
@@ -143111,6 +143584,10 @@
       {
         "artwork": 1,
         "file": "Sparks-RDAP02-JP-C.png"
+      },
+      {
+        "artwork": 2,
+        "file": "Sparks-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -143128,6 +143605,11 @@
         "code": "RD/TH02-JP017",
         "name": "Half Deck: Spellcaster Type",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/LP02-JP054",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -143147,7 +143629,7 @@
     "password": null,
     "is_legend": false,
     "title": "Sparks",
-    "_wiki_ts": "2026-04-22T10:14:50Z",
+    "_wiki_ts": "2026-10-13T20:54:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Sparks (Rush Duel)"
   },
@@ -147474,7 +147956,7 @@
     "password": null,
     "is_legend": false,
     "title": "Stock the Noodle Ninja",
-    "_wiki_ts": "2024-12-06T09:14:26Z",
+    "_wiki_ts": "2026-10-13T19:37:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Stock the Noodle Ninja"
   },
@@ -149184,12 +149666,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23669",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Summoner Monk",
-    "_wiki_ts": "2026-07-19T01:33:19Z",
+    "_wiki_ts": "2026-10-15T22:12:19Z",
     "card_schema_version": 2,
     "raw_name_en": "Summoner Monk (Rush Duel)"
   },
@@ -149795,12 +150277,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23674",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Super Polymerization",
-    "_wiki_ts": "2026-08-20T22:12:10Z",
+    "_wiki_ts": "2026-10-15T22:16:25Z",
     "card_schema_version": 2,
     "raw_name_en": "Super Polymerization (Rush Duel)"
   },
@@ -150083,6 +150565,11 @@
         "code": "RD/KP23-JP066",
         "name": "Gias Charge of the Nova",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP01-JP051",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -150099,7 +150586,7 @@
     "password": null,
     "is_legend": false,
     "title": "Super War-Lion",
-    "_wiki_ts": "2026-02-26T21:17:33Z",
+    "_wiki_ts": "2026-10-15T23:13:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Super War-Lion (Rush Duel)"
   },
@@ -152273,12 +152760,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "23681",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Swordstalker",
-    "_wiki_ts": "2026-07-19T01:42:00Z",
+    "_wiki_ts": "2026-10-15T22:26:10Z",
     "card_schema_version": 2,
     "raw_name_en": "Swordstalker (Rush Duel)"
   },
@@ -154378,7 +154865,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ThunderCavalryTriggerdrago-RDKP08-JP-UR.png"
+        "file": "ThunderCavalryTriggerdrago-RDB252-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -154410,7 +154897,7 @@
     "password": null,
     "is_legend": false,
     "title": "Thunder Cavalry Triggerdrago",
-    "_wiki_ts": "2025-06-19T11:08:02Z",
+    "_wiki_ts": "2026-10-15T12:04:29Z",
     "card_schema_version": 2,
     "raw_name_en": "Thunder Cavalry Triggerdrago"
   },
@@ -155838,7 +156325,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TrailblitzingThunderblast-RDKP08-JP-C.png"
+        "file": "TrailblitzingThunderblast-RDB252-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -155865,7 +156352,7 @@
     "password": null,
     "is_legend": false,
     "title": "Trailblitzing Thunderblast",
-    "_wiki_ts": "2025-06-20T04:01:31Z",
+    "_wiki_ts": "2026-10-15T12:03:46Z",
     "card_schema_version": 2,
     "raw_name_en": "Trailblitzing Thunderblast"
   },
@@ -156337,6 +156824,10 @@
       {
         "artwork": 5,
         "file": "TransamLinac-RDCCC2-JP-NPR.png"
+      },
+      {
+        "artwork": 6,
+        "file": "TransamLinac-RDLP02-JP-OP-AA.png"
       }
     ],
     "sets_jp": [
@@ -156399,6 +156890,11 @@
         "code": "RD/TH03-JP005",
         "name": "Half Deck: Galaxy Type",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/LP02-JP061",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -156445,7 +156941,7 @@
     "password": null,
     "is_legend": false,
     "title": "Transam Linac",
-    "_wiki_ts": "2026-04-10T16:52:12Z",
+    "_wiki_ts": "2026-10-13T21:26:26Z",
     "card_schema_version": 2,
     "raw_name_en": "Transam Linac"
   },
@@ -156693,6 +157189,10 @@
       {
         "artwork": 1,
         "file": "TransamPraimeArmorNova-RDKP16-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "TransamPraimeArmorNova-RDLP02-JP-OP-AA.png"
       }
     ],
     "sets_jp": [
@@ -156700,6 +157200,11 @@
         "code": "RD/KP16-JP008",
         "name": "Transam of Transcendence",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP062",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -156717,7 +157222,7 @@
     "password": null,
     "is_legend": false,
     "title": "Transam Praime Armor Nova",
-    "_wiki_ts": "2025-02-27T23:25:30Z",
+    "_wiki_ts": "2026-10-13T21:30:20Z",
     "card_schema_version": 2,
     "raw_name_en": "Transam Praime Armor Nova"
   },
@@ -156751,6 +157256,11 @@
         "code": "RD/KP16-JP039",
         "name": "Transam of Transcendence",
         "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/LP02-JP045",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Parallel Rare"
       }
     ],
     "sets_kr": [
@@ -156768,7 +157278,7 @@
     "password": null,
     "is_legend": false,
     "title": "Transam Praime Full Armor Nova",
-    "_wiki_ts": "2024-12-06T10:32:19Z",
+    "_wiki_ts": "2026-10-13T09:46:26Z",
     "card_schema_version": 2,
     "raw_name_en": "Transam Praime Full Armor Nova"
   },
@@ -157292,6 +157802,11 @@
         "code": "RD/KP19-JP063",
         "name": "Salamandeus of Scorching",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP01-JP056",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -157306,7 +157821,7 @@
     "password": null,
     "is_legend": true,
     "title": "Treacherous Trap Hole",
-    "_wiki_ts": "2025-02-14T12:39:50Z",
+    "_wiki_ts": "2026-10-15T23:25:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Treacherous Trap Hole (Rush Duel)"
   },
@@ -159838,6 +160353,11 @@
         "code": "RD/SD0D-JP022",
         "name": "Structure Deck: Harpie Lady Sisters",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/LP01-JP036",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -159857,7 +160377,7 @@
     "password": null,
     "is_legend": false,
     "title": "Tyhone",
-    "_wiki_ts": "2025-06-18T19:33:03Z",
+    "_wiki_ts": "2026-10-15T22:37:21Z",
     "card_schema_version": 2,
     "raw_name_en": "Tyhone (Rush Duel)"
   },
@@ -165587,7 +166107,7 @@
     "password": null,
     "is_legend": false,
     "title": "Voidvelg Requiem",
-    "_wiki_ts": "2026-04-10T16:42:47Z",
+    "_wiki_ts": "2026-10-13T13:36:21Z",
     "card_schema_version": 2,
     "raw_name_en": "Voidvelg Requiem"
   },
@@ -166775,6 +167295,11 @@
         "code": "RD/KP23-JP057",
         "name": "Gias Charge of the Nova",
         "rarity": "Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP01-JP054",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -166791,7 +167316,7 @@
     "password": null,
     "is_legend": false,
     "title": "War-Lion Ritual",
-    "_wiki_ts": "2026-07-02T01:54:51Z",
+    "_wiki_ts": "2026-10-15T23:18:59Z",
     "card_schema_version": 2,
     "raw_name_en": "War-Lion Ritual (Rush Duel)"
   },
@@ -171682,6 +172207,11 @@
         "code": "RD/KP19-JP012",
         "name": "Salamandeus of Scorching",
         "rarity": "Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP01-JP043",
+        "name": "Limited Pack Remastered Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -171698,7 +172228,7 @@
     "password": null,
     "is_legend": false,
     "title": "Yellow Gadget",
-    "_wiki_ts": "2025-02-14T12:37:18Z",
+    "_wiki_ts": "2026-10-15T22:58:20Z",
     "card_schema_version": 2,
     "raw_name_en": "Yellow Gadget (Rush Duel)"
   },
@@ -173375,7 +173905,7 @@
   },
   {
     "name_ja": "αカウント",
-    "name_ja_romaji": "Arufakaunto",
+    "name_ja_romaji": "Arufa Kaunto",
     "attribute": "LIGHT",
     "types": "Dragon / ???",
     "card_type": null,
@@ -173412,7 +173942,7 @@
     "password": null,
     "is_legend": false,
     "title": "Alpha Count",
-    "_wiki_ts": "2026-10-01T10:28:33Z",
+    "_wiki_ts": "2026-10-15T21:48:44Z",
     "card_schema_version": 2,
     "raw_name_en": "Alpha Count"
   },
@@ -173636,19 +174166,19 @@
     "condition": "This card can be Contact Fusioned.",
     "effect_types": "Continuous",
     "requirement": "None",
-    "effect": "(TBA)",
+    "effect": "This card cannot be used as material for the Fusion Summon of \"Familiar-Possessed - Aussa\". Your EARTH Attribute monsters inflict piercing battle damage.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "FamiliarPossessedAussa-OW-RD.png"
+        "file": "FamiliarPossessedAussa-RDKP27-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP27-JP0??",
+        "code": "RD/KP27-JP045",
         "name": "Jointech of Passion",
-        "rarity": ""
+        "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -173659,7 +174189,7 @@
     "password": null,
     "is_legend": false,
     "title": "Familiar-Possessed - Aussa",
-    "_wiki_ts": "2026-10-01T17:31:18Z",
+    "_wiki_ts": "2026-10-12T17:32:11Z",
     "card_schema_version": 2,
     "raw_name_en": "Familiar-Possessed - Aussa (Rush Duel)"
   },
@@ -173714,11 +174244,11 @@
     "atk": 2900,
     "def": 2500,
     "maximum_atk": null,
-    "materials": null,
+    "materials": "\"Jointech Rex\" + \"Jointech Ace\"",
     "condition": null,
     "effect_types": null,
-    "requirement": "TBD",
-    "effect": "TBD",
+    "requirement": "Place 1 monster from your Graveyard on the bottom of the Deck.",
+    "effect": "Destroy 1 Spell/Trap Card on the field. Then, this card can attack twice this turn.",
     "flavor_text": null,
     "images": [
       {
@@ -173741,7 +174271,7 @@
     "password": null,
     "is_legend": false,
     "title": "Jointech Ace Rex",
-    "_wiki_ts": "2026-10-01T16:21:51Z",
+    "_wiki_ts": "2026-10-16T18:43:34Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Ace Rex"
   },
@@ -173749,30 +174279,30 @@
     "name_ja": "ジョインテック・ガーディアン",
     "name_ja_romaji": "Jointekku Gādian",
     "attribute": "EARTH",
-    "types": "Machine / ???",
+    "types": "Machine / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 7,
+    "atk": 1200,
+    "def": 2300,
     "maximum_atk": null,
     "materials": null,
-    "condition": null,
+    "condition": "If you have \"Jointech Ace\" in your Graveyard, you can Special Summon this card from your hand face-up to your field.",
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "During your Main Phase that you Normal or Special Summoned this card.",
+    "effect": "Add 1 \"Jointech Ace\" or \"Jointech Rex\" from your Graveyard to your hand. This turn, you cannot activate the effect of \"Jointech Guardian\".",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "JointechGuardian-OW.png"
+        "file": "JointechGuardian-RDKP27-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP27-JP0??",
+        "code": "RD/KP27-JP007",
         "name": "Jointech of Passion",
-        "rarity": ""
+        "rarity": "Common"
       }
     ],
     "sets_kr": [],
@@ -173783,7 +174313,7 @@
     "password": null,
     "is_legend": false,
     "title": "Jointech Guardian",
-    "_wiki_ts": "2026-10-01T10:10:48Z",
+    "_wiki_ts": "2026-10-12T16:18:49Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Guardian"
   },
@@ -173791,30 +174321,30 @@
     "name_ja": "ジョインテック・マッチレスヒーロー",
     "name_ja_romaji": "Jointekku Matchiresu Hīrō",
     "attribute": "EARTH",
-    "types": "Machine / ???",
+    "types": "Machine / Fusion / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 9,
+    "atk": 2700,
+    "def": 2000,
     "maximum_atk": null,
-    "materials": null,
-    "condition": null,
+    "materials": "\"Jointech Ace\" + \"Jointech Passion Puncher\" + \"Jointech Brave Racer\"",
+    "condition": "This card can be Union Fusioned.",
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "During your Main Phase that you Fusion Summoned this card.",
+    "effect": "Toss a coin 3 times. This card gains ATK equal to [the number of heads + 1] x 200 until the end of this turn. Then, you can destroy cards on your opponent's field, up to [the number of tails].",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "JointechMatchlessHero-OW.png"
+        "file": "JointechMatchlessHero-RDKP27-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP27-JP0??",
+        "code": "RD/KP27-JP037",
         "name": "Jointech of Passion",
-        "rarity": ""
+        "rarity": "Super Rare"
       }
     ],
     "sets_kr": [],
@@ -173825,7 +174355,7 @@
     "password": null,
     "is_legend": false,
     "title": "Jointech Matchless Hero",
-    "_wiki_ts": "2026-10-01T16:16:51Z",
+    "_wiki_ts": "2026-10-12T15:53:37Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Matchless Hero"
   },
@@ -173834,29 +174364,29 @@
     "name_ja_romaji": "Jointekku Rijoin",
     "attribute": null,
     "types": null,
-    "card_type": "???",
-    "property": "???",
+    "card_type": "Spell",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
     "maximum_atk": null,
     "materials": null,
-    "condition": null,
+    "condition": "This card's name becomes \"Jointech Joint\" while in the Graveyard.",
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "None",
+    "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can Fusion Summon a Level 9 or lower EARTH Attribute Machine Type monster that mentions \"Jointech Ace\" as material by sending monsters from your hand or field to the Graveyard as material.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "JointechRejoin-OW.png"
+        "file": "JointechRejoin-RDKP27-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP27-JP0??",
+        "code": "RD/KP27-JP048",
         "name": "Jointech of Passion",
-        "rarity": ""
+        "rarity": "Common"
       }
     ],
     "sets_kr": [],
@@ -173867,7 +174397,7 @@
     "password": null,
     "is_legend": false,
     "title": "Jointech Rejoin",
-    "_wiki_ts": "2026-10-01T10:11:47Z",
+    "_wiki_ts": "2026-10-12T17:37:00Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Rejoin"
   },
@@ -173917,30 +174447,30 @@
     "name_ja": "マッドレア・エイミ",
     "name_ja_romaji": "Maddorea Eimi",
     "attribute": "DARK",
-    "types": "??? / ???",
+    "types": "Warrior / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 4,
+    "atk": 1100,
+    "def": 1100,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "Send the top card of your Deck to the Graveyard.",
+    "effect": "Increase or reduce the Level of 1 face-up Level 4 or higher monster on the field by 1-3 until the end of this turn. Then, you can add 1 \"Mad Rare Beeko\" from your Graveyard to your hand. Until the end of this turn, you cannot Special Summon monsters or activate the effect of \"Mad Rare Amy\".",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "MadRareAmy-OW.png"
+        "file": "MadRareAmy-RDKP27-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP27-JP0??",
+        "code": "RD/KP27-JP014",
         "name": "Jointech of Passion",
-        "rarity": ""
+        "rarity": "Common"
       }
     ],
     "sets_kr": [],
@@ -173951,7 +174481,7 @@
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Amy",
-    "_wiki_ts": "2026-10-01T10:14:39Z",
+    "_wiki_ts": "2026-10-12T16:25:55Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Amy"
   },
@@ -173959,30 +174489,30 @@
     "name_ja": "マッドレア・クレイア",
     "name_ja_romaji": "Maddorea Kureia",
     "attribute": "DARK",
-    "types": "??? / ???",
+    "types": "Spellcaster / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 4,
+    "atk": 1200,
+    "def": 1100,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "During the turn you Normal Summoned this card, send 1 card from your hand to the Graveyard.",
+    "effect": "Draw 1 card. Then, you can add 1 \"Mad Rare Gramma\" from your Graveyard to your hand. Until the end of this turn, you cannot Special Summon monsters, and you can only attack with DARK Attribute monsters with 1100 original DEF.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "MadRareChreia-OW.png"
+        "file": "MadRareChreia-RDKP27-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP27-JP0??",
+        "code": "RD/KP27-JP016",
         "name": "Jointech of Passion",
-        "rarity": ""
+        "rarity": "Super Rare"
       }
     ],
     "sets_kr": [],
@@ -173993,7 +174523,7 @@
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Chreia",
-    "_wiki_ts": "2026-10-01T10:15:48Z",
+    "_wiki_ts": "2026-10-12T16:53:57Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Chreia"
   },
@@ -174001,30 +174531,30 @@
     "name_ja": "マッドレア・マキ",
     "name_ja_romaji": "Maddorea Maki",
     "attribute": "DARK",
-    "types": "??? / ???",
+    "types": "Beast-Warrior / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 5,
+    "atk": 2100,
+    "def": 1100,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "During the turn you Normal Summoned this card, send the top card of your Deck to the Graveyard.",
+    "effect": "This turn, this card gains 500 ATK, and its Level is increased by 2. Then, you can return 1 face-up Level 6 monster from your opponent's field to the owner's hand. Until the end of this turn, you cannot Special Summon monsters, and you can only attack with DARK Attribute monsters with 1100 original DEF.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "MadRareMaqui-OW.png"
+        "file": "MadRareMaqui-RDKP27-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP27-JP0??",
+        "code": "RD/KP27-JP018",
         "name": "Jointech of Passion",
-        "rarity": ""
+        "rarity": "Rare"
       }
     ],
     "sets_kr": [],
@@ -174035,7 +174565,7 @@
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Maqui",
-    "_wiki_ts": "2026-10-01T10:15:28Z",
+    "_wiki_ts": "2026-10-12T17:25:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Maqui"
   },
@@ -174043,30 +174573,34 @@
     "name_ja": "マッドレア・ラピッド",
     "name_ja_romaji": "Maddorea Rapiddo",
     "attribute": "DARK",
-    "types": "??? / ???",
+    "types": "Beast / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 4,
+    "atk": 1000,
+    "def": 1100,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "Send 1 card from your hand to the Graveyard, or if your opponent has a face-up Level 6 monster on their field.",
+    "effect": "Destroy 1 face-down Spell/Trap Card on your opponent's field. Then, you can Set 1 \"Mad Rare Hack\" from your Graveyard to your Spell & Trap Zone. This turn, you cannot activate the effect of \"Mad Rare Rappid\".",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "MadRareRappid-OW.png"
+        "file": "MadRareRappid-RDKP27-JP-OP.png"
+      },
+      {
+        "artwork": 2,
+        "file": "MadRareRappid-RDKP27-JP-OP-AA.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP27-JP0??",
+        "code": "RD/KP27-JP013",
         "name": "Jointech of Passion",
-        "rarity": ""
+        "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -174077,7 +174611,7 @@
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Rappid",
-    "_wiki_ts": "2026-10-01T10:14:20Z",
+    "_wiki_ts": "2026-10-15T16:25:23Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Rappid"
   },
@@ -174085,30 +174619,30 @@
     "name_ja": "マッドレア・ビーコ",
     "name_ja_romaji": "Maddorea Bīko",
     "attribute": "DARK",
-    "types": "??? / ???",
+    "types": "Warrior / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 4,
+    "atk": 1100,
+    "def": 1100,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "Send the top card of your Deck to the Graveyard.",
+    "effect": "Increase or reduce the Level of 1 face-up Level 4 or higher monster on the field by 1-3 until the end of this turn. Then, you can add 1 \"Mad Rare Amy\" from your Graveyard to your hand. Until the end of this turn, you cannot Special Summon monsters or activate the effect of \"Mad Rare Beeko\".",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "MadRareVico-OW.png"
+        "file": "MadRareBeeko-RDKP27-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP27-JP0??",
+        "code": "RD/KP27-JP015",
         "name": "Jointech of Passion",
-        "rarity": ""
+        "rarity": "Common"
       }
     ],
     "sets_kr": [],
@@ -174118,10 +174652,13 @@
     ],
     "password": null,
     "is_legend": false,
-    "title": "Mad Rare Vico",
-    "_wiki_ts": "2026-10-01T10:15:06Z",
+    "title": "Mad Rare Beeko",
+    "_wiki_ts": "2026-10-12T16:47:20Z",
     "card_schema_version": 2,
-    "raw_name_en": "Mad Rare Vico"
+    "former_titles": [
+      "Mad Rare Vico"
+    ],
+    "raw_name_en": "Mad Rare Beeko"
   },
   {
     "name_ja": "セインティック・ルミナ",
@@ -174460,5 +174997,1140 @@
     "_wiki_ts": "2026-10-10T15:05:41Z",
     "card_schema_version": 2,
     "raw_name_en": "Micha the Symbol of the Angels"
+  },
+  {
+    "name_ja": "澄極精のコスモスター",
+    "name_ja_romaji": "Chōkyokusei no Kosumosutā",
+    "attribute": "WATER",
+    "types": "Galaxy / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 10,
+    "atk": 2000,
+    "def": 1900,
+    "maximum_atk": null,
+    "materials": "2 Galaxy Type monsters with 900 ATK",
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During your Main Phase that you Special Summoned this card, send the top card of your Deck to the Graveyard.",
+    "effect": "Until the end of your opponent's next turn, this card gains 400 ATK, and cannot be destroyed by card effects. Then, you can add 1 \"Mercissus the Planetairy\" from your Graveyard to your hand. This turn, you cannot activate the effect of \"Cosmostar the Hypernova Polairy\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "CosmostartheHypernovaPolairy-RDLP02-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP02-JP013",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Princess Cosmos"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Cosmostar the Hypernova Polairy",
+    "_wiki_ts": "2026-10-13T17:34:31Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Cosmostar the Hypernova Polairy"
+  },
+  {
+    "name_ja": "輝極精のコスモスター",
+    "name_ja_romaji": "Kikyokusei no Kosumosutā",
+    "attribute": "LIGHT",
+    "types": "Galaxy / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 10,
+    "atk": 2000,
+    "def": 1900,
+    "maximum_atk": null,
+    "materials": "3 Galaxy Type monsters with 900 ATK",
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During your Main Phase that you Special Summoned this card, send 1 card from your hand to the Graveyard.",
+    "effect": "Place 1 face-up monster from your opponent's field on the bottom of the owner's Deck. Then, you can add 1 \"Dendrovenus the Planetairy\" from your Graveyard to your hand. This turn, you cannot activate the effect of \"Cosmostar the Luminous Polairy\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "CosmostartheLuminousPolairy-RDLP02-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP02-JP011",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Princess Cosmos"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Cosmostar the Luminous Polairy",
+    "_wiki_ts": "2026-10-13T17:34:09Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Cosmostar the Luminous Polairy"
+  },
+  {
+    "name_ja": "ダーク・フュージョン",
+    "name_ja_romaji": "Dāku Fyūjon",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Fusion Summon a Fiend Type monster by sending monsters from your hand or field to the Graveyard as material. If you Special Summoned a monster that mentions \"Dark Fusion\" by this effect, it cannot be destroyed by card effects this turn.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "DarkFusion-RDLP02-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP02-JP026",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Evil HERO"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Dark Fusion",
+    "_wiki_ts": "2026-10-13T18:07:12Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Dark Fusion (Rush Duel)"
+  },
+  {
+    "name_ko": "듀얼 마커",
+    "attribute": null,
+    "types": null,
+    "card_type": "Duel Marker",
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "Go First",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "DuelMarker-RD26IM-KR-OP-StellatheCladDragonResearcherGoFirst.png"
+      }
+    ],
+    "sets_jp": [],
+    "sets_kr": [
+      {
+        "code": "RD/26IM-KR004",
+        "name": "I Park Mall Pop-Up promotional cards",
+        "rarity": "Super Rare"
+      }
+    ],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Duel Marker",
+    "_wiki_ts": "2026-10-15T00:05:27Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Duel Marker (Stella the Clad Dragon Researcher - Go First)"
+  },
+  {
+    "name_ko": "듀얼 마커",
+    "attribute": null,
+    "types": null,
+    "card_type": "Duel Marker",
+    "property": null,
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": "Go Second",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "DuelMarker-RD26IM-KR-OP-StellatheCladDragonResearcherGoSecond.png"
+      }
+    ],
+    "sets_jp": [],
+    "sets_kr": [
+      {
+        "code": "RD/26IM-KR005",
+        "name": "I Park Mall Pop-Up promotional cards",
+        "rarity": "Super Rare"
+      }
+    ],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Duel Marker",
+    "_wiki_ts": "2026-10-15T00:08:59Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Duel Marker (Stella the Clad Dragon Researcher - Go Second)"
+  },
+  {
+    "name_ja": "Ｅ・ＨＥＲＯ テンペスター",
+    "name_ja_romaji": "Erementaru Hīrō Tenpesutā",
+    "attribute": "WIND",
+    "types": "Warrior / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 8,
+    "atk": 2800,
+    "def": 2800,
+    "maximum_atk": null,
+    "materials": "\"Elemental HERO Avian\" + \"Elemental HERO Sparkman\" + \"Elemental HERO Bubbleman\"",
+    "condition": "Must be Fusion Summoned.",
+    "effect_types": null,
+    "requirement": "Send 1 other card from your field to the Graveyard.",
+    "effect": "Choose 1 face-up monster on your field. That monster cannot be destroyed by battle until the end of your opponent's next turn.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ElementalHEROTempest-RDLP02-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP02-JP036",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Elemental HERO"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Elemental HERO Tempest",
+    "_wiki_ts": "2026-10-13T19:01:47Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Elemental HERO Tempest (Rush Duel)"
+  },
+  {
+    "name_ja": "Ｅ・ＨＥＲＯ ワイルド・ウィングマン",
+    "name_ja_romaji": "Erementaru Hīrō Wairudo Winguman",
+    "attribute": "EARTH",
+    "types": "Warrior / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 8,
+    "atk": 1900,
+    "def": 2300,
+    "maximum_atk": null,
+    "materials": "\"Elemental HERO Wildheart\" + \"Elemental HERO Avian\"",
+    "condition": "Must be Fusion Summoned.",
+    "effect_types": null,
+    "requirement": "Send up to 4 cards from your hand to the Graveyard.",
+    "effect": "Destroy Spell/Trap Cards on your opponent's field equal to [the number of cards sent to the Graveyard to meet the requirement].",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ElementalHEROWildWingman-RDLP02-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP02-JP035",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Elemental HERO"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Elemental HERO Wild Wingman",
+    "_wiki_ts": "2026-10-13T18:55:49Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Elemental HERO Wild Wingman (Rush Duel)"
+  },
+  {
+    "name_ja": "Ｅ・ＨＥＲＯ ワイルドマン",
+    "name_ja_romaji": "Erementaru Hīrō Wairudoman",
+    "attribute": "EARTH",
+    "types": "Warrior / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1500,
+    "def": 1600,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "This card cannot be destroyed by Trap Card effects, and cannot be returned to the hand/Deck/Extra Deck by Trap Card effects. During your turn, if \"Skyscraper\" is face-up on the field, this card gains 1000 ATK.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ElementalHEROWildheart-RDLP02-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP02-JP030",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Elemental HERO"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Elemental HERO Wildheart",
+    "_wiki_ts": "2026-10-13T18:31:07Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Elemental HERO Wildheart (Rush Duel)"
+  },
+  {
+    "name_ja": "Ｅ－ＨＥＲＯ ダーク・ガイア",
+    "name_ja_romaji": "Ībiru Hīrō Dāku Gaia",
+    "attribute": "EARTH",
+    "types": "Fiend / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 8,
+    "atk": 0,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": "1 Fiend Type monster + 1 Rock Type monster",
+    "condition": "Must be Special Summoned by the effect of \"Dark Fusion\" or \"Super Polymerization\". This card's original ATK becomes [the total original ATK of the monsters used as material when Fusion Summoning this card].",
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Change up to 3 Defense Position monsters on your opponent's field to face-up Attack Position.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "EvilHERODarkGaia-RDLP02-JP-OP.png"
+      },
+      {
+        "artwork": 2,
+        "file": "EvilHERODarkGaia-RDLP02-JP-OP-AA.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP02-JP002",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Parallel Rare, Full Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Evil HERO"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Evil HERO Dark Gaia",
+    "_wiki_ts": "2026-10-13T16:00:22Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Evil HERO Dark Gaia (Rush Duel)"
+  },
+  {
+    "name_ja": "Ｅ－ＨＥＲＯ インフェルノ・ウィング",
+    "name_ja_romaji": "Ībiru Hīrō Inferuno Wingu",
+    "attribute": "FIRE",
+    "types": "Fiend / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 6,
+    "atk": 2100,
+    "def": 1200,
+    "maximum_atk": null,
+    "materials": "\"Elemental HERO Avian\" + \"Elemental HERO Burstinatrix\"",
+    "condition": "Must be Special Summoned by the effect of \"Dark Fusion\" or \"Super Polymerization\".",
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "This card inflicts piercing battle damage. If this card destroys a monster by battle and sends it to the Graveyard, inflict damage to your opponent equal to [that monster's original ATK or DEF (whichever is higher)].",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "EvilHEROInfernoWing-RDLP02-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP02-JP022",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Evil HERO"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Evil HERO Inferno Wing",
+    "_wiki_ts": "2026-10-13T17:58:28Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Evil HERO Inferno Wing (Rush Duel)"
+  },
+  {
+    "name_ja": "Ｅ－ＨＥＲＯ ライトニング・ゴーレム",
+    "name_ja_romaji": "Ībiru Hīrō Raitoningu Gōremu",
+    "attribute": "LIGHT",
+    "types": "Fiend / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 6,
+    "atk": 2400,
+    "def": 1500,
+    "maximum_atk": null,
+    "materials": "\"Elemental HERO Sparkman\" + \"Elemental HERO Clayman\"",
+    "condition": "Must be Special Summoned by the effect of \"Dark Fusion\" or \"Super Polymerization\".",
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Destroy 1 monster on the field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "EvilHEROLightningGolem-RDLP02-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP02-JP023",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Evil HERO"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Evil HERO Lightning Golem",
+    "_wiki_ts": "2026-10-13T18:02:03Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Evil HERO Lightning Golem (Rush Duel)"
+  },
+  {
+    "name_ja": "ジョインテック・エースペア",
+    "name_ja_romaji": "Jointekku Ēsupea",
+    "attribute": "EARTH",
+    "types": "Machine / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 700,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "This card's name becomes \"Jointech Ace\" while in the Graveyard.",
+    "effect_types": null,
+    "requirement": "Send the top card of your Deck to the Graveyard.",
+    "effect": "This turn, this card's name becomes \"Jointech Ace\". Then, you can add 1 EARTH Attribute Machine Type Union monster from your Graveyard to your hand.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "JointechAceSpare-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP006",
+        "name": "Jointech of Passion",
+        "rarity": "Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Jointech"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Jointech Ace Spare",
+    "_wiki_ts": "2026-10-12T16:15:48Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Jointech Ace Spare"
+  },
+  {
+    "name_ja": "ジョインテック・Ｂレーサー",
+    "name_ja_romaji": "Jointekku Bureibu Rēsā",
+    "attribute": "EARTH",
+    "types": "Machine / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1300,
+    "def": 1400,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Equip this card to 1 face-up EARTH Attribute Machine Type monster on your field as an Equip Spell Card with the following effect. ●The equipped monster gains 500 ATK, and neither player can activate Trap Cards when it declares an attack.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "JointechBraveRacer-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP005",
+        "name": "Jointech of Passion",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Jointech"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Jointech Brave Racer",
+    "_wiki_ts": "2026-10-12T16:12:54Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Jointech Brave Racer"
+  },
+  {
+    "name_ja": "ジョインテック・カタパルト",
+    "name_ja_romaji": "Jointekku Kataparuto",
+    "attribute": null,
+    "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "When your opponent Normal or Special Summons a monster, place 1 face-up EARTH Attribute Machine Type monster from your field on the bottom of the owner's Deck.",
+    "effect": "Destroy 1 face-up Level 8 or lower monster on your opponent's field. Then, if you placed a Fusion Monster to meet the requirement, you can place 1 card from your opponent's field on the bottom of the owner's Deck.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "JointechCatapult-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP061",
+        "name": "Jointech of Passion",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Jointech"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Jointech Catapult",
+    "_wiki_ts": "2026-10-12T17:44:09Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Jointech Catapult"
+  },
+  {
+    "name_ja": "ジョインテック・Ｐパンチャー",
+    "name_ja_romaji": "Jointekku Passhon Panchā",
+    "attribute": "EARTH",
+    "types": "Machine / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1400,
+    "def": 1300,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Equip this card to 1 face-up EARTH Attribute Machine Type monster on your field as an Equip Spell Card with the following effect. ●The equipped monster gains 500 ATK, and it inflicts piercing battle damage.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "JointechPassionPuncher-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP004",
+        "name": "Jointech of Passion",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Jointech"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Jointech Passion Puncher",
+    "_wiki_ts": "2026-10-12T16:07:54Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Jointech Passion Puncher"
+  },
+  {
+    "name_ja": "ジョインテック・アルティメットウォリアー",
+    "name_ja_romaji": "Jointekku Arutimetto Woriā",
+    "attribute": "EARTH",
+    "types": "Machine / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 9,
+    "atk": 3100,
+    "def": 1900,
+    "maximum_atk": null,
+    "materials": "\"Jointech Ace\" + 2 EARTH Attribute Machine Type monsters",
+    "condition": null,
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "This card inflicts piercing battle damage. This card that was Fusion Summoned using a Maximum Monster or Union monster as material cannot be destroyed by card effects.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "JointechUltimateWarrior-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP038",
+        "name": "Jointech of Passion",
+        "rarity": "Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Jointech"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Jointech Ultimate Warrior",
+    "_wiki_ts": "2026-10-12T16:02:54Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Jointech Ultimate Warrior"
+  },
+  {
+    "name_ja": "マッドレア・ディスターブ",
+    "name_ja_romaji": "Maddorea Disutābu",
+    "attribute": null,
+    "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "When your opponent Special Summons an Effect Monster(s) during their turn, except a Maximum Monster, send 1 monster from your hand or field to the Graveyard.",
+    "effect": "Destroy 1 monster on your opponent's field. Until the end of your next turn, you cannot Special Summon monsters, and you can only attack with DARK Attribute monsters with 1100 original DEF.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MadRareDisturb-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP062",
+        "name": "Jointech of Passion",
+        "rarity": "Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Mad Rare"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Mad Rare Disturb",
+    "_wiki_ts": "2026-10-13T19:01:05Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Mad Rare Disturb"
+  },
+  {
+    "name_ja": "マッドレア・フィッツ",
+    "name_ja_romaji": "Maddorea Fittsu",
+    "attribute": "DARK",
+    "types": "Fish / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 5,
+    "atk": 2000,
+    "def": 1100,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During the turn you Normal Summoned this card.",
+    "effect": "Change the battle position of up to 2 monsters on your opponent's field. Then, if your opponent has a face-up Level 6 Effect Monster on their field, you can add 1 \"Mad Rare Disturb\" from your Graveyard to your hand. Until the end of this turn, you cannot Special Summon monsters, and you can only attack with DARK Attribute monsters with 1100 original DEF.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MadRareFitz-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP017",
+        "name": "Jointech of Passion",
+        "rarity": "Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Mad Rare"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Mad Rare Fitz",
+    "_wiki_ts": "2026-10-12T17:16:42Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Mad Rare Fitz"
+  },
+  {
+    "name_ja": "マッドレア・グラマ",
+    "name_ja_romaji": "Maddorea Gurama",
+    "attribute": "DARK",
+    "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 8,
+    "atk": 2500,
+    "def": 1100,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "This card cannot be Special Summoned.",
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "You cannot Special Summon monsters. Face-up monsters on your opponent's field lose 500 ATK/DEF. If you have \"Mad Rare Chreia\" in your Graveyard, this card cannot be destroyed by your opponent's card effects.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MadRareGramma-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP019",
+        "name": "Jointech of Passion",
+        "rarity": "Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Mad Rare"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Mad Rare Gramma",
+    "_wiki_ts": "2026-10-12T17:29:56Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Mad Rare Gramma"
+  },
+  {
+    "name_ja": "マッドレア・ハック",
+    "name_ja_romaji": "Maddorea Hakku",
+    "attribute": null,
+    "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "When your opponent Special Summons a monster(s) during their turn, or when an opponent's monster declares an attack.",
+    "effect": "Change 1 Attack Position monster on your opponent's field to face-up Defense Position. Then, if you activated this card during the Main Phase, you can change 1 Attack Position monster on your field to face-up Defense Position.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MadRareHack-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP063",
+        "name": "Jointech of Passion",
+        "rarity": "Super Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Mad Rare"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Mad Rare Hack",
+    "_wiki_ts": "2026-10-12T17:51:47Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Mad Rare Hack"
+  },
+  {
+    "name_ja": "超自然保護機関 マッドレア",
+    "name_ja_romaji": "Chōshizen Hogokikan Maddorea",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can add 1 DARK Attribute monster with 1100 DEF from your Graveyard to your hand. Until the end of this turn, you cannot Special Summon monsters, and you can only attack with DARK Attribute monsters with 1100 original DEF.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "OccultPreservationAgencyMadRare-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP052",
+        "name": "Jointech of Passion",
+        "rarity": "Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Mad Rare"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Occult Preservation Agency Mad Rare",
+    "_wiki_ts": "2026-10-12T17:40:00Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Occult Preservation Agency Mad Rare"
+  },
+  {
+    "name_ja": "惑精のプルアモネ",
+    "name_ja_romaji": "Wakusei no Puruamone",
+    "attribute": "DARK",
+    "types": "Galaxy / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 9,
+    "atk": 900,
+    "def": 1600,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "You can Special Summon this card from your hand face-up to your field by revealing 1 \"Princess Cosmos the Trickster\" or 1 \"Princess Cosmos' Jest\" in your hand.",
+    "effect_types": null,
+    "requirement": "During your Main Phase that a card on your field was destroyed by a card effect.",
+    "effect": "Fusion Summon a Galaxy Type monster with 1900 DEF by sending 2 monsters from your hand and/or field to the Graveyard as material.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "PluamonethePlanetairy-RDLP02-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP02-JP010",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Princess Cosmos"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Pluamone the Planetairy",
+    "_wiki_ts": "2026-10-13T17:12:38Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Pluamone the Planetairy"
+  },
+  {
+    "name_ja": "プライム・ノヴァ",
+    "name_ja_romaji": "Puraimu Nova",
+    "attribute": null,
+    "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "This card's name becomes \"Praime Call\" while in the Graveyard.",
+    "effect_types": null,
+    "requirement": "When a player Normal or Special Summons a monster while the only monsters in your Graveyard are LIGHT Attribute monsters.",
+    "effect": "Make 1 face-up monster on your opponent's field lose 1600 ATK until the end of this turn.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "PraimeNova-RDLP02-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP02-JP047",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Praime"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Praime Nova",
+    "_wiki_ts": "2026-10-13T20:02:52Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Praime Nova"
+  },
+  {
+    "name_ja": "プライム・レクイエム",
+    "name_ja_romaji": "Puraimu Rekuiemu",
+    "attribute": "LIGHT",
+    "types": "Galaxy / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 8,
+    "atk": 2500,
+    "def": 2000,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "You can Tribute Summon this card in Attack Position by Tributing 1 monster. If you do, its original ATK becomes 1800.",
+    "effect_types": null,
+    "requirement": "Send the top card of your Deck to the Graveyard.",
+    "effect": "This card gains ATK equal to [the number of face-up LIGHT Attribute monsters on your field] x 300 until the end of this turn. Then, you can add 1 \"Praime Call\" from your Graveyard to your hand.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "PraimeRequiem-RDLP02-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP02-JP042",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Praime"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Praime Requiem",
+    "_wiki_ts": "2026-10-13T19:44:25Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Praime Requiem"
+  },
+  {
+    "name_ja": "プライム・バーリカータ",
+    "name_ja_romaji": "Puraimu Bārikāta",
+    "name_translated": "Praime Al Dente",
+    "attribute": "LIGHT",
+    "types": "Pyro / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1000,
+    "def": 1200,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "The only monsters in your Graveyard are LIGHT Attribute monsters.",
+    "effect": "Send 2 face-up LIGHT Attribute monsters from your field to the Graveyard. Then, you can Special Summon 1 Level 8 LIGHT Attribute non-Fusion Monster with 2500 ATK from your Graveyard face-up to your field. This turn, you cannot activate the effect of \"Praime Stock\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "PraimeStock-RDLP02-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP02-JP041",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Praime"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Praime Stock",
+    "_wiki_ts": "2026-10-13T19:36:39Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Praime Stock"
+  },
+  {
+    "name_ja": "コスモス姫のお召し替え",
+    "name_ja_romaji": "Kosumosu-hime no Omeshikae",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "This card's name becomes \"Princess Cosmos' Jest\" while in the hand.",
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Destroy 1 face-up Galaxy Type monster with 900 original ATK on your field. Then, if you have not drawn a card by the effect of \"Princess Cosmos' Change of Clothes\" this turn, you can draw 2 cards.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "PrincessCosmosChangeofClothes-RDLP02-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP02-JP018",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Princess Cosmos"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Princess Cosmos' Change of Clothes",
+    "_wiki_ts": "2026-10-13T17:36:45Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Princess Cosmos' Change of Clothes"
+  },
+  {
+    "name_ja": "トランザム・プライム・マスターノヴァ",
+    "name_ja_romaji": "Toranzamu Puraimu Masutānova",
+    "name_translated": "Transamu Praime Master Nova",
+    "attribute": "LIGHT",
+    "types": "Galaxy / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 9,
+    "atk": 2800,
+    "def": 3000,
+    "maximum_atk": null,
+    "materials": "\"Transam Praime Armor Nova\" + 1 Level 8 or lower LIGHT Attribute monster",
+    "condition": null,
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "Monsters on your field cannot be returned to the hand/Deck/Extra Deck by card effects. Face-up monsters on your opponent's field become LIGHT Attribute.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "TransamPraimeMasterNova-RDLP02-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP02-JP044",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Praime",
+      "Transam"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Transam Praime Master Nova",
+    "_wiki_ts": "2026-10-13T19:54:10Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Transam Praime Master Nova"
   }
 ]
