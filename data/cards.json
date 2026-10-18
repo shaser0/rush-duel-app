@@ -173949,31 +173949,31 @@
   {
     "name_ja": "黒刹の暗殺者",
     "name_ja_romaji": "Kokusetsu no Ansatsusha",
-    "attribute": "???",
-    "types": "??? / ???",
+    "attribute": "DARK",
+    "types": "Warrior / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 1,
+    "atk": 1300,
+    "def": 500,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "During your Main Phase that you Normal or Special Summoned this card.",
+    "effect": "Add 1 Level 7 DARK Attribute Warrior Type monster or 1 \"Doomed by the Blackblight\" from your Graveyard to your hand.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "AssassinoftheHollowedGrounds-OW.png"
+        "file": "AssassinoftheHollowedGrounds-RDKP27-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP27-JP0??",
+        "code": "RD/KP27-JP023",
         "name": "Jointech of Passion",
-        "rarity": ""
+        "rarity": "Common"
       }
     ],
     "sets_kr": [],
@@ -173984,7 +173984,7 @@
     "password": null,
     "is_legend": false,
     "title": "Assassin of the Hollowed Grounds",
-    "_wiki_ts": "2026-10-01T10:23:19Z",
+    "_wiki_ts": "2026-10-18T06:37:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Assassin of the Hollowed Grounds"
   },
@@ -174404,31 +174404,31 @@
   {
     "name_ja": "黒刹の騎士",
     "name_ja_romaji": "Kokusetsu no Kishi",
-    "attribute": "???",
-    "types": "??? / ???",
+    "attribute": "DARK",
+    "types": "Warrior / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 7,
+    "atk": 2500,
+    "def": 1500,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "During your Main Phase that you Normal or Special Summoned this card.",
+    "effect": "Add up to 2 \"The Legacy of Zeil\" from your Graveyard to your hand.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "KnightoftheHollowedGrounds-OW.png"
+        "file": "KnightoftheHollowedGrounds-RDKP27-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP27-JP0??",
+        "code": "RD/KP27-JP025",
         "name": "Jointech of Passion",
-        "rarity": ""
+        "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -174439,7 +174439,7 @@
     "password": null,
     "is_legend": false,
     "title": "Knight of the Hollowed Grounds",
-    "_wiki_ts": "2026-10-01T10:19:59Z",
+    "_wiki_ts": "2026-10-18T06:46:21Z",
     "card_schema_version": 2,
     "raw_name_en": "Knight of the Hollowed Grounds"
   },
@@ -174789,31 +174789,31 @@
   {
     "name_ja": "腐灼のなれ果て",
     "name_ja_romaji": "Fushaku no Narehate",
-    "attribute": null,
-    "types": null,
-    "card_type": "???",
-    "property": "???",
-    "level": null,
-    "atk": null,
-    "def": null,
+    "attribute": "DARK",
+    "types": "Warrior / Ritual / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 1,
+    "atk": 700,
+    "def": 1000,
     "maximum_atk": null,
     "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "condition": "Must be Special Summoned by a Spell Card effect.",
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "Face-up monsters on the field lose 2000 ATK/DEF, except monsters with 1000 original DEF.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "WhatLittletheBlightblazeLeavesBehind-OW.png"
+        "file": "WhatLittletheBlightblazeLeavesBehind-RDKP27-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP27-JP0??",
+        "code": "RD/KP27-JP046",
         "name": "Jointech of Passion",
-        "rarity": ""
+        "rarity": "Rare"
       }
     ],
     "sets_kr": [],
@@ -174824,38 +174824,38 @@
     "password": null,
     "is_legend": false,
     "title": "What Little the Blightblaze Leaves Behind",
-    "_wiki_ts": "2026-10-01T12:01:19Z",
+    "_wiki_ts": "2026-10-18T06:54:26Z",
     "card_schema_version": 2,
     "raw_name_en": "What Little the Blightblaze Leaves Behind"
   },
   {
     "name_ja": "腐灼の崇拝者",
     "name_ja_romaji": "Fushaku no Sūhaisha",
-    "attribute": "???",
-    "types": "??? / ???",
+    "attribute": "DARK",
+    "types": "Warrior / Effect",
     "card_type": null,
     "property": null,
-    "level": null,
-    "atk": null,
-    "def": null,
+    "level": 1,
+    "atk": 800,
+    "def": 1000,
     "maximum_atk": null,
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "During your Main Phase that you Normal or Special Summoned this card.",
+    "effect": "Send the top 2 cards of your Deck to the Graveyard. Then, you can add 1 \"Lena's Mushroom Soup\" or 1 \"Doomed by the Blackblight\" from your Graveyard to your hand.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "WorshiperoftheBlightblaze-OW.png"
+        "file": "WorshiperoftheBlightblaze-RDKP27-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP27-JP0??",
+        "code": "RD/KP27-JP020",
         "name": "Jointech of Passion",
-        "rarity": ""
+        "rarity": "Super Rare"
       }
     ],
     "sets_kr": [],
@@ -174866,7 +174866,7 @@
     "password": null,
     "is_legend": false,
     "title": "Worshiper of the Blightblaze",
-    "_wiki_ts": "2026-10-01T12:00:31Z",
+    "_wiki_ts": "2026-10-18T06:35:20Z",
     "card_schema_version": 2,
     "raw_name_en": "Worshiper of the Blightblaze"
   },
@@ -176132,5 +176132,250 @@
     "_wiki_ts": "2026-10-13T19:54:10Z",
     "card_schema_version": 2,
     "raw_name_en": "Transam Praime Master Nova"
+  },
+  {
+    "name_ja": "黒腐の分岐点",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During a turn you have not activated \"The Crossroads of the Blackblight\", send 1 Level 1 DARK Attribute Warrior Type monster or 1 \"Lena's Mushroom Soup\" from your hand to the Graveyard.",
+    "effect": "Draw 2 cards. Then, you can add 1 \"Doomed by the Blackblight\" from your Graveyard to your hand.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "TheCrossroadsoftheBlackblight-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP054",
+        "name": "Jointech of Passion",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Hollowed Grounds"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "The Crossroads of the Blackblight",
+    "_wiki_ts": "2026-10-18T06:57:35Z",
+    "card_schema_version": 2,
+    "raw_name_en": "The Crossroads of the Blackblight"
+  },
+  {
+    "name_ja": "レーナのキノコスープ",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "You have a face-up DARK Attribute Warrior Type monster on your field.",
+    "effect": "Choose 1 face-up monster on the field. While that monster is face-up, it loses 700 ATK. If you chose a \"Doomed by the Blackblight\" on your field by this effect, you can Ritual Summon a Level 1 DARK Attribute Warrior Type monster by sending the chosen monster to the Graveyard as material.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LenasMushroomSoup-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP055",
+        "name": "Jointech of Passion",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Hollowed Grounds"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Lena's Mushroom Soup",
+    "_wiki_ts": "2026-10-18T07:01:50Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Lena's Mushroom Soup"
+  },
+  {
+    "name_ja": "岩角獣バビルサイド",
+    "name_ja_romaji": "Gankakujū Babirusaido",
+    "attribute": "EARTH",
+    "types": "Beast / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1300,
+    "def": 600,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Send this face-up card from your field to the Graveyard.",
+    "effect": "Change the battle position of up to 2 monsters on your opponent's field. This turn, you can only attack with EARTH Attribute monsters.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "RocktuskBeastBabirusaite-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP036",
+        "name": "Jointech of Passion",
+        "rarity": "Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Rocktusk Beast Babirusaite",
+    "_wiki_ts": "2026-10-17T23:34:15Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Rocktusk Beast Babirusaite"
+  },
+  {
+    "name_ja": "ゼイルの王冠",
+    "attribute": "DARK",
+    "types": "Warrior / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 1,
+    "atk": 1000,
+    "def": 500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "This card's name becomes \"The Legacy of Zeil\" while in the Graveyard.",
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Equip this card to 1 face-up DARK Attribute Warrior Type monster on your field that is not equipped with \"The Royal Crown of Zeil\" as an Equip Spell Card with the following effect. ● The equipped monster gains 500 DEF and cannot be returned to the hand, Deck, or Extra Deck by card effects.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "TheRoyalCrownofZeil-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP021",
+        "name": "Jointech of Passion",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Hollowed Grounds"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "The Royal Crown of Zeil",
+    "_wiki_ts": "2026-10-18T06:43:02Z",
+    "card_schema_version": 2,
+    "raw_name_en": "The Royal Crown of Zeil"
+  },
+  {
+    "name_ja": "ゼイルの王剣",
+    "attribute": "DARK",
+    "types": "Warrior / Union / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 1,
+    "atk": 1000,
+    "def": 500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "This card's name becomes \"The Legacy of Zeil\" while in the Graveyard.",
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Equip this card to 1 face-up DARK Attribute Warrior Type monster on your field that is not equipped with \"The Royal Sword of Zeil\" as an Equip Spell Card with the following effect. ● The equipped monster gains 1000 ATK.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "TheRoyalSwordofZeil-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP022",
+        "name": "Jointech of Passion",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Hollowed Grounds"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "The Royal Sword of Zeil",
+    "_wiki_ts": "2026-10-18T06:44:04Z",
+    "card_schema_version": 2,
+    "raw_name_en": "The Royal Sword of Zeil"
+  },
+  {
+    "name_ja": "黒刹の王 ゼイル",
+    "attribute": "DARK",
+    "types": "Warrior / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 10,
+    "atk": 3500,
+    "def": 2500,
+    "maximum_atk": null,
+    "materials": "\"Doomed by the Blackblight\" + \"The Royal Crown of Zeil\" + \"The Royal Sword of Zeil\"",
+    "condition": "This card can be Union Fusioned (Fusion Summon by placing the above face-up cards from your field on the bottom of the owner's Deck in any order as materials).",
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "Face-up DARK Attribute Warrior Type monsters on your field cannot be destroyed by card effects and inflict piercing battle damage.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ZeiltheKingoftheHollowedGrounds-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP041",
+        "name": "Jointech of Passion",
+        "rarity": "Super Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Hollowed Grounds"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Zeil the King of the Hollowed Grounds",
+    "_wiki_ts": "2026-10-18T06:51:32Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Zeil the King of the Hollowed Grounds"
   }
 ]
