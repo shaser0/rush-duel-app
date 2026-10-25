@@ -8738,5 +8738,167 @@
   "Waso Gozen Linker": [
     "WasoGozenLinker-RDCA01-JP-UPR.png",
     "WasoGozenLinker-RDCA01-JP-ORR.png"
+  ],
+  "Hamburger Recipe": [
+    "HamburgerRecipe-RDLP01-JP-UR.png",
+    "HamburgerRecipe-RDKP22-JP-C.png"
+  ],
+  "Music Princess's Substitute": [
+    "MusicPrincesssSubstitute-RD26S1-JP-SPR.png",
+    "MusicPrincesssSubstitute-RDKP22-JP-C.png"
+  ],
+  "Phoenix Dragoon": [
+    "PhoenixDragoon-RD26S1-JP-SPR.png",
+    "PhoenixDragoon-RDSD0A-JP-C.png"
+  ],
+  "Legendary Sparkseed": [
+    "LegendarySparkseed-RD26S1-JP-SPR.png",
+    "LegendarySparkseed-RDLGP2-JP-C.png"
+  ],
+  "Alchemicalize Orb": [
+    "AlchemicalizeOrb-RD26S1-JP-SPR.png",
+    "AlchemicalizeOrb-RDKP19-JP-C.png"
+  ],
+  "Light Leading the Valiant": [
+    "LightLeadingtheValiant-RD2025-EN-ORR.png",
+    "LightLeadingtheValiant-RDWC25-JP-ORR-RP.png"
+  ],
+  "The Lady's Protectors": [
+    "TheLadysProtectors-RD2025-EN-ORR.png",
+    "TheLadysProtectors-RDWC25-JP-ORR-RP.png"
+  ],
+  "Lilliputian Friends": [
+    "LilliputianFriends-RDCA01-JP-UPR.png",
+    "LilliputianFriends-RDCA01-JP-ORR.png"
+  ],
+  "The Connected Lilliputians": [
+    "TheConnectedLilliputians-RDCA01-JP-UR.png",
+    "TheConnectedLilliputians-RDCA01-JP-ScR.png"
+  ],
+  "The Nomnom Lilliputian": [
+    "TheNomnomLilliputian-RDCA01-JP-UR.png",
+    "TheNomnomLilliputian-RDCA01-JP-ScR.png"
+  ],
+  "Fortress Whale's Oath": [
+    "FortressWhalesOath-RDLP01-JP-UR.png",
+    "FortressWhalesOath-RDKP24-JP-C.png"
+  ],
+  "Beastly Mirror Calling": [
+    "BeastlyMirrorCalling-RDKP25-JP-C.png"
+  ],
+  "Healthie Olivia": [
+    "HealthieOlivia-RDKP26-JP-C.png"
+  ],
+  "Home of the Charmers": [
+    "HomeoftheCharmers-RDORP4-JP-C.png"
+  ],
+  "Lauan Macho Dex": [
+    "LauanMachoDex-RDKP26-JP-C.png"
+  ],
+  "Royal Rebel's Great Mixer": [
+    "RoyalRebelsGreatMixer-RDKP26-JP-C.png"
+  ],
+  "Star Protector Awakening": [
+    "StarProtectorAwakening-RDKP26-JP-C.png"
+  ],
+  "Yae the Special Investigations Ninja": [
+    "YaetheSpecialInvestigationsNinja-RDKP26-JP-R.png"
+  ],
+  "Bottomless Trap Hole": [
+    "BottomlessTrapHole-RDLP01-JP-UPR.png"
+  ],
+  "Brain Control": [
+    "BrainControl-RDLP01-JP-UPR.png"
+  ],
+  "Breaker the Magical Warrior": [
+    "BreakertheMagicalWarrior-RDLP01-JP-UPR.png"
+  ],
+  "Dark Magician of Chaos": [
+    "DarkMagicianofChaos-RDLP01-JP-UPR.png",
+    "DarkMagicianofChaos-RDLP01-JP-FORR.png"
+  ],
+  "Goblin Attack Force": [
+    "GoblinAttackForce-RDLP01-JP-UR.png"
+  ],
+  "Happy Lover": [
+    "HappyLover-RDLP01-JP-UR.png"
+  ],
+  "Jerry Beans Man": [
+    "JerryBeansMan-RDLP01-JP-UR.png"
+  ],
+  "Mad Reloader": [
+    "MadReloader-RDLP01-JP-UPR.png"
+  ],
+  "Magician of Faith": [
+    "MagicianofFaith-RDLP01-JP-UPR.png"
+  ],
+  "Maha Vailo": [
+    "MahaVailo-RDLP01-JP-UPR.png"
+  ],
+  "Mask of Darkness": [
+    "MaskofDarkness-RDLP01-JP-UPR.png"
+  ],
+  "Mystical Space Typhoon": [
+    "MysticalSpaceTyphoon-RDLP01-JP-UPR.png"
+  ],
+  "One for One": [
+    "OneforOne-RDLP01-JP-UPR.png"
+  ],
+  "Panther Warrior": [
+    "PantherWarrior-RDLP01-JP-UR.png"
+  ],
+  "Penguin Soldier": [
+    "PenguinSoldier-RDLP01-JP-UR.png"
+  ],
+  "Rescue Cat": [
+    "RescueCat-RDLP01-JP-UPR.png",
+    "RescueCat-RDLP01-JP-ORR.png"
+  ],
+  "Rescue Rabbit": [
+    "RescueRabbit-RDSJMP-JP-NPR.png",
+    "RescueRabbit-RDLP01-JP-UR.png"
+  ],
+  "Robotic Knight": [
+    "RoboticKnight-RDLP01-JP-UR.png"
+  ],
+  "Rocket Warrior": [
+    "RocketWarrior-RDLP01-JP-UR.png"
+  ],
+  "Saggi the Dark Clown": [
+    "SaggitheDarkClown-RDLP01-JP-UR.png"
+  ],
+  "Shield Crush": [
+    "ShieldCrush-RDLP01-JP-UPR.png"
+  ],
+  "Shining Friendship": [
+    "ShiningFriendship-RDLP01-JP-UR.png"
+  ],
+  "Summoner Monk": [
+    "SummonerMonk-RDLP01-JP-UPR.png"
+  ],
+  "Super Polymerization": [
+    "SuperPolymerization-RDLP01-JP-UPR.png"
+  ],
+  "Swordstalker": [
+    "Swordstalker-RDLP01-JP-UR.png"
+  ],
+  "The Forceful Sentry": [
+    "TheForcefulSentry-RDLP01-JP-UPR.png"
+  ],
+  "Elemental HERO Mudballman": [
+    "ElementalHEROMudballman-RDLP01-JP-UR.png",
+    "ElementalHEROMudballman-RDSJMP-JP-NPR.png"
+  ],
+  "Healthy Mind Speedy Buzzer Battle!": [
+    "HealthyMindSpeedyBuzzerBattle-RDKP26-JP-R.png",
+    "HealthyMindSpeedyBuzzerBattle-RDS263-JP-OP.png"
+  ],
+  "Stratohammer Mjolnir": [
+    "StratohammerMjolnir-RDAP01-JP-ORR.png",
+    "StratohammerMjolnir-RDS263-JP-OP.png"
+  ],
+  "Hydra Viper": [
+    "HydraViper-RD26S1-JP-SPR.png",
+    "HydraViper-RDSJMP-JP-NPR.png"
   ]
 }

@@ -5979,5 +5979,8 @@
     "coverImage": "RDLP02-BoosterJP.png",
     "cardsPerPack": 4,
     "declaredSize": null
+  },
+  "Advance Pack": {
+    "notASet": true
   }
 }
