@@ -12155,6 +12155,74 @@
     "raw_name_en": "The Battlebump"
   },
   {
+    "name_ja": "歴戦のカース・オブ・ドラゴン",
+    "name_ja_romaji": "Rekisen no Kāsu Obu Doragon",
+    "name_ko": "력전의 커스 오브 드래곤",
+    "attribute": "DARK",
+    "types": "Dragon / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 5,
+    "atk": 2000,
+    "def": 1500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "If you have no monsters on your field, you can Special Summon this card from your hand face-up to your field.",
+    "effect_types": null,
+    "requirement": "Send the top card of your Deck to the Graveyard.",
+    "effect": "This turn, this card's name becomes \"Curse of Dragon\". Then, you can Fusion Summon by shuffling 2 monsters from your field and/or Graveyard into the owner's Deck as material, including this card.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "BattletestedCurseofDragon-RDCA01-JP-ScPR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "BattletestedCurseofDragon-RDAP01-JP-UR.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP14-JP031",
+        "name": "Phoenix of the Roaring Flame",
+        "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/AP01-JP094",
+        "name": "Advance Pack: Devil's Ceremony",
+        "rarity": "Ultra Rare, Secret Rare"
+      },
+      {
+        "code": "RD/CA01-JP010",
+        "name": "Cross Art Collection",
+        "rarity": "Secret Parallel Rare"
+      }
+    ],
+    "sets_kr": [
+      {
+        "code": "RD/KP14-KR031",
+        "name": "Phoenix of the Roaring Flame",
+        "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/AP01-KR094",
+        "name": "Advance Pack: Devil's Ceremony",
+        "rarity": "Ultra Rare, Secret Rare"
+      }
+    ],
+    "database_id": "19308",
+    "archseries": [
+      "Gaia"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Battletested Curse of Dragon",
+    "_wiki_ts": "2026-10-29T21:41:09Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Battletested Curse of Dragon"
+  },
+  {
     "name_ja": "歴戦の暗黒騎士ガイア",
     "name_ja_romaji": "Rekisen no Ankokukishi Gaia",
     "name_ko": "력전의 암흑 기사 가이아",
@@ -18297,8 +18365,8 @@
     "name_ja_romaji": "Kyōkaiatari no Burasutogēto",
     "attribute": null,
     "types": null,
-    "card_type": "???",
-    "property": "???",
+    "card_type": "Trap",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -18306,20 +18374,20 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "When your opponent Normal Summons an Effect Monster with 2000 or less ATK.",
+    "effect": "Take control of that monster during this Main Phase (when control of that monster is returned, if there is no Monster Zone to return to, send it to the Graveyard).",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "BoundaryCrossingBlastGate-OW.png"
+        "file": "BoundaryCrossingBlastGate-RDKP27-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP27-JP0??",
+        "code": "RD/KP27-JP065",
         "name": "Jointech of Passion",
-        "rarity": ""
+        "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -18328,7 +18396,7 @@
     "password": null,
     "is_legend": false,
     "title": "Boundary-Crossing Blast Gate",
-    "_wiki_ts": "2026-10-01T10:34:57Z",
+    "_wiki_ts": "2026-11-01T09:50:35Z",
     "card_schema_version": 2,
     "raw_name_en": "Boundary-Crossing Blast Gate"
   },
@@ -21322,6 +21390,10 @@
       {
         "artwork": 1,
         "file": "CardTrooper-RDAP02-JP-UR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "CardTrooper-RDLP02-JP-OP-AA.png"
       }
     ],
     "sets_jp": [
@@ -21339,6 +21411,11 @@
         "code": "RD/AP02-JP056",
         "name": "Advance Pack: Revenge Hearts",
         "rarity": "Ultra Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP060",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -21358,7 +21435,7 @@
     "password": null,
     "is_legend": true,
     "title": "Card Trooper",
-    "_wiki_ts": "2026-05-01T18:00:22Z",
+    "_wiki_ts": "2026-10-30T16:15:46Z",
     "card_schema_version": 2,
     "raw_name_en": "Card Trooper (Rush Duel)"
   },
@@ -28886,6 +28963,48 @@
     "raw_name_en": "Contractor of the Abyssal Dragon"
   },
   {
+    "name_ja": "次元の盟友 コピン",
+    "name_ja_romaji": "Jigen no Meiyū Kopin",
+    "attribute": "WIND",
+    "types": "Beast / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 700,
+    "def": 500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Reveal 1 Cyberse Type monster in your hand.",
+    "effect": "Add 1 Level 4 WIND Attribute Fairy Type monster with 500 DEF from your Graveyard to your hand. This turn, you cannot activate the effect of \"Copin the Dimensional Sworn Ally\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "CopintheDimensionalSwornAlly-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP031",
+        "name": "Jointech of Passion",
+        "rarity": "Super Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Dimension Linker"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Copin the Dimensional Sworn Ally",
+    "_wiki_ts": "2026-10-27T15:27:20Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Copin the Dimensional Sworn Ally"
+  },
+  {
     "name_ja": "ザ☆コピー",
     "name_ja_romaji": "Za☆Kopī",
     "name_ko": "더☆카피",
@@ -30360,7 +30479,7 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "Send 1 card from your hand to the Graveyard.",
+    "requirement": "Send 1 monster from your hand to the Graveyard.",
     "effect": "Choose 1 face-up monster on your field. This turn, it gains 400 ATK, and if it attacks a Defense Position monster, inflict piercing battle damage (if the ATK of the attacking monster exceeds the DEF of the attack target, inflict the difference). If the monster's Level is 10, inflict 1000 damage to your opponent.",
     "flavor_text": null,
     "images": [
@@ -30410,7 +30529,7 @@
     "password": null,
     "is_legend": false,
     "title": "Cranked to Ten!!",
-    "_wiki_ts": "2025-08-22T19:12:49Z",
+    "_wiki_ts": "2026-10-26T08:20:09Z",
     "card_schema_version": 2,
     "raw_name_en": "Cranked to Ten!!"
   },
@@ -34624,6 +34743,48 @@
     "_wiki_ts": "2026-01-30T20:07:29Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Battle Grounds"
+  },
+  {
+    "name_ja": "ダーク・コーリング",
+    "name_ja_romaji": "Dāku Kōringu",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During a turn you have not activated \"Dark Calling\".",
+    "effect": "Fusion Summon a monster that mentions \"Dark Fusion\" by placing monsters from your hand or Graveyard on the bottom of the Deck in any order as material (this is treated as a Fusion Summon by the effect of \"Dark Fusion\").",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "DarkCalling-RDLP02-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP02-JP025",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Evil HERO"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Dark Calling",
+    "_wiki_ts": "2026-10-30T15:56:29Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Dark Calling (Rush Duel)"
   },
   {
     "name_ja": "超魔導騎士－ブラック・キャバルリー",
@@ -44551,7 +44712,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dimension Pair Link L",
-    "_wiki_ts": "2026-10-10T14:59:55Z",
+    "_wiki_ts": "2026-10-27T14:54:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Dimension Pair Link L"
   },
@@ -44597,7 +44758,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dimension Pair Link R",
-    "_wiki_ts": "2026-10-10T15:00:28Z",
+    "_wiki_ts": "2026-10-26T15:20:01Z",
     "card_schema_version": 2,
     "raw_name_en": "Dimension Pair Link R"
   },
@@ -44684,6 +44845,48 @@
     "_wiki_ts": "2026-10-10T14:58:53Z",
     "card_schema_version": 2,
     "raw_name_en": "Dimension Riletta"
+  },
+  {
+    "name_ja": "ディメンション・ワーブ",
+    "name_ja_romaji": "Dimenshon Wābu",
+    "attribute": "LIGHT",
+    "types": "Cyberse / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 700,
+    "def": 500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "You have 2 or more monsters on your field.",
+    "effect": "Send all monsters from your field to the Graveyard. Then, you can Special Summon 1 \"Dimension Linker\" or 1 Level 9 WIND Attribute Cyberse Type Fusion Monster from your Graveyard face-up to your field. This turn, you cannot activate the effect of \"Dimension Wharve\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "DimensionWharve-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP030",
+        "name": "Jointech of Passion",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Dimension Linker"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Dimension Wharve",
+    "_wiki_ts": "2026-10-27T15:22:26Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Dimension Wharve"
   },
   {
     "name_ja": "竜骸のプシュケラ",
@@ -51911,7 +52114,7 @@
     "password": null,
     "is_legend": false,
     "title": "Elemental HERO Bladedge",
-    "_wiki_ts": "2026-06-11T11:23:25Z",
+    "_wiki_ts": "2026-10-30T15:49:53Z",
     "card_schema_version": 2,
     "raw_name_en": "Elemental HERO Bladedge (Rush Duel)"
   },
@@ -56802,9 +57005,93 @@
     "password": null,
     "is_legend": false,
     "title": "Evil HERO Lightning Golem",
-    "_wiki_ts": "2026-10-13T18:02:03Z",
+    "_wiki_ts": "2026-10-30T15:30:38Z",
     "card_schema_version": 2,
     "raw_name_en": "Evil HERO Lightning Golem (Rush Duel)"
+  },
+  {
+    "name_ja": "Ｅ－ＨＥＲＯ マリシャス・エッジ",
+    "name_ja_romaji": "Ībiru Hīrō Marishasu Ejji",
+    "attribute": "EARTH",
+    "types": "Fiend / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 7,
+    "atk": 2600,
+    "def": 1800,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "If your opponent has a monster on their field, you can Tribute Summon this card in Attack Position by Tributing 1 monster.",
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "This card inflicts piercing battle damage.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "EvilHEROMaliciousEdge-RDLP02-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP02-JP021",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Evil HERO"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Evil HERO Malicious Edge",
+    "_wiki_ts": "2026-10-30T15:46:11Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Evil HERO Malicious Edge (Rush Duel)"
+  },
+  {
+    "name_ja": "Ｅ－ＨＥＲＯ マリシャス・デビル",
+    "name_ja_romaji": "Ībiru Hīrō Marishasu Debiru",
+    "attribute": "FIRE",
+    "types": "Fiend / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 8,
+    "atk": 3500,
+    "def": 2100,
+    "maximum_atk": null,
+    "materials": "\"Evil HERO Malicious Edge\" + 1 Level 6 or higher Fiend Type monster",
+    "condition": "Must be Special Summoned by the effect of \"Dark Fusion\" or \"Super Polymerization\".",
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "During your opponent's Battle Phase, all your opponent's monsters that can attack must attack.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "EvilHEROMaliciousFiend-RDLP02-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/LP02-JP024",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Evil HERO"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Evil HERO Malicious Fiend",
+    "_wiki_ts": "2026-10-30T15:35:40Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Evil HERO Malicious Fiend (Rush Duel)"
   },
   {
     "name_ja": "悪星の導き",
@@ -57789,7 +58076,7 @@
     "password": null,
     "is_legend": false,
     "title": "Excutie Lumière",
-    "_wiki_ts": "2026-10-17T15:48:21Z",
+    "_wiki_ts": "2026-10-31T17:38:11Z",
     "card_schema_version": 2,
     "raw_name_en": "Excutie Lumière"
   },
@@ -58074,7 +58361,7 @@
     "password": null,
     "is_legend": false,
     "title": "Excutie Plawtie",
-    "_wiki_ts": "2026-03-11T15:57:20Z",
+    "_wiki_ts": "2026-10-31T17:42:11Z",
     "card_schema_version": 2,
     "raw_name_en": "Excutie Plawtie"
   },
@@ -63041,6 +63328,47 @@
     "raw_name_en": "Forest (Rush Duel)"
   },
   {
+    "name_ja": "美しき妖魔の森",
+    "name_ja_romaji": "Utsukushiki Yōma no Mori",
+    "name_translated": "Forest of the Beautiful Apparition",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Field",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "You can only draw by the effect of \"Forest of the Beautiful Dark Queen\" once per turn.",
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "While this card is face-up in the Field Zone, after you activate a monster effect, if you sent a Spell/Trap Card from the hand or field to the Graveyard to meet the requirement, draw 1 card.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "ForestoftheBeautifulDarkQueen-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP060",
+        "name": "Jointech of Passion",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Forest of the Beautiful Dark Queen",
+    "_wiki_ts": "2026-10-25T16:22:45Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Forest of the Beautiful Dark Queen"
+  },
+  {
     "name_ja": "永久凍結",
     "name_ja_romaji": "Eikyūtōketsu",
     "name_ko": "영구동결",
@@ -65665,12 +65993,16 @@
     "condition": null,
     "effect_types": null,
     "requirement": "If you have 5 or more monsters in your Graveyard, send 1 monster from your hand to the Graveyard.",
-    "effect": "Destroy 1 face-up Level 8 or lower monster on your opponent's field. You cannot Tribute this face-up card for a Tribute Summon this turn.",
+    "effect": "Destroy 1 face-up Level 8 or lower monster on your opponent's field. This turn, you cannot Tribute this face-up card for a Tribute Summon.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
         "file": "GaigusttheDefiantSoul-RDAP02-JP-C.png"
+      },
+      {
+        "artwork": 2,
+        "file": "GaigusttheDefiantSoul-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -65683,6 +66015,11 @@
         "code": "RD/AP02-JP005",
         "name": "Advance Pack: Revenge Hearts",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/LP02-JP064",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -65704,7 +66041,7 @@
     "password": null,
     "is_legend": false,
     "title": "Gaigust the Defiant Soul",
-    "_wiki_ts": "2026-04-22T10:09:58Z",
+    "_wiki_ts": "2026-10-30T16:28:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Gaigust the Defiant Soul"
   },
@@ -71557,13 +71894,17 @@
       {
         "artwork": 1,
         "file": "GraveShadow-RDKP27-JP-OP.png"
+      },
+      {
+        "artwork": 2,
+        "file": "GraveShadow-RDKP27-JP-OP-AA.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JPS00",
         "name": "Jointech of Passion",
-        "rarity": "Ultra Rare"
+        "rarity": "Ultra Rare, Over Rush Rare (Premium Black Version)"
       }
     ],
     "sets_kr": [],
@@ -71572,7 +71913,7 @@
     "password": null,
     "is_legend": false,
     "title": "Grave Shadow",
-    "_wiki_ts": "2026-10-24T16:09:14Z",
+    "_wiki_ts": "2026-10-25T18:33:15Z",
     "card_schema_version": 2,
     "raw_name_en": "Grave Shadow"
   },
@@ -72596,6 +72937,53 @@
     "_wiki_ts": "2025-05-11T08:34:32Z",
     "card_schema_version": 2,
     "raw_name_en": "The Guard"
+  },
+  {
+    "name_ja": "忠義の護衛刀",
+    "name_ja_romaji": "Chūgi no Goeitō",
+    "name_ko": "충의의 호위도",
+    "attribute": null,
+    "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "When an opponent's monster declares an attack.",
+    "effect": "Choose 1 face-up Fusion Monster on your field. This turn, that monster cannot be destroyed by battle.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "GuardSwordsofAllegiance-RDEXT1-JP-C.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/EXT1-JP047",
+        "name": "Extra Transcend Enhancement Pack",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [
+      {
+        "code": "RD/EXT1-KR047",
+        "name": "Extra Transcend Enhancement Pack",
+        "rarity": "Common"
+      }
+    ],
+    "database_id": "16931",
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Guard Swords of Allegiance",
+    "_wiki_ts": "2026-10-29T11:18:11Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Guard Swords of Allegiance"
   },
   {
     "name_ja": "ガーディアン・エアトス",
@@ -73700,7 +74088,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": null,
-    "effect": "''From lost cats to dignitary protection, she's a multifaceted troubleshooter. Lately its been all lunch deliveries, but out of nowhere, she receives a message from an unknown sender.''",
+    "effect": "''From lost cats to dignitary protection, she's a multifaceted troubleshooter. Lately it's been all lunch deliveries, but out of nowhere, she receives a message from an unknown sender.''",
     "flavor_text": null,
     "images": [
       {
@@ -73763,7 +74151,7 @@
     "password": null,
     "is_legend": false,
     "title": "Handy Lady",
-    "_wiki_ts": "2026-03-03T15:54:34Z",
+    "_wiki_ts": "2026-10-26T08:22:06Z",
     "card_schema_version": 2,
     "raw_name_en": "Handy Lady"
   },
@@ -95904,6 +96292,48 @@
     "raw_name_en": "Lullalabind"
   },
   {
+    "name_ja": "次元の盟友 ルミナ",
+    "name_ja_romaji": "Jigen no Meiyū Rumina",
+    "attribute": "WIND",
+    "types": "Fairy / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1000,
+    "def": 500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During your Main Phase that you Normal or Special Summoned this card.",
+    "effect": "Fusion Summon \"Saintick Lumina\" by sending monsters from your hand or field to the Graveyard as material. Then, gain 300 LP. This turn, you can only attack with Level 8 or higher Cyberse Type monsters.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "LuminatheDimensionalSwornAlly-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP032",
+        "name": "Jointech of Passion",
+        "rarity": "Super Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Dimension Linker"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Lumina the Dimensional Sworn Ally",
+    "_wiki_ts": "2026-10-27T15:57:48Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Lumina the Dimensional Sworn Ally"
+  },
+  {
     "name_ja": "ルミナス・レディ",
     "name_ja_romaji": "Ruminasu Redi",
     "name_ko": "루미나스 레이디",
@@ -96671,7 +97101,7 @@
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Aquila",
-    "_wiki_ts": "2026-10-17T15:44:49Z",
+    "_wiki_ts": "2026-10-31T17:40:26Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Aquila"
   },
@@ -96755,7 +97185,7 @@
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Chreia",
-    "_wiki_ts": "2026-10-12T16:53:57Z",
+    "_wiki_ts": "2026-10-31T17:39:12Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Chreia"
   },
@@ -96926,6 +97356,48 @@
     "_wiki_ts": "2026-10-12T17:51:47Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Hack"
+  },
+  {
+    "name_ja": "マッドレア・ハート",
+    "name_ja_romaji": "Maddorea Hāto",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Your opponent has a face-up Level 6 monster on their field.",
+    "effect": "Place 1 card from your opponent's field on the bottom of the owner's Deck. Until the end of this turn, you cannot Special Summon monsters, and you can only attack with DARK Attribute monsters with 1100 original DEF.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MadRareHeart-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP053",
+        "name": "Jointech of Passion",
+        "rarity": "Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Mad Rare"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Mad Rare Heart",
+    "_wiki_ts": "2026-10-30T16:36:34Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Mad Rare Heart"
   },
   {
     "name_ja": "マッドレア・マキ",
@@ -104548,6 +105020,50 @@
     "_wiki_ts": "2026-04-06T19:58:47Z",
     "card_schema_version": 2,
     "raw_name_en": "Mezame the Ringing Alarm"
+  },
+  {
+    "name_ja": "陽気な天使ミカ",
+    "name_ja_romaji": "Yōkina Tenshi Mika",
+    "attribute": "LIGHT",
+    "types": "Fairy / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 900,
+    "def": 100,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "If there are 2 or more different Types among the face-up monsters on the field, send the top 2 cards of your Deck to the Graveyard.",
+    "effect": "Face-up monsters on the field gain 500 ATK until the end of this turn. Then, you can add 1 monster with 900 ATK/100 DEF or 1 \"Micha the Symbol of the Angels\" from your Graveyard to your hand. This turn, you cannot activate the effect of \"Micha the Cheerful Angel\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "MichatheCheerfulAngel-RDKP27-JP-OP.png"
+      },
+      {
+        "artwork": 2,
+        "file": "MichatheCheerfulAngel-RDKP27-JP-OP-AA.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP035",
+        "name": "Jointech of Passion",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Micha the Cheerful Angel",
+    "_wiki_ts": "2026-10-31T21:57:48Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Micha the Cheerful Angel"
   },
   {
     "name_ja": "天使の印ミカ",
@@ -115222,6 +115738,50 @@
     "raw_name_en": "Party Up"
   },
   {
+    "name_ja": "パステルファインダー・ビビ",
+    "name_ja_romaji": "Pasuteru Faindā Bibi",
+    "attribute": "LIGHT",
+    "types": "Rock / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 500,
+    "def": 1000,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Send 1 Spell Card from your hand to the Graveyard.",
+    "effect": "Increase this card's Level by 4 until the end of this turn. Then, if this card's Level is 8 or higher, you can Ritual Summon a Level 8 or lower non-Effect Monster by sending this card from your field to the Graveyard as material. This turn, you cannot activate the effect of \"Pastel Finder Vivi\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "PastelFinderVivi-RDKP27-JP-OP.png"
+      },
+      {
+        "artwork": 2,
+        "file": "PastelFinderVivi-RDKP27-JP-OP-AA.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP034",
+        "name": "Jointech of Passion",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Pastel Finder Vivi",
+    "_wiki_ts": "2026-10-31T17:20:59Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Pastel Finder Vivi"
+  },
+  {
     "name_ja": "ピース＆ロックンロール",
     "name_ja_romaji": "Pīsu Ando Rokkunrōru",
     "name_ko": "피스 & 록큰롤",
@@ -121820,7 +122380,7 @@
   },
   {
     "name_ja": "プレイ・デーモン",
-    "name_ja_romaji": "Prei Dēmon",
+    "name_ja_romaji": "Purei Dēmon",
     "name_ko": "프레이 데몬",
     "name_translated": "Prey Daemon",
     "attribute": "DARK",
@@ -121864,7 +122424,7 @@
     "password": null,
     "is_legend": false,
     "title": "Prey Archfiend",
-    "_wiki_ts": "2026-09-29T06:55:55Z",
+    "_wiki_ts": "2026-10-25T17:59:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Prey Archfiend"
   },
@@ -129135,6 +129695,48 @@
     "raw_name_en": "Rice Terrace Secure"
   },
   {
+    "name_ja": "次元の盟友 リエル",
+    "name_ja_romaji": "Jigen no Meiyū Rieru",
+    "attribute": "WIND",
+    "types": "Fairy / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1000,
+    "def": 500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During your Main Phase that you Normal or Special Summoned this card.",
+    "effect": "Fusion Summon \"Saintick Linker\" by sending monsters from your hand or field to the Graveyard as material. Then, you can add 1 \"Dimension Linker\" from your Graveyard to your hand. This turn, you can only attack with Level 8 or higher Cyberse Type monsters.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "RieltheDimensionalSwornAlly-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP067",
+        "name": "Jointech of Passion",
+        "rarity": "Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Dimension Linker"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Riel the Dimensional Sworn Ally",
+    "_wiki_ts": "2026-10-27T21:19:55Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Riel the Dimensional Sworn Ally"
+  },
+  {
     "name_ja": "ジャスティス・ドラゴン",
     "name_ja_romaji": "Jasutisu Doragon",
     "name_ko": "저스티스 드래곤",
@@ -134838,12 +135440,12 @@
     "raw_name_en": "Saggi the Dark Clown (Rush Duel)"
   },
   {
-    "name_ja": "セインティック・ルミナ",
-    "name_ja_romaji": "Seintikku Rumina",
-    "attribute": "???",
-    "types": "??? / ???",
-    "card_type": null,
-    "property": null,
+    "name_ja": "セインティック・クルセイド",
+    "name_ja_romaji": "Seintikku Kuruseido",
+    "attribute": null,
+    "types": null,
+    "card_type": "Trap",
+    "property": "Normal",
     "level": null,
     "atk": null,
     "def": null,
@@ -134851,31 +135453,159 @@
     "materials": null,
     "condition": null,
     "effect_types": null,
-    "requirement": "(TBA)",
-    "effect": "(TBA)",
+    "requirement": "When your opponent Normal or Special Summons a monster, shuffle 1 Cyberse Type monster and 1 non-Cyberse Type monster from your Graveyard into the Deck.",
+    "effect": "Choose up to 2 face-up monsters on your field, and they gain 500 ATK until the end of this turn. Then, if you chose a WIND Attribute Cyberse Type Fusion Monster by this effect, you can destroy 1 face-up card on your opponent's field.",
     "flavor_text": null,
     "images": [
       {
         "artwork": 1,
-        "file": "SaintickLumina-OW.png"
+        "file": "SaintickCrusade-RDKP27-JP-OP.png"
       }
     ],
     "sets_jp": [
       {
-        "code": "RD/KP27-JP0??",
+        "code": "RD/KP27-JP064",
         "name": "Jointech of Passion",
-        "rarity": ""
+        "rarity": "Common"
       }
     ],
     "sets_kr": [],
     "database_id": null,
-    "archseries": [],
+    "archseries": [
+      "Dimension Linker"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Saintick Crusade",
+    "_wiki_ts": "2026-10-27T16:46:51Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Saintick Crusade"
+  },
+  {
+    "name_ja": "セインティック・リンカー",
+    "name_ja_romaji": "Seintikku Rinkā",
+    "attribute": "WIND",
+    "types": "Cyberse / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 9,
+    "atk": 2800,
+    "def": 2000,
+    "maximum_atk": null,
+    "materials": "\"Riel the Dimensional Sworn Ally\" + 1 Level 8 LIGHT Attribute Cyberse Type  monster",
+    "condition": null,
+    "effect_types": null,
+    "requirement": "During your Main Phase that you Special Summoned this card, send 1 card from your hand to the Graveyard.",
+    "effect": "Return 1 face-up card from your opponent's field to the owner's hand. Then, if you have 3 or more different Types in your Graveyard, this card inflicts piercing battle damage this turn. This turn, you cannot activate the effect of \"Saintick Linker\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "SaintickLinker-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP044",
+        "name": "Jointech of Passion",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Dimension Linker"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Saintick Linker",
+    "_wiki_ts": "2026-10-27T15:16:56Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Saintick Linker"
+  },
+  {
+    "name_ja": "セインティック・ルミナ",
+    "name_ja_romaji": "Seintikku Rumina",
+    "attribute": "WIND",
+    "types": "Cyberse / Fusion / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 9,
+    "atk": 1800,
+    "def": 1800,
+    "maximum_atk": null,
+    "materials": "\"Lumina the Dimensional Sworn Ally\" + 1 Level 4 LIGHT or WIND Attribute monster with 500 DEF",
+    "condition": null,
+    "effect_types": "Continuous",
+    "requirement": "None",
+    "effect": "Face-up monsters on your field gain 400 ATK/DEF. If you have 3 or more different Types in your Graveyard, Spell/Trap Cards on your field cannot be destroyed by monster effects.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "SaintickLumina-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP043",
+        "name": "Jointech of Passion",
+        "rarity": "Super Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Dimension Linker"
+    ],
     "password": null,
     "is_legend": false,
     "title": "Saintick Lumina",
-    "_wiki_ts": "2026-10-01T10:35:56Z",
+    "_wiki_ts": "2026-10-27T15:02:45Z",
     "card_schema_version": 2,
     "raw_name_en": "Saintick Lumina"
+  },
+  {
+    "name_ja": "セインティック・ピルグリム",
+    "name_ja_romaji": "Seintikku Pirugurimu",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Add 1 \"Lumina the Dimensional Sworn Ally\", \"Riel the Dimensional Sworn Ally\", or \"Saintick Crusade\" from your Graveyard to your hand. Then, you can shuffle 3 monsters from your Graveyard into the Deck. Then, if you shuffled a WIND Attribute monster by this effect, you can look at 1 face-down card in your opponent's Spell & Trap Zone. Then, if that card is a Trap Card, destroy it.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "SaintickPilgrim-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP059",
+        "name": "Jointech of Passion",
+        "rarity": "Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Dimension Linker"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Saintick Pilgrim",
+    "_wiki_ts": "2026-10-27T16:09:44Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Saintick Pilgrim"
   },
   {
     "name_ja": "陰陽士サカカゼ",
@@ -144979,6 +145709,10 @@
       {
         "artwork": 2,
         "file": "SouffraestheDefiantSoul-RDKP18-JP-ScR-AA.png"
+      },
+      {
+        "artwork": 3,
+        "file": "SouffraestheDefiantSoul-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -144991,6 +145725,11 @@
         "code": "RD/AP02-JP008",
         "name": "Advance Pack: Revenge Hearts",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/LP02-JP063",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -145012,7 +145751,7 @@
     "password": null,
     "is_legend": false,
     "title": "Souffraes the Defiant Soul",
-    "_wiki_ts": "2026-04-22T10:10:14Z",
+    "_wiki_ts": "2026-10-30T16:20:16Z",
     "card_schema_version": 2,
     "raw_name_en": "Souffraes the Defiant Soul"
   },
@@ -146741,53 +147480,6 @@
     "_wiki_ts": "2026-04-22T10:13:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Specter of Heaven's End"
-  },
-  {
-    "name_ja": "忠義の護衛刀",
-    "name_ja_romaji": "Chūgi no Goeitō",
-    "name_ko": "충의의 호위도",
-    "attribute": null,
-    "types": null,
-    "card_type": "Trap",
-    "property": "Normal",
-    "level": null,
-    "atk": null,
-    "def": null,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": null,
-    "effect_types": null,
-    "requirement": "When an opponent's monster declares an attack.",
-    "effect": "Choose 1 face-up Fusion Monster on your field. This turn, that monster cannot be destroyed by battle.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "SpectralSwordsoftheEverloyalGuard-RDEXT1-JP-C.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/EXT1-JP047",
-        "name": "Extra Transcend Enhancement Pack",
-        "rarity": "Common"
-      }
-    ],
-    "sets_kr": [
-      {
-        "code": "RD/EXT1-KR047",
-        "name": "Extra Transcend Enhancement Pack",
-        "rarity": "Common"
-      }
-    ],
-    "database_id": "16931",
-    "archseries": [],
-    "password": null,
-    "is_legend": false,
-    "title": "Spectral Swords of the Everloyal Guard",
-    "_wiki_ts": "2025-01-11T02:41:12Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Spectral Swords of the Everloyal Guard"
   },
   {
     "name_ja": "スピード・キャリアー",
@@ -156047,7 +156739,7 @@
     "password": null,
     "is_legend": false,
     "title": "Take A Short Break",
-    "_wiki_ts": "2026-08-21T16:28:34Z",
+    "_wiki_ts": "2026-10-26T15:37:59Z",
     "card_schema_version": 2,
     "raw_name_en": "Take A Short Break"
   },
@@ -162865,7 +163557,7 @@
     "password": null,
     "is_legend": false,
     "title": "Turnback Shot",
-    "_wiki_ts": "2024-12-06T10:47:09Z",
+    "_wiki_ts": "2026-10-29T11:12:59Z",
     "card_schema_version": 2,
     "raw_name_en": "Turnback Shot"
   },
@@ -163379,6 +164071,46 @@
     "_wiki_ts": "2025-08-22T08:31:47Z",
     "card_schema_version": 2,
     "raw_name_en": "Twin-Barrel Dragon (Rush Duel)"
+  },
+  {
+    "name_ja": "ふたりの見習い魔女",
+    "name_ja_romaji": "Futari no Minarai Majo",
+    "attribute": "LIGHT",
+    "types": "Spellcaster / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 0,
+    "def": 0,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "Change this Attack Position card to face-up Defense Position.",
+    "effect": "Add 1 \"Forest of the Beautiful Dark Queen\" from your Graveyard to your hand. Then, you can destroy 1 Spell/Trap Card on your opponent's field. This turn, you cannot activate the effect of \"The Two Apprentice Witches\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "TheTwoApprenticeWitches-RDKP27-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP27-JP068",
+        "name": "Jointech of Passion",
+        "rarity": "Super Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "The Two Apprentice Witches",
+    "_wiki_ts": "2026-10-26T15:11:04Z",
+    "card_schema_version": 2,
+    "raw_name_en": "The Two Apprentice Witches"
   },
   {
     "name_ja": "二頭を持つキング・レックス",
@@ -166589,74 +167321,6 @@
     "_wiki_ts": "2026-10-18T18:01:23Z",
     "card_schema_version": 2,
     "raw_name_en": "The Very Kind Human"
-  },
-  {
-    "name_ja": "歴戦のカース・オブ・ドラゴン",
-    "name_ja_romaji": "Rekisen no Kāsu Obu Doragon",
-    "name_ko": "력전의 커스 오브 드래곤",
-    "attribute": "DARK",
-    "types": "Dragon / Effect",
-    "card_type": null,
-    "property": null,
-    "level": 5,
-    "atk": 2000,
-    "def": 1500,
-    "maximum_atk": null,
-    "materials": null,
-    "condition": "If you have no monsters on your field, you can Special Summon this card from your hand face-up to your field.",
-    "effect_types": null,
-    "requirement": "Send the top card of your Deck to the Graveyard.",
-    "effect": "This turn, this card's name becomes \"Curse of Dragon\". Then, you can Fusion Summon by shuffling 2 monsters from your field and/or Graveyard into the owner's Deck as material, including this card.",
-    "flavor_text": null,
-    "images": [
-      {
-        "artwork": 1,
-        "file": "VeteranCurseofDragon-RDCA01-JP-ScPR.png"
-      },
-      {
-        "artwork": 2,
-        "file": "VeteranCurseofDragon-RDAP01-JP-UR.png"
-      }
-    ],
-    "sets_jp": [
-      {
-        "code": "RD/KP14-JP031",
-        "name": "Phoenix of the Roaring Flame",
-        "rarity": "Super Rare, Secret Rare"
-      },
-      {
-        "code": "RD/AP01-JP094",
-        "name": "Advance Pack: Devil's Ceremony",
-        "rarity": "Ultra Rare, Secret Rare"
-      },
-      {
-        "code": "RD/CA01-JP010",
-        "name": "Cross Art Collection",
-        "rarity": "Secret Parallel Rare"
-      }
-    ],
-    "sets_kr": [
-      {
-        "code": "RD/KP14-KR031",
-        "name": "Phoenix of the Roaring Flame",
-        "rarity": "Super Rare, Secret Rare"
-      },
-      {
-        "code": "RD/AP01-KR094",
-        "name": "Advance Pack: Devil's Ceremony",
-        "rarity": "Ultra Rare, Secret Rare"
-      }
-    ],
-    "database_id": "19308",
-    "archseries": [
-      "Gaia"
-    ],
-    "password": null,
-    "is_legend": false,
-    "title": "Veteran Curse of Dragon",
-    "_wiki_ts": "2026-10-10T14:55:37Z",
-    "card_schema_version": 2,
-    "raw_name_en": "Veteran Curse of Dragon"
   },
   {
     "name_ja": "Ｖｉ－ＦＲＮＤ",

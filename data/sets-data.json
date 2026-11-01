@@ -5982,5 +5982,12 @@
   },
   "Advance Pack": {
     "notASet": true
+  },
+  "Rush Duel Promotion Pack 2027": {
+    "releaseDateJP": "December 19, 2026",
+    "packsPerBox": null,
+    "coverImage": "RD27PR-BoosterJP.png",
+    "cardsPerPack": 1,
+    "declaredSize": null
   }
 }

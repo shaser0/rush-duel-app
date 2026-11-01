@@ -7870,7 +7870,8 @@
     "Tamainabot-RD23PR-JP-NPR.png"
   ],
   "Gradius": [
-    "Gradius-RDKP23-JP-R.png"
+    "Gradius-RDKP23-JP-R.png",
+    "Gradius-RDLP01-JP-ScR.png"
   ],
   "Handsray Destleo": [
     "HandsrayDestleo-RDSJMP-JP-NPR.png"
@@ -8900,5 +8901,12 @@
   "Hydra Viper": [
     "HydraViper-RD26S1-JP-SPR.png",
     "HydraViper-RDSJMP-JP-NPR.png"
+  ],
+  "Battletested Curse of Dragon": [
+    "BattletestedCurseofDragon-RDCA01-JP-ScPR.png",
+    "BattletestedCurseofDragon-RDAP01-JP-UR.png",
+    "BattletestedCurseofDragon-RDAP01-JP-ScR.png",
+    "BattletestedCurseofDragon-RDKP14-JP-SR.png",
+    "BattletestedCurseofDragon-RDKP14-JP-ScR.png"
   ]
 }
