@@ -5989,5 +5989,12 @@
     "coverImage": "RD27PR-BoosterJP.png",
     "cardsPerPack": 1,
     "declaredSize": null
+  },
+  "Saikyō Jump January 2027 promotional card": {
+    "releaseDateJP": "December 4, 2026",
+    "packsPerBox": null,
+    "coverImage": "SJMP-2027-1-Cover.png",
+    "cardsPerPack": null,
+    "declaredSize": null
   }
 }

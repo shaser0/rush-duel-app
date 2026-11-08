@@ -1257,7 +1257,7 @@
     "GalacticaOblivion-RD5TH1-JP-SPR.png",
     "GalacticaOblivion-RD711B-JP-NPR.png",
     "GalacticaOblivion-RDCCC1-JP-NPR.png",
-    "GalacticaOblivion-RDKP25-JP-OP.png",
+    "GalacticaOblivion-RDKP25-JP-FORR.png",
     "GalacticaOblivion-RDORP1-JP-ORR.png",
     "GalacticaOblivion-RDKP09-JP-RR.png",
     "GalacticaOblivion-RDKP09-JP-UR.png",
@@ -8806,13 +8806,16 @@
     "YaetheSpecialInvestigationsNinja-RDKP26-JP-R.png"
   ],
   "Bottomless Trap Hole": [
-    "BottomlessTrapHole-RDLP01-JP-UPR.png"
+    "BottomlessTrapHole-RDLP01-JP-UPR.png",
+    "BottomlessTrapHole-RDLP01-JP-ORR.png"
   ],
   "Brain Control": [
-    "BrainControl-RDLP01-JP-UPR.png"
+    "BrainControl-RDLP01-JP-UPR.png",
+    "BrainControl-RDLP01-JP-ORR.png"
   ],
   "Breaker the Magical Warrior": [
-    "BreakertheMagicalWarrior-RDLP01-JP-UPR.png"
+    "BreakertheMagicalWarrior-RDLP01-JP-UPR.png",
+    "BreakertheMagicalWarrior-RDLP01-JP-ORR.png"
   ],
   "Dark Magician of Chaos": [
     "DarkMagicianofChaos-RDLP01-JP-UPR.png",
@@ -8828,22 +8831,28 @@
     "JerryBeansMan-RDLP01-JP-UR.png"
   ],
   "Mad Reloader": [
-    "MadReloader-RDLP01-JP-UPR.png"
+    "MadReloader-RDLP01-JP-UPR.png",
+    "MadReloader-RDLP01-JP-ORR.png"
   ],
   "Magician of Faith": [
-    "MagicianofFaith-RDLP01-JP-UPR.png"
+    "MagicianofFaith-RDLP01-JP-UPR.png",
+    "MagicianofFaith-RDLP01-JP-ORR.png"
   ],
   "Maha Vailo": [
-    "MahaVailo-RDLP01-JP-UPR.png"
+    "MahaVailo-RDLP01-JP-UPR.png",
+    "MahaVailo-RDLP01-JP-ORR.png"
   ],
   "Mask of Darkness": [
-    "MaskofDarkness-RDLP01-JP-UPR.png"
+    "MaskofDarkness-RDLP01-JP-UPR.png",
+    "MaskofDarkness-RDLP01-JP-ORR.png"
   ],
   "Mystical Space Typhoon": [
-    "MysticalSpaceTyphoon-RDLP01-JP-UPR.png"
+    "MysticalSpaceTyphoon-RDLP01-JP-UPR.png",
+    "MysticalSpaceTyphoon-RDLP01-JP-ORR.png"
   ],
   "One for One": [
-    "OneforOne-RDLP01-JP-UPR.png"
+    "OneforOne-RDLP01-JP-UPR.png",
+    "OneforOne-RDLP01-JP-ORR.png"
   ],
   "Panther Warrior": [
     "PantherWarrior-RDLP01-JP-UR.png"
@@ -8869,22 +8878,26 @@
     "SaggitheDarkClown-RDLP01-JP-UR.png"
   ],
   "Shield Crush": [
-    "ShieldCrush-RDLP01-JP-UPR.png"
+    "ShieldCrush-RDLP01-JP-UPR.png",
+    "ShieldCrush-RDLP01-JP-ORR.png"
   ],
   "Shining Friendship": [
     "ShiningFriendship-RDLP01-JP-UR.png"
   ],
   "Summoner Monk": [
-    "SummonerMonk-RDLP01-JP-UPR.png"
+    "SummonerMonk-RDLP01-JP-UPR.png",
+    "SummonerMonk-RDLP01-JP-ORR.png"
   ],
   "Super Polymerization": [
-    "SuperPolymerization-RDLP01-JP-UPR.png"
+    "SuperPolymerization-RDLP01-JP-UPR.png",
+    "SuperPolymerization-RDLP01-JP-ORR.png"
   ],
   "Swordstalker": [
     "Swordstalker-RDLP01-JP-UR.png"
   ],
   "The Forceful Sentry": [
-    "TheForcefulSentry-RDLP01-JP-UPR.png"
+    "TheForcefulSentry-RDLP01-JP-UPR.png",
+    "TheForcefulSentry-RDLP01-JP-ORR.png"
   ],
   "Elemental HERO Mudballman": [
     "ElementalHEROMudballman-RDLP01-JP-UR.png",
@@ -8908,5 +8921,129 @@
     "BattletestedCurseofDragon-RDAP01-JP-ScR.png",
     "BattletestedCurseofDragon-RDKP14-JP-SR.png",
     "BattletestedCurseofDragon-RDKP14-JP-ScR.png"
+  ],
+  "Boundary-Crossing Blast Gate": [
+    "BoundaryCrossingBlastGate-RDKP27-JP-UR.png",
+    "BoundaryCrossingBlastGate-RDKP27-JP-ORR-AA.png",
+    "BoundaryCrossingBlastGate-RDKP27-JP-ORR.png",
+    "BoundaryCrossingBlastGate-RDKP27-JP-ScR.png"
+  ],
+  "Copin the Dimensional Sworn Ally": [
+    "CopintheDimensionalSwornAlly-RDKP27-JP-SR.png",
+    "CopintheDimensionalSwornAlly-RDKP27-JP-ScR.png"
+  ],
+  "Doomed by the Blackblight": [
+    "DoomedbytheBlackblight-RDKP27-JP-R.png",
+    "DoomedbytheBlackblight-RDKP27-JP-ScR.png"
+  ],
+  "Familiar-Possessed - Aussa": [
+    "FamiliarPossessedAussa-RDKP27-JP-UR.png",
+    "FamiliarPossessedAussa-RDKP27-JP-ORR.png",
+    "FamiliarPossessedAussa-RDKP27-JP-ScR.png"
+  ],
+  "Forest of the Beautiful Dark Queen": [
+    "ForestoftheBeautifulDarkQueen-RDKP27-JP-UR.png",
+    "ForestoftheBeautifulDarkQueen-RDKP27-JP-ORR.png",
+    "ForestoftheBeautifulDarkQueen-RDKP27-JP-ScR.png"
+  ],
+  "Invincible Millennium Golem": [
+    "InvincibleMillenniumGolem-RDKP27-JP-R.png",
+    "InvincibleMillenniumGolem-RDKP27-JP-ScR.png"
+  ],
+  "Jointech Matchless Hero": [
+    "JointechMatchlessHero-RDKP27-JP-SR.png",
+    "JointechMatchlessHero-RDKP27-JP-ScR.png"
+  ],
+  "Jointech Ultimate Warrior": [
+    "JointechUltimateWarrior-RDKP27-JP-R.png",
+    "JointechUltimateWarrior-RDKP27-JP-ScR.png"
+  ],
+  "Knight of the Hollowed Grounds": [
+    "KnightoftheHollowedGrounds-RDKP27-JP-UR.png",
+    "KnightoftheHollowedGrounds-RDKP27-JP-ORR-AA.png",
+    "KnightoftheHollowedGrounds-RDKP27-JP-ORR.png",
+    "KnightoftheHollowedGrounds-RDKP27-JP-ScR.png"
+  ],
+  "Lumina the Dimensional Sworn Ally": [
+    "LuminatheDimensionalSwornAlly-RDKP27-JP-SR.png",
+    "LuminatheDimensionalSwornAlly-RDKP27-JP-ScR.png"
+  ],
+  "Mad Rare Disturb": [
+    "MadRareDisturb-RDKP27-JP-R.png",
+    "MadRareDisturb-RDKP27-JP-ScR.png"
+  ],
+  "Mad Rare Fitz": [
+    "MadRareFitz-RDKP27-JP-R.png",
+    "MadRareFitz-RDKP27-JP-ScR.png"
+  ],
+  "Mad Rare Gramma": [
+    "MadRareGramma-RDKP27-JP-R.png",
+    "MadRareGramma-RDKP27-JP-ScR.png"
+  ],
+  "Mad Rare Hack": [
+    "MadRareHack-RDKP27-JP-SR.png",
+    "MadRareHack-RDKP27-JP-ScR.png"
+  ],
+  "Mad Rare Maqui": [
+    "MadRareMaqui-RDKP27-JP-R.png",
+    "MadRareMaqui-RDKP27-JP-ScR.png"
+  ],
+  "Mad Rare Rappid": [
+    "MadRareRappid-RDKP27-JP-UR.png",
+    "MadRareRappid-RDKP27-JP-ORR-AA.png",
+    "MadRareRappid-RDKP27-JP-ORR.png",
+    "MadRareRappid-RDKP27-JP-ScR.png"
+  ],
+  "Marron Cat of Minori": [
+    "MarronCatofMinori-RDKP27-JP-R.png",
+    "MarronCatofMinori-RDKP27-JP-ScR.png"
+  ],
+  "Master Up-Drake": [
+    "MasterUpDrake-RDKP27-JP-R.png",
+    "MasterUpDrake-RDKP27-JP-ScR.png"
+  ],
+  "Millennium Smasher": [
+    "MillenniumSmasher-RDKP27-JP-SR.png",
+    "MillenniumSmasher-RDKP27-JP-ScR.png"
+  ],
+  "Pastel Finder Vivi": [
+    "PastelFinderVivi-RDKP27-JP-UR.png",
+    "PastelFinderVivi-RDKP27-JP-ORR-AA.png",
+    "PastelFinderVivi-RDKP27-JP-ORR.png",
+    "PastelFinderVivi-RDKP27-JP-ScR.png"
+  ],
+  "Riel the Dimensional Sworn Ally": [
+    "RieltheDimensionalSwornAlly-RDKP27-JP-R.png",
+    "RieltheDimensionalSwornAlly-RDKP27-JP-ScR.png"
+  ],
+  "Saintick Linker": [
+    "SaintickLinker-RDKP27-JP-UR.png",
+    "SaintickLinker-RDKP27-JP-ORR.png",
+    "SaintickLinker-RDKP27-JP-ScR.png"
+  ],
+  "Saintick Pilgrim": [
+    "SaintickPilgrim-RDKP27-JP-R.png",
+    "SaintickPilgrim-RDKP27-JP-ScR.png"
+  ],
+  "Sengenjin": [
+    "Sengenjin-RDKP27-JP-SR.png",
+    "Sengenjin-RDKP27-JP-ScR.png"
+  ],
+  "The Two Apprentice Witches": [
+    "TheTwoApprenticeWitches-RDKP27-JP-SR.png",
+    "TheTwoApprenticeWitches-RDKP27-JP-ScR.png"
+  ],
+  "The Unstoppable Sengenjin": [
+    "TheUnstoppableSengenjin-RDKP27-JP-UR.png",
+    "TheUnstoppableSengenjin-RDKP27-JP-ORR.png",
+    "TheUnstoppableSengenjin-RDKP27-JP-ScR.png"
+  ],
+  "What Little the Blightblaze Leaves Behind": [
+    "WhatLittletheBlightblazeLeavesBehind-RDKP27-JP-R.png",
+    "WhatLittletheBlightblazeLeavesBehind-RDKP27-JP-ScR.png"
+  ],
+  "Zeil the King of the Hollowed Grounds": [
+    "ZeiltheKingoftheHollowedGrounds-RDKP27-JP-SR.png",
+    "ZeiltheKingoftheHollowedGrounds-RDKP27-JP-ScR.png"
   ]
 }

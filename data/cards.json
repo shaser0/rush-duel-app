@@ -3368,6 +3368,11 @@
         "code": "RD/EV07-KR010",
         "name": "Event Pack 2025 Vol.1",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/AP03-KR041",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "database_id": "18652",
@@ -3375,7 +3380,7 @@
     "password": null,
     "is_legend": false,
     "title": "Aitsu",
-    "_wiki_ts": "2026-07-10T16:51:41Z",
+    "_wiki_ts": "2026-11-03T07:14:43Z",
     "card_schema_version": 2,
     "raw_name_en": "Aitsu (Rush Duel)"
   },
@@ -4163,7 +4168,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AlphaBurnRebuildra-RDKP27-JP-OP.png"
+        "file": "AlphaBurnRebuildra-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -4174,14 +4179,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24095",
     "archseries": [
       "Alpha Burn"
     ],
     "password": null,
     "is_legend": false,
     "title": "Alpha Burn Rebuildra",
-    "_wiki_ts": "2026-10-19T14:37:31Z",
+    "_wiki_ts": "2026-11-06T14:26:57Z",
     "card_schema_version": 2,
     "raw_name_en": "Alpha Burn Rebuildra"
   },
@@ -4205,7 +4210,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AlphaBurnSSD-RDKP27-JP-OP.png"
+        "file": "AlphaBurnSSD-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -4216,14 +4221,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24096",
     "archseries": [
       "Alpha Burn"
     ],
     "password": null,
     "is_legend": false,
     "title": "Alpha Burn SSD",
-    "_wiki_ts": "2026-10-19T14:40:52Z",
+    "_wiki_ts": "2026-11-06T14:27:13Z",
     "card_schema_version": 2,
     "raw_name_en": "Alpha Burn SSD"
   },
@@ -4247,7 +4252,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AlphaBurnWyvern-RDKP27-JP-OP.png"
+        "file": "AlphaBurnWyvern-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -4258,14 +4263,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24097",
     "archseries": [
       "Alpha Burn"
     ],
     "password": null,
     "is_legend": false,
     "title": "Alpha Burn Wyvern",
-    "_wiki_ts": "2026-10-19T14:44:49Z",
+    "_wiki_ts": "2026-11-06T14:27:25Z",
     "card_schema_version": 2,
     "raw_name_en": "Alpha Burn Wyvern"
   },
@@ -4289,7 +4294,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AlphaCount-RDKP27-JP-OP.png"
+        "file": "AlphaCount-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -4300,14 +4305,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24090",
     "archseries": [
       "Alpha Burn"
     ],
     "password": null,
     "is_legend": false,
     "title": "Alpha Count",
-    "_wiki_ts": "2026-10-19T14:31:51Z",
+    "_wiki_ts": "2026-11-06T14:26:01Z",
     "card_schema_version": 2,
     "raw_name_en": "Alpha Count"
   },
@@ -9281,7 +9286,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "AssailantoftheHollowedGrounds-RDKP27-JP-OP.png"
+        "file": "AssailantoftheHollowedGrounds-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -9292,14 +9297,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24110",
     "archseries": [
       "Hollowed Grounds"
     ],
     "password": null,
     "is_legend": false,
     "title": "Assailant of the Hollowed Grounds",
-    "_wiki_ts": "2026-10-18T16:51:14Z",
+    "_wiki_ts": "2026-11-06T14:31:25Z",
     "card_schema_version": 2,
     "raw_name_en": "Assailant of the Hollowed Grounds"
   },
@@ -11669,6 +11674,7 @@
   {
     "name_ja": "ＢＵＭ－ライナーズ・フォース",
     "name_ja_romaji": "Bareru Appu Majikku - Raināzu Fōsu",
+    "name_ko": "BUM－라이너즈 포스",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -11696,7 +11702,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR039",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23463",
     "archseries": [
       "Baseball"
@@ -11704,7 +11716,7 @@
     "password": null,
     "is_legend": false,
     "title": "Barrel-Up-Magic Liner's Force",
-    "_wiki_ts": "2026-07-10T16:51:25Z",
+    "_wiki_ts": "2026-11-03T07:14:34Z",
     "card_schema_version": 2,
     "raw_name_en": "Barrel-Up-Magic Liner's Force"
   },
@@ -17299,7 +17311,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "BlueFangTeaserBurnDragon-RDKP27-JP-OP.png"
+        "file": "BlueFangTeaserBurnDragon-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -17310,14 +17322,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24099",
     "archseries": [
       "Alpha Burn"
     ],
     "password": null,
     "is_legend": false,
     "title": "Blue-Fang Teaser Burn Dragon",
-    "_wiki_ts": "2026-10-19T15:51:46Z",
+    "_wiki_ts": "2026-11-06T14:28:23Z",
     "card_schema_version": 2,
     "raw_name_en": "Blue-Fang Teaser Burn Dragon"
   },
@@ -17364,7 +17376,7 @@
     "password": null,
     "is_legend": false,
     "title": "Bluefin Oath",
-    "_wiki_ts": "2025-10-22T18:09:35Z",
+    "_wiki_ts": "2026-11-01T13:41:45Z",
     "card_schema_version": 2,
     "raw_name_en": "Bluefin Oath"
   },
@@ -18362,7 +18374,7 @@
   },
   {
     "name_ja": "境界渡りのブラストゲート",
-    "name_ja_romaji": "Kyōkaiatari no Burasutogēto",
+    "name_ja_romaji": "Kyōkaiwatari no Burasuto Gēto",
     "attribute": null,
     "types": null,
     "card_type": "Trap",
@@ -18380,23 +18392,27 @@
     "images": [
       {
         "artwork": 1,
-        "file": "BoundaryCrossingBlastGate-RDKP27-JP-OP.png"
+        "file": "BoundaryCrossingBlastGate-RDKP27-JP-UR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "BoundaryCrossingBlastGate-RDKP27-JP-ORR-AA.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP065",
         "name": "Jointech of Passion",
-        "rarity": "Ultra Rare, Over Rush Rare"
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24152",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Boundary-Crossing Blast Gate",
-    "_wiki_ts": "2026-11-01T09:50:35Z",
+    "_wiki_ts": "2026-11-06T14:42:37Z",
     "card_schema_version": 2,
     "raw_name_en": "Boundary-Crossing Blast Gate"
   },
@@ -20832,6 +20848,11 @@
         "code": "RD/AP01-KR069",
         "name": "Advance Pack: Devil's Ceremony",
         "rarity": "Common, Super Parallel Rare"
+      },
+      {
+        "code": "RD/AP03-KR046",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "database_id": "16309",
@@ -20841,7 +20862,7 @@
     "password": null,
     "is_legend": false,
     "title": "CAN:D",
-    "_wiki_ts": "2026-07-10T16:52:43Z",
+    "_wiki_ts": "2026-11-03T07:14:56Z",
     "card_schema_version": 2,
     "raw_name_en": "CAN:D"
   },
@@ -20886,6 +20907,11 @@
         "code": "RD/MRP1-KR027",
         "name": "Megaroad Pack",
         "rarity": "Super Rare"
+      },
+      {
+        "code": "RD/AP03-KR052",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "database_id": "17680",
@@ -20895,7 +20921,7 @@
     "password": null,
     "is_legend": false,
     "title": "CAN:D ALL",
-    "_wiki_ts": "2026-07-10T16:53:53Z",
+    "_wiki_ts": "2026-11-03T07:15:27Z",
     "card_schema_version": 2,
     "raw_name_en": "CAN:D ALL"
   },
@@ -23760,6 +23786,7 @@
   {
     "name_ja": "混沌帝龍 －終焉の使者－",
     "name_ja_romaji": "Kaosu Enperā Doragon -Shūen no Shisha-",
+    "name_ko": "카오스 엠페러 드래곤 －종언－",
     "attribute": "DARK",
     "types": "Dragon / Effect",
     "card_type": null,
@@ -23791,13 +23818,19 @@
         "rarity": "Ultra Rare, Full Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR001",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Full Over Rush Rare"
+      }
+    ],
     "database_id": "23433",
     "archseries": [],
     "password": null,
     "is_legend": true,
     "title": "Chaos Emperor Dragon - Envoy of the End",
-    "_wiki_ts": "2026-09-30T16:24:04Z",
+    "_wiki_ts": "2026-11-03T07:11:27Z",
     "card_schema_version": 2,
     "raw_name_en": "Chaos Emperor Dragon - Envoy of the End (Rush Duel)"
   },
@@ -28982,25 +29015,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "CopintheDimensionalSwornAlly-RDKP27-JP-OP.png"
+        "file": "CopintheDimensionalSwornAlly-RDKP27-JP-SR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP031",
         "name": "Jointech of Passion",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24118",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Copin the Dimensional Sworn Ally",
-    "_wiki_ts": "2026-10-27T15:27:20Z",
+    "_wiki_ts": "2026-11-06T14:33:57Z",
     "card_schema_version": 2,
     "raw_name_en": "Copin the Dimensional Sworn Ally"
   },
@@ -29841,6 +29874,10 @@
       {
         "artwork": 1,
         "file": "CosmostartheWhiteHolePolairy-RDORP3-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "CosmostartheWhiteHolePolairy-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -29848,6 +29885,11 @@
         "code": "RD/ORP3-JP045",
         "name": "Over Rush Pack 3",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP014",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -29864,7 +29906,7 @@
     "password": null,
     "is_legend": false,
     "title": "Cosmostar the White Hole Polairy",
-    "_wiki_ts": "2026-04-21T22:13:23Z",
+    "_wiki_ts": "2026-11-02T15:06:46Z",
     "card_schema_version": 2,
     "raw_name_en": "Cosmostar the White Hole Polairy"
   },
@@ -31154,7 +31196,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheCrossroadsoftheBlackblight-RDKP27-JP-OP.png"
+        "file": "TheCrossroadsoftheBlackblight-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -31165,14 +31207,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24141",
     "archseries": [
       "Hollowed Grounds"
     ],
     "password": null,
     "is_legend": false,
     "title": "The Crossroads of the Blackblight",
-    "_wiki_ts": "2026-10-18T16:09:30Z",
+    "_wiki_ts": "2026-11-06T14:40:02Z",
     "card_schema_version": 2,
     "raw_name_en": "The Crossroads of the Blackblight"
   },
@@ -31307,7 +31349,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "CrusherGolem-RDKP27-JP-OP.png"
+        "file": "CrusherGolem-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -31318,14 +31360,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24116",
     "archseries": [
       "Sengenjin"
     ],
     "password": null,
     "is_legend": false,
     "title": "Crusher Golem",
-    "_wiki_ts": "2026-10-22T17:32:08Z",
+    "_wiki_ts": "2026-11-06T14:32:54Z",
     "card_schema_version": 2,
     "raw_name_en": "Crusher Golem"
   },
@@ -33602,6 +33644,11 @@
         "code": "RD/EV08-KR007",
         "name": "Event Pack 2025 Vol.2",
         "rarity": "Common, Secret Rare"
+      },
+      {
+        "code": "RD/AP03-KR054",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common, Secret Rare"
       }
     ],
     "database_id": "21392",
@@ -33611,7 +33658,7 @@
     "password": null,
     "is_legend": false,
     "title": "Cyber Variation",
-    "_wiki_ts": "2026-07-10T16:55:24Z",
+    "_wiki_ts": "2026-11-03T07:15:37Z",
     "card_schema_version": 2,
     "raw_name_en": "Cyber Variation"
   },
@@ -34771,7 +34818,7 @@
       {
         "code": "RD/LP02-JP025",
         "name": "Limited Pack Another Style Edition",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -34782,7 +34829,7 @@
     "password": null,
     "is_legend": false,
     "title": "Dark Calling",
-    "_wiki_ts": "2026-10-30T15:56:29Z",
+    "_wiki_ts": "2026-11-02T15:10:50Z",
     "card_schema_version": 2,
     "raw_name_en": "Dark Calling (Rush Duel)"
   },
@@ -44866,7 +44913,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DimensionWharve-RDKP27-JP-OP.png"
+        "file": "DimensionWharve-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -44877,14 +44924,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24117",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Dimension Wharve",
-    "_wiki_ts": "2026-10-27T15:22:26Z",
+    "_wiki_ts": "2026-11-06T14:33:05Z",
     "card_schema_version": 2,
     "raw_name_en": "Dimension Wharve"
   },
@@ -45090,6 +45137,7 @@
   {
     "name_ja": "聖皇ディアラム",
     "name_ja_romaji": "Jōō Diaramu",
+    "name_ko": "성황 디아람",
     "attribute": "FIRE",
     "types": "Warrior / Effect",
     "card_type": null,
@@ -45117,13 +45165,19 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR050",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23467",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Dirham the Holy Empress",
-    "_wiki_ts": "2026-07-10T16:53:26Z",
+    "_wiki_ts": "2026-11-03T07:15:16Z",
     "card_schema_version": 2,
     "raw_name_en": "Dirham the Holy Empress"
   },
@@ -46133,25 +46187,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "DoomedbytheBlackblight-RDKP27-JP-OP.png"
+        "file": "DoomedbytheBlackblight-RDKP27-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP066",
         "name": "Jointech of Passion",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24153",
     "archseries": [
       "Hollowed Grounds"
     ],
     "password": null,
     "is_legend": false,
     "title": "Doomed by the Blackblight",
-    "_wiki_ts": "2026-10-18T17:51:00Z",
+    "_wiki_ts": "2026-11-06T14:50:06Z",
     "card_schema_version": 2,
     "raw_name_en": "Doomed by the Blackblight"
   },
@@ -51161,7 +51215,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "EarlyAccessBurnDrake-RDKP27-JP-OP.png"
+        "file": "EarlyAccessBurnDrake-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -51172,14 +51226,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24126",
     "archseries": [
       "Alpha Burn"
     ],
     "password": null,
     "is_legend": false,
     "title": "Early Access Burn Drake",
-    "_wiki_ts": "2026-10-19T14:59:06Z",
+    "_wiki_ts": "2026-11-06T14:36:00Z",
     "card_schema_version": 2,
     "raw_name_en": "Early Access Burn Drake"
   },
@@ -54324,6 +54378,7 @@
   {
     "name_ja": "星の出会い",
     "name_ja_romaji": "Hoshi no Deai",
+    "name_ko": "별의 만남",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -54351,7 +54406,13 @@
         "rarity": "Common, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR025",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common, Secret Rare"
+      }
+    ],
     "database_id": "23453",
     "archseries": [
       "Pliage"
@@ -54359,7 +54420,7 @@
     "password": null,
     "is_legend": false,
     "title": "Encounter of the Stars",
-    "_wiki_ts": "2026-07-10T16:42:10Z",
+    "_wiki_ts": "2026-11-03T07:13:34Z",
     "card_schema_version": 2,
     "raw_name_en": "Encounter of the Stars"
   },
@@ -57036,7 +57097,7 @@
       {
         "code": "RD/LP02-JP021",
         "name": "Limited Pack Another Style Edition",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -57047,7 +57108,7 @@
     "password": null,
     "is_legend": false,
     "title": "Evil HERO Malicious Edge",
-    "_wiki_ts": "2026-10-30T15:46:11Z",
+    "_wiki_ts": "2026-11-02T15:09:27Z",
     "card_schema_version": 2,
     "raw_name_en": "Evil HERO Malicious Edge (Rush Duel)"
   },
@@ -57078,7 +57139,7 @@
       {
         "code": "RD/LP02-JP024",
         "name": "Limited Pack Another Style Edition",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Parallel Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
@@ -57089,7 +57150,7 @@
     "password": null,
     "is_legend": false,
     "title": "Evil HERO Malicious Fiend",
-    "_wiki_ts": "2026-10-30T15:35:40Z",
+    "_wiki_ts": "2026-11-02T15:10:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Evil HERO Malicious Fiend (Rush Duel)"
   },
@@ -57157,6 +57218,7 @@
   {
     "name_ja": "星竜の進化",
     "name_ja_romaji": "Hoshiryū no Shinka",
+    "name_ko": "성룡의 진화",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -57184,7 +57246,13 @@
         "rarity": "Common"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR026",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23454",
     "archseries": [
       "Pliage"
@@ -57192,7 +57260,7 @@
     "password": null,
     "is_legend": false,
     "title": "Evolution of the Star Dragon",
-    "_wiki_ts": "2026-07-10T16:42:20Z",
+    "_wiki_ts": "2026-11-03T07:13:40Z",
     "card_schema_version": 2,
     "raw_name_en": "Evolution of the Star Dragon"
   },
@@ -59411,6 +59479,7 @@
   {
     "name_ja": "星の妖精",
     "name_ja_romaji": "Hoshi no Yōsei",
+    "name_ko": "별의 요정",
     "attribute": "DARK",
     "types": "Spellcaster / Fusion / Effect",
     "card_type": null,
@@ -59438,7 +59507,13 @@
         "rarity": "Ultra Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR016",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Secret Rare"
+      }
+    ],
     "database_id": "23447",
     "archseries": [
       "Pliage"
@@ -59446,7 +59521,7 @@
     "password": null,
     "is_legend": false,
     "title": "Fairy of the Stars",
-    "_wiki_ts": "2026-07-10T16:39:58Z",
+    "_wiki_ts": "2026-11-03T07:12:36Z",
     "card_schema_version": 2,
     "raw_name_en": "Fairy of the Stars"
   },
@@ -59944,25 +60019,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "FamiliarPossessedAussa-RDKP27-JP-OP.png"
+        "file": "FamiliarPossessedAussa-RDKP27-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP045",
         "name": "Jointech of Passion",
-        "rarity": "Ultra Rare, Over Rush Rare"
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24132",
     "archseries": [
       "Charmer"
     ],
     "password": null,
     "is_legend": false,
     "title": "Familiar-Possessed - Aussa",
-    "_wiki_ts": "2026-10-12T17:32:11Z",
+    "_wiki_ts": "2026-11-06T14:38:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Familiar-Possessed - Aussa (Rush Duel)"
   },
@@ -60594,6 +60669,7 @@
   {
     "name_ja": "熱血カラフルボール・パーク",
     "name_ja_romaji": "Nekketsu Karafuru Bōru Pāku",
+    "name_ko": "열혈 컬러풀볼 파크",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -60621,7 +60697,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR037",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23462",
     "archseries": [
       "Baseball"
@@ -60629,7 +60711,7 @@
     "password": null,
     "is_legend": false,
     "title": "Feverous Colorful Ball Park",
-    "_wiki_ts": "2026-07-10T16:51:07Z",
+    "_wiki_ts": "2026-11-03T07:14:25Z",
     "card_schema_version": 2,
     "raw_name_en": "Feverous Colorful Ball Park"
   },
@@ -60680,6 +60762,11 @@
         "code": "RD/KP07-KR047",
         "name": "Deck Mod Pack: Chaotic Omega Rising!!",
         "rarity": "Rare"
+      },
+      {
+        "code": "RD/AP03-KR038",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "database_id": "17013",
@@ -60689,7 +60776,7 @@
     "password": null,
     "is_legend": false,
     "title": "Feverous Spirit Stadium",
-    "_wiki_ts": "2026-07-10T16:51:15Z",
+    "_wiki_ts": "2026-11-03T07:14:29Z",
     "card_schema_version": 2,
     "raw_name_en": "Feverous Spirit Stadium"
   },
@@ -63348,23 +63435,23 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ForestoftheBeautifulDarkQueen-RDKP27-JP-OP.png"
+        "file": "ForestoftheBeautifulDarkQueen-RDKP27-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP060",
         "name": "Jointech of Passion",
-        "rarity": "Ultra Rare, Over Rush Rare"
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24147",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Forest of the Beautiful Dark Queen",
-    "_wiki_ts": "2026-10-25T16:22:45Z",
+    "_wiki_ts": "2026-11-06T14:41:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Forest of the Beautiful Dark Queen"
   },
@@ -65125,6 +65212,11 @@
         "code": "RD/SC26-KR002",
         "name": "Stella Cup 2026 Finals participation card",
         "rarity": "Secret Rare (Special Red Version)"
+      },
+      {
+        "code": "RD/AP03-KR023",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "database_id": "16934",
@@ -65132,7 +65224,7 @@
     "password": null,
     "is_legend": false,
     "title": "Fusion",
-    "_wiki_ts": "2026-10-13T10:02:31Z",
+    "_wiki_ts": "2026-11-03T07:13:08Z",
     "card_schema_version": 2,
     "raw_name_en": "Fusion (Rush Duel)"
   },
@@ -65591,6 +65683,7 @@
   {
     "name_ja": "ガガガチアガール",
     "name_ja_romaji": "Gagaga Chiagāru",
+    "name_ko": "가가가 치어걸",
     "attribute": "FIRE",
     "types": "Warrior / Effect",
     "card_type": null,
@@ -65618,7 +65711,13 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR033",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23459",
     "archseries": [
       "Baseball"
@@ -65626,7 +65725,7 @@
     "password": null,
     "is_legend": false,
     "title": "Gagaga Cheergirl",
-    "_wiki_ts": "2026-07-10T16:50:34Z",
+    "_wiki_ts": "2026-11-03T07:14:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Gagaga Cheergirl"
   },
@@ -66019,7 +66118,7 @@
       {
         "code": "RD/LP02-JP064",
         "name": "Limited Pack Another Style Edition",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -66041,7 +66140,7 @@
     "password": null,
     "is_legend": false,
     "title": "Gaigust the Defiant Soul",
-    "_wiki_ts": "2026-10-30T16:28:22Z",
+    "_wiki_ts": "2026-11-02T14:50:26Z",
     "card_schema_version": 2,
     "raw_name_en": "Gaigust the Defiant Soul"
   },
@@ -71893,11 +71992,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "GraveShadow-RDKP27-JP-OP.png"
+        "file": "GraveShadow-RDKP27-JP-UR.png"
       },
       {
         "artwork": 2,
-        "file": "GraveShadow-RDKP27-JP-OP-AA.png"
+        "file": "GraveShadow-RDKP27-JP-ORRBlack.png"
       }
     ],
     "sets_jp": [
@@ -71908,12 +72007,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24157",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Grave Shadow",
-    "_wiki_ts": "2026-10-25T18:33:15Z",
+    "_wiki_ts": "2026-11-07T14:15:58Z",
     "card_schema_version": 2,
     "raw_name_en": "Grave Shadow"
   },
@@ -72954,7 +73053,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "When an opponent's monster declares an attack.",
-    "effect": "Choose 1 face-up Fusion Monster on your field. This turn, that monster cannot be destroyed by battle.",
+    "effect": "Choose 1 face-up Fusion Monster on your field. This turn, it cannot be destroyed by battle.",
     "flavor_text": null,
     "images": [
       {
@@ -72981,7 +73080,7 @@
     "password": null,
     "is_legend": false,
     "title": "Guard Swords of Allegiance",
-    "_wiki_ts": "2026-10-29T11:18:11Z",
+    "_wiki_ts": "2026-11-04T08:38:17Z",
     "card_schema_version": 2,
     "raw_name_en": "Guard Swords of Allegiance"
   },
@@ -76206,6 +76305,7 @@
   {
     "name_ja": "尖頭狩猟ゴラリアス",
     "name_ja_romaji": "Heddohantāzu Gorariasu",
+    "name_ko": "헤드헌터즈 고라리아스",
     "attribute": "EARTH",
     "types": "Beast-Warrior / Effect",
     "card_type": null,
@@ -76233,7 +76333,13 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR047",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23466",
     "archseries": [
       "Headhunters'"
@@ -76241,7 +76347,7 @@
     "password": null,
     "is_legend": false,
     "title": "Headhunters' Goraliath",
-    "_wiki_ts": "2026-07-10T16:52:58Z",
+    "_wiki_ts": "2026-11-03T07:15:01Z",
     "card_schema_version": 2,
     "raw_name_en": "Headhunters' Goraliath"
   },
@@ -77607,6 +77713,11 @@
         "code": "RD/SD04-KR027",
         "name": "Strongest Battle Deck Maddox - Chemist-Meow Draw of Flames!",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/AP03-KR040",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "database_id": "16958",
@@ -77616,7 +77727,7 @@
     "password": null,
     "is_legend": false,
     "title": "Heavy Roller",
-    "_wiki_ts": "2026-07-10T16:51:33Z",
+    "_wiki_ts": "2026-11-03T07:14:38Z",
     "card_schema_version": 2,
     "raw_name_en": "Heavy Roller"
   },
@@ -81735,6 +81846,11 @@
         "code": "RD/MRP1-KR037",
         "name": "Megaroad Pack",
         "rarity": "Rare"
+      },
+      {
+        "code": "RD/AP03-KR051",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "database_id": "17683",
@@ -81744,7 +81860,7 @@
     "password": null,
     "is_legend": false,
     "title": "Ice Pop Bear",
-    "_wiki_ts": "2026-07-10T16:53:34Z",
+    "_wiki_ts": "2026-11-03T07:15:21Z",
     "card_schema_version": 2,
     "raw_name_en": "Ice Pop Bear"
   },
@@ -83442,6 +83558,7 @@
   {
     "name_ja": "簡易融合",
     "name_ja_romaji": "Insutanto Fyūjon",
+    "name_ko": "인스턴트 퓨전",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -83469,13 +83586,19 @@
         "rarity": "Ultra Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR053",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare"
+      }
+    ],
     "database_id": "23468",
     "archseries": [],
     "password": null,
     "is_legend": true,
     "title": "Instant Fusion",
-    "_wiki_ts": "2026-07-10T16:54:05Z",
+    "_wiki_ts": "2026-11-03T07:15:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Instant Fusion (Rush Duel)"
   },
@@ -84142,25 +84265,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "InvincibleMillenniumGolem-RDKP27-JP-OP.png"
+        "file": "InvincibleMillenniumGolem-RDKP27-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP042",
         "name": "Jointech of Passion",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24129",
     "archseries": [
       "Sengenjin"
     ],
     "password": null,
     "is_legend": false,
     "title": "Invincible Millennium Golem",
-    "_wiki_ts": "2026-10-22T17:40:52Z",
+    "_wiki_ts": "2026-11-06T14:37:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Invincible Millennium Golem"
   },
@@ -85585,14 +85708,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24089",
     "archseries": [
       "Jointech"
     ],
     "password": null,
     "is_legend": false,
     "title": "Jointech Ace Rex",
-    "_wiki_ts": "2026-10-16T18:43:34Z",
+    "_wiki_ts": "2026-11-03T15:12:09Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Ace Rex"
   },
@@ -85616,7 +85739,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "JointechAceSpare-RDKP27-JP-OP.png"
+        "file": "JointechAceSpare-RDKP27-JP-R.png"
       }
     ],
     "sets_jp": [
@@ -85627,14 +85750,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24093",
     "archseries": [
       "Jointech"
     ],
     "password": null,
     "is_legend": false,
     "title": "Jointech Ace Spare",
-    "_wiki_ts": "2026-10-12T16:15:48Z",
+    "_wiki_ts": "2026-11-06T14:26:34Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Ace Spare"
   },
@@ -85756,7 +85879,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "JointechBraveRacer-RDKP27-JP-OP.png"
+        "file": "JointechBraveRacer-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -85767,14 +85890,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24092",
     "archseries": [
       "Jointech"
     ],
     "password": null,
     "is_legend": false,
     "title": "Jointech Brave Racer",
-    "_wiki_ts": "2026-10-12T16:12:54Z",
+    "_wiki_ts": "2026-11-06T14:26:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Brave Racer"
   },
@@ -85901,7 +86024,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "JointechCatapult-RDKP27-JP-OP.png"
+        "file": "JointechCatapult-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -85912,14 +86035,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24148",
     "archseries": [
       "Jointech"
     ],
     "password": null,
     "is_legend": false,
     "title": "Jointech Catapult",
-    "_wiki_ts": "2026-10-12T17:44:09Z",
+    "_wiki_ts": "2026-11-06T14:41:47Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Catapult"
   },
@@ -86144,7 +86267,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "JointechGuardian-RDKP27-JP-OP.png"
+        "file": "JointechGuardian-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -86155,14 +86278,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24094",
     "archseries": [
       "Jointech"
     ],
     "password": null,
     "is_legend": false,
     "title": "Jointech Guardian",
-    "_wiki_ts": "2026-10-12T16:18:49Z",
+    "_wiki_ts": "2026-11-06T14:26:45Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Guardian"
   },
@@ -86421,25 +86544,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "JointechMatchlessHero-RDKP27-JP-OP.png"
+        "file": "JointechMatchlessHero-RDKP27-JP-SR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP037",
         "name": "Jointech of Passion",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24124",
     "archseries": [
       "Jointech"
     ],
     "password": null,
     "is_legend": false,
     "title": "Jointech Matchless Hero",
-    "_wiki_ts": "2026-10-12T15:53:37Z",
+    "_wiki_ts": "2026-11-06T14:35:34Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Matchless Hero"
   },
@@ -86513,7 +86636,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "JointechPassionPuncher-RDKP27-JP-OP.png"
+        "file": "JointechPassionPuncher-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -86524,14 +86647,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24091",
     "archseries": [
       "Jointech"
     ],
     "password": null,
     "is_legend": false,
     "title": "Jointech Passion Puncher",
-    "_wiki_ts": "2026-10-12T16:07:54Z",
+    "_wiki_ts": "2026-11-06T14:26:12Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Passion Puncher"
   },
@@ -86668,7 +86791,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "JointechRejoin-RDKP27-JP-OP.png"
+        "file": "JointechRejoin-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -86679,14 +86802,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24135",
     "archseries": [
       "Jointech"
     ],
     "password": null,
     "is_legend": false,
     "title": "Jointech Rejoin",
-    "_wiki_ts": "2026-10-12T17:37:00Z",
+    "_wiki_ts": "2026-11-06T14:38:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Rejoin"
   },
@@ -87167,31 +87290,32 @@
     "images": [
       {
         "artwork": 1,
-        "file": "JointechUltimateWarrior-RDKP27-JP-OP.png"
+        "file": "JointechUltimateWarrior-RDKP27-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP038",
         "name": "Jointech of Passion",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24125",
     "archseries": [
       "Jointech"
     ],
     "password": null,
     "is_legend": false,
     "title": "Jointech Ultimate Warrior",
-    "_wiki_ts": "2026-10-12T16:02:54Z",
+    "_wiki_ts": "2026-11-06T14:35:47Z",
     "card_schema_version": 2,
     "raw_name_en": "Jointech Ultimate Warrior"
   },
   {
     "name_ja": "旅立ちのプリアージュ",
     "name_ja_romaji": "Tabidachi no Puriāju",
+    "name_ko": "여정의 프리아쥬",
     "attribute": "LIGHT",
     "types": "Psychic / Effect",
     "card_type": null,
@@ -87219,7 +87343,13 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR018",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23449",
     "archseries": [
       "Pliage"
@@ -87227,7 +87357,7 @@
     "password": null,
     "is_legend": false,
     "title": "Journeying Pliage",
-    "_wiki_ts": "2026-07-10T16:40:17Z",
+    "_wiki_ts": "2026-11-03T07:12:45Z",
     "card_schema_version": 2,
     "raw_name_en": "Journeying Pliage"
   },
@@ -88435,7 +88565,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "KeenandNimbleTigerAxe-RDKP27-JP-OP.png"
+        "file": "KeenandNimbleTigerAxe-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -88446,14 +88576,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24115",
     "archseries": [
       "Sengenjin"
     ],
     "password": null,
     "is_legend": false,
     "title": "Keen and Nimble Tiger Axe",
-    "_wiki_ts": "2026-10-22T17:28:24Z",
+    "_wiki_ts": "2026-11-06T14:32:44Z",
     "card_schema_version": 2,
     "raw_name_en": "Keen and Nimble Tiger Axe"
   },
@@ -89386,29 +89516,29 @@
     "images": [
       {
         "artwork": 1,
-        "file": "KnightoftheHollowedGrounds-RDKP27-JP-OP.png"
+        "file": "KnightoftheHollowedGrounds-RDKP27-JP-UR.png"
       },
       {
         "artwork": 2,
-        "file": "KnightoftheHollowedGrounds-RDKP27-JP-OP-AA.png"
+        "file": "KnightoftheHollowedGrounds-RDKP27-JP-ORR-AA.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP025",
         "name": "Jointech of Passion",
-        "rarity": "Ultra Rare, Over Rush Rare"
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24112",
     "archseries": [
       "Hollowed Grounds"
     ],
     "password": null,
     "is_legend": false,
     "title": "Knight of the Hollowed Grounds",
-    "_wiki_ts": "2026-10-19T14:23:29Z",
+    "_wiki_ts": "2026-11-06T14:32:01Z",
     "card_schema_version": 2,
     "raw_name_en": "Knight of the Hollowed Grounds"
   },
@@ -90760,6 +90890,11 @@
         "code": "RD/KP08-KR009",
         "name": "Deck Mod Pack: Genesis Master Road!!",
         "rarity": "Rare"
+      },
+      {
+        "code": "RD/AP03-KR045",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "database_id": "17284",
@@ -90769,7 +90904,7 @@
     "password": null,
     "is_legend": false,
     "title": "Lauan Adventurers",
-    "_wiki_ts": "2026-07-10T16:52:32Z",
+    "_wiki_ts": "2026-11-03T07:14:52Z",
     "card_schema_version": 2,
     "raw_name_en": "Lauan Adventurers"
   },
@@ -92192,7 +92327,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LenasMushroomSoup-RDKP27-JP-OP.png"
+        "file": "LenasMushroomSoup-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -92203,14 +92338,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24142",
     "archseries": [
       "Hollowed Grounds"
     ],
     "password": null,
     "is_legend": false,
     "title": "Lena's Mushroom Soup",
-    "_wiki_ts": "2026-10-18T16:16:07Z",
+    "_wiki_ts": "2026-11-06T14:40:13Z",
     "card_schema_version": 2,
     "raw_name_en": "Lena's Mushroom Soup"
   },
@@ -96311,25 +96446,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "LuminatheDimensionalSwornAlly-RDKP27-JP-OP.png"
+        "file": "LuminatheDimensionalSwornAlly-RDKP27-JP-SR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP032",
         "name": "Jointech of Passion",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24119",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Lumina the Dimensional Sworn Ally",
-    "_wiki_ts": "2026-10-27T15:57:48Z",
+    "_wiki_ts": "2026-11-06T14:34:17Z",
     "card_schema_version": 2,
     "raw_name_en": "Lumina the Dimensional Sworn Ally"
   },
@@ -96998,7 +97133,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MadRareAmy-RDKP27-JP-OP.png"
+        "file": "MadRareAmy-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -97009,14 +97144,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24101",
     "archseries": [
       "Mad Rare"
     ],
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Amy",
-    "_wiki_ts": "2026-10-12T16:25:55Z",
+    "_wiki_ts": "2026-11-06T14:28:59Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Amy"
   },
@@ -97057,7 +97192,7 @@
       },
       {
         "artwork": 3,
-        "file": "MadRareAquila-RDKP27-JP-OP.png"
+        "file": "MadRareAquila-RDKP27-JP-FORR.png"
       }
     ],
     "sets_jp": [
@@ -97101,7 +97236,7 @@
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Aquila",
-    "_wiki_ts": "2026-10-31T17:40:26Z",
+    "_wiki_ts": "2026-11-07T14:15:33Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Aquila"
   },
@@ -97125,7 +97260,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MadRareBeeko-RDKP27-JP-OP.png"
+        "file": "MadRareBeeko-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -97136,14 +97271,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24102",
     "archseries": [
       "Mad Rare"
     ],
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Beeko",
-    "_wiki_ts": "2026-10-12T16:47:20Z",
+    "_wiki_ts": "2026-11-06T14:29:10Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Beeko"
   },
@@ -97167,25 +97302,29 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MadRareChreia-RDKP27-JP-OP.png"
+        "file": "MadRareChreia-RDKP27-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "MadRareChreia-RDKP27-JP-ScR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP016",
         "name": "Jointech of Passion",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24103",
     "archseries": [
       "Mad Rare"
     ],
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Chreia",
-    "_wiki_ts": "2026-10-31T17:39:12Z",
+    "_wiki_ts": "2026-11-06T14:29:23Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Chreia"
   },
@@ -97209,25 +97348,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MadRareDisturb-RDKP27-JP-OP.png"
+        "file": "MadRareDisturb-RDKP27-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP062",
         "name": "Jointech of Passion",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24149",
     "archseries": [
       "Mad Rare"
     ],
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Disturb",
-    "_wiki_ts": "2026-10-13T19:01:05Z",
+    "_wiki_ts": "2026-11-06T14:41:59Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Disturb"
   },
@@ -97251,25 +97390,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MadRareFitz-RDKP27-JP-OP.png"
+        "file": "MadRareFitz-RDKP27-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP017",
         "name": "Jointech of Passion",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24104",
     "archseries": [
       "Mad Rare"
     ],
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Fitz",
-    "_wiki_ts": "2026-10-12T17:16:42Z",
+    "_wiki_ts": "2026-11-06T14:29:41Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Fitz"
   },
@@ -97293,25 +97432,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MadRareGramma-RDKP27-JP-OP.png"
+        "file": "MadRareGramma-RDKP27-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP019",
         "name": "Jointech of Passion",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24106",
     "archseries": [
       "Mad Rare"
     ],
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Gramma",
-    "_wiki_ts": "2026-10-12T17:29:56Z",
+    "_wiki_ts": "2026-11-06T14:30:00Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Gramma"
   },
@@ -97335,25 +97474,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MadRareHack-RDKP27-JP-OP.png"
+        "file": "MadRareHack-RDKP27-JP-SR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP063",
         "name": "Jointech of Passion",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24150",
     "archseries": [
       "Mad Rare"
     ],
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Hack",
-    "_wiki_ts": "2026-10-12T17:51:47Z",
+    "_wiki_ts": "2026-11-06T14:42:10Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Hack"
   },
@@ -97377,7 +97516,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MadRareHeart-RDKP27-JP-OP.png"
+        "file": "MadRareHeart-RDKP27-JP-R.png"
       }
     ],
     "sets_jp": [
@@ -97388,14 +97527,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24140",
     "archseries": [
       "Mad Rare"
     ],
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Heart",
-    "_wiki_ts": "2026-10-30T16:36:34Z",
+    "_wiki_ts": "2026-11-06T14:39:49Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Heart"
   },
@@ -97419,25 +97558,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MadRareMaqui-RDKP27-JP-OP.png"
+        "file": "MadRareMaqui-RDKP27-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP018",
         "name": "Jointech of Passion",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24105",
     "archseries": [
       "Mad Rare"
     ],
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Maqui",
-    "_wiki_ts": "2026-10-12T17:25:42Z",
+    "_wiki_ts": "2026-11-06T14:29:51Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Maqui"
   },
@@ -97461,29 +97600,29 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MadRareRappid-RDKP27-JP-OP.png"
+        "file": "MadRareRappid-RDKP27-JP-UR.png"
       },
       {
         "artwork": 2,
-        "file": "MadRareRappid-RDKP27-JP-OP-AA.png"
+        "file": "MadRareRappid-RDKP27-JP-ORR-AA.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP013",
         "name": "Jointech of Passion",
-        "rarity": "Ultra Rare, Over Rush Rare"
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24100",
     "archseries": [
       "Mad Rare"
     ],
     "password": null,
     "is_legend": false,
     "title": "Mad Rare Rappid",
-    "_wiki_ts": "2026-10-15T16:25:23Z",
+    "_wiki_ts": "2026-11-06T14:28:38Z",
     "card_schema_version": 2,
     "raw_name_en": "Mad Rare Rappid"
   },
@@ -98323,7 +98462,7 @@
       },
       {
         "artwork": 3,
-        "file": "MagicalStoneExcavation-RDKP27-JP-OP.png"
+        "file": "MagicalStoneExcavation-RDKP27-JP-FORR.png"
       }
     ],
     "sets_jp": [
@@ -98385,7 +98524,7 @@
     "password": null,
     "is_legend": false,
     "title": "Magical Stone Excavation",
-    "_wiki_ts": "2026-10-16T18:50:13Z",
+    "_wiki_ts": "2026-11-06T14:25:50Z",
     "card_schema_version": 2,
     "raw_name_en": "Magical Stone Excavation (Rush Duel)"
   },
@@ -100672,23 +100811,23 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MarronCatofMinori-RDKP27-JP-OP.png"
+        "file": "MarronCatofMinori-RDKP27-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP033",
         "name": "Jointech of Passion",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24120",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Marron Cat of Minori",
-    "_wiki_ts": "2026-10-23T16:14:20Z",
+    "_wiki_ts": "2026-11-06T14:34:29Z",
     "card_schema_version": 2,
     "raw_name_en": "Marron Cat of Minori"
   },
@@ -101188,25 +101327,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MasterUpDrake-RDKP27-JP-OP.png"
+        "file": "MasterUpDrake-RDKP27-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP040",
         "name": "Jointech of Passion",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24127",
     "archseries": [
       "Alpha Burn"
     ],
     "password": null,
     "is_legend": false,
     "title": "Master Up-Drake",
-    "_wiki_ts": "2026-10-19T15:06:30Z",
+    "_wiki_ts": "2026-11-06T14:36:13Z",
     "card_schema_version": 2,
     "raw_name_en": "Master Up-Drake"
   },
@@ -103377,6 +103516,10 @@
       {
         "artwork": 1,
         "file": "MercissusthePlanetairy-RDORP3-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "MercissusthePlanetairy-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -103384,6 +103527,11 @@
         "code": "RD/ORP3-JP053",
         "name": "Over Rush Pack 3",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP003",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -103400,7 +103548,7 @@
     "password": null,
     "is_legend": false,
     "title": "Mercissus the Planetairy",
-    "_wiki_ts": "2026-01-20T11:50:57Z",
+    "_wiki_ts": "2026-11-02T14:54:27Z",
     "card_schema_version": 2,
     "raw_name_en": "Mercissus the Planetairy"
   },
@@ -105041,11 +105189,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MichatheCheerfulAngel-RDKP27-JP-OP.png"
+        "file": "MichatheCheerfulAngel-RDKP27-JP-SR.png"
       },
       {
         "artwork": 2,
-        "file": "MichatheCheerfulAngel-RDKP27-JP-OP-AA.png"
+        "file": "MichatheCheerfulAngel-RDKP27-JP-ScR.png"
       }
     ],
     "sets_jp": [
@@ -105056,12 +105204,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24122",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Micha the Cheerful Angel",
-    "_wiki_ts": "2026-10-31T21:57:48Z",
+    "_wiki_ts": "2026-11-06T14:35:03Z",
     "card_schema_version": 2,
     "raw_name_en": "Micha the Cheerful Angel"
   },
@@ -105489,25 +105637,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "MillenniumSmasher-RDKP27-JP-OP.png"
+        "file": "MillenniumSmasher-RDKP27-JP-SR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP058",
         "name": "Jointech of Passion",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24145",
     "archseries": [
       "Sengenjin"
     ],
     "password": null,
     "is_legend": false,
     "title": "Millennium Smasher",
-    "_wiki_ts": "2026-10-22T19:20:01Z",
+    "_wiki_ts": "2026-11-06T14:40:56Z",
     "card_schema_version": 2,
     "raw_name_en": "Millennium Smasher"
   },
@@ -112468,7 +112616,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "OccultPreservationAgencyMadRare-RDKP27-JP-OP.png"
+        "file": "OccultPreservationAgencyMadRare-RDKP27-JP-R.png"
       }
     ],
     "sets_jp": [
@@ -112479,14 +112627,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24139",
     "archseries": [
       "Mad Rare"
     ],
     "password": null,
     "is_legend": false,
     "title": "Occult Preservation Agency Mad Rare",
-    "_wiki_ts": "2026-10-12T17:40:00Z",
+    "_wiki_ts": "2026-11-06T14:39:38Z",
     "card_schema_version": 2,
     "raw_name_en": "Occult Preservation Agency Mad Rare"
   },
@@ -113089,6 +113237,7 @@
   {
     "name_ja": "球児皇オノマトピッチャー",
     "name_ja_romaji": "Kyūjiō Onomatopitchā",
+    "name_ko": "구아황 오노마토피처",
     "name_translated": "Youth Baseball King, Onomatopitcher",
     "attribute": "FIRE",
     "types": "Warrior / Effect",
@@ -113117,7 +113266,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR031",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23457",
     "archseries": [
       "Baseball"
@@ -113125,7 +113280,7 @@
     "password": null,
     "is_legend": false,
     "title": "Onomatopitcher",
-    "_wiki_ts": "2026-07-15T13:37:34Z",
+    "_wiki_ts": "2026-11-03T07:14:03Z",
     "card_schema_version": 2,
     "raw_name_en": "Onomatopitcher"
   },
@@ -115757,27 +115912,27 @@
     "images": [
       {
         "artwork": 1,
-        "file": "PastelFinderVivi-RDKP27-JP-OP.png"
+        "file": "PastelFinderVivi-RDKP27-JP-UR.png"
       },
       {
         "artwork": 2,
-        "file": "PastelFinderVivi-RDKP27-JP-OP-AA.png"
+        "file": "PastelFinderVivi-RDKP27-JP-ORR-AA.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP034",
         "name": "Jointech of Passion",
-        "rarity": "Ultra Rare, Over Rush Rare"
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24121",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Pastel Finder Vivi",
-    "_wiki_ts": "2026-10-31T17:20:59Z",
+    "_wiki_ts": "2026-11-06T14:34:44Z",
     "card_schema_version": 2,
     "raw_name_en": "Pastel Finder Vivi"
   },
@@ -119578,6 +119733,11 @@
         "code": "RD/KP07-KR028",
         "name": "Deck Mod Pack: Chaotic Omega Rising!!",
         "rarity": "Ultra Rare"
+      },
+      {
+        "code": "RD/AP03-KR061",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common, Over Rush Rare"
       }
     ],
     "database_id": "16993",
@@ -119587,7 +119747,7 @@
     "password": null,
     "is_legend": false,
     "title": "Player 39: Home Run Hitter",
-    "_wiki_ts": "2026-07-10T16:56:52Z",
+    "_wiki_ts": "2026-11-03T07:16:00Z",
     "card_schema_version": 2,
     "raw_name_en": "Player #39: Home Run Hitter"
   },
@@ -119639,6 +119799,11 @@
         "code": "RD/KP07-KR027",
         "name": "Deck Mod Pack: Chaotic Omega Rising!!",
         "rarity": "Super Rare"
+      },
+      {
+        "code": "RD/AP03-KR030",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "database_id": "16994",
@@ -119648,7 +119813,7 @@
     "password": null,
     "is_legend": false,
     "title": "Player 99: Grand Slam Dragon",
-    "_wiki_ts": "2026-10-20T16:35:45Z",
+    "_wiki_ts": "2026-11-03T07:13:58Z",
     "card_schema_version": 2,
     "raw_name_en": "Player #99: Grand Slam Dragon"
   },
@@ -119704,6 +119869,11 @@
         "code": "RD/KP08-KR016",
         "name": "Deck Mod Pack: Genesis Master Road!!",
         "rarity": "Super Rare"
+      },
+      {
+        "code": "RD/AP03-KR029",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "database_id": "17292",
@@ -119713,7 +119883,7 @@
     "password": null,
     "is_legend": false,
     "title": "Player C39: Home Run Smasher",
-    "_wiki_ts": "2026-10-20T16:27:12Z",
+    "_wiki_ts": "2026-11-03T07:13:53Z",
     "card_schema_version": 2,
     "raw_name_en": "Player #C39: Home Run Smasher"
   },
@@ -119721,6 +119891,7 @@
     "name_en": "Player #C39: Home Run Smasher V",
     "name_ja": "Ｃ背番号３９ 球児皇ホームプレートＶ",
     "name_ja_romaji": "Kyaputen Sebangō Sanjūkyū Kyūjiō Hōmupurēto Bui",
+    "name_ko": "C등번호39 구아황 홈플레이트 V",
     "name_translated": "Captain Uniform Number 39: Youth Baseball King, Home Plate V",
     "attribute": "FIRE",
     "types": "Warrior / Effect",
@@ -119749,7 +119920,13 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR028",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23456",
     "archseries": [
       "Baseball"
@@ -119757,13 +119934,14 @@
     "password": null,
     "is_legend": false,
     "title": "Player C39: Home Run Smasher V",
-    "_wiki_ts": "2026-07-10T16:42:39Z",
+    "_wiki_ts": "2026-11-03T07:13:49Z",
     "card_schema_version": 2,
     "raw_name_en": "Player #C39: Home Run Smasher V"
   },
   {
     "name_ja": "選手の生還",
     "name_ja_romaji": "Senshu no Seikan",
+    "name_ko": "선수의 생환",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -119791,7 +119969,13 @@
         "rarity": "Common, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR036",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common, Secret Rare"
+      }
+    ],
     "database_id": "23461",
     "archseries": [
       "Baseball"
@@ -119799,7 +119983,7 @@
     "password": null,
     "is_legend": false,
     "title": "The Player Returning Alive",
-    "_wiki_ts": "2026-07-10T16:51:00Z",
+    "_wiki_ts": "2026-11-03T07:14:21Z",
     "card_schema_version": 2,
     "raw_name_en": "The Player Returning Alive"
   },
@@ -119965,6 +120149,11 @@
         "code": "RD/TB02-KR069",
         "name": "Triple Build Pack: Evolution Impact",
         "rarity": "Super Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/AP03-KR019",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "database_id": "21114",
@@ -119974,13 +120163,14 @@
     "password": null,
     "is_legend": false,
     "title": "Pliage the Sacred Shooting Star",
-    "_wiki_ts": "2026-07-10T16:40:33Z",
+    "_wiki_ts": "2026-11-03T07:12:50Z",
     "card_schema_version": 2,
     "raw_name_en": "Pliage the Sacred Shooting Star"
   },
   {
     "name_ja": "星域のプリアージュ",
     "name_ja_romaji": "Seiiki no Puriāju",
+    "name_ko": "별나라의 프리아쥬",
     "attribute": "LIGHT",
     "types": "Psychic / Fusion / Effect",
     "card_type": null,
@@ -120008,7 +120198,13 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR014",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23445",
     "archseries": [
       "Pliage"
@@ -120016,7 +120212,7 @@
     "password": null,
     "is_legend": false,
     "title": "Pliage the Star Sanctuary",
-    "_wiki_ts": "2026-07-10T16:39:35Z",
+    "_wiki_ts": "2026-11-03T07:12:27Z",
     "card_schema_version": 2,
     "raw_name_en": "Pliage the Star Sanctuary"
   },
@@ -120065,6 +120261,11 @@
         "code": "RD/KP20-KR050",
         "name": "Galactica of Eternity",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/AP03-KR060",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common, Over Rush Rare"
       }
     ],
     "database_id": "21301",
@@ -120074,13 +120275,14 @@
     "password": null,
     "is_legend": false,
     "title": "Pliage the Stylish Sacred Shooting Star",
-    "_wiki_ts": "2026-07-10T16:56:27Z",
+    "_wiki_ts": "2026-11-03T07:15:56Z",
     "card_schema_version": 2,
     "raw_name_en": "Pliage the Stylish Sacred Shooting Star"
   },
   {
     "name_ja": "プリアージュの星集め",
     "name_ja_romaji": "Puriāju no Hoshiatsume",
+    "name_ko": "프리아쥬의 별모으기",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -120108,7 +120310,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR024",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23452",
     "archseries": [
       "Pliage"
@@ -120116,7 +120324,7 @@
     "password": null,
     "is_legend": false,
     "title": "Pliage's Clustering Stars",
-    "_wiki_ts": "2026-07-10T16:42:01Z",
+    "_wiki_ts": "2026-11-03T07:13:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Pliage's Clustering Stars"
   },
@@ -120508,6 +120716,11 @@
         "code": "RD/LGP2-KR077",
         "name": "Neo Legend Awakening Pack",
         "rarity": "Super Rare, Ultra Parallel Rare"
+      },
+      {
+        "code": "RD/AP03-KR059",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common, Secret Rare"
       }
     ],
     "database_id": "18702",
@@ -120515,7 +120728,7 @@
     "password": null,
     "is_legend": true,
     "title": "Polymerization",
-    "_wiki_ts": "2026-09-28T15:24:40Z",
+    "_wiki_ts": "2026-11-03T07:15:51Z",
     "card_schema_version": 2,
     "raw_name_en": "Polymerization (Rush Duel)"
   },
@@ -122537,6 +122750,11 @@
         "code": "RD/TB01-KR061",
         "name": "Triple Build Pack: Godbreath Wing",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/AP03-KR048",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "database_id": "16928",
@@ -122546,7 +122764,7 @@
     "password": null,
     "is_legend": false,
     "title": "Priestess of Wise Salvation",
-    "_wiki_ts": "2026-09-03T12:31:14Z",
+    "_wiki_ts": "2026-11-03T07:15:07Z",
     "card_schema_version": 2,
     "raw_name_en": "Priestess of Wise Salvation"
   },
@@ -123636,6 +123854,7 @@
   {
     "name_ja": "プロダクト・ユニオン",
     "name_ja_romaji": "Purodakuto Yunion",
+    "name_ko": "프로덕트 유니온",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -123663,7 +123882,13 @@
         "rarity": "Ultra Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR013",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Secret Rare"
+      }
+    ],
     "database_id": "23444",
     "archseries": [
       "XYZ"
@@ -123671,7 +123896,7 @@
     "password": null,
     "is_legend": false,
     "title": "Product Union",
-    "_wiki_ts": "2026-07-10T16:39:27Z",
+    "_wiki_ts": "2026-11-03T07:12:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Product Union"
   },
@@ -127394,7 +127619,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "RedBootLaunchBurnDragon-RDKP27-JP-OP.png"
+        "file": "RedBootLaunchBurnDragon-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -127405,14 +127630,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24098",
     "archseries": [
       "Alpha Burn"
     ],
     "password": null,
     "is_legend": false,
     "title": "Red-Boot Launch Burn Dragon",
-    "_wiki_ts": "2026-10-19T14:48:14Z",
+    "_wiki_ts": "2026-11-06T14:28:10Z",
     "card_schema_version": 2,
     "raw_name_en": "Red-Boot Launch Burn Dragon"
   },
@@ -128178,6 +128403,7 @@
   {
     "name_ja": "リリーフカー・Ｄ",
     "name_ja_romaji": "Rirīfukā Dī",
+    "name_ko": "릴리프카·D",
     "attribute": "FIRE",
     "types": "Machine / Effect",
     "card_type": null,
@@ -128205,7 +128431,13 @@
         "rarity": "Ultra Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR034",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Secret Rare"
+      }
+    ],
     "database_id": "23460",
     "archseries": [
       "Baseball"
@@ -128213,7 +128445,7 @@
     "password": null,
     "is_legend": false,
     "title": "Reliefcar D",
-    "_wiki_ts": "2026-07-10T16:50:42Z",
+    "_wiki_ts": "2026-11-03T07:14:12Z",
     "card_schema_version": 2,
     "raw_name_en": "Reliefcar D"
   },
@@ -129410,7 +129642,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "RevivalofSennenGenjin-RDKP27-JP-OP.png"
+        "file": "RevivalofSennenGenjin-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -129421,14 +129653,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24144",
     "archseries": [
       "Sengenjin"
     ],
     "password": null,
     "is_legend": false,
     "title": "Revival of Sennen Genjin",
-    "_wiki_ts": "2026-10-22T19:32:55Z",
+    "_wiki_ts": "2026-11-06T14:40:38Z",
     "card_schema_version": 2,
     "raw_name_en": "Revival of Sennen Genjin"
   },
@@ -129714,25 +129946,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "RieltheDimensionalSwornAlly-RDKP27-JP-OP.png"
+        "file": "RieltheDimensionalSwornAlly-RDKP27-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP067",
         "name": "Jointech of Passion",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24154",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Riel the Dimensional Sworn Ally",
-    "_wiki_ts": "2026-10-27T21:19:55Z",
+    "_wiki_ts": "2026-11-06T14:43:06Z",
     "card_schema_version": 2,
     "raw_name_en": "Riel the Dimensional Sworn Ally"
   },
@@ -131137,7 +131369,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "RitualofSennenGenjin-RDKP27-JP-OP.png"
+        "file": "RitualofSennenGenjin-RDKP27-JP-R.png"
       }
     ],
     "sets_jp": [
@@ -131148,14 +131380,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24143",
     "archseries": [
       "Sengenjin"
     ],
     "password": null,
     "is_legend": false,
     "title": "Ritual of Sennen Genjin",
-    "_wiki_ts": "2026-10-22T19:32:30Z",
+    "_wiki_ts": "2026-11-06T14:40:24Z",
     "card_schema_version": 2,
     "raw_name_en": "Ritual of Sennen Genjin"
   },
@@ -132484,7 +132716,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "RocktuskBeastBabirusaite-RDKP27-JP-OP.png"
+        "file": "RocktuskBeastBabirusaite-RDKP27-JP-R.png"
       }
     ],
     "sets_jp": [
@@ -132495,12 +132727,12 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24123",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "Rocktusk Beast Babirusaite",
-    "_wiki_ts": "2026-10-17T23:34:15Z",
+    "_wiki_ts": "2026-11-06T14:35:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Rocktusk Beast Babirusaite"
   },
@@ -133030,7 +133262,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheRoyalCrownofZeil-RDKP27-JP-OP.png"
+        "file": "TheRoyalCrownofZeil-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -133041,14 +133273,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24108",
     "archseries": [
       "Hollowed Grounds"
     ],
     "password": null,
     "is_legend": false,
     "title": "The Royal Crown of Zeil",
-    "_wiki_ts": "2026-10-18T17:08:15Z",
+    "_wiki_ts": "2026-11-06T14:31:02Z",
     "card_schema_version": 2,
     "raw_name_en": "The Royal Crown of Zeil"
   },
@@ -134681,7 +134913,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheRoyalSwordofZeil-RDKP27-JP-OP.png"
+        "file": "TheRoyalSwordofZeil-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -134692,14 +134924,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24109",
     "archseries": [
       "Hollowed Grounds"
     ],
     "password": null,
     "is_legend": false,
     "title": "The Royal Sword of Zeil",
-    "_wiki_ts": "2026-10-18T16:54:59Z",
+    "_wiki_ts": "2026-11-06T14:31:13Z",
     "card_schema_version": 2,
     "raw_name_en": "The Royal Sword of Zeil"
   },
@@ -135459,7 +135691,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SaintickCrusade-RDKP27-JP-OP.png"
+        "file": "SaintickCrusade-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -135470,14 +135702,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24151",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Saintick Crusade",
-    "_wiki_ts": "2026-10-27T16:46:51Z",
+    "_wiki_ts": "2026-11-06T14:42:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Saintick Crusade"
   },
@@ -135501,25 +135733,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SaintickLinker-RDKP27-JP-OP.png"
+        "file": "SaintickLinker-RDKP27-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP044",
         "name": "Jointech of Passion",
-        "rarity": "Ultra Rare, Over Rush Rare"
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24131",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Saintick Linker",
-    "_wiki_ts": "2026-10-27T15:16:56Z",
+    "_wiki_ts": "2026-11-06T14:37:55Z",
     "card_schema_version": 2,
     "raw_name_en": "Saintick Linker"
   },
@@ -135543,25 +135775,29 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SaintickLumina-RDKP27-JP-OP.png"
+        "file": "SaintickLumina-RDKP27-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "SaintickLumina-RDKP27-JP-ScR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP043",
         "name": "Jointech of Passion",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24130",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Saintick Lumina",
-    "_wiki_ts": "2026-10-27T15:02:45Z",
+    "_wiki_ts": "2026-11-06T14:37:36Z",
     "card_schema_version": 2,
     "raw_name_en": "Saintick Lumina"
   },
@@ -135585,25 +135821,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SaintickPilgrim-RDKP27-JP-OP.png"
+        "file": "SaintickPilgrim-RDKP27-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP059",
         "name": "Jointech of Passion",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24146",
     "archseries": [
       "Dimension Linker"
     ],
     "password": null,
     "is_legend": false,
     "title": "Saintick Pilgrim",
-    "_wiki_ts": "2026-10-27T16:09:44Z",
+    "_wiki_ts": "2026-11-06T14:41:08Z",
     "card_schema_version": 2,
     "raw_name_en": "Saintick Pilgrim"
   },
@@ -137739,6 +137975,7 @@
   {
     "name_ja": "サーチング・ユニオン",
     "name_ja_romaji": "Sāchingu Yunion",
+    "name_ko": "서칭 유니온",
     "attribute": null,
     "types": null,
     "card_type": "Spell",
@@ -137766,7 +138003,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR012",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23443",
     "archseries": [
       "XYZ"
@@ -137774,7 +138017,7 @@
     "password": null,
     "is_legend": false,
     "title": "Searching Union",
-    "_wiki_ts": "2026-07-10T16:39:19Z",
+    "_wiki_ts": "2026-11-03T07:12:18Z",
     "card_schema_version": 2,
     "raw_name_en": "Searching Union"
   },
@@ -138596,25 +138839,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "Sengenjin-RDKP27-JP-OP.png"
+        "file": "Sengenjin-RDKP27-JP-SR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP069",
         "name": "Jointech of Passion",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24156",
     "archseries": [
       "Sengenjin"
     ],
     "password": null,
     "is_legend": false,
     "title": "Sengenjin",
-    "_wiki_ts": "2026-10-22T19:36:29Z",
+    "_wiki_ts": "2026-11-06T14:43:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Sengenjin (Rush Duel)"
   },
@@ -140273,6 +140516,11 @@
         "code": "RD/MRP2-KR050",
         "name": "Megaroad Pack 2",
         "rarity": "Rare"
+      },
+      {
+        "code": "RD/AP03-KR049",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "database_id": "19574",
@@ -140280,7 +140528,7 @@
     "password": null,
     "is_legend": false,
     "title": "Seyanen the Blazing Conqueror",
-    "_wiki_ts": "2026-07-10T16:53:15Z",
+    "_wiki_ts": "2026-11-03T07:15:12Z",
     "card_schema_version": 2,
     "raw_name_en": "Seyanen the Blazing Conqueror"
   },
@@ -143448,7 +143696,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SinneroftheBlightblaze-RDKP27-JP-OP.png"
+        "file": "SinneroftheBlightblaze-RDKP27-JP-R.png"
       }
     ],
     "sets_jp": [
@@ -143459,14 +143707,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24111",
     "archseries": [
       "Hollowed Grounds"
     ],
     "password": null,
     "is_legend": false,
     "title": "Sinner of the Blightblaze",
-    "_wiki_ts": "2026-10-24T15:59:18Z",
+    "_wiki_ts": "2026-11-06T14:31:44Z",
     "card_schema_version": 2,
     "raw_name_en": "Sinner of the Blightblaze"
   },
@@ -145286,6 +145534,11 @@
         "code": "RD/EV07-KR011",
         "name": "Event Pack 2025 Vol.1",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/AP03-KR042",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "database_id": "18894",
@@ -145293,7 +145546,7 @@
     "password": null,
     "is_legend": false,
     "title": "Soitsu",
-    "_wiki_ts": "2026-07-31T19:12:11Z",
+    "_wiki_ts": "2026-11-03T07:14:47Z",
     "card_schema_version": 2,
     "raw_name_en": "Soitsu (Rush Duel)"
   },
@@ -145712,7 +145965,7 @@
       },
       {
         "artwork": 3,
-        "file": "SouffraestheDefiantSoul-RDLP02-JP-OP.png"
+        "file": "SouffraestheDefiantSoul-RDLP02-JP-OP-AA.png"
       }
     ],
     "sets_jp": [
@@ -145729,7 +145982,7 @@
       {
         "code": "RD/LP02-JP063",
         "name": "Limited Pack Another Style Edition",
-        "rarity": "Over Rush Rare"
+        "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -145751,7 +146004,7 @@
     "password": null,
     "is_legend": false,
     "title": "Souffraes the Defiant Soul",
-    "_wiki_ts": "2026-10-30T16:20:16Z",
+    "_wiki_ts": "2026-11-02T14:47:13Z",
     "card_schema_version": 2,
     "raw_name_en": "Souffraes the Defiant Soul"
   },
@@ -148737,6 +148990,7 @@
   {
     "name_ja": "星の精霊",
     "name_ja_romaji": "Hoshi no Seirei",
+    "name_ko": "별의 정령",
     "attribute": "DARK",
     "types": "Spellcaster / Effect",
     "card_type": null,
@@ -148764,7 +149018,13 @@
         "rarity": "Ultra Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR020",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Secret Rare"
+      }
+    ],
     "database_id": "23450",
     "archseries": [
       "Pliage"
@@ -148772,13 +149032,14 @@
     "password": null,
     "is_legend": false,
     "title": "Spirit of the Stars",
-    "_wiki_ts": "2026-07-10T16:40:44Z",
+    "_wiki_ts": "2026-11-03T07:12:54Z",
     "card_schema_version": 2,
     "raw_name_en": "Spirit of the Stars"
   },
   {
     "name_ja": "星の精霊虫",
     "name_ja_romaji": "Hoshi no Seireichū",
+    "name_ko": "별의 정령충",
     "name_translated": "Spirit Bug of the Stars",
     "attribute": "DARK",
     "types": "Insect / Effect",
@@ -148812,7 +149073,13 @@
         "rarity": "Super Parallel Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR021",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
+      }
+    ],
     "database_id": "23451",
     "archseries": [
       "Pliage"
@@ -148820,7 +149087,7 @@
     "password": null,
     "is_legend": false,
     "title": "Spirit Sprite of the Stars",
-    "_wiki_ts": "2026-09-13T15:10:04Z",
+    "_wiki_ts": "2026-11-03T07:12:58Z",
     "card_schema_version": 2,
     "raw_name_en": "Spirit Sprite of the Stars"
   },
@@ -150209,6 +150476,11 @@
         "code": "RD/LGP2-KR074",
         "name": "Neo Legend Awakening Pack",
         "rarity": "Ultra Rare, Over Rush Rare"
+      },
+      {
+        "code": "RD/AP03-KR002",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Super Rare, Full Over Rush Rare"
       }
     ],
     "database_id": "20878",
@@ -150218,7 +150490,7 @@
     "password": null,
     "is_legend": false,
     "title": "Star of Beginning",
-    "_wiki_ts": "2026-07-11T08:54:43Z",
+    "_wiki_ts": "2026-11-03T07:11:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Star of Beginning"
   },
@@ -150501,6 +150773,7 @@
   {
     "name_ja": "スター・リプリート",
     "name_ja_romaji": "Sutā Ripurīto",
+    "name_ko": "스타 리플리트",
     "attribute": "LIGHT",
     "types": "Dragon / Normal",
     "card_type": null,
@@ -150528,7 +150801,13 @@
         "rarity": "Common, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR017",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common, Secret Rare"
+      }
+    ],
     "database_id": "23448",
     "archseries": [
       "Pliage"
@@ -150536,13 +150815,14 @@
     "password": null,
     "is_legend": false,
     "title": "Star Replete",
-    "_wiki_ts": "2026-07-10T16:40:06Z",
+    "_wiki_ts": "2026-11-03T07:12:41Z",
     "card_schema_version": 2,
     "raw_name_en": "Star Replete"
   },
   {
     "name_ja": "星域のスター・リプリート",
     "name_ja_romaji": "Seiiki no Sutā Ripurīto",
+    "name_ko": "별나라의 스타 리플리트",
     "attribute": "LIGHT",
     "types": "Dragon / Fusion / Effect",
     "card_type": null,
@@ -150570,7 +150850,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR015",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23446",
     "archseries": [
       "Pliage"
@@ -150578,7 +150864,7 @@
     "password": null,
     "is_legend": false,
     "title": "Star Replete of the Star Sanctuary",
-    "_wiki_ts": "2026-07-10T16:39:48Z",
+    "_wiki_ts": "2026-11-03T07:12:31Z",
     "card_schema_version": 2,
     "raw_name_en": "Star Replete of the Star Sanctuary"
   },
@@ -150652,6 +150938,11 @@
         "code": "RD/TB02-KR073",
         "name": "Triple Build Pack: Evolution Impact",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/AP03-KR022",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "database_id": "16929",
@@ -150661,13 +150952,14 @@
     "password": null,
     "is_legend": false,
     "title": "Star Restart",
-    "_wiki_ts": "2026-10-20T16:36:20Z",
+    "_wiki_ts": "2026-11-03T07:13:03Z",
     "card_schema_version": 2,
     "raw_name_en": "Star Restart"
   },
   {
     "name_ja": "はじまりの星域",
     "name_ja_romaji": "Hajimari no Seiiki",
+    "name_ko": "시작의 별나라",
     "attribute": null,
     "types": null,
     "card_type": "Trap",
@@ -150695,7 +150987,13 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR027",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23455",
     "archseries": [
       "Pliage"
@@ -150703,7 +151001,7 @@
     "password": null,
     "is_legend": false,
     "title": "Star Sanctuary of the Beginning",
-    "_wiki_ts": "2026-07-10T16:42:28Z",
+    "_wiki_ts": "2026-11-03T07:13:45Z",
     "card_schema_version": 2,
     "raw_name_en": "Star Sanctuary of the Beginning"
   },
@@ -151688,7 +151986,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "StoneStatuesoftheMortarCannons-RDKP27-JP-OP.png"
+        "file": "StoneStatuesoftheMortarCannons-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -151699,14 +151997,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24113",
     "archseries": [
       "Sengenjin"
     ],
     "password": null,
     "is_legend": false,
     "title": "Stone Statues of the Mortar Cannons",
-    "_wiki_ts": "2026-10-22T17:18:04Z",
+    "_wiki_ts": "2026-11-06T14:32:19Z",
     "card_schema_version": 2,
     "raw_name_en": "Stone Statues of the Mortar Cannons"
   },
@@ -153151,7 +153449,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "StrongArmedHitotsuMeGiant-RDKP27-JP-OP.png"
+        "file": "StrongArmedHitotsuMeGiant-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -153162,14 +153460,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24114",
     "archseries": [
       "Sengenjin"
     ],
     "password": null,
     "is_legend": false,
     "title": "Strong-Armed Hitotsu-Me Giant",
-    "_wiki_ts": "2026-10-22T17:20:48Z",
+    "_wiki_ts": "2026-11-06T14:32:32Z",
     "card_schema_version": 2,
     "raw_name_en": "Strong-Armed Hitotsu-Me Giant"
   },
@@ -156582,7 +156880,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "SystemMaintenance-RDKP27-JP-OP.png"
+        "file": "SystemMaintenance-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -156593,14 +156891,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24138",
     "archseries": [
       "Alpha Burn"
     ],
     "password": null,
     "is_legend": false,
     "title": "System Maintenance",
-    "_wiki_ts": "2026-10-19T15:27:59Z",
+    "_wiki_ts": "2026-11-06T14:39:26Z",
     "card_schema_version": 2,
     "raw_name_en": "System Maintenance"
   },
@@ -159311,7 +159609,7 @@
     "password": null,
     "is_legend": false,
     "title": "Tide-Ride Bluefin",
-    "_wiki_ts": "2025-10-22T18:09:31Z",
+    "_wiki_ts": "2026-11-01T13:41:03Z",
     "card_schema_version": 2,
     "raw_name_en": "Tide-Ride Bluefin"
   },
@@ -159746,6 +160044,11 @@
         "code": "RD/LGP2-KR078",
         "name": "Neo Legend Awakening Pack",
         "rarity": "Common, Ultra Parallel Rare"
+      },
+      {
+        "code": "RD/AP03-KR055",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "database_id": "17928",
@@ -159753,7 +160056,7 @@
     "password": null,
     "is_legend": true,
     "title": "Torrential Tribute",
-    "_wiki_ts": "2026-07-10T16:55:35Z",
+    "_wiki_ts": "2026-11-03T07:15:42Z",
     "card_schema_version": 2,
     "raw_name_en": "Torrential Tribute (Rush Duel)"
   },
@@ -159945,6 +160248,11 @@
         "code": "RD/SD0F-KR027",
         "name": "Structure Deck: Triumphant Return of the Monarchs",
         "rarity": "Common"
+      },
+      {
+        "code": "RD/AP03-KR062",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common, Over Rush Rare"
       }
     ],
     "database_id": "17721",
@@ -159952,7 +160260,7 @@
     "password": null,
     "is_legend": false,
     "title": "Trade-In",
-    "_wiki_ts": "2026-07-10T16:57:26Z",
+    "_wiki_ts": "2026-11-03T07:16:06Z",
     "card_schema_version": 2,
     "raw_name_en": "Trade-In (Rush Duel)"
   },
@@ -161324,7 +161632,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TransferMaintenance-RDKP27-JP-OP.png"
+        "file": "TransferMaintenance-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -161335,14 +161643,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24137",
     "archseries": [
       "Alpha Burn"
     ],
     "password": null,
     "is_legend": false,
     "title": "Transfer Maintenance",
-    "_wiki_ts": "2026-10-19T15:16:46Z",
+    "_wiki_ts": "2026-11-06T14:39:03Z",
     "card_schema_version": 2,
     "raw_name_en": "Transfer Maintenance"
   },
@@ -164092,23 +164400,23 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheTwoApprenticeWitches-RDKP27-JP-OP.png"
+        "file": "TheTwoApprenticeWitches-RDKP27-JP-SR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP068",
         "name": "Jointech of Passion",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24155",
     "archseries": [],
     "password": null,
     "is_legend": false,
     "title": "The Two Apprentice Witches",
-    "_wiki_ts": "2026-10-26T15:11:04Z",
+    "_wiki_ts": "2026-11-06T14:43:17Z",
     "card_schema_version": 2,
     "raw_name_en": "The Two Apprentice Witches"
   },
@@ -165749,6 +166057,7 @@
   {
     "name_ja": "ユニオン・サポーター",
     "name_ja_romaji": "Yunion Sapōtā",
+    "name_ko": "유니온 서포터",
     "attribute": "LIGHT",
     "types": "Machine / Effect",
     "card_type": null,
@@ -165776,7 +166085,13 @@
         "rarity": "Ultra Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR011",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Secret Rare"
+      }
+    ],
     "database_id": "23442",
     "archseries": [
       "XYZ"
@@ -165784,7 +166099,7 @@
     "password": null,
     "is_legend": false,
     "title": "Union Supporter",
-    "_wiki_ts": "2026-07-10T16:39:07Z",
+    "_wiki_ts": "2026-11-03T07:12:14Z",
     "card_schema_version": 2,
     "raw_name_en": "Union Supporter"
   },
@@ -166140,25 +166455,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "TheUnstoppableSengenjin-RDKP27-JP-OP.png"
+        "file": "TheUnstoppableSengenjin-RDKP27-JP-UR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP047",
         "name": "Jointech of Passion",
-        "rarity": "Ultra Rare, Over Rush Rare"
+        "rarity": "Ultra Rare, Secret Rare, Over Rush Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24134",
     "archseries": [
       "Sengenjin"
     ],
     "password": null,
     "is_legend": false,
     "title": "The Unstoppable Sengenjin",
-    "_wiki_ts": "2026-10-22T19:31:34Z",
+    "_wiki_ts": "2026-11-06T14:38:32Z",
     "card_schema_version": 2,
     "raw_name_en": "The Unstoppable Sengenjin"
   },
@@ -166182,7 +166497,7 @@
     "images": [
       {
         "artwork": 1,
-        "file": "UpdateMaintenance-RDKP27-JP-OP.png"
+        "file": "UpdateMaintenance-RDKP27-JP-C.png"
       }
     ],
     "sets_jp": [
@@ -166193,14 +166508,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24136",
     "archseries": [
       "Alpha Burn"
     ],
     "password": null,
     "is_legend": false,
     "title": "Update Maintenance",
-    "_wiki_ts": "2026-10-19T15:11:03Z",
+    "_wiki_ts": "2026-11-06T14:38:51Z",
     "card_schema_version": 2,
     "raw_name_en": "Update Maintenance"
   },
@@ -166447,6 +166762,10 @@
       {
         "artwork": 1,
         "file": "UranulycoristhePlanetairy-RDORP3-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "UranulycoristhePlanetairy-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -166454,6 +166773,11 @@
         "code": "RD/ORP3-JP047",
         "name": "Over Rush Pack 3",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP009",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -166470,7 +166794,7 @@
     "password": null,
     "is_legend": false,
     "title": "Uranulycoris the Planetairy",
-    "_wiki_ts": "2026-04-21T22:13:00Z",
+    "_wiki_ts": "2026-11-02T15:01:47Z",
     "card_schema_version": 2,
     "raw_name_en": "Uranulycoris the Planetairy"
   },
@@ -171285,6 +171609,11 @@
         "code": "RD/EXT1-KR048",
         "name": "Extra Transcend Enhancement Pack",
         "rarity": "Secret Rare"
+      },
+      {
+        "code": "RD/AP03-KR035",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Common"
       }
     ],
     "database_id": "16932",
@@ -171292,7 +171621,7 @@
     "password": null,
     "is_legend": true,
     "title": "The Warrior Returning Alive",
-    "_wiki_ts": "2026-07-10T16:50:52Z",
+    "_wiki_ts": "2026-11-03T07:14:16Z",
     "card_schema_version": 2,
     "raw_name_en": "The Warrior Returning Alive (Rush Duel)"
   },
@@ -171877,25 +172206,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "WhatLittletheBlightblazeLeavesBehind-RDKP27-JP-OP.png"
+        "file": "WhatLittletheBlightblazeLeavesBehind-RDKP27-JP-R.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP046",
         "name": "Jointech of Passion",
-        "rarity": "Rare"
+        "rarity": "Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24133",
     "archseries": [
       "Hollowed Grounds"
     ],
     "password": null,
     "is_legend": false,
     "title": "What Little the Blightblaze Leaves Behind",
-    "_wiki_ts": "2026-10-18T16:19:36Z",
+    "_wiki_ts": "2026-11-06T14:38:17Z",
     "card_schema_version": 2,
     "raw_name_en": "What Little the Blightblaze Leaves Behind"
   },
@@ -174713,7 +175042,11 @@
     "images": [
       {
         "artwork": 1,
-        "file": "WorshiperoftheBlightblaze-RDKP27-JP-OP.png"
+        "file": "WorshiperoftheBlightblaze-RDKP27-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "WorshiperoftheBlightblaze-RDKP27-JP-ScR.png"
       }
     ],
     "sets_jp": [
@@ -174724,14 +175057,14 @@
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24107",
     "archseries": [
       "Hollowed Grounds"
     ],
     "password": null,
     "is_legend": false,
     "title": "Worshiper of the Blightblaze",
-    "_wiki_ts": "2026-10-24T15:50:36Z",
+    "_wiki_ts": "2026-11-06T14:30:18Z",
     "card_schema_version": 2,
     "raw_name_en": "Worshiper of the Blightblaze"
   },
@@ -175274,6 +175607,7 @@
   {
     "name_ja": "Ｘ－ヘッド・キャノン",
     "name_ja_romaji": "Ekkusu - Heddo Kyanon",
+    "name_ko": "X－헤드 캐논",
     "attribute": "LIGHT",
     "types": "Machine / Normal",
     "card_type": null,
@@ -175301,7 +175635,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR056",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23469",
     "archseries": [
       "XYZ"
@@ -175309,13 +175649,14 @@
     "password": null,
     "is_legend": false,
     "title": "X-Head Cannon",
-    "_wiki_ts": "2026-07-10T16:55:43Z",
+    "_wiki_ts": "2026-11-03T07:15:46Z",
     "card_schema_version": 2,
     "raw_name_en": "X-Head Cannon (Rush Duel)"
   },
   {
     "name_ja": "Ｘ－トライアル・キャノン",
     "name_ja_romaji": "Ekkusu - Toraiaru Kyanon",
+    "name_ko": "X－트라이얼 캐논",
     "attribute": "LIGHT",
     "types": "Machine / Effect",
     "card_type": null,
@@ -175343,7 +175684,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR008",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23439",
     "archseries": [
       "XYZ"
@@ -175351,13 +175698,14 @@
     "password": null,
     "is_legend": false,
     "title": "X-Trial Cannon",
-    "_wiki_ts": "2026-07-10T16:38:05Z",
+    "_wiki_ts": "2026-11-03T07:12:00Z",
     "card_schema_version": 2,
     "raw_name_en": "X-Trial Cannon"
   },
   {
     "name_ja": "ＸＹ－ドラゴン・キャノン",
     "name_ja_romaji": "Ekkusu Wai - Doragon Kyanon",
+    "name_ko": "XY－드래곤 캐논",
     "attribute": "LIGHT",
     "types": "Machine / Fusion / Effect",
     "card_type": null,
@@ -175385,7 +175733,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR005",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23436",
     "archseries": [
       "XYZ"
@@ -175393,13 +175747,14 @@
     "password": null,
     "is_legend": false,
     "title": "XY-Dragon Cannon",
-    "_wiki_ts": "2026-09-11T16:20:36Z",
+    "_wiki_ts": "2026-11-03T07:11:47Z",
     "card_schema_version": 2,
     "raw_name_en": "XY-Dragon Cannon (Rush Duel)"
   },
   {
     "name_ja": "ＸＹＺ－ドラゴン・キャノン",
     "name_ja_romaji": "Ekkusu Wai Zetto - Doragon Kyanon",
+    "name_ko": "XYZ－드래곤 캐논",
     "attribute": "LIGHT",
     "types": "Machine / Fusion / Effect",
     "card_type": null,
@@ -175427,7 +175782,13 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR003",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23434",
     "archseries": [
       "XYZ"
@@ -175435,13 +175796,14 @@
     "password": null,
     "is_legend": false,
     "title": "XYZ-Dragon Cannon",
-    "_wiki_ts": "2026-09-11T16:20:48Z",
+    "_wiki_ts": "2026-11-03T07:11:37Z",
     "card_schema_version": 2,
     "raw_name_en": "XYZ-Dragon Cannon (Rush Duel)"
   },
   {
     "name_ja": "ＸＺ－キャタピラー・キャノン",
     "name_ja_romaji": "Ekkusu Zetto - Kyatapirā Kyanon",
+    "name_ko": "XZ－캐터필러 캐논",
     "attribute": "LIGHT",
     "types": "Machine / Fusion / Effect",
     "card_type": null,
@@ -175469,7 +175831,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR006",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23437",
     "archseries": [
       "XYZ"
@@ -175477,7 +175845,7 @@
     "password": null,
     "is_legend": false,
     "title": "XZ-Tank Cannon",
-    "_wiki_ts": "2026-09-11T16:20:58Z",
+    "_wiki_ts": "2026-11-03T07:11:51Z",
     "card_schema_version": 2,
     "raw_name_en": "XZ-Tank Cannon (Rush Duel)"
   },
@@ -175526,6 +175894,7 @@
   {
     "name_ja": "Ｙ－トライアル・ドラゴン",
     "name_ja_romaji": "Wai - Toraiaru Doragon",
+    "name_ko": "Y－트라이얼 드래곤",
     "attribute": "LIGHT",
     "types": "Machine / Effect",
     "card_type": null,
@@ -175553,7 +175922,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR009",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23440",
     "archseries": [
       "XYZ"
@@ -175561,7 +175936,7 @@
     "password": null,
     "is_legend": false,
     "title": "Y-Trial Dragon",
-    "_wiki_ts": "2026-07-10T16:38:14Z",
+    "_wiki_ts": "2026-11-03T07:12:05Z",
     "card_schema_version": 2,
     "raw_name_en": "Y-Trial Dragon"
   },
@@ -176204,6 +176579,10 @@
       {
         "artwork": 1,
         "file": "YewearththePlanetairy-RDORP3-JP-SR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "YewearththePlanetairy-RDLP02-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -176211,6 +176590,11 @@
         "code": "RD/ORP3-JP051",
         "name": "Over Rush Pack 3",
         "rarity": "Super Rare, Secret Rare"
+      },
+      {
+        "code": "RD/LP02-JP005",
+        "name": "Limited Pack Another Style Edition",
+        "rarity": "Ultra Rare"
       }
     ],
     "sets_kr": [
@@ -176227,7 +176611,7 @@
     "password": null,
     "is_legend": false,
     "title": "Yewearth the Planetairy",
-    "_wiki_ts": "2026-01-20T11:50:47Z",
+    "_wiki_ts": "2026-11-02T14:57:56Z",
     "card_schema_version": 2,
     "raw_name_en": "Yewearth the Planetairy"
   },
@@ -176963,6 +177347,7 @@
   {
     "name_ja": "ＹＸＺ－キャノン・ドラゴン",
     "name_ja_romaji": "Wai Ekkusu Zetto - Kyanon Doragon",
+    "name_ko": "YXZ－캐논 드래곤",
     "attribute": "LIGHT",
     "types": "Machine / Fusion / Effect",
     "card_type": null,
@@ -176990,7 +177375,13 @@
         "rarity": "Ultra Rare, Over Rush Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR004",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
     "database_id": "23435",
     "archseries": [
       "XYZ"
@@ -176998,13 +177389,14 @@
     "password": null,
     "is_legend": false,
     "title": "YXZ-Cannon Dragon",
-    "_wiki_ts": "2026-09-11T16:21:10Z",
+    "_wiki_ts": "2026-11-03T07:11:42Z",
     "card_schema_version": 2,
     "raw_name_en": "YXZ-Cannon Dragon"
   },
   {
     "name_ja": "ＹＺ－キャタピラー・ドラゴン",
     "name_ja_romaji": "Wai Zetto - Kyatapirā Doragon",
+    "name_ko": "YZ－캐터필러 드래곤",
     "attribute": "LIGHT",
     "types": "Machine / Fusion / Effect",
     "card_type": null,
@@ -177032,7 +177424,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR007",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23438",
     "archseries": [
       "XYZ"
@@ -177040,7 +177438,7 @@
     "password": null,
     "is_legend": false,
     "title": "YZ-Tank Dragon",
-    "_wiki_ts": "2026-09-11T16:21:24Z",
+    "_wiki_ts": "2026-11-03T07:11:56Z",
     "card_schema_version": 2,
     "raw_name_en": "YZ-Tank Dragon (Rush Duel)"
   },
@@ -177089,6 +177487,7 @@
   {
     "name_ja": "Ｚ－トライアル・キャタピラー",
     "name_ja_romaji": "Zetto - Toraiaru Kyatapirā",
+    "name_ko": "Z－트라이얼 캐터필러",
     "name_translated": "Z-Trial Caterpillar",
     "attribute": "LIGHT",
     "types": "Machine / Effect",
@@ -177117,7 +177516,13 @@
         "rarity": "Super Rare, Secret Rare"
       }
     ],
-    "sets_kr": [],
+    "sets_kr": [
+      {
+        "code": "RD/AP03-KR010",
+        "name": "Advance Pack: Union Base",
+        "rarity": "Super Rare, Secret Rare"
+      }
+    ],
     "database_id": "23441",
     "archseries": [
       "XYZ"
@@ -177125,7 +177530,7 @@
     "password": null,
     "is_legend": false,
     "title": "Z-Trial Tank",
-    "_wiki_ts": "2026-07-10T16:38:27Z",
+    "_wiki_ts": "2026-11-03T07:12:09Z",
     "card_schema_version": 2,
     "raw_name_en": "Z-Trial Tank"
   },
@@ -177246,25 +177651,25 @@
     "images": [
       {
         "artwork": 1,
-        "file": "ZeiltheKingoftheHollowedGrounds-RDKP27-JP-OP.png"
+        "file": "ZeiltheKingoftheHollowedGrounds-RDKP27-JP-SR.png"
       }
     ],
     "sets_jp": [
       {
         "code": "RD/KP27-JP041",
         "name": "Jointech of Passion",
-        "rarity": "Super Rare"
+        "rarity": "Super Rare, Secret Rare"
       }
     ],
     "sets_kr": [],
-    "database_id": null,
+    "database_id": "24128",
     "archseries": [
       "Hollowed Grounds"
     ],
     "password": null,
     "is_legend": false,
     "title": "Zeil the King of the Hollowed Grounds",
-    "_wiki_ts": "2026-10-18T16:06:28Z",
+    "_wiki_ts": "2026-11-06T14:37:08Z",
     "card_schema_version": 2,
     "raw_name_en": "Zeil the King of the Hollowed Grounds"
   },
@@ -177895,5 +178300,45 @@
     "_wiki_ts": "2026-05-02T16:42:43Z",
     "card_schema_version": 2,
     "raw_name_en": "Zuse the Wisdom Vassal"
+  },
+  {
+    "name_ja": "エネミーコントローラー",
+    "name_ja_romaji": "Enemī Kontorōrā",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Normal",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": null,
+    "effect": null,
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "EnemyController-RDSJMP-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/SJMP-JP070",
+        "name": "Saikyō Jump January 2027 promotional card",
+        "rarity": "Normal Parallel Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [],
+    "password": null,
+    "is_legend": false,
+    "title": "Enemy Controller",
+    "_wiki_ts": "2026-11-03T15:03:49Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Enemy Controller (Rush Duel)"
   }
 ]
