@@ -5996,5 +5996,33 @@
     "coverImage": "SJMP-2027-1-Cover.png",
     "cardsPerPack": null,
     "declaredSize": null
+  },
+  "Revolution Pack: Searching for the Soul": {
+    "releaseDateJP": "March 20, 2027",
+    "packsPerBox": 15,
+    "coverImage": null,
+    "cardsPerPack": 5,
+    "declaredSize": null
+  },
+  "Over Rush Challenge Cup November 2026 prize card": {
+    "releaseDateJP": "November 14, 2026",
+    "packsPerBox": null,
+    "coverImage": "RDP015-PromoJP.png",
+    "cardsPerPack": null,
+    "declaredSize": null
+  },
+  "Over Rush Challenge Cup February 2026 prize card": {
+    "releaseDateJP": "February 1, 2026",
+    "packsPerBox": null,
+    "coverImage": "RDDL01-PromoJP.png",
+    "cardsPerPack": null,
+    "declaredSize": null
+  },
+  "Over Rush Challenge Cup April 2026 prize card": {
+    "releaseDateJP": "April 4, 2026",
+    "packsPerBox": null,
+    "coverImage": "RDP013-PromoJP.png",
+    "cardsPerPack": null,
+    "declaredSize": null
   }
 }
