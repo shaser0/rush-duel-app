@@ -23328,7 +23328,7 @@
       },
       {
         "artwork": 2,
-        "file": "CeremonialKnight-RDS261-JP-OP.png"
+        "file": "CeremonialKnight-RDS261-JP-UPR.png"
       }
     ],
     "sets_jp": [
@@ -23367,7 +23367,7 @@
     "password": null,
     "is_legend": false,
     "title": "Ceremonial Knight",
-    "_wiki_ts": "2026-09-28T02:22:02Z",
+    "_wiki_ts": "2026-11-17T08:58:09Z",
     "card_schema_version": 2,
     "raw_name_en": "Ceremonial Knight"
   },
@@ -52998,6 +52998,10 @@
       {
         "artwork": 1,
         "file": "ElementalHEROPrisma-RD5THS-JP-SPR.png"
+      },
+      {
+        "artwork": 2,
+        "file": "ElementalHEROPrisma-RDKP28-JP-OP.png"
       }
     ],
     "sets_jp": [
@@ -53010,6 +53014,11 @@
         "code": "RD/5THS-JPB08",
         "name": "5th Special Pack Vol.2",
         "rarity": "Super Parallel Rare"
+      },
+      {
+        "code": "RD/KP28-JP001",
+        "name": "Shaman Bandit of the Ensemble",
+        "rarity": "Full Over Rush Rare"
       }
     ],
     "sets_kr": [
@@ -53026,7 +53035,7 @@
     "password": null,
     "is_legend": true,
     "title": "Elemental HERO Prisma",
-    "_wiki_ts": "2026-06-14T19:03:04Z",
+    "_wiki_ts": "2026-11-22T12:51:50Z",
     "card_schema_version": 2,
     "raw_name_en": "Elemental HERO Prisma (Rush Duel)"
   },
@@ -54755,9 +54764,9 @@
     "maximum_atk": null,
     "materials": null,
     "condition": null,
-    "effect_types": null,
-    "requirement": null,
-    "effect": null,
+    "effect_types": "Multi-Choice",
+    "requirement": "During a turn you have not activated \"Enemy Controller\".",
+    "effect": "●Change the battle position of 1 face-up monster on your opponent's field. ●Send 1 monster from your field to the Graveyard. Then, take control of 1 face-up monster on your opponent's field that is not in Maximum Mode until the End Phase. This turn, that monster cannot attack.",
     "flavor_text": null,
     "images": [
       {
@@ -54778,7 +54787,7 @@
     "password": null,
     "is_legend": false,
     "title": "Enemy Controller",
-    "_wiki_ts": "2026-11-03T15:03:49Z",
+    "_wiki_ts": "2026-11-16T17:29:22Z",
     "card_schema_version": 2,
     "raw_name_en": "Enemy Controller (Rush Duel)"
   },
@@ -56968,7 +56977,7 @@
       },
       {
         "artwork": 2,
-        "file": "EvilDragonofDarkness-RDS261-JP-OP.png"
+        "file": "EvilDragonofDarkness-RDS261-JP-UPR.png"
       }
     ],
     "sets_jp": [
@@ -56995,7 +57004,7 @@
     "password": null,
     "is_legend": false,
     "title": "Evil Dragon of Darkness",
-    "_wiki_ts": "2026-05-11T12:19:19Z",
+    "_wiki_ts": "2026-11-17T08:56:39Z",
     "card_schema_version": 2,
     "raw_name_en": "Evil Dragon of Darkness"
   },
@@ -71487,7 +71496,7 @@
       },
       {
         "artwork": 2,
-        "file": "Gradius-RDLP01-JP-OP.png"
+        "file": "Gradius-RDLP01-JP-ScR.png"
       }
     ],
     "sets_jp": [
@@ -71521,7 +71530,7 @@
     "password": null,
     "is_legend": false,
     "title": "Gradius",
-    "_wiki_ts": "2026-10-15T23:26:27Z",
+    "_wiki_ts": "2026-11-18T11:47:01Z",
     "card_schema_version": 2,
     "raw_name_en": "Gradius (Rush Duel)"
   },
@@ -73597,7 +73606,7 @@
       },
       {
         "artwork": 3,
-        "file": "GundeoftheMonumenthes-RDS261-JP-OP.png"
+        "file": "GundeoftheMonumenthes-RDS261-JP-UPR.png"
       }
     ],
     "sets_jp": [
@@ -73646,7 +73655,7 @@
     "password": null,
     "is_legend": false,
     "title": "Gunde of the Monumenthes",
-    "_wiki_ts": "2026-10-10T15:09:13Z",
+    "_wiki_ts": "2026-11-17T08:55:58Z",
     "card_schema_version": 2,
     "raw_name_en": "Gunde of the Monumenthes"
   },
@@ -79430,7 +79439,7 @@
       },
       {
         "artwork": 2,
-        "file": "HungreedBurger-RDS254-JP-OP.png"
+        "file": "HungreedBurger-RDS254-JP-UPR.png"
       }
     ],
     "sets_jp": [
@@ -79459,7 +79468,7 @@
     "password": null,
     "is_legend": false,
     "title": "Hungreed Burger",
-    "_wiki_ts": "2025-12-30T23:29:51Z",
+    "_wiki_ts": "2026-11-17T09:06:34Z",
     "card_schema_version": 2,
     "raw_name_en": "Hungreed Burger"
   },
@@ -128810,7 +128819,7 @@
       },
       {
         "artwork": 2,
-        "file": "ReporterRaccoon-RDS261-JP-OP.png"
+        "file": "ReporterRaccoon-RDS261-JP-UPR.png"
       }
     ],
     "sets_jp": [
@@ -128839,7 +128848,7 @@
     "password": null,
     "is_legend": false,
     "title": "Reporter Raccoon",
-    "_wiki_ts": "2026-04-10T19:30:52Z",
+    "_wiki_ts": "2026-11-17T08:57:28Z",
     "card_schema_version": 2,
     "raw_name_en": "Reporter Raccoon"
   },
@@ -164056,7 +164065,7 @@
     "condition": null,
     "effect_types": null,
     "requirement": "When your opponent conducts a normal draw during the Draw Phase.",
-    "effect": "Return 1 face-up Level 8 or lower monster from your opponent's field to the owner's hand.",
+    "effect": "Return 1 face-up Level 8 or lower monster on your opponent's field to the owner's hand.",
     "flavor_text": null,
     "images": [
       {
@@ -164093,7 +164102,7 @@
     "password": null,
     "is_legend": false,
     "title": "Turnback Shot",
-    "_wiki_ts": "2026-10-29T11:12:59Z",
+    "_wiki_ts": "2026-11-16T10:17:48Z",
     "card_schema_version": 2,
     "raw_name_en": "Turnback Shot"
   },
@@ -178528,5 +178537,173 @@
     "_wiki_ts": "2026-05-02T16:42:43Z",
     "card_schema_version": 2,
     "raw_name_en": "Zuse the Wisdom Vassal"
+  },
+  {
+    "name_ja": "心の灯り",
+    "name_ja_romaji": "Ebā Pātonā",
+    "attribute": null,
+    "types": null,
+    "card_type": "Spell",
+    "property": "Ritual",
+    "level": null,
+    "atk": null,
+    "def": null,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "You have a card in your Field Zone or a Field Spell Card in your Graveyard.",
+    "effect": "Ritual Summon an EARTH Attribute Galaxy Type monster by shuffling monsters from your opponent's Graveyard into the Deck as material whose total Levels equal or exceed the Level of the monster you Ritual Summon (you cannot use more monsters than necessary as material). This turn, you can only attack with EARTH Attribute Galaxy Type monsters.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "EverPartner-OW.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP28-JP0??",
+        "name": "Shaman Bandit of the Ensemble",
+        "rarity": ""
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Moonforce"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Ever Partner",
+    "_wiki_ts": "2026-11-20T14:02:13Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Ever Partner"
+  },
+  {
+    "name_ja": "ヴァンパイアジェネシス",
+    "name_ja_romaji": "Vanpaia Jeneshisu",
+    "attribute": "DARK",
+    "types": "Zombie / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 8,
+    "atk": 3000,
+    "def": 2100,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": "You can Special Summon this card from your hand face-up to your field by sending 1 face-up \"Vampire Lord\" from your field to the Graveyard.",
+    "effect_types": null,
+    "requirement": "You have a card in your hand.",
+    "effect": "Special Summon 1 Zombie Type monster from your Graveyard face-up to your field. Then, send 1 card from your hand to the Graveyard. This turn, you cannot activate the effect of \"Vampire Genesis\".",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "VampireGenesis-RDKP28-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP28-JP021",
+        "name": "Shaman Bandit of the Ensemble",
+        "rarity": "Common"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Vampire"
+    ],
+    "password": null,
+    "is_legend": true,
+    "title": "Vampire Genesis",
+    "_wiki_ts": "2026-11-22T12:41:17Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Vampire Genesis (Rush Duel)"
+  },
+  {
+    "name_ja": "ヴァンパイア・レディ",
+    "name_ja_romaji": "Vanpaia Redi",
+    "attribute": "DARK",
+    "types": "Zombie / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 4,
+    "atk": 1600,
+    "def": 1600,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Send the top card of either player's Deck to the Graveyard. Then, you can place that card on top of the owner's Deck.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "VampireLady-RDKP28-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP28-JP067",
+        "name": "Shaman Bandit of the Ensemble",
+        "rarity": "Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Vampire"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Vampire Lady",
+    "_wiki_ts": "2026-11-22T12:33:35Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Vampire Lady (Rush Duel)"
+  },
+  {
+    "name_ja": "ヴァンパイア・ロード",
+    "name_ja_romaji": "Vanpaia Rōdo",
+    "attribute": "DARK",
+    "types": "Zombie / Effect",
+    "card_type": null,
+    "property": null,
+    "level": 5,
+    "atk": 2000,
+    "def": 1500,
+    "maximum_atk": null,
+    "materials": null,
+    "condition": null,
+    "effect_types": null,
+    "requirement": "None",
+    "effect": "Send the top card of either player's Deck to the Graveyard. Then, you can place that card on top of the owner's Deck. This turn, you cannot activate the effect of \"Vampire Lord\". At the end of the Draw Phase of your next turn, you can Special Summon 1 \"Vampire Lord\" from your Graveyard face-up to your field.",
+    "flavor_text": null,
+    "images": [
+      {
+        "artwork": 1,
+        "file": "VampireLord-RDKP28-JP-OP.png"
+      }
+    ],
+    "sets_jp": [
+      {
+        "code": "RD/KP28-JP019",
+        "name": "Shaman Bandit of the Ensemble",
+        "rarity": "Ultra Rare, Over Rush Rare"
+      }
+    ],
+    "sets_kr": [],
+    "database_id": null,
+    "archseries": [
+      "Vampire"
+    ],
+    "password": null,
+    "is_legend": false,
+    "title": "Vampire Lord",
+    "_wiki_ts": "2026-11-22T12:34:34Z",
+    "card_schema_version": 2,
+    "raw_name_en": "Vampire Lord (Rush Duel)"
   }
 ]
